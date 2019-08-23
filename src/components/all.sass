@@ -71,7 +71,14 @@ $black: #2b2523
 .margin-top-0
   margin-top: 0 !important
 
+.right 
+  position: absolute
+  right: 0 !important
+  padding-top: 12px
+
 .navbar-item .icon
+  position: absolute
+  right: 0 !important
   color: $primary
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
@@ -80,6 +87,8 @@ $black: #2b2523
   fill: currentColor
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
+  position: absolute
+  right: 0 !important
 
 
 //Menu overrides
@@ -98,17 +107,6 @@ $menu-label-color: $white-ter
 .menu-list
   list-style: none !important
   text-align: left
-.social
-  padding: 2em
-.social a
-    padding: .5em .5em .3em .5em
-    border-radius: 1em
-    background-color: $white-ter
-    margin: .5em
-    width: 1em
-    height: 1em
-    vertical-align: middle
-    display: inline
 
 // blog roll
 .blog-list-item.is-featured
