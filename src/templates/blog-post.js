@@ -67,8 +67,16 @@ const BlogPost = ({ data }) => {
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
+              name="date"
+              content={`${post.frontmatter.date}`}
+            />
+            <meta
               name="description"
               content={`${post.frontmatter.description}`}
+            />
+            <meta 
+              name="location"
+              content={`${post.frontmatter.location}`}
             />
           </Helmet>
         }
@@ -96,6 +104,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        location
         tags
       }
     }
