@@ -10,7 +10,9 @@ export const BlogPostTemplate = ({
   content,
   contentComponent,
   description,
+  location,
   tags,
+  date,
   title,
   helmet,
 }) => {
@@ -25,8 +27,16 @@ export const BlogPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
+            <h2>{date}</h2>
             <p>{description}</p>
+            <p>{location}</p>
+            {console.log('location:', location)}
+            {console.log('description:', description)}
+
             <PostContent content={content} />
+            
+            
+            {/* Tag spot */}
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
@@ -63,6 +73,8 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        location = {post.frontmatter.location}
+        date = {post.frontmatter.date}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
