@@ -30,8 +30,6 @@ export const BlogPostTemplate = ({
             <h2>{date}</h2>
             <p>{description}</p>
             <p>{location}</p>
-            {console.log('location:', location)}
-            {console.log('description:', description)}
 
             <PostContent content={content} />
             
