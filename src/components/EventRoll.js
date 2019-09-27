@@ -2,44 +2,89 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import './eventRoll.css'
+import Img from 'gatsby-image'
+
 
 class EventRoll extends React.Component {
+
+  state = {
+    activeEvent: {},
+    showEventDetail: false,
+    id: null
+  }
+
+  openEvent = (event) => {
+    let id = event.id
+    console.log(this.state.showEventDetail)
+    {event &&
+    window.history.pushState(
+      {page: 1},
+      event.frontmatter.title,
+      `?event=${event.frontmatter.title}`
+    );}
+    // event.target
+    if (event !== !!this.state.activeEvent) {
+      console.log('event:', event.id)
+      console.log('id:', id)
+      this.setState(
+        {
+          activeEvent: event,
+          showEventDetail: !this.state.showEventDetail,
+        }
+      );
+    }
+  }
+
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
-
     return (
-      <div>
-        {posts &&
-          posts.map(({ node: post }) => (
-            
-            <div key={post.id}>
-            {console.log('post:', post)}
-              <Link to={post.fields.slug}>
-              <article
-                className={`blog-list-item tile is-child`}
-              >
-                <header>
-                  <p className="post-meta">
-                    <p>Upcoming Event</p>
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
-                      {post.frontmatter.location}
-                  </p>
-                </header>
+      <div className="wrapper">
+        <div className="event-list">
+          {posts &&
+            posts.map(({ node: post }) => (
 
-              </article>
-              </Link>
-            </div>
-          ))}
+              <div key={post.id}>
+                <article
+                  onClick={() =>this.openEvent(post)}
+                  className={`blog-list-item tile is-child`}
+                >
+                  <header>
+                    <p className="post-meta">
+                      <p>Upcoming Event</p>
+                      {/* <Link
+                        className="title has-text-primary is-size-4"
+                        to={post.fields.slug}
+                      >
+                        {post.frontmatter.title}
+                      </Link> */}
+                      <span> &bull; </span>
+                      <span className="subtitle is-size-5 is-block">
+                        {post.frontmatter.date}
+                      </span>
+                        {post.frontmatter.location}
+                    </p>
+                  </header>
+
+                </article>
+              </div>
+            ))}
+      </div>
+
+      {this.state.showEventDetail && (
+          <div className="event-detail">
+            <h2 className="post-detail-title">{this.state.activeEvent.frontmatter.title}</h2>
+            {this.state.activeEvent.frontmatter.image &&
+              <div className="post-image-wrapper">
+                <Img className ="post-detail-image" fluid={this.state.activeEvent.frontmatter.image.childImageSharp.fluid} />
+              </div>
+            }
+            <p className="post-detail-description">{this.state.activeEvent.frontmatter.description}</p>
+
+
+          </div>
+      )}
       </div>
     )
   }
@@ -73,6 +118,14 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 location
+                description
+                image {
+                  childImageSharp {
+                    fluid(maxWidth: 120, quality: 100) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
                 featuredimage {
                   childImageSharp {
                     fluid(maxWidth: 120, quality: 100) {
@@ -90,17 +143,3 @@ export default () => (
   />
 )
 
-
-
-// {post.frontmatter.featuredimage ? (
-//   <div className="featured-thumbnail">
-//     <PreviewCompatibleImage
-//       imageInfo={{
-//         image: post.frontmatter.featuredimage,
-//         alt: `featured image thumbnail for post ${
-//           post.title
-//         }`,
-//       }}
-//     />
-//   </div>
-// ) : null}

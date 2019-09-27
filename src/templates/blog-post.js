@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import '../components/eventRoll.css'
 
 export const BlogPostTemplate = ({
   content,
@@ -15,25 +16,46 @@ export const BlogPostTemplate = ({
   date,
   title,
   helmet,
+  image,
 }) => {
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
+    <div className="event-detail">
       {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+            <h2 style={{
+              textAlign:'center',
+              fontSize:'2em',
+              marginBottom: '.7em'
+            }} className="post-detail-title">
               {title}
-            </h1>
-            <h2>{date}</h2>
-            <p>{description}</p>
-            <p>{location}</p>
+            </h2>
+            <div style={{
+              display: 'flex',
+            }}
+
+            className="post-image-wrapper">
+              <img style ={{
+                maxWidth: '80%',
+                margin: '0 auto',
+              }}
+               className="post-detail-image" src={image}/>
+            </div>
+            <p style ={{
+              marginTop: '2em',
+              textAlign: 'center',
+            }}
+
+             className="post-detail-description">{description}</p>
+            {location && (
+
+              <p>Location: {location}</p>
+            )}
+            <p>{date}</p>
 
             <PostContent content={content} />
-            
-            
+
+
             {/* Tag spot */}
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -47,10 +69,7 @@ export const BlogPostTemplate = ({
                 </ul>
               </div>
             ) : null}
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
   )
 }
 
@@ -84,9 +103,13 @@ const BlogPost = ({ data }) => {
               name="description"
               content={`${post.frontmatter.description}`}
             />
-            <meta 
+            <meta
               name="location"
               content={`${post.frontmatter.location}`}
+            />
+            <meta
+              name="image"
+              content={`${post.frontmatter.image}`}
             />
           </Helmet>
         }
@@ -114,6 +137,13 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        image {
+          childImageSharp {
+            fluid(maxWidth: 120, quality: 100) {
+              src
+            }
+          }
+        }
         location
         tags
       }

@@ -1,0 +1,30 @@
+.event-detail {
+    /* width: 50%; */
+    flex: 0 0 50%;
+    background-color: aliceblue
+}
+
+.event-list {
+    /* width:50%; */
+    flex: 0 0 50%;
+}
+.post-detail-title {
+    text-align: center;
+    font-size:2em;
+    margin-bottom: .7em;
+}
+
+.post-image-wrapper {
+    width: 80%;
+    margin: 0 auto
+}
+
+.post-detail-description {
+    margin-top: 2em;
+    text-align: center;
+}
+
+
+.wrapper {
+    display: flex;
+}
