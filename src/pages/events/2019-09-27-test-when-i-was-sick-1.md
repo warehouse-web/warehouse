@@ -4,6 +4,7 @@ image: /img/products-grid2.jpg
 title: Test when I was sick
 location: Sans Seriffe
 date: 2019-09-27T15:40:36.400Z
+description: 'https://soundcloud.com/gareteliot/beacons'
 tags:
   - sans seriffe
 ---
