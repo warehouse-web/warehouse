@@ -6,9 +6,11 @@ location: San seriff
 date: 2019-09-29T13:31:40.240Z
 description: |-
   https://soundcloud.com/mange_moi/hit-me-curses
-
+  https://soundcloud.com/gareteliot/beacons
   Lets see if soundcloud works on events
 tags:
   - San seriff
 ---
 body is required
+https://soundcloud.com/mange_moi/hit-me-curses
+https://soundcloud.com/gareteliot/beacons

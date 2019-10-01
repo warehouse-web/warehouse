@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
-import '../components/eventRoll.css'
+import '../components/main.css'
 
 export const BlogPostTemplate = ({
   content,

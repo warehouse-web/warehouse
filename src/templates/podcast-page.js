@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import '../components/main.css'
 
-export const ProductPageTemplate = ({
+export const PodcastTemplate = ({
   content,
   contentComponent,
   description,
@@ -18,7 +18,7 @@ export const ProductPageTemplate = ({
   helmet,
   image,
 }) => {
-  const ProductContent = contentComponent || Content
+  const PostContent = contentComponent || Content
 
   return (
     <div className="event-detail">
@@ -53,7 +53,7 @@ export const ProductPageTemplate = ({
             )}
             <p>{date}</p>
 
-            <ProductContent content={content} />
+            <PostContent content={content} />
 
 
             {/* Tag spot */}
@@ -73,7 +73,7 @@ export const ProductPageTemplate = ({
   )
 }
 
-ProductPageTemplate.propTypes = {
+PodcastTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -81,23 +81,31 @@ ProductPageTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const Product = ({ data }) => {
+const Podcast = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <ProductPageTemplate
+      <PodcastTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         location = {post.frontmatter.location}
         date = {post.frontmatter.date}
         helmet={
-          <Helmet titleTemplate="%s | Product">
+          <Helmet titleTemplate="%s | Podcast">
             <title>{`${post.frontmatter.title}`}</title>
+            <meta
+              name="date"
+              content={`${post.frontmatter.date}`}
+            />
             <meta
               name="description"
               content={`${post.frontmatter.description}`}
+            />
+            <meta
+              name="location"
+              content={`${post.frontmatter.location}`}
             />
             <meta
               name="image"
@@ -107,27 +115,31 @@ const Product = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        podcastURL = {post.frontmatter.podcastURL}
       />
+      {console.log('podcasturl',post.frontmatter.podcastURL)}
     </Layout>
   )
 }
 
-Product.propTypes = {
+Podcast.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default Product
+export default Podcast
 
 export const pageQuery = graphql`
-  query ProductByID($id: String!) {
+  query PodcastByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
       frontmatter {
+        date(formatString: "MMMM DD, YYYY")
         title
         description
+        podcastURL
         image {
           childImageSharp {
             fluid(maxWidth: 120, quality: 100) {

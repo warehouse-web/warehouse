@@ -37,6 +37,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          "gatsby-remark-embed-soundcloud",
           {
             resolve: 'gatsby-remark-relative-images',
             options: {

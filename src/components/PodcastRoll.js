@@ -5,34 +5,35 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 import './main.css'
 import Img from 'gatsby-image'
 
-class EventRoll extends React.Component {
+
+class PodcastRoll extends React.Component {
 
   state = {
-    activeEvent: {},
-    showEventDetail: false,
-    id: null
+    activePodcast: {},
+    showPodcastDetail: false,
+    id: null,
   }
 
-  openEvent = (event) => {
-    let id = event.id
-    console.log(this.state.showEventDetail)
-    {event &&
+  openPodcast = (podcast) => {
+    let id = podcast.id
+    console.log(this.state.showpodcastDetail)
+    {podcast &&
     window.history.pushState(
       {page: 1},
-      event.frontmatter.title,
-      `?event=${event.frontmatter.title}`
+      podcast.frontmatter.title,
+      `?podcast=${podcast.frontmatter.title}`
     );}
-    // event.target
-
-      console.log('event:', event.id)
+    // podcast.target
+    if (podcast !== !!this.state.activePodcast) {
+      console.log('podcast:', podcast.id)
       console.log('id:', id)
       this.setState(
         {
-          activeEvent: event,
-          showEventDetail: !this.state.showEventDetail,
+          activePodcast: podcast,
+          showPodcastDetail: !this.state.showPodcastDetail,
         }
       );
-
+    }
   }
 
   render() {
@@ -43,22 +44,20 @@ class EventRoll extends React.Component {
         <div className="article-list">
           {posts &&
             posts.map(({ node: post }) => (
-
               <div key={post.id}>
                 <article
-                  onClick={() =>this.openEvent(post)}
+                  onClick={() =>this.openPodcast(post)}
                   className={`blog-list-item tile is-child`}
                 >
                   <header>
                     <p className="post-meta">
-                      <p>Upcoming Event</p>
                       {/* <Link
                         className="title has-text-primary is-size-4"
                         to={post.fields.slug}
                       >
                         {post.frontmatter.title}
                       </Link> */}
-                      <span> &bull; </span>
+                      {/* <span> &bull; </span> */}
                       <span className="subtitle is-size-5 is-block">
                         {post.frontmatter.date}
                       </span>
@@ -71,18 +70,17 @@ class EventRoll extends React.Component {
             ))}
       </div>
 
-      {this.state.showEventDetail && (
+      {this.state.showPodcastDetail && (
           <div className="article-detail">
-            <h2 className="article-detail-title">{this.state.activeEvent.frontmatter.title}</h2>
-            {this.state.activeEvent.frontmatter.image &&
+            <h2 className="article-detail-title">{this.state.activePodcast.frontmatter.title}</h2>
+            {this.state.activePodcast.frontmatter.image &&
               <div className="article-image-wrapper">
-                <Img className ="article-detail-image" fluid={this.state.activeEvent.frontmatter.image.childImageSharp.fluid} />
+                <Img className ="article-detail-image" fluid={this.state.activePodcast.frontmatter.image.childImageSharp.fluid} />
               </div>
             }
-            <p className="article-detail-description">{this.state.activeEvent.frontmatter.description}</p>
-            <p className="article-detail-description">{this.state.activeEvent.frontmatter.body}</p>
-
-
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" + this.state.activePodcast.frontmatter.podcastURL + "&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"}></iframe>
+            <p className="post-detail-description">{this.state.activePodcast.frontmatter.description}</p>
+            <p className="post-detail-description">{this.state.activePodcast.frontmatter.body}</p>
           </div>
       )}
       </div>
@@ -90,21 +88,21 @@ class EventRoll extends React.Component {
   }
 }
 
-EventRoll.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
-}
+// PodcastRoll.propTypes = {
+//   data: PropTypes.shape({
+//     allMarkdownRemark: PropTypes.shape({
+//       edges: PropTypes.array,
+//     }),
+//   }),
+// }
 
 export default () => (
   <StaticQuery
     query={graphql`
-      query BlogRollQuery {
+      query PodcastRollQuerry {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "podcast-page" } } }
         ) {
           edges {
             node {
@@ -119,6 +117,7 @@ export default () => (
                 date(formatString: "MMMM DD, YYYY")
                 location
                 description
+                podcastURL
                 image {
                   childImageSharp {
                     fluid(maxWidth: 120, quality: 100) {
@@ -139,7 +138,7 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <EventRoll data={data} count={count} />}
+    render={(data, count) => <PodcastRoll data={data} count={count} />}
   />
 )
 

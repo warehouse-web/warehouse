@@ -5,64 +5,61 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 import './main.css'
 import Img from 'gatsby-image'
 
-class EventRoll extends React.Component {
+
+class ShopRoll extends React.Component {
 
   state = {
-    activeEvent: {},
-    showEventDetail: false,
-    id: null
+    activeProduct: {},
+    showProducttDetail: false,
   }
 
-  openEvent = (event) => {
-    let id = event.id
-    console.log(this.state.showEventDetail)
-    {event &&
+  openProduct = (product) => {
+    let id = product.id
+    {product &&
     window.history.pushState(
       {page: 1},
-      event.frontmatter.title,
-      `?event=${event.frontmatter.title}`
+      product.frontmatter.title,
+      `?product=${product.frontmatter.title}`
     );}
-    // event.target
-
-      console.log('event:', event.id)
-      console.log('id:', id)
+    // podcast.target
+    if (product !== !this.state.activeProduct) {
       this.setState(
         {
-          activeEvent: event,
-          showEventDetail: !this.state.showEventDetail,
+          activeProduct: product,
+          showProductDetail: true,
         }
       );
-
+    }
   }
 
   render() {
+    console.log('shop roll opened')
     const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    console.log('data:', data)
+
+    const { edges: products } = data.allMarkdownRemark
     return (
       <div className="wrapper">
         <div className="article-list">
-          {posts &&
-            posts.map(({ node: post }) => (
-
-              <div key={post.id}>
+          {products &&
+            products.map(({ node: product }) => (
+              <div key={product.id}>
+              {console.log('product', product)}
                 <article
-                  onClick={() =>this.openEvent(post)}
+                  onClick={() =>this.openProduct(product)}
                   className={`blog-list-item tile is-child`}
                 >
                   <header>
                     <p className="post-meta">
-                      <p>Upcoming Event</p>
+                      {product.frontmatter.title}
                       {/* <Link
                         className="title has-text-primary is-size-4"
                         to={post.fields.slug}
                       >
                         {post.frontmatter.title}
                       </Link> */}
-                      <span> &bull; </span>
-                      <span className="subtitle is-size-5 is-block">
-                        {post.frontmatter.date}
-                      </span>
-                        {post.frontmatter.location}
+                      {/* <span> &bull; </span> */}
+
                     </p>
                   </header>
 
@@ -71,18 +68,16 @@ class EventRoll extends React.Component {
             ))}
       </div>
 
-      {this.state.showEventDetail && (
+      {this.state.showProductDetail && (
           <div className="article-detail">
-            <h2 className="article-detail-title">{this.state.activeEvent.frontmatter.title}</h2>
-            {this.state.activeEvent.frontmatter.image &&
+            <h2 className="article-detail-title">{this.state.activeProduct.frontmatter.title}</h2>
+            {this.state.activeProduct.frontmatter.image &&
               <div className="article-image-wrapper">
-                <Img className ="article-detail-image" fluid={this.state.activeEvent.frontmatter.image.childImageSharp.fluid} />
+                <Img className ="article-detail-image" fluid={this.state.activeProduct.frontmatter.image.childImageSharp.fluid} />
               </div>
             }
-            <p className="article-detail-description">{this.state.activeEvent.frontmatter.description}</p>
-            <p className="article-detail-description">{this.state.activeEvent.frontmatter.body}</p>
-
-
+            <p className="post-detail-description">{this.state.activeProduct.frontmatter.description}</p>
+            <p className="post-detail-description">{this.state.activeProduct.frontmatter.body}</p>
           </div>
       )}
       </div>
@@ -90,21 +85,21 @@ class EventRoll extends React.Component {
   }
 }
 
-EventRoll.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
-}
+// PodcastRoll.propTypes = {
+//   data: PropTypes.shape({
+//     allMarkdownRemark: PropTypes.shape({
+//       edges: PropTypes.array,
+//     }),
+//   }),
+// }
 
 export default () => (
   <StaticQuery
     query={graphql`
-      query BlogRollQuery {
+      query ShopRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "product-page" } } }
         ) {
           edges {
             node {
@@ -117,7 +112,6 @@ export default () => (
                 title
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
-                location
                 description
                 image {
                   childImageSharp {
@@ -139,7 +133,7 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <EventRoll data={data} count={count} />}
+    render={(data, count) => <ShopRoll data={data} count={count} />}
   />
 )
 

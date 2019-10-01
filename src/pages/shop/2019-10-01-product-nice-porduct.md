@@ -1,5 +1,5 @@
 ---
-templateKey: podcast-page
+templateKey: product-page
 image: /img/screenshot-2019-08-19-at-23.06.39.png
 description: inannana
 title: Product Nice Porduct
