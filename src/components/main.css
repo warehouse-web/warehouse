@@ -28,3 +28,57 @@
 .wrapper {
     display: flex;
 }
+
+#magic-logo {
+    position: fixed;
+    width: 620px;
+    right: 0;
+}
+
+#mobile-magic-logo {
+    display: none;
+    width: 100%;
+}
+
+@media screen and (max-width: 900px)  {
+    #mobile-magic-logo {
+        display: block;
+    }
+
+    #magic-logo {
+        position: static;
+        display: none;
+    }
+
+    #right {
+        display: none;
+    }
+
+    .phrase {
+        width: 100%;
+    }
+}
+
+.square {
+    position: relative;
+    width: 100%;
+    background-image: url("logo.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.rectangle {
+    height: 80px;
+    width: 20px;
+    float: left;
+    background-image: url(http://i.stack.imgur.com/fOV15.png);
+    background-attachment: fixed;
+    display: inline-block;
+}

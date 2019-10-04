@@ -1,10 +1,11 @@
 
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import Layout from '../components/Layout'
 import EventRoll from '../components/EventRoll';
 import Img from 'gatsby-image'
+import DivOverlay from './DivOverlay';
 
 
 export const IndexPageTemplate = ({
@@ -20,7 +21,6 @@ export const IndexPageTemplate = ({
     <h3 className="has-text-weight-semibold is-size-2">
       All Events
     </h3>
-    <EventRoll />
     <div className="column is-12 has-text-centered">
       <Link className="btn" to="/events">
         Read more
@@ -42,13 +42,69 @@ export const IndexPageTemplate = ({
 }
 
 
+let initFlexWidthPx = 620;
+    let shiftRatio = 0.5;
 
+export const relayout = () => {
+    console.log('went inside')
+    setWidth(getPos());
+}
+
+const setWidth = (shift) => {
+    let element = document.getElementById("magic-logo");
+
+    let newWidth = initFlexWidthPx - shiftRatio * shift;
+    let newWidthPx = newWidth + "px";
+
+    element.style.width = newWidthPx;
+}
+
+const getPos = () => {
+
+    if(window.pageYOffset!= undefined){
+        return window.pageYOffset;
+    }
+    else{
+        let sy,
+        d = document,
+        r = d.documentElement,
+        b = d.body;
+        sy= r.scrollTop || b.scrollTop || 0;
+        return sy;
+    }
+}
 
 
 export const IndexPage = ({ data }) => {
   const {edges: posts} = data.allMarkdownRemark
   const [activeEvent, setActiveEvent] = useState({});
+  const [nextImg, setNextImg] = useState(false)
   const [showEventDetail, setShowEventDetail] = useState(false)
+  const [divStyle, setDivStyle] = useState()
+
+  const handleHover = () => {
+    setNextImg(!nextImg);
+  }
+  const renderImg = (post) => {
+    // handleHover()
+    if ( post.frontmatter.image && post.frontmatter.image.childImageSharp.fluid.src){
+      let imgUrl = post.frontmatter.image.childImageSharp.fluid.src
+      // let imgUrl = nextImg ? post.frontmatter.image.childImageSharp.fluid.src : ''
+      setDivStyle({backgroundImage: 'url(' + imgUrl + ')'})
+
+      console.log('divStyle:', divStyle)
+    }
+
+
+  }
+
+  const [scrollY, setscrollY] = useState(0)
+  useEffect(() => {
+    window.addEventListener('scroll', relayout)
+    return () => {
+      window.removeEventListener('scroll', relayout)
+    };
+  }, [])
 
   const openEvent = (event) => {
     window.history.pushState(
@@ -60,12 +116,16 @@ export const IndexPage = ({ data }) => {
     setShowEventDetail(true)
   }
   return (
-    <Layout>
+    <Layout >
+      <DivOverlay currImg={divStyle}/>
       <div className="wrapper">
-        <div className="article-list">
+        <div onScroll = {()=> relayout() } className="article-list">
           {posts &&
             posts.map (({node:post}) => (
-              <div key = {post.id}>
+              <div
+                key = {post.id}
+                onPointerEnter = {() => renderImg(post)}
+              >
                 <article
                   onClick={() => openEvent(post)}
                   className={`blog-list-item tile is-child`}
