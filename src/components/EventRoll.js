@@ -10,7 +10,6 @@ class EventRoll extends React.Component {
   state = {
     activeEvent: {},
     showEventDetail: false,
-    id: null
   }
 
   openEvent = (event) => {
@@ -22,10 +21,7 @@ class EventRoll extends React.Component {
       event.frontmatter.title,
       `?event=${event.frontmatter.title}`
     );}
-    // event.target
 
-      console.log('event:', event.id)
-      console.log('id:', id)
       this.setState(
         {
           activeEvent: event,
@@ -38,8 +34,6 @@ class EventRoll extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
-    console.log('posts in eventRoll:', posts)
-
     return (
       <div className="wrapper">
         <div className="article-list">
@@ -83,8 +77,6 @@ class EventRoll extends React.Component {
             }
             <p className="article-detail-description">{this.state.activeEvent.frontmatter.description}</p>
             <p className="article-detail-description">{this.state.activeEvent.frontmatter.body}</p>
-
-
           </div>
       )}
       </div>
