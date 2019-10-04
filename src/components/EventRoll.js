@@ -38,6 +38,8 @@ class EventRoll extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
+    console.log('posts in eventRoll:', posts)
+
     return (
       <div className="wrapper">
         <div className="article-list">
