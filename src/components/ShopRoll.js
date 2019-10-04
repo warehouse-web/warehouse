@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
+import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
 import Img from 'gatsby-image'
 
@@ -14,13 +13,12 @@ class ShopRoll extends React.Component {
   }
 
   openProduct = (product) => {
-    let id = product.id
-    {product &&
+    product &&
     window.history.pushState(
       {page: 1},
       product.frontmatter.title,
       `?product=${product.frontmatter.title}`
-    );}
+    );
     // podcast.target
     if (product !== !this.state.activeProduct) {
       this.setState(
@@ -33,10 +31,7 @@ class ShopRoll extends React.Component {
   }
 
   render() {
-    console.log('shop roll opened')
     const { data } = this.props
-    console.log('data:', data)
-
     const { edges: products } = data.allMarkdownRemark
     return (
       <div className="wrapper">
@@ -44,7 +39,6 @@ class ShopRoll extends React.Component {
           {products &&
             products.map(({ node: product }) => (
               <div key={product.id}>
-              {console.log('product', product)}
                 <article
                   onClick={() =>this.openProduct(product)}
                   className={`blog-list-item tile is-child`}
@@ -85,13 +79,13 @@ class ShopRoll extends React.Component {
   }
 }
 
-// PodcastRoll.propTypes = {
-//   data: PropTypes.shape({
-//     allMarkdownRemark: PropTypes.shape({
-//       edges: PropTypes.array,
-//     }),
-//   }),
-// }
+ShopRoll.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      edges: PropTypes.array,
+    }),
+  }),
+}
 
 export default () => (
   <StaticQuery

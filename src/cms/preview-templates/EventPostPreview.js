@@ -13,7 +13,6 @@ const EventPostPreview = ({ entry, widgetFor }) => (
     title={entry.getIn(['data', 'title'])}
     image={entry.getIn(['data', 'image'])}
   >
-    {console.log('entry:', entry)}
     </BlogPostTemplate>
 )
 

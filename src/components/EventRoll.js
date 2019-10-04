@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
+import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
 import Img from 'gatsby-image'
 
@@ -13,15 +12,7 @@ class EventRoll extends React.Component {
   }
 
   openEvent = (event) => {
-    let id = event.id
-    console.log(this.state.showEventDetail)
-    {event &&
-    window.history.pushState(
-      {page: 1},
-      event.frontmatter.title,
-      `?event=${event.frontmatter.title}`
-    );}
-
+    event && window.history.pushState( {page: 1}, event.frontmatter.title, `?event=${event.frontmatter.title}`)
       this.setState(
         {
           activeEvent: event,
@@ -39,7 +30,6 @@ class EventRoll extends React.Component {
         <div className="article-list">
           {posts &&
             posts.map(({ node: post }) => (
-
               <div key={post.id}>
                 <article
                   onClick={() =>this.openEvent(post)}
@@ -47,7 +37,7 @@ class EventRoll extends React.Component {
                 >
                   <header>
                     <p className="post-meta">
-                      <p>Upcoming Event</p>
+                      Upcoming Event
                       {/* <Link
                         className="title has-text-primary is-size-4"
                         to={post.fields.slug}

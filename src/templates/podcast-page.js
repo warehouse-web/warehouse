@@ -35,7 +35,9 @@ export const PodcastTemplate = ({
             }}
 
             className="post-image-wrapper">
-              <img style ={{
+              <img
+              alt = ''
+              style ={{
                 maxWidth: '80%',
                 margin: '0 auto',
               }}
@@ -117,7 +119,6 @@ const Podcast = ({ data }) => {
         title={post.frontmatter.title}
         podcastURL = {post.frontmatter.podcastURL}
       />
-      {console.log('podcasturl',post.frontmatter.podcastURL)}
     </Layout>
   )
 }

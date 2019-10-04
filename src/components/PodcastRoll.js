@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
+import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
 import Img from 'gatsby-image'
 
@@ -15,18 +14,13 @@ class PodcastRoll extends React.Component {
   }
 
   openPodcast = (podcast) => {
-    let id = podcast.id
-    console.log(this.state.showpodcastDetail)
-    {podcast &&
+    podcast &&
     window.history.pushState(
       {page: 1},
       podcast.frontmatter.title,
       `?podcast=${podcast.frontmatter.title}`
-    );}
-    // podcast.target
+    );
     if (podcast !== !!this.state.activePodcast) {
-      console.log('podcast:', podcast.id)
-      console.log('id:', id)
       this.setState(
         {
           activePodcast: podcast,
@@ -78,7 +72,7 @@ class PodcastRoll extends React.Component {
                 <Img className ="article-detail-image" fluid={this.state.activePodcast.frontmatter.image.childImageSharp.fluid} />
               </div>
             }
-            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" + this.state.activePodcast.frontmatter.podcastURL + "&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"}></iframe>
+            <iframe title={this.state.activePodcast.id} width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" + this.state.activePodcast.frontmatter.podcastURL + "&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"}></iframe>
             <p className="post-detail-description">{this.state.activePodcast.frontmatter.description}</p>
             <p className="post-detail-description">{this.state.activePodcast.frontmatter.body}</p>
           </div>
@@ -88,13 +82,13 @@ class PodcastRoll extends React.Component {
   }
 }
 
-// PodcastRoll.propTypes = {
-//   data: PropTypes.shape({
-//     allMarkdownRemark: PropTypes.shape({
-//       edges: PropTypes.array,
-//     }),
-//   }),
-// }
+PodcastRoll.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      edges: PropTypes.array,
+    }),
+  }),
+}
 
 export default () => (
   <StaticQuery

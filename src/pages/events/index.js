@@ -6,7 +6,6 @@ import EventRoll from '../../components/EventRoll'
 export default class BlogIndexPage extends React.Component {
 
   render() {
-    console.log(this.props);
     return (
       <Layout>
         <EventRoll location="test"/>

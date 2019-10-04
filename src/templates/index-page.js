@@ -1,9 +1,8 @@
+
 import React, {useState} from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
-
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import EventRoll from '../components/EventRoll';
 import Img from 'gatsby-image'
 
@@ -52,13 +51,11 @@ export const IndexPage = ({ data }) => {
   const [showEventDetail, setShowEventDetail] = useState(false)
 
   const openEvent = (event) => {
-    console.log('event:', event)
-    {event &&
     window.history.pushState(
       {page:1},
       event.frontmatter.title,
       `?event=${event.frontmatter.title}`
-    );}
+    );
     setActiveEvent({event})
     setShowEventDetail(true)
   }
@@ -101,6 +98,7 @@ export const IndexPage = ({ data }) => {
           }
           {activeEvent.event.frontmatter.podcastURL &&
             <iframe
+              title = {activeEvent.event.id}
               width="100%"
               height="300"
               scrolling="no"
@@ -138,7 +136,20 @@ export default () => (
   <StaticQuery
     query={graphql`
       query AllPostsQuery {
-        allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+        allMarkdownRemark(
+          sort: { order: DESC, fields: [frontmatter___date] }
+          filter: {
+            frontmatter: {
+              templateKey: {
+                in: [
+                  "blog-post",
+                  "podcast-page",
+                  "product-page",
+                ]
+              }
+            }
+          }
+          ) {
           edges {
             node {
               excerpt(pruneLength: 400)

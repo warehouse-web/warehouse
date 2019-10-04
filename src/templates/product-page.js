@@ -35,7 +35,9 @@ export const ProductPageTemplate = ({
             }}
 
             className="post-image-wrapper">
-              <img style ={{
+              <img
+              alt = ''
+              style ={{
                 maxWidth: '80%',
                 margin: '0 auto',
               }}
