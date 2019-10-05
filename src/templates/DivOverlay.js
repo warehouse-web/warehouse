@@ -5,7 +5,6 @@ let initFlexWidthPx = 620;
     let shiftRatio = 0.1;
 
 export const relayout = () => {
-    console.log('went inside')
     setWidth(getPos());
 }
 
@@ -17,11 +16,9 @@ const setWidth = (shift) => {
 
     element.style.width = newWidthPx;
 }
-console.log('window:', window)
 
 const getPos = () => {
 
-    console.log('windowInside:', window)
     if(window.pageYOffset!= undefined){
         return window.pageYOffset;
     }
@@ -36,8 +33,6 @@ const getPos = () => {
 }
 
 const divOverlay = (currImg) => {
-    console.log('currImg:', currImg.currImg)
-
 
     return (
         <div id="magic-logo">
