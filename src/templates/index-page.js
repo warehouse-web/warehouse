@@ -226,14 +226,7 @@ export default () => (
                 podcastURL
                 image {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 520, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }

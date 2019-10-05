@@ -33,6 +33,7 @@
     position: fixed;
     width: 620px;
     right: 0;
+    z-index: 999;
 }
 
 #mobile-magic-logo {
@@ -63,8 +64,7 @@
     position: relative;
     width: 100%;
     background-image: url("logo.png");
-    background-size: contain;
-    background-repeat:no-repeat;
+
 }
 
 
@@ -78,7 +78,9 @@
     height: 80px;
     width: 20px;
     float: left;
-    background-image: url(http://i.stack.imgur.com/fOV15.png);
+    background-color: black;
     background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
     display: inline-block;
 }
