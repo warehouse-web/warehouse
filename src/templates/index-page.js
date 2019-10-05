@@ -46,7 +46,6 @@ let initFlexWidthPx = 620;
     let shiftRatio = 0.5;
 
 export const relayout = () => {
-    console.log('went inside')
     setWidth(getPos());
 }
 
@@ -89,8 +88,6 @@ export const IndexPage = ({ data }) => {
     if ( post.frontmatter.image && post.frontmatter.image.childImageSharp.fluid.src){
       let imgUrl = post.frontmatter.image.childImageSharp.fluid.src
       setDivStyle({backgroundImage: 'url(' + imgUrl + ')'})
-
-      console.log('divStyle:', divStyle)
     }
 
 
