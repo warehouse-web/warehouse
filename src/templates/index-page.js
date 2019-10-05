@@ -41,7 +41,7 @@ export const IndexPageTemplate = ({
   }),
 }
 
-
+// let initFlexWidthPx = window.innerWidth;
 let initFlexWidthPx = 620;
     let shiftRatio = 0.5;
 
@@ -86,10 +86,8 @@ export const IndexPage = ({ data }) => {
     setNextImg(!nextImg);
   }
   const renderImg = (post) => {
-    // handleHover()
     if ( post.frontmatter.image && post.frontmatter.image.childImageSharp.fluid.src){
       let imgUrl = post.frontmatter.image.childImageSharp.fluid.src
-      // let imgUrl = nextImg ? post.frontmatter.image.childImageSharp.fluid.src : ''
       setDivStyle({backgroundImage: 'url(' + imgUrl + ')'})
 
       console.log('divStyle:', divStyle)
@@ -118,6 +116,7 @@ export const IndexPage = ({ data }) => {
   return (
     <Layout >
       <DivOverlay currImg={divStyle}/>
+
       <div className="wrapper">
         <div onScroll = {()=> relayout() } className="article-list">
           {posts &&
@@ -145,6 +144,7 @@ export const IndexPage = ({ data }) => {
         </div>
       {showEventDetail && (
         <div className="article-detail">
+          <a href='#' className='close'  onClick={() => setShowEventDetail(false)}></a>
           <h2 className="article-detail-title">
             {activeEvent.event.frontmatter.title}
           </h2>

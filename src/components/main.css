@@ -1,86 +1,111 @@
 .article-detail {
-    /* width: 50%; */
-    flex: 0 0 50%;
-    background-color: aliceblue
+	flex: 0 0 50%;
+	background-color: red;
+	z-index: 10;
 }
 
 .article-list {
-    /* width:50%; */
-    flex: 0 0 50%;
+	/* width:50%; */
+	flex: 0 0 50%;
 }
 .article-detail-title {
-    text-align: center;
-    font-size:2em;
-    margin-bottom: .7em;
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: .7em;
 }
 
 .article-image-wrapper {
-    width: 80%;
-    margin: 0 auto
+	width: 80%;
+	margin: 0 auto;
 }
 
 .article-detail-description {
-    margin-top: 2em;
-    text-align: center;
+	margin-top: 2em;
+	text-align: center;
 }
 
-
 .wrapper {
-    display: flex;
+	display: flex;
 }
 
 #magic-logo {
-    position: fixed;
-    width: 620px;
-    right: 0;
-    z-index: 999;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	right: 35%;
+	z-index: 9;
 }
 
 #mobile-magic-logo {
-    display: none;
-    width: 100%;
+	display: none;
+	width: 100%;
 }
 
-@media screen and (max-width: 900px)  {
-    #mobile-magic-logo {
-        display: block;
-    }
+@media screen and (max-width: 900px) {
+	#mobile-magic-logo {
+		display: block;
+	}
 
-    #magic-logo {
-        position: static;
-        display: none;
-    }
+	#magic-logo {
+		position: static;
+		display: none;
+	}
 
-    #right {
-        display: none;
-    }
+	#right {
+		display: none;
+	}
 
-    .phrase {
-        width: 100%;
-    }
+	.phrase {
+		width: 100%;
+	}
 }
 
 .square {
-    position: relative;
-    width: 100%;
-    background-image: url("logo.png");
-
+	position: relative;
+	width: 100%;
+	background-image: url("logo.png");
 }
 
-
 .square:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
+	content: "";
+	display: block;
+	padding-bottom: 100%;
 }
 
 .rectangle {
-    height: 80px;
-    width: 20px;
-    float: left;
-    background-color: black;
-    background-attachment: fixed;
-    background-position: right;
-    background-repeat: no-repeat;
-    display: inline-block;
+	height: 80px;
+	width: 20px;
+	float: left;
+	background-color: black;
+	background-attachment: fixed;
+	background-position-x: 30%;
+	background-position-y: 20%;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.close {
+	position: absolute;
+	right: 42px;
+	width: 10px;
+}
+
+.close:hover {
+	opacity: 1;
+}
+
+.close:before,
+.close:after {
+	position: absolute;
+	left: 15px;
+	content: ' ';
+	height: 14px;
+	width: 2px;
+	background-color: #333;
+}
+.close:before {
+	transform: rotate(45deg);
+}
+.close:after {
+	transform: rotate(-45deg);
 }

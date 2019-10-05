@@ -41,223 +41,223 @@ const divOverlay = (currImg) => {
 
     return (
         <div id="magic-logo">
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
-            <div className="rectangle" style={{background: "white"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
+            <div className="rectangle" style={{background: "transparent"}}></div>
         </div>
     )
 }
