@@ -40,9 +40,10 @@ class ShopRoll extends React.Component {
             products.map(({ node: product }) => (
               <div key={product.id}>
                 <article
-                  onClick={() =>this.openProduct(product)}
-                  className={`blog-list-item tile is-child`}
+                  onClick={() => openProduct(product)}
+                  className={`blog-list-item post`}
                 >
+                  <h1>Product</h1>
                   <header>
                     <p className="post-meta">
                       {product.frontmatter.title}
@@ -52,7 +53,6 @@ class ShopRoll extends React.Component {
                       >
                         {post.frontmatter.title}
                       </Link> */}
-                      {/* <span> &bull; </span> */}
 
                     </p>
                   </header>

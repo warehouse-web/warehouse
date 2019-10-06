@@ -73,6 +73,12 @@ const getPos = () => {
     }
 }
 
+export const isDateBeforeToday = (post) => {
+  let postDate = Date.parse(post.frontmatter.date)
+  let currDate = Date.parse(new Date())
+  console.log('went inside')
+  return postDate - currDate < 0
+}
 
 export const IndexPage = ({ data }) => {
   const {edges: posts} = data.allMarkdownRemark
@@ -91,19 +97,8 @@ export const IndexPage = ({ data }) => {
     }
   }
 
-  const isDateBeforeToday = (post) => {
-    let now = new Date();
-    let postDate = Date.parse(post.frontmatter.date)
-    let currDate = Date.parse(new Date())
-    // return Date.parse(post.frontmatter.date)
-    console.log('post date is before', postDate - currDate < 0)
-    // console.log('current date', currDate)
-    return postDate - currDate < 0
+  
 
-    // return new Date(post.frontmatter.date.toDateString()) < new Date(new Date().toDateString());
-  }
-
-  const [scrollY, setscrollY] = useState(0)
   useEffect(() => {
     window.addEventListener('scroll', relayout)
     return () => {
@@ -120,6 +115,19 @@ export const IndexPage = ({ data }) => {
     setActiveEvent({event})
     setShowEventDetail(true)
   }
+
+  const postType = (post) => {
+    switch(post.frontmatter.templateKey) {
+      case 'blog-post':
+        return 'Event';
+      case 'podcast-page':
+        return 'Podcast';
+      case 'product-page':
+        return 'Product';
+      default:
+        return null;
+    }
+  }
   return (
     <Layout >
       <DivOverlay currImg={divStyle}/>
@@ -132,21 +140,23 @@ export const IndexPage = ({ data }) => {
               key = {post.id}
               onPointerEnter = {() => renderImg(post)}
               >
-              {/* { post.frontmatter.date && 
-                Date.parse(post.frontmatter.date) - Date.parse(new Date()) < 0 
-                (<p>worked</p>)
-              } */}
-              {post.frontmatter.date && isDateBeforeToday(post) && 
-
-                <h2>Past Event</h2>
-              }
-              {post.frontmatter.date && !isDateBeforeToday(post) && 
-                <h2>Upcoming Event</h2>
-              }
                 <article
                   onClick={() => openEvent(post)}
-                  className={`blog-list-item tile is-child`}
+                  className={`blog-list-item post`}
                 >
+                  {post.frontmatter.date && 
+                    post.frontmatter.templateKey === 'blog-post' && 
+                    isDateBeforeToday(post) && 
+                      <h2>Past {postType(post)}</h2>
+                  }
+                  {post.frontmatter.date && 
+                    post.frontmatter.templateKey === 'blog-post' && 
+                    !isDateBeforeToday(post) && 
+                      <h2>Upcoming {postType(post)}</h2>
+                  }
+                  {post.frontmatter.templateKey !== 'blog-post' &&
+                    <h2>{postType(post)}</h2>
+                  }
                   <header>
                     <p className="post-meta">
                       <span className="subtitle is-size-5 is-block">

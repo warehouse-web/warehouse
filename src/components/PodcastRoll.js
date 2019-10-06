@@ -24,7 +24,7 @@ class PodcastRoll extends React.Component {
       this.setState(
         {
           activePodcast: podcast,
-          showPodcastDetail: !this.state.showPodcastDetail,
+          showPodcastDetail: true,
         }
       );
     }
@@ -40,9 +40,10 @@ class PodcastRoll extends React.Component {
             posts.map(({ node: post }) => (
               <div key={post.id}>
                 <article
-                  onClick={() =>this.openPodcast(post)}
-                  className={`blog-list-item tile is-child`}
+                  onClick={() => this.openPodcast(post)}
+                  className={`blog-list-item post`}
                 >
+                  <h1>Podcast</h1>
                   <header>
                     <p className="post-meta">
                       {/* <Link
@@ -75,7 +76,7 @@ class PodcastRoll extends React.Component {
                 <Img className ="article-detail-image" fluid={this.state.activePodcast.frontmatter.image.childImageSharp.fluid} />
               </div>
             }
-            <iframe title={this.state.activePodcast.id} width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" + this.state.activePodcast.frontmatter.podcastURL + "&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"}></iframe>
+            <iframe title={this.state.activePodcast.id} width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" + this.state.activePodcast.frontmatter.podcastURL + "&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"}/>
             <p className="post-detail-description">{this.state.activePodcast.frontmatter.description}</p>
             <p className="post-detail-description">{this.state.activePodcast.frontmatter.body}</p>
           </div>

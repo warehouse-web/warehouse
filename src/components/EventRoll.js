@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
 import Img from 'gatsby-image'
+import {isDateBeforeToday} from '../templates/index-page'
 
 class EventRoll extends React.Component {
 
@@ -16,7 +17,7 @@ class EventRoll extends React.Component {
       this.setState(
         {
           activeEvent: event,
-          showEventDetail: !this.state.showEventDetail,
+          showEventDetail: true,
         }
       );
 
@@ -32,12 +33,19 @@ class EventRoll extends React.Component {
             posts.map(({ node: post }) => (
               <div key={post.id}>
                 <article
-                  onClick={() =>this.openEvent(post)}
-                  className={`blog-list-item tile is-child`}
+                  onClick={() => this.openEvent(post)}
+                  className={`blog-list-item post`}
                 >
+                  {post.frontmatter.date && 
+                    isDateBeforeToday(post) && 
+                      <h2>Past Event</h2>
+                  }
+                  {post.frontmatter.date && 
+                    !isDateBeforeToday(post) && 
+                      <h2>Upcoming Event</h2>
+                  }
                   <header>
                     <p className="post-meta">
-                      Upcoming Event
                       {/* <Link
                         className="title has-text-primary is-size-4"
                         to={post.fields.slug}

@@ -1,17 +1,28 @@
 .article-detail {
 	flex: 0 0 50%;
 	background-color: lightblue;
-	z-index: 10;
+	z-index: 999;
 	position: fixed;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 	right: 0;
 	width: 50%;
 	height: 100vh;
+	top: 0;
 }
 
 .article-list {
 	/* width:50%; */
 	flex: 0 0 50%;
 	background-blend-mode: screen;
+}
+
+.post {
+	margin-top: 3em;
+}
+
+.post:hover {
+	cursor: pointer;
 }
 .article-detail-title {
 	text-align: center;
@@ -25,7 +36,7 @@
 }
 
 .article-detail-description {
-	margin-top: 2em;
+	margin: 2em;
 	text-align: center;
 }
 
@@ -39,6 +50,7 @@
 	height: 100%;
 	right: 35%;
 	z-index: 9;
+	pointer-events: none;
 }
 
 #mobile-magic-logo {
