@@ -32,7 +32,7 @@ const getPos = () => {
     }
 }
 
-const divOverlay = (currImg) => {
+const DivOverlay = (currImg) => {
 
     return (
         <div id="magic-logo">
@@ -258,4 +258,4 @@ const divOverlay = (currImg) => {
     )
 }
 
-export default divOverlay
+export default DivOverlay

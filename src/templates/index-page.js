@@ -147,25 +147,23 @@ export const IndexPage = ({ data }) => {
                   {post.frontmatter.date && 
                     post.frontmatter.templateKey === 'blog-post' && 
                     isDateBeforeToday(post) && 
-                      <h2>Past {postType(post)}</h2>
+                      <h2 className='post-type'>Past {postType(post)}</h2>
                   }
                   {post.frontmatter.date && 
                     post.frontmatter.templateKey === 'blog-post' && 
                     !isDateBeforeToday(post) && 
-                      <h2>Upcoming {postType(post)}</h2>
+                      <h2 className='post-type'>Upcoming {postType(post)}</h2>
                   }
                   {post.frontmatter.templateKey !== 'blog-post' &&
-                    <h2>{postType(post)}</h2>
+                    <h2 className='post-type'>{postType(post)}</h2>
                   }
-                  <header>
-                    <p className="post-meta">
-                      <span className="subtitle is-size-5 is-block">
-                        {post.frontmatter.date}
-                      </span>
-                    </p>
-                  </header>
                   <p>{post.frontmatter.title}</p>
-
+                    <p className="post-meta">
+                        {post.frontmatter.date}
+                  </p>
+                  {post.frontmatter.location && 
+                    <h2>{post.frontmatter.location}</h2>
+                  }
                 </article>
               </div>
             ))}

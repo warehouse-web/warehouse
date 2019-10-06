@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
 import Img from 'gatsby-image'
+import DivOverlay from '../templates/DivOverlay'
 
 
 class PodcastRoll extends React.Component {
@@ -34,6 +35,8 @@ class PodcastRoll extends React.Component {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
     return (
+      <>
+      <DivOverlay />
       <div className="wrapper">
         <div className="article-list">
           {posts &&
@@ -43,18 +46,17 @@ class PodcastRoll extends React.Component {
                   onClick={() => this.openPodcast(post)}
                   className={`blog-list-item post`}
                 >
-                  <h1>Podcast</h1>
+                  <h2 className='post-type'>Podcast</h2>
                   <header>
                     <p className="post-meta">
                       {/* <Link
                         className="title has-text-primary is-size-4"
                         to={post.fields.slug}
                       >
+                    </Link> */}
                         {post.frontmatter.title}
-                      </Link> */}
-                      {/* <span> &bull; </span> */}
                       <span className="subtitle is-size-5 is-block">
-                        {post.frontmatter.date}
+                        {/* {post.frontmatter.date} */}
                       </span>
                         {post.frontmatter.location}
                     </p>
@@ -70,6 +72,8 @@ class PodcastRoll extends React.Component {
 
       {this.state.showPodcastDetail && (
           <div className="article-detail">
+            <a href='#' className='close' onClick={() => setShowEventDetail(false)}></a>
+
             <h2 className="article-detail-title">{this.state.activePodcast.frontmatter.title}</h2>
             {this.state.activePodcast.frontmatter.image &&
               <div className="article-image-wrapper">
@@ -82,6 +86,7 @@ class PodcastRoll extends React.Component {
           </div>
       )}
       </div>
+      </>
     )
   }
 }
@@ -118,14 +123,7 @@ export default () => (
                 podcastURL
                 image {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 620, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }

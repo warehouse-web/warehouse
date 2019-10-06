@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
 import Img from 'gatsby-image'
+import DivOverlay from '../templates/DivOverlay'
 
 
 class ShopRoll extends React.Component {
@@ -31,6 +32,8 @@ class ShopRoll extends React.Component {
     const { data } = this.props
     const { edges: products } = data.allMarkdownRemark
     return (
+      <>
+      <DivOverlay/>
       <div className="wrapper">
         <div className="article-list">
           {products &&
@@ -40,7 +43,7 @@ class ShopRoll extends React.Component {
                   onClick={() => this.openProduct(product)}
                   className={`blog-list-item post`}
                 >
-                  <h1>Product</h1>
+                  <h2 className='post-type'>Shop</h2>
                   <header>
                     <p className="post-meta">
                       {product.frontmatter.title}
@@ -64,6 +67,8 @@ class ShopRoll extends React.Component {
 
       {this.state.showProductDetail && (
           <div className="article-detail">
+            <a href='#' className='close'  onClick={() => setShowEventDetail(false)}></a>
+
             <h2 className="article-detail-title">{this.state.activeProduct.frontmatter.title}</h2>
             {this.state.activeProduct.frontmatter.image &&
               <div className="article-image-wrapper">
@@ -75,6 +80,7 @@ class ShopRoll extends React.Component {
           </div>
       )}
       </div>
+      </>
     )
   }
 }
@@ -109,14 +115,7 @@ export default () => (
                 description
                 image {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 620, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }
