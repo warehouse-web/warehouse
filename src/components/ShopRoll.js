@@ -19,15 +19,12 @@ class ShopRoll extends React.Component {
       product.frontmatter.title,
       `?product=${product.frontmatter.title}`
     );
-    // podcast.target
-    if (product !== !this.state.activeProduct) {
       this.setState(
         {
           activeProduct: product,
           showProductDetail: true,
         }
       );
-    }
   }
 
   render() {
@@ -40,7 +37,7 @@ class ShopRoll extends React.Component {
             products.map(({ node: product }) => (
               <div key={product.id}>
                 <article
-                  onClick={() => openProduct(product)}
+                  onClick={() => this.openProduct(product)}
                   className={`blog-list-item post`}
                 >
                   <h1>Product</h1>

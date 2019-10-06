@@ -13,7 +13,7 @@ class EventRoll extends React.Component {
   }
 
   openEvent = (event) => {
-    event && window.history.pushState( {page: 1}, event.frontmatter.title, `?event=${event.frontmatter.title}`)
+    event && window.history.pushState( {page: 1}, event.frontmatter.title, event.fields.slug)
       this.setState(
         {
           activeEvent: event,
@@ -36,6 +36,7 @@ class EventRoll extends React.Component {
                   onClick={() => this.openEvent(post)}
                   className={`blog-list-item post`}
                 >
+                  {console.log('posts', post)}
                   {post.frontmatter.date && 
                     isDateBeforeToday(post) && 
                       <h2>Past Event</h2>
@@ -52,7 +53,6 @@ class EventRoll extends React.Component {
                       >
                         {post.frontmatter.title}
                       </Link> */}
-                      <span> &bull; </span>
                       <span className="subtitle is-size-5 is-block">
                         {post.frontmatter.date}
                       </span>
