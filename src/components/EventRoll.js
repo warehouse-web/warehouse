@@ -55,6 +55,9 @@ class EventRoll extends React.Component {
                 </article>
               </div>
             ))}
+            {/* { !posts && 
+              <h1>No Events To Show ... Yet</h1>
+            } */}
       </div>
 
       {this.state.showEventDetail && (

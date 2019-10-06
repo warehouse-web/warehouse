@@ -43,6 +43,7 @@ const divOverlay = (currImg) => {
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={{background: "blue"}}></div>
             <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={{background: "transparent"}}></div>

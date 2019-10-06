@@ -89,8 +89,18 @@ export const IndexPage = ({ data }) => {
       let imgUrl = post.frontmatter.image.childImageSharp.fluid.src
       setDivStyle({backgroundImage: 'url(' + imgUrl + ')'})
     }
+  }
 
+  const isDateBeforeToday = (post) => {
+    let now = new Date();
+    let postDate = Date.parse(post.frontmatter.date)
+    let currDate = Date.parse(new Date())
+    // return Date.parse(post.frontmatter.date)
+    console.log('post date is before', postDate - currDate < 0)
+    // console.log('current date', currDate)
+    return postDate - currDate < 0
 
+    // return new Date(post.frontmatter.date.toDateString()) < new Date(new Date().toDateString());
   }
 
   const [scrollY, setscrollY] = useState(0)
@@ -119,9 +129,20 @@ export const IndexPage = ({ data }) => {
           {posts &&
             posts.map (({node:post}) => (
               <div
-                key = {post.id}
-                onPointerEnter = {() => renderImg(post)}
+              key = {post.id}
+              onPointerEnter = {() => renderImg(post)}
               >
+              {/* { post.frontmatter.date && 
+                Date.parse(post.frontmatter.date) - Date.parse(new Date()) < 0 
+                (<p>worked</p>)
+              } */}
+              {post.frontmatter.date && isDateBeforeToday(post) && 
+
+                <h2>Past Event</h2>
+              }
+              {post.frontmatter.date && !isDateBeforeToday(post) && 
+                <h2>Upcoming Event</h2>
+              }
                 <article
                   onClick={() => openEvent(post)}
                   className={`blog-list-item tile is-child`}

@@ -62,6 +62,9 @@ class PodcastRoll extends React.Component {
                 </article>
               </div>
             ))}
+            { !posts && 
+              <h1>No Podcasts To Show ... Yet</h1>
+            }
       </div>
 
       {this.state.showPodcastDetail && (

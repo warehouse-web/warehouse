@@ -60,6 +60,9 @@ class ShopRoll extends React.Component {
                 </article>
               </div>
             ))}
+            {/* { products === null && 
+              <h1>No Products To Show ... Yet</h1>
+            } */}
       </div>
 
       {this.state.showProductDetail && (

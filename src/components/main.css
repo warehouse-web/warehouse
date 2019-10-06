@@ -1,12 +1,17 @@
 .article-detail {
 	flex: 0 0 50%;
-	background-color: red;
+	background-color: lightblue;
 	z-index: 10;
+	position: fixed;
+	right: 0;
+	width: 50%;
+	height: 100vh;
 }
 
 .article-list {
 	/* width:50%; */
 	flex: 0 0 50%;
+	background-blend-mode: screen;
 }
 .article-detail-title {
 	text-align: center;
@@ -77,11 +82,14 @@
 	width: 20px;
 	float: left;
 	background-color: black;
+	background-image: linear-gradient(to right, #000000 0%, #ffffff 100%);
 	background-attachment: fixed;
 	background-position-x: 30%;
 	background-position-y: 20%;
 	background-repeat: no-repeat;
 	display: inline-block;
+	mix-blend-mode: difference;
+	background-blend-mode: screen;
 }
 
 .close {
