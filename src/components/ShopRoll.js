@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
 import Img from 'gatsby-image'
+import DivOverlay from '../templates/DivOverlay'
 
 
 class ShopRoll extends React.Component {
@@ -19,30 +20,30 @@ class ShopRoll extends React.Component {
       product.frontmatter.title,
       `?product=${product.frontmatter.title}`
     );
-    // podcast.target
-    if (product !== !this.state.activeProduct) {
       this.setState(
         {
           activeProduct: product,
           showProductDetail: true,
         }
       );
-    }
   }
 
   render() {
     const { data } = this.props
     const { edges: products } = data.allMarkdownRemark
     return (
+      <>
+      <DivOverlay/>
       <div className="wrapper">
         <div className="article-list">
           {products &&
             products.map(({ node: product }) => (
               <div key={product.id}>
                 <article
-                  onClick={() =>this.openProduct(product)}
-                  className={`blog-list-item tile is-child`}
+                  onClick={() => this.openProduct(product)}
+                  className={`blog-list-item post`}
                 >
+                  <h2 className='post-type'>Shop</h2>
                   <header>
                     <p className="post-meta">
                       {product.frontmatter.title}
@@ -52,7 +53,6 @@ class ShopRoll extends React.Component {
                       >
                         {post.frontmatter.title}
                       </Link> */}
-                      {/* <span> &bull; </span> */}
 
                     </p>
                   </header>
@@ -60,10 +60,15 @@ class ShopRoll extends React.Component {
                 </article>
               </div>
             ))}
+            {/* { products === null && 
+              <h1>No Products To Show ... Yet</h1>
+            } */}
       </div>
 
       {this.state.showProductDetail && (
           <div className="article-detail">
+            <a href='#' className='close'  onClick={() => setShowEventDetail(false)}></a>
+
             <h2 className="article-detail-title">{this.state.activeProduct.frontmatter.title}</h2>
             {this.state.activeProduct.frontmatter.image &&
               <div className="article-image-wrapper">
@@ -75,6 +80,7 @@ class ShopRoll extends React.Component {
           </div>
       )}
       </div>
+      </>
     )
   }
 }
@@ -109,14 +115,7 @@ export default () => (
                 description
                 image {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 620, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }

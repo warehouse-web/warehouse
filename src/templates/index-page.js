@@ -41,12 +41,11 @@ export const IndexPageTemplate = ({
   }),
 }
 
-
+// let initFlexWidthPx = window.innerWidth;
 let initFlexWidthPx = 620;
     let shiftRatio = 0.5;
 
 export const relayout = () => {
-    console.log('went inside')
     setWidth(getPos());
 }
 
@@ -74,6 +73,12 @@ const getPos = () => {
     }
 }
 
+export const isDateBeforeToday = (post) => {
+  let postDate = Date.parse(post.frontmatter.date)
+  let currDate = Date.parse(new Date())
+  console.log('went inside')
+  return postDate - currDate < 0
+}
 
 export const IndexPage = ({ data }) => {
   const {edges: posts} = data.allMarkdownRemark
@@ -86,19 +91,14 @@ export const IndexPage = ({ data }) => {
     setNextImg(!nextImg);
   }
   const renderImg = (post) => {
-    // handleHover()
     if ( post.frontmatter.image && post.frontmatter.image.childImageSharp.fluid.src){
       let imgUrl = post.frontmatter.image.childImageSharp.fluid.src
-      // let imgUrl = nextImg ? post.frontmatter.image.childImageSharp.fluid.src : ''
       setDivStyle({backgroundImage: 'url(' + imgUrl + ')'})
-
-      console.log('divStyle:', divStyle)
     }
-
-
   }
 
-  const [scrollY, setscrollY] = useState(0)
+  
+
   useEffect(() => {
     window.addEventListener('scroll', relayout)
     return () => {
@@ -115,36 +115,62 @@ export const IndexPage = ({ data }) => {
     setActiveEvent({event})
     setShowEventDetail(true)
   }
+
+  const postType = (post) => {
+    switch(post.frontmatter.templateKey) {
+      case 'blog-post':
+        return 'Event';
+      case 'podcast-page':
+        return 'Podcast';
+      case 'product-page':
+        return 'Product';
+      default:
+        return null;
+    }
+  }
   return (
     <Layout >
       <DivOverlay currImg={divStyle}/>
+
       <div className="wrapper">
         <div onScroll = {()=> relayout() } className="article-list">
           {posts &&
             posts.map (({node:post}) => (
               <div
-                key = {post.id}
-                onPointerEnter = {() => renderImg(post)}
+              key = {post.id}
+              onPointerEnter = {() => renderImg(post)}
               >
                 <article
                   onClick={() => openEvent(post)}
-                  className={`blog-list-item tile is-child`}
+                  className={`blog-list-item post`}
                 >
-                  <header>
-                    <p className="post-meta">
-                      <span className="subtitle is-size-5 is-block">
-                        {post.frontmatter.date}
-                      </span>
-                    </p>
-                  </header>
+                  {post.frontmatter.date && 
+                    post.frontmatter.templateKey === 'blog-post' && 
+                    isDateBeforeToday(post) && 
+                      <h2 className='post-type'>Past {postType(post)}</h2>
+                  }
+                  {post.frontmatter.date && 
+                    post.frontmatter.templateKey === 'blog-post' && 
+                    !isDateBeforeToday(post) && 
+                      <h2 className='post-type'>Upcoming {postType(post)}</h2>
+                  }
+                  {post.frontmatter.templateKey !== 'blog-post' &&
+                    <h2 className='post-type'>{postType(post)}</h2>
+                  }
                   <p>{post.frontmatter.title}</p>
-
+                    <p className="post-meta">
+                        {post.frontmatter.date}
+                  </p>
+                  {post.frontmatter.location && 
+                    <h2>{post.frontmatter.location}</h2>
+                  }
                 </article>
               </div>
             ))}
         </div>
       {showEventDetail && (
         <div className="article-detail">
+          <a href='#' className='close'  onClick={() => setShowEventDetail(false)}></a>
           <h2 className="article-detail-title">
             {activeEvent.event.frontmatter.title}
           </h2>

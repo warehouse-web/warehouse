@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
 import Img from 'gatsby-image'
+import DivOverlay from '../templates/DivOverlay'
 
 
 class PodcastRoll extends React.Component {
@@ -24,7 +25,7 @@ class PodcastRoll extends React.Component {
       this.setState(
         {
           activePodcast: podcast,
-          showPodcastDetail: !this.state.showPodcastDetail,
+          showPodcastDetail: true,
         }
       );
     }
@@ -34,26 +35,28 @@ class PodcastRoll extends React.Component {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
     return (
+      <>
+      <DivOverlay />
       <div className="wrapper">
         <div className="article-list">
           {posts &&
             posts.map(({ node: post }) => (
               <div key={post.id}>
                 <article
-                  onClick={() =>this.openPodcast(post)}
-                  className={`blog-list-item tile is-child`}
+                  onClick={() => this.openPodcast(post)}
+                  className={`blog-list-item post`}
                 >
+                  <h2 className='post-type'>Podcast</h2>
                   <header>
                     <p className="post-meta">
                       {/* <Link
                         className="title has-text-primary is-size-4"
                         to={post.fields.slug}
                       >
+                    </Link> */}
                         {post.frontmatter.title}
-                      </Link> */}
-                      {/* <span> &bull; </span> */}
                       <span className="subtitle is-size-5 is-block">
-                        {post.frontmatter.date}
+                        {/* {post.frontmatter.date} */}
                       </span>
                         {post.frontmatter.location}
                     </p>
@@ -62,22 +65,28 @@ class PodcastRoll extends React.Component {
                 </article>
               </div>
             ))}
+            { !posts && 
+              <h1>No Podcasts To Show ... Yet</h1>
+            }
       </div>
 
       {this.state.showPodcastDetail && (
           <div className="article-detail">
+            <a href='#' className='close' onClick={() => setShowEventDetail(false)}></a>
+
             <h2 className="article-detail-title">{this.state.activePodcast.frontmatter.title}</h2>
             {this.state.activePodcast.frontmatter.image &&
               <div className="article-image-wrapper">
                 <Img className ="article-detail-image" fluid={this.state.activePodcast.frontmatter.image.childImageSharp.fluid} />
               </div>
             }
-            <iframe title={this.state.activePodcast.id} width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" + this.state.activePodcast.frontmatter.podcastURL + "&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"}></iframe>
+            <iframe title={this.state.activePodcast.id} width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" + this.state.activePodcast.frontmatter.podcastURL + "&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"}/>
             <p className="post-detail-description">{this.state.activePodcast.frontmatter.description}</p>
             <p className="post-detail-description">{this.state.activePodcast.frontmatter.body}</p>
           </div>
       )}
       </div>
+      </>
     )
   }
 }
@@ -114,14 +123,7 @@ export default () => (
                 podcastURL
                 image {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 620, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }

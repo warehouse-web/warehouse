@@ -31,7 +31,8 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Podcast Name", name: "title", widget: "string"}
       - {label: "Podcast Date", name: "date", widget: "datetime"}
-      - {label: "Podcast Url", name: "podcastURL", widget: "string" }
+      - {label: "Podcast ID (9 Numbers)", name: "podcastURL", widget: "number", valueType: "int" }
+      - {label: "Podcast Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 

@@ -3,6 +3,9 @@ import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
 import Img from 'gatsby-image'
+import {isDateBeforeToday} from '../templates/index-page'
+import DivOverlay from '../templates/DivOverlay'
+
 
 class EventRoll extends React.Component {
 
@@ -12,11 +15,11 @@ class EventRoll extends React.Component {
   }
 
   openEvent = (event) => {
-    event && window.history.pushState( {page: 1}, event.frontmatter.title, `?event=${event.frontmatter.title}`)
+    event && window.history.pushState( {page: 1}, event.frontmatter.title, event.fields.slug)
       this.setState(
         {
           activeEvent: event,
-          showEventDetail: !this.state.showEventDetail,
+          showEventDetail: true,
         }
       );
 
@@ -26,26 +29,34 @@ class EventRoll extends React.Component {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
     return (
+      <>
+      <DivOverlay/>
       <div className="wrapper">
         <div className="article-list">
           {posts &&
             posts.map(({ node: post }) => (
               <div key={post.id}>
                 <article
-                  onClick={() =>this.openEvent(post)}
-                  className={`blog-list-item tile is-child`}
+                  onClick={() => this.openEvent(post)}
+                  className={`blog-list-item post`}
                 >
+                  {post.frontmatter.date && 
+                    isDateBeforeToday(post) && 
+                      <h2 className='post-type'>Past Event</h2>
+                  }
+                  {post.frontmatter.date && 
+                    !isDateBeforeToday(post) && 
+                      <h2 className='post-type'>Upcoming Event</h2>
+                  }
                   <header>
                     <p className="post-meta">
-                      Upcoming Event
                       {/* <Link
                         className="title has-text-primary is-size-4"
                         to={post.fields.slug}
                       >
-                        {post.frontmatter.title}
-                      </Link> */}
-                      <span> &bull; </span>
-                      <span className="subtitle is-size-5 is-block">
+                    </Link> */}
+                    {post.frontmatter.title}
+                      <span className="is-block">
                         {post.frontmatter.date}
                       </span>
                         {post.frontmatter.location}
@@ -55,10 +66,14 @@ class EventRoll extends React.Component {
                 </article>
               </div>
             ))}
+            {/* { !posts && 
+              <h1>No Events To Show ... Yet</h1>
+            } */}
       </div>
 
       {this.state.showEventDetail && (
           <div className="article-detail">
+            <a href='#' className='close'  onClick={() => setShowEventDetail(false)}></a>
             <h2 className="article-detail-title">{this.state.activeEvent.frontmatter.title}</h2>
             {this.state.activeEvent.frontmatter.image &&
               <div className="article-image-wrapper">
@@ -70,6 +85,7 @@ class EventRoll extends React.Component {
           </div>
       )}
       </div>
+      </>
     )
   }
 }
@@ -105,14 +121,7 @@ export default () => (
                 description
                 image {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 620, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }
