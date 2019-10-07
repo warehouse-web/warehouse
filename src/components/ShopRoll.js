@@ -60,7 +60,7 @@ class ShopRoll extends React.Component {
                 </article>
               </div>
             ))}
-            {/* { products === null && 
+            {/* { products === null &&
               <h1>No Products To Show ... Yet</h1>
             } */}
       </div>
@@ -75,8 +75,8 @@ class ShopRoll extends React.Component {
                 <Img className ="article-detail-image" fluid={this.state.activeProduct.frontmatter.image.childImageSharp.fluid} />
               </div>
             }
-            <p className="post-detail-description">{this.state.activeProduct.frontmatter.description}</p>
-            <p className="post-detail-description">{this.state.activeProduct.frontmatter.body}</p>
+            <p className="article-detail-description">{this.state.activeProduct.frontmatter.description}</p>
+            <p className="article-detail-description">{this.state.activeProduct.frontmatter.body}</p>
           </div>
       )}
       </div>

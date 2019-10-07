@@ -27,28 +27,28 @@ export const BlogPostTemplate = ({
               textAlign:'center',
               fontSize:'2em',
               marginBottom: '.7em'
-            }} className="post-detail-title">
+            }} className="article-detail-title">
               {title}
             </h2>
             <div style={{
               display: 'flex',
             }}
 
-            className="post-image-wrapper">
+            className="article-image-wrapper">
               <img
               alt =''
               style ={{
                 maxWidth: '80%',
                 margin: '0 auto',
               }}
-               className="post-detail-image" src={image}/>
+               className="article-detail-image" src={image}/>
             </div>
             <p style ={{
               marginTop: '2em',
               textAlign: 'center',
             }}
 
-             className="post-detail-description">{description}</p>
+             className="article-detail-description">{description}</p>
             {location && (
 
               <p>Location: {location}</p>

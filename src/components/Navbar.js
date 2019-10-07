@@ -37,7 +37,6 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
           <div className="navbar-brand ">
             {/* <Link to="/about" className="right" title="Logo">
               WAREHOUSE
@@ -73,12 +72,11 @@ const Navbar = class extends React.Component {
 
             </div>
             <div className="navbar-end has-text-centered">
-              <Link to="/about" className="right" title="Logo">
+              <Link to="/about" className="navbar-item right" title="Logo">
                 WAREHOUSE
               </Link>
             </div>
           </div>
-        </div>
       </nav>
     )
   }

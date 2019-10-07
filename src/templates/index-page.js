@@ -97,7 +97,12 @@ export const IndexPage = ({ data }) => {
     }
   }
 
-  
+  const removeImg = () => {
+    setDivStyle({backgroundImage: 'none'})
+    console.log('ran')
+  }
+
+
 
   useEffect(() => {
     window.addEventListener('scroll', relayout)
@@ -123,7 +128,7 @@ export const IndexPage = ({ data }) => {
       case 'podcast-page':
         return 'Podcast';
       case 'product-page':
-        return 'Product';
+        return 'Shop';
       default:
         return null;
     }
@@ -139,19 +144,20 @@ export const IndexPage = ({ data }) => {
               <div
               key = {post.id}
               onPointerEnter = {() => renderImg(post)}
+              onPointerLeave = {() => removeImg() }
               >
                 <article
                   onClick={() => openEvent(post)}
-                  className={`blog-list-item post`}
+                  className={`post`}
                 >
-                  {post.frontmatter.date && 
-                    post.frontmatter.templateKey === 'blog-post' && 
-                    isDateBeforeToday(post) && 
+                  {post.frontmatter.date &&
+                    post.frontmatter.templateKey === 'blog-post' &&
+                    isDateBeforeToday(post) &&
                       <h2 className='post-type'>Past {postType(post)}</h2>
                   }
-                  {post.frontmatter.date && 
-                    post.frontmatter.templateKey === 'blog-post' && 
-                    !isDateBeforeToday(post) && 
+                  {post.frontmatter.date &&
+                    post.frontmatter.templateKey === 'blog-post' &&
+                    !isDateBeforeToday(post) &&
                       <h2 className='post-type'>Upcoming {postType(post)}</h2>
                   }
                   {post.frontmatter.templateKey !== 'blog-post' &&
@@ -161,7 +167,7 @@ export const IndexPage = ({ data }) => {
                     <p className="post-meta">
                         {post.frontmatter.date}
                   </p>
-                  {post.frontmatter.location && 
+                  {post.frontmatter.location &&
                     <h2>{post.frontmatter.location}</h2>
                   }
                 </article>

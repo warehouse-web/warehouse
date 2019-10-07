@@ -1,7 +1,7 @@
 import React from 'react'
 import '../components/main.css'
 
-let initFlexWidthPx = 620;
+let initFlexWidthPx = 640;
     let shiftRatio = 0.1;
 
 export const relayout = () => {
@@ -43,7 +43,7 @@ const DivOverlay = (currImg) => {
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
             <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={{background: "blue"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
             <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={{background: "transparent"}}></div>

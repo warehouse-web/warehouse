@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
@@ -8,20 +8,70 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
+    <div className="about-wrapper">
+      {/* <a href='#' className='close'  onClick={() => setShowEventDetail(false)}></a> */}
+      <Link activeClassName="active" className='close' to="/" />
+
+      <div className="about-left">
+
+              <h2 className="about-title">
+                {/* {title} */}
+                Warehouse <br/> A place for clothes in context
+                {/* <br/> */}
+                {/* <span className='about-title'>A place for clothes in context</span> */}
+                <span className='about-caps'>SHOWS, READS, SHARES, LISTENS, PERFORMS, DOCUMENTS, PRESENTS, EDUCATES, ACTIVATES, MATTERS</span>
               </h2>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
+
+              {/* <PageContent className="content" content={content} /> */}
       </div>
-    </section>
+      <div className="about-right">
+        <p className='about-description'>Warehouse is an Amsterdam-based collective existing of Elisa van Joolen, Femke de Vries and Hanka van der Voet aiming to provide a platform for critical fashion practitioners through organizing exhibitions, reading groups, workshops, performances and book presentations among other things, in order to create an engaging environment that facilitates critical dialogue and the creation of an alternative fashion discourse that goes beyond seeing fashion as a commodity.</p>
+        <ul className='colophon'>
+          <li>
+            CONTACT
+            <li>mail@thisiswarehouse.com</li>
+          </li>
+          <li>
+            INSTAGRAM
+            <li>@amsterdam.warehouse</li>
+          </li>
+          <li>
+            WEBSITE DESIGN
+            <li>Zuzana Kostelanska</li>
+          </li>
+          <li>
+            GRAPHIC DESIGN
+            <li>Zuzana Kostelanska</li>
+          </li>
+          <li>
+            ART DIRECTION
+            <li>Elisa van Joolen</li>
+          </li>
+          <li>
+            TEXT
+            <li>Femke de Vries</li>
+            <li>Hanka van der Voet</li>
+            <li>Chet Bugter</li>
+          </li>
+          <li>
+            EDITING
+            <li>Femke de Vries</li>
+            <li>Hanka van der Voet</li>
+          </li>
+          <li>
+            PRODUCTION
+            <li>Anouk Beckers</li>
+          </li>
+          <li>
+            COMMUNICATION
+            <li>Schoon de Boer</li>
+          </li>
+        </ul>
+        <p className='about-description'>Warehouse is made possible through the financial support of Stimuleringsfonds Creatieve Industrie</p>
+        <p className='about-description'>2019 Warehouse</p>
+        <p className='about-copyright'>No Rights etc.....</p>
+      </div>
+    </div>
   )
 }
 
