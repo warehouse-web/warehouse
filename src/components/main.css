@@ -36,10 +36,10 @@ p {
 }
 
 .navbar-item.active {
-	border: 1px solid red;
-	border-radius: 49%/100%;
+	border: 1px solid black;
+	border-radius: 70px;
 }
-/* 
+/*
 .navbar-item:focus {
 	border: 1px solid black;
 	border-radius: 49%/100%;

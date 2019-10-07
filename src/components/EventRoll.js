@@ -40,12 +40,12 @@ class EventRoll extends React.Component {
                   onClick={() => this.openEvent(post)}
                   className={`blog-list-item post`}
                 >
-                  {post.frontmatter.date && 
-                    isDateBeforeToday(post) && 
+                  {post.frontmatter.date &&
+                    isDateBeforeToday(post) &&
                       <h2 className='post-type'>Past Event</h2>
                   }
-                  {post.frontmatter.date && 
-                    !isDateBeforeToday(post) && 
+                  {post.frontmatter.date &&
+                    !isDateBeforeToday(post) &&
                       <h2 className='post-type'>Upcoming Event</h2>
                   }
                   <header>
@@ -66,14 +66,14 @@ class EventRoll extends React.Component {
                 </article>
               </div>
             ))}
-            {/* { !posts && 
+            {/* { !posts &&
               <h1>No Events To Show ... Yet</h1>
             } */}
       </div>
 
       {this.state.showEventDetail && (
           <div className="article-detail">
-            <a href='#' className='close'  onClick={() => setShowEventDetail(false)}></a>
+            <a href='#' className='close'  onClick={() => this.setState({showEventDetail: false})}></a>
             <h2 className="article-detail-title">{this.state.activeEvent.frontmatter.title}</h2>
             {this.state.activeEvent.frontmatter.image &&
               <div className="article-image-wrapper">
