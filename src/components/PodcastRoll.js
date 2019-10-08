@@ -130,6 +130,7 @@ export default () => (
                 location
                 description
                 podcastURL
+                body
                 image {
                   childImageSharp {
                     fluid(maxWidth: 620, quality: 100) {

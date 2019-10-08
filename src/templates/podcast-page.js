@@ -118,6 +118,7 @@ const Podcast = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         podcastURL = {post.frontmatter.podcastURL}
+        body = {post.frontmatter.body}
       />
     </Layout>
   )
@@ -141,6 +142,7 @@ export const pageQuery = graphql`
         title
         description
         podcastURL
+        body
         image {
           childImageSharp {
             fluid(maxWidth: 120, quality: 100) {
