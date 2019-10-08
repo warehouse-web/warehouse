@@ -26,15 +26,16 @@ collections:
     folder: "src/pages/podcast"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    identifier_field: podcast
     fields:
-      - {
-          label: "Template Key", 
-          name: "templateKey", 
-          widget: "hidden", 
-          default: "podcast-page"
-        }
-      - {label: "Podcast", name: "podcast", widget: "object", fields: [{label: "Podcast Name", name: "title", widget: "string"},{label: "Podcast Description", name: "description", widget: "markdown"},{label: "Podcast ID (9 Numbers)", name: "podcastURL", widget: "number", valueType: "int" },{label: "Podcast Date", name: "date", widget: "datetime"},{label: "Tags", name: "tags", widget: "list"}]}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "podcast-page"}
+      - {label: Title, name: title, widget: string}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Podcast Name", name: "title", widget: "string"}
+      - {label: "Podcast Date", name: "date", widget: "datetime"}
+      - {label: "Podcast ID (9 Numbers)", name: "podcastURL", widget: "number", valueType: "int" }
+      - {label: "Podcast Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "pages"
     label: "Pages"
