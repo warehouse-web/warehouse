@@ -6,7 +6,6 @@ import Img from 'gatsby-image'
 import {isDateBeforeToday} from '../templates/index-page'
 import DivOverlay from '../templates/DivOverlay'
 
-
 class EventRoll extends React.Component {
 
   state = {
@@ -73,7 +72,13 @@ class EventRoll extends React.Component {
 
       {this.state.showEventDetail && (
           <div className="article-detail">
-            <a href='#' className='close'  onClick={() => this.setState({showEventDetail: false})}></a>
+            {/* Close Button */}
+            <div className='close'
+              onClick={() => this.setState({showEventDetail: false})}
+              >
+                <span></span>
+                <span></span>
+            </div>
             <h2 className="article-detail-title">{this.state.activeEvent.frontmatter.title}</h2>
             {this.state.activeEvent.frontmatter.image &&
               <div className="article-image-wrapper">

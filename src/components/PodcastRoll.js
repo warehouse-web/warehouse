@@ -72,7 +72,15 @@ class PodcastRoll extends React.Component {
 
       {this.state.showPodcastDetail && (
           <div className="article-detail">
-            <a href='#' className='close' onClick={() => setShowEventDetail(false)}></a>
+            {/* <span className='close' onClick={() => this.setState({showPodcastDetail: false})}></span> */}
+
+            {/* Close Button */}
+             <div className='close'
+              onClick={() => this.setState({showPodcastDetail: false})}
+              >
+                <span></span>
+                <span></span>
+              </div>
 
             <h2 className="article-detail-title">{this.state.activePodcast.frontmatter.title}</h2>
             {this.state.activePodcast.frontmatter.image &&

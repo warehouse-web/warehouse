@@ -76,7 +76,6 @@ const getPos = () => {
 export const isDateBeforeToday = (post) => {
   let postDate = Date.parse(post.frontmatter.date)
   let currDate = Date.parse(new Date())
-  console.log('went inside')
   return postDate - currDate < 0
 }
 
@@ -176,7 +175,13 @@ export const IndexPage = ({ data }) => {
         </div>
       {showEventDetail && (
         <div className="article-detail">
-          <a href='#' className='close'  onClick={() => setShowEventDetail(false)}></a>
+          <div className='close'
+            onClick={() => setShowEventDetail(false)}
+          >
+            <span></span>
+            <span></span>
+          </div>
+          {/* <a href='#' className='close'  onClick={() => setShowEventDetail(false)}></a> */}
           <h2 className="article-detail-title">
             {activeEvent.event.frontmatter.title}
           </h2>

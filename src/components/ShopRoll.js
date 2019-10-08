@@ -10,10 +10,11 @@ class ShopRoll extends React.Component {
 
   state = {
     activeProduct: {},
-    showProducttDetail: false,
+    showProductDetail: false,
   }
 
   openProduct = (product) => {
+    console.log('called in here')
     product &&
     window.history.pushState(
       {page: 1},
@@ -60,15 +61,17 @@ class ShopRoll extends React.Component {
                 </article>
               </div>
             ))}
-            {/* { products === null &&
-              <h1>No Products To Show ... Yet</h1>
-            } */}
       </div>
 
       {this.state.showProductDetail && (
           <div className="article-detail">
-            <a href='#' className='close'  onClick={() => setShowEventDetail(false)}></a>
-
+            {/* Close Button */}
+            <div className='close'
+              onClick={() => this.setState({showProductDetail: false})}
+            >
+              <span></span>
+              <span></span>
+            </div>
             <h2 className="article-detail-title">{this.state.activeProduct.frontmatter.title}</h2>
             {this.state.activeProduct.frontmatter.image &&
               <div className="article-image-wrapper">

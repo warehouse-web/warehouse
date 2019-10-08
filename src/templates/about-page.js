@@ -10,7 +10,15 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   return (
     <div className="about-wrapper">
       {/* <a href='#' className='close'  onClick={() => setShowEventDetail(false)}></a> */}
-      <Link activeClassName="active" className='close' to="/" />
+      {/* <Link activeClassName="active" className='close' to="/" /> */}
+      <Link
+      className='close'
+      id='white'
+      to = '/'
+            >
+              <span className='white'></span>
+              <span className='white'></span>
+      </Link>
 
       <div className="about-left">
 
