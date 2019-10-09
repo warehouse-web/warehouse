@@ -5,7 +5,7 @@ import './main.css'
 import Img from 'gatsby-image'
 import {isDateBeforeToday} from '../templates/index-page'
 import DivOverlay from '../templates/DivOverlay'
-// import Content, { HTMLContent } from '../components/Content'
+import Content, { HTMLContent } from '../components/Content'
 
 
 class EventRoll extends React.Component {
@@ -29,6 +29,9 @@ class EventRoll extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
+    const PostContent = HTMLContent || Content
+
+
     return (
       <>
       <DivOverlay/>
@@ -82,6 +85,8 @@ class EventRoll extends React.Component {
                 <span></span>
             </div>
             <h2 className="article-detail-title">{this.state.activeEvent.frontmatter.title}</h2>
+            {<PostContent className = 'content' content={this.state.activeEvent.html} />}
+
             {this.state.activeEvent.frontmatter.image &&
               <div className="article-image-wrapper">
                 <Img className ="article-detail-image" fluid={this.state.activeEvent.frontmatter.image.childImageSharp.fluid} />
@@ -114,7 +119,7 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              html
               id
               fields {
                 slug

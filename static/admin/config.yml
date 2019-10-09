@@ -27,12 +27,10 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "podcast-page"}
-      - {label: "Image", name: "image", widget: "image"}
       - {label: "Podcast Name", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Podcast Date", name: "date", widget: "datetime"}
       - {label: "Podcast ID (9 Numbers)", name: "podcastURL", widget: "number", valueType: "int" }
-      - {label: "Podcast Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "product"

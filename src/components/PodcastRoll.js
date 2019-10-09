@@ -22,7 +22,6 @@ class PodcastRoll extends React.Component {
       podcast.frontmatter.title,
       `?podcast=${podcast.frontmatter.title}`
     );
-      console.log('HELLLLOOOOOOO')
     if (podcast !== !!this.state.activePodcast) {
       this.setState(
         {
@@ -92,16 +91,12 @@ class PodcastRoll extends React.Component {
                 <Img className ="article-detail-image" fluid={this.state.activePodcast.frontmatter.image.childImageSharp.fluid} />
               </div>
             }
-          {console.log(this.state.activePodcast)}
-          {<PostContent className = 'content' content={this.state.activePodcast.html} />}
-          {/* {<PostContent content = {activeEvent.event.html} />} */}
+            {<PostContent className = 'content' content={this.state.activePodcast.html} />}
 
             {this.state.activePodcast.excerpt}
             <iframe title={this.state.activePodcast.id} width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" + this.state.activePodcast.frontmatter.podcastURL + "&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"}/>
-            {console.log('podcast frontmatter',this.state.activePodcast.frontmatter)}
-            <p className="article-detail-description">{this.state.activePodcast.frontmatter.description}</p>
           </div>
-      )}
+        )}
       </div>
       </>
     )
@@ -136,7 +131,6 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 location
-                description
                 podcastURL
                 image {
                   childImageSharp {

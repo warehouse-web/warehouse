@@ -31,10 +31,13 @@ export const EventPostTemplate = ({
             }}>
               {title}
             </h2>
-            <PostContent style={{
-              textAlign:'center',
-              margin: '0 auto'
-            }} content={content} />
+            <PostContent
+             style = {{
+               justifyContent: 'left',
+               textAlign:'left',
+               margin: '3.8em',
+               marginTop: '1.5rem'
+             }} className='content' content={content} />
             {location && (
               <p>{location}</p>
             )}
