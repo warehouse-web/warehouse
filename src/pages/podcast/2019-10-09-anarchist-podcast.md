@@ -10,16 +10,12 @@ tags:
 ---
 Bodcast Markup Description
 
-## h2 description 
+## h2 description
 
 # h1 description
 
-
-
 image with space
 
-
-
-
-
 ![image alt](/img/cagatio.jpg "img title")
+
+Text under the image
