@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet'
 
 import Navbar from '../components/Navbar'
 import './all.sass'
+import './main.css'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from "gatsby"
 
@@ -47,7 +48,6 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       <Navbar />
       <div>{children}</div>
-
     </div>
   )
 }

@@ -56,8 +56,6 @@ export const PodcastTemplate = ({
             <p>{date}</p>
 
             <PostContent content={content} />
-
-
             {/* Tag spot */}
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>

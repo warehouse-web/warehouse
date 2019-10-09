@@ -10,54 +10,34 @@ import '../components/main.css'
 export const EventPostTemplate = ({
   content,
   contentComponent,
-  description,
   location,
-  tags,
   date,
+  tags,
   title,
   helmet,
-  image,
 }) => {
   const PostContent = contentComponent || Content
+  console.log('content:', content)
+  console.log('date is it needed', date)
 
   return (
     <div className="event-detail">
       {helmet || ''}
             <h2 style={{
               textAlign:'center',
-              fontSize:'2em',
-              marginBottom: '.7em'
-            }} className="article-detail-title">
+              fontSize: '2em',
+              marginBottom: '.7em',
+              marginTop: '3rem',
+            }}>
               {title}
             </h2>
-            <div style={{
-              display: 'flex',
-            }}
-
-            className="article-image-wrapper">
-              <img
-              alt =''
-              style ={{
-                maxWidth: '80%',
-                margin: '0 auto',
-              }}
-               className="article-detail-image" src={image}/>
-            </div>
-            <p style ={{
-              marginTop: '2em',
-              textAlign: 'center',
-            }}
-
-             className="article-detail-description">{description}</p>
+            <PostContent style={{
+              textAlign:'center',
+              margin: '0 auto'
+            }} content={content} />
             {location && (
-
-              <p>Location: {location}</p>
+              <p>{location}</p>
             )}
-            <p>{date}</p>
-
-            <PostContent content={content} />
-
-
             {/* Tag spot */}
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -83,7 +63,7 @@ EventPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const EvenPost = ({ data }) => {
+const EventPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
@@ -91,30 +71,8 @@ const EvenPost = ({ data }) => {
       <EventPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
         location = {post.frontmatter.location}
         date = {post.frontmatter.date}
-        helmet={
-          <Helmet titleTemplate="%s | Evemt">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="date"
-              content={`${post.frontmatter.date}`}
-            />
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
-            <meta
-              name="location"
-              content={`${post.frontmatter.location}`}
-            />
-            <meta
-              name="image"
-              content={`${post.frontmatter.image}`}
-            />
-          </Helmet>
-        }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
@@ -136,17 +94,9 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         title
-        description
-        image {
-          childImageSharp {
-            fluid(maxWidth: 120, quality: 100) {
-              src
-            }
-          }
-        }
         location
+        date(formatString: "MMMM DD, YYYY")
         tags
       }
     }

@@ -8,69 +8,48 @@ import Content, { HTMLContent } from '../components/Content'
 import '../components/main.css'
 
 export const BlogPostTemplate = ({
+  title,
   content,
   contentComponent,
-  description,
   location,
   tags,
   date,
-  title,
-  helmet,
-  image,
 }) => {
   const PostContent = contentComponent || Content
 
   return (
     <div className="event-detail">
-      {helmet || ''}
-            <h2 style={{
-              textAlign:'center',
-              fontSize:'2em',
-              marginBottom: '.7em'
-            }} className="article-detail-title">
-              {title}
-            </h2>
-            <div style={{
-              display: 'flex',
-            }}
+      {/* {helmet || ''} */}
+      <h2 className="article-detail-title">
+      </h2>
+      <p style ={{
+        marginTop: '2em',
+        textAlign: 'center',
+      }}
 
-            className="article-image-wrapper">
-              <img
-              alt =''
-              style ={{
-                maxWidth: '80%',
-                margin: '0 auto',
-              }}
-               className="article-detail-image" src={image}/>
-            </div>
-            <p style ={{
-              marginTop: '2em',
-              textAlign: 'center',
-            }}
+        className="article-detail-description">{description}</p>
+      {location && (
 
-             className="article-detail-description">{description}</p>
-            {location && (
+        <p>Location: {location}</p>
+      )}
+      <p>{date}</p>
 
-              <p>Location: {location}</p>
-            )}
-            <p>{date}</p>
-
-            <PostContent content={content} />
+      <PostContent content={content} />
 
 
-            {/* Tag spot */}
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
+      {/* Tag spot */}
+      {tags && tags.length ? (
+        <div style={{ marginTop: `4rem` }}>
+          <h4>Tags</h4>
+          <ul className="taglist">
+            {tags.map(tag => (
+              <li key={tag + `tag`}>
+                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
     </div>
   )
 }

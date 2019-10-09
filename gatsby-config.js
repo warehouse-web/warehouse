@@ -32,12 +32,13 @@ module.exports = {
       },
     },
     'gatsby-plugin-sharp',
+    "gatsby-remark-embed-soundcloud",
+
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          "gatsby-remark-embed-soundcloud",
           {
             resolve: 'gatsby-remark-relative-images',
             options: {

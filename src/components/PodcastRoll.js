@@ -4,6 +4,7 @@ import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
 import Img from 'gatsby-image'
 import DivOverlay from '../templates/DivOverlay'
+import Content, { HTMLContent } from '../components/Content'
 
 
 class PodcastRoll extends React.Component {
@@ -21,20 +22,23 @@ class PodcastRoll extends React.Component {
       podcast.frontmatter.title,
       `?podcast=${podcast.frontmatter.title}`
     );
+      console.log('HELLLLOOOOOOO')
     if (podcast !== !!this.state.activePodcast) {
       this.setState(
         {
           activePodcast: podcast,
           showPodcastDetail: true,
         }
-      );
+        );
+      }
     }
-  }
 
-  render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
-    return (
+    render() {
+      const PostContent = HTMLContent || Content
+      const { data } = this.props
+      const { edges: posts } = data.allMarkdownRemark
+
+      return (
       <>
       <DivOverlay />
       <div className="wrapper">
@@ -88,6 +92,11 @@ class PodcastRoll extends React.Component {
                 <Img className ="article-detail-image" fluid={this.state.activePodcast.frontmatter.image.childImageSharp.fluid} />
               </div>
             }
+          {console.log(this.state.activePodcast)}
+          {<PostContent className = 'content' content={this.state.activePodcast.html} />}
+          {/* {<PostContent content = {activeEvent.event.html} />} */}
+
+            {this.state.activePodcast.excerpt}
             <iframe title={this.state.activePodcast.id} width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" + this.state.activePodcast.frontmatter.podcastURL + "&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"}/>
             {console.log('podcast frontmatter',this.state.activePodcast.frontmatter)}
             <p className="article-detail-description">{this.state.activePodcast.frontmatter.description}</p>
@@ -117,8 +126,8 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
               id
+              html
               fields {
                 slug
               }

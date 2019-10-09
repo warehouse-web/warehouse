@@ -6,40 +6,33 @@ import Layout from '../components/Layout'
 import EventRoll from '../components/EventRoll';
 import Img from 'gatsby-image'
 import DivOverlay from './DivOverlay';
+import Content, { HTMLContent } from '../components/Content'
 
 
-export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-  intro,
-}) => (
-  <div>
-    <h3 className="has-text-weight-semibold is-size-2">
-      All Events
-    </h3>
-    <div className="column is-12 has-text-centered">
-      <Link className="btn" to="/events">
-        Read more
-      </Link>
-    </div>
-  </div>
-)
 
-  IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  title: PropTypes.string,
-  heading: PropTypes.string,
-  subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-}
+// export const IndexPageTemplate = ({data}) => {
+//   const { allMarkdownRemark: post } = data
+//   console.log('data:', post)
+
+
+//   return (
+//     <Layout>
+//       <IndexPage/>
+//     </Layout>
+//   )
+// }
+
+//   IndexPageTemplate.propTypes = {
+//   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+//   title: PropTypes.string,
+//   heading: PropTypes.string,
+//   subheading: PropTypes.string,
+//   mainpitch: PropTypes.object,
+//   description: PropTypes.string,
+//   intro: PropTypes.shape({
+//     blurbs: PropTypes.array,
+//   }),
+// }
 
 // let initFlexWidthPx = window.innerWidth;
 let initFlexWidthPx = 620;
@@ -79,7 +72,9 @@ export const isDateBeforeToday = (post) => {
   return postDate - currDate < 0
 }
 
-export const IndexPage = ({ data }) => {
+export const IndexPage = ({
+  data
+}) => {
   const {edges: posts} = data.allMarkdownRemark
   const [activeEvent, setActiveEvent] = useState({});
   const [nextImg, setNextImg] = useState(false)
@@ -100,8 +95,6 @@ export const IndexPage = ({ data }) => {
     setDivStyle({backgroundImage: 'none'})
     console.log('ran')
   }
-
-
 
   useEffect(() => {
     window.addEventListener('scroll', relayout)
@@ -132,48 +125,55 @@ export const IndexPage = ({ data }) => {
         return null;
     }
   }
+  const PostContent = HTMLContent || Content
+
   return (
+
     <Layout >
       <DivOverlay currImg={divStyle}/>
 
       <div className="wrapper">
         <div onScroll = {()=> relayout() } className="article-list">
           {posts &&
-            posts.map (({node:post}) => (
-              <div
-              key = {post.id}
-              onPointerEnter = {() => renderImg(post)}
-              onPointerLeave = {() => removeImg() }
-              >
-                <article
-                  onClick={() => openEvent(post)}
-                  className={`post`}
+            posts.map (({node:post}) => {
+              return (
+                <div
+                  key = {post.id}
+                  onPointerEnter = {() => renderImg(post)}
+                  onPointerLeave = {() => removeImg() }
                 >
-                  {post.frontmatter.date &&
-                    post.frontmatter.templateKey === 'blog-post' &&
-                    isDateBeforeToday(post) &&
-                      <h2 className='post-type'>Past {postType(post)}</h2>
-                  }
-                  {post.frontmatter.date &&
-                    post.frontmatter.templateKey === 'blog-post' &&
-                    !isDateBeforeToday(post) &&
-                      <h2 className='post-type'>Upcoming {postType(post)}</h2>
-                  }
-                  {post.frontmatter.templateKey !== 'blog-post' &&
-                    <h2 className='post-type'>{postType(post)}</h2>
-                  }
-                  <p>{post.frontmatter.title}</p>
-                    <p className="post-meta">
-                        {post.frontmatter.date}
-                  </p>
-                  {post.frontmatter.location &&
-                    <h2>{post.frontmatter.location}</h2>
-                  }
-                </article>
-              </div>
-            ))}
+
+                  <article
+                    onClick={() => openEvent(post)}
+                    className={`post`}
+                  >
+                    {post.frontmatter.date &&
+                      post.frontmatter.templateKey === 'blog-post' &&
+                      isDateBeforeToday(post) &&
+                        <h2 className='post-type'>Past {postType(post)}</h2>
+                    }
+                    {post.frontmatter.date &&
+                      post.frontmatter.templateKey === 'blog-post' &&
+                      !isDateBeforeToday(post) &&
+                        <h2 className='post-type'>Upcoming {postType(post)}</h2>
+                    }
+                    {post.frontmatter.templateKey !== 'blog-post' &&
+                      <h2 className='post-type'>{postType(post)}</h2>
+                    }
+                    <p>{post.frontmatter.title}</p>
+                      <p className="post-meta">
+                          {post.frontmatter.date}
+                    </p>
+                    {post.frontmatter.location &&
+                      <h2>{post.frontmatter.location}</h2>
+                    }
+                  </article>
+                </div>
+              )
+            })}
         </div>
       {showEventDetail && (
+
         <div className="article-detail">
           <div className='close'
             onClick={() => setShowEventDetail(false)}
@@ -185,6 +185,8 @@ export const IndexPage = ({ data }) => {
           <h2 className="article-detail-title">
             {activeEvent.event.frontmatter.title}
           </h2>
+          {<PostContent className='content' content = {activeEvent.event.html} />}
+
           {activeEvent.event.frontmatter.image &&
             <div className="article-image-wrapper">
               <Img
@@ -249,7 +251,7 @@ export default () => (
           ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              html
               id
               fields {
                 slug
