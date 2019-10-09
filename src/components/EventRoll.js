@@ -86,7 +86,6 @@ class EventRoll extends React.Component {
               </div>
             }
             <p className="article-detail-description">{this.state.activeEvent.frontmatter.description}</p>
-            <p className="article-detail-description">{this.state.activeEvent.frontmatter.body}</p>
           </div>
       )}
       </div>

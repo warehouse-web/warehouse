@@ -91,7 +91,6 @@ class PodcastRoll extends React.Component {
             <iframe title={this.state.activePodcast.id} width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" + this.state.activePodcast.frontmatter.podcastURL + "&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"}/>
             {console.log('podcast frontmatter',this.state.activePodcast.frontmatter)}
             <p className="article-detail-description">{this.state.activePodcast.frontmatter.description}</p>
-            <p className="article-detail-description">{this.state.activePodcast.frontmatter.body}</p>
           </div>
       )}
       </div>
@@ -130,7 +129,6 @@ export default () => (
                 location
                 description
                 podcastURL
-                body
                 image {
                   childImageSharp {
                     fluid(maxWidth: 620, quality: 100) {

@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import '../components/main.css'
 
-export const PodcastTemplate = ({
+export const EventPostTemplate = ({
   content,
   contentComponent,
   description,
@@ -27,28 +27,28 @@ export const PodcastTemplate = ({
               textAlign:'center',
               fontSize:'2em',
               marginBottom: '.7em'
-            }} className="post-detail-title">
+            }} className="article-detail-title">
               {title}
             </h2>
             <div style={{
               display: 'flex',
             }}
 
-            className="post-image-wrapper">
+            className="article-image-wrapper">
               <img
-              alt = ''
+              alt =''
               style ={{
                 maxWidth: '80%',
                 margin: '0 auto',
               }}
-               className="post-detail-image" src={image}/>
+               className="article-detail-image" src={image}/>
             </div>
             <p style ={{
               marginTop: '2em',
               textAlign: 'center',
             }}
 
-             className="post-detail-description">{description}</p>
+             className="article-detail-description">{description}</p>
             {location && (
 
               <p>Location: {location}</p>
@@ -75,7 +75,7 @@ export const PodcastTemplate = ({
   )
 }
 
-PodcastTemplate.propTypes = {
+EventPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -83,19 +83,19 @@ PodcastTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const Podcast = ({ data }) => {
+const EvenPost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <PodcastTemplate
+      <EventPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         location = {post.frontmatter.location}
         date = {post.frontmatter.date}
         helmet={
-          <Helmet titleTemplate="%s | Podcast">
+          <Helmet titleTemplate="%s | Evemt">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="date"
@@ -117,22 +117,21 @@ const Podcast = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
-        podcastURL = {post.frontmatter.podcastURL}
       />
     </Layout>
   )
 }
 
-Podcast.propTypes = {
+EventPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default Podcast
+export default EventPost
 
 export const pageQuery = graphql`
-  query PodcastByID($id: String!) {
+  query EventPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
@@ -140,7 +139,6 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
-        podcastURL
         image {
           childImageSharp {
             fluid(maxWidth: 120, quality: 100) {

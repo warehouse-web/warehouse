@@ -35,6 +35,7 @@ class ShopRoll extends React.Component {
     return (
       <>
       <DivOverlay/>
+      {console.log(products)}
       <div className="wrapper">
         <div className="article-list">
           {products &&
@@ -79,7 +80,6 @@ class ShopRoll extends React.Component {
               </div>
             }
             <p className="article-detail-description">{this.state.activeProduct.frontmatter.description}</p>
-            <p className="article-detail-description">{this.state.activeProduct.frontmatter.body}</p>
           </div>
       )}
       </div>
@@ -108,6 +108,7 @@ export default () => (
             node {
               excerpt(pruneLength: 400)
               id
+              html
               fields {
                 slug
               }
