@@ -8,14 +8,13 @@ tags:
   - Text San Seriffe
 ---
 # Body with text
+
 Body with h1\
 
 ## 
+
 body h2
 
-
-
 paragraph spaces
-
 
 ![alternative](/img/anarchy-cover_0.jpg "Title")
