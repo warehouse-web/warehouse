@@ -15,53 +15,39 @@ export const PodcastTemplate = ({
   date,
   title,
   helmet,
-  image,
+  podcastURL,
+  warehouseID
 }) => {
   const PostContent = contentComponent || Content
 
   return (
     <div className="event-detail">
       {helmet || ''}
+            <p style={{
+              fontSize: '.7rem',
+              fontFamily: 'Arial, Helvetica, sans-serif',
+              textAlign: 'center'
+              }}
+            >
+              {warehouseID}
+            </p>
             <h2 style={{
               textAlign:'center',
-              fontSize:'2em',
-              marginBottom: '.7em'
-            }} className="post-detail-title">
+              fontSize: '2em',
+              margin: '0 2.5rem 1rem',
+              lineHeight: '1.1',
+            }}>
               {title}
             </h2>
-            <div style={{
-              display: 'flex',
-            }}
-
-            className="post-image-wrapper">
-              <img
-              alt = ''
-              style ={{
-                maxWidth: '80%',
-                margin: '0 auto',
-              }}
-               className="post-detail-image" src={image}/>
-            </div>
-            {location && (
-
-              <p>Location: {location}</p>
-            )}
-            {/* <p>{date}</p> */}
-
+            <iframe
+            width="100%"
+            height="300"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" + podcastURL + "&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"}
+            />
             <PostContent content={content} />
-            {/* Tag spot */}
-            {/* {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null} */}
     </div>
   )
 }
@@ -73,37 +59,30 @@ PodcastTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const Podcast = ({ data }) => {
-  const { markdownRemark: post } = data
+const Podcast = (data) => {
+console.log('data:', data)
+
+  // const { markdownRemark: post } = data
 
   return (
     <Layout>
       <PodcastTemplate
         content={post.html}
         contentComponent={HTMLContent}
-
-        location = {post.frontmatter.location}
+        warehouseID = {post.frontmatter.warehouseID}
+        podcastURL = {post.frontmatter.podcastURL}
         date = {post.frontmatter.date}
         helmet={
           <Helmet titleTemplate="%s | Podcast">
             <title>{`${post.frontmatter.title}`}</title>
-            {/* <meta
-              name="date"
-              content={`${post.frontmatter.date}`}
-            /> */}
             <meta
               name="location"
               content={`${post.frontmatter.location}`}
             />
-            <meta
-              name="image"
-              content={`${post.frontmatter.image}`}
-            />
           </Helmet>
         }
-        // tags={post.frontmatter.tags}
+
         title={post.frontmatter.title}
-        podcastURL = {post.frontmatter.podcastURL}
       />
     </Layout>
   )
@@ -117,7 +96,7 @@ Podcast.propTypes = {
 
 export default Podcast
 
-export const pageQuery = graphql`
+export const podcastQuery = graphql`
   query PodcastByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
@@ -125,16 +104,21 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        warehouseID
         podcastURL
-        image {
-          childImageSharp {
-            fluid(maxWidth: 120, quality: 100) {
-              src
-            }
-          }
-        }
-        location
       }
     }
   }
 `
+
+
+
+
+
+
+
+        /* <meta
+          name="date"
+          content={`${post.frontmatter.date}`}
+        /> */
+        // tags={post.frontmatter.tags}

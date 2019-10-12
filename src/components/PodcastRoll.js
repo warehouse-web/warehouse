@@ -52,14 +52,14 @@ class PodcastRoll extends React.Component {
                   <h2 className='post-type'>Podcast</h2>
                   <header>
                     <p className="post-meta">
-                      {/* <Link
+                        {post.frontmatter.title}
+                      <span className="subtitle is-size-5 is-block">
+                        {/* {post.frontmatter.date} */}
+                    {/* <Link
                         className="title has-text-primary is-size-4"
                         to={post.fields.slug}
                       >
                     </Link> */}
-                        {post.frontmatter.title}
-                      <span className="subtitle is-size-5 is-block">
-                        {/* {post.frontmatter.date} */}
                       </span>
                         {post.frontmatter.location}
                     </p>
@@ -72,19 +72,13 @@ class PodcastRoll extends React.Component {
               <h1>No Podcasts To Show ... Yet</h1>
             }
       </div>
-
       {this.state.showPodcastDetail && (
           <div className="article-detail">
-            {/* <span className='close' onClick={() => this.setState({showPodcastDetail: false})}></span> */}
-
-            {/* Close Button */}
-             <div className='close'
-              onClick={() => this.setState({showPodcastDetail: false})}
-              >
+             <div className='close' onClick={() => this.setState({showPodcastDetail: false})}>
                 <span></span>
                 <span></span>
               </div>
-
+            <p className="article-ID">{this.state.activePodcast.frontmatter.warehouseID}</p>
             <h2 className="article-detail-title">{this.state.activePodcast.frontmatter.title}</h2>
             {this.state.activePodcast.frontmatter.image &&
               <div className="article-image-wrapper">
@@ -132,13 +126,7 @@ export default () => (
                 date(formatString: "MMMM DD, YYYY")
                 location
                 podcastURL
-                image {
-                  childImageSharp {
-                    fluid(maxWidth: 620, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
+                warehouseID
               }
             }
           }

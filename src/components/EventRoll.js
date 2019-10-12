@@ -130,13 +130,6 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 location
-                image {
-                  childImageSharp {
-                    fluid(maxWidth: 620, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
               }
             }
           }
