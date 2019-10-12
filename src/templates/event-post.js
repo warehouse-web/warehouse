@@ -25,9 +25,10 @@ export const EventPostTemplate = ({
     <div className="event-detail">
       {helmet || ''}
             <p style={{
-              margin: '0 auto',
+              marginTop: '2.5rem',
               fontSize: '.7rem',
               fontFamily: 'Arial, Helvetica, sans-serif',
+              textAlign: 'center'
               }}
             >
               {warehouseID}
