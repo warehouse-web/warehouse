@@ -38,9 +38,12 @@ export const EventPostTemplate = ({
                margin: '3.8em',
                marginTop: '1.5rem'
              }} className='content' content={content} />
-            {location && (
+
+
+            {/* {location && (
               <p>{location}</p>
-            )}
+            )} */}
+
             {/* Tag spot */}
             {/* {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>

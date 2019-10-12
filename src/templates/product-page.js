@@ -42,10 +42,6 @@ export const ProductPageTemplate = ({
               }}
                className="article-detail-image" src={image}/>
             </div>
-            {location && (
-
-              <p>Location: {location}</p>
-            )}
             <p>{date}</p>
 
             <ProductContent content={content} />

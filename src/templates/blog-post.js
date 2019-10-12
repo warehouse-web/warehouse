@@ -22,10 +22,10 @@ export const BlogPostTemplate = ({
       {/* {helmet || ''} */}
       <h2 className="article-detail-title">
       </h2>
-      {location && (
+      {/* {location && (
 
         <p>Location: {location}</p>
-      )}
+      )} */}
       <p>{date}</p>
 
       <PostContent content={content} />

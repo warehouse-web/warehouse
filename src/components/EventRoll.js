@@ -53,18 +53,20 @@ class EventRoll extends React.Component {
                       <h2 className='post-type'>Upcoming Event</h2>
                   }
                   <header>
-                    <p className="post-meta">
+
                       {/* <Link
                         className="title has-text-primary is-size-4"
                         to={post.fields.slug}
                       >
                     </Link> */}
-                    {post.frontmatter.title}
-                      <span className="is-block">
-                        {post.frontmatter.date}
-                      </span>
-                        {post.frontmatter.location}
-                    </p>
+                    <h1>{post.frontmatter.title}</h1>
+                    <h2 className="post-meta">
+                          {post.frontmatter.date}
+                    </h2>
+                    {post.frontmatter.location &&
+                      <h2>{post.frontmatter.location}</h2>
+                    }
+
                   </header>
 
                 </article>

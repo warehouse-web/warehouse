@@ -46,7 +46,7 @@ export const PodcastTemplate = ({
 
               <p>Location: {location}</p>
             )}
-            <p>{date}</p>
+            {/* <p>{date}</p> */}
 
             <PostContent content={content} />
             {/* Tag spot */}
@@ -87,10 +87,10 @@ const Podcast = ({ data }) => {
         helmet={
           <Helmet titleTemplate="%s | Podcast">
             <title>{`${post.frontmatter.title}`}</title>
-            <meta
+            {/* <meta
               name="date"
               content={`${post.frontmatter.date}`}
-            />
+            /> */}
             <meta
               name="location"
               content={`${post.frontmatter.location}`}

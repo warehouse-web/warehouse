@@ -10,28 +10,22 @@ import Content, { HTMLContent } from '../components/Content'
 
 
 
-// export const IndexPageTemplate = ({data}) => {
-//   const { allMarkdownRemark: post } = data
-//   console.log('data:', post)
+export const IndexPageTemplate = ({data}) => {
+  const { allMarkdownRemark: post } = data
+  console.log('data:', post)
 
 
-//   return (
-//     <Layout>
-//       <IndexPage/>
-//     </Layout>
-//   )
-// }
+  return (
+    <Layout>
+      <IndexPage/>
+    </Layout>
+  )
+}
 
-//   IndexPageTemplate.propTypes = {
-//   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-//   title: PropTypes.string,
-//   heading: PropTypes.string,
-//   subheading: PropTypes.string,
-//   mainpitch: PropTypes.object,
-//   intro: PropTypes.shape({
-//     blurbs: PropTypes.array,
-//   }),
-// }
+  IndexPageTemplate.propTypes = {
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  title: PropTypes.string,
+}
 
 // let initFlexWidthPx = window.innerWidth;
 let initFlexWidthPx = 620;
@@ -159,10 +153,10 @@ export const IndexPage = ({
                     {post.frontmatter.templateKey !== 'blog-post' &&
                       <h2 className='post-type'>{postType(post)}</h2>
                     }
-                    <p>{post.frontmatter.title}</p>
-                      <p className="post-meta">
+                    <h1 className='title'>{post.frontmatter.title}</h1>
+                    <h2 className="post-meta">
                           {post.frontmatter.date}
-                    </p>
+                    </h2>
                     {post.frontmatter.location &&
                       <h2>{post.frontmatter.location}</h2>
                     }
