@@ -6,8 +6,6 @@ const PodcastPostPreview = ({ entry, widgetFor }) => (
 
   <PodcastPostTemplate
     content={widgetFor('body')}
-    // tags={entry.getIn(['data', 'tags'])}
-    location={entry.getIn(['data', 'location'])}
     warehouseID={entry.getIn(['data', 'warehouseID'])}
     podcastURL={entry.getIn(['data', 'podcastURL'])}
     title={entry.getIn(['data', 'title'])}

@@ -10,7 +10,6 @@ import '../components/main.css'
 export const PodcastTemplate = ({
   content,
   contentComponent,
-  location,
   // tags,
   date,
   title,
@@ -67,22 +66,17 @@ console.log('data:', data)
   return (
     <Layout>
       <PodcastTemplate
-        content={post.html}
-        contentComponent={HTMLContent}
-        warehouseID = {post.frontmatter.warehouseID}
-        podcastURL = {post.frontmatter.podcastURL}
-        date = {post.frontmatter.date}
+        content={data.content}
+        // contentComponent={HTMLContent}
+        warehouseID = {data.warehouseID}
+        podcastURL = {data.podcastURL}
+        // date = {post.frontmatter.date}
         helmet={
           <Helmet titleTemplate="%s | Podcast">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="location"
-              content={`${post.frontmatter.location}`}
-            />
+            <title>{`${data.title}`}</title>
           </Helmet>
         }
-
-        title={post.frontmatter.title}
+        title={data.title}
       />
     </Layout>
   )
