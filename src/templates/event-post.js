@@ -36,10 +36,7 @@ export const EventPostTemplate = ({
             <h2 style={{
               textAlign:'center',
               fontSize: '2em',
-              margin: '3rem 0rem auto 3.7rem',
-              // marginBottom: '.7em',
-              // marginTop: '3rem',
-              width: '80%'
+              margin: '0rem 0rem auto 3.7rem',
             }}>
               {title}
             </h2>
