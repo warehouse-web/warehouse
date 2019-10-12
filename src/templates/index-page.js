@@ -153,7 +153,7 @@ export const IndexPage = ({
                     {post.frontmatter.templateKey !== 'blog-post' &&
                       <h2 className='post-type'>{postType(post)}</h2>
                     }
-                    <h1 className='title'>{post.frontmatter.title}</h1>
+                    <h1 className='post-title'>{post.frontmatter.title}</h1>
                     <h2 className="post-meta">
                           {post.frontmatter.date}
                     </h2>
