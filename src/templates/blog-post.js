@@ -22,12 +22,6 @@ export const BlogPostTemplate = ({
       {/* {helmet || ''} */}
       <h2 className="article-detail-title">
       </h2>
-      <p style ={{
-        marginTop: '2em',
-        textAlign: 'center',
-      }}
-
-        className="article-detail-description">{description}</p>
       {location && (
 
         <p>Location: {location}</p>
@@ -57,7 +51,7 @@ export const BlogPostTemplate = ({
 BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
-  description: PropTypes.string,
+
   title: PropTypes.string,
   helmet: PropTypes.object,
 }
@@ -70,7 +64,6 @@ const BlogPost = ({ data }) => {
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
         location = {post.frontmatter.location}
         date = {post.frontmatter.date}
         helmet={
@@ -79,10 +72,6 @@ const BlogPost = ({ data }) => {
             <meta
               name="date"
               content={`${post.frontmatter.date}`}
-            />
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
             />
             <meta
               name="location"
@@ -117,7 +106,6 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
-        description
         image {
           childImageSharp {
             fluid(maxWidth: 120, quality: 100) {

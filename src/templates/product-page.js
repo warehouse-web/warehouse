@@ -10,7 +10,6 @@ import '../components/main.css'
 export const ProductPageTemplate = ({
   content,
   contentComponent,
-  description,
   location,
   tags,
   date,
@@ -43,12 +42,6 @@ export const ProductPageTemplate = ({
               }}
                className="article-detail-image" src={image}/>
             </div>
-            <p style ={{
-              marginTop: '2em',
-              textAlign: 'center',
-            }}
-
-             className="article-detail-description">{description}</p>
             {location && (
 
               <p>Location: {location}</p>
@@ -78,7 +71,6 @@ export const ProductPageTemplate = ({
 ProductPageTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
-  description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
 }
@@ -91,16 +83,11 @@ const Product = ({ data }) => {
       <ProductPageTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
         location = {post.frontmatter.location}
         date = {post.frontmatter.date}
         helmet={
           <Helmet titleTemplate="%s | Product">
             <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
             <meta
               name="image"
               content={`${post.frontmatter.image}`}
@@ -129,7 +116,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        description
         image {
           childImageSharp {
             fluid(maxWidth: 120, quality: 100) {

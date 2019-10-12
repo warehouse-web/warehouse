@@ -70,9 +70,7 @@ class EventRoll extends React.Component {
                 </article>
               </div>
             ))}
-            {/* { !posts &&
-              <h1>No Events To Show ... Yet</h1>
-            } */}
+
       </div>
 
       {this.state.showEventDetail && (
@@ -86,13 +84,12 @@ class EventRoll extends React.Component {
             </div>
             <h2 className="article-detail-title">{this.state.activeEvent.frontmatter.title}</h2>
             {<PostContent className = 'content' content={this.state.activeEvent.html} />}
-
+            {console.log('html', this.state.activeEvent.html)}
             {this.state.activeEvent.frontmatter.image &&
               <div className="article-image-wrapper">
                 <Img className ="article-detail-image" fluid={this.state.activeEvent.frontmatter.image.childImageSharp.fluid} />
               </div>
             }
-            <p className="article-detail-description">{this.state.activeEvent.frontmatter.description}</p>
           </div>
       )}
       </div>
@@ -129,7 +126,6 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 location
-                description
                 image {
                   childImageSharp {
                     fluid(maxWidth: 620, quality: 100) {

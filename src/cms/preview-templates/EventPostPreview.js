@@ -6,7 +6,6 @@ const EventPostPreview = ({ entry, widgetFor }) => (
 
   <EventPostTemplate
     content={widgetFor('body')}
-    description={entry.getIn(['data', 'description'])}
     tags={entry.getIn(['data', 'tags'])}
     location={entry.getIn(['data', 'location'])}
     title={entry.getIn(['data', 'title'])}

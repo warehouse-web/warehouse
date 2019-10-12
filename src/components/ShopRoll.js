@@ -79,7 +79,7 @@ class ShopRoll extends React.Component {
                 <Img className ="article-detail-image" fluid={this.state.activeProduct.frontmatter.image.childImageSharp.fluid} />
               </div>
             }
-            <p className="article-detail-description">{this.state.activeProduct.frontmatter.description}</p>
+
           </div>
       )}
       </div>
@@ -116,7 +116,6 @@ export default () => (
                 title
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
-                description
                 image {
                   childImageSharp {
                     fluid(maxWidth: 620, quality: 100) {

@@ -28,7 +28,6 @@ import Content, { HTMLContent } from '../components/Content'
 //   heading: PropTypes.string,
 //   subheading: PropTypes.string,
 //   mainpitch: PropTypes.object,
-//   description: PropTypes.string,
 //   intro: PropTypes.shape({
 //     blurbs: PropTypes.array,
 //   }),
@@ -209,9 +208,6 @@ export const IndexPage = ({
             />
           }
           <p className="article-detail-description">
-            {activeEvent.event.frontmatter.description}
-          </p>
-          <p className="article-detail-description">
             {activeEvent.event.frontmatter.body}
           </p>
         </div>
@@ -261,7 +257,6 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 location
-                description
                 podcastURL
                 image {
                   childImageSharp {

@@ -10,7 +10,6 @@ import '../components/main.css'
 export const PodcastTemplate = ({
   content,
   contentComponent,
-  description,
   location,
   tags,
   date,
@@ -43,12 +42,6 @@ export const PodcastTemplate = ({
               }}
                className="post-detail-image" src={image}/>
             </div>
-            <p style ={{
-              marginTop: '2em',
-              textAlign: 'center',
-            }}
-
-             className="post-detail-description">{description}</p>
             {location && (
 
               <p>Location: {location}</p>
@@ -76,7 +69,6 @@ export const PodcastTemplate = ({
 PodcastTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
-  description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
 }
@@ -89,7 +81,7 @@ const Podcast = ({ data }) => {
       <PodcastTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
+
         location = {post.frontmatter.location}
         date = {post.frontmatter.date}
         helmet={
@@ -98,10 +90,6 @@ const Podcast = ({ data }) => {
             <meta
               name="date"
               content={`${post.frontmatter.date}`}
-            />
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
             />
             <meta
               name="location"
@@ -137,7 +125,6 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
-        description
         podcastURL
         image {
           childImageSharp {
