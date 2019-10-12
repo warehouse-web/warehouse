@@ -14,6 +14,7 @@ export const EventPostTemplate = ({
   date,
   // tags,
   title,
+  warehouseID,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
@@ -23,11 +24,21 @@ export const EventPostTemplate = ({
   return (
     <div className="event-detail">
       {helmet || ''}
+            <p style={{
+              margin: '0 auto',
+              fontSize: '.7rem',
+              fontFamily: 'Arial, Helvetica, sans-serif',
+              }}
+            >
+              {warehouseID}
+            </p>
             <h2 style={{
               textAlign:'center',
               fontSize: '2em',
-              marginBottom: '.7em',
-              marginTop: '3rem',
+              margin: '3rem 0rem auto 3.7rem',
+              // marginBottom: '.7em',
+              // marginTop: '3rem',
+              width: '80%'
             }}>
               {title}
             </h2>
@@ -78,6 +89,7 @@ const EventPost = ({ data }) => {
         contentComponent={HTMLContent}
         location = {post.frontmatter.location}
         date = {post.frontmatter.date}
+        warehouseID = {post.frontmatter.warehouseID}
         // tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
@@ -99,6 +111,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
+        warehouseID
         title
         location
         date(formatString: "MMMM DD, YYYY")

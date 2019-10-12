@@ -84,6 +84,7 @@ class EventRoll extends React.Component {
                 <span></span>
                 <span></span>
             </div>
+            <p className="article-ID">{this.state.activeEvent.frontmatter.warehouseID}</p>
             <h2 className="article-detail-title">{this.state.activeEvent.frontmatter.title}</h2>
             {<PostContent className = 'content' content={this.state.activeEvent.html} />}
             {console.log('html', this.state.activeEvent.html)}
@@ -124,6 +125,7 @@ export default () => (
                 slug
               }
               frontmatter {
+                warehouseID
                 title
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
