@@ -25,7 +25,6 @@ export const EventPostTemplate = ({
     <div className="event-detail">
       {helmet || ''}
             <p style={{
-              marginTop: '2.5rem',
               fontSize: '.7rem',
               fontFamily: 'Arial, Helvetica, sans-serif',
               textAlign: 'center'
@@ -36,7 +35,6 @@ export const EventPostTemplate = ({
             <h2 style={{
               textAlign:'center',
               fontSize: '2em',
-              margin: '0rem 0rem auto 3.7rem',
             }}>
               {title}
             </h2>

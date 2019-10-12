@@ -11,9 +11,7 @@ import Content, { HTMLContent } from '../components/Content'
 
 
 export const IndexPageTemplate = ({data}) => {
-  const { allMarkdownRemark: post } = data
-  console.log('data:', post)
-
+  const { allMarkdownRemark: post } = data;
 
   return (
     <Layout>
@@ -175,6 +173,7 @@ export const IndexPage = ({
             <span></span>
           </div>
           {/* <a href='#' className='close'  onClick={() => setShowEventDetail(false)}></a> */}
+          <p className="article-ID">{activeEvent.event.frontmatter.warehouseID}</p>
           <h2 className="article-detail-title">
             {activeEvent.event.frontmatter.title}
           </h2>
@@ -247,6 +246,7 @@ export default () => (
                 slug
               }
               frontmatter {
+                warehouseID
                 title
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
