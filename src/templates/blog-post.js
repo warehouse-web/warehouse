@@ -12,7 +12,7 @@ export const BlogPostTemplate = ({
   content,
   contentComponent,
   location,
-  tags,
+  // tags,
   date,
 }) => {
   const PostContent = contentComponent || Content
@@ -32,7 +32,7 @@ export const BlogPostTemplate = ({
 
 
       {/* Tag spot */}
-      {tags && tags.length ? (
+      {/* {tags && tags.length ? (
         <div style={{ marginTop: `4rem` }}>
           <h4>Tags</h4>
           <ul className="taglist">
@@ -43,7 +43,7 @@ export const BlogPostTemplate = ({
             ))}
           </ul>
         </div>
-      ) : null}
+      ) : null} */}
     </div>
   )
 }
@@ -83,7 +83,7 @@ const BlogPost = ({ data }) => {
             />
           </Helmet>
         }
-        tags={post.frontmatter.tags}
+        // tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
     </Layout>
@@ -114,7 +114,6 @@ export const pageQuery = graphql`
           }
         }
         location
-        tags
       }
     }
   }

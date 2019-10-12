@@ -17,7 +17,6 @@ collections:
       - {label: "Event Location", name: "location", widget: "string"}
       - {label: "Event Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list"]}
-      - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "podcast"
     identifier_field: name
@@ -31,7 +30,6 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list"]}
       - {label: "Podcast Date", name: "date", widget: "datetime"}
       - {label: "Podcast ID (9 Numbers)", name: "podcastURL", widget: "number", valueType: "int" }
-      - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "product"
     label: "Products"
@@ -44,7 +42,6 @@ collections:
       - {label: "Product Date", name: "date", widget: "datetime"}
       - {label: "Product Name", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list"]}
-      - {label: "Tags", name: "tags", widget: "list"}
 
 
   - name: "pages"

@@ -12,7 +12,7 @@ export const EventPostTemplate = ({
   contentComponent,
   location,
   date,
-  tags,
+  // tags,
   title,
   helmet,
 }) => {
@@ -42,7 +42,7 @@ export const EventPostTemplate = ({
               <p>{location}</p>
             )}
             {/* Tag spot */}
-            {tags && tags.length ? (
+            {/* {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
                 <ul className="taglist">
@@ -53,7 +53,7 @@ export const EventPostTemplate = ({
                   ))}
                 </ul>
               </div>
-            ) : null}
+            ) : null} */}
     </div>
   )
 }
@@ -75,7 +75,7 @@ const EventPost = ({ data }) => {
         contentComponent={HTMLContent}
         location = {post.frontmatter.location}
         date = {post.frontmatter.date}
-        tags={post.frontmatter.tags}
+        // tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
     </Layout>
@@ -99,7 +99,6 @@ export const pageQuery = graphql`
         title
         location
         date(formatString: "MMMM DD, YYYY")
-        tags
       }
     }
   }

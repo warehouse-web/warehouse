@@ -11,7 +11,7 @@ export const ProductPageTemplate = ({
   content,
   contentComponent,
   location,
-  tags,
+  // tags,
   date,
   title,
   helmet,
@@ -52,7 +52,7 @@ export const ProductPageTemplate = ({
 
 
             {/* Tag spot */}
-            {tags && tags.length ? (
+            {/* {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
                 <ul className="taglist">
@@ -63,7 +63,7 @@ export const ProductPageTemplate = ({
                   ))}
                 </ul>
               </div>
-            ) : null}
+            ) : null} */}
     </div>
   )
 }
@@ -94,7 +94,7 @@ const Product = ({ data }) => {
             />
           </Helmet>
         }
-        tags={post.frontmatter.tags}
+        // tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
     </Layout>
@@ -124,7 +124,6 @@ export const pageQuery = graphql`
           }
         }
         location
-        tags
       }
     }
   }
