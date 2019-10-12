@@ -1,8 +1,7 @@
 ---
-templateKey: blog-post
+templateKey: podcast-page
 warehouseID: 'WAREHOUSE #5'
-title: Warehouse Test Longer Event Looks Like this
-location: Stedelijk Museum
+title: Podcast Test
 date: 2019-10-12T18:08:41.497Z
 podcastURL: 2123123
 ---
