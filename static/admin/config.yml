@@ -40,6 +40,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
+      - {label: "Warehouse Number", name: "warehouseID", widget: "string", hint: "For example WAREHOUSE #3.5"}
       - {label: "Product Name", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list"]}
       - {label: "Author", name: "author", widget: "string"}
