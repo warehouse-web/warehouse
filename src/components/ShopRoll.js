@@ -66,6 +66,7 @@ class ShopRoll extends React.Component {
 
       {this.state.showProductDetail && (
           <div className="article-detail">
+            {console.log(this.state.activeProduct.frontmatter.title)}
             {/* Close Button */}
             <div className='close'
               onClick={() => this.setState({showProductDetail: false})}
@@ -74,11 +75,8 @@ class ShopRoll extends React.Component {
               <span></span>
             </div>
             <h2 className="article-detail-title">{this.state.activeProduct.frontmatter.title}</h2>
-            {this.state.activeProduct.frontmatter.image &&
-              <div className="article-image-wrapper">
-                <Img className ="article-detail-image" fluid={this.state.activeProduct.frontmatter.image.childImageSharp.fluid} />
-              </div>
-            }
+
+            <a href={`mailto: buy@wearewarehouse.com?subject=${this.state.activeProduct.frontmatter.title}`}>Send mail with subject</a>
 
           </div>
       )}

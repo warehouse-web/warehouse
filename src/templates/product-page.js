@@ -10,6 +10,7 @@ import '../components/main.css'
 export const ProductPageTemplate = ({
   content,
   contentComponent,
+  warehouseID,
   // tags,
   date,
   title,
