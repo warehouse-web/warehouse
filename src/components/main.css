@@ -52,7 +52,7 @@ a.right {
 }
 
 .navbar-end {
-	margin-right: 2em;
+	margin-right: 1.8em;
 }
 
 .navbar-item {
@@ -131,12 +131,21 @@ iframe {
 }
 
 #magic-logo {
-	position: fixed;
-	width: 620px;
+	/* position: fixed;
+	width: 620px; */
 	/* height: 100%; */
-	right: 0;
+	/* right: 0;
 	z-index: 9;
-	pointer-events: none;
+	pointer-events: none; */
+	/* WORKING OVERLAY */
+	position: fixed;
+    width: 620px;
+    /* height: 100%; */
+    right: 424px;
+    z-index: 9;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    border: 3px solid red;
 }
 
 #mobile-magic-logo {

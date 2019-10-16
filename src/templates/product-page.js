@@ -10,42 +10,42 @@ import '../components/main.css'
 export const ProductPageTemplate = ({
   content,
   contentComponent,
-  location,
   // tags,
   date,
   title,
   helmet,
-  image,
+  author,
 }) => {
   const ProductContent = contentComponent || Content
 
   return (
     <div className="event-detail">
       {helmet || ''}
+            <p style={{
+              fontSize: '.7rem',
+              fontFamily: 'Arial, Helvetica, sans-serif',
+              textAlign: 'center'
+              }}
+            >
+              {warehouseID}
+            </p>
             <h2 style={{
               textAlign:'center',
-              fontSize:'2em',
-              marginBottom: '.7em'
-            }} className="article-detail-title">
+              fontSize: '2em',
+              margin: '0 2.5rem 1rem',
+              lineHeight: '1.1',
+            }}>
               {title}
             </h2>
-            <div style={{
-              display: 'flex',
-            }}
 
-            className="article-image-wrapper">
-              <img
-              alt = ''
-              style ={{
-                maxWidth: '80%',
-                margin: '0 auto',
-              }}
-               className="article-detail-image" src={image}/>
-            </div>
-            <p>{date}</p>
-
-            <ProductContent content={content} />
-
+            <ProductContent
+             style = {{
+               justifyContent: 'left',
+               textAlign:'left',
+               margin: '3.8em',
+               marginTop: '1.5rem'
+             }} className='content' content={content} />
+             <p>{author}</p>
 
             {/* Tag spot */}
             {/* {tags && tags.length ? (
@@ -79,19 +79,11 @@ const Product = ({ data }) => {
       <ProductPageTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        location = {post.frontmatter.location}
+        warehouseID = {post.frontmatter.warehouseID}
         date = {post.frontmatter.date}
-        helmet={
-          <Helmet titleTemplate="%s | Product">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="image"
-              content={`${post.frontmatter.image}`}
-            />
-          </Helmet>
-        }
         // tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        author={post.frontmatter.author}
       />
     </Layout>
   )
@@ -112,14 +104,9 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 120, quality: 100) {
-              src
-            }
-          }
-        }
-        location
+        warehouseID
+        date(formatString: "MMMM DD, YYYY")
+        author
       }
     }
   }
