@@ -9,6 +9,11 @@ h3,
 li, p {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	color: black;
+	text-shadow:
+1px 1px 1px rgb(255,255,255),
+1px -1px 1px rgb(255,255,255),
+-1px -1px 1px rgb(255,255,255),
+-1px 1px 1px rgb(255,255,255);
 }
 
 .article-ID {
@@ -141,11 +146,10 @@ iframe {
 	position: fixed;
     width: 620px;
     /* height: 100%; */
-    right: 424px;
+    right: 701px;
     z-index: 9;
     pointer-events: none;
     mix-blend-mode: difference;
-    border: 3px solid red;
 }
 
 #mobile-magic-logo {
