@@ -7,6 +7,7 @@ import EventRoll from '../components/EventRoll';
 import Img from 'gatsby-image'
 import DivOverlay from './DivOverlay';
 import Content, { HTMLContent } from '../components/Content'
+import getImage from 'get-md-image';
 
 
 
@@ -76,6 +77,9 @@ export const IndexPage = ({
     setNextImg(!nextImg);
   }
   const renderImg = (post) => {
+    let img = getImage(post).html
+    console.log('img:', img)
+    console.log('went into renderImg');
     if ( post.frontmatter.image && post.frontmatter.image.childImageSharp.fluid.src){
       let imgUrl = post.frontmatter.image.childImageSharp.fluid.src
       setDivStyle({backgroundImage: 'url(' + imgUrl + ')'})
@@ -178,6 +182,7 @@ export const IndexPage = ({
             {activeEvent.event.frontmatter.title}
           </h2>
           {<PostContent className='content' content = {activeEvent.event.html} />}
+          {console.log('postContent',PostContent)}
 
           {activeEvent.event.frontmatter.image &&
             <div className="article-image-wrapper">

@@ -47,6 +47,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:image" content={`${withPrefix("/")}img/og-image.jpg`} />
       </Helmet>
       <Navbar />
+      {/* this isolation property makes the mix-blend-mode work on safari for the magic logo */}
       <div style={{isolation:'isolate'}}>{children}</div>
     </div>
   )

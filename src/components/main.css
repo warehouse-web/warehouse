@@ -3,17 +3,17 @@
 	padding: 0;
 }
 
+html {
+	background-color: black;
+}
+
 h1,
 h2,
 h3,
 li, p {
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	color: black;
-	text-shadow:
-1px 1px 1px rgb(255,255,255),
-1px -1px 1px rgb(255,255,255),
--1px -1px 1px rgb(255,255,255),
--1px 1px 1px rgb(255,255,255);
+	/* color: white; */
+
 }
 
 .article-ID {
@@ -21,10 +21,12 @@ li, p {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: .7rem;
 	text-align: center;
+	color: black;
 }
 .article-detail-title {
 	text-align: center;
 	font-size: 2em;
+	color: black;
 }
 
 .article-detail {
@@ -38,11 +40,17 @@ li, p {
 	width: 50%;
 	height: 100vh;
 	top: 0;
+	margin-top: 3.5rem;
 }
 /* NAVBAR ESCAPING FROM BULMA */
 .navbar {
 	position: sticky;
 	top: 0;
+	background-color: black;
+}
+
+.navbar a {
+	color: white;
 }
 a.right {
 	text-decoration: none !important;
@@ -71,7 +79,7 @@ a.right {
 }
 
 .active {
-	border: 1px solid black;
+	border: 1px solid white;
 	border-radius: 70px;
 }
 /*
@@ -84,7 +92,7 @@ a.right {
 	margin-left: 2.3rem;
 	margin-top: 1.4rem;
 	flex: 0 0 50%;
-	background-blend-mode: screen;
+	color: white;
 }
 
 .post {
@@ -146,7 +154,7 @@ iframe {
 	position: fixed;
     width: 620px;
     /* height: 100%; */
-    right: 701px;
+    left: 0;
     z-index: 9;
     pointer-events: none;
     mix-blend-mode: difference;
@@ -192,7 +200,7 @@ iframe {
 	height: 80px;
 	width: 20px;
 	float: left;
-	background-color: black;
+	background-color: white;
 	/* background-image: linear-gradient(to right, #000000 0%, #ffffff 100%); */
 	background-attachment: fixed;
 	background-position-x: 30%;
@@ -220,6 +228,10 @@ iframe {
 
 .gatsby-resp-image-wrapper {
 	width: 80%;
+}
+
+.content > p {
+	color: black;
 }
 
 .content > p > span {
@@ -264,6 +276,7 @@ iframe {
 	display: flex;
 	background-color: rgba(0, 0, 0, 1);
 	z-index: 99999;
+	padding: 1.5rem;
 }
 .about-left {
 	margin-top: 1.8rem;
