@@ -6,10 +6,12 @@ import Layout from '../components/Layout'
 import EventRoll from '../components/EventRoll';
 import Img from 'gatsby-image'
 import DivOverlay from './DivOverlay';
-import Content, { HTMLContent, renderHtmlToReact } from '../components/Content'
-import * as R from 'rambda' 
-// import getImage from 'get-md-image';
-
+import { 
+  renderHtmlToReact, 
+  isDateBeforeToday, 
+  imagesFromAst, 
+  relayout,
+} from '../components/utils'
 
 
 export const IndexPageTemplate = ({data}) => {
@@ -27,79 +29,6 @@ export const IndexPageTemplate = ({data}) => {
   title: PropTypes.string,
 }
 
-// let initFlexWidthPx = window.innerWidth;
-let initFlexWidthPx = 620;
-    let shiftRatio = 0.5;
-
-export const relayout = () => {
-    setWidth(getPos());
-}
-
-const setWidth = (shift) => {
-    let element = document.getElementById("magic-logo");
-
-    let newWidth = initFlexWidthPx - shiftRatio * shift;
-    let newWidthPx = newWidth + "px";
-
-    element.style.width = newWidthPx;
-}
-
-const getPos = () => {
-
-    if(window.pageYOffset!= undefined){
-        return window.pageYOffset;
-    }
-    else{
-        let sy,
-        d = document,
-        r = d.documentElement,
-        b = d.body;
-        sy= r.scrollTop || b.scrollTop || 0;
-        return sy;
-    }
-}
-
-// const imagesFromAst = htmlAst => {
-//   console.log('went inside')
-//   const findImageTags = node => {
-//     if (node.children) {
-
-//       const myTags = node.children
-//       const trying = R.propEq("tagName", "img")
-//       const result = R.filter(trying, myTags)
-//       // const myTags = node.children.filter(el => el.tagName === "img")
-//       console.log('myTags',result)
-//       // const childrensTags = node.children.map(findImageTags)
-//       // console.log('children', childrensTags)
-//       // return [...myTags, ...flatten(childrensTags)] 
-//     } else {
-//       return []
-//     }
-//   }
-
-//   return findImageTags(htmlAst)
-// }
-
-const imagesFromAst = htmlAst => {
-  const findImageTags = node => {
-    if (node.children) {
-      const myTags = node.children.filter(R.propEq("tagName", "img"))
-      const childrensTags = node.children.map(findImageTags)
-
-      return [...myTags, ...R.flatten(childrensTags)]
-    } else {
-      return []
-    }
-  }
-
-  return findImageTags(htmlAst)
-}
-
-export const isDateBeforeToday = (post) => {
-  let postDate = Date.parse(post.frontmatter.date)
-  let currDate = Date.parse(new Date())
-  return postDate - currDate < 0
-}
 
 export const IndexPage = ({
   data
@@ -110,22 +39,15 @@ export const IndexPage = ({
   const [showEventDetail, setShowEventDetail] = useState(false)
   const [divStyle, setDivStyle] = useState()
 
-  const handleHover = () => {
-    setNextImg(!nextImg);
-  }
   const renderImg = (post) => {
-    // {console.log()}
 
     if ( imagesFromAst(post.htmlAst)[0].properties.src){
-      console.log('imagesFromAst(post.htmlAst)[0].properties.src:', imagesFromAst(post.htmlAst)[0].properties.src)
-      // console.log('went in if')
-      // let imgUrl = post.frontmatter.image.childImageSharp.fluid.src
       setDivStyle({backgroundImage: `url( ${imagesFromAst(post.htmlAst)[0].properties.src} )`})
     }
   }
 
   const removeImg = () => {
-    setDivStyle({backgroundImage: 'none'})
+    setDivStyle({backgroundColor: 'white'})
   }
 
   useEffect(() => {
@@ -157,13 +79,11 @@ export const IndexPage = ({
         return null;
     }
   }
-  const PostContent = HTMLContent || Content
 
   return (
 
     <Layout >
       <DivOverlay currImg={divStyle}/>
-      {console.log(divStyle)}
 
       <div className="wrapper">
         <div onScroll = {()=> relayout() } className="article-list">
@@ -173,7 +93,7 @@ export const IndexPage = ({
                 <div
                   key = {post.id}
                   onPointerEnter = {() => renderImg(post)}
-                  // onPointerLeave = {() => removeImg() }
+                  onPointerLeave = {() => removeImg() }
                 >
 
                   <article
@@ -219,13 +139,8 @@ export const IndexPage = ({
           <h2 className="article-detail-title">
             {activeEvent.event.frontmatter.title}
           </h2>
-          {/* {<PostContent className='content' content = {activeEvent.event.html} />} */}
 
           <section className='content'>{renderHtmlToReact(activeEvent.event.htmlAst)}</section>
-          {/* {imagesFromAst(activeEvent.event.htmlAst)} */}
-          {/* {activeEvent.event.frontmatter.image &&
-
-          } */}
           {activeEvent.event.frontmatter.podcastURL &&
             <iframe
               title = {activeEvent.event.id}

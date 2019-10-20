@@ -74,7 +74,8 @@ class ShopRoll extends React.Component {
               <span></span>
               <span></span>
             </div>
-            <h2 className="article-detail-title">{this.state.activeProduct.frontmatter.title}</h2>
+            <h2 className="article-detail-title">         {this.state.activeProduct.frontmatter.title}
+            </h2>
 
             <a href={`mailto: buy@wearewarehouse.com?subject=${this.state.activeProduct.frontmatter.title}`}>Send mail with subject</a>
 

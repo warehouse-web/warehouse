@@ -3,9 +3,8 @@ import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
 import Img from 'gatsby-image'
-import {isDateBeforeToday} from '../templates/index-page'
 import DivOverlay from '../templates/DivOverlay'
-import Content, { HTMLContent } from '../components/Content'
+import Content, { HTMLContent, isDateBeforeToday } from './utils'
 
 
 class EventRoll extends React.Component {

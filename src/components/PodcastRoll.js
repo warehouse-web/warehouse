@@ -4,7 +4,7 @@ import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
 import Img from 'gatsby-image'
 import DivOverlay from '../templates/DivOverlay'
-import Content, { HTMLContent } from '../components/Content'
+import Content, { HTMLContent } from '../components/utils'
 
 
 class PodcastRoll extends React.Component {
