@@ -6,8 +6,9 @@ import Layout from '../components/Layout'
 import EventRoll from '../components/EventRoll';
 import Img from 'gatsby-image'
 import DivOverlay from './DivOverlay';
-import Content, { HTMLContent } from '../components/Content'
-import getImage from 'get-md-image';
+import Content, { HTMLContent, renderHtmlToReact } from '../components/Content'
+import * as R from 'rambda' 
+// import getImage from 'get-md-image';
 
 
 
@@ -58,6 +59,42 @@ const getPos = () => {
     }
 }
 
+// const imagesFromAst = htmlAst => {
+//   console.log('went inside')
+//   const findImageTags = node => {
+//     if (node.children) {
+
+//       const myTags = node.children
+//       const trying = R.propEq("tagName", "img")
+//       const result = R.filter(trying, myTags)
+//       // const myTags = node.children.filter(el => el.tagName === "img")
+//       console.log('myTags',result)
+//       // const childrensTags = node.children.map(findImageTags)
+//       // console.log('children', childrensTags)
+//       // return [...myTags, ...flatten(childrensTags)] 
+//     } else {
+//       return []
+//     }
+//   }
+
+//   return findImageTags(htmlAst)
+// }
+
+const imagesFromAst = htmlAst => {
+  const findImageTags = node => {
+    if (node.children) {
+      const myTags = node.children.filter(R.propEq("tagName", "img"))
+      const childrensTags = node.children.map(findImageTags)
+
+      return [...myTags, ...R.flatten(childrensTags)]
+    } else {
+      return []
+    }
+  }
+
+  return findImageTags(htmlAst)
+}
+
 export const isDateBeforeToday = (post) => {
   let postDate = Date.parse(post.frontmatter.date)
   let currDate = Date.parse(new Date())
@@ -77,18 +114,18 @@ export const IndexPage = ({
     setNextImg(!nextImg);
   }
   const renderImg = (post) => {
-    let img = getImage(post).html
-    console.log('img:', img)
-    console.log('went into renderImg');
-    if ( post.frontmatter.image && post.frontmatter.image.childImageSharp.fluid.src){
-      let imgUrl = post.frontmatter.image.childImageSharp.fluid.src
-      setDivStyle({backgroundImage: 'url(' + imgUrl + ')'})
+    // {console.log()}
+
+    if ( imagesFromAst(post.htmlAst)[0].properties.src){
+      console.log('imagesFromAst(post.htmlAst)[0].properties.src:', imagesFromAst(post.htmlAst)[0].properties.src)
+      // console.log('went in if')
+      // let imgUrl = post.frontmatter.image.childImageSharp.fluid.src
+      setDivStyle({backgroundImage: `url( ${imagesFromAst(post.htmlAst)[0].properties.src} )`})
     }
   }
 
   const removeImg = () => {
     setDivStyle({backgroundImage: 'none'})
-    console.log('ran')
   }
 
   useEffect(() => {
@@ -126,6 +163,7 @@ export const IndexPage = ({
 
     <Layout >
       <DivOverlay currImg={divStyle}/>
+      {console.log(divStyle)}
 
       <div className="wrapper">
         <div onScroll = {()=> relayout() } className="article-list">
@@ -135,7 +173,7 @@ export const IndexPage = ({
                 <div
                   key = {post.id}
                   onPointerEnter = {() => renderImg(post)}
-                  onPointerLeave = {() => removeImg() }
+                  // onPointerLeave = {() => removeImg() }
                 >
 
                   <article
@@ -181,17 +219,13 @@ export const IndexPage = ({
           <h2 className="article-detail-title">
             {activeEvent.event.frontmatter.title}
           </h2>
-          {<PostContent className='content' content = {activeEvent.event.html} />}
-          {console.log('postContent',PostContent)}
+          {/* {<PostContent className='content' content = {activeEvent.event.html} />} */}
 
-          {activeEvent.event.frontmatter.image &&
-            <div className="article-image-wrapper">
-              <Img
-                className="article-detail-image"
-                fluid = {activeEvent.event.frontmatter.image.childImageSharp.fluid}
-              />
-            </div>
-          }
+          <section className='content'>{renderHtmlToReact(activeEvent.event.htmlAst)}</section>
+          {/* {imagesFromAst(activeEvent.event.htmlAst)} */}
+          {/* {activeEvent.event.frontmatter.image &&
+
+          } */}
           {activeEvent.event.frontmatter.podcastURL &&
             <iframe
               title = {activeEvent.event.id}
@@ -245,7 +279,7 @@ export default () => (
           ) {
           edges {
             node {
-              html
+              htmlAst
               id
               fields {
                 slug

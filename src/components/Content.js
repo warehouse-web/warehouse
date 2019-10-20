@@ -1,5 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import hastToHyperscript from 'hast-to-hyperscript'
+
+export const renderHtmlToReact = node => {
+  return hastToHyperscript(React.createElement, node);
+} 
 
 export const HTMLContent = ({ content, className }) => (
   <div className={className} dangerouslySetInnerHTML={{ __html: content }} />
