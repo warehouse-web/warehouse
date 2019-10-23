@@ -39,6 +39,15 @@ export const IndexPage = ({
   const [rectColor, setRectColor ] = useState('black')
   const [width, setWidth] = useState(window.innerWidth)
 
+
+  useEffect(() => (window.innerWidth < 900 &&
+    setRectColor('white'))
+  ,[] )
+
+  useEffect(()=> {
+    setDivStyle({backgroundColor: rectColor})
+  }, [])
+
   useEffect(
     () => {
     window.addEventListener('resize', updateWidthAndHeight)
@@ -55,7 +64,6 @@ export const IndexPage = ({
   }
 
   const renderImg = (post) => {
-
     if ( imagesFromAst(post.htmlAst)[0].properties.src){
       setDivStyle({backgroundImage: `url( ${imagesFromAst(post.htmlAst)[0].properties.src} )`})
     }

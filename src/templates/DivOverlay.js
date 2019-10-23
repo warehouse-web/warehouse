@@ -7,15 +7,14 @@ import {isBrowser } from '../components/utils'
 
 let rectColor;
 
-{isBrowser() && (window.innerWidth <= 900) 
-    rectColor = 'black';
-}
-console.log(window.innerWidth);
-{isBrowser() && (window.innerWidth >= 901) 
-    rectColor = 'white';
-}
+// {isBrowser() && (window.innerWidth <= 900) 
+//     rectColor = 'black';
+// }
+// console.log(window.innerWidth);
+// {isBrowser() && (window.innerWidth >= 901) 
+//     rectColor = 'white';
+// }
 
-console.log('rectColor', rectColor)
 
 export const relayout = () => {
     setWidth(getPos());
