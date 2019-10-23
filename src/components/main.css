@@ -77,8 +77,16 @@ a.right {
 	color: black;
 }
 
+a {
+	color: black;
+}
+a.navbar-item:hover {
+	opacity: .6;
+	color: black;
+}
+
 .active {
-	border: 1px solid white;
+	border: 1px solid black;
 	border-radius: 70px;
 }
 
