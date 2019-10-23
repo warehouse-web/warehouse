@@ -5,13 +5,15 @@ import { Link, graphql, StaticQuery } from 'gatsby'
 import Layout from '../components/Layout'
 import EventRoll from '../components/EventRoll';
 import DivOverlay from './DivOverlay';
-import { 
-  renderHtmlToReact, 
-  isDateBeforeToday, 
-  imagesFromAst, 
-  relayout, 
+import {
+  renderHtmlToReact,
+  isDateBeforeToday,
+  imagesFromAst,
+  relayout,
   postType,
-  isBrowser, handleWindowSizeChange,
+  isBrowser,
+  handleWindowSizeChange,
+  useWindowSize,
 } from '../components/utils'
 
 export const IndexPageTemplate = ({data}) => {
@@ -39,29 +41,30 @@ export const IndexPage = ({
   const [rectColor, setRectColor ] = useState('black')
   const windowState = typeof window !== 'undefined' && window.innerWidth
   const [width, setWidth] = useState(windowState)
+  const size = useWindowSize();
 
-  useEffect(() => (window.innerWidth < 900 &&
-    setRectColor('white'))
-  ,[] )
+  // useEffect(() => (window.innerWidth < 900 &&
+  //   setRectColor('white'))
+  // ,[] )
 
-  useEffect(()=> {
-    setDivStyle({backgroundColor: rectColor})
-  }, [])
+  // useEffect(()=> {
+  //   setDivStyle({backgroundColor: rectColor})
+  // }, [])
 
-  useEffect(
-    () => {
-    window.addEventListener('resize', updateWidthAndHeight)
-    return () => window.removeEventListener('resize', updateWidthAndHeight)
-  })
+  // useEffect(
+  //   () => {
+  //   window.addEventListener('resize', updateWidthAndHeight)
+  //   return () => window.removeEventListener('resize', updateWidthAndHeight)
+  // })
 
-  const updateWidthAndHeight = () => {
-    setWidth(window.innerWidth)
-    if (width >=900) {
-      setRectColor('black')
-    } else {
-      setRectColor('white')
-    }
-  }
+  // const updateWidthAndHeight = () => {
+  //   setWidth(window.innerWidth)
+  //   if (width >=900) {
+  //     setRectColor('black')
+  //   } else {
+  //     setRectColor('white')
+  //   }
+  // }
 
   const renderImg = (post) => {
     if ( imagesFromAst(post.htmlAst)[0].properties.src){
@@ -70,7 +73,11 @@ export const IndexPage = ({
   }
 
   const removeImg = () => {
-    setDivStyle({backgroundColor: rectColor})
+    if (size.width < 900) {
+      setDivStyle({backgroundColor: 'white'})
+    } else {
+      setDivStyle({backgroundColor: 'black'})
+    }
   }
 
   useEffect(() => {

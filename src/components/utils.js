@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import PropTypes from 'prop-types'
 import hastToHyperscript from 'hast-to-hyperscript'
 import * as R from 'rambda'
@@ -8,6 +8,34 @@ let initFlexWidthPx;
 let shiftRatio = 0.3;
 export let rectColor;
 
+
+export function useWindowSize() {
+  const isClient = typeof window === 'object';
+
+  function getSize() {
+    return {
+      width: isClient ? window.innerWidth : undefined,
+      height: isClient ? window.innerHeight : undefined
+    };
+  }
+
+  const [windowSize, setWindowSize] = useState(getSize);
+
+  useEffect(() => {
+    if (!isClient) {
+      return false;
+    }
+
+    function handleResize() {
+      setWindowSize(getSize());
+    }
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []); // Empty array ensures that effect is only run on mount and unmount
+
+  return windowSize;
+}
 
 export const handleWindowSizeChange = () => {
   console.log('called handleWindow')
@@ -83,7 +111,7 @@ export const isDateBeforeToday = (post) => {
 
 export const renderHtmlToReact = node => {
   return hastToHyperscript(React.createElement, node);
-} 
+}
 
 export const imagesFromAst = htmlAst => {
   const findImageTags = node => {
