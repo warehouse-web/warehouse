@@ -28,6 +28,10 @@ p {
 	color: black;
 }
 
+.article-detail.mobile {
+	/* background-color: red; */
+	width: 100%;
+}
 .article-detail {
 	flex: 0 0 50%;
 	background-color: rgb(245, 245, 245);
@@ -39,7 +43,7 @@ p {
 	width: 50%;
 	height: 100vh;
 	top: 0;
-	margin-top: 3.25rem;
+	/* margin-top: 3.25rem; */
 }
 /* NAVBAR ESCAPING FROM BULMA */
 .navbar {
@@ -93,7 +97,7 @@ a.navbar-item:hover {
 .article-list {
 	margin-left: 2.3rem;
 	margin-top: 1.4rem;
-	flex: 0 0 50%;
+	flex: 0 0 100%;
 	color: white;
 }
 

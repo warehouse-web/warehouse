@@ -1,102 +1,95 @@
-import React from 'react'
+import React, {useState} from 'react'
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
 import Img from 'gatsby-image'
 import DivOverlay from '../templates/DivOverlay'
-import Content, { HTMLContent, isDateBeforeToday } from './utils'
+import Content, { HTMLContent, isDateBeforeToday, useMedia } from './utils'
 
 
-class EventRoll extends React.Component {
+const EventRoll = ({data}) => {
+  
+  const [activeEvent, setActiveEvent] = useState(false)
+  const [showEventDetail, setShowEventDetail] = useState(false)
 
-  state = {
-    activeEvent: {},
-    showEventDetail: false,
-  }
-
-  openEvent = (event) => {
+  const openEvent = (event) => {
     event && window.history.pushState( {page: 1}, event.frontmatter.title, event.fields.slug)
-      this.setState(
-        {
-          activeEvent: event,
-          showEventDetail: true,
-        }
-      );
 
+    setActiveEvent(event)
+    setShowEventDetail(true)
   }
 
-  render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
-    const PostContent = HTMLContent || Content
+
+  const { edges: posts } = data.allMarkdownRemark
+  const PostContent = HTMLContent || Content
+  const match = useMedia("(max-width: 900px) ");
 
 
-    return (
-      <>
-      <DivOverlay/>
-      <div className="wrapper">
-        <div className="article-list">
-          {posts &&
-            posts.map(({ node: post }) => (
-              <div key={post.id}>
-                <article
-                  onClick={() => this.openEvent(post)}
-                  className={`blog-list-item post`}
-                >
-                  {post.frontmatter.date &&
-                    isDateBeforeToday(post) &&
-                      <h2 className='post-type'>Past Event</h2>
-                  }
-                  {post.frontmatter.date &&
-                    !isDateBeforeToday(post) &&
-                      <h2 className='post-type'>Upcoming Event</h2>
-                  }
-                  <header>
 
-                      {/* <Link
-                        className="title has-text-primary is-size-4"
-                        to={post.fields.slug}
-                      >
-                    </Link> */}
-                    <h1>{post.frontmatter.title}</h1>
-                    <h2 className="post-meta">
-                          {post.frontmatter.date}
-                    </h2>
-                    {post.frontmatter.location &&
-                      <h2>{post.frontmatter.location}</h2>
-                    }
-
-                  </header>
-
-                </article>
-              </div>
-            ))}
-
-      </div>
-
-      {this.state.showEventDetail && (
-          <div className="article-detail">
-            {/* Close Button */}
-            <div className='close'
-              onClick={() => this.setState({showEventDetail: false})}
+  return (
+    <>
+    <DivOverlay/>
+    <div className="wrapper">
+      <div className="article-list">
+        {posts &&
+          posts.map(({ node: post }) => (
+            <div key={post.id}>
+              <article
+                onClick={() => openEvent(post)}
+                className={`blog-list-item post`}
               >
-                <span></span>
-                <span></span>
+                {post.frontmatter.date &&
+                  isDateBeforeToday(post) &&
+                    <h2 className='post-type'>Past Event</h2>
+                }
+                {post.frontmatter.date &&
+                  !isDateBeforeToday(post) &&
+                    <h2 className='post-type'>Upcoming Event</h2>
+                }
+                <header>
+
+                    {/* <Link
+                      className="title has-text-primary is-size-4"
+                      to={post.fields.slug}
+                    >
+                  </Link> */}
+                  <h1>{post.frontmatter.title}</h1>
+                  <h2 className="post-meta">
+                        {post.frontmatter.date}
+                  </h2>
+                  {post.frontmatter.location &&
+                    <h2>{post.frontmatter.location}</h2>
+                  }
+
+                </header>
+
+              </article>
             </div>
-            <p className="article-ID">{this.state.activeEvent.frontmatter.warehouseID}</p>
-            <h2 className="article-detail-title">{this.state.activeEvent.frontmatter.title}</h2>
-            {<PostContent className = 'content' content={this.state.activeEvent.html} />}
-            {this.state.activeEvent.frontmatter.image &&
-              <div className="article-image-wrapper">
-                <Img className ="article-detail-image" fluid={this.state.activeEvent.frontmatter.image.childImageSharp.fluid} />
-              </div>
-            }
+          ))}
+
+    </div>
+
+    {showEventDetail && (
+      <div className={`article-detail ${match ? `mobile` : ``}`}>
+          <div className='close'
+            onClick={() => setShowEventDetail(false)}
+            >
+              <span></span>
+              <span></span>
           </div>
-      )}
-      </div>
-      </>
-    )
-  }
+          <p className="article-ID">{activeEvent.frontmatter.warehouseID}</p>
+          <h2 className="article-detail-title">{activeEvent.frontmatter.title}</h2>
+          {<PostContent className = 'content' content={activeEvent.html} />}
+          {activeEvent.frontmatter.image &&
+            <div className="article-image-wrapper">
+              <Img className ="article-detail-image" fluid={activeEvent.frontmatter.image.childImageSharp.fluid} />
+            </div>
+          }
+        </div>
+    )}
+    </div>
+    </>
+  )
 }
 
 EventRoll.propTypes = {

@@ -11,9 +11,8 @@ import {
   imagesFromAst,
   relayout,
   postType,
-  isBrowser,
-  handleWindowSizeChange,
   useWindowSize,
+  useMedia
 } from '../components/utils'
 
 export const IndexPageTemplate = ({data}) => {
@@ -30,18 +29,17 @@ export const IndexPageTemplate = ({data}) => {
   title: PropTypes.string,
 }
 
+
 export const IndexPage = ({
   data
 }) => {
   const {edges: posts} = data.allMarkdownRemark
   const [activeEvent, setActiveEvent] = useState({});
-  const [nextImg, setNextImg] = useState(false)
   const [showEventDetail, setShowEventDetail] = useState(false)
+  const [isMobile, setIsMobile] = useState(match)
   const [divStyle, setDivStyle] = useState()
-
-  const windowState = typeof window !== 'undefined' && window.innerWidth
-  const [width, setWidth] = useState(windowState)
   const size = useWindowSize();
+  const match = useMedia("(max-width: 900px) ");
 
   const renderImg = (post) => {
     if ( imagesFromAst(post.htmlAst)[0].properties.src){
@@ -50,10 +48,12 @@ export const IndexPage = ({
   }
 
   useEffect(() => {
-    if (size.width < 900) {
+    if (match) {
       setDivStyle({backgroundColor: 'white'})
+      setIsMobile(true)
     } else {
       setDivStyle({backgroundColor: 'black'})
+      setIsMobile(false)      
     }
   }, [])
 
@@ -86,7 +86,6 @@ export const IndexPage = ({
 
     <Layout >
       <DivOverlay currImg={divStyle}/>
-
       <div className="wrapper">
         <div onScroll = {()=> relayout() } className="article-list">
           {posts &&
@@ -100,7 +99,7 @@ export const IndexPage = ({
 
                   <article
                     onClick={() => openEvent(post)}
-                    className={`post`}
+                    className={`post ` }
                   >
                     {post.frontmatter.date &&
                       post.frontmatter.templateKey === 'blog-post' &&
@@ -129,7 +128,7 @@ export const IndexPage = ({
         </div>
       {showEventDetail && (
 
-        <div className="article-detail">
+        <div className={`article-detail ${match ? `mobile` : ``}`}>
           <div className='close'
             onClick={() => setShowEventDetail(false)}
           >
