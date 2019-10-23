@@ -23,8 +23,8 @@ export const handleWindowSizeChange = () => {
   }
 }
 
-{isBrowser() && window.addEventListener('resize', handleWindowSizeChange)
-  if ( window !== undefined && window.innerWidth <= 900) {
+{isBrowser() && typeof window !== 'undefined' && window.addEventListener('resize', handleWindowSizeChange)
+  if ( typeof window !== 'undefined' && window.innerWidth <= 900) {
     initFlexWidthPx = 310;
     rectColor = 'white';
   } else {

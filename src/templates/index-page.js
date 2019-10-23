@@ -37,8 +37,8 @@ export const IndexPage = ({
   const [showEventDetail, setShowEventDetail] = useState(false)
   const [divStyle, setDivStyle] = useState()
   const [rectColor, setRectColor ] = useState('black')
-  const [width, setWidth] = useState(window.innerWidth)
-
+  const windowState = typeof window !== 'undefined' && window.innerWidth
+  const [width, setWidth] = useState(windowState)
 
   useEffect(() => (window.innerWidth < 900 &&
     setRectColor('white'))
