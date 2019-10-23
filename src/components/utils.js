@@ -3,9 +3,36 @@ import PropTypes from 'prop-types'
 import hastToHyperscript from 'hast-to-hyperscript'
 import * as R from 'rambda'
 
+export const isBrowser = () => typeof window !== 'undefined'
+let initFlexWidthPx;
+let shiftRatio = 0.3;
+export let rectColor;
 
-let initFlexWidthPx = 620;
-let shiftRatio = 0.5;
+
+export const handleWindowSizeChange = () => {
+  console.log('called handleWindow')
+  if (window.innerWidth <= 900) {
+    shiftRatio = 0.25;
+    initFlexWidthPx = 310;
+    return rectColor = 'white';
+
+  } else {
+    initFlexWidthPx = 620
+    shiftRatio = 0.5;
+    return rectColor = 'black';
+  }
+}
+
+{isBrowser() && window.addEventListener('resize', handleWindowSizeChange)
+  if (window.innerWidth <= 900) {
+    initFlexWidthPx = 310;
+    rectColor = 'white';
+  } else {
+    initFlexWidthPx = 620;
+
+  }
+}
+
 
 export const relayout = () => {
   setWidth(getPos());

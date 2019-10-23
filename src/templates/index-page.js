@@ -4,15 +4,15 @@ import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import Layout from '../components/Layout'
 import EventRoll from '../components/EventRoll';
-import Img from 'gatsby-image'
 import DivOverlay from './DivOverlay';
 import { 
   renderHtmlToReact, 
   isDateBeforeToday, 
   imagesFromAst, 
-  relayout,
+  relayout, 
+  postType,
+  isBrowser, handleWindowSizeChange,
 } from '../components/utils'
-
 
 export const IndexPageTemplate = ({data}) => {
   const { allMarkdownRemark: post } = data;
@@ -23,12 +23,10 @@ export const IndexPageTemplate = ({data}) => {
     </Layout>
   )
 }
-
   IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
 }
-
 
 export const IndexPage = ({
   data
@@ -38,6 +36,23 @@ export const IndexPage = ({
   const [nextImg, setNextImg] = useState(false)
   const [showEventDetail, setShowEventDetail] = useState(false)
   const [divStyle, setDivStyle] = useState()
+  const [rectColor, setRectColor ] = useState('black')
+  const [width, setWidth] = useState(window.innerWidth)
+
+  useEffect(
+    () => {
+    window.addEventListener('resize', updateWidthAndHeight)
+    return () => window.removeEventListener('resize', updateWidthAndHeight)
+  })
+
+  const updateWidthAndHeight = () => {
+    setWidth(window.innerWidth)
+    if (width >=900) {
+      setRectColor('black')
+    } else {
+      setRectColor('white')
+    }
+  }
 
   const renderImg = (post) => {
 
@@ -47,7 +62,7 @@ export const IndexPage = ({
   }
 
   const removeImg = () => {
-    setDivStyle({backgroundColor: 'white'})
+    setDivStyle({backgroundColor: rectColor})
   }
 
   useEffect(() => {
@@ -65,19 +80,6 @@ export const IndexPage = ({
     );
     setActiveEvent({event})
     setShowEventDetail(true)
-  }
-
-  const postType = (post) => {
-    switch(post.frontmatter.templateKey) {
-      case 'blog-post':
-        return 'Event';
-      case 'podcast-page':
-        return 'Podcast';
-      case 'product-page':
-        return 'Shop';
-      default:
-        return null;
-    }
   }
 
   return (

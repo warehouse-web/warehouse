@@ -1,8 +1,21 @@
 import React from 'react'
 import '../components/main.css'
+import {isBrowser } from '../components/utils'
 
-let initFlexWidthPx = 640;
-    let shiftRatio = 0.1;
+// let initFlexWidthPx = 640;
+// let shiftRatio = 0.1;
+
+let rectColor;
+
+{isBrowser() && (window.innerWidth <= 900) 
+    rectColor = 'black';
+}
+console.log(window.innerWidth);
+{isBrowser() && (window.innerWidth >= 901) 
+    rectColor = 'white';
+}
+
+console.log('rectColor', rectColor)
 
 export const relayout = () => {
     setWidth(getPos());
@@ -38,12 +51,12 @@ const DivOverlay = (currImg) => {
         <div id="magic-logo">
             <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={{background: "transparent"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: rectColor}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: rectColor}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: rectColor}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: rectColor}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: rectColor}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: rectColor}}></div>
             <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={{background: "transparent"}}></div>
