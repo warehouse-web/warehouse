@@ -24,7 +24,7 @@ export const handleWindowSizeChange = () => {
 }
 
 {isBrowser() && window.addEventListener('resize', handleWindowSizeChange)
-  if (window.innerWidth <= 900) {
+  if ( window !== undefined && window.innerWidth <= 900) {
     initFlexWidthPx = 310;
     rectColor = 'white';
   } else {
