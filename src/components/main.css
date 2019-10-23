@@ -188,7 +188,7 @@ iframe {
 	li,
 	p {
 		font-family: Georgia, 'Times New Roman', Times, serif;
-		color: white;
+		/* color: white; */
 	}
 
 	#magic-logo {
@@ -258,6 +258,7 @@ iframe {
 	align-items: center;
 	text-align: left;
 	margin: 0 3.8rem;
+	color: black;
 }
 
 .gatsby-resp-image-wrapper {
@@ -265,7 +266,7 @@ iframe {
 	margin-bottom: 1.8rem;
 }
 
-.content > p {
+.content > * {
 	color: black;
 }
 

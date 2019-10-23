@@ -1,19 +1,8 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import '../components/main.css'
-import {isBrowser } from '../components/utils'
 
 // let initFlexWidthPx = 640;
 // let shiftRatio = 0.1;
-
-let rectColor;
-
-// {isBrowser() && (window.innerWidth <= 900) 
-//     rectColor = 'black';
-// }
-// console.log(window.innerWidth);
-// {isBrowser() && (window.innerWidth >= 901) 
-//     rectColor = 'white';
-// }
 
 
 export const relayout = () => {
@@ -44,7 +33,38 @@ const getPos = () => {
     }
 }
 
+
 const DivOverlay = (currImg) => {
+//   const [rectColor, setRectColor ] = useState('black')
+//   const [divStyle, setDivStyle] = useState()
+//   const [width, setWidth] = useState(window.innerWidth)
+
+
+
+//   useEffect(() => (window.innerWidth < 900 &&
+//     setRectColor('white'))
+//   ,[] )
+
+//   useEffect(()=> {
+//     setDivStyle({backgroundColor: rectColor})
+//   }, [])
+
+//   useEffect(
+//     () => {
+//     window.addEventListener('resize', updateWidthAndHeight)
+//     return () => window.removeEventListener('resize', updateWidthAndHeight)
+//   })
+
+//   const updateWidthAndHeight = () => {
+//     setWidth(window.innerWidth)
+//     if (width >=900) {
+//       setRectColor('black')
+//     } else {
+//       setRectColor('white')
+//     }
+//   }
+
+
 
     return (
         <div id="magic-logo">
@@ -271,3 +291,4 @@ const DivOverlay = (currImg) => {
 }
 
 export default DivOverlay
+
