@@ -10,7 +10,7 @@ import { withPrefix } from "gatsby"
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
-    <div>
+    <div style={{isolation:'isolate'}}>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -48,7 +48,7 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       <Navbar />
       {/* this isolation property makes the mix-blend-mode work on safari for the magic logo */}
-      <div style={{isolation:'isolate'}}>{children}</div>
+      <div >{children}</div>
     </div>
   )
 }

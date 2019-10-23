@@ -13,7 +13,6 @@ h3,
 li,
 p {
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	/* color: white; */
 }
 
 .article-ID {
@@ -40,13 +39,13 @@ p {
 	width: 50%;
 	height: 100vh;
 	top: 0;
-	margin-top: 3.5rem;
+	margin-top: 3.25rem;
 }
 /* NAVBAR ESCAPING FROM BULMA */
 .navbar {
 	position: sticky;
 	top: 0;
-	background-color: black;
+	z-index: 0;
 }
 
 .navbar a {
@@ -82,11 +81,6 @@ a.right {
 	border: 1px solid white;
 	border-radius: 70px;
 }
-/*
-.navbar-item:focus {
-	border: 1px solid black;
-	border-radius: 49%/100%;
-} */
 
 .article-list {
 	margin-left: 2.3rem;
@@ -172,6 +166,14 @@ iframe {
 		background-color: black;
 	}
 
+	.navbar {
+		background-color: black;
+	}
+
+	.navbar a {
+		color: white;
+	}
+
 	h1,
 	h2,
 	h3,
@@ -195,6 +197,13 @@ iframe {
 @media screen and (min-width: 901px) {
 	html {
 		background-color: white;
+	}
+	.navbar {
+		background-color: white;
+	}
+
+	.navbar a {
+		color: black;
 	}
 
 	h1,
@@ -265,7 +274,7 @@ iframe {
 	height: 100%;
 	display: flex;
 	background-color: rgba(0, 0, 0, 1);
-	z-index: 99999;
+	z-index: 999999;
 	padding: 1.5rem;
 }
 .about-left {
@@ -286,6 +295,7 @@ iframe {
 	margin-right: 4rem;
 	display: block;
 	line-height: 1.1;
+	font-size: 1.3rem;
 }
 
 .about-right {
@@ -302,13 +312,18 @@ iframe {
 
 .about-description {
 	color: white;
+	font-size: 1.3rem;
 	line-height: 1.2;
-	font-size: .8rem;
 	margin-right: 3.9rem;
 	margin-top: 2.7rem;
 }
+
+.about-description > p {
+	font-size: 1.3rem;
+}
 .colophon {
 	margin-top: 1.8rem;
+	font-size: 1.3rem;
 }
 
 .colophon > li {
@@ -316,13 +331,13 @@ iframe {
 	text-transform: uppercase;
 	line-height: 1.1;
 	margin-bottom: .8rem;
-	font-size: .9rem;
+	font-size: 1.3rem;
 }
 
 .colophon > li > li {
 	color: white;
 	text-transform: initial;
-	font-size: .8rem;
+	font-size: 1.3rem;
 }
 
 .about-copyright {
