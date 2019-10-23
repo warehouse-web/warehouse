@@ -59,9 +59,6 @@ PodcastTemplate.propTypes = {
 }
 
 const Podcast = (data) => {
-console.log('data:', data)
-
-  // const { markdownRemark: post } = data
 
   return (
     <Layout>

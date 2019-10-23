@@ -86,7 +86,6 @@ class EventRoll extends React.Component {
             <p className="article-ID">{this.state.activeEvent.frontmatter.warehouseID}</p>
             <h2 className="article-detail-title">{this.state.activeEvent.frontmatter.title}</h2>
             {<PostContent className = 'content' content={this.state.activeEvent.html} />}
-            {console.log('html', this.state.activeEvent.html)}
             {this.state.activeEvent.frontmatter.image &&
               <div className="article-image-wrapper">
                 <Img className ="article-detail-image" fluid={this.state.activeEvent.frontmatter.image.childImageSharp.fluid} />

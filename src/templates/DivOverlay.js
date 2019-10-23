@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import '../components/main.css'
+import {useWindowSize} from '../components/utils'
 
 // let initFlexWidthPx = 640;
 // let shiftRatio = 0.1;
@@ -35,6 +36,17 @@ const getPos = () => {
 
 
 const DivOverlay = (currImg) => {
+    const [rectColor, setRectColor] = useState('black')
+    const size = useWindowSize();
+
+
+  useEffect(() => {
+    if (size.width < 900) {
+    setRectColor('white')
+    } else {
+    setRectColor('black')
+    }
+  }, [])
 //   const [rectColor, setRectColor ] = useState('black')
 //   const [divStyle, setDivStyle] = useState()
 //   const [width, setWidth] = useState(window.innerWidth)
@@ -64,18 +76,17 @@ const DivOverlay = (currImg) => {
 //     }
 //   }
 
-
-
     return (
         <div id="magic-logo">
+
             <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={{background: "transparent"}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: rectColor}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: rectColor}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: rectColor}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: rectColor}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: rectColor}}></div>
-            <div className="rectangle" style={currImg ? currImg.currImg : {background: rectColor}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
+            <div className="rectangle" style={currImg ? currImg.currImg : {background: "black"}}></div>
             <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={{background: "transparent"}}></div>
             <div className="rectangle" style={{background: "transparent"}}></div>

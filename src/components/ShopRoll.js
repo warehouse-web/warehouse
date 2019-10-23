@@ -14,7 +14,6 @@ class ShopRoll extends React.Component {
   }
 
   openProduct = (product) => {
-    console.log('called in here')
     product &&
     window.history.pushState(
       {page: 1},
@@ -35,7 +34,6 @@ class ShopRoll extends React.Component {
     return (
       <>
       <DivOverlay/>
-      {console.log(products)}
       <div className="wrapper">
         <div className="article-list">
           {products &&
@@ -66,7 +64,6 @@ class ShopRoll extends React.Component {
 
       {this.state.showProductDetail && (
           <div className="article-detail">
-            {console.log(this.state.activeProduct.frontmatter.title)}
             {/* Close Button */}
             <div className='close'
               onClick={() => this.setState({showProductDetail: false})}

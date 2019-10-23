@@ -18,8 +18,6 @@ export const EventPostTemplate = ({
   helmet,
 }) => {
   const PostContent = contentComponent || Content
-  console.log('content:', content)
-  console.log('date is it needed', date)
 
   return (
     <div className="event-detail">

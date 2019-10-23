@@ -38,39 +38,24 @@ export const IndexPage = ({
   const [nextImg, setNextImg] = useState(false)
   const [showEventDetail, setShowEventDetail] = useState(false)
   const [divStyle, setDivStyle] = useState()
-  const [rectColor, setRectColor ] = useState('black')
+
   const windowState = typeof window !== 'undefined' && window.innerWidth
   const [width, setWidth] = useState(windowState)
   const size = useWindowSize();
-
-  // useEffect(() => (window.innerWidth < 900 &&
-  //   setRectColor('white'))
-  // ,[] )
-
-  // useEffect(()=> {
-  //   setDivStyle({backgroundColor: rectColor})
-  // }, [])
-
-  // useEffect(
-  //   () => {
-  //   window.addEventListener('resize', updateWidthAndHeight)
-  //   return () => window.removeEventListener('resize', updateWidthAndHeight)
-  // })
-
-  // const updateWidthAndHeight = () => {
-  //   setWidth(window.innerWidth)
-  //   if (width >=900) {
-  //     setRectColor('black')
-  //   } else {
-  //     setRectColor('white')
-  //   }
-  // }
 
   const renderImg = (post) => {
     if ( imagesFromAst(post.htmlAst)[0].properties.src){
       setDivStyle({backgroundImage: `url( ${imagesFromAst(post.htmlAst)[0].properties.src} )`})
     }
   }
+
+  useEffect(() => {
+    if (size.width < 900) {
+      setDivStyle({backgroundColor: 'white'})
+    } else {
+      setDivStyle({backgroundColor: 'black'})
+    }
+  }, [])
 
   const removeImg = () => {
     if (size.width < 900) {

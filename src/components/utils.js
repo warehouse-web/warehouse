@@ -38,7 +38,6 @@ export function useWindowSize() {
 }
 
 export const handleWindowSizeChange = () => {
-  console.log('called handleWindow')
   if (window.innerWidth <= 900) {
     shiftRatio = 0.25;
     initFlexWidthPx = 310;
