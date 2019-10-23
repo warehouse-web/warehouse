@@ -8,7 +8,7 @@ import Content, { HTMLContent } from '../components/utils'
 
 
 
-const PodcastRoll = () => {
+const PodcastRoll = ({data}) => {
   const [activePodcast, setActivePodcast] = useState({})
   const [showPodcastDetail,setShowPodcastDetail] = useState(false)
 
@@ -21,13 +21,11 @@ const PodcastRoll = () => {
     );
     if (podcast !== !!activePodcast) {
       setActivePodcast(podcast)
-      showPodcastDetail(true);
+      setShowPodcastDetail(true);
       }
     }
 
-
     const PostContent = HTMLContent || Content
-    const { data } = props
     const { edges: posts } = data.allMarkdownRemark
 
     return (
