@@ -19,7 +19,7 @@ const [activeProduct, setActiveProduct] = useState({})
 const [showProductDetail, setShowProductDetail] = useState(false);
 
 const [divStyle, setDivStyle] = useState()
-const [isMobile, setIsMobile] = useState(match)
+const [isMobile, setIsMobile] = useState()
 const size = useWindowSize();
 const match = useMedia("(max-width: 900px) ");
 
