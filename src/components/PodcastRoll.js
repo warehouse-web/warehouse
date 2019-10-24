@@ -1,14 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
 import Img from 'gatsby-image'
 import DivOverlay from '../templates/DivOverlay'
-import Content, { HTMLContent } from '../components/utils'
+import Content, { HTMLContent, useMedia } from '../components/utils'
 
 
 
-const PodcastRoll = () => {
+const PodcastRoll = ({data}) => {
   const [activePodcast, setActivePodcast] = useState({})
   const [showPodcastDetail,setShowPodcastDetail] = useState(false)
 
@@ -21,13 +21,12 @@ const PodcastRoll = () => {
     );
     if (podcast !== !!activePodcast) {
       setActivePodcast(podcast)
-      showPodcastDetail(true);
+      setShowPodcastDetail(true);
       }
     }
 
-
     const PostContent = HTMLContent || Content
-    const { data } = props
+    const match = useMedia("(max-width: 900px) ");
     const { edges: posts } = data.allMarkdownRemark
 
     return (
@@ -66,7 +65,7 @@ const PodcastRoll = () => {
           }
     </div>
     {showPodcastDetail && (
-        <div className="article-detail">
+        <div className={`article-detail ${match ? `mobile` : ``}`}>
             <div className='close' onClick={() => setShowPodcastDetail(false)}>
               <span></span>
               <span></span>

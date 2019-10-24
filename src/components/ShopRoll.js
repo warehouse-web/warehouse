@@ -1,87 +1,84 @@
-import React from 'react'
+import React, {useState} from 'react'
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
 import Img from 'gatsby-image'
 import DivOverlay from '../templates/DivOverlay'
+import {useMedia
+} from '../components/utils'
 
 
-class ShopRoll extends React.Component {
+const ShopRoll = ({data}) => {
 
-  state = {
-    activeProduct: {},
-    showProductDetail: false,
-  }
-
-  openProduct = (product) => {
+  const [activeProduct, setActiveProduct] = useState({})
+  const [showProductDetail, setShowProductDetail] = useState(false);
+  const openProduct = (product) => {
     product &&
     window.history.pushState(
       {page: 1},
       product.frontmatter.title,
       `?product=${product.frontmatter.title}`
     );
-      this.setState(
-        {
-          activeProduct: product,
-          showProductDetail: true,
-        }
-      );
+    setActiveProduct(product)
+    setShowProductDetail(true)
   }
 
-  render() {
-    const { data } = this.props
-    const { edges: products } = data.allMarkdownRemark
-    return (
-      <>
-      <DivOverlay/>
-      <div className="wrapper">
-        <div className="article-list">
-          {products &&
-            products.map(({ node: product }) => (
-              <div key={product.id}>
-                <article
-                  onClick={() => this.openProduct(product)}
-                  className={`blog-list-item post`}
-                >
-                  <h2 className='post-type'>Shop</h2>
-                  <header>
-                    <p className="post-meta">
-                      {product.frontmatter.title}
-                      {/* <Link
-                        className="title has-text-primary is-size-4"
-                        to={post.fields.slug}
-                      >
-                        {post.frontmatter.title}
-                      </Link> */}
+  const { edges: products } = data.allMarkdownRemark
+  const match = useMedia("(max-width: 900px) ");
 
-                    </p>
-                  </header>
+  return (
+    <>
+    <DivOverlay/>
+    <div className="wrapper">
+      <div className="article-list">
+        {products &&
+          products.map(({ node: product }) => (
+            <div key={product.id}>
+              <article
+                onClick={() => openProduct(product)}
+                className={`blog-list-item post`}
+              >
+                <h2 className='post-type'>Shop</h2>
+                <header>
+                  <p className="post-meta">
+                    {product.frontmatter.title}
+                    {/* <Link
+                      className="title has-text-primary is-size-4"
+                      to={post.fields.slug}
+                    >
+                      {post.frontmatter.title}
+                    </Link> */}
 
-                </article>
-              </div>
-            ))}
-      </div>
+                  </p>
+                </header>
 
-      {this.state.showProductDetail && (
-          <div className="article-detail">
-            {/* Close Button */}
-            <div className='close'
-              onClick={() => this.setState({showProductDetail: false})}
-            >
-              <span></span>
-              <span></span>
+              </article>
             </div>
-            <h2 className="article-detail-title">         {this.state.activeProduct.frontmatter.title}
-            </h2>
+          ))}
+    </div>
 
-            <a href={`mailto: buy@wearewarehouse.com?subject=${this.state.activeProduct.frontmatter.title}`}>Send mail with subject</a>
-
+    {showProductDetail && (
+      <div className={`article-detail ${match ? `mobile` : ``}`}>
+          {/* Close Button */}
+          <div className='close'
+            onClick={() => setShowProductDetail(false)}
+          >
+            <span></span>
+            <span></span>
           </div>
-      )}
-      </div>
-      </>
-    )
-  }
+          <h2 className="article-detail-title">
+            {activeProduct.frontmatter.title}
+          </h2>
+
+          <a href={`mailto: buy@wearewarehouse.com?subject=${activeProduct.frontmatter.title}`}>
+            Send mail with subject
+          </a>
+
+        </div>
+    )}
+    </div>
+    </>
+  )
 }
 
 ShopRoll.propTypes = {
