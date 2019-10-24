@@ -171,7 +171,6 @@ iframe {
 	display: inline-block;
 	mix-blend-mode: difference;
 	background-blend-mode: screen;
-	border: 1px solid red;
 }
 
 @media screen and (max-width: 900px) {
