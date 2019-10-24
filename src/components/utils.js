@@ -9,7 +9,10 @@ let shiftRatio = 0.3;
 export let rectColor;
 
 export const useMedia = (query) => {
-  const [matches, setMatches] = useState(window.matchMedia(query).matches);
+  const [matches, setMatches] = useState();
+  useEffect(() => {
+    setMatches(window.matchMedia(query).matches)
+  },[])
 
   useEffect(() => {
     const media = window.matchMedia(query);
