@@ -10,9 +10,9 @@ export let rectColor;
 
 export const useMedia = (query) => {
   const [matches, setMatches] = useState();
-  if (typeof window !== 'undefined' && window ){
-   setMatches(window.matchMedia(query).matches)
-  }
+  useEffect(() => {
+    setMatches(window.matchMedia(query).matches)
+  },[])
 
   useEffect(() => {
     const media = window.matchMedia(query);
