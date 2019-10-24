@@ -1,17 +1,63 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
-import Img from 'gatsby-image'
 import DivOverlay from '../templates/DivOverlay'
-import {useMedia
+import {
+  renderHtmlToReact,
+  useMedia,
+  imagesFromAst,
+  relayout,
+  useWindowSize,
+
 } from '../components/utils'
 
 
 const ShopRoll = ({data}) => {
 
-  const [activeProduct, setActiveProduct] = useState({})
-  const [showProductDetail, setShowProductDetail] = useState(false);
+const [activeProduct, setActiveProduct] = useState({})
+const [showProductDetail, setShowProductDetail] = useState(false);
+
+const [divStyle, setDivStyle] = useState()
+const [isMobile, setIsMobile] = useState(match)
+const size = useWindowSize();
+const match = useMedia("(max-width: 900px) ");
+
+
+  
+
+  const renderImg = (product) => {
+    console.log('product:', product)
+    if ( imagesFromAst(product.htmlAst)[0].properties.src){
+      setDivStyle({backgroundImage: `url( ${imagesFromAst(product.htmlAst)[0].properties.src} )`})
+    }
+  }
+
+  useEffect(() => {
+    if (match) {
+      setDivStyle({backgroundColor: 'white'})
+      setIsMobile(true)
+    } else {
+      setDivStyle({backgroundColor: 'black'})
+      setIsMobile(false)      
+    }
+  }, [])
+
+  const removeImg = () => {
+    if (size.width < 900) {
+      setDivStyle({backgroundColor: 'white'})
+    } else {
+      setDivStyle({backgroundColor: 'black'})
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', relayout)
+    return () => {
+      window.removeEventListener('scroll', relayout)
+    };
+  }, [])
+
   const openProduct = (product) => {
     product &&
     window.history.pushState(
@@ -24,16 +70,19 @@ const ShopRoll = ({data}) => {
   }
 
   const { edges: products } = data.allMarkdownRemark
-  const match = useMedia("(max-width: 900px) ");
 
   return (
     <>
-    <DivOverlay/>
+    <DivOverlay currImg={divStyle}/>
     <div className="wrapper">
       <div className="article-list">
         {products &&
           products.map(({ node: product }) => (
-            <div key={product.id}>
+            <div 
+              key={product.id}
+              onPointerEnter = {() => renderImg(product)}
+              onPointerLeave = {() => removeImg() }
+            >
               <article
                 onClick={() => openProduct(product)}
                 className={`blog-list-item post`}
@@ -66,10 +115,13 @@ const ShopRoll = ({data}) => {
             <span></span>
             <span></span>
           </div>
+          <p className="article-ID">{activeProduct.frontmatter.warehouseID}</p>
+
           <h2 className="article-detail-title">
             {activeProduct.frontmatter.title}
           </h2>
 
+          <section className='content'>{renderHtmlToReact(activeProduct.htmlAst)}</section>
           <a href={`mailto: buy@wearewarehouse.com?subject=${activeProduct.frontmatter.title}`}>
             Send mail with subject
           </a>
@@ -99,13 +151,13 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              htmlAst
               id
-              html
               fields {
                 slug
               }
               frontmatter {
+                warehouseID
                 title
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
