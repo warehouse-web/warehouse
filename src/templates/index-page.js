@@ -16,7 +16,6 @@ import {
 } from '../components/utils'
 
 export const IndexPageTemplate = ({data}) => {
-  const { allMarkdownRemark: post } = data;
 
   return (
     <Layout>
@@ -49,11 +48,11 @@ export const IndexPage = ({
 
   useEffect(() => {
     if (match) {
-      setDivStyle({backgroundColor: 'white'})
+      setDivStyle({backgroundColor: 'black'})
       setIsMobile(true)
     } else {
-      setDivStyle({backgroundColor: 'black'})
-      setIsMobile(false)      
+      setDivStyle({backgroundColor: 'white'})
+      setIsMobile(false)
     }
   }, [])
 
@@ -127,7 +126,6 @@ export const IndexPage = ({
             })}
         </div>
       {showEventDetail && (
-
         <div className={`article-detail ${match ? `mobile` : ``}`}>
           <div className='close'
             onClick={() => setShowEventDetail(false)}
@@ -135,7 +133,6 @@ export const IndexPage = ({
             <span></span>
             <span></span>
           </div>
-          {/* <a href='#' className='close'  onClick={() => setShowEventDetail(false)}></a> */}
           <p className="article-ID">{activeEvent.event.frontmatter.warehouseID}</p>
           <h2 className="article-detail-title">
             {activeEvent.event.frontmatter.title}
