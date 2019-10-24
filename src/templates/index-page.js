@@ -33,13 +33,13 @@ export const IndexPageTemplate = ({data}) => {
 export const IndexPage = ({
   data
 }) => {
+  const match = useMedia("(max-width: 900px) ");
   const {edges: posts} = data.allMarkdownRemark
   const [activeEvent, setActiveEvent] = useState({});
   const [showEventDetail, setShowEventDetail] = useState(false)
   const [isMobile, setIsMobile] = useState(match)
   const [divStyle, setDivStyle] = useState()
   const size = useWindowSize();
-  const match = useMedia("(max-width: 900px) ");
 
   const renderImg = (post) => {
     if ( imagesFromAst(post.htmlAst)[0].properties.src){
@@ -53,7 +53,7 @@ export const IndexPage = ({
       setIsMobile(true)
     } else {
       setDivStyle({backgroundColor: 'black'})
-      setIsMobile(false)      
+      setIsMobile(false)
     }
   }, [])
 
