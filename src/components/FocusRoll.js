@@ -7,7 +7,7 @@ import DivOverlay from '../templates/DivOverlay'
 import Content, { HTMLContent, useMedia } from '../components/utils'
 import FileSaver from "file-saver"
 
-import { Page, Image,  Text, View, Document, StyleSheet, PDFViewer, PDFDownloadLink } from '@react-pdf/renderer';
+import { Page, Image,  Text, View, Document, StyleSheet, PDFDownloadLink } from '@react-pdf/renderer';
 
 const styles = StyleSheet.create({
 	page: {
@@ -22,8 +22,7 @@ const styles = StyleSheet.create({
 	}
   });
 
-  const MyDocument = ({activeFocus}) => (
-//   console.log('activeFocus:', activeFocus)
+	const MyDocument = ({activeFocus}) => (
 
 	<Document>
 	  <Page size="A4" style={styles.page}>
@@ -44,8 +43,8 @@ const styles = StyleSheet.create({
   );
 
 const FocusRoll = ({data}) => {
-  const [activeFocus, setActiveFocus] = useState({})
-  const [showFocusDetail,setShowFocusDetail] = useState(false)
+const [activeFocus, setActiveFocus] = useState({})
+const [showFocusDetail,setShowFocusDetail] = useState(false)
 
   const openFocus = (focus) => {
 	focus &&
@@ -100,16 +99,17 @@ const FocusRoll = ({data}) => {
 		  {/* <p className="article-ID">{activeFocus.frontmatter.warehouseID}</p>
 		  <h2 className="article-detail-title">{activeFocus.frontmatter.title}</h2> */}
 		  {console.log('activeFocus:', activeFocus)}
-		  <PDFDownloadLink document={<MyDocument activeFocus={activeFocus} />} fileName="somename.pdf">
-              {({ blob, url, loading, error }) => {
-                if (error) console.log(error)
-                if (url) console.log(url)
-                return (
-                  !loading && FileSaver.saveAs(blob, "works.pdf")
-                )
+
+		  {/* <PDFDownloadLink document={<MyDocument activeFocus={activeFocus} />} fileName="somename.pdf">
+			  {({ blob, url, loading, error }) => {
+				if (error) console.log(error)
+				if (url) console.log(url)
+				return (
+				  !loading && FileSaver.saveAs(blob, "works.pdf")
+				)
 			  }}
 				Download Here: {activeFocus.frontmatter.title}
-            </PDFDownloadLink>
+			</PDFDownloadLink> */}
 			{/* <PDFDownloadLink document={<MyDocument />} fileName="somename.pdf">
 				{({ blob, url, loading, error }) => (loading ? 'Loading document...' : 'Download now!')}
 			</PDFDownloadLink> */}

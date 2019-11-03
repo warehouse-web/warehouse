@@ -61,7 +61,7 @@ const FocusPage = ({ data }) => {
 
   return (
     <Layout>
-      <FocusPostTemplate
+      <FocusPageTemplate
         content={post.html}
         contentComponent={HTMLContent}
         location = {post.frontmatter.location}
