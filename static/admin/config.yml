@@ -46,6 +46,20 @@ collections:
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Date Added", name: "date", widget: "datetime"}
 
+  - name: "focus"
+    label: "Focus"
+    folder: "src/pages/focus"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "focus-page"}
+      - {label: "Warehouse Number", name: "warehouseID", widget: "string", hint: "For example WAREHOUSE #3.5"}
+      - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+      - {label: "Product Name", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list"]}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Date Added", name: "date", widget: "datetime"}
+
 
   - name: "pages"
     label: "Pages"
