@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState,useEffect} from 'react'
 import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
@@ -45,6 +45,11 @@ const styles = StyleSheet.create({
 const FocusRoll = ({data}) => {
 const [activeFocus, setActiveFocus] = useState({})
 const [showFocusDetail,setShowFocusDetail] = useState(false)
+const [mount, setMount] = useState(false)
+// this helps to run build without errors
+useEffect(() => {
+	setMount(true)
+}, [])
 
   const openFocus = (focus) => {
 	focus &&
@@ -100,16 +105,20 @@ const [showFocusDetail,setShowFocusDetail] = useState(false)
 		  <h2 className="article-detail-title">{activeFocus.frontmatter.title}</h2> */}
 		  {console.log('activeFocus:', activeFocus)}
 
-		  {/* <PDFDownloadLink document={<MyDocument activeFocus={activeFocus} />} fileName="somename.pdf">
-			  {({ blob, url, loading, error }) => {
-				if (error) console.log(error)
-				if (url) console.log(url)
-				return (
-				  !loading && FileSaver.saveAs(blob, "works.pdf")
+		{
+				mount && (
+					<PDFDownloadLink document={<MyDocument activeFocus={activeFocus} />} fileName="somename.pdf">
+					{({ blob, url, loading, error }) => {
+						if (error) console.log(error)
+						if (url) console.log(url)
+						return (
+						!loading && FileSaver.saveAs(blob, "works.pdf")
+						)
+					}}
+						Download Here: {activeFocus.frontmatter.title}
+					</PDFDownloadLink>
 				)
-			  }}
-				Download Here: {activeFocus.frontmatter.title}
-			</PDFDownloadLink> */}
+		}
 			{/* <PDFDownloadLink document={<MyDocument />} fileName="somename.pdf">
 				{({ blob, url, loading, error }) => (loading ? 'Loading document...' : 'Download now!')}
 			</PDFDownloadLink> */}

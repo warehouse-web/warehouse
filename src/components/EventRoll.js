@@ -6,20 +6,6 @@ import Img from 'gatsby-image'
 import DivOverlay from '../templates/DivOverlay'
 import Content, { HTMLContent, isDateBeforeToday, useMedia } from './utils'
 
-
-const styles = StyleSheet.create({
-  page: {
-    flexDirection: 'row',
-    backgroundColor: '#E4E4E4'
-  },
-  section: {
-    margin: 10,
-    padding: 10,
-    flexGrow: 1
-  }
-});
-
-
 const EventRoll = ({data}) => {
 
   const [activeEvent, setActiveEvent] = useState(false)
