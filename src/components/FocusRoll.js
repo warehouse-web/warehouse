@@ -113,9 +113,6 @@ const [showFocusDetail,setShowFocusDetail] = useState(false)
 			{/* <PDFDownloadLink document={<MyDocument />} fileName="somename.pdf">
 				{({ blob, url, loading, error }) => (loading ? 'Loading document...' : 'Download now!')}
 			</PDFDownloadLink> */}
-			{/* <PDFViewer>
-			  <MyDocument activeFocus={activeFocus} />
-			</PDFViewer> */}
 		  {<PostContent className = 'content' content={activeFocus.html} />}
 
 		  {activeFocus.excerpt}

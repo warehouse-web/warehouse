@@ -5,7 +5,6 @@ import './main.css'
 import Img from 'gatsby-image'
 import DivOverlay from '../templates/DivOverlay'
 import Content, { HTMLContent, isDateBeforeToday, useMedia } from './utils'
-import { Page, Text, View, Document, StyleSheet, PDFViewer } from '@react-pdf/renderer';
 
 
 const styles = StyleSheet.create({
@@ -20,18 +19,6 @@ const styles = StyleSheet.create({
   }
 });
 
-const MyDocument = ({activeEvent}) => (
-  <Document>
-    <Page size="A4" style={styles.page}>
-      <View style={styles.section}>
-        <Text>{activeEvent.html}</Text>
-      </View>
-      <View style={styles.section}>
-        <Text>Section #2</Text>
-      </View>
-    </Page>
-  </Document>
-);
 
 const EventRoll = ({data}) => {
 
@@ -56,7 +43,6 @@ const EventRoll = ({data}) => {
     <>
     <DivOverlay/>
     <div className="wrapper">
-      <PDFViewer><MyDocument activeEvent={activeEvent}/></PDFViewer>
       <div className="article-list">
         {posts &&
           posts.map(({ node: post }) => (
