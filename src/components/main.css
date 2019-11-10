@@ -12,8 +12,31 @@ h2,
 h3,
 li,
 p {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: "BradfordLLWeb-Book", 'Times New Roman', Times, serif;
 }
+
+@font-face {
+	font-family: "BradfordLLWeb-Book";
+	src: url("../../static/fonts/Bradford/BradfordLLWeb-Book.woff") format("woff");
+}
+
+/* @font-face {
+	font-family: "BradfordLLWeb-Book";
+	src: url("BradfordLLWeb-Book.woff2") format("woff2");
+	src: url("../../static/fonts/Bradford/BradfordLLWeb-Book.woff2") format("woff2");
+} */
+
+/* subset */
+
+/* @font-face {
+	font-family: "BradfordLLSub-BookSubset";
+	src: url("../../static/fonts/Bradford/BradfordLLSub-BookSubset.woff2") format("woff2");
+} */
+
+/* @font-face {
+	font-family: "BradfordLLSub-BookSubset";
+	src: url("../../static/fonts/Bradford/BradfordLLSub-BookSubset.woff") format("woff");
+} */
 
 .article-ID {
 	margin-top: 1.8rem;
@@ -51,7 +74,6 @@ p {
 	top: 0;
 	z-index: 0;
 }
-
 
 @media screen and (max-width: 900px) {
 	.navbar-menu {
@@ -94,8 +116,12 @@ a.right {
 	color: black;
 }
 
-a {color: black;}
-a:focus {outline:0;}
+a {
+	color: black;
+}
+a:focus {
+	outline: 0;
+}
 a.navbar-item:hover {
 	opacity: .6;
 	color: black;
@@ -185,7 +211,6 @@ iframe {
 	background-blend-mode: screen;
 }
 
-
 /* @media screen and (min-width: 1024px){
     display: none;
   } */
@@ -203,8 +228,12 @@ iframe {
 		color: white;
 	}
 
-	h1,h2,h3,li,p {
-		font-family: Georgia, 'Times New Roman', Times, serif;
+	h1,
+	h2,
+	h3,
+	li,
+	p {
+		font-family: "BradfordLLWeb-Book", 'Times New Roman', Times, serif;
 		/* color: white; */
 	}
 
@@ -221,9 +250,9 @@ iframe {
 
 .mobile-warehouse {
 	color: white;
-    position: absolute;
-    top: 1rem;
-    left: 2.1rem;
+	position: absolute;
+	top: 1rem;
+	left: 2.1rem;
 }
 @media screen and (min-width: 901px) {
 	html {
@@ -232,7 +261,6 @@ iframe {
 	.navbar {
 		background-color: white;
 	}
-
 
 	.burger-menu {
 		display: none;
@@ -247,7 +275,7 @@ iframe {
 	h3,
 	li,
 	p {
-		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-family: "BradfordLLWeb-Book", 'Times New Roman', Times, serif;
 		color: black;
 	}
 
@@ -300,6 +328,14 @@ iframe {
 
 .content > p > span {
 	display: block;
+}
+
+/* FOCUS PAGE */
+.pdf-download {
+	display: block;
+}
+.pdf-download:hover {
+	text-decoration: underline;
 }
 
 /* ABOUT PAGE */

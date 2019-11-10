@@ -5,51 +5,10 @@ import './main.css'
 import Img from 'gatsby-image'
 import DivOverlay from '../templates/DivOverlay'
 import Content, { HTMLContent, useMedia } from '../components/utils'
-import FileSaver from "file-saver"
-
-import { Page, Image,  Text, View, Document, StyleSheet, PDFDownloadLink } from '@react-pdf/renderer';
-
-const styles = StyleSheet.create({
-	page: {
-	  flexDirection: 'row',
-	  backgroundColor: '#E4E4E4'
-	},
-	image: { flexGrow: 1, backgroundColor: 'grey', padding: 10 },
-	section: {
-	  margin: 10,
-	  padding: 10,
-	  flexGrow: 1
-	}
-  });
-
-	const MyDocument = ({activeFocus}) => (
-
-	<Document>
-	  <Page size="A4" style={styles.page}>
-		<View style={styles.section}>
-			{activeFocus.frontmatter.intro.blurbs.map(el => {
-				return(
-					<>
-						<Text>{el.text}</Text>
-						<Image src ={el.image.childImageSharp.fluid.src} style={styles.image}/>
-					</>
-				)
-			})}
-		</View>
-
-
-	  </Page>
-	</Document>
-  );
 
 const FocusRoll = ({data}) => {
 const [activeFocus, setActiveFocus] = useState({})
 const [showFocusDetail,setShowFocusDetail] = useState(false)
-const [mount, setMount] = useState(false)
-// this helps to run build without errors
-useEffect(() => {
-	setMount(true)
-}, [])
 
   const openFocus = (focus) => {
 	focus &&
@@ -101,27 +60,23 @@ useEffect(() => {
 			  <span></span>
 			  <span></span>
 			</div>
-		  {/* <p className="article-ID">{activeFocus.frontmatter.warehouseID}</p>
-		  <h2 className="article-detail-title">{activeFocus.frontmatter.title}</h2> */}
-		  {console.log('activeFocus:', activeFocus)}
+			<p className="article-ID">{activeFocus.frontmatter.warehouseID}</p>
+			<h2 className="article-detail-title">{activeFocus.frontmatter.title}</h2>
+			<div className = 'content'> 
 
-		{
-				mount && (
-					<PDFDownloadLink document={<MyDocument activeFocus={activeFocus} />} fileName="somename.pdf">
-					{({ blob, url, loading, error }) => {
-						if (error) console.log(error)
-						if (url) console.log(url)
-						return (
-						!loading && FileSaver.saveAs(blob, "works.pdf")
-						)
-					}}
-						Download Here: {activeFocus.frontmatter.title}
-					</PDFDownloadLink>
-				)
-		}
-			{/* <PDFDownloadLink document={<MyDocument />} fileName="somename.pdf">
-				{({ blob, url, loading, error }) => (loading ? 'Loading document...' : 'Download now!')}
-			</PDFDownloadLink> */}
+				{activeFocus.frontmatter.intro.blurbs.map(el => {
+					return (
+						<>
+							<Img fluid={el.image.childImageSharp.fluid}/>
+							{el.text}
+						</>
+					)
+				})}
+				{activeFocus.frontmatter.body}
+				<a className="pdf-download" href={activeFocus.frontmatter.PDF.publicURL}  target="_blank">Download Article</a>
+			</div>
+			
+
 		  {<PostContent className = 'content' content={activeFocus.html} />}
 
 		  {activeFocus.excerpt}
@@ -160,9 +115,9 @@ export default () => (
 				  blurbs {
 					image {
 					  childImageSharp {
-						fluid {
-						  src
-						}
+							fluid(maxWidth: 400) {
+								...GatsbyImageSharpFluid
+							}
 					  }
 					  relativePath
 					  absolutePath
@@ -171,6 +126,9 @@ export default () => (
 					text
 				  }
 				}
+				PDF {
+            publicURL
+          }
 				templateKey
 				date(formatString: "MMMM DD, YYYY")
 				podcastURL
