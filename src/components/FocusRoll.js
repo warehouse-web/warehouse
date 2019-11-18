@@ -70,7 +70,7 @@ useEffect(() => {
 
 	return (
 	<>
-	<DivOverlay />
+	{/* <DivOverlay /> */}
 	<div className="wrapper">
 	  <div className="article-list">
 		{posts &&

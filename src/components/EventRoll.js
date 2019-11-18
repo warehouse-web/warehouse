@@ -4,7 +4,14 @@ import { graphql, StaticQuery } from 'gatsby'
 import './main.css'
 import Img from 'gatsby-image'
 import DivOverlay from '../templates/DivOverlay'
-import Content, { HTMLContent, isDateBeforeToday, useMedia } from './utils'
+import Content, {
+  renderHtmlToReact,
+  HTMLContent,
+  imagesFromAst,
+  isDateBeforeToday,
+  useWindowSize,
+  useMedia }
+  from './utils'
 
 const EventRoll = ({data}) => {
 
@@ -18,21 +25,41 @@ const EventRoll = ({data}) => {
     setShowEventDetail(true)
   }
 
+  const renderImg = (post) => {
+    console.log(post)
+    if ( imagesFromAst(post.htmlAst)[0].properties.src){
+      setDivStyle({backgroundImage: `url( ${imagesFromAst(post.htmlAst)[0].properties.src} )`})
+    }
+  }
+
+  const removeImg = () => {
+    if (size.width < 900) {
+      setDivStyle({backgroundColor: 'white'})
+    } else {
+      setDivStyle({backgroundColor: 'black'})
+    }
+  }
+
 
   const { edges: posts } = data.allMarkdownRemark
   const PostContent = HTMLContent || Content
   const match = useMedia("(max-width: 900px) ");
-
-
+  const [divStyle, setDivStyle] = useState()
+  const size = useWindowSize();
 
   return (
     <>
-    <DivOverlay/>
+    <DivOverlay currImg={divStyle}/>
+
     <div className="wrapper">
       <div className="article-list">
         {posts &&
           posts.map(({ node: post }) => (
-            <div key={post.id}>
+            <div
+                  key = {post.id}
+                  onPointerEnter = {() => renderImg(post)}
+                  onPointerLeave = {() => removeImg() }
+                >
               <article
                 onClick={() => openEvent(post)}
                 className={`blog-list-item post`}
@@ -78,7 +105,8 @@ const EventRoll = ({data}) => {
           </div>
           <p className="article-ID">{activeEvent.frontmatter.warehouseID}</p>
           <h2 className="article-detail-title">{activeEvent.frontmatter.title}</h2>
-          {<PostContent className = 'content' content={activeEvent.html} />}
+          <section className='content'>{renderHtmlToReact(activeEvent.htmlAst)}</section>
+
           {activeEvent.frontmatter.image &&
             <div className="article-image-wrapper">
               <Img className ="article-detail-image" fluid={activeEvent.frontmatter.image.childImageSharp.fluid} />
@@ -109,7 +137,7 @@ export default () => (
         ) {
           edges {
             node {
-              html
+              htmlAst
               id
               fields {
                 slug
@@ -120,6 +148,13 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 location
+                image {
+                  childImageSharp {
+                    fluid(maxWidth: 520, quality: 100) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
               }
             }
           }

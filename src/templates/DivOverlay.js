@@ -47,34 +47,6 @@ const DivOverlay = (currImg) => {
     setRectColor('black')
     }
   }, [])
-//   const [rectColor, setRectColor ] = useState('black')
-//   const [divStyle, setDivStyle] = useState()
-//   const [width, setWidth] = useState(window.innerWidth)
-
-
-
-//   useEffect(() => (window.innerWidth < 900 &&
-//     setRectColor('white'))
-//   ,[] )
-
-//   useEffect(()=> {
-//     setDivStyle({backgroundColor: rectColor})
-//   }, [])
-
-//   useEffect(
-//     () => {
-//     window.addEventListener('resize', updateWidthAndHeight)
-//     return () => window.removeEventListener('resize', updateWidthAndHeight)
-//   })
-
-//   const updateWidthAndHeight = () => {
-//     setWidth(window.innerWidth)
-//     if (width >=900) {
-//       setRectColor('black')
-//     } else {
-//       setRectColor('white')
-//     }
-//   }
 
     return (
         <div id="magic-logo">
