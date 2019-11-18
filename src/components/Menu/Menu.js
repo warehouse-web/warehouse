@@ -17,7 +17,10 @@ const Menu = ({ open, ...props }) => {
         Events
         </Link>
       <Link to="/podcast" tabIndex={tabIndex}>
-        Contact
+        Podcast
+      </Link>
+      <Link to="/focus" tabIndex={tabIndex}>
+        Focus
       </Link>
       <Link to="/shop" tabIndex={tabIndex}>
         Shop
