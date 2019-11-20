@@ -4,7 +4,14 @@ import { graphql, StaticQuery } from "gatsby"
 import "./main.css"
 import Img from "gatsby-image"
 import DivOverlay from "../templates/DivOverlay"
-import Content, { HTMLContent, useMedia } from "../components/utils"
+import Content, {
+	renderHtmlToReact,
+	HTMLContent,
+	imagesFromAst,
+	isDateBeforeToday,
+	useWindowSize,
+	useMedia,
+} from "./utils"
 
 const FocusRoll = ({ data }) => {
 	const [activeFocus, setActiveFocus] = useState({})
@@ -66,20 +73,8 @@ const FocusRoll = ({ data }) => {
 						<h2 className="article-detail-title">
 							{activeFocus.frontmatter.title}
 						</h2>
-						<div className="content">
-							{activeFocus.frontmatter.graphics.map((el) => {
-								return (
-									<>
-										<Img
-											fluid={
-												el.image.childImageSharp.fluid
-											}
-										/>
-										{el.text}
-									</>
-								)
-							})}
-							{activeFocus.frontmatter.body}
+						<section className="content">
+							{renderHtmlToReact(activeFocus.htmlAst)}
 							<a
 								className="pdf-download"
 								href={activeFocus.frontmatter.PDF.publicURL}
@@ -87,7 +82,7 @@ const FocusRoll = ({ data }) => {
 							>
 								Download Article
 							</a>
-						</div>
+						</section>
 
 						{
 							<PostContent
@@ -132,27 +127,19 @@ export default () => (
 							frontmatter {
 								warehouseID
 								title
-								graphics {
-									image {
-										childImageSharp {
-											fluid(maxWidth: 400) {
-												...GatsbyImageSharpFluid
-											}
-										}
-										relativePath
-										absolutePath
-										id
-									}
-									author
-									source
-									sourceText
-								}
 								PDF {
 									publicURL
 								}
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
 								podcastURL
+								image {
+									childImageSharp {
+										fluid(maxWidth: 520, quality: 100) {
+											...GatsbyImageSharpFluid
+										}
+									}
+								}
 							}
 						}
 					}

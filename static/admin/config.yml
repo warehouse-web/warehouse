@@ -70,30 +70,7 @@ collections:
         name: 'PDF'
         widget: 'file' 
         options: { }
-
-      - label: 'Graphics' 
-        name: 'graphics' 
-        widget: 'list' 
-        fields:
-            - name: image
-              label: 'Image'
-              widget: 'image'
-              media_library:
-                  config:
-                  multiple: true
-            - name: author
-              label: 'Author'
-              widget: string
-              required: false
-            - name: source
-              label: 'Source'
-              widget: string
-              required: false
-            - name: sourceText
-              label: 'Source text'
-              widget: string
-              required: false
-
+        
       - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list"]}
       - {label: "Date Added", name: "date", widget: "datetime"}
 
