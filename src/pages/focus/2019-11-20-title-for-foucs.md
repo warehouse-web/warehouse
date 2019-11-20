@@ -8,6 +8,10 @@ graphics:
     image: /img/2-95.jpg
     source: src
     sourceText: Whatevz
+  - author: Green Wizard
+    image: /img/anarchy-cover_0.jpg
+    source: wizardry
+    sourceText: src
 date: 2019-11-20T20:36:01.330Z
 ---
 Yahoo
