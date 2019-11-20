@@ -6,6 +6,39 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: block
+    label: Block
+    folder: content/blocks
+    create: true
+    identifier_field: id
+    fields:
+        # https://www.netlifycms.org/docs/widgets/
+        - name: body
+          label: Body
+          widget: markdown
+        - label: 'Graphics'
+          name: 'graphics'
+          widget: 'list'
+          fields:
+              - name: image
+                label: 'Image'
+                widget: 'image'
+                media_library:
+                    config:
+                    multiple: true
+              - name: author
+                label: 'Author'
+                widget: string
+                required: false
+              - name: source
+                label: 'Source'
+                widget: string
+                required: false
+              - name: sourceText
+                label: 'Source text'
+                widget: string
+                required: false
+    
   - name: "blog"
     label: "Events"
     folder: "src/pages/events"
@@ -52,11 +85,48 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "focus-page"}
-      - {label: "Warehouse Number", name: "warehouseID", widget: "string", hint: "For example WAREHOUSE #3.5"}
-      - {label: "Article Title", name: "title", widget: "string"}
-      - {label: Upload PDF, name: PDF, widget: file, options: { },}
-      - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+      - label: "Template Key"
+        name: "templateKey" 
+        widget: "hidden" 
+        default: "focus-page"
+
+      - label: "Warehouse Number"
+        name: "warehouseID" 
+        widget: "string" 
+        hint: "For example WAREHOUSE #3.5"
+
+      - label: "Article Title"
+        name: "title" 
+        widget: "string"
+
+      - label: Upload PDF 
+        name: 'PDF'
+        widget: 'file' 
+        options: { }
+
+      - label: 'Graphics' 
+        name: 'graphics' 
+        widget: 'list' 
+        fields:
+            - name: image
+              label: 'Image'
+              widget: 'image'
+              media_library:
+                  config:
+                  multiple: true
+            - name: author
+              label: 'Author'
+              widget: string
+              required: false
+            - name: source
+              label: 'Source'
+              widget: string
+              required: false
+            - name: sourceText
+              label: 'Source text'
+              widget: string
+              required: false
+
       - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list"]}
       - {label: "Date Added", name: "date", widget: "datetime"}
 
