@@ -67,7 +67,7 @@ const FocusRoll = ({ data }) => {
 							{activeFocus.frontmatter.title}
 						</h2>
 						<div className="content">
-							{activeFocus.frontmatter.intro.blurbs.map((el) => {
+							{activeFocus.frontmatter.graphics.map((el) => {
 								return (
 									<>
 										<Img
@@ -132,20 +132,20 @@ export default () => (
 							frontmatter {
 								warehouseID
 								title
-								intro {
-									blurbs {
-										image {
-											childImageSharp {
-												fluid(maxWidth: 400) {
-													...GatsbyImageSharpFluid
-												}
+								graphics {
+									image {
+										childImageSharp {
+											fluid(maxWidth: 400) {
+												...GatsbyImageSharpFluid
 											}
-											relativePath
-											absolutePath
-											id
 										}
-										text
+										relativePath
+										absolutePath
+										id
 									}
+									author
+									source
+									sourceText
 								}
 								PDF {
 									publicURL
