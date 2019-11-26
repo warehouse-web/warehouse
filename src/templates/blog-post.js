@@ -18,13 +18,16 @@ export const BlogPostTemplate = ({
 	const PostContent = contentComponent || Content;
 
 	return (
-		<div className="event-detail">
-			HEHEHEHEHEHEH
-			<h2 className="article-detail-title"></h2>
-			<p>{date}</p>
-			<PostContent content={content} />
-		</div>
-		// <EventRoll></EventRoll>
+		<>
+			<div className="event-detail">
+				HEHEHEHEHEHEH
+				<h2 className="article-detail-title"></h2>
+				<p>{date}</p>
+				<PostContent content={content} />
+				{console.log("content:", content)}
+			</div>
+			{/* <EventRoll></EventRoll> */}
+		</>
 	);
 };
 
