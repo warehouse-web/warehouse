@@ -1,57 +1,56 @@
-import React, { useState } from "react"
-import PropTypes from "prop-types"
-import { graphql, StaticQuery } from "gatsby"
-import "./main.css"
-import Img from "gatsby-image"
-import DivOverlay from "../templates/DivOverlay"
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+import { graphql, StaticQuery } from "gatsby";
+import "./main.css";
+import Img from "gatsby-image";
+import DivOverlay from "../templates/DivOverlay";
 import Content, {
 	renderHtmlToReact,
 	HTMLContent,
 	imagesFromAst,
 	isDateBeforeToday,
 	useWindowSize,
-	useMedia,
-} from "./utils"
+	useMedia
+} from "./utils";
 
 const EventRoll = ({ data }) => {
-	const [activeEvent, setActiveEvent] = useState(false)
-	const [showEventDetail, setShowEventDetail] = useState(false)
-
-	const openEvent = (event) => {
+	const [activeEvent, setActiveEvent] = useState(false);
+	const [showEventDetail, setShowEventDetail] = useState(false);
+	const openEvent = event => {
 		event &&
 			window.history.pushState(
 				{ page: 1 },
 				event.frontmatter.title,
 				event.fields.slug
-			)
+			);
 
-		setActiveEvent(event)
-		setShowEventDetail(true)
-	}
+		setActiveEvent(event);
+		setShowEventDetail(true);
+	};
 
-	const renderImg = (post) => {
+	const renderImg = post => {
 		if (imagesFromAst(post.htmlAst)[0].properties.src) {
 			setDivStyle({
 				backgroundImage: `url( ${
 					imagesFromAst(post.htmlAst)[0].properties.src
-				} )`,
-			})
+				} )`
+			});
 		}
-	}
+	};
 
 	const removeImg = () => {
 		if (size.width < 900) {
-			setDivStyle({ backgroundColor: "white" })
+			setDivStyle({ backgroundColor: "white" });
 		} else {
-			setDivStyle({ backgroundColor: "black" })
+			setDivStyle({ backgroundColor: "black" });
 		}
-	}
+	};
 
-	const { edges: posts } = data.allMarkdownRemark
-	const PostContent = HTMLContent || Content
-	const match = useMedia("(max-width: 900px) ")
-	const [divStyle, setDivStyle] = useState()
-	const size = useWindowSize()
+	const { edges: posts } = data.allMarkdownRemark;
+	const PostContent = HTMLContent || Content;
+	const match = useMedia("(max-width: 900px) ");
+	const [divStyle, setDivStyle] = useState();
+	const size = useWindowSize();
 
 	return (
 		<>
@@ -135,16 +134,16 @@ const EventRoll = ({ data }) => {
 				)}
 			</div>
 		</>
-	)
-}
+	);
+};
 
 EventRoll.propTypes = {
 	data: PropTypes.shape({
 		allMarkdownRemark: PropTypes.shape({
-			edges: PropTypes.array,
-		}),
-	}),
-}
+			edges: PropTypes.array
+		})
+	})
+};
 
 export default () => (
 	<StaticQuery
@@ -184,4 +183,4 @@ export default () => (
 		`}
 		render={(data, count) => <EventRoll data={data} count={count} />}
 	/>
-)
+);
