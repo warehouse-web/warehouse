@@ -1,57 +1,57 @@
-import React, { useState } from "react"
-import PropTypes from "prop-types"
-import { graphql, StaticQuery } from "gatsby"
-import "./main.css"
-import Img from "gatsby-image"
-import DivOverlay from "../templates/DivOverlay"
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+import { graphql, StaticQuery } from "gatsby";
+import "./main.css";
+import Img from "gatsby-image";
+import DivOverlay from "../templates/DivOverlay";
 import Content, {
 	renderHtmlToReact,
 	imagesFromAst,
 	HTMLContent,
 	useWindowSize,
-	useMedia,
-} from "../components/utils"
+	useMedia
+} from "../components/utils";
 
 const PodcastRoll = ({ data }) => {
-	const [activePodcast, setActivePodcast] = useState({})
-	const [showPodcastDetail, setShowPodcastDetail] = useState(false)
-	const [divStyle, setDivStyle] = useState()
-	const size = useWindowSize()
+	const [activePodcast, setActivePodcast] = useState({});
+	const [showPodcastDetail, setShowPodcastDetail] = useState(false);
+	const [divStyle, setDivStyle] = useState();
+	const size = useWindowSize();
 
-	const renderImg = (post) => {
+	const renderImg = post => {
 		if (imagesFromAst(post.htmlAst)[0].properties.src) {
 			setDivStyle({
 				backgroundImage: `url( ${
 					imagesFromAst(post.htmlAst)[0].properties.src
-				} )`,
-			})
+				} )`
+			});
 		}
-	}
+	};
 
 	const removeImg = () => {
 		if (size.width < 900) {
-			setDivStyle({ backgroundColor: "white" })
+			setDivStyle({ backgroundColor: "white" });
 		} else {
-			setDivStyle({ backgroundColor: "black" })
+			setDivStyle({ backgroundColor: "black" });
 		}
-	}
+	};
 
-	const openPodcast = (podcast) => {
+	const openPodcast = podcast => {
 		podcast &&
 			window.history.pushState(
 				{ page: 1 },
 				podcast.frontmatter.title,
 				`?podcast=${podcast.frontmatter.title}`
-			)
+			);
 		if (podcast !== !!activePodcast) {
-			setActivePodcast(podcast)
-			setShowPodcastDetail(true)
+			setActivePodcast(podcast);
+			setShowPodcastDetail(true);
 		}
-	}
+	};
 
-	const PostContent = HTMLContent || Content
-	const match = useMedia("(max-width: 900px) ")
-	const { edges: posts } = data.allMarkdownRemark
+	const PostContent = HTMLContent || Content;
+	const match = useMedia("(max-width: 900px) ");
+	const { edges: posts } = data.allMarkdownRemark;
 
 	return (
 		<>
@@ -117,33 +117,20 @@ const PodcastRoll = ({ data }) => {
 						}
 
 						{activePodcast.excerpt}
-						<iframe
-							title={activePodcast.id}
-							width="100%"
-							height="300"
-							scrolling="no"
-							frameborder="no"
-							allow="autoplay"
-							src={
-								"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" +
-								activePodcast.frontmatter.podcastURL +
-								"&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-							}
-						/>
 					</div>
 				)}
 			</div>
 		</>
-	)
-}
+	);
+};
 
 PodcastRoll.propTypes = {
 	data: PropTypes.shape({
 		allMarkdownRemark: PropTypes.shape({
-			edges: PropTypes.array,
-		}),
-	}),
-}
+			edges: PropTypes.array
+		})
+	})
+};
 
 export default () => (
 	<StaticQuery
@@ -167,7 +154,6 @@ export default () => (
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
 								location
-								podcastURL
 								warehouseID
 							}
 						}
@@ -177,4 +163,4 @@ export default () => (
 		`}
 		render={(data, count) => <PodcastRoll data={data} count={count} />}
 	/>
-)
+);

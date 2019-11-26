@@ -29,8 +29,7 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "podcast-page"}
       - {label: "Warehouse Number", name: "warehouseID", widget: "string", hint: "For example WAREHOUSE #3.5"}
       - {label: "Podcast Name", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list"]}
-      - {label: "Podcast ID (9 Numbers)", name: "podcastURL", widget: "number", valueType: "int" }
+      - {label: "Body and Podcast URL", name: "body", widget: "markdown", buttons: ["bold", "italic", "heading-one", "heading-two", "bulleted-list"]}
       - {label: "Podcast Date", name: "date", widget: "datetime"}
 
   - name: "product"
