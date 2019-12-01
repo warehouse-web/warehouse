@@ -16,7 +16,7 @@ import Content, {
 const EventRoll = ({ data }) => {
 	const [activeEvent, setActiveEvent] = useState(false);
 	const [showEventDetail, setShowEventDetail] = useState(false);
-			const openEvent = event => {
+	const openEvent = event => {
 		event &&
 			window.history.pushState(
 				{ page: 1 },
@@ -24,10 +24,9 @@ const EventRoll = ({ data }) => {
 				event.fields.slug
 			);
 
-			setActiveEvent(event);
-			setShowEventDetail(true);
+		setActiveEvent(event);
+		setShowEventDetail(true);
 	};
-
 
 	const renderImg = post => {
 		if (imagesFromAst(post.htmlAst)[0].properties.src) {
@@ -48,25 +47,24 @@ const EventRoll = ({ data }) => {
 	};
 
 	const { edges: posts } = data.allMarkdownRemark;
-	const PostContent = HTMLContent || Content;
 	const match = useMedia("(max-width: 900px) ");
 	const [divStyle, setDivStyle] = useState();
 	const size = useWindowSize();
 
 	useEffect(() => {
-		posts && posts.map(post=>
-			{
+		posts &&
+			posts.map(post => {
 				if (post.node.fields.slug === window.location.pathname) {
-					console.log('yes')
-					setActiveEvent(post.node)
+					console.log("yes");
+					setActiveEvent(post.node);
 					setShowEventDetail(true);
 
-					return
+					return;
 				}
-			})
-	}, [])
+			});
+	}, []);
 
-	console.log('activeEvent', activeEvent )
+	console.log("activeEvent", activeEvent);
 
 	return (
 		<>

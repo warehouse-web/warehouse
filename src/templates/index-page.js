@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react"
-import PropTypes from "prop-types"
-import { Link, graphql, StaticQuery } from "gatsby"
-import Layout from "../components/Layout"
-import EventRoll from "../components/EventRoll"
-import DivOverlay from "./DivOverlay"
+import React, { useState, useEffect } from "react";
+import PropTypes from "prop-types";
+import { Link, graphql, StaticQuery } from "gatsby";
+import Layout from "../components/Layout";
+import EventRoll from "../components/EventRoll";
+import DivOverlay from "./DivOverlay";
 import {
 	renderHtmlToReact,
 	isDateBeforeToday,
@@ -11,74 +11,76 @@ import {
 	relayout,
 	postType,
 	useWindowSize,
-	useMedia,
-} from "../components/utils"
+	useMedia
+} from "../components/utils";
 
 export const IndexPageTemplate = ({ data }) => {
 	return (
 		<Layout>
 			<IndexPage />
 		</Layout>
-	)
-}
+	);
+};
 IndexPageTemplate.propTypes = {
 	image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-	title: PropTypes.string,
-}
+	title: PropTypes.string
+};
 
 export const IndexPage = ({ data }) => {
-	const match = useMedia("(max-width: 900px) ")
-	const { edges: posts } = data.allMarkdownRemark
-	const [activeEvent, setActiveEvent] = useState({})
-	const [showEventDetail, setShowEventDetail] = useState(false)
-	const [isMobile, setIsMobile] = useState(match)
-	const [divStyle, setDivStyle] = useState()
-	const size = useWindowSize()
+	const match = useMedia("(max-width: 900px) ");
+	const { edges: posts } = data.allMarkdownRemark;
+	const [activeEvent, setActiveEvent] = useState({});
+	const [showEventDetail, setShowEventDetail] = useState(false);
+	const [isMobile, setIsMobile] = useState(match);
+	const [divStyle, setDivStyle] = useState();
+	const size = useWindowSize();
 
-	const renderImg = (post) => {
+	const renderImg = post => {
 		if (imagesFromAst(post.htmlAst)[0].properties.src) {
 			setDivStyle({
 				backgroundImage: `url( ${
 					imagesFromAst(post.htmlAst)[0].properties.src
-				} )`,
-			})
+				} )`
+			});
 		}
-	}
+	};
 
 	const removeImg = () => {
 		if (size.width < 900) {
-			setDivStyle({ backgroundColor: "white" })
+			setDivStyle({ backgroundColor: "white" });
 		} else {
-			setDivStyle({ backgroundColor: "black" })
+			setDivStyle({ backgroundColor: "black" });
 		}
-	}
+	};
 
 	useEffect(() => {
 		if (match) {
-			setDivStyle({ backgroundColor: "black" })
-			setIsMobile(true)
+			setDivStyle({ backgroundColor: "black" });
+			setIsMobile(true);
 		} else {
-			setDivStyle({ backgroundColor: "white" })
-			setIsMobile(false)
+			setDivStyle({ backgroundColor: "white" });
+			setIsMobile(false);
 		}
-	}, [])
+	}, []);
 
 	useEffect(() => {
-		window.addEventListener("scroll", relayout)
+		window.addEventListener("scroll", relayout);
 		return () => {
-			window.removeEventListener("scroll", relayout)
-		}
-	}, [])
+			window.removeEventListener("scroll", relayout);
+		};
+	}, []);
 
-	const openEvent = (event) => {
-		window.history.pushState(
-			{ page: 1 },
-			event.frontmatter.title,
-			`?event=${event.frontmatter.title}`
-		)
-		setActiveEvent({ event })
-		setShowEventDetail(true)
-	}
+	const openEvent = event => {
+		event &&
+			window.history.pushState(
+				{ page: 1 },
+				event.frontmatter.title,
+				event.fields.slug
+			);
+
+		setActiveEvent({ event });
+		setShowEventDetail(true);
+	};
 
 	return (
 		<Layout>
@@ -130,7 +132,7 @@ export const IndexPage = ({ data }) => {
 										)}
 									</article>
 								</div>
-							)
+							);
 						})}
 				</div>
 				{showEventDetail && (
@@ -174,16 +176,16 @@ export const IndexPage = ({ data }) => {
 				)}
 			</div>
 		</Layout>
-	)
-}
+	);
+};
 
 IndexPage.propTypes = {
 	data: PropTypes.shape({
 		markdownRemark: PropTypes.shape({
-			frontmatter: PropTypes.object,
-		}),
-	}),
-}
+			frontmatter: PropTypes.object
+		})
+	})
+};
 
 export default () => (
 	<StaticQuery
@@ -232,4 +234,4 @@ export default () => (
 		`}
 		render={(data, count) => <IndexPage data={data} count={count} />}
 	/>
-)
+);

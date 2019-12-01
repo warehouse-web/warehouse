@@ -12,9 +12,7 @@ export const BlogPostTemplate = ({
 	title,
 	content,
 	contentComponent,
-	location,
-	date,
-	activeEvent
+	date
 }) => {
 	const PostContent = contentComponent || Content;
 
@@ -24,9 +22,7 @@ export const BlogPostTemplate = ({
 				<h2 className="article-detail-title"></h2>
 				<p>{date}</p>
 				<PostContent content={content} />
-				{console.log("content:", content)}
 			</div>
-			{/* <EventRoll></EventRoll> */}
 		</>
 	);
 };
@@ -44,7 +40,7 @@ const BlogPost = ({ data }) => {
 
 	return (
 		<Layout>
-			<EventRoll/>
+			<EventRoll />
 			<BlogPostTemplate
 				data={data}
 				content={post.html}

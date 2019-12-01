@@ -4,7 +4,8 @@ module.exports = {
 	siteMetadata: {
 		title: "Warehouse",
 		description:
-			"This is the Warehouse website built for E by Zuzana and Jurgis"
+			"This is the Warehouse website built for E by Zuzana and Jurgis",
+		author: "Zuzana Kostelanska"
 	},
 	plugins: [
 		"gatsby-plugin-react-helmet",

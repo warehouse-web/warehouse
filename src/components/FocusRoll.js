@@ -1,39 +1,50 @@
-import React, { useState, useEffect } from "react"
-import PropTypes from "prop-types"
-import { graphql, StaticQuery } from "gatsby"
-import "./main.css"
-import Img from "gatsby-image"
-import DivOverlay from "../templates/DivOverlay"
+import React, { useState, useEffect } from "react";
+import PropTypes from "prop-types";
+import { graphql, StaticQuery } from "gatsby";
+import "./main.css";
+import Img from "gatsby-image";
+import DivOverlay from "../templates/DivOverlay";
 import Content, {
 	renderHtmlToReact,
 	HTMLContent,
 	imagesFromAst,
 	isDateBeforeToday,
 	useWindowSize,
-	useMedia,
-} from "./utils"
+	useMedia
+} from "./utils";
 
 const FocusRoll = ({ data }) => {
-	const [activeFocus, setActiveFocus] = useState({})
-	const [showFocusDetail, setShowFocusDetail] = useState(false)
+	const [activeFocus, setActiveFocus] = useState({});
+	const [showFocusDetail, setShowFocusDetail] = useState(false);
 
-	const openFocus = (focus) => {
+	const openFocus = focus => {
 		focus &&
 			window.history.pushState(
 				{ page: 1 },
 				focus.frontmatter.title,
-				`?focus=${focus.frontmatter.title}`
-			)
+				focus.fields.slug
+			);
 		if (focus !== !!activeFocus) {
-			setActiveFocus(focus)
-			setShowFocusDetail(true)
+			setActiveFocus(focus);
+			setShowFocusDetail(true);
 		}
-	}
+	};
 
-	const PostContent = HTMLContent || Content
-	const match = useMedia("(max-width: 900px) ")
-	const { edges: posts } = data.allMarkdownRemark
+	const PostContent = HTMLContent || Content;
+	const match = useMedia("(max-width: 900px) ");
+	const { edges: posts } = data.allMarkdownRemark;
 
+	useEffect(() => {
+		posts &&
+			posts.map(post => {
+				if (post.node.fields.slug === window.location.pathname) {
+					setActiveFocus(post.node);
+					setShowFocusDetail(true);
+
+					return;
+				}
+			});
+	}, []);
 	return (
 		<>
 			{/* <DivOverlay /> */}
@@ -96,16 +107,16 @@ const FocusRoll = ({ data }) => {
 				)}
 			</div>
 		</>
-	)
-}
+	);
+};
 
 FocusRoll.propTypes = {
 	data: PropTypes.shape({
 		allMarkdownRemark: PropTypes.shape({
-			edges: PropTypes.array,
-		}),
-	}),
-}
+			edges: PropTypes.array
+		})
+	})
+};
 
 export default () => (
 	<StaticQuery
@@ -148,4 +159,4 @@ export default () => (
 		`}
 		render={(data, count) => <FocusRoll data={data} count={count} />}
 	/>
-)
+);
