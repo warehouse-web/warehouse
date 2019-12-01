@@ -136,7 +136,6 @@ export const renderHtmlToReact = (node) => {
 
 export const imagesFromAst = (htmlAst) => {
 	const findImageTags = (node) => {
-		console.log("node:", node)
 
 		if (node.children) {
 			const myTags = node.children.filter(R.propEq("tagName", "img"))

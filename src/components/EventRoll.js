@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import "./main.css";
@@ -16,7 +16,7 @@ import Content, {
 const EventRoll = ({ data }) => {
 	const [activeEvent, setActiveEvent] = useState(false);
 	const [showEventDetail, setShowEventDetail] = useState(false);
-	const openEvent = event => {
+			const openEvent = event => {
 		event &&
 			window.history.pushState(
 				{ page: 1 },
@@ -24,9 +24,10 @@ const EventRoll = ({ data }) => {
 				event.fields.slug
 			);
 
-		setActiveEvent(event);
-		setShowEventDetail(true);
+			setActiveEvent(event);
+			setShowEventDetail(true);
 	};
+
 
 	const renderImg = post => {
 		if (imagesFromAst(post.htmlAst)[0].properties.src) {
@@ -52,10 +53,24 @@ const EventRoll = ({ data }) => {
 	const [divStyle, setDivStyle] = useState();
 	const size = useWindowSize();
 
+	useEffect(() => {
+		posts && posts.map(post=>
+			{
+				if (post.node.fields.slug === window.location.pathname) {
+					console.log('yes')
+					setActiveEvent(post.node)
+					setShowEventDetail(true);
+
+					return
+				}
+			})
+	}, [])
+
+	console.log('activeEvent', activeEvent )
+
 	return (
 		<>
 			<DivOverlay currImg={divStyle} />
-
 			<div className="wrapper">
 				<div className="article-list">
 					{posts &&
