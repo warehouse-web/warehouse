@@ -4,13 +4,13 @@ import { graphql, StaticQuery } from "gatsby";
 import "./main.css";
 import Img from "gatsby-image";
 import DivOverlay from "../templates/DivOverlay";
-import Content, {
+import {
 	renderHtmlToReact,
-	HTMLContent,
+	useMedia,
 	imagesFromAst,
-	isDateBeforeToday,
+	relayout,
 	useWindowSize,
-	useMedia
+	isDateBeforeToday
 } from "./utils";
 
 const EventRoll = ({ data }) => {
@@ -55,7 +55,6 @@ const EventRoll = ({ data }) => {
 		posts &&
 			posts.map(post => {
 				if (post.node.fields.slug === window.location.pathname) {
-					console.log("yes");
 					setActiveEvent(post.node);
 					setShowEventDetail(true);
 
@@ -64,7 +63,12 @@ const EventRoll = ({ data }) => {
 			});
 	}, []);
 
-	console.log("activeEvent", activeEvent);
+	useEffect(() => {
+		window.addEventListener("scroll", relayout);
+		return () => {
+			window.removeEventListener("scroll", relayout);
+		};
+	}, []);
 
 	return (
 		<>
@@ -95,11 +99,6 @@ const EventRoll = ({ data }) => {
 											</h2>
 										)}
 									<header>
-										{/* <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                  </Link> */}
 										<h1>{post.frontmatter.title}</h1>
 										<h2 className="post-meta">
 											{post.frontmatter.date}

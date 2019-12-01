@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import "./main.css";
@@ -41,7 +41,7 @@ const PodcastRoll = ({ data }) => {
 			window.history.pushState(
 				{ page: 1 },
 				podcast.frontmatter.title,
-				`?podcast=${podcast.frontmatter.title}`
+				podcast.fields.slug
 			);
 		if (podcast !== !!activePodcast) {
 			setActivePodcast(podcast);
@@ -53,6 +53,17 @@ const PodcastRoll = ({ data }) => {
 	const match = useMedia("(max-width: 900px) ");
 	const { edges: posts } = data.allMarkdownRemark;
 
+	useEffect(() => {
+		posts &&
+			posts.map(post => {
+				if (post.node.fields.slug === window.location.pathname) {
+					setActivePodcast(post.node);
+					setShowPodcastDetail(true);
+
+					return;
+				}
+			});
+	}, []);
 	return (
 		<>
 			<DivOverlay currImg={divStyle} />

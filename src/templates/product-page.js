@@ -6,13 +6,12 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/utils";
 import "../components/main.css";
+import ShopRoll from "../components/ShopRoll";
 
 export const ProductPageTemplate = ({
 	content,
 	contentComponent,
 	warehouseID,
-	// tags,
-	date,
 	title,
 	helmet,
 	author
@@ -21,27 +20,6 @@ export const ProductPageTemplate = ({
 
 	return (
 		<div className="event-detail">
-			{helmet || ""}
-			<p
-				style={{
-					fontSize: ".7rem",
-					fontFamily: "Arial, Helvetica, sans-serif",
-					textAlign: "center"
-				}}
-			>
-				{warehouseID}
-			</p>
-			<h2
-				style={{
-					textAlign: "center",
-					fontSize: "2em",
-					margin: "0 2.5rem 1rem",
-					lineHeight: "1.1"
-				}}
-			>
-				{title}
-			</h2>
-
 			<ProductContent
 				style={{
 					justifyContent: "left",
@@ -53,20 +31,6 @@ export const ProductPageTemplate = ({
 				content={content}
 			/>
 			<p>{author}</p>
-
-			{/* Tag spot */}
-			{/* {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null} */}
 		</div>
 	);
 };
@@ -83,15 +47,15 @@ const Product = ({ data }) => {
 
 	return (
 		<Layout>
-			<ProductPageTemplate
+			<ShopRoll />
+			{/* <ProductPageTemplate
 				content={post.html}
 				contentComponent={HTMLContent}
 				warehouseID={post.frontmatter.warehouseID}
 				date={post.frontmatter.date}
-				// tags={post.frontmatter.tags}
 				title={post.frontmatter.title}
 				author={post.frontmatter.author}
-			/>
+			/> */}
 		</Layout>
 	);
 };
@@ -108,7 +72,7 @@ export const pageQuery = graphql`
 	query ProductByID($id: String!) {
 		markdownRemark(id: { eq: $id }) {
 			id
-			html
+			htmlAst
 			frontmatter {
 				title
 				warehouseID

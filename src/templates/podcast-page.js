@@ -5,6 +5,7 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/utils";
 import "../components/main.css";
+import PodcastRoll from "../components/PodcastRoll";
 
 export const PodcastTemplate = ({
 	content,
@@ -67,7 +68,8 @@ PodcastTemplate.propTypes = {
 const Podcast = data => {
 	return (
 		<Layout>
-			<PodcastTemplate
+			<PodcastRoll />
+			{/* <PodcastTemplate
 				content={data.content}
 				warehouseID={data.warehouseID}
 				podcastURL={data.podcastURL}
@@ -77,7 +79,7 @@ const Podcast = data => {
 					</Helmet>
 				}
 				title={data.title}
-			/>
+			/> */}
 		</Layout>
 	);
 };

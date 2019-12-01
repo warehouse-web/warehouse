@@ -41,7 +41,7 @@ const BlogPost = ({ data }) => {
 	return (
 		<Layout>
 			<EventRoll />
-			<BlogPostTemplate
+			{/* <BlogPostTemplate
 				data={data}
 				content={post.html}
 				contentComponent={HTMLContent}
@@ -65,7 +65,7 @@ const BlogPost = ({ data }) => {
 					</Helmet>
 				}
 				title={post.frontmatter.title}
-			/>
+			/> */}
 		</Layout>
 	);
 };
