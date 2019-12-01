@@ -154,9 +154,6 @@ export const IndexPage = ({ data }) => {
 						<section className="content">
 							{renderHtmlToReact(activeEvent.event.htmlAst)}
 						</section>
-						<p className="article-detail-description">
-							{activeEvent.event.frontmatter.body}
-						</p>
 					</div>
 				)}
 			</div>

@@ -7,7 +7,7 @@ leftColumn: >-
 
   SHOWS, READS, SHARES, LISTENS, PERFORMS, DOCUMENTS, PRESENTS, EDUCATES,
   ACTIVATES, MATTERS
-RightColumn: >-
+rightColumn: >-
   Warehouse is an Amsterdam-based collective existing of Elisa van Joolen, Femke
   de Vries and Hanka van der Voet aiming to provide a platform for critical
   fashion practitioners through organizing exhibitions, reading groups,

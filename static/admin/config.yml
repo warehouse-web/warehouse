@@ -111,8 +111,9 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {Label: "Left Column", name: "leftColumn", widget: "markdown"}
+          - {Label: "Right Column", name: "rightColumn", widget: "markdown"}
 
-          - {label: "Body", name: "body", widget: "markdown"}
+
           - {label: "Colophon", name: "colophon", widget: "markdown"}
           - label: Blurbs
             name: blurbs

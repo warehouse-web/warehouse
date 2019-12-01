@@ -7,7 +7,7 @@ import Content, { HTMLContent } from "../components/utils";
 export const AboutPageTemplate = ({
 	title,
 	leftColumn,
-	colophon,
+	rightColumn,
 	html,
 	content,
 	blurbs,
@@ -31,28 +31,18 @@ export const AboutPageTemplate = ({
 				{/* <PageContent className="content" content={content} /> */}
 			</div>
 			<div className="about-right">
-				<p className="about-description">
-					Warehouse is an Amsterdam-based collective existing of Elisa
-					van Joolen, Femke de Vries and Hanka van der Voet aiming to
-					provide a platform for critical fashion practitioners
-					through organizing exhibitions, reading groups, workshops,
-					performances and book presentations among other things, in
-					order to create an engaging environment that facilitates
-					critical dialogue and the creation of an alternative fashion
-					discourse that goes beyond seeing fashion as a commodity.
-				</p>
+				<p className="about-description">{rightColumn}</p>
 				<ul className="colophon">
 					{console.log("html", html)}
-					{/* {colophon} */}
-					{console.log("blurbs", blurbs)}
-					{blurbs.map(el => {
-						return (
-							<>
-								<li>{el.title}</li>
-								<li>{el.subtitle}</li>
-							</>
-						);
-					})}
+					{blurbs &&
+						blurbs.map(el => {
+							return (
+								<>
+									<li>{el.title}</li>
+									<li>{el.subtitle}</li>
+								</>
+							);
+						})}
 				</ul>
 				<p className="about-description">
 					Warehouse is made possible through the financial support of
@@ -82,8 +72,8 @@ const AboutPage = ({ data }) => {
 				content={post.html}
 				leftColumn={post.frontmatter.leftColumn}
 				colophon={post.frontmatter.colophon}
-				html={post.html}
 				blurbs={post.frontmatter.blurbs}
+				rightColumn={post.frontmatter.rightColumn}
 			/>
 		</Layout>
 	);
@@ -102,6 +92,7 @@ export const aboutPageQuery = graphql`
 			frontmatter {
 				title
 				leftColumn
+				rightColumn
 				colophon
 				blurbs {
 					title

@@ -387,9 +387,8 @@ iframe {
 
 .colophon > li {
 	color: white;
-	text-transform: uppercase;
-	line-height: 1.1;
-	margin-bottom: .8rem;
+	line-height: .8;
+	margin-bottom: .6rem;
 	font-size: 1.3rem;
 }
 
