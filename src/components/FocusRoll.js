@@ -143,7 +143,6 @@ export default () => (
 								}
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
-								podcastURL
 								image {
 									childImageSharp {
 										fluid(maxWidth: 520, quality: 100) {

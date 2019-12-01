@@ -8,7 +8,7 @@ leftColumn: >-
   SHOWS, READS, SHARES, LISTENS, PERFORMS, DOCUMENTS, PRESENTS, EDUCATES,
   ACTIVATES, MATTERS
 colophon: |-
-  * <li>CONTACT</li>
+  <li>CONTACT</li>
   * mail@thisiswarehouse.com
   * INSTAGRAM
   * @amsterdam.warehouse

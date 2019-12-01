@@ -154,21 +154,6 @@ export const IndexPage = ({ data }) => {
 						<section className="content">
 							{renderHtmlToReact(activeEvent.event.htmlAst)}
 						</section>
-						{activeEvent.event.frontmatter.podcastURL && (
-							<iframe
-								title={activeEvent.event.id}
-								width="100%"
-								height="300"
-								scrolling="no"
-								frameborder="no"
-								allow="autoplay"
-								src={
-									"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" +
-									activeEvent.event.frontmatter.podcastURL +
-									"&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-								}
-							/>
-						)}
 						<p className="article-detail-description">
 							{activeEvent.event.frontmatter.body}
 						</p>
@@ -218,7 +203,6 @@ export default () => (
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
 								location
-								podcastURL
 								image {
 									childImageSharp {
 										fluid(maxWidth: 520, quality: 100) {
