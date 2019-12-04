@@ -4,7 +4,7 @@ export const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: blue;
+  background: white;
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
   height: 100vh;
   text-align: left;
@@ -22,7 +22,7 @@ export const StyledMenu = styled.nav`
     padding: 1rem 0;
     font-weight: bold;
     letter-spacing: 0.5rem;
-    color: grey;
+    color: black;
     text-decoration: none;
     transition: color 0.3s linear;
     @media (max-width: 900px ) {
@@ -30,7 +30,7 @@ export const StyledMenu = styled.nav`
       text-align: center;
     }
     &:hover {
-      color: green;
+      color: black;
     }
   }
 `;
