@@ -14,10 +14,9 @@ blurbs:
   - subtitle: Schoon den Boer
     title: COMMUNICATION
 other: |-
-  OTHER data
+  Copyrights etc
   <br/>
-  <br/>
-  here it goes .     
+  <br/>\
   line
   <br/>
   <br/>
