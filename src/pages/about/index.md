@@ -15,12 +15,11 @@ blurbs:
     title: COMMUNICATION
 other: |-
   Copyrights etc
-  <br/>
   <br/>\
   line
   <br/>
   <br/>
-  break
+  breaks
 ---
   ABOUT
 
