@@ -373,8 +373,12 @@ a.navbar-item:hover {
 	-webkit-overflow-scrolling: touch;
 	right: 0;
 	width: 50%;
-	height: 100vh;
 	top: 0;
+	color: white;
+}
+
+.about-right > p {
+	color: white;
 }
 
 .about-description {

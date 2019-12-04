@@ -31,7 +31,10 @@ export const AboutPageTemplate = ({
 				<div className="about-right">
 					{/* <p className="about-description">{rightColumn}</p> */}
 					{console.log('content:', content)}
-					<PageContent className="content" content={content} />
+					<PageContent
+					// style ={{"marginRight":"1.8rem","flex":"0 0 50%","overflowY":"scroll","WebkitOverflowScrolling":"touch","right":"0","width":"50%","height":"100vh","top":"0", "color":"white"}}
+					className="about-right"
+					content={content} />
 					<ul className="colophon">
 						{console.log("blurbs", blurbs)}
 						{blurbs &&
