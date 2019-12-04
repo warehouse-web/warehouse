@@ -379,6 +379,8 @@ a.navbar-item:hover {
 
 .about-right > p {
 	color: white;
+	line-height: 1.35;
+	font-size: 1.15em;
 }
 
 .about-description {
