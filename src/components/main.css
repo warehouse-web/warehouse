@@ -331,20 +331,22 @@ a.navbar-item:hover {
 }
 
 /* ABOUT PAGE */
-.about-wrapper {
+.about-background {
+	background-color: rgba(0, 0, 0, 1);
 	position: fixed;
-	top: 0;
-	left: 0;
 	width: 100%;
 	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.about-wrapper {
 	display: flex;
-	background-color: rgba(0, 0, 0, 1);
 	z-index: 999999;
-	padding: 1.5rem;
+	padding-left: 2.3rem;
+	padding-top: 1.4rem;
 }
 .about-left {
-	margin-top: 1.8rem;
-	margin-left: 1.8rem;
 	flex: 0 0 50%;
 	height: 100vh;
 }
@@ -364,7 +366,6 @@ a.navbar-item:hover {
 }
 
 .about-right {
-	margin-top: 1.8rem;
 	margin-right: 1.8rem;
 	flex: 0 0 50%;
 	overflow-y: scroll;
@@ -380,7 +381,6 @@ a.navbar-item:hover {
 	font-size: 1.3rem;
 	line-height: 1.2;
 	margin-right: 3.9rem;
-	margin-top: 2.7rem;
 }
 
 .about-description > p {

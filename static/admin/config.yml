@@ -72,34 +72,6 @@ collections:
         
       - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list"]}
       - {label: "Date Added", name: "date", widget: "datetime"}
-    
-  # - name: "about"
-  # label: "About"
-  # folder: "src/pages/focus"
-  # create: true
-  # slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-  # fields:
-  #   - label: "Template Key"
-  #     name: "templateKey" 
-  #     widget: "hidden" 
-  #     default: "focus-page"
-
-  #   - label: "Warehouse Number"
-  #     name: "warehouseID" 
-  #     widget: "string" 
-  #     hint: "For example WAREHOUSE #3.5"
-
-  #   - label: "Article Title"
-  #     name: "title" 
-  #     widget: "string"
-
-  #   - label: Upload PDF 
-  #     name: 'PDF'
-  #     widget: 'file' 
-  #     options: { }
-      
-  #   - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list"]}
-  #   - {label: "Date Added", name: "date", widget: "datetime"}
 
   - name: "about"
     label: "About"
@@ -113,9 +85,7 @@ collections:
           - {Label: "Left Column", name: "leftColumn", widget: "markdown"}
           - {Label: "Right Column", name: "rightColumn", widget: "markdown"}
 
-
-          - {label: "Colophon", name: "colophon", widget: "markdown"}
-          - label: Blurbs
+          - label: List of Contributors / contact information
             name: blurbs
             widget: list
             fields:

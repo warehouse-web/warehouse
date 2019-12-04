@@ -16,40 +16,41 @@ export const AboutPageTemplate = ({
 	const PageContent = contentComponent || Content;
 
 	return (
-		<div className="about-wrapper">
+		<div className="about-background">
 			<Link className="close" id="white" to="/">
 				<span className="white"></span>
 				<span className="white"></span>
 			</Link>
+			<div className="about-wrapper">
+				<div className="about-left">
+					<h2 className="about-title">
+						{title}
+						<span className="about-caps">{leftColumn}</span>
+					</h2>
 
-			<div className="about-left">
-				<h2 className="about-title">
-					{title}
-					<span className="about-caps">{leftColumn}</span>
-				</h2>
-
-				{/* <PageContent className="content" content={content} /> */}
-			</div>
-			<div className="about-right">
-				<p className="about-description">{rightColumn}</p>
-				<ul className="colophon">
-					{console.log("html", html)}
-					{blurbs &&
-						blurbs.map(el => {
-							return (
-								<>
-									<li>{el.title}</li>
-									<li>{el.subtitle}</li>
-								</>
-							);
-						})}
-				</ul>
-				<p className="about-description">
-					Warehouse is made possible through the financial support of
-					Stimuleringsfonds Creatieve Industrie
-				</p>
-				<p className="about-description">2019 Warehouse</p>
-				<p className="about-copyright">No Rights etc.....</p>
+					{/* <PageContent className="content" content={content} /> */}
+				</div>
+				<div className="about-right">
+					<p className="about-description">{rightColumn}</p>
+					<ul className="colophon">
+						{console.log("html", html)}
+						{blurbs &&
+							blurbs.map(el => {
+								return (
+									<>
+										<li>{el.title}</li>
+										<li>{el.subtitle}</li>
+									</>
+								);
+							})}
+					</ul>
+					{/* <p className="about-description">
+						Warehouse is made possible through the financial support
+						of Stimuleringsfonds Creatieve Industrie
+					</p>
+					<p className="about-description">2019 Warehouse</p>
+					<p className="about-copyright">No Rights etc.....</p> */}
+				</div>
 			</div>
 		</div>
 	);

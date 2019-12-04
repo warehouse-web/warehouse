@@ -138,11 +138,7 @@ const ShopRoll = ({ data }) => {
 								/>
 							</div>
 						)}
-						<a
-							href={`mailto: buy@wearewarehouse.com?subject=${activeProduct.frontmatter.title}`}
-						>
-							Send mail with subject
-						</a>
+						<p>Webshop coming soon..</p>
 					</div>
 				)}
 			</div>
