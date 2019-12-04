@@ -9,21 +9,8 @@ rightColumn: >-
   Warehouse is an Amsterdam-based fashion platform that aims to create an open,
   engaging and inclusive environment that facilitates critical dialogue and the
   creation of a discourse that goes beyond treating fashion as a commodity.
-  Warehouse is initiated by Elisa van Joolen, Femke de Vries and Hanka van der \
-
-
-  /
-
-
-  /
-
-
-
-
+  Warehouse is initiated by Elisa van Joolen, Femke de Vries and Hanka van der
   Voet.
-
-
-  Hello
 blurbs:
   - subtitle: mail@thisiswarehouse.com
     title: CONTACT
