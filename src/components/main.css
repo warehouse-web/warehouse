@@ -48,7 +48,7 @@ p {
 	width: 50%;
 	height: 100vh;
 	top: 0;
-	/* margin-top: 3.25rem; */
+	padding-bottom: 2rem;
 }
 /* NAVBAR ESCAPING FROM BULMA */
 .navbar {
@@ -152,7 +152,7 @@ a.navbar-item:hover {
 .post-type {
 	text-transform: uppercase;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: .7rem;
+	font-size: .9rem;
 }
 
 .article-detail-description {
@@ -211,9 +211,20 @@ a.navbar-item:hover {
 	.navbar {
 		display: none;
 	}
+	.burger-menu {
+		position: sticky;
+		top: 0;
+		z-index: 0;
+		background-color: black ;
+	}
 
 	.navbar a {
 		color: white;
+	}
+	.about-right {
+		width: 100%;
+		margin-right: 0;
+		padding-right: 1.7rem;
 	}
 
 	h1,
@@ -229,6 +240,19 @@ a.navbar-item:hover {
 		width: 310px;
 		left: 0;
 	}
+
+	.post {
+		max-width: 80%;
+	}
+	.article-list{
+		margin-left: 1.7rem;
+		margin-right: 1.7rem;
+	}
+
+	.article-detail .content {
+		margin: 0 1.7rem;
+	}
+
 
 	.rectangle {
 		height: 40px;
@@ -256,6 +280,15 @@ a.navbar-item:hover {
 
 	.navbar a {
 		color: black;
+	}
+
+	.about-right {
+		margin-right: 1.8rem;
+		flex: 0 0 50%;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+		right: 0;
+		width: 50%;
 	}
 
 	h1,
@@ -367,15 +400,8 @@ a.navbar-item:hover {
 }
 
 .about-right {
-	margin-right: 1.8rem;
-	flex: 0 0 50%;
-	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch;
-	right: 0;
-	width: 50%;
 	top: 0;
 	color: white;
-	/* needed for dangerouslysetinnerhtml */
 }
 
 .dangerously-set {
@@ -528,7 +554,7 @@ a > span {
 	transition-property: background-color, opacity, transform, -webkit-transform;
 	-webkit-transition-timing-function: ease-out;
 	transition-timing-function: ease-out;
-	width: 16px;
+	width: 22px;
 }
 .close span:nth-child(1) {
 	top: calc(50% - 6px);
