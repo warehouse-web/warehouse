@@ -16,7 +16,7 @@ blurbs:
 other: |-
   OTHER data
 
-  here it goes 
+  here it goes .     
   line
   break
 ---
