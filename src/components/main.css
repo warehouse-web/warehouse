@@ -141,14 +141,7 @@ a.navbar-item:hover {
 
 .selected {
 	border: 1px solid black;
-	border-radius: 70px;
-	padding-left: 4rem;
-	padding-top: .5rem;
-	padding-right: .5rem;
-}
-
-.selected > header > * {
-	/* color: red; */
+	padding-left: 1rem;
 }
 
 /* .post-title {
