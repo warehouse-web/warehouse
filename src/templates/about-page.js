@@ -33,7 +33,7 @@ export const AboutPageTemplate = ({
 				<div className="about-right">
 					<p className="about-description">{rightColumn}</p>
 					<ul className="colophon">
-						{console.log("html", html)}
+						{console.log("blurbs", blurbs)}
 						{blurbs &&
 							blurbs.map(el => {
 								return (
