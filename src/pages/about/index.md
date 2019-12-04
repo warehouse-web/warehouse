@@ -13,6 +13,10 @@ blurbs:
     title: Production
   - subtitle: Schoon den Boer
     title: COMMUNICATION
+other: |-
+  OTHER data
+
+  here it goes
 ---
   ABOUT
 
