@@ -15,7 +15,7 @@ blurbs:
     title: COMMUNICATION
 other: |-
   OTHER data
-
+  <br>
   here it goes .     
   line
   break
