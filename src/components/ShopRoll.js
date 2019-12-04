@@ -81,24 +81,23 @@ const ShopRoll = ({ data }) => {
 				<div className="article-list">
 					{products &&
 						products.map(({ node: product }) => (
-							<div
+							<article
 								key={product.id}
 								onPointerEnter={() => renderImg(product)}
 								onPointerLeave={() => removeImg()}
+								onClick={() => openProduct(product)}
+								className={`blog-list-item post ${
+									product === activeProduct ? "selected" : ""
+								}`}
 							>
-								<article
-									onClick={() => openProduct(product)}
-									className={`blog-list-item post`}
-								>
-									<h2 className="post-type">Shop</h2>
-									<header>
-										<p className="post-meta">
-											{product.frontmatter.title}
-										</p>
-										<h2>By {product.frontmatter.author}</h2>
-									</header>
-								</article>
-							</div>
+								<h2 className="post-type">Shop</h2>
+								<header>
+									<p className="post-meta">
+										{product.frontmatter.title}
+									</p>
+									<h2>By {product.frontmatter.author}</h2>
+								</header>
+							</article>
 						))}
 					{!products && <h1>No Items To Show ...Yet</h1>}
 				</div>
@@ -116,7 +115,6 @@ const ShopRoll = ({ data }) => {
 						<p className="article-ID">
 							{activeProduct.frontmatter.warehouseID}
 						</p>
-						{console.log("activeProduct:", activeProduct)}
 
 						<h2 className="article-detail-title">
 							{activeProduct.frontmatter.title}

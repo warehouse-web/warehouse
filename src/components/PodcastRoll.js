@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import "./main.css";
-import Img from "gatsby-image";
 import DivOverlay from "../templates/DivOverlay";
 import Content, {
 	renderHtmlToReact,
@@ -78,32 +77,31 @@ const PodcastRoll = ({ data }) => {
 				<div className="article-list">
 					{posts &&
 						posts.map(({ node: post }) => (
-							<div
+							<article
 								key={post.id}
 								onPointerEnter={() => renderImg(post)}
 								onPointerLeave={() => removeImg()}
+								onClick={() => openPodcast(post)}
+								className={`blog-list-item post ${
+									post === activePodcast ? "selected" : ""
+								}`}
 							>
-								<article
-									onClick={() => openPodcast(post)}
-									className={`blog-list-item post`}
-								>
-									<h2 className="post-type">Podcast</h2>
-									<header>
-										<p className="post-meta">
-											{post.frontmatter.title}
-											<span className="subtitle is-size-5 is-block">
-												{/* {post.frontmatter.date} */}
-												{/* <Link
+								<h2 className="post-type">Podcast</h2>
+								<header>
+									<p className="post-meta">
+										{post.frontmatter.title}
+										<span className="subtitle is-size-5 is-block">
+											{/* {post.frontmatter.date} */}
+											{/* <Link
                       className="title has-text-primary is-size-4"
                       to={post.fields.slug}
                     >
                   </Link> */}
-											</span>
-											{post.frontmatter.location}
-										</p>
-									</header>
-								</article>
-							</div>
+										</span>
+										{post.frontmatter.location}
+									</p>
+								</header>
+							</article>
 						))}
 					{!posts && <h1>No Podcasts To Show ... Yet</h1>}
 				</div>
@@ -126,13 +124,6 @@ const PodcastRoll = ({ data }) => {
 						<section className="content">
 							{renderHtmlToReact(activePodcast.htmlAst)}
 						</section>
-
-						{
-							// <PostContent
-							// 	className="content"
-							// 	content={activePodcast.html}
-							// />
-						}
 
 						{activePodcast.excerpt}
 					</div>

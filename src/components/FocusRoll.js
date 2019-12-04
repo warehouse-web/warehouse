@@ -85,24 +85,23 @@ const FocusRoll = ({ data }) => {
 				<div className="article-list">
 					{posts &&
 						posts.map(({ node: post }) => (
-							<div
+							<article
 								key={post.id}
 								onPointerEnter={() => renderImg(post)}
 								onPointerLeave={() => removeImg()}
+								onClick={() => openFocus(post)}
+								className={`blog-list-item post ${
+									post === activeFocus ? "selected" : ""
+								}`}
 							>
-								<article
-									onClick={() => openFocus(post)}
-									className={`blog-list-item post`}
-								>
-									<h2 className="post-type">Focus</h2>
-									<header>
-										<p className="post-meta">
-											{post.frontmatter.title}
-											{post.frontmatter.location}
-										</p>
-									</header>
-								</article>
-							</div>
+								<h2 className="post-type">Focus</h2>
+								<header>
+									<p className="post-meta">
+										{post.frontmatter.title}
+										{post.frontmatter.location}
+									</p>
+								</header>
+							</article>
 						))}
 					{!posts && <h1>No Focus To Show ... Yet</h1>}
 				</div>

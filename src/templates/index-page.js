@@ -88,48 +88,45 @@ export const IndexPage = ({ data }) => {
 					{posts &&
 						posts.map(({ node: post }) => {
 							return (
-								<div
+								<article
 									key={post.id}
 									onPointerEnter={() => renderImg(post)}
 									onPointerLeave={() => removeImg()}
+									onClick={() => openEvent(post)}
+									className={`post `}
 								>
-									<article
-										onClick={() => openEvent(post)}
-										className={`post `}
-									>
-										{post.frontmatter.date &&
-											post.frontmatter.templateKey ===
-												"blog-post" &&
-											isDateBeforeToday(post) && (
-												<h2 className="post-type">
-													Past {postType(post)}
-												</h2>
-											)}
-										{post.frontmatter.date &&
-											post.frontmatter.templateKey ===
-												"blog-post" &&
-											!isDateBeforeToday(post) && (
-												<h2 className="post-type">
-													Upcoming {postType(post)}
-												</h2>
-											)}
-										{post.frontmatter.templateKey !==
-											"blog-post" && (
+									{post.frontmatter.date &&
+										post.frontmatter.templateKey ===
+											"blog-post" &&
+										isDateBeforeToday(post) && (
 											<h2 className="post-type">
-												{postType(post)}
+												Past {postType(post)}
 											</h2>
 										)}
-										<h1 className="post-title">
-											{post.frontmatter.title}
-										</h1>
-										<h2 className="post-meta">
-											{post.frontmatter.date}
-										</h2>
-										{post.frontmatter.location && (
-											<h2>{post.frontmatter.location}</h2>
+									{post.frontmatter.date &&
+										post.frontmatter.templateKey ===
+											"blog-post" &&
+										!isDateBeforeToday(post) && (
+											<h2 className="post-type">
+												Upcoming {postType(post)}
+											</h2>
 										)}
-									</article>
-								</div>
+									{post.frontmatter.templateKey !==
+										"blog-post" && (
+										<h2 className="post-type">
+											{postType(post)}
+										</h2>
+									)}
+									<h1 className="post-title">
+										{post.frontmatter.title}
+									</h1>
+									<h2 className="post-meta">
+										{post.frontmatter.date}
+									</h2>
+									{post.frontmatter.location && (
+										<h2>{post.frontmatter.location}</h2>
+									)}
+								</article>
 							);
 						})}
 				</div>

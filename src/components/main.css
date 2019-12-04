@@ -122,9 +122,9 @@ a.navbar-item:hover {
 }
 
 .post {
-	max-width: 76%;
+	max-width: 20%;
 	margin-bottom: 2.3em;
-	font-size: 1.3rem;
+	font-size: 1.65rem;
 }
 
 .post > * {
@@ -139,13 +139,13 @@ a.navbar-item:hover {
 	cursor: pointer;
 }
 
-iframe {
-	margin-top: 2em;
+.selected > header > * {
+	color: red;
 }
 
-.post-title {
+/* .post-title {
 	font-size: 1.3rem;
-}
+} */
 
 .post-type {
 	text-transform: uppercase;
@@ -301,6 +301,11 @@ iframe {
 	text-align: left;
 	margin: 0 3.8rem;
 	color: black;
+}
+
+.content > div > p {
+	font-size: 1.15em;
+	line-height: 1.35;
 }
 
 .gatsby-resp-image-wrapper {

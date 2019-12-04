@@ -25,6 +25,8 @@ const EventRoll = ({ data }) => {
 			);
 
 		setActiveEvent(event);
+		console.log("event:", event);
+
 		setShowEventDetail(true);
 	};
 
@@ -69,13 +71,6 @@ const EventRoll = ({ data }) => {
 			});
 	}, []);
 
-	// useEffect(() => {
-	// 	setDivStyle({background})
-	// 	return () => {
-	// 		cleanup
-	// 	};
-	// }, [input])
-
 	useEffect(() => {
 		window.addEventListener("scroll", relayout);
 		return () => {
@@ -90,38 +85,37 @@ const EventRoll = ({ data }) => {
 				<div className="article-list">
 					{posts &&
 						posts.map(({ node: post }) => (
-							<div
+							<article
+								onClick={() => openEvent(post)}
+								className={`blog-list-item post ${
+									post === activeEvent ? "selected" : ""
+								}`}
 								key={post.id}
 								onPointerEnter={() => renderImg(post)}
 								onPointerLeave={() => removeImg()}
 							>
-								<article
-									onClick={() => openEvent(post)}
-									className={`blog-list-item post`}
-								>
-									{post.frontmatter.date &&
-										isDateBeforeToday(post) && (
-											<h2 className="post-type">
-												Past Event
-											</h2>
-										)}
-									{post.frontmatter.date &&
-										!isDateBeforeToday(post) && (
-											<h2 className="post-type">
-												Upcoming Event
-											</h2>
-										)}
-									<header>
-										<h1>{post.frontmatter.title}</h1>
-										<h2 className="post-meta">
-											{post.frontmatter.date}
+								{post.frontmatter.date &&
+									isDateBeforeToday(post) && (
+										<h2 className="post-type">
+											Past Event
 										</h2>
-										{post.frontmatter.location && (
-											<h2>{post.frontmatter.location}</h2>
-										)}
-									</header>
-								</article>
-							</div>
+									)}
+								{post.frontmatter.date &&
+									!isDateBeforeToday(post) && (
+										<h2 className="post-type">
+											Upcoming Event
+										</h2>
+									)}
+								<header>
+									<h1>{post.frontmatter.title}</h1>
+									<h2 className="post-meta">
+										{post.frontmatter.date}
+									</h2>
+									{post.frontmatter.location && (
+										<h2>{post.frontmatter.location}</h2>
+									)}
+								</header>
+							</article>
 						))}
 				</div>
 
