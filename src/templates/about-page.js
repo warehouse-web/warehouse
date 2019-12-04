@@ -8,6 +8,7 @@ export const AboutPageTemplate = ({
 	title,
 	leftColumn,
 	html,
+	other,
 	content,
 	contentComponent,
 	blurbs,
@@ -47,6 +48,9 @@ export const AboutPageTemplate = ({
 								);
 							})}
 					</ul>
+
+					<div className="dangerously-set" dangerouslySetInnerHTML={{ __html: other }} />
+
 					{/* <p className="about-description">
 						Warehouse is made possible through the financial support
 						of Stimuleringsfonds Creatieve Industrie
@@ -77,6 +81,7 @@ const AboutPage = ({ data }) => {
 				leftColumn={post.frontmatter.leftColumn}
 				colophon={post.frontmatter.colophon}
 				blurbs={post.frontmatter.blurbs}
+				other={post.frontmatter.other}
 				rightColumn={post.frontmatter.rightColumn}
 			/>
 		</Layout>
@@ -96,6 +101,7 @@ export const aboutPageQuery = graphql`
 			frontmatter {
 				title
 				leftColumn
+				other
 				blurbs {
 					title
 					subtitle

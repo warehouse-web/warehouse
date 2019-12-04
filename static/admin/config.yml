@@ -72,7 +72,6 @@ collections:
 
       - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "heading-one", "heading-two", "bulleted-list"]}
       - {label: "Date Added", name: "date", widget: "datetime"}
-
   - name: "about"
     label: "About"
     files:
@@ -84,11 +83,6 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {Label: "Left Column", name: "leftColumn", widget: "markdown"}
           - {Label: "Right Column", name: "body", widget: "markdown"}
-
-          - label: List of Contributors / contact information
-            name: blurbs
-            widget: list
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: SubTitle, name: subtitle, widget: string}
-
+          - {label: List of Contributors / contact information, name: blurbs,
+            widget: list, fields: [{label: Title, name: title, widget: string},{label: SubTitle, name: subtitle, widget: string}]}
+          - {Label: "Additional Info", name: "other", widget: "markdown"}

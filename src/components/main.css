@@ -375,6 +375,13 @@ a.navbar-item:hover {
 	width: 50%;
 	top: 0;
 	color: white;
+	/* needed for dangerouslysetinnerhtml */
+}
+
+.dangerously-set {
+	font-family: "BradfordLLWeb-Book", 'Times New Roman', Times, serif;
+	font-size: 1.15em;
+	margin-top: 1.8rem;
 }
 
 .about-right > p {

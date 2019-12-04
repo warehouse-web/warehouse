@@ -10,6 +10,7 @@ const AboutPagePreview = ({ entry, widgetFor }) => {
 					title={data.title}
 					leftColumn={data.leftColumn}
 					content={widgetFor('body')}
+					other={widgetFor('other')}
 					blurbs={data.blurbs || {blurbs: []}}
 				/>
 		);
