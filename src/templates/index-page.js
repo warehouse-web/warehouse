@@ -28,7 +28,7 @@ IndexPageTemplate.propTypes = {
 export const IndexPage = ({ data }) => {
 	const match = useMedia("(max-width: 900px) ");
 	const { edges: posts } = data.allMarkdownRemark;
-	const [activeEvent, setActiveEvent] = useState({});
+	const [activeEvent, setActiveEvent] = useState(false);
 	const [showEventDetail, setShowEventDetail] = useState(false);
 	const [isMobile, setIsMobile] = useState(match);
 	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
@@ -81,8 +81,6 @@ export const IndexPage = ({ data }) => {
 	return (
 		<Layout>
 			<DivOverlay currImg={divStyle} />
-			{console.log("currImg:", divStyle)}
-
 			<div className="wrapper">
 				<div onScroll={() => relayout()} className="article-list">
 					{posts &&
@@ -93,39 +91,45 @@ export const IndexPage = ({ data }) => {
 									onPointerEnter={() => renderImg(post)}
 									onPointerLeave={() => removeImg()}
 									onClick={() => openEvent(post)}
-									className={`post `}
+									className={`blog-list-item post ${
+										post === activeEvent.event
+											? "selected"
+											: ""
+									}`}
 								>
-									{post.frontmatter.date &&
-										post.frontmatter.templateKey ===
-											"blog-post" &&
-										isDateBeforeToday(post) && (
+									<header>
+										{post.frontmatter.date &&
+											post.frontmatter.templateKey ===
+												"blog-post" &&
+											isDateBeforeToday(post) && (
+												<h2 className="post-type">
+													Past {postType(post)}
+												</h2>
+											)}
+										{post.frontmatter.date &&
+											post.frontmatter.templateKey ===
+												"blog-post" &&
+											!isDateBeforeToday(post) && (
+												<h2 className="post-type">
+													Upcoming {postType(post)}
+												</h2>
+											)}
+										{post.frontmatter.templateKey !==
+											"blog-post" && (
 											<h2 className="post-type">
-												Past {postType(post)}
+												{postType(post)}
 											</h2>
 										)}
-									{post.frontmatter.date &&
-										post.frontmatter.templateKey ===
-											"blog-post" &&
-										!isDateBeforeToday(post) && (
-											<h2 className="post-type">
-												Upcoming {postType(post)}
-											</h2>
-										)}
-									{post.frontmatter.templateKey !==
-										"blog-post" && (
-										<h2 className="post-type">
-											{postType(post)}
+										<h1 className="post-title">
+											{post.frontmatter.title}
+										</h1>
+										<h2 className="post-meta">
+											{post.frontmatter.date}
 										</h2>
-									)}
-									<h1 className="post-title">
-										{post.frontmatter.title}
-									</h1>
-									<h2 className="post-meta">
-										{post.frontmatter.date}
-									</h2>
-									{post.frontmatter.location && (
-										<h2>{post.frontmatter.location}</h2>
-									)}
+										{post.frontmatter.location && (
+											<h2>{post.frontmatter.location}</h2>
+										)}
+									</header>
 								</article>
 							);
 						})}
