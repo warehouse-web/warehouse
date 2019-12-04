@@ -7,11 +7,10 @@ import Content, { HTMLContent } from "../components/utils";
 export const AboutPageTemplate = ({
 	title,
 	leftColumn,
-	rightColumn,
 	html,
 	content,
+	contentComponent,
 	blurbs,
-	contentComponent
 }) => {
 	const PageContent = contentComponent || Content;
 
@@ -28,10 +27,11 @@ export const AboutPageTemplate = ({
 						<span className="about-caps">{leftColumn}</span>
 					</h2>
 
-					{/* <PageContent className="content" content={content} /> */}
 				</div>
 				<div className="about-right">
-					<p className="about-description">{rightColumn}</p>
+					{/* <p className="about-description">{rightColumn}</p> */}
+					{console.log('content:', content)}
+					<PageContent className="content" content={content} />
 					<ul className="colophon">
 						{console.log("blurbs", blurbs)}
 						{blurbs &&
@@ -68,9 +68,9 @@ const AboutPage = ({ data }) => {
 	return (
 		<Layout>
 			<AboutPageTemplate
-				contentComponent={HTMLContent}
 				title={post.frontmatter.title}
 				content={post.html}
+				contentComponent={HTMLContent}
 				leftColumn={post.frontmatter.leftColumn}
 				colophon={post.frontmatter.colophon}
 				blurbs={post.frontmatter.blurbs}
@@ -93,8 +93,6 @@ export const aboutPageQuery = graphql`
 			frontmatter {
 				title
 				leftColumn
-				rightColumn
-				colophon
 				blurbs {
 					title
 					subtitle

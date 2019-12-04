@@ -6,12 +6,12 @@ const AboutPagePreview = ({ entry, widgetFor }) => {
 	const data = entry.getIn(['data']).toJS()
 	if (data) {
 		return (
-			<AboutPageTemplate
-				title={data.title}
-				leftColumn={data.leftColumn}
-				rightColumn={data.rightColumn}
-				blurbs={data.blurbs || {blurbs: []}}
-			/>
+				<AboutPageTemplate
+					title={data.title}
+					leftColumn={data.leftColumn}
+					content={widgetFor('body')}
+					blurbs={data.blurbs || {blurbs: []}}
+				/>
 		);
 	}
 };
