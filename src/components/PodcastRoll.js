@@ -15,7 +15,7 @@ import Content, {
 const PodcastRoll = ({ data }) => {
 	const [activePodcast, setActivePodcast] = useState({});
 	const [showPodcastDetail, setShowPodcastDetail] = useState(false);
-	const [divStyle, setDivStyle] = useState();
+	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
 	const size = useWindowSize();
 
 	const renderImg = post => {

@@ -48,7 +48,7 @@ const EventRoll = ({ data }) => {
 
 	const { edges: posts } = data.allMarkdownRemark;
 	const match = useMedia("(max-width: 900px) ");
-	const [divStyle, setDivStyle] = useState();
+	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
 	const size = useWindowSize();
 
 	useEffect(() => {
@@ -57,11 +57,17 @@ const EventRoll = ({ data }) => {
 				if (post.node.fields.slug === window.location.pathname) {
 					setActiveEvent(post.node);
 					setShowEventDetail(true);
-
 					return;
 				}
 			});
 	}, []);
+
+	// useEffect(() => {
+	// 	setDivStyle({background})
+	// 	return () => {
+	// 		cleanup
+	// 	};
+	// }, [input])
 
 	useEffect(() => {
 		window.addEventListener("scroll", relayout);

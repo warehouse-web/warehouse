@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
-import { Link, graphql, StaticQuery } from "gatsby";
+import { graphql, StaticQuery } from "gatsby";
 import Layout from "../components/Layout";
-import EventRoll from "../components/EventRoll";
 import DivOverlay from "./DivOverlay";
 import {
 	renderHtmlToReact,
@@ -32,7 +31,7 @@ export const IndexPage = ({ data }) => {
 	const [activeEvent, setActiveEvent] = useState({});
 	const [showEventDetail, setShowEventDetail] = useState(false);
 	const [isMobile, setIsMobile] = useState(match);
-	const [divStyle, setDivStyle] = useState();
+	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
 	const size = useWindowSize();
 
 	const renderImg = post => {
@@ -53,15 +52,22 @@ export const IndexPage = ({ data }) => {
 		}
 	};
 
+	// CHANGING LOGO COLOR
 	useEffect(() => {
-		if (match) {
-			setDivStyle({ backgroundColor: "black" });
-			setIsMobile(true);
-		} else {
-			setDivStyle({ backgroundColor: "white" });
-			setIsMobile(false);
-		}
+		size.width > 900
+			? setDivStyle({ backgroundColor: "black" })
+			: setDivStyle({ backgroundColor: "white" });
 	}, []);
+
+	// useEffect(() => {
+	// 	if (match) {
+	// 		setDivStyle({ backgroundColor: "black" });
+	// 		setIsMobile(true);
+	// 	} else {
+	// 		setDivStyle({ backgroundColor: "white" });
+	// 		setIsMobile(false);
+	// 	}
+	// }, []);
 
 	useEffect(() => {
 		window.addEventListener("scroll", relayout);
@@ -85,6 +91,8 @@ export const IndexPage = ({ data }) => {
 	return (
 		<Layout>
 			<DivOverlay currImg={divStyle} />
+			{console.log("currImg:", divStyle)}
+
 			<div className="wrapper">
 				<div onScroll={() => relayout()} className="article-list">
 					{posts &&

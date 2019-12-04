@@ -8,14 +8,16 @@ import Content, {
 	renderHtmlToReact,
 	HTMLContent,
 	imagesFromAst,
-	isDateBeforeToday,
+	relayout,
 	useWindowSize,
 	useMedia
 } from "./utils";
 
 const FocusRoll = ({ data }) => {
 	const [activeFocus, setActiveFocus] = useState({});
+	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
 	const [showFocusDetail, setShowFocusDetail] = useState(false);
+	const size = useWindowSize();
 
 	const openFocus = focus => {
 		focus &&
@@ -30,6 +32,31 @@ const FocusRoll = ({ data }) => {
 		}
 	};
 
+	const renderImg = product => {
+		if (imagesFromAst(product.htmlAst)[0].properties.src) {
+			setDivStyle({
+				backgroundImage: `url( ${
+					imagesFromAst(product.htmlAst)[0].properties.src
+				} )`
+			});
+		}
+	};
+
+	const removeImg = () => {
+		if (size.width < 900) {
+			setDivStyle({ backgroundColor: "white" });
+		} else {
+			setDivStyle({ backgroundColor: "black" });
+		}
+	};
+
+	useEffect(() => {
+		window.addEventListener("scroll", relayout);
+		return () => {
+			window.removeEventListener("scroll", relayout);
+		};
+	}, []);
+
 	const PostContent = HTMLContent || Content;
 	const match = useMedia("(max-width: 900px) ");
 	const { edges: posts } = data.allMarkdownRemark;
@@ -40,19 +67,22 @@ const FocusRoll = ({ data }) => {
 				if (post.node.fields.slug === window.location.pathname) {
 					setActiveFocus(post.node);
 					setShowFocusDetail(true);
-
 					return;
 				}
 			});
 	}, []);
 	return (
 		<>
-			{/* <DivOverlay /> */}
+			<DivOverlay currImg={divStyle} />
 			<div className="wrapper">
 				<div className="article-list">
 					{posts &&
 						posts.map(({ node: post }) => (
-							<div key={post.id}>
+							<div
+								key={post.id}
+								onPointerEnter={() => renderImg(post)}
+								onPointerLeave={() => removeImg()}
+							>
 								<article
 									onClick={() => openFocus(post)}
 									className={`blog-list-item post`}
@@ -69,6 +99,7 @@ const FocusRoll = ({ data }) => {
 						))}
 					{!posts && <h1>No Focus To Show ... Yet</h1>}
 				</div>
+
 				{showFocusDetail && (
 					<div className={`article-detail ${match ? `mobile` : ``}`}>
 						<div

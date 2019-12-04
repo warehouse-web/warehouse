@@ -15,17 +15,10 @@ import {
 const ShopRoll = ({ data }) => {
 	const [activeProduct, setActiveProduct] = useState(false);
 	const [showProductDetail, setShowProductDetail] = useState(false);
-
-	const openProduct = product => {
-		product &&
-			window.history.pushState(
-				{ page: 1 },
-				product.frontmatter.title,
-				product.fields.slug
-			);
-		setActiveProduct(product);
-		setShowProductDetail(true);
-	};
+	const { edges: products } = data.allMarkdownRemark;
+	const match = useMedia("(max-width: 900px) ");
+	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
+	const size = useWindowSize();
 
 	const renderImg = product => {
 		if (imagesFromAst(product.htmlAst)[0].properties.src) {
@@ -45,10 +38,16 @@ const ShopRoll = ({ data }) => {
 		}
 	};
 
-	const { edges: products } = data.allMarkdownRemark;
-	const match = useMedia("(max-width: 900px) ");
-	const [divStyle, setDivStyle] = useState();
-	const size = useWindowSize();
+	const openProduct = product => {
+		product &&
+			window.history.pushState(
+				{ page: 1 },
+				product.frontmatter.title,
+				product.fields.slug
+			);
+		setActiveProduct(product);
+		setShowProductDetail(true);
+	};
 
 	useEffect(() => {
 		products &&
@@ -94,6 +93,7 @@ const ShopRoll = ({ data }) => {
 								</article>
 							</div>
 						))}
+					{!products && <h1>No Items To Show ...Yet</h1>}
 				</div>
 
 				{showProductDetail && (
