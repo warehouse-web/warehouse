@@ -138,7 +138,10 @@ export const IndexPage = ({ data }) => {
 					<div className={`article-detail ${match ? `mobile` : ``}`}>
 						<div
 							className="close"
-							onClick={() => setShowEventDetail(false)}
+							onClick={() => {
+								setActiveEvent({});
+								setShowEventDetail(false);
+							}}
 						>
 							<span></span>
 							<span></span>

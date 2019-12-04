@@ -107,7 +107,10 @@ const ShopRoll = ({ data }) => {
 						{/* Close Button */}
 						<div
 							className="close"
-							onClick={() => setShowProductDetail(false)}
+							onClick={() => {
+								setShowProductDetail(false);
+								setActiveProduct(null);
+							}}
 						>
 							<span></span>
 							<span></span>

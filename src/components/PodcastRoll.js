@@ -109,7 +109,10 @@ const PodcastRoll = ({ data }) => {
 					<div className={`article-detail ${match ? `mobile` : ``}`}>
 						<div
 							className="close"
-							onClick={() => setShowPodcastDetail(false)}
+							onClick={() => {
+								setActivePodcast(null);
+								setShowPodcastDetail(false);
+							}}
 						>
 							<span></span>
 							<span></span>

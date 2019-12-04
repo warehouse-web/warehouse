@@ -123,7 +123,10 @@ const EventRoll = ({ data }) => {
 					<div className={`article-detail ${match ? `mobile` : ``}`}>
 						<div
 							className="close"
-							onClick={() => setShowEventDetail(false)}
+							onClick={() => {
+								setActiveEvent(null);
+								setShowEventDetail(false);
+							}}
 						>
 							<span></span>
 							<span></span>

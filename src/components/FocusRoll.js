@@ -110,7 +110,10 @@ const FocusRoll = ({ data }) => {
 					<div className={`article-detail ${match ? `mobile` : ``}`}>
 						<div
 							className="close"
-							onClick={() => setShowFocusDetail(false)}
+							onClick={() => {
+								setActiveFocus(null);
+								setShowFocusDetail(false);
+							}}
 						>
 							<span></span>
 							<span></span>
