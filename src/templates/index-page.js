@@ -59,16 +59,6 @@ export const IndexPage = ({ data }) => {
 			: setDivStyle({ backgroundColor: "white" });
 	}, []);
 
-	// useEffect(() => {
-	// 	if (match) {
-	// 		setDivStyle({ backgroundColor: "black" });
-	// 		setIsMobile(true);
-	// 	} else {
-	// 		setDivStyle({ backgroundColor: "white" });
-	// 		setIsMobile(false);
-	// 	}
-	// }, []);
-
 	useEffect(() => {
 		window.addEventListener("scroll", relayout);
 		return () => {

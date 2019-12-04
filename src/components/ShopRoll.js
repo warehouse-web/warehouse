@@ -38,6 +38,13 @@ const ShopRoll = ({ data }) => {
 		}
 	};
 
+	// CHANGING LOGO COLOR
+	useEffect(() => {
+		size.width > 900
+			? setDivStyle({ backgroundColor: "black" })
+			: setDivStyle({ backgroundColor: "white" });
+	}, []);
+
 	const openProduct = product => {
 		product &&
 			window.history.pushState(

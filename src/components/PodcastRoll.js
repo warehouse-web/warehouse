@@ -36,6 +36,13 @@ const PodcastRoll = ({ data }) => {
 		}
 	};
 
+	// CHANGING LOGO COLOR
+	useEffect(() => {
+		size.width > 900
+			? setDivStyle({ backgroundColor: "black" })
+			: setDivStyle({ backgroundColor: "white" });
+	}, []);
+
 	const openPodcast = podcast => {
 		podcast &&
 			window.history.pushState(

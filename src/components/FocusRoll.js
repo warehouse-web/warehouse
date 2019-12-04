@@ -50,6 +50,13 @@ const FocusRoll = ({ data }) => {
 		}
 	};
 
+	// CHANGING LOGO COLOR
+	useEffect(() => {
+		size.width > 900
+			? setDivStyle({ backgroundColor: "black" })
+			: setDivStyle({ backgroundColor: "white" });
+	}, []);
+
 	useEffect(() => {
 		window.addEventListener("scroll", relayout);
 		return () => {

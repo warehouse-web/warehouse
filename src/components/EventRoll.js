@@ -46,6 +46,13 @@ const EventRoll = ({ data }) => {
 		}
 	};
 
+	// CHANGING LOGO COLOR
+	useEffect(() => {
+		size.width > 900
+			? setDivStyle({ backgroundColor: "black" })
+			: setDivStyle({ backgroundColor: "white" });
+	}, []);
+
 	const { edges: posts } = data.allMarkdownRemark;
 	const match = useMedia("(max-width: 900px) ");
 	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
