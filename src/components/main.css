@@ -98,6 +98,10 @@ a.right {
 	color: black;
 }
 
+.navbar-end > .navbar-item {
+	margin-right: 0;
+}
+
 a {
 	color: black;
 }
@@ -123,7 +127,7 @@ a.navbar-item:hover {
 
 .post {
 	max-width: 45%;
-	margin-bottom: .5em;
+	margin-bottom: .8em;
 	font-size: 1.65rem;
 }
 
@@ -190,9 +194,9 @@ a.navbar-item:hover {
 .rectangle {
 	float: left;
 	background-attachment: fixed;
-	background-position-x: 30%;
+	background-position-x: 100%;
 	background-position-y: 20%;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	display: inline-block;
 	mix-blend-mode: difference;
@@ -206,6 +210,7 @@ a.navbar-item:hover {
 @media screen and (max-width: 900px) {
 	html {
 		background-color: black;
+		overflow-x: hidden;
 	}
 
 	.navbar {
@@ -221,10 +226,17 @@ a.navbar-item:hover {
 	.navbar a {
 		color: white;
 	}
+
+	.about-wrapper {
+		padding-left: 1.7rem;
+	}
+
 	.about-right {
 		width: 100%;
 		margin-right: 0;
 		padding-right: 1.7rem;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
 	}
 
 	h1,
@@ -281,7 +293,9 @@ a.navbar-item:hover {
 	.navbar a {
 		color: black;
 	}
-
+	.about-wrapper {
+		padding-left: 2.3rem;
+	}
 	.about-right {
 		margin-right: 1.8rem;
 		flex: 0 0 50%;
@@ -377,7 +391,6 @@ a.navbar-item:hover {
 .about-wrapper {
 	display: flex;
 	z-index: 999999;
-	padding-left: 2.3rem;
 	padding-top: 1.4rem;
 }
 .about-left {
