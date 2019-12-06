@@ -18,12 +18,14 @@ const PodcastRoll = ({ data }) => {
 	const size = useWindowSize();
 
 	const renderImg = post => {
-		if (imagesFromAst(post.htmlAst)[0].properties.src) {
+		if (imagesFromAst(post.htmlAst)[0] !== undefined) {
 			setDivStyle({
 				backgroundImage: `url( ${
 					imagesFromAst(post.htmlAst)[0].properties.src
 				} )`
 			});
+		} else {
+			setDivStyle({backgroundColor: "black"})
 		}
 	};
 
