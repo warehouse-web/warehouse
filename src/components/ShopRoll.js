@@ -21,7 +21,7 @@ const ShopRoll = ({ data }) => {
 	const size = useWindowSize();
 
 	const renderImg = product => {
-		if (imagesFromAst(post.htmlAst)[0] !== undefined) {
+		if (imagesFromAst(product.htmlAst)[0] !== undefined) {
 			setDivStyle({
 				backgroundImage: `url( ${
 					imagesFromAst(product.htmlAst)[0].properties.src

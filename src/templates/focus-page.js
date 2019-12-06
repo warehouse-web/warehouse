@@ -66,14 +66,12 @@ const FocusPage = ({ data }) => {
 	return (
 		<Layout>
 			<FocusRoll />
-			{/* <FocusPageTemplate
+			<FocusPageTemplate
 				content={post.html}
 				contentComponent={HTMLContent}
-				location={post.frontmatter.location}
-				date={post.frontmatter.date}
 				warehouseID={post.frontmatter.warehouseID}
 				title={post.frontmatter.title}
-			/> */}
+			/>
 		</Layout>
 	);
 };
