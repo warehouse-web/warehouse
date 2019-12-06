@@ -4,7 +4,7 @@ import { FocusPageTemplate } from '../../templates/focus-page'
 
 const FocusPagePreview = ({ entry, widgetFor }) => (
 
-  <EventPostTemplate
+  <FocusPageTemplate
     warehouseID={entry.getIn(['data', 'warehouseID'])}
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
