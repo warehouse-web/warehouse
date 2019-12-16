@@ -11,7 +11,7 @@ export const AboutPageTemplate = ({
 	other,
 	content,
 	contentComponent,
-	blurbs,
+	blurbs
 }) => {
 	const PageContent = contentComponent || Content;
 
@@ -27,15 +27,15 @@ export const AboutPageTemplate = ({
 						{title}
 						<span className="about-caps">{leftColumn}</span>
 					</h2>
-
 				</div>
-				<div className="about-right">
+				<div>
 					{/* <p className="about-description">{rightColumn}</p> */}
-					{console.log('content:', content)}
+					{console.log("content:", content)}
 					<PageContent
-					// style ={{"marginRight":"1.8rem","flex":"0 0 50%","overflowY":"scroll","WebkitOverflowScrolling":"touch","right":"0","width":"50%","height":"100vh","top":"0", "color":"white"}}
-					className="about-right"
-					content={content} />
+						// style ={{"marginRight":"1.8rem","flex":"0 0 50%","overflowY":"scroll","WebkitOverflowScrolling":"touch","right":"0","width":"50%","height":"100vh","top":"0", "color":"white"}}
+						className="about-right"
+						content={content}
+					/>
 					<ul className="colophon">
 						{console.log("blurbs", blurbs)}
 						{blurbs &&
@@ -49,7 +49,10 @@ export const AboutPageTemplate = ({
 							})}
 					</ul>
 
-					<div className="dangerously-set" dangerouslySetInnerHTML={{ __html: other }} />
+					<div
+						className="dangerously-set"
+						dangerouslySetInnerHTML={{ __html: other }}
+					/>
 
 					{/* <p className="about-description">
 						Warehouse is made possible through the financial support
