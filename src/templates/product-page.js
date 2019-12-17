@@ -11,8 +11,8 @@ import ShopRoll from "../components/ShopRoll";
 export const ProductPageTemplate = ({
 	content,
 	contentComponent,
-	warehouseID,
 	title,
+	warehouseID,
 	helmet,
 	author
 }) => {
@@ -20,6 +20,26 @@ export const ProductPageTemplate = ({
 
 	return (
 		<div className="event-detail">
+			{helmet || ""}
+			<p
+				style={{
+					fontSize: ".7rem",
+					fontFamily: "Arial, Helvetica, sans-serif",
+					textAlign: "center"
+				}}
+			>
+				{warehouseID}
+			</p>
+			<h2
+				style={{
+					textAlign: "center",
+					fontSize: "2em",
+					margin: "0 2.5rem 1rem",
+					lineHeight: "1.1"
+				}}
+			>
+				{title}
+			</h2>
 			<ProductContent
 				style={{
 					justifyContent: "left",
@@ -48,6 +68,14 @@ const Product = ({ data }) => {
 	return (
 		<Layout>
 			<ShopRoll />
+			<ProductPageTemplate
+				warehouseID={post.frontmatter.warehouseID}
+				title={post.frontmatter.title}
+				content={post.htmlAst}
+				contentComponent={HTMLContent}
+				author={post.frontmatter.author}
+			/>
+
 			{/* <ProductPageTemplate
 				content={post.html}
 				contentComponent={HTMLContent}
