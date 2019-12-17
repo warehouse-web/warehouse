@@ -28,7 +28,7 @@ const ShopRoll = ({ data }) => {
 				} )`
 			});
 		} else {
-			setDivStyle({backgroundColor: "black"})
+			setDivStyle({ backgroundColor: "black" });
 		}
 	};
 
@@ -179,13 +179,6 @@ export default () => (
 								author
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
-								image {
-									childImageSharp {
-										fluid(maxWidth: 620, quality: 100) {
-											...GatsbyImageSharpFluid
-										}
-									}
-								}
 							}
 						}
 					}

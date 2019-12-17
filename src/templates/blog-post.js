@@ -86,13 +86,6 @@ export const pageQuery = graphql`
 			frontmatter {
 				date(formatString: "MMMM DD, YYYY")
 				title
-				image {
-					childImageSharp {
-						fluid(maxWidth: 120, quality: 100) {
-							src
-						}
-					}
-				}
 				location
 			}
 		}

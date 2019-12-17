@@ -40,7 +40,7 @@ const FocusRoll = ({ data }) => {
 				} )`
 			});
 		} else {
-			setDivStyle({backgroundColor: "black"})
+			setDivStyle({ backgroundColor: "black" });
 		}
 	};
 
@@ -185,13 +185,6 @@ export default () => (
 								}
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
-								image {
-									childImageSharp {
-										fluid(maxWidth: 520, quality: 100) {
-											...GatsbyImageSharpFluid
-										}
-									}
-								}
 							}
 						}
 					}

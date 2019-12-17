@@ -37,8 +37,8 @@ const EventRoll = ({ data }) => {
 					imagesFromAst(post.htmlAst)[0].properties.src
 				} )`
 			});
-		}else {
-			setDivStyle({backgroundColor: "black"})
+		} else {
+			setDivStyle({ backgroundColor: "black" });
 		}
 	};
 
@@ -192,13 +192,6 @@ export default () => (
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
 								location
-								image {
-									childImageSharp {
-										fluid(maxWidth: 520, quality: 100) {
-											...GatsbyImageSharpFluid
-										}
-									}
-								}
 							}
 						}
 					}

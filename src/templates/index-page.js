@@ -42,7 +42,7 @@ export const IndexPage = ({ data }) => {
 				} )`
 			});
 		} else {
-			setDivStyle({backgroundColor: "black"})
+			setDivStyle({ backgroundColor: "black" });
 		}
 	};
 
@@ -204,13 +204,6 @@ export default () => (
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
 								location
-								image {
-									childImageSharp {
-										fluid(maxWidth: 520, quality: 100) {
-											...GatsbyImageSharpFluid
-										}
-									}
-								}
 							}
 						}
 					}
