@@ -21,6 +21,7 @@ export const ProductPageTemplate = ({
 	return (
 		<div className="event-detail">
 			{helmet || ""}
+
 			<p
 				style={{
 					fontSize: ".7rem",

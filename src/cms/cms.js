@@ -13,7 +13,7 @@ CMS.registerMediaLibrary(cloudinary);
 CMS.registerPreviewStyle("../components/Cms/cms.css");
 CMS.registerPreviewTemplate("index", IndexPagePreview);
 CMS.registerPreviewTemplate("about", AboutPagePreview);
-CMS.registerPreviewTemplate("products", ProductPagePreview);
+CMS.registerPreviewTemplate("product", ProductPagePreview);
 CMS.registerPreviewTemplate("blog", EventPostPreview);
 CMS.registerPreviewTemplate("podcast", EventPostPreview);
 CMS.registerPreviewTemplate("focus", FocusPagePreview);
