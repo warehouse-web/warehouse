@@ -1,12 +1,16 @@
 ---
 templateKey: blog-post
-warehouseID: 'WAREHOUSE #4.6'
-title: Printing Plant 2019
+warehouseID: 'WAREHOUSE #'
+title: Printing Plant Art Book Fair
 location: 'Looiersgracht 60, Amsterdam'
-date: 2019-10-13T18:04:33.098Z
+date: 2019-11-22T16:00:00.000Z
 ---
 ![image](/img/img_20512.jpg)
 
-Warehouse is an Amsterdam-based collective existing of Elisa van Joolen, Femke de Vries and Hanka van der Voet aiming to provide a platform for critical fashion practitioners through organizing exhibitions, reading groups, workshops, performances and book presentations among other things, in order to create an engaging environment that facilitates critical dialogue and the creation of an alternative fashion discourse that goes beyond seeing fashion as a commodity.
+Warehouse will again participate in the Printing Plant Art Book Fair this year, hosted by Looiersgracht 60. We’ll be selling several Warehouse publications: Anouk Beckers will present both the JOIN manual and the _JOIN Collective Conversation_ magazine, created in collaboration with MA Fashion Strategy students generation #29. There will also be several issues of _A Magazine Reader_ for sale, as well as issues of the _PORTAL_ readers created by Elisa van Joolen. We’ll do an exclusive pre-sale of the newest _Press & Fold_ - The Luxury issue - which will come out in the first week of December. We will also be showing several items of Warehouse Wear.
+
+ And just like last year, we will be selling a curated selection of independent fashion publications. This year, we selected Chet Bugter, Chinouk Filique de Miranda, Edwin van Gelder & Johann Tangyong (_Rework_ magazine), Karmen Samson, Mika Perlmutter and Rebecca Stephany (in collaboration with students from the Karlsruhe University of Arts and Design) to join us.
+
+Keep an eye on our Instagram account to learn more about the publications we will be selling. Check www.looiersgracht60.org/calendar/event/printing-plant-art-book-fair-2019 for more info on Printing Plant.
 
 ![](/img/pub.gif)
