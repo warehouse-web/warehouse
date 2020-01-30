@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 warehouseID: 'WAREHOUSE #1.1'
-title: Launch PORTAL 001 |  Tracking the clothing of visitors
+title: Launch PORTAL 001
 location: 'Museum Boijmans van Beuningen, Rotterdam'
 date: 2018-01-13T14:30:00.000Z
 ---
