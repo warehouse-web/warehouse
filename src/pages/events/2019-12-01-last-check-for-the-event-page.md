@@ -1,20 +1,16 @@
 ---
 templateKey: blog-post
-warehouseID: 'WAREHOUSE #3.6'
-title: 200 Sisters Souvenirs
-location: See Also Studio
-date: 2019-12-01T17:07:24.531Z
+warehouseID: 'WAREHOUSE #'
+title: Talk 200 Sisters Souvenirs
+location: 'San Serriffe, Amsterdam'
+date: 2020-01-11T19:00:00.000Z
 ---
-![Image ](/img/vb-dsvf0.jpeg "Lots of text")
+_200 Sisters Souvenirs – 200 years of exhibition catalogues, side notes and slippery images, a feminist exhibition (mis)reading_ is a project by Rebecca Stephany developed on the occasion of the 200-year anniversary of The Baden Art Association (Badischer Kunstverein) in Karlsruhe in 2018. 
 
-What is Lorem Ipsum?
+The project is the result of an intensive exploration of the catalogue archive of Badischer Kunstverein from a decidedly slippery feminist point of view. Drawing from the archive, which consists of over 300 catalogues and monographs, Stephany developed a publication with an accompanying line of merchandise. In addition, current members of Badischer Kunstverein were invited to donate a piece of used clothing in exchange for a modified one, with a process resulting in an edition of logo-bleached and modified second-hand garments and accessories.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+The project transposes methodologies of uncovering, misreading and zooming-in from the archival research to wearable and useable objects. In reference to low-fi souvenir articles found in museum shops, the merchandise ranges from key chains, eyewear straps and bookmarks to custom-made woven ribbons featuring text fragments from the catalogue archive. Weaving is taken up as an analogy for joining forces, while bleaching is deployed throughout as a “printing” method, with the 200 Sisters logo inscribed through the removal of dye, as a model for uncovering what is there but hidden.
 
-Why do we use it?
+“In my approach to the BKV catalogue archive, consciously misreading discriminatory or otherwise questionable material, became my method of disrupting the predominantly male-dominated writing of art history, of which the exhibition history of Badischer Kunstverein is only one of many examples. But the act of “misreading” is also very much about celebrating the many unknown women depicted in painting and sculpture and the few female, queer or otherwise marginalised artists in the 200-year history of Badischer Kunstverein. Instead of claiming moral and political correctness, I am pointing to the side notes and allow the images to be slippery and potent with alternative, emancipatory, at times absurd or humorous meanings.” – Rebecca Stephany.
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-Where does it come from?
-
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Following the 200 Sisters Souvenirs presentation by Rebecca Stephany, writer Amelia Groom will give a personal response to the project, focusing on questions of historical erasure as well as the possibilities of bleach-inscriptions within feminist responses to archival inheritance.
