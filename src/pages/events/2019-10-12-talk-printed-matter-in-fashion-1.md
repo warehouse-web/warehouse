@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 warehouseID: 'WAREHOUSE #'
-title: Printing Plant Art Book Fair
+title: Printing Plant Art Book Fair 2019
 location: 'Looiersgracht 60, Amsterdam'
 date: 2019-11-22T16:00:00.000Z
 ---
