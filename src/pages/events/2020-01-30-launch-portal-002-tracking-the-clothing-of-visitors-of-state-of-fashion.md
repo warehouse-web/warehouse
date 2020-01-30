@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 warehouseID: 'WAREHOUSE #1.2'
-title: Launch PORTAL 002 | Tracking the clothing of visitors of State of Fashion
+title: Launch PORTAL 002
 location: 'De Melkfabriek, Arnhem'
 date: 2018-07-21T14:00:00.000Z
 ---
