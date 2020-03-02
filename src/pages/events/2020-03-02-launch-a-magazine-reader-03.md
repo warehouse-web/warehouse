@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-warehouseID: 'WAREHOUSE #'
+warehouseID: 'WAREHOUSE #3.3'
 title: Launch A Magazine Reader 03
 location: 'Onomatopee, Eindhoven'
 date: 2019-10-26T17:00:00.000Z
