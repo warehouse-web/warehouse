@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-warehouseID: 'WAREHOUSE #'
+warehouseID: 'WAREHOUSE #3.2'
 title: Launch A Magazine Reader 02
 location: 'Kleine Oord, Arnhem'
 date: 2019-06-22T12:00:00.000Z
