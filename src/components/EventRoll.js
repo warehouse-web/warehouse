@@ -12,6 +12,7 @@ import {
 	useWindowSize,
 	isDateBeforeToday
 } from "./utils";
+import EventDetail from "./EventDetail";
 
 const EventRoll = ({ data }) => {
 	const [activeEvent, setActiveEvent] = useState(false);
@@ -122,39 +123,13 @@ const EventRoll = ({ data }) => {
 				</div>
 
 				{showEventDetail && (
-					<div className={`article-detail ${match ? `mobile` : ``}`}>
-						<div
-							className="close"
-							onClick={() => {
-								setActiveEvent(null);
-								setShowEventDetail(false);
-							}}
-						>
-							<span></span>
-							<span></span>
-						</div>
-						<p className="article-ID">
-							{activeEvent.frontmatter.warehouseID}
-						</p>
-						<h2 className="article-detail-title">
-							{activeEvent.frontmatter.title}
-						</h2>
-						<section className="content">
-							{renderHtmlToReact(activeEvent.htmlAst)}
-						</section>
-
-						{activeEvent.frontmatter.image && (
-							<div className="article-image-wrapper">
-								<Img
-									className="article-detail-image"
-									fluid={
-										activeEvent.frontmatter.image
-											.childImageSharp.fluid
-									}
-								/>
-							</div>
-						)}
-					</div>
+					<EventDetail
+						match={match}
+						activeEvent={activeEvent}
+						onSetActiveEvent={setActiveEvent}
+						onSetShowEventDetail={setShowEventDetail}
+						renderHtmlToReact={renderHtmlToReact}
+					/>
 				)}
 			</div>
 		</>

@@ -1,15 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { EventPostTemplate } from "../../templates/event-post";
+import EventDetail from "../../components/EventDetail";
 
-const EventPostPreview = ({ entry, widgetFor }) => (
-	<EventPostTemplate
-		content={widgetFor("body")}
-		title={entry.getIn(["data", "title"])}
-		location={entry.getIn(["data", "location"])}
-		warehouseID={entry.getIn(["data", "warehouseID"])}
-	/>
-);
+const EventPostPreview = ({ entry }) => {
+	return <EventDetail {...entry.toJSON().data} />;
+};
 
 EventPostPreview.propTypes = {
 	entry: PropTypes.shape({
