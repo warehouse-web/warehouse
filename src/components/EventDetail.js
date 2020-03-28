@@ -1,6 +1,7 @@
 import React from "react";
 import Img from "gatsby-image";
 import ReactMarkdown from "react-markdown";
+import CloseButton from "./CloseButton";
 
 const EventDetail = ({
 	match,
@@ -16,16 +17,10 @@ const EventDetail = ({
 }) => {
 	return (
 		<div className={`article-detail ${match ? `mobile` : ``}`}>
-			<div
-				className="close"
-				onClick={() => {
-					onSetActiveEvent(null);
-					onSetShowEventDetail(false);
-				}}
-			>
-				<span></span>
-				<span></span>
-			</div>
+			<CloseButton
+				onSetActiveEvent={onSetActiveEvent}
+				onSetShowEventDetail={onSetShowEventDetail}
+			/>
 			<p className="article-ID">
 				{activeEvent
 					? activeEvent.frontmatter.warehouseID
