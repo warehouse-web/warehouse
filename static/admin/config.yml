@@ -42,7 +42,6 @@ collections:
         }
       - { label: "Event Location", name: "location", widget: "string" }
       - { label: "Event Date", name: "date", widget: "datetime" }
-
   - name: "podcast"
     identifier_field: name
     label: "Podcast"
@@ -72,7 +71,6 @@ collections:
             ["bold", "italic", "heading-one", "heading-two", "bulleted-list"],
         }
       - { label: "Podcast Date", name: "date", widget: "datetime" }
-
   - name: "product"
     label: "Products"
     folder: "src/pages/shop"
@@ -109,7 +107,6 @@ collections:
         }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Date Added", name: "date", widget: "datetime" }
-
   - name: "focus"
     label: "Focus"
     folder: "src/pages/focus"
@@ -120,22 +117,18 @@ collections:
         name: "templateKey"
         widget: "hidden"
         default: "focus-page"
-
       - label: "Warehouse Number"
         name: "warehouseID"
         widget: "string"
         default: "WAREHOUSE #"
         hint: "For example WAREHOUSE #3.5"
-
       - label: "Article Title"
         name: "title"
         widget: "string"
-
       - label: Upload PDF
         name: "PDF"
         widget: "file"
         options: {}
-
       - {
           label: "Body",
           name: "body",
