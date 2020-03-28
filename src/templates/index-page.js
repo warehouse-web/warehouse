@@ -102,7 +102,7 @@ export const IndexPage = ({ data }) => {
 									<header>
 										{post.frontmatter.date &&
 											post.frontmatter.templateKey ===
-												"blog-post" &&
+												"event-post" &&
 											isDateBeforeToday(post) && (
 												<h2 className="post-type">
 													Past {postType(post)}
@@ -110,14 +110,14 @@ export const IndexPage = ({ data }) => {
 											)}
 										{post.frontmatter.date &&
 											post.frontmatter.templateKey ===
-												"blog-post" &&
+												"event-post" &&
 											!isDateBeforeToday(post) && (
 												<h2 className="post-type">
 													Upcoming {postType(post)}
 												</h2>
 											)}
 										{post.frontmatter.templateKey !==
-											"blog-post" && (
+											"event-post" && (
 											<h2 className="post-type">
 												{postType(post)}
 											</h2>
@@ -183,7 +183,7 @@ export default () => (
 						frontmatter: {
 							templateKey: {
 								in: [
-									"blog-post"
+									"event-post"
 									"podcast-page"
 									"product-page"
 								]

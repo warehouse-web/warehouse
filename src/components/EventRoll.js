@@ -151,7 +151,7 @@ export default () => (
 				allMarkdownRemark(
 					sort: { order: DESC, fields: [frontmatter___date] }
 					filter: {
-						frontmatter: { templateKey: { eq: "blog-post" } }
+						frontmatter: { templateKey: { eq: "event-post" } }
 					}
 				) {
 					edges {

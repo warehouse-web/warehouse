@@ -6,7 +6,7 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
+  - name: "event"
     label: "Events"
     folder: "src/pages/events"
     create: true
@@ -16,7 +16,7 @@ collections:
           label: "Template Key",
           name: "templateKey",
           widget: "hidden",
-          default: "blog-post",
+          default: "event-post",
         }
       - {
           label: "Warehouse Number",

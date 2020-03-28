@@ -113,7 +113,7 @@ export const getPos = () => {
 
 export const postType = post => {
 	switch (post.frontmatter.templateKey) {
-		case "blog-post":
+		case "event-post":
 			return "Event";
 		case "podcast-page":
 			return "Podcast";

@@ -1,13 +1,14 @@
 ---
-templateKey: blog-post
-warehouseID: 'WAREHOUSE #'
+templateKey: event-post
+warehouseID: "WAREHOUSE #"
 title: Talk 200 Sisters Souvenirs
-location: 'San Serriffe, Amsterdam'
+location: "San Serriffe, Amsterdam"
 date: 2020-01-11T19:00:00.000Z
 ---
+
 ![](/img/dscf0142.jpg)
 
-_200 Sisters Souvenirs – 200 years of exhibition catalogues, side notes and slippery images, a feminist exhibition (mis)reading_ is a project by Rebecca Stephany developed on the occasion of the 200-year anniversary of The Baden Art Association (Badischer Kunstverein) in Karlsruhe in 2018. 
+_200 Sisters Souvenirs – 200 years of exhibition catalogues, side notes and slippery images, a feminist exhibition (mis)reading_ is a project by Rebecca Stephany developed on the occasion of the 200-year anniversary of The Baden Art Association (Badischer Kunstverein) in Karlsruhe in 2018.
 
 The project is the result of an intensive exploration of the catalogue archive of Badischer Kunstverein from a decidedly slippery feminist point of view. Drawing from the archive, which consists of over 300 catalogues and monographs, Stephany developed a publication with an accompanying line of merchandise. In addition, current members of Badischer Kunstverein were invited to donate a piece of used clothing in exchange for a modified one, with a process resulting in an edition of logo-bleached and modified second-hand garments and accessories.
 
