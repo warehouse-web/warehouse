@@ -1,12 +1,11 @@
 ---
 templateKey: event-post
-warehouseID: "WAREHOUSE #"
+warehouseID: 'WAREHOUSE #'
 title: Launch JOIN Collective Clothes Manual
-location: "San Serriffe, Amsterdam"
+location: 'San Serriffe, Amsterdam'
 date: 2019-05-18T18:00:00.000Z
 ---
-
-![](/img/13072019_join_arnhem_join.jpg)
+![JOIN. Photography: Anouk Beckers. ](/img/13072019_join_arnhem_join.jpg "JOIN. Photography: Anouk Beckers. ")
 
 JOIN Collective Clothes is a design and research project which explores fashion as a collective practice, focusing on making and wearing clothes together. Everyone is invited to design and make a part of a garment – for example a sleeve – which together can be connected into full outfits. The pieces made by various makers form an ever-growing collection, questioning constructed values created by the (fast) fashion industry. The launch of an open-source manual marks the start of the project, and is followed by a series of workshops and designer commissions. JOIN Collective Clothes is an initiative by fashion designer Anouk Beckers and graphic designer/art director Beau Bertens.
 
@@ -22,4 +21,4 @@ Commissions – JOIN different visions
 
 The fashion industry focuses mostly on designer status, brand identity, commodities as magical results of invisible processes and an adoration of values such as originality and ‘the new’. JOIN Collective Clothes critically challenges this system by inviting design professionals to contribute parts of garments to the collective collection. Designers and artists that are participating: Schueller de Waal, Elisa van Joolen, Lisa Konno, Das Leben am Haverkamp, Eduardo Leon (avoidstreet), Iris de Leeuw, Camiel Fortgens & Tanja Bindels. They will work on their contributions the coming months. The collective collection is a result of the designer contributions and workshop results.
 
-![](/img/seok_join_pieces.jpg)
+![JOIN. Photography: Anouk Beckers. ](/img/seok_join_pieces.jpg "JOIN. Photography: Anouk Beckers. ")
