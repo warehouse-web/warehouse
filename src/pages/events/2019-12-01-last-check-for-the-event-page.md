@@ -23,10 +23,10 @@ Following the 200 Sisters Souvenirs presentation by Rebecca Stephany, writer Ame
 
 
 
-![](/img/dscf0209.jpg)
 
-![](/img/dscf0153.jpg)
 
-![](/img/dscf0172.jpg)
+
+
+
 
 ![200 Sisters Souvenirs. Photography: Roos Quakernaat](/img/dscf0227.jpg "200 Sisters Souvenirs. Photography: Roos Quakernaat")
