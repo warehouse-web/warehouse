@@ -3,7 +3,7 @@ templateKey: product-page
 warehouseID: 'WAREHOUSE #3.6'
 title: 'JOIN Manual '
 author: Anouk Beckers
-date: 2019-12-01T17:04:03.454Z
+date: 2020-03-11T17:04:03.454Z
 ---
 
 
