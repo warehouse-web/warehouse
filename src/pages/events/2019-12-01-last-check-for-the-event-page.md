@@ -19,4 +19,14 @@ The project transposes methodologies of uncovering, misreading and zooming-in fr
 
 Following the 200 Sisters Souvenirs presentation by Rebecca Stephany, writer Amelia Groom will give a personal response to the project, focusing on questions of historical erasure as well as the possibilities of bleach-inscriptions within feminist responses to archival inheritance.
 
+
+
+
+
+![](/img/dscf0209.jpg)
+
+![](/img/dscf0153.jpg)
+
+![](/img/dscf0172.jpg)
+
 ![200 Sisters Souvenirs. Photography: Roos Quakernaat](/img/dscf0227.jpg "200 Sisters Souvenirs. Photography: Roos Quakernaat")
