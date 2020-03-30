@@ -5,7 +5,7 @@ title: Talk 200 Sisters Souvenirs
 location: 'San Serriffe, Amsterdam'
 date: 2020-01-11T19:00:00.000Z
 ---
-![]()
+
 
 ![200 Sisters Souvenirs. Photography: Roos Quakernaat](/img/dscf0142.jpg "200 Sisters Souvenirs. Photography: Roos Quakernaat")
 
@@ -21,12 +21,6 @@ Following the 200 Sisters Souvenirs presentation by Rebecca Stephany, writer Ame
 
 
 
-
-
-
-
-
-
-
+![200 Sisters Souvenirs. Photography: Roos Quakernaat](/img/dscf0153.jpg "200 Sisters Souvenirs. Photography: Roos Quakernaat")
 
 ![200 Sisters Souvenirs. Photography: Roos Quakernaat](/img/dscf0227.jpg "200 Sisters Souvenirs. Photography: Roos Quakernaat")
