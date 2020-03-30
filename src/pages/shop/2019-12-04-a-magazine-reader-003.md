@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 warehouseID: 'Warehouse #3.6'
-title: A Magazine Reader 003
+title: A Magazine Reader 03
 author: 'Femke de Vries, Zuzana Kostelanska, Onomatopee'
 date: 2019-12-04T09:53:52.068Z
 ---
