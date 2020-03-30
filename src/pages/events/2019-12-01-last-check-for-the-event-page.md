@@ -1,8 +1,8 @@
 ---
 templateKey: event-post
-warehouseID: "WAREHOUSE #"
+warehouseID: 'WAREHOUSE #'
 title: Talk 200 Sisters Souvenirs
-location: "San Serriffe, Amsterdam"
+location: 'San Serriffe, Amsterdam'
 date: 2020-01-11T19:00:00.000Z
 ---
 
