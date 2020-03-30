@@ -6,9 +6,3 @@ PDF: /img/digital_technologies_and_traditional_cul.pdf
 date: 2019-11-20T20:53:08.407Z
 ---
 ![Image](/img/13072019_join_arnhem_join.jpg "Image")
-
-Text inbetween
-
-![Second Image](/img/cagatio.jpg)
-
-Text Text Here
