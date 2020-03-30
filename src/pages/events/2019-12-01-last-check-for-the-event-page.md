@@ -5,7 +5,9 @@ title: Talk 200 Sisters Souvenirs
 location: 'San Serriffe, Amsterdam'
 date: 2020-01-11T19:00:00.000Z
 ---
-![](/img/dscf0142.jpg "200 Sisters Souvenirs. Photography: Roos Quakernaat")
+![]()
+
+![200 Sisters Souvenirs. Photography: Roos Quakernaat](/img/dscf0142.jpg "200 Sisters Souvenirs. Photography: Roos Quakernaat")
 
 *200 Sisters Souvenirs – 200 years of exhibition catalogues, side notes and slippery images, a feminist exhibition (mis)reading* is a project by Rebecca Stephany developed on the occasion of the 200-year anniversary of The Baden Art Association (Badischer Kunstverein) in Karlsruhe in 2018.
 
@@ -17,4 +19,4 @@ The project transposes methodologies of uncovering, misreading and zooming-in fr
 
 Following the 200 Sisters Souvenirs presentation by Rebecca Stephany, writer Amelia Groom will give a personal response to the project, focusing on questions of historical erasure as well as the possibilities of bleach-inscriptions within feminist responses to archival inheritance.
 
-![](/img/dscf0227.jpg "200 Sisters Souvenirs. Photography: Roos Quakernaat")
+![200 Sisters Souvenirs. Photography: Roos Quakernaat](/img/dscf0227.jpg "200 Sisters Souvenirs. Photography: Roos Quakernaat")
