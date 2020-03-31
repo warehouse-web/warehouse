@@ -27,15 +27,9 @@ Get this issue via [Press & Fold.](http://pressandfoldmagazine.com)
 
 ![](/img/pf_mock_up-issue-luxury-1a.jpg)
 
-
-
 ![](/img/pf_mock_up-issue-luxury-11.jpg)
 
-
-
-![](/img/pf_mock_up-issue-luxury-13.jpg)
-
-
+![P&F Chet Bugter ](/img/pf_mock_up-issue-luxury-13.jpg "P&F Chet Bugter ")
 
 ![](/img/pf_mock_up-issue-luxury-18.jpg)
 
