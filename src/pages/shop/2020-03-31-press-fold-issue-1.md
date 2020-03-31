@@ -25,12 +25,12 @@ X
 
 Get this issue via [Press & Fold.](http://pressandfoldmagazine.com)
 
-![](/img/pf_mock_up-issue-luxury-1a.jpg)
+![Contribution by xxxxx](/img/pf_mock_up-issue-luxury-1a.jpg "Contribution by xxxxx")
 
-![](/img/pf_mock_up-issue-luxury-11.jpg)
+![Contribution by xxxxx](/img/pf_mock_up-issue-luxury-11.jpg "Contribution by xxxxx")
 
-![P&F Chet Bugter ](/img/pf_mock_up-issue-luxury-13.jpg "P&F Chet Bugter ")
+![Contribution by Chet Bugter. ](/img/pf_mock_up-issue-luxury-13.jpg "Contribution by Chet Bugter. ")
 
-![](/img/pf_mock_up-issue-luxury-18.jpg)
+![Contribution by Femke de Vries. ](/img/pf_mock_up-issue-luxury-18.jpg "Contribution by Femke de Vries. ")
 
-![](/img/pf_mock_up-issue-luxury-10.jpg)
+![Contribution by xxxxx](/img/pf_mock_up-issue-luxury-10.jpg "Contribution by xxxxx")
