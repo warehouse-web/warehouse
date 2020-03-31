@@ -5,9 +5,9 @@ title: 'Launch Press & Fold Issue #1 | The Luxury Issue'
 location: 'San Serriffe, Amsterdam'
 date: 2019-12-07T19:00:00.000Z
 ---
+![Press & Fold Issue #1 | The Luxury Issue. Photography: Anouk Beckers.  ](/img/09_press-fold_07122019_sanserriffe_anoukbeckers.jpg "Press & Fold Issue #1 | The Luxury Issue. Photography: Anouk Beckers.  ")
 
 
-![Press & Fold   Photography: Anouk Beckers. ](/img/09_press-fold_07122019_sanserriffe_anoukbeckers.jpg "Press & Fold   Photography: Anouk Beckers. ")
 
 *Press & Fold* is an independent fashion magazine that aims to explore alternative fashion forms and narratives. The magazine provides a platform for critical fashion practitioners who actively seek out the cracks and fissures in the current fashion system to propose new opportunities for making and doing fashion. More than 20 contributors – ranging from visual artists and writers to fashion designers and researchers – present their view on this issue’s theme: luxury.
 
@@ -29,8 +29,10 @@ About Press & Fold
 
 *Press & Fold | Notes on making and doing fashion* is initiated by Hanka van der Voet in collaboration with art director and graphic designer Beau Bertens. The magazine is a collaborative research project that connects critical fashion practitioners from all over the world. With *Press & Fold* we aim to create a safe space for alternative fashion practices and dissonant voices within and outside of the fashion system, and communally explore fashion beyond the commodity. Through discussing our experiences through fashion, the *Press & Fold* contributors facilitate an alternative discourse that is not just about consuming the latest fashions.
 
+![](/img/55_press-fold_07122019_sanserriffe_anoukbeckers.jpg)
 
+![](/img/05_press-fold_07122019_sanserriffe_anoukbeckers.jpg)
 
+![Talk with Chet, XXXX XXXXX  Photography: Anouk Beckers. ](/img/58_press-fold_07122019_sanserriffe_anoukbeckers.jpg "Talk with Chet, XXXX XXXXX  Photography: Anouk Beckers. ")
 
-
-![]()
+![](/img/37_press-fold_07122019_sanserriffe_anoukbeckers.jpg)
