@@ -7,9 +7,7 @@ date: 2019-12-07T19:00:00.000Z
 ---
 ![Press & Fold Issue #1 | The Luxury Issue. Photography: Anouk Beckers.  ](/img/08_crop_press-fold_07122019_sanserriffe_anoukbeckers.jpg "Press & Fold Issue #1 | The Luxury Issue. Photography: Anouk Beckers.  ")
 
-
-
-
+A conversation with Hanka van der Voet, Chet Bugter, Johannes Reponen and Maria Kley.
 
 *Press & Fold* is an independent fashion magazine that aims to explore alternative fashion forms and narratives. The magazine provides a platform for critical fashion practitioners who actively seek out the cracks and fissures in the current fashion system to propose new opportunities for making and doing fashion. More than 20 contributors – ranging from visual artists and writers to fashion designers and researchers – present their view on this issue’s theme: luxury.
 
@@ -35,19 +33,11 @@ About Press & Fold
 
 ![](/img/20_press-fold_07122019_sanserriffe_anoukbeckers.jpg)
 
-
-
 ![](/img/58_press-fold_07122019_sanserriffe_anoukbeckers.jpg)
-
-
 
 ![](/img/46_press-fold_07122019_sanserriffe_anoukbeckers.jpg)
 
-
-
 ![Talk with Chet, XXXX XXXXX  Photography: Anouk Beckers. ](/img/01_press-fold_07122019_sanserriffe_anoukbeckers.jpg "Talk with Chet, XXXX XXXXX  Photography: Anouk Beckers. ")
-
-
 
 ![](/img/67_press-fold_07122019_sanserriffe_anoukbeckers.jpg)
 
