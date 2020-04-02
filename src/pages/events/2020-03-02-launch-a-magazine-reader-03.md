@@ -5,6 +5,8 @@ title: Launch A Magazine Reader 03
 location: 'Onomatopee, Eindhoven'
 date: 2019-10-26T17:00:00.000Z
 ---
+![](/img/img_3720.jpg)
+
 A conversation with Femke de Vries, Chet Bugter and Zuzana Kostelanská.
 
 Exhibition created by Femke de Vries, Seok Park and Zuzana Kostelanská.
