@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 warehouseID: 'WAREHOUSE #'
-title: Hordaland Kunstsenter - Bergen Art Book Fair
+title: Hordaland Kunstsenter I Bergen Art Book Fair
 location: Hordaland Kunstsenter
 date: 2019-11-14T09:00:00.000Z
 ---
