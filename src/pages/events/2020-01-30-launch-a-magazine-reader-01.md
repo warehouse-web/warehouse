@@ -5,7 +5,7 @@ title: Launch A Magazine Reader 01
 location: 'WALTER, Arnhem'
 date: 2018-06-29T15:30:00.000Z
 ---
-During this launch Femke de Vries, Line Arngaard & Sonia Oet (*A March Issue*) and students from MA Fashion Strategy generation 27 discussed the representation and meaning of luxury in the fashion magazine.
+During this launch Femke de Vries, Line Arngaard & Sonia Oet (*A March Issue*) and students from MA Fashion Strategy generation 27 discuss the representation and meaning of luxury in the fashion magazine.
 
 A Magazine Reader revolves around the analysis of a mainstream and high-end fashion magazine and its translation into an alternative new zine to provide insight into the cultural power and forms of value production that is at the core of fashion media. In it, the reader becomes an active actor in the construct of fashion. Re-reading the magazine by dissecting it, analysing the words, images, materiality, the items shown on the pages and the strategies of the specific magazine changes the way we read fashion.
 
@@ -15,4 +15,5 @@ The readers in the workshop use the material of the original ‘source magazine�
 
 This first edition of A Magazine Reader is titled *V*GUE*. In this five-day workshop, which was held in February 2018 with first year MA Fashion Strategy students of generation #27 at ArtEZ University of the Arts, we explored a British Vogue from the perspective of luxury today, and the way luxury is being sold through fashion mass media. We chose British Vogue as our source material because of its renowned status within the fashion world and the excessiveness and extravagant use of glossy words and visuals adhering to the idea that fashion purely exists as a commodity. A Magazine Reader 01 is designed in collaboration with Corine van der Wal. The content is developed by ArtEZ Fashion Strategy students of gen #27 Adriana Fox Hopper, Chinouk Filique de Miranda, Cinzia Magnani, Hester Brands, Ieva Uzkurataite, Julia Kaleta, Karmen Samson, Maria Gil Mendoza, and Marina Sasseron de Oliveira Cabral.
 
-Many thanks to ArtEZ Fashion Strategy, Chet Bugter, Corine van der Wal, Elisa van Joolen and Walter Books for hosting, facilitating and creating A Magazine Reader.
+Design by Corine van der Wal.\
+Thank you: ArtEZ Fashion Strategy, Chet Bugter, Corine van der Wal, Elisa van Joolen and Walter Books.
