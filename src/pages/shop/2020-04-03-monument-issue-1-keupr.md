@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 warehouseID: 'WAREHOUSE #87'
-title: 'Monument Issue 1 Keupr '
+title: 'Monument Issue #2 | Keupr/van Bentm'
 author: 'Mary Lou '
 date: 2020-01-17T15:01:46.130Z
 ---
