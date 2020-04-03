@@ -22,7 +22,6 @@ It is through cutting the paper, highlighting, marking or erasing that we are ab
 *A Magazine Reader* is an ongoing research trajectory and series of zines initiated by Femke de Vries and Hanka van der Voet. The series of workshops dissects and critically analyzes contemporary fashion magazines from various perspectives subsequently reproducing its content in an alternative form. By re-reading the magazine’s content, interrogating it and analysing its words, images, materiality, items and strategies, we change the ways in which we read fashion.
 
 Design by Zuzana Kostelanská.\
-Exhibition by Femke de Vries, Seok Park and Zuzana Kostelanská.\
-Thank you Chet Bugter, Onomatopee, Joannette van der Veer, Seok Park, Nathalia Malińska and Merel Steneker.
+Exhibition by Femke de Vries, Seok Park and Zuzana Kostelanská.
 
 ![](/img/img_3720.jpg)
