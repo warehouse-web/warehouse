@@ -1,6 +1,6 @@
 ---
 templateKey: event-post
-warehouseID: 'WAREHOUSE #'
+warehouseID: 'WAREHOUSE #76'
 title: 'Workshop JOIN '
 location: 'Dordrecht Museum '
 date: 2019-03-01T15:28:47.018Z
