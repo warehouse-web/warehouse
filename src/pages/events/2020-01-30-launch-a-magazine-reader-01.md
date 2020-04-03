@@ -15,5 +15,4 @@ The readers in the workshop use the material of the original ‘source magazine�
 
 This first edition of A Magazine Reader is titled *V*GUE*. In this five-day workshop, which was held in February 2018 with first year MA Fashion Strategy students of generation #27 at ArtEZ University of the Arts, we explored a British Vogue from the perspective of luxury today, and the way luxury is being sold through fashion mass media. We chose British Vogue as our source material because of its renowned status within the fashion world and the excessiveness and extravagant use of glossy words and visuals adhering to the idea that fashion purely exists as a commodity. A Magazine Reader 01 is designed in collaboration with Corine van der Wal. The content is developed by ArtEZ Fashion Strategy students of gen #27 Adriana Fox Hopper, Chinouk Filique de Miranda, Cinzia Magnani, Hester Brands, Ieva Uzkurataite, Julia Kaleta, Karmen Samson, Maria Gil Mendoza, and Marina Sasseron de Oliveira Cabral.
 
-Design by Corine van der Wal.\
-Thank you: ArtEZ Fashion Strategy, Chet Bugter, Corine van der Wal, Elisa van Joolen, Risowiso and Walter Books.
+Design by Corine van der Wal.
