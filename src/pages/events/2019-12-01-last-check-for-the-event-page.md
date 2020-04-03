@@ -7,7 +7,7 @@ date: 2020-01-11T19:00:00.000Z
 ---
 ![200 Sisters Souvenirs. Photography: Roos Quakernaat](/img/dscf0142.jpg "200 Sisters Souvenirs. Photography: Roos Quakernaat")
 
-A conversation with Rebecca Stephany and Amelia Groom, and a presentation of the 200 Sisters Souvenirs clothing and accessoiries. 
+A conversation with Rebecca Stephany and Amelia Groom on *200 Sisters Souvenirs* accompanied by a presentation of the 200 Sisters Souvenirs clothing and accessoiries at San Serriffe. 
 
 *200 Sisters Souvenirs – 200 years of exhibition catalogues, side notes and slippery images, a feminist exhibition (mis)reading* is a project by Rebecca Stephany developed on the occasion of the 200-year anniversary of The Baden Art Association (Badischer Kunstverein) in Karlsruhe in 2018.
 
