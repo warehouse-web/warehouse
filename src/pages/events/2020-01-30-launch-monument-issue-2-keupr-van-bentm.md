@@ -13,4 +13,16 @@ On January 16, the second issue of *Monument* was published, a fanzine dedicated
 
 In *Monument*, images and texts from various archives are combined with new interviews and photography. Each issue has its own unique design and editorial approach, completely in keeping with the designer to whom the issue is dedicated. Central to this paper monument for Keupr/van Bentm is the work that they made between 1997 and 2001. A conversation between Mary-Lou and Keupr/van Bentm has been supplemented with quotes and texts from articles from the archive and a new long-read, written by fashion researcher Laura Gardner.
 
+![](/img/71_monument02_16012020_anoukbeckers.jpg)
+
 In addition to original images from the designers' archives, *Monument* also contains newly created photography. For this issue Mary-Lou collaborated with photographer Roos Quakernaat. She took pictures in the depot of the Centraal Museum in Utrecht, where the most special items from Keupr/van Bentm have been carefully stored. In addition, together with Mary-Lou, she created a new fashion series in which she combines her own photography with clothing from the designers' archives into surprising collages.
+
+
+
+![](/img/22_monument02_16012020_anoukbeckers.jpg)
+
+![](/img/47_monument02_16012020_anoukbeckers.jpg)
+
+![](/img/35_monument02_16012020_anoukbeckers.jpg)
+
+![Photography: Anouk Beckers ](/img/64_monument02_16012020_anoukbeckers.jpg "Photography: Anouk Beckers ")
