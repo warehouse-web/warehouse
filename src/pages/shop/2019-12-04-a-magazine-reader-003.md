@@ -18,3 +18,7 @@ co production Onomatopee
 ![Contribution by XXXXX](/img/a-magazine-reader-03-by-femke-de-vries-02.jpg "Contribution by XXXXX")
 
 ![Contribution by XXXXX](/img/a-magazine-reader-03-by-seok-park.jpg "Contribution by XXXXX")
+
+
+
+![](/img/01_a-magazine-reader-03_photo_anoukbeckers.jpg)
