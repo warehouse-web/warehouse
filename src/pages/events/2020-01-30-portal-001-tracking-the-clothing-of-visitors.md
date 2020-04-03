@@ -5,9 +5,7 @@ title: Launch PORTAL 001
 location: 'Museum Boijmans van Beuningen, Rotterdam'
 date: 2018-01-13T14:30:00.000Z
 ---
-A conversation with Elisa van Joolen, Hanka van der Voet and students from MA Fashion Strategy generation 27.
-
-Could different garments worn by different people be related? In what ways are emotional and monetary values of clothing connected? To whom does a piece of clothing belong?
+This launch took the shape of a conversation between Elisa van Joolen, Hanka van der Voet and students from MA Fashion Strategy generation 27 exploring the following: could different garments worn by different people be related? In what ways are emotional and monetary values of clothing connected? To whom does a piece of clothing belong?
 
 *PORTAL* offers a ‘way in’ to understanding garments from a multitude of overlapping and intersecting perspectives. The taped lines of the *PORTAL* map criss-cross the surface of the collective canvas mapping the ways in which our clothing can be a trace of the connections between and intersections of personal, economic, social, cultural and political realms.
 
