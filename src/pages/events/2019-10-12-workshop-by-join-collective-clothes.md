@@ -16,9 +16,6 @@ The base of JOIN Collective Clothes is a modular clothing system that consists o
 
 Fashion is a collective practice, although it is often perceived as something that is not for everyone. To grant everyone access, JOIN Collective Clothes will set up a workshop tour. Everyone is invited to join one of the 4-hour workshops to design and make a garment-piece. At the end of the workshop, the results from the participants are joined into one full outfit. The process is playful, but at the same time critically questions the characteristics of the fashion system. Subjects such as ownership, identity, (intellectual) property, production methods, alienation, mystification and value creation are discussed through this project.
 
-The fashion industry focuses mostly on designer status, brand identity, commodities as magical results of invisible processes and an adoration of values such as originality and ‘the new’. JOIN Collective Clothes critically challenges this system by inviting design professionals to contribute parts of garments to the collective collection. \
-\
-Design by Beau Bertens.\
-Thank you: Beau Bertens, Danielle Bruggeman, Eduardo Leon and San Serriffe.
+The fashion industry focuses mostly on designer status, brand identity, commodities as magical results of invisible processes and an adoration of values such as originality and ‘the new’. JOIN Collective Clothes critically challenges this system by inviting design professionals to contribute parts of garments to the collective collection. 
 
 ![JOIN. Photography: Anouk Beckers. ](/img/seok_join_pieces.jpg "JOIN. Photography: Anouk Beckers. ")
