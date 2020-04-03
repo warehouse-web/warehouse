@@ -5,9 +5,9 @@ title: Launch JOIN Collective Clothes Manual
 location: 'San Serriffe, Amsterdam'
 date: 2019-05-18T18:00:00.000Z
 ---
-![JOIN. Photography: Anouk Beckers. ](/img/13072019_join_arnhem_join.jpg "JOIN. Photography: Anouk Beckers. ")
+![JOIN Collective Clothes Manual. Photography: Anouk Beckers. ](/img/10_join-manual_photo_anouk-beckers.jpg "JOIN Collective Clothes Manual. Photography: Anouk Beckers. ")
 
-During this launch of the JOIN Collective Clothes Manual at San Serriffe, Anouk Beckers, Beau Bertens, Danielle Bruggeman and Eduardo Leon had a conversation about collective making, modularity and owndership in fashion. 
+During this launch of the JOIN Collective Clothes Manual at San Serriffe, Anouk Beckers, Beau Bertens, Danielle Bruggeman and Eduardo Leon had a conversation about collective making, modularity and ownership in fashion. 
 
 JOIN Collective Clothes is a design and research project which explores fashion as a collective practice, focusing on making and wearing clothes together. Everyone is invited to design and make a part of a garment – for example a sleeve – which together can be connected into full outfits. The pieces made by various makers form an ever-growing collection, questioning constructed values created by the (fast) fashion industry. The launch of an open-source manual marks the start of the project, and is followed by a series of workshops and designer commissions. JOIN Collective Clothes is an initiative by fashion designer Anouk Beckers and graphic designer/art director Beau Bertens.
 
