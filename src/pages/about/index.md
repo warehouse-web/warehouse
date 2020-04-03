@@ -13,7 +13,26 @@ blurbs:
     title: PRODUCTION
   - subtitle: Jan Schoon
     title: COMMUNICATION
-other: "Warehouse is made possible through the financial support of Stimuleringsfonds Creatieve Industrie.\r\n\n<br/>\r\n\n\r\n\n© 2019 Warehouse\r\n\n \r<br/>\n\nNo rights can be claimed from the information in these pages. Warehouse makes every possible effort to assure the completeness and correctness of all information published here. Inaccuracies can, however, occur. Neither Warehouse nor those who supplied the information involved are responsible for harm that may arise as a consequence of errors, problems caused by or inherent in the distribution of the information by internet, or for technical failures."
+other: >-
+  Warehouse is made possible through the financial support of Stimuleringsfonds
+  Creatieve Industrie.
+
+
+  <br/>
+
+
+  © 2020 Warehouse
+
+
+  <br/>
+
+
+  No rights can be claimed from the information in these pages. Warehouse makes
+  every possible effort to assure the completeness and correctness of all
+  information published here. Inaccuracies can, however, occur. Neither
+  Warehouse nor those who supplied the information involved are responsible for
+  harm that may arise as a consequence of errors, problems caused by or inherent
+  in the distribution of the information by internet, or for technical failures.
 ---
   ABOUT
 
