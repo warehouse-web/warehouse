@@ -3,7 +3,7 @@ templateKey: product-page
 warehouseID: 'WAREHOUSE #66'
 title: 'JOIN Magazine '
 author: Anouk Beckers and XXXXXXXXXX
-date: 2020-04-03T13:41:57.026Z
+date: 2019-11-20T14:41:57.026Z
 ---
 ![JOIN Magazine. Photography: Anouk Beckers. ](/img/03_join-magazine_photo_anouk-beckers.jpg "JOIN Magazine. Photography: Anouk Beckers. ")
 
