@@ -5,7 +5,7 @@ title: Launch PORTAL 002
 location: 'State of Fashion, De Melkfabriek, Arnhem'
 date: 2018-07-21T14:00:00.000Z
 ---
-A conversation with Elisa van Joolen, Anouk Beckers and Renee van der Hoek; Could different garments worn by different people be related? In what ways are emotional and monetary values of clothing connected? To whom does a piece of clothing belong?
+A conversation with Elisa van Joolen, Anouk Beckers and Renee van der Hoek adressing the following questions: Could different garments worn by different people be related? In what ways are emotional and monetary values of clothing connected? To whom does a piece of clothing belong?
 
 *PORTAL* offers a ‘way in’ to understanding garments from a multitude of overlapping and intersecting perspectives. The taped lines of the *PORTAL* map criss-cross the surface of the collective canvas mapping the ways in which our clothing can be a trace of the connections between and intersections of personal, economic, social, cultural and political realms.
 
