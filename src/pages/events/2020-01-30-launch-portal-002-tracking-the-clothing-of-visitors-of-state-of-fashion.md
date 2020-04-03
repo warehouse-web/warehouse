@@ -23,3 +23,6 @@ text by Ruby Hoette
 
 1. Lauwaert, M. and Westrenen, F. (2017), *Facing Value: Radical Perspectives from the Arts,* Amsterdam: Valiz.
 2. Bollier, D. (2011), *The Commons, Short and Sweet* \[Online]. Available at: www.bollier.org/commons-shortand-sweet \[Accessed: 30 June 2018].
+
+Design by Beau Bertens\
+Thank you: Aimy Eyzenback, Alexander Godschalk, Collectief Soepel, Han Nefkens, José Teunissen, Open Studio, State of Fashion, Anouk Beckers and Renee van der Hoek.
