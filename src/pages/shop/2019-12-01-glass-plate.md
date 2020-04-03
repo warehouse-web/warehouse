@@ -25,7 +25,15 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 
 
 
+
+
+
+
 ![](/img/05_join-manual_photo_anouk-beckers.jpg)
+
+
+
+
 
 
 
