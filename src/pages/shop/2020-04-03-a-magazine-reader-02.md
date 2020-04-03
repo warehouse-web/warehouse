@@ -3,7 +3,7 @@ templateKey: product-page
 warehouseID: 'WAREHOUSE #'
 title: A Magazine Reader 02
 author: 'Femke de Vries ed. '
-date: 2020-04-03T12:50:34.286Z
+date: 2019-08-14T12:50:34.286Z
 ---
 
 
