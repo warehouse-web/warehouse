@@ -18,6 +18,7 @@ Fashion is a collective practice, although it is often perceived as something th
 
 The fashion industry focuses mostly on designer status, brand identity, commodities as magical results of invisible processes and an adoration of values such as originality and ‘the new’. JOIN Collective Clothes critically challenges this system by inviting design professionals to contribute parts of garments to the collective collection. \
 \
-Thank you: Beau Bertens, Danielle Bruggeman and Eduardo Leon 
+Design by Beau Bertens.\
+Thank you: Beau Bertens, Danielle Bruggeman, Eduardo Leon and San Serriffe.
 
 ![JOIN. Photography: Anouk Beckers. ](/img/seok_join_pieces.jpg "JOIN. Photography: Anouk Beckers. ")
