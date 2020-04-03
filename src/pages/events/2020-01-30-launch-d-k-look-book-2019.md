@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 warehouseID: 'WAREHOUSE #'
-title: 'Launch D&K LOOK BOOK 2019, All or Nothing'
+title: 'Launch D&K LOOK BOOK 2019, All Or Nothing'
 location: 'San Serriffe, Amsterdam'
 date: 2019-11-30T19:00:00.000Z
 ---
