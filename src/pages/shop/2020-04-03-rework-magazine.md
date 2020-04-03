@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-warehouseID: 'WAREHOUSE #'
+warehouseID: 'WAREHOUSE #5'
 title: 'Rework Magazine '
 author: TEXTTTT
 date: 2019-10-02T12:59:52.188Z
