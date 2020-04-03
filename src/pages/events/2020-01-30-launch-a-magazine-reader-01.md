@@ -5,7 +5,7 @@ title: Launch A Magazine Reader 01
 location: 'WALTER, Arnhem'
 date: 2018-06-29T15:30:00.000Z
 ---
-A conversation with Femke de Vries, Line Arngaard & Sonia Oet (*A March Issue*) and students from MA Fashion Strategy generation 27.
+During this launch at Walter Books, Femke de Vries, Line Arngaard & Sonia Oet (*A March Issue*) and students from MA Fashion Strategy generation 27 discussed the representation and meaning of luxury in the fashion magazine.
 
 A Magazine Reader is a workshop in which the act of ‘reading a magazine’ is used as an approach to critically explore fashion magazines. During the workshop, a fashion magazine is critically analysed from various perspectives and subsequently put together again in an alternative form.
 
