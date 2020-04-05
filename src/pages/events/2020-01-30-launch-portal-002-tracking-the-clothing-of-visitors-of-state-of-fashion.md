@@ -21,4 +21,4 @@ With the acknowledgement that clothing has meaning and value beyond economic ter
 \
 Text by Ruby Hoette.\
 \
-Design by Beau Bertens
+Design by Beau Bertens.
