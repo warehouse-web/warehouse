@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { ProductPageTemplate } from "../../templates/product-page";
 
 const ProductPagePreview = ({ entry, widgetFor }) => {
-	console.log("went inside of the product page preview");
+	console.log("wet inside of the product page preview");
 	return (
 		<ProductPageTemplate
 			content={widgetFor("body")}
