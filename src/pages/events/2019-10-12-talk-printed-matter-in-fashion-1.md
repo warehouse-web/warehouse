@@ -14,6 +14,4 @@ And just like last year, we've made a selection of independent fashion publicati
 
 
 
-![](/img/screenshot-2020-01-21-at-13.09.30.png)
-
-![](/img/01_200sisterssouvenirs_2018©roberthamacher.jpg)
+![](/img/digitalmaps3.jpeg)
