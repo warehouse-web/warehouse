@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 warehouseID: 'WAREHOUSE #'
-title: Talk Printing Plant Art Book Fair 2018 | Printed Matter in Fashion
+title: Printing Plant Art Book Fair 2018 | Talk on Printed Matter in Fashion
 location: 'Looiergracht 60, Amsterdam'
 date: 2018-11-25T11:30:00.000Z
 ---
