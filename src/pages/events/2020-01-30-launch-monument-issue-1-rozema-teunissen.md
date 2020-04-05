@@ -19,4 +19,4 @@ Together these bits and pieces will tell you more about the designers; their ins
 
 After almost 20 years since they’ve been made, Rozema/Teunissen’s designs still embody an exceptionally modern look, and photographer Barrie Hullegie beautifully caught this in the three stories we created together with items from the archive. In our constant hunger for new fashion we have forgotten about the artistry that is fashion design and the amount of energy and dedication it takes for a designer to create their work. Glossies, social media and the internet are happy to help you long for change, by constantly emphasizing on ‘what’s new’. Whilst autonomous artists create a body of work during the length of their career, fashion designers are expected to reinvent themselves several times per year which subsequently, makes their previous work look irrelevant to the public. This fascinating side of fashion is the reason why this first edition is dedicated to Rozema/Teunissen. They deserve a *Monument* for creating work that goes well beyond fashion’s transitory aspect.
 
-text by Mary-Lou Berkulin
+Text by Mary-Lou Berkulin
