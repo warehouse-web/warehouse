@@ -11,3 +11,7 @@ As Warehouse aims to create an engaging environment that facilitates dialogue an
 Warehouse sells several publications like: the *JOIN manual* and the *JOIN Collective Conversation* magazine. Several issues of *A Magazine Reader*, as well as issues of the *PORTAL* readers. There's an exclusive pre-sale of the newest *Press & Fold* - The Luxury issue and several items of Warehouse Wear.
 
 And just like last year, we've made a selection of independent fashion publications. This year, we have publications by Chet Bugter, Chinouk Filique de Miranda, Edwin van Gelder & Johann Tangyong (*Rework* magazine), Mary-Lou Berkulin (*Monument*), Karmen Samson, Mika Perlmutter and Rebecca Stephany (in collaboration with students from the Karlsruhe University of Arts and Design).
+
+
+
+![](/img/screenshot-2020-01-21-at-13.09.30.png)
