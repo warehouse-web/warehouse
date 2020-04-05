@@ -5,7 +5,7 @@ title: Launch A Magazine Reader 02
 location: 'Kleine Oord, Arnhem'
 date: 2019-06-22T12:00:00.000Z
 ---
-During this launch of *A Magazine Reader 02* Chet Bugter, Femke de Vries and students of MA Fashion Strategy generation 28 discuss the use of text in fashion magazines and how it affects our relationship to fashion. 
+During the launch of *A Magazine Reader 02* Chet Bugter, Femke de Vries and students of MA Fashion Strategy generation 28 discuss the use of text in fashion magazines and how it affects our relationship to fashion. 
 
 *A Magazine Reader* revolves around the analysis of a mainstream and high-end fashion magazine and its translation into an alternative new zine to provide insight into the cultural power and forms of value production that is at the core of fashion media. In it, the reader becomes an active actor in the construct of fashion. Re-reading the magazine by dissecting it, analysing the words, images, materiality, the items shown on the pages and the strategies of the specific magazine changes the way we read fashion.
 
