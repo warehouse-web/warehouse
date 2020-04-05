@@ -5,7 +5,7 @@ title: Launch PORTAL 001
 location: 'Museum Boijmans van Beuningen, Rotterdam'
 date: 2018-01-13T14:30:00.000Z
 ---
-This launch took the shape of a conversation between Elisa van Joolen, Hanka van der Voet and students from MA Fashion Strategy generation 27 exploring the following: could different garments worn by different people be related? In what ways are emotional and monetary values of clothing connected? To whom does a piece of clothing belong?
+A conversation between Elisa van Joolen, Hanka van der Voet and students from MA Fashion Strategy generation 27 exploring the following: could different garments worn by different people be related? In what ways are emotional and monetary values of clothing connected? To whom does a piece of clothing belong?
 
 *PORTAL* offers a ‘way in’ to understanding garments from a multitude of overlapping and intersecting perspectives. The taped lines of the *PORTAL* map criss-cross the surface of the collective canvas mapping the ways in which our clothing can be a trace of the connections between and intersections of personal, economic, social, cultural and political realms.
 
@@ -13,8 +13,6 @@ For every edition visitors to each location are asked to take off a garment, mak
 
 For *PORTAL 001* Elisa van Joolen worked with students from the MA Fashion Strategy programme of ArtEZ University of the Arts to research the economic, social and emotional value of clothing worn by visitors of the ‘Change the System’ exhibition at Museum Boijmans van Beuningen in Rotterdam.
 
-On the 10th and 11th of November 2017 we collected information on 159 pieces of clothing worn by visitors. Each visitor placed their garment on a floor covered with Tyvek, drew a line around it and answered 16 questions about their item. The questions touched on production, ownership, value and materiality of the clothes and elicited responses that began with objective then gradually moved towards the subjective and the emotional. We made new connections between the garments by literally drawing lines between the items of the various visitors, creating a network that reveals a complex and layered system of the reality of clothing.
+On the 10th and 11th of November 2017 information on 159 pieces of clothing worn by visitors was collected. Each visitor placed their garment on a floor covered with Tyvek, drew a line around it and answered 16 questions about their item. The questions touched on production, ownership, value and materiality of the clothes and elicited responses that began with objective then gradually moved towards the subjective and the emotional. New connections were made between the garments by literally drawing lines between the items of the various visitors, creating a network that reveals a complex and layered system of the reality of clothing.
 
-The collected data is visualized and brought together in a reader complemented by short texts in which the students elaborate on topics that were researched using the sixteen *PORTAL* questions as their starting point.
-
-Design by Beau Bertens
+The collected data is visualized and brought together in a reader designed by Beau Bertens, complemented by short texts in which the students elaborate on topics that were researched using the sixteen *PORTAL* questions as their starting point.
