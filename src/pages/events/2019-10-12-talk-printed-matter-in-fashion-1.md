@@ -12,6 +12,4 @@ Warehouse sells several publications like: the *JOIN manual* and the *JOIN Colle
 
 And just like last year, we've made a selection of independent fashion publications. This year, we have publications by Chet Bugter, Chinouk Filique de Miranda, Edwin van Gelder & Johann Tangyong (*Rework* magazine), Mary-Lou Berkulin (*Monument*), Karmen Samson, Mika Perlmutter and Rebecca Stephany (in collaboration with students from the Karlsruhe University of Arts and Design).
 
-
-
-![](/img/digitalmaps3.jpeg)
+![](/img/wec190502_chanel_j12_063.jpg)
