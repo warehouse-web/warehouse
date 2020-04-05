@@ -11,9 +11,7 @@ A conversation with Hanka van der Voet, Chet Bugter, Johannes Reponen and Maria 
 
 *Press & Fold* is an independent fashion magazine that aims to explore alternative fashion forms and narratives. The magazine provides a platform for critical fashion practitioners who actively seek out the cracks and fissures in the current fashion system to propose new opportunities for making and doing fashion. More than 20 contributors – ranging from visual artists and writers to fashion designers and researchers – present their view on this issue’s theme: luxury.
 
-
-
-The Luxury Issue
+ISSUE #1 | LUXURY
 
 From luxury characterised as uniqueness created by lowly and anonymous artisans in pre-democratic times, to made-to-measure haute couture and the cult of the star designer at the end of the 19th century, from the merging of mass market and prestige into ‘masstige’ (a term coined by Karl Lagerfeld, introducing his H&M collaboration in 2004) to the hunger for street credibility by luxury fashion houses causing them to sell 2000 euro hoodies, and from the conspicuous consumption showcased on Instagram to the explosion of wellness and self-care culture; luxury has had many faces over the past few decades.
 
@@ -25,17 +23,11 @@ These new imaginations on luxury show a radical departure from the classical int
 
 In this issue of *Press & Fold*, you’ll find the views of our contributors on the meaning of ‘luxury’ in the context of today’s and tomorrow’s fashion world and society at large. We aim to show a plurality of perspectives, but all seem to have its root in the common understanding that change is required, not just within the fashion industry, but beyond. And as fashion can be regarded as a social practice – something we all participate in – why not start here?
 
-
-
 *Press & Fold*’s cover for ‘The Luxury Issue’ comes from a photo series by Jessica Buie called ‘Exposure’, where she gives the viewer the luxury of gazing without shame or judgment. The subjects in ‘Exposure’ are inherently objectified; devoid of a face, limbs, or any identifying features. They've opened themselves up to being looked at as purely form. Playing with the language of fashion advertisements – particularly images for watches and fragrances where the body is often severed into a faceless torso – the series questions the passivity of being looked at and the dynamic power relations inherent in looking. In the opening article ‘Opening Up Fashion as a Practice of Commoning’, Danielle Bruggeman discusses the recent rise of practices of commoning in contemporary culture and society, and specifically in the field of fashion, and to what extent these goals are a luxury in today’s society. Chet Bugter reflects on how the luxury fashion magazine functions as a disciplinary agent, and how an embodied and affective approach to fashionable imagery might be used to reconfigure the fashion system on a wider scope. Articles of Clothing shows how garments can shift easily between work and leisure, breaking down the classic impulse to compartmentalise aspects of life, and thus, giving luxury new meaning, and JOIN Collective Clothes makes the luxury of making one’s own clothes available for everyone, by creating an open source manual which makes it possible for us to set up our own modular clothing system.
 
 An overview of all contributors to ‘The Luxury Issue’: A March Issue, Adele Varcoe, Agnieszka Chabros, Aimée Zito Lema, Amelia Winata, Annie Wu, Beau Bertens, Chet Bugter, Colby Vexler, Danielle Bruggeman, Elisa van Joolen, Femke de Vries, Jessica Buie, Johannes Reponen, JOIN Collective Clothes, Justin Clemens, Laura Gardner, Maria Kley, Rowan McNaught, Storage Solutions and Shanzhai Lyric.
 
 ![](/img/46_press-fold_07122019_sanserriffe_anoukbeckers.jpg)
-
-
-
-
 
 About Press & Fold
 
