@@ -1,13 +1,11 @@
 ---
 templateKey: product-page
 warehouseID: 'WAREHOUSE #88'
-title: All or Nothing. D&K Lookbook 2019
+title: 'D&K Lookbook 2019 - All or Nothing '
 author: 'Ricarda '
 date: 2020-04-03T13:45:00.921Z
 ---
-![All or Nothing. D&K Lookbook 2019. Photography: Anouk Beckers. ](/img/09_d-k_mode-mode_photo_anoukbeckers.jpg "All or Nothing. D&K Lookbook 2019. Photography: Anouk Beckers. ")
-
-D&K LOOK BOOK 2019 – ALL OR NOTHING
+![D&K Lookbook 2019 - All or Nothing. Photography: Anouk Beckers. ](/img/09_d-k_mode-mode_photo_anoukbeckers.jpg "D&K Lookbook 2019 - All or Nothing. Photography: Anouk Beckers. ")
 
 D&K explores the potential of fashion practice as a site of critical questioning and ubiquitous revelations. The project was co-founded in 2012 by fashion designer and researcher Ricarda Bigolin and curator Nella Themelios (2012–2017) and includes a wide array of collaborators. The publication questions the ubiquity and mass consumption of fashion (images), and their relationships to the products depicted and how fashion produces and circulates collections of images.
 
