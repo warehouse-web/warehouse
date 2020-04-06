@@ -5,36 +5,19 @@ title: 'JOIN Manual '
 author: Anouk Beckers
 date: 2019-06-26T16:04:03.454Z
 ---
-
-
 ![JOIN Collective Clothes Manual. Photography: Anouk Beckers ](/img/01_join-manual_photo_anouk-beckers.jpg "JOIN Collective Clothes Manual. Photography: Anouk Beckers ")
 
-What is Lorem Ipsum?
+The *JOIN Collective Clothes Manual* is an open-source manual that invites everyone to participate in JOIN, a project by fashion designer Anouk Beckers and graphic designer/art director Beau Bertens, that proposes fashion as a collective practice. The manual encompasses the patterns of a modular clothing system that consists of four different shapes which can be combined into a full outfit (a sleeve, a top, a trouser leg and a part of a skirt). As it is easy-to-use everyone can make the pieces themselves. This manual can also be downloaded at www.joincollectiveclothes.com.\
+The pieces made by various makers from all over the world, subsequently form an ever-growing collection that can be seen on the *JOIN Collective Clothes* website.\
+\
+The fashion industry focuses mostly on designer status, brand identity, commodities as magical results of invisible processes and an adoration of values such as originality and ‘the new’. And although it is often perceived as something that is not for everyone, fashion surely is a collective practice. By making and wearing clothes together, the design and research project *JOIN Collective Clothes* proposes fashion as a collective practice.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Why do we use it?
-
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-Where does it come from?
-
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Beside participating by downloading or buying the manual the project consists of a series of workshops and designer commissions. Everyone is invited to join one of the 4-hour workshops to design and make a garment-piece. At the end of the workshop, the results from the participants are joined into one complete outfit. The process is playful, but at the same time it critically questions the characteristics of the fashion system exploring ownership, identity, (intellectual) property, production methods, alienation, mystification and value creation in fashion together.\
+\
+Initiator Anouk Beckers on *JOIN Collective Clothes*: “What if we open up the fashion system and explore it as a non-fixed entity, a system where people can playfully join in, where everyone is invited to create fashion together?”
 
 ![](/img/03_join-manual_photo_anouk-beckers.jpg)
 
-
-
-
-
-
-
 ![](/img/05_join-manual_photo_anouk-beckers.jpg)
-
-
-
-
-
-
 
 ![JOIN Collective Clothes Manual. Photography: Anouk Beckers ](/img/09_join-manual_photo_anouk-beckers.jpg "JOIN Collective Clothes Manual. Photography: Anouk Beckers ")
