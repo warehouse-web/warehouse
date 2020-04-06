@@ -5,6 +5,10 @@ title: Launch PORTAL 002
 location: 'State of Fashion, De Melkfabriek, Arnhem'
 date: 2018-07-21T14:00:00.000Z
 ---
+![PORTAL 002, State of Fashion, 2018. ](/img/img_7452.jpg "PORTAL 002, State of Fashion, 2018. ")
+
+
+
 A conversation between Elisa van Joolen, Anouk Beckers and Renee van der Hoek addressing the following: Could different garments worn by different people be related? In what ways are emotional and monetary values of clothing connected? To whom does a piece of clothing belong?
 
 *PORTAL* is a research project thatexplores the economic, social and emotional value of clothingand offers a ‘way in’ to understanding garments from a multitude of overlapping and intersecting perspectives.\
@@ -12,3 +16,9 @@ For every edition, participants are asked to take off a garment, lay it down on 
 The collected information of each *PORTAL* edition is visualized and brought together in a reader using the sixteen *PORTAL* questions as a starting point.\
 \
 For *PORTAL 002* Elisa van Joolen worked with visitors of *State of Fashion* in Arnhem to research the economic, social and emotional value of clothing. The collected data is visualized and brought together in a reader designed by Beau Bertens.
+
+![](/img/02.jpg)
+
+![](/img/06.jpg)
+
+![PORTAL 002 Reader, 2018. ](/img/03.jpg "PORTAL 002 Reader, 2018. ")
