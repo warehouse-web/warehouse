@@ -14,7 +14,7 @@ Type: softcover\
 Dimensions: 210 mm x 155 mm portrait\
 Pages: 140\
 Editor: (Warehouse)Femke de Vries and Hanka van der Voet\
-Author:Femke de Vries, Hanka van der Voet and workshop participants:Sophia Grancharova, Hanka van der Voet, Patricia Nahorniac, Rebecca Nevins, Marco Dalle Fratte, Xi Ruolan, Abhaya Mistry, Seok Park, Isabelle Mauduit and Ellen\
+Author: Femke de Vries, Hanka van der Voet and workshop participants: Sophia Grancharova, Hanka van der Voet, Patricia Nahorniac, Rebecca Nevins, Marco Dalle Fratte, Xi Ruolan, Abhaya Mistry, Seok Park, Isabelle Mauduit and Ellen\
 Graphic design: Zuzana Kostelanská\
 Release date: October 2019\
 Binding: elastic band\
