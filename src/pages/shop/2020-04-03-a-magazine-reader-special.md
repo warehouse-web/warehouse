@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 warehouseID: 'WAREHOUSE #56'
-title: 'A Magazine Reader Special '
+title: A Magazine Reader Invites
 author: Femke Hanka Zuzana
 date: 2019-12-03T15:19:00.791Z
 ---
