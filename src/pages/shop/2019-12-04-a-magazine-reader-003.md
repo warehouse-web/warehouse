@@ -2,7 +2,11 @@
 templateKey: product-page
 warehouseID: 'Warehouse #3.6'
 title: A Magazine Reader 03
-author: 'Femke de Vries, Zuzana Kostelanska (ed)'
+author: >-
+  Femke de Vries, Hanka van der voet, Zuzana Kostelanska (ed.s). With: Hanka van
+  der Voet, Femke de Vries and workshop participants: Sophia Grancharova,
+  Patricia Nahorniac, Rebecca Nevins, Marco Dalle Fratte, Xi Ruolan, Abhaya
+  Mistry, Seok Park, Isabelle Mauduit and Ellen Pearson
 date: 2019-12-04T09:53:52.068Z
 ---
 ![](/img/1.jpg)
