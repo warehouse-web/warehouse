@@ -1,11 +1,15 @@
 ---
 templateKey: product-page
 warehouseID: 'WAREHOUSE #99'
-title: 'PORTAL 002 - Reader '
+title: 'PORTAL 002 Reader '
 author: 'Elisa van Joolen ed. '
 date: 2018-07-12T13:49:43.353Z
 ---
-![PORTAL 002. Photography: Anouk Beckers.](/img/01_portal002_photo_anoukbeckers.jpg "PORTAL 002. Photography: Anouk Beckers.")
+
+
+![PORTAL 002 Reader, 2018. ](/img/portal-002-.jpg "PORTAL 002 Reader, 2018. ")
+
+
 
 PORTAL 002  is the result of....... at.... with.....
 
@@ -17,4 +21,4 @@ For *PORTAL 002* Elisa van Joolen worked with visitors of State of Fashion in Ar
 
 ![](/img/02_portal002_photo_anoukbeckers.jpg)
 
-![PORTAL 002. Photography: Anouk Beckers.](/img/03_portal002_photo_anoukbeckers.jpg "PORTAL 002. Photography: Anouk Beckers.")
+![PORTAL 002  . Photography: Anouk Beckers.](/img/03_portal002_photo_anoukbeckers.jpg "PORTAL 002. Photography: Anouk Beckers.")
