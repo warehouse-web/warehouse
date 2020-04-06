@@ -7,9 +7,11 @@ date: 2019-11-25T14:48:06.949Z
 ---
 ![Mode and Mode 7. 2019. Photography: Anouk Beckers ](/img/03_d-k_mode-mode_photo_anoukbeckers.jpg "Mode and Mode 7. 2019. Photography: Anouk Beckers ")
 
-*Mode and Mode* seven presents an anthology of text works and biographical listings of key D&K (Ricarda Bigolin and Nella Themelios) projects from 2012 to present as a companion publication to *D&K LOOK BOOK 2019*.\
+Mode and Mode is *Mode and Mode* is a periodical that addresses printed matter in fashion practice by Laura Gardner and Karina Soraya.\
+Continuing the mission of *Mode and Mode* in exploring experimental publishing practices at the margins of fashion, this issue shares, in chronological order, a body of experimental text works by the critical fashion practice of D&K. Accompanying the D&K *Look Book 2019 - All or Nothing Mode and Mode 7 serves as* an anthology of text works and biographical listings of key D&K projects from 2012 to present. \
+As intrinsic to their exhibition and garment-based work, D&K produce writing—including ficto-critical prose, cut-and-paste collage, poetry, and screenwriting—to reconstitute components of fashion, such as the garment, atmospheric conditions of retail space and packaging ephemera. Their interrogation of fashion language in (and as) branding highlights the plasticity of words, which are always both meaningless and meaningful.\
 \
-In December 2019, D&K, *Mode and Mode* and Surpllus presented *D&K LOOK BOOK 2019/Mode and Mode issue seven* at Warehouse. The event presented a performance of the two publications and the limited-edition ‘covers’ created by D&K (Ricarda Bigolin and Chantal Kirby). This event at Warehouse was part of a series of Europese launches.\
+Mode and Mode 7 was co-launched with the *D&K LOOK BOOK 2019* at San Serriffe at Warehouse.\
 \
 Type: softcover\
 Dimensions: 271mm x207mm portrait\
