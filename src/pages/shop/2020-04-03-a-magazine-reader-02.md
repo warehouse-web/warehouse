@@ -26,8 +26,8 @@ Download here   xx x (PDF) \
 Type: softcover\
 Dimensions: 200 mm x 145 mm portrait\
 Pages: 100\
-Editor: (Warehouse) Ruby Hoette, Chet Bugter and Femke de Vries.\
-Author: Ruby Hoette, Chet Bugter and Femke de Vries with workshop participants - students of ArtEZ Fashion Masters Gen#28: Emma Disbergen, Laura Lisa Fernandes Januario, Eva Kühn, Boris Kollar, Karlijn Krijger, Nicole Dekkers, Andrea Chehade, Denise Bernts, Bobbine Berden, Mariane Cortez Meirelles.\
+Art Direction:Femke de Vries, Chet Bugter and Ruby Hoette\
+Author:Emma Disbergen, Laura Lisa Fernandes Januario, Eva Kühn, Boris Kollar, Karlijn Krijger, Nicole Dekkers, Andrea Chehade, Denise Bernts, Bobbine Berden, Mariane Cortez Meirelles and Femke de Vries, Chet Bugter and Ruby Hoette.\
 Graphic design: Corine van der Wal\
 Release date: Spring 2019\
 Binding: elastic band\
@@ -35,14 +35,11 @@ Edition: 150\
 Color: black and yellow – riso printed\
 Printer: Riso Wiso\
 Language: English\
-Copy editor: Femke de Vries, Chet Bugter and Ruby Hoette\
-Made possible by: ArtEZ Fashion Masters, Fashion Strategy
-
-
+Text editing: Femke de Vries, Chet Bugter and Ruby Hoette\
+Made possible by: ArtEZ Fashion Masters, Fashion Strategy.\
+Production: Warehouse
 
 ![Contribution XXXXX ](/img/a-magazine-reader-issue-02-denise-bernts-02.jpg "Contribution XXXXX ")
-
-
 
 ![Contribution  XXXX ](/img/a-magazine-reader-issue-02-introduction.jpg "Contribution  XXXX ")
 
