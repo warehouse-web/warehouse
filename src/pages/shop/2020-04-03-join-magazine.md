@@ -23,6 +23,9 @@ The base of *JOIN Collective Clothes* is a modular clothing system that consists
 \
 The project encompasses a series of workshops and designer commissions. Everyone is invited to join one of the 4-hour workshops to design and make a garment-piece. At the end of the workshop, the results from the participants are joined into one complete outfit. The process is playful, but at the same time it critically questions the characteristics of the fashion system exploring ownership, identity, (intellectual) property, production methods, alienation, mystification and value creation in fashion together.
 
+\
+Type: softcoverDimensions: 210 mm x 297 mm portraitPages: 72Art Direction: Anouk BeckersIntroduction text: Anouk Beckers and Chet BugterTexts by: Charlotte Verdegaal, Eliza Lachkova, Julia Berg, Lindy Boerman, Lu Lin, Sophia Buter, Tanyatorn LauwanichpatText editing: Hanka van der Voet, Femke de VriesGraphic design: Anouk Beckers, Julia BergRelease date: Autumn 2019Binding: foldingEdition: 100Color: color copiedPrinter: Copy machine ArtEZ University of the Arts at the Kortestraat 27, ArnhemLanguage: EnglishMade possible by: MA Fashion Strategy, ArtEZ University of the ArtsProduction: WarehouseProduction assistant: Seok Park
+
 ![](/img/04_join-magazine_photo_anouk-beckers.jpg)
 
 ![](/img/08_join-magazine_photo_anouk-beckers.jpg)
