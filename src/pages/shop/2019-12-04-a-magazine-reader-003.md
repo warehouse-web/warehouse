@@ -32,8 +32,8 @@ Edition: 250\
 Color: black and gold – riso printed\
 Printer: Onomatopee's risograph and copy machine\
 Language: English\
-Text editing:Femke de Vries and Hanka van der Voet\
-Production:Onomatopee in collaboration with Warehouse\
+Text editing: Femke de Vries and Hanka van der Voet\
+Production: Onomatopee in collaboration with Warehouse\
 Made possible by the generous support of the Provincie Noord Brabant\
 Production by: Joannette van der Veer for Onomatopee. With support by Seok Park, and Onomatopee interns Nathalia Malińska and Merel Steneker
 
