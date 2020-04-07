@@ -14,14 +14,14 @@ As intrinsic to their exhibition and garment-based work, D&K produce writing—i
 *Mode and Mode 7* was co-launched with the *D&K LOOK BOOK 2019* at San Serriffe. Warehouse is happy to have hosted the Dutch launch of both publications.\
 \
 Type: softcover\
-Dimensions: 271mm x207mm portrait\
+Dimensions: 271 mm x 207 mm portrait\
 Pages: 70\
 Editor: Laura Gardner\
-Graphicdesign: Karina Soraya\
+Graphic design: Karina Soraya\
 Release date: November 2019\
 Binding: staples\
 Edition: 500\
-Color: mainly black print\
+Color: mainly black\
 Language: English
 
 ![Mode and Mode 7. 2019. Photography: Anouk Beckers ](/img/02_d-k_mode-mode_photo_anoukbeckers.jpg "Mode and Mode 7. 2019. Photography: Anouk Beckers ")
