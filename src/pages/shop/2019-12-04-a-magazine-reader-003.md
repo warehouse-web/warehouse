@@ -23,8 +23,8 @@ The readers in the workshop use the material of the original ‘source magazine�
 Type: softcover\
 Dimensions: 210 mm x 155 mm portrait\
 Pages: 140\
-Editor: (Warehouse) Hanka van der Voet and Femke de Vries\
-Author: Hanka van der Voet, Femke de Vries and workshop participants: Sophia Grancharova, Hanka van der Voet, Patricia Nahorniac, Rebecca Nevins, Marco Dalle Fratte, Xi Ruolan, Abhaya Mistry, Seok Park, Isabelle Mauduit and Ellen Pearson\
+Art Direction: Femke de Vries and Hanka van der Voet\
+Authors: Sophia Grancharova, Hanka van der Voet, Patricia Nahorniac, Rebecca Nevins, Marco Dalle Fratte, Xi Ruolan, Abhaya Mistry, Seok Park, Isabelle Mauduit and Ellen Pearson andFemke de Vries, Hanka van der Voet.\
 Graphic design: Zuzana Kostelanská\
 Release date: October 2019\
 Binding: elastic band\
@@ -32,9 +32,9 @@ Edition: 250\
 Color: black and gold – riso printed\
 Printer: Onomatopee's risograph and copy machine\
 Language: English\
-Copy editor: Hanka van der Voet and Femke de Vries\
-Produced by: Onomatopee\
-Made possible by:  the generous support of the Provincie Noord Brabant\
+Text editing:Femke de Vries and Hanka van der Voet\
+Production:Onomatopee in collaboration with Warehouse\
+Made possible by the generous support of the Provincie Noord Brabant\
 Production by: Joannette van der Veer for Onomatopee. With support by Seok Park, and Onomatopee interns Nathalia Malińska and Merel Steneker
 
 15 EUR
