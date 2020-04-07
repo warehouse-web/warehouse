@@ -14,7 +14,28 @@ PORTAL 004  - exercise and coloring book is the result of....... at.... with....
 For every edition, participants are asked to take off a garment, lay it down on a large Tyvek sheet, outline their garment with tape and answer a series of questions regarding its production (Where was it made?), materials (What is it made of?), ownership (Is it yours?) and value (How much did it cost? What is the emotional value?). Subsequently connections are made between the garments by literally drawing lines between the items of the various visitors, creating a network that reveals connections between and intersections of personal, economic, social, cultural and political realms surfacing a complex and layered system of the reality of clothing.This culminates in a map, or landscape of personal stories that connect to form a fashion network whichinverts our gaze, shining a spotlight on the intricacies of our own outfits and extraordinary aspects of the everyday as opposed to the myth of the exclusive fashion image. *PORTAL* thus provides an entryway to a vision that begins to prioritise values that are ephemeral and yet integral in “influencing hearts and minds and shaping the way we live together”.*It*captures and visualises information that circumvents established hierarchies and disrupts the homogeneity of the commercially driven fashion system with the refreshing diversity of fashion that is worn; embodied and imperfect.\
 The collected information of each *PORTAL* edition is visualized and brought together in a reader using the sixteen *PORTAL* questions as their starting point.
 
-download here 
+download here \
+\
+Type: softcover with plastic sleeve\
+Dimensions: 210 mm x 297 mm portrait\
+Pages: 68\
+Art Direction: Elisa van Joolen\
+Research Assistant: Laura Lisa Januario\
+Text: Hanka van der Voet and Femke de Vries\
+Photography: Anouk Beckers and Elisa van Joolen\
+Researchers: Andrea Chehade, Bobbine Berden, Boris Kollar, Denise Bernts, Emma Disbergen, Eva Kühn, Karlijn Krijger, Laura Lisa Januario, Mariane Cortez Meirelles, Nicole Dekkers\
+Graphic design: Zuzana Kostelanská\
+Release date: Winter 2019\
+Binding: staples\
+Edition: 200\
+Color: Black, pink and red – riso printed\
+Printer: Charles Nypels Lab, Jan van Eyck Academie\
+Language: English\
+Text editing: Chet Bugter\
+Translation: Hanna Steenbergen-Cockerton\
+Made possible by: MA Fashion Strategy, ArtEZ University of the Arts\
+Production: Warehouse\
+Production assistant: Anouk Beckers
 
 ![](/img/08_portal004_photo_anoukbeckers.jpg)
 
