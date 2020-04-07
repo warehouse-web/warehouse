@@ -14,7 +14,10 @@ The fashion industry focuses mostly on designer status, brand identity, commodit
 
 Beside participating by downloading or buying the manual the project consists of a series of workshops and designer commissions. Everyone is invited to join one of the 4-hour workshops to design and make a garment-piece. At the end of the workshop, the results from the participants are joined into one complete outfit. The process is playful, but at the same time it critically questions the characteristics of the fashion system exploring ownership, identity, (intellectual) property, production methods, alienation, mystification and value creation in fashion together.\
 \
-Initiator Anouk Beckers on *JOIN Collective Clothes*: “What if we open up the fashion system and explore it as a non-fixed entity, a system where people can playfully join in, where everyone is invited to create fashion together?”
+Initiator Anouk Beckers on *JOIN Collective Clothes*: “What if we open up the fashion system and explore it as a non-fixed entity, a system where people can playfully join in, where everyone is invited to create fashion together?”\
+\
+Type: hard cover folder with loose JOIN patternsDimensions: 225 mm x 178 mm x 20 mm portraitArt Direction: Anouk BeckersGraphic design: Beau BertensResearch Assistant: Ilse Bloemendal and Zoe Philine PingelText: Femke de VriesPattern development: Tanja BindelsRelease date: Spring 2019Edition: 500Pages: 7 JOIN patternsColor: black & whitePrinter: Wilco Art BooksLanguage: English\
+Made possible by: Stimuleringsfonds Creative Industries, Amsterdams Fonds voor de KunstenProduction: Warehouse
 
 ![](/img/03_join-manual_photo_anouk-beckers.jpg)
 
