@@ -7,7 +7,8 @@ date: 2018-07-12T13:49:43.353Z
 ---
 ![PORTAL 002 Reader, 2018. ](/img/portal-002-.jpg "PORTAL 002 Reader, 2018. ")
 
-PORTAL 002  is the result of....... at.... with.....
+PORTAL 002  is the result of....... at.... with.....\
+For *PORTAL 002* Elisa van Joolen worked with visitors of *State of Fashion* in Arnhem to research the economic, social and emotional value of clothing. The collected data is visualized and brought together in a reader designed by Beau Bertens.
 
 *PORTAL* is a research project that explores the economic, social and emotional value of clothingand offers a ‘way in’ to understanding garments from a multitude of overlapping and intersecting perspectives.\
 For every edition, participants are asked to take off a garment, lay it down on a large Tyvek sheet, outline their garment with tape and answer a series of questions regarding its production (Where was it made?), materials (What is it made of?), ownership (Is it yours?) and value (How much did it cost? What is the emotional value?). Subsequently connections are made between the garments by literally drawing lines between the items of the various visitors, creating a network that reveals connections between and intersections of personal, economic, social, cultural and political realms surfacing a complex and layered system of the reality of clothing.This culminates in a map, or landscape of personal stories that connect to form a fashion network whichinverts our gaze, shining a spotlight on the intricacies of our own outfits and extraordinary aspects of the everyday as opposed to the myth of the exclusive fashion image. *PORTAL* thus provides an entryway to a vision that begins to prioritise values that are ephemeral and yet integral in “influencing hearts and minds and shaping the way we live together”. It captures and visualises information that circumvents established hierarchies and disrupts the homogeneity of the commercially driven fashion system with the refreshing diversity of fashion that is worn; embodied and imperfect.\
@@ -33,8 +34,6 @@ Text editing: Ruby Hoette\
 Made possible by: State of fashion 2018\
 Production: Warehouse\
 Production assistant: Anouk Beckers and Marina Sasseron
-
-
 
 ![](/img/02_portal002_photo_anoukbeckers.jpg)
 
