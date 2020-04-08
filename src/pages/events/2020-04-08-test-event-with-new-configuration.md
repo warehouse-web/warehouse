@@ -7,6 +7,9 @@ content:
     caption: IMAGE TITLE TEST
   - type: text
     body: Body TYPES
+  - type: images
+    image: /img/01_200sisterssouvenirs_2018©roberthamacher.jpg
+    caption: Title Image Underneath
 location: Amsterdam
 date: 2020-04-08T06:26:16.655Z
 ---
