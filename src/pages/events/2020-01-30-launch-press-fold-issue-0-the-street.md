@@ -5,15 +5,11 @@ title: 'Launch Press & Fold Issue #0 | The Street'
 location: 'Schoon den Boer, Amsterdam'
 date: 2018-02-23T16:00:00.000Z
 ---
-![Press & Fold Issue #0 | The Street, limited edition cover by Elisa Van Joolen ](/img/press-fold-x-ah_limitededition_warehouse2018-copy.jpg "Press & Fold Issue #0 | The Street, limited edition cover by Elisa Van Joolen ")
-
-A conversation with Hanka van der Voet, Beau Bertens, Hendrickje Schimmel (Tenant of Culture), Anouk Beckers, Elisa van Joolen and Femke de Vries.
-
-Installation by Tenant of Culture.
-
-
+![Press & Fold Issue #0 | The Street, limited edition cover by Elisa van Joolen](/img/press-fold-x-ah_limitededition_warehouse2018-copy.jpg "Press & Fold Issue #0 | The Street, limited edition cover by Elisa van Joolen")
 
 ![Installation view of work by Tenant of Culture. Photography: Beau Bertens.](/img/2018_pf_launch-tenant-of-culture_06-copy.jpg "Installation view of work by Tenant of Culture. Photography: Beau Bertens.")
+
+A conversation with Hanka van der Voet, Beau Bertens, Hendrickje Schimmel (Tenant of Culture), Anouk Beckers, Elisa van Joolen and Femke de Vries. Installation by Tenant of Culture.
 
 *Press & Fold* is a new independent fashion magazine that aims to explore alternative fashion forms and narratives. The bi-annual magazine provides a platform for critical fashion practitioners who do not obey the rules the fashion system is currently dictating.
 
@@ -26,7 +22,5 @@ For its inaugural issue, *Press & Fold* reflects on the relation between fashion
 *Press & Fold | Notes on making and doing fashion* is initiated by Hanka van der Voet in collaboration with art director and graphic designer Beau Bertens. The magazine is a collaborative research project that connects critical fashion practitioners from all over the world. It will be available from 24 February onwards at selected retailers and online at pressandfoldmagazine.com.
 
 ![](/img/2018_pf_launch-tenant-of-culture_07a-copy.jpg)
-
-
 
 ![Installation view of work by Tenant of Culture. Photography: Beau Bertens.](/img/2018_pf_launch-tenant-of-culture_01a-copy.jpg "Installation view of work by Tenant of Culture. Photography: Beau Bertens.")
