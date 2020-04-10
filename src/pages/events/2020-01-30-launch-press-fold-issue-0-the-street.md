@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 warehouseID: 'WAREHOUSE #2.1'
-title: 'Launch Press & Fold Issue #0 | The Street'
+title: 'Launch Press & Fold Issue #0 | The Street Issue'
 location: 'Schoon den Boer, Amsterdam'
 date: 2018-02-23T16:00:00.000Z
 ---
