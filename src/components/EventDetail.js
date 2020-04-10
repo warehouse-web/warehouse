@@ -9,25 +9,25 @@ const EventDetail = ({
 	onSetActiveEvent,
 	onSetShowEventDetail,
 	renderHtmlToReact,
-	warehouseID,
 	title,
 	body,
 	location,
-	date
+	date,
+	image
 }) => {
+	console.log("activeEvent:", activeEvent);
+	const { frontmatter: post } = activeEvent;
+	console.log("post:", post);
+
 	return (
 		<div className={`article-detail ${match ? `mobile` : ``}`}>
 			<CloseButton
 				onSetActiveEvent={onSetActiveEvent}
 				onSetShowEventDetail={onSetShowEventDetail}
 			/>
-			<p className="article-ID">
-				{activeEvent
-					? activeEvent.frontmatter.warehouseID
-					: warehouseID
-					? warehouseID
-					: ""}
-			</p>
+			{console.log("activeEvent:", activeEvent)}
+
+			<img src={image} alt="" />
 			<h2 className="article-detail-title">
 				{activeEvent
 					? activeEvent.frontmatter.title
@@ -35,6 +35,22 @@ const EventDetail = ({
 					? title
 					: ""}
 			</h2>
+			<section className="newCMS">
+				{post.content
+					? post.content.map(el => {
+							console.log("el:", el);
+							if (el.type === "images") {
+								{
+									console.log("shoud render image");
+								}
+								return <img src={el.image} alt="" />;
+								// el.caption ? <p>el.caption</p> : "";
+							} else {
+								return <p>{el.body}</p>;
+							}
+					  })
+					: ""}
+			</section>
 			<section className="content">
 				{activeEvent ? (
 					renderHtmlToReact(activeEvent.htmlAst)

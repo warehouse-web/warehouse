@@ -12,7 +12,6 @@ export const ProductPageTemplate = ({
 	content,
 	contentComponent,
 	title,
-	warehouseID,
 	helmet,
 	author
 }) => {
@@ -22,15 +21,6 @@ export const ProductPageTemplate = ({
 		<div className="event-detail">
 			{helmet || ""}
 
-			<p
-				style={{
-					fontSize: ".7rem",
-					fontFamily: "Arial, Helvetica, sans-serif",
-					textAlign: "center"
-				}}
-			>
-				{warehouseID}
-			</p>
 			<h2
 				style={{
 					textAlign: "center",
@@ -70,7 +60,6 @@ const Product = ({ data }) => {
 		<Layout>
 			<ShopRoll />
 			<ProductPageTemplate
-				warehouseID={post.frontmatter.warehouseID}
 				title={post.frontmatter.title}
 				content={post.htmlAst}
 				contentComponent={HTMLContent}
@@ -80,7 +69,6 @@ const Product = ({ data }) => {
 			{/* <ProductPageTemplate
 				content={post.html}
 				contentComponent={HTMLContent}
-				warehouseID={post.frontmatter.warehouseID}
 				date={post.frontmatter.date}
 				title={post.frontmatter.title}
 				author={post.frontmatter.author}
@@ -104,7 +92,6 @@ export const pageQuery = graphql`
 			htmlAst
 			frontmatter {
 				title
-				warehouseID
 				date(formatString: "MMMM DD, YYYY")
 				author
 			}

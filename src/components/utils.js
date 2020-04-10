@@ -131,7 +131,6 @@ export const isDateBeforeToday = post => {
 };
 
 export const renderHtmlToReact = node => {
-	console.log("node:", node);
 	return hastToHyperscript(React.createElement, node);
 };
 

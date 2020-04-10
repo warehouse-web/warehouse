@@ -6,42 +6,59 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "event"
-    label: "Event"
-    folder: "src/pages/events"
+  - name: event
+    identifier_field: title
+    label: Event
+    folder: src/pages/events
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {
-          label: "Template Key",
-          name: "templateKey",
-          widget: "hidden",
-          default: "event-post",
-        }
-      - {
-          label: "Warehouse Number",
-          name: "warehouseID",
-          widget: "string",
-          default: "WAREHOUSE #",
-          hint: "For example WAREHOUSE #3.5",
-        }
-      - { label: "Event Name", name: "title", widget: "string" }
-      - {
-          label: "Body",
-          name: "body",
-          widget: "markdown",
-          buttons:
-            [
-              "bold",
-              "italic",
-              "link",
-              "heading-one",
-              "heading-two",
-              "bulleted-list",
-            ],
-        }
-      - { label: "Event Location", name: "location", widget: "string" }
-      - { label: "Event Date", name: "date", widget: "datetime" }
+      - label: Template Key
+        name: templateKey
+        widget: hidden
+        default: event-post
+      - label: Event Name
+        name: title
+        widget: text
+      - label: Content
+        name: content
+        widget: list
+        types:
+          - label: Images
+            name: images
+            widget: object
+            fields:
+              - label: Image
+                name: image
+                required: false
+                widget: image
+              - label: Caption
+                name: caption
+                required: false
+                widget: markdown
+          - label: Text
+            name: text
+            widget: markdown
+            fields:
+              - label: Body
+                name: body
+                required: false
+                widget: markdown
+                buttons:
+                  [
+                    "bold",
+                    "italic",
+                    "link",
+                    "heading-one",
+                    "heading-two",
+                    "bulleted-list",
+                  ]
+      - label: Event Location
+        name: location
+        widget: text
+      - label: Event Date
+        name: date
+        widget: datetime
   - name: "podcast"
     identifier_field: name
     label: "Podcast"
@@ -54,13 +71,6 @@ collections:
           name: "templateKey",
           widget: "hidden",
           default: "podcast-page",
-        }
-      - {
-          label: "Warehouse Number",
-          name: "warehouseID",
-          widget: "string",
-          default: "WAREHOUSE #",
-          hint: "For example WAREHOUSE #3.5",
         }
       - { label: "Podcast Name", name: "title", widget: "string" }
       - {
@@ -82,13 +92,6 @@ collections:
           name: "templateKey",
           widget: "hidden",
           default: "product-page",
-        }
-      - {
-          label: "Warehouse Number",
-          name: "warehouseID",
-          widget: "string",
-          default: "WAREHOUSE #",
-          hint: "For example WAREHOUSE #3.5",
         }
       - { label: "Product Name", name: "title", widget: "string" }
       - {
@@ -117,11 +120,6 @@ collections:
         name: "templateKey"
         widget: "hidden"
         default: "focus-page"
-      - label: "Warehouse Number"
-        name: "warehouseID"
-        widget: "string"
-        default: "WAREHOUSE #"
-        hint: "For example WAREHOUSE #3.5"
       - label: "Article Title"
         name: "title"
         widget: "string"
@@ -143,6 +141,7 @@ collections:
               "bulleted-list",
             ],
         }
+      - { label: "Image", name: "image", widget: "image" }
       - { label: "Date Added", name: "date", widget: "datetime" }
   - name: "about"
     label: "About"

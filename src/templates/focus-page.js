@@ -12,7 +12,6 @@ export const FocusPageTemplate = ({
 	content,
 	contentComponent,
 	title,
-	warehouseID,
 	helmet
 }) => {
 	const PostContent = contentComponent || Content;
@@ -20,15 +19,7 @@ export const FocusPageTemplate = ({
 	return (
 		<div className="event-detail">
 			{helmet || ""}
-			<p
-				style={{
-					fontSize: ".7rem",
-					fontFamily: "Arial, Helvetica, sans-serif",
-					textAlign: "center"
-				}}
-			>
-				{warehouseID}
-			</p>
+
 			<h2
 				style={{
 					textAlign: "center",
@@ -69,7 +60,6 @@ const FocusPage = ({ data }) => {
 			<FocusPageTemplate
 				content={post.html}
 				contentComponent={HTMLContent}
-				warehouseID={post.frontmatter.warehouseID}
 				title={post.frontmatter.title}
 			/>
 		</Layout>
@@ -90,7 +80,6 @@ export const pageQuery = graphql`
 			id
 			html
 			frontmatter {
-				warehouseID
 				title
 				location
 				date(formatString: "MMMM DD, YYYY")

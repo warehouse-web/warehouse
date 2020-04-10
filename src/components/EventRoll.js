@@ -14,7 +14,11 @@ import {
 } from "./utils";
 import EventDetail from "./EventDetail";
 
-const EventRoll = ({ data }) => {
+const EventRoll = ({
+	data: {
+		allMarkdownRemark: { edges: posts }
+	}
+}) => {
 	const [activeEvent, setActiveEvent] = useState(false);
 	const [showEventDetail, setShowEventDetail] = useState(false);
 	const openEvent = event => {
@@ -26,7 +30,6 @@ const EventRoll = ({ data }) => {
 			);
 
 		setActiveEvent(event);
-		console.log("event:", event);
 
 		setShowEventDetail(true);
 	};
@@ -58,11 +61,11 @@ const EventRoll = ({ data }) => {
 			: setDivStyle({ backgroundColor: "white" });
 	}, []);
 
-	const { edges: posts } = data.allMarkdownRemark;
 	const match = useMedia("(max-width: 900px) ");
 	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
 	const size = useWindowSize();
 
+	// when we open the website so that we are in the right post
 	useEffect(() => {
 		posts &&
 			posts.map(post => {
@@ -162,11 +165,16 @@ export default () => (
 								slug
 							}
 							frontmatter {
-								warehouseID
 								title
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
 								location
+								content {
+									type
+									image
+									caption
+									body
+								}
 							}
 						}
 					}

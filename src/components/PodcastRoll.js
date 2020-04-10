@@ -25,7 +25,7 @@ const PodcastRoll = ({ data }) => {
 				} )`
 			});
 		} else {
-			setDivStyle({backgroundColor: "black"})
+			setDivStyle({ backgroundColor: "black" });
 		}
 	};
 
@@ -119,9 +119,7 @@ const PodcastRoll = ({ data }) => {
 							<span></span>
 							<span></span>
 						</div>
-						<p className="article-ID">
-							{activePodcast.frontmatter.warehouseID}
-						</p>
+
 						<h2 className="article-detail-title">
 							{activePodcast.frontmatter.title}
 						</h2>
@@ -168,7 +166,6 @@ export default () => (
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
 								location
-								warehouseID
 							}
 						}
 					}

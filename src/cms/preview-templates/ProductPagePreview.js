@@ -8,7 +8,6 @@ const ProductPagePreview = ({ entry, widgetFor }) => {
 		<ProductPageTemplate
 			content={widgetFor("body")}
 			title={entry.getIn(["data", "title"])}
-			warehouseID={entry.getIn(["data", "warehouseID"])}
 		/>
 	);
 };

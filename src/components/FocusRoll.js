@@ -120,9 +120,7 @@ const FocusRoll = ({ data }) => {
 							<span></span>
 							<span></span>
 						</div>
-						<p className="article-ID">
-							{activeFocus.frontmatter.warehouseID}
-						</p>
+
 						<h2 className="article-detail-title">
 							{activeFocus.frontmatter.title}
 						</h2>
@@ -178,7 +176,6 @@ export default () => (
 								slug
 							}
 							frontmatter {
-								warehouseID
 								title
 								PDF {
 									publicURL

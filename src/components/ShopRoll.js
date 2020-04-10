@@ -117,9 +117,6 @@ const ShopRoll = ({ data }) => {
 							<span></span>
 							<span></span>
 						</div>
-						<p className="article-ID">
-							{activeProduct.frontmatter.warehouseID}
-						</p>
 
 						<h2 className="article-detail-title">
 							{activeProduct.frontmatter.title}
@@ -174,7 +171,6 @@ export default () => (
 								slug
 							}
 							frontmatter {
-								warehouseID
 								title
 								author
 								templateKey

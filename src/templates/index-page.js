@@ -148,9 +148,7 @@ export const IndexPage = ({ data }) => {
 							<span></span>
 							<span></span>
 						</div>
-						<p className="article-ID">
-							{activeEvent.event.frontmatter.warehouseID}
-						</p>
+
 						<h2 className="article-detail-title">
 							{activeEvent.event.frontmatter.title}
 						</h2>
@@ -199,7 +197,6 @@ export default () => (
 								slug
 							}
 							frontmatter {
-								warehouseID
 								title
 								templateKey
 								date(formatString: "MMMM DD, YYYY")

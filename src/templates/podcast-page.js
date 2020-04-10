@@ -10,26 +10,16 @@ import PodcastRoll from "../components/PodcastRoll";
 export const PodcastTemplate = ({
 	content,
 	contentComponent,
-	// tags,
 	date,
 	title,
-	helmet,
-	warehouseID
+	helmet
 }) => {
 	const PostContent = contentComponent || Content;
 
 	return (
 		<div className="event-detail">
 			{helmet || ""}
-			<p
-				style={{
-					fontSize: ".7rem",
-					fontFamily: "Arial, Helvetica, sans-serif",
-					textAlign: "center"
-				}}
-			>
-				{warehouseID}
-			</p>
+
 			<h2
 				style={{
 					textAlign: "center",
@@ -63,16 +53,6 @@ const Podcast = data => {
 	return (
 		<Layout>
 			<PodcastRoll />
-			{/* <PodcastTemplate
-				content={data.content}
-				warehouseID={data.warehouseID}
-				helmet={
-					<Helmet titleTemplate="%s | Podcast">
-						<title>{`${data.title}`}</title>
-					</Helmet>
-				}
-				title={data.title}
-			/> */}
 		</Layout>
 	);
 };
@@ -93,7 +73,6 @@ export const podcastQuery = graphql`
 			frontmatter {
 				date(formatString: "MMMM DD, YYYY")
 				title
-				warehouseID
 			}
 		}
 	}

@@ -1,5 +1,5 @@
 import CMS from "netlify-cms-app";
-
+import React from "react";
 import AboutPagePreview from "./preview-templates/AboutPagePreview";
 import ProductPagePreview from "./preview-templates/ProductPagePreview";
 import EventPostPreview from "./preview-templates/EventPostPreview";
