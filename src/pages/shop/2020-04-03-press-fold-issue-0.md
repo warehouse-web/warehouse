@@ -1,22 +1,18 @@
 ---
 templateKey: product-page
 warehouseID: 'WAREHOUSE #78'
-title: Press & Fold Issue 0
-author: 'Hanka van der Voet ed. '
+title: 'Press & Fold Issue #0 | The Street Issue'
+author: Hanka van der Voet (ed.)
 date: 2018-03-13T15:12:10.022Z
 ---
-![](/img/press_and_fold-cover_issue-1_the-street.jpg)
+![Press & Fold Issue #0 | The Street Issue (2018)](/img/press_and_fold-cover_issue-1_the-street.jpg "Press & Fold Issue #0 | The Street Issue (2018)")
 
+![Contribution by Laura Gardner.](/img/press_and_fold_issue-1_the-street_laura.jpg "Contribution by Laura Gardner.")
 
+![Contribution by Tenant of Culture](/img/press_and_fold_issue-1_the-street_tenant.jpg "Contribution by Tenant of Culture")
 
-![Contribution Laura](/img/press_and_fold_issue-1_the-street_laura.jpg "Contribution Laura")
+![Contribution by Camiel Fortgens](/img/press_and_fold_issue-1_the-street_camiel.jpg "Contribution by Camiel Fortgens")
 
-![Contribution Tenant of Culture](/img/press_and_fold_issue-1_the-street_tenant.jpg "Contribution Tenant of Culture")
+![Contribution by Duran Lantink.](/img/press_and_fold_issue-1_the-street_duran3.jpg "Contribution by Duran Lantink.")
 
-
-
-![Contribution ](/img/press_and_fold_issue-1_the-street_camiel.jpg "Contribution Ruby Hoette ")
-
-![Contribution Duran ](/img/press_and_fold_issue-1_the-street_duran3.jpg "Contribution Duran ")
-
-![Contribution Ruby Hoette.  Photography: Anouk Beckers.](/img/03_press-fold0_photo_anouk-beckers.jpg "Contribution Ruby Hoette.  Photography: Anouk Beckers.")
+![Contribution by Ruby Hoette.  Photography: Anouk Beckers.](/img/03_press-fold0_photo_anouk-beckers.jpg "Contribution by Ruby Hoette.  Photography: Anouk Beckers.")
