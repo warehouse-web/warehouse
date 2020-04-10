@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 warehouseID: 'WAREHOUSE #3.6'
-title: 'JOIN Manual '
+title: JOIN Collective Clothes Manual
 author: Anouk Beckers
 date: 2019-06-26T16:04:03.454Z
 ---
