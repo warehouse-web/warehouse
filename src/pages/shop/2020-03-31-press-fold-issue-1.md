@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 warehouseID: 'WAREHOUSE #'
-title: 'Press & Fold Issue #1'
+title: 'Press & Fold Issue #1 | The Luxury Issue'
 author: Hanka van der Voet (ed.)
 date: 2020-03-31T13:29:06.710Z
 ---
