@@ -64,11 +64,20 @@ const EventDetail = ({
 								return (
 									<>
 										<img src={getAsset(el.image)} alt="" />
-										<p>{el.caption}</p>
+										<p className="caption">{el.caption}</p>
 									</>
 								);
 							} else if (el.type === "text") {
-								return <p className="bodyText">{el.body}</p>;
+								return (
+									<>
+										<p className="bodyText">
+											<ReactMarkdown
+												escapeHtml={false}
+												source={el.body}
+											/>
+										</p>
+									</>
+								);
 							}
 					  })}
 			</section>
