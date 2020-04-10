@@ -16,8 +16,21 @@ Beside participating by downloading or buying the manual the project consists of
 \
 Initiator Anouk Beckers on *JOIN Collective Clothes*: “What if we open up the fashion system and explore it as a non-fixed entity, a system where people can playfully join in, where everyone is invited to create fashion together?”\
 \
-Type: hard cover folder with loose JOIN patternsDimensions: 225 mm x 178 mm x 20 mm portraitArt Direction: Anouk BeckersGraphic design: Beau BertensResearch Assistant: Ilse Bloemendal and Zoe Philine PingelText: Femke de VriesPattern development: Tanja BindelsRelease date: Spring 2019Edition: 500Pages: 7 JOIN patternsColor: black & whitePrinter: Wilco Art BooksLanguage: English\
-Made possible by: Stimuleringsfonds Creative Industries, Amsterdams Fonds voor de KunstenProduction: Warehouse
+Type: hard cover folder with loose JOIN patterns\
+Dimensions: 225 mm x 178 mm x 20 mm portrait\
+Art Direction: Anouk Beckers\
+Graphic design: Beau Bertens\
+Research Assistant: Ilse Bloemendal and Zoe Philine Pingel\
+Text: Femke de Vries\
+Pattern development: Tanja BindelsRelease \
+Date: Spring 2019\
+Edition: 500\
+Pages: 7 JOIN patterns\
+Color: black & white \
+Printer: Wilco Art Books\
+Language: English\
+Made possible by: Stimuleringsfonds Creative Industries, Amsterdams Fonds voor de Kunsten\
+Production: Warehouse
 
 ![](/img/03_join-manual_photo_anouk-beckers.jpg)
 
