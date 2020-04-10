@@ -3,10 +3,10 @@ templateKey: product-page
 warehouseID: 'Warehouse #3.6'
 title: A Magazine Reader 03
 author: >-
-  Femke de Vries, Hanka van der voet, Zuzana Kostelanska (ed.s). With: Hanka van
+  Femke de Vries, Hanka van der Voet, Zuzana Kostelanska (eds.). With: Hanka van
   der Voet, Femke de Vries and workshop participants: Sophia Grancharova,
   Patricia Nahorniac, Rebecca Nevins, Marco Dalle Fratte, Xi Ruolan, Abhaya
-  Mistry, Seok Park, Isabelle Mauduit and Ellen Pearson
+  Mistry, Seok Park, Isabelle Mauduit and Ellen Pearson.
 date: 2019-12-04T09:53:52.068Z
 ---
 ![](/img/1.jpg)
@@ -39,10 +39,10 @@ Production by: Joannette van der Veer for Onomatopee. With support by Seok Park,
 
 15 EUR
 
-![Contribution by XXXXX](/img/a-magazine-reader-03-by-marco-dalle-fratte.jpg "Contribution by XXXXX")
+![Contribution by Marco Dalle Fratte](/img/a-magazine-reader-03-by-marco-dalle-fratte.jpg "Contribution by Marco Dalle Fratte")
 
-![Contribution by XXXXX](/img/a-magazine-reader-03-by-femke-de-vries-02.jpg "Contribution by XXXXX")
+![Contribution by Femke de Vries](/img/a-magazine-reader-03-by-femke-de-vries-02.jpg "Contribution by Femke de Vries")
 
-![Contribution by XXXXX](/img/a-magazine-reader-03-by-seok-park.jpg "Contribution by XXXXX")
+![Contribution by Seok Park](/img/a-magazine-reader-03-by-seok-park.jpg "Contribution by Seok Park")
 
-![](/img/01_a-magazine-reader-03_photo_anoukbeckers.jpg)
+![Contribution by Rebecca Nevins and Hanka van der Voet. Photography: Anouk Beckers](/img/01_a-magazine-reader-03_photo_anoukbeckers.jpg "Contribution by Rebecca Nevins and Hanka van der Voet. Photography: Anouk Beckers")
