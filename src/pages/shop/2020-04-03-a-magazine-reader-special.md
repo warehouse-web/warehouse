@@ -5,7 +5,7 @@ title: A Magazine Reader Invites 01
 author: Femke de Vries & Hanka van der Voet (eds.) & Zuzana Kostelanská
 date: 2019-12-03T15:19:00.791Z
 ---
-![A Magazine Reader Invites 01 with Zuzana Kostelanská. Photography: Anouk Beckers.](/img/04_a-magazine-reader-special_photo_anoukbeckers.jpg "A Magazine Reader Invites 01 with Zuzana Kostelanská. Photography: Anouk Beckers.")
+![A Magazine Reader Invites 01 with Zuzana Kostelanská (2019). Photography: Anouk Beckers.](/img/04_a-magazine-reader-special_photo_anoukbeckers.jpg "A Magazine Reader Invites 01 with Zuzana Kostelanská (2019). Photography: Anouk Beckers.")
 
 In *A Magazine Reader Invites 01*, Zuzana Kostelanská folds a complete fashion magazine into a new object. The fold shifts our perspective, cuts pages in half and re-arranges the order of the pages changing our way of reading. In *A Magazine Reader Invites* an artist/thinker/designer is invited to re-read a fashion magazine. Every edition includes a conversation with the maker about the approach of re-reading the magazine.
 
@@ -26,6 +26,6 @@ Color: full color\
 Text editing: Femke de Vries and Hanka van der Voet\
 Production: Warehouse
 
-![A Magazine Reader Invites 01 with Zuzana Kostelanská. Photography: Anouk Beckers.](/img/03_a-magazine-reader-special_photo_anoukbeckers.jpg "A Magazine Reader Invites 01 with Zuzana Kostelanská. Photography: Anouk Beckers.")
+![](/img/03_a-magazine-reader-special_photo_anoukbeckers.jpg)
 
 ![A Magazine Reader Invites 01 with Zuzana Kostelanská. Photography: Anouk Beckers.](/img/02_a-magazine-reader-special_photo_anoukbeckers.jpg "A Magazine Reader Invites 01 with Zuzana Kostelanská. Photography: Anouk Beckers.")
