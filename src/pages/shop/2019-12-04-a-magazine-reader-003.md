@@ -20,7 +20,7 @@ Type: softcover\
 Dimensions: 210 mm x 155 mm portrait\
 Pages: 140\
 Art Direction: Femke de Vries and Hanka van der Voet\
-Authors: Sophia Grancharova, Hanka van der Voet, Patricia Nahorniac, Rebecca Nevins, Marco Dalle Fratte, Xi Ruolan, Abhaya Mistry, Seok Park, Isabelle Mauduit and Ellen Pearson andFemke de Vries, Hanka van der Voet.\
+Authors: Sophia Grancharova, Hanka van der Voet, Patricia Nahorniac, Rebecca Nevins, Marco Dalle Fratte, Xi Ruolan, Abhaya Mistry, Seok Park, Isabelle Mauduit and Ellen Pearson, Femke de Vries and  Hanka van der Voet\
 Graphic design: Zuzana Kostelanská\
 Release date: October 2019\
 Binding: elastic band\
