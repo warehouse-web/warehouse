@@ -7,8 +7,6 @@ date: 2018-07-12T13:49:43.353Z
 ---
 ![PORTAL 002 Reader (2018)](/img/portal-002-.jpg "PORTAL 002 Reader (2018)")
 
-
-
 PORTAL 002 Reader is the result of a workshop during the *State of Fashion* in Arnhem in which the  the economic, social and emotional value of clothing worn by visitors of the exhibition, is collected and researched. The collected data is visualized and brought together in a reader designed by Beau Bertens.
 
 *PORTAL* is a research project that explores the economic, social and emotional value of clothingand offers a ‘way in’ to understanding garments from a multitude of overlapping and intersecting perspectives.\
@@ -34,7 +32,7 @@ Color: Black, pink and red – riso printed\
 Printer: Raddraaier\
 Language: English\
 Text editing: Ruby Hoette\
-Made possible by: State of fashion 2018\
+Made possible by: State of Fashion 2018\
 Production: Warehouse\
 Production assistant: Anouk Beckers and Marina Sasseron
 
