@@ -7,7 +7,7 @@ date: 2019-10-16T19:38:23.211Z
 ---
 ![PORTAL 004 | Exercise and Coloring Book (2019). Photography: Anouk. Beckers.](/img/03_portal004_photo_anoukbeckers.jpg "PORTAL 004 | Exercise and Coloring Book (2019). Photography: Anouk. Beckers.")
 
-PORTAL 004  - exercise and coloring book is the result of....... at.... with.....
+PORTAL 004  - exercise and coloring book for children is the result of PORTAL 004,  a workshop in which children from the public primary school OBS Twiske, under the supervision of students of the MA Fashion Strategy at ArtEZ, investigated the different values of clothing. In this book, which is based on the questions and outcoms of this workshop, children can actively learn more about their clothing and the different values attached to it. In this way they become more aware of how to deal with the value of clothing.
 
 \
 *PORTAL* is a research project that explores the economic, social and emotional value of clothingand offers a ‘way in’ to understanding garments from a multitude of overlapping and intersecting perspectives.\
