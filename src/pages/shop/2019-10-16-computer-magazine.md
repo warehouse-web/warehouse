@@ -2,10 +2,10 @@
 templateKey: product-page
 warehouseID: 'WAREHOUSE #10.5'
 title: 'PORTAL 004 | Exercise and Coloring Book '
-author: 'Elisa van Joolen '
+author: Elisa van Joolen (ed.)
 date: 2019-10-16T19:38:23.211Z
 ---
-![PORTAL 004 | Exercise and Coloring Book. Elisa van Joolen. Photography: Anouk. Beckers.](/img/03_portal004_photo_anoukbeckers.jpg "PORTAL 004 | Exercise and Coloring Book. Photography: Anouk. Beckers.")
+![PORTAL 004 | Exercise and Coloring Book (2019). Photography: Anouk. Beckers.](/img/03_portal004_photo_anoukbeckers.jpg "PORTAL 004 | Exercise and Coloring Book (2019). Photography: Anouk. Beckers.")
 
 PORTAL 004  - exercise and coloring book is the result of....... at.... with.....
 
@@ -43,7 +43,7 @@ Production assistant: Anouk Beckers
 
 ![](/img/09_portal004_photo_anoukbeckers.jpg)
 
-![PORTAL 004 | Exercise and Coloring Book. Photography: Anouk Beckers.](/img/06_portal004_photo_anoukbeckers.jpg "PORTAL 004 | Exercise and Coloring Book. Photography: Anouk Beckers.")
+![PORTAL 004 | Exercise and Coloring Book (2019). Photography: Anouk. Beckers.](/img/06_portal004_photo_anoukbeckers.jpg "PORTAL 004 | Exercise and Coloring Book (2019). Photography: Anouk. Beckers.")
 
 TEXTTTTT \
 khbvsbvsdoqwjbkds .cnDLs/jbk\
