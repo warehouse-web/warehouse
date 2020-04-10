@@ -352,7 +352,23 @@ a.navbar-item:hover {
   font-size: 1.15em;
   line-height: 1.35;
 }
+.bodyText {
+  font-size: 1.15em;
+  line-height: 1.35;
+  font-family: "BradfordLLWeb-Book", "Times New Roman", Times, serif;
+  color: black;
+}
 
+.caption {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-family: "BradfordLLWeb-Book", "Times New Roman", Times, serif;
+}
+
+.gatsby-image-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
 .gatsby-resp-image-wrapper {
   width: 80%;
   /* margin-bottom: 1.8rem; */

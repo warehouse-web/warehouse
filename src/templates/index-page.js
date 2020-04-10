@@ -12,6 +12,7 @@ import {
 	useWindowSize,
 	useMedia
 } from "../components/utils";
+import EventDetail from "../components/EventDetail";
 
 export const IndexPageTemplate = ({ data }) => {
 	return (
@@ -24,7 +25,7 @@ IndexPageTemplate.propTypes = {
 	image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
 	title: PropTypes.string
 };
-
+// MAIN PAGE LOADS EVERYTHING
 export const IndexPage = ({ data }) => {
 	const match = useMedia("(max-width: 900px) ");
 	const { edges: posts } = data.allMarkdownRemark;
@@ -69,7 +70,10 @@ export const IndexPage = ({ data }) => {
 	}, []);
 
 	const openEvent = event => {
+		console.log("event:", event);
+
 		event &&
+			event.frontmatter &&
 			window.history.pushState(
 				{ page: 1 },
 				event.frontmatter.title,
@@ -137,26 +141,13 @@ export const IndexPage = ({ data }) => {
 						})}
 				</div>
 				{showEventDetail && (
-					<div className={`article-detail ${match ? `mobile` : ``}`}>
-						<div
-							className="close"
-							onClick={() => {
-								setActiveEvent({});
-								setShowEventDetail(false);
-							}}
-						>
-							<span></span>
-							<span></span>
-						</div>
-
-						<h2 className="article-detail-title">
-							{activeEvent.event.frontmatter.title}
-						</h2>
-
-						<section className="content">
-							{renderHtmlToReact(activeEvent.event.htmlAst)}
-						</section>
-					</div>
+					<EventDetail
+						match={match}
+						activeEvent={activeEvent.event}
+						onSetActiveEvent={setActiveEvent}
+						onSetShowEventDetail={setShowEventDetail}
+						renderHtmlToReact={renderHtmlToReact}
+					/>
 				)}
 			</div>
 		</Layout>
@@ -201,6 +192,18 @@ export default () => (
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
 								location
+								content {
+									type
+									image {
+										childImageSharp {
+											fluid(maxWidth: 1440, quality: 90) {
+												...GatsbyImageSharpFluid_withWebp
+											}
+										}
+									}
+									caption
+									body
+								}
 							}
 						}
 					}

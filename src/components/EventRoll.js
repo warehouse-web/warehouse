@@ -128,7 +128,7 @@ const EventRoll = ({
 				{showEventDetail && (
 					<EventDetail
 						match={match}
-						activeEvent={activeEvent}
+						activeEvent={activeEvent.event}
 						onSetActiveEvent={setActiveEvent}
 						onSetShowEventDetail={setShowEventDetail}
 						renderHtmlToReact={renderHtmlToReact}

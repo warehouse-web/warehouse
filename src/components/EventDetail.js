@@ -38,15 +38,17 @@ const EventDetail = ({
 			<section className="content">
 				{((activeEvent && activeEvent.frontmatter.content) || []).map(
 					el => {
-						if (el.type === "images" && el.caption) {
+						if (el.type === "images") {
 							return (
 								<>
 									<FluidImage image={el.image} />
-									<p>{el.caption}</p>
+									<p className="caption">
+										{el.caption ? el.caption : ""}
+									</p>
 								</>
 							);
 						} else {
-							return <p>{el.body}</p>;
+							return <p className="bodyText">{el.body}</p>;
 						}
 					}
 				)}
@@ -66,7 +68,7 @@ const EventDetail = ({
 									</>
 								);
 							} else if (el.type === "text") {
-								return <ReactMarkdown source={el.body} />;
+								return <p className="bodyText">{el.body}</p>;
 							}
 					  })}
 			</section>
