@@ -24,8 +24,8 @@ Text editing: Mel Campbell\
 Proofreaders: Laura Gardner and Chantal Kirby\
 Publisher: Surpllus
 
-![D&K Lookbook 2019 | All or Nothing. Photography: Anouk Beckers.](/img/06_d-k_mode-mode_photo_anoukbeckers.jpg "D&K Lookbook 2019 | All or Nothing. Photography: Anouk Beckers.")
+![](/img/06_d-k_mode-mode_photo_anoukbeckers.jpg)
 
-![D&K Lookbook 2019 | All or Nothing. Photography: Anouk Beckers.](/img/10_d-k_mode-mode_photo_anoukbeckers.jpg "D&K Lookbook 2019 | All or Nothing. Photography: Anouk Beckers.")
+![](/img/10_d-k_mode-mode_photo_anoukbeckers.jpg)
 
 ![D&K Lookbook 2019 | All or Nothing. Photography: Anouk Beckers.](/img/11_d-k_mode-mode_photo_anoukbeckers.jpg "D&K Lookbook 2019 | All or Nothing. Photography: Anouk Beckers.")
