@@ -15,10 +15,14 @@ const EventDetail = ({
 	location,
 	date,
 	image,
-	getAsset
+	getAsset,
+	articleRef
 }) => {
 	return (
-		<div className={`article-detail ${match ? `mobile` : ``}`}>
+		<div
+			ref={articleRef}
+			className={`article-detail ${match ? `mobile` : ``}`}
+		>
 			<CloseButton
 				onSetActiveEvent={onSetActiveEvent}
 				onSetShowEventDetail={onSetShowEventDetail}

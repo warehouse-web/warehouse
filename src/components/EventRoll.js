@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import "./main.css";
@@ -21,7 +21,13 @@ const EventRoll = ({
 }) => {
 	const [activeEvent, setActiveEvent] = useState(false);
 	const [showEventDetail, setShowEventDetail] = useState(false);
+	const articleRef = useRef();
 	const openEvent = event => {
+		const isClient = typeof window === "object";
+		if (isClient && articleRef.current) {
+			articleRef.current.scrollTo(0, 0);
+		}
+
 		event &&
 			window.history.pushState(
 				{ page: 1 },
@@ -132,6 +138,7 @@ const EventRoll = ({
 						onSetActiveEvent={setActiveEvent}
 						onSetShowEventDetail={setShowEventDetail}
 						renderHtmlToReact={renderHtmlToReact}
+						articleRef={articleRef}
 					/>
 				)}
 			</div>

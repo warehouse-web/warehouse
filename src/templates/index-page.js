@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import Layout from "../components/Layout";
@@ -35,6 +35,7 @@ export const IndexPage = ({ data }) => {
 	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
 	const size = useWindowSize();
 
+	const articleRef = useRef();
 	const renderImg = post => {
 		if (imagesFromAst(post.htmlAst)[0] !== undefined) {
 			setDivStyle({
@@ -70,7 +71,10 @@ export const IndexPage = ({ data }) => {
 	}, []);
 
 	const openEvent = event => {
-		console.log("event:", event);
+		const isClient = typeof window === "object";
+		if (isClient && articleRef.current) {
+			articleRef.current.scrollTo(0, 0);
+		}
 
 		event &&
 			event.frontmatter &&
@@ -147,6 +151,7 @@ export const IndexPage = ({ data }) => {
 						onSetActiveEvent={setActiveEvent}
 						onSetShowEventDetail={setShowEventDetail}
 						renderHtmlToReact={renderHtmlToReact}
+						articleRef={articleRef}
 					/>
 				)}
 			</div>
