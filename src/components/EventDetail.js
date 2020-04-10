@@ -2,6 +2,7 @@ import React from "react";
 import Img from "gatsby-image";
 import ReactMarkdown from "react-markdown";
 import CloseButton from "./CloseButton";
+import FluidImage from "./FluidImage";
 
 const EventDetail = ({
 	match,
@@ -10,24 +11,19 @@ const EventDetail = ({
 	onSetShowEventDetail,
 	renderHtmlToReact,
 	title,
-	body,
+	content,
 	location,
 	date,
-	image
+	image,
+	getAsset
 }) => {
-	console.log("activeEvent:", activeEvent);
-	const { frontmatter: post } = activeEvent;
-	console.log("post:", post);
-
 	return (
 		<div className={`article-detail ${match ? `mobile` : ``}`}>
 			<CloseButton
 				onSetActiveEvent={onSetActiveEvent}
 				onSetShowEventDetail={onSetShowEventDetail}
 			/>
-			{console.log("activeEvent:", activeEvent)}
 
-			<img src={image} alt="" />
 			<h2 className="article-detail-title">
 				{activeEvent
 					? activeEvent.frontmatter.title
@@ -35,30 +31,44 @@ const EventDetail = ({
 					? title
 					: ""}
 			</h2>
-			<section className="newCMS">
-				{post.content
-					? post.content.map(el => {
-							console.log("el:", el);
-							if (el.type === "images") {
-								{
-									console.log("shoud render image");
-								}
-								return <img src={el.image} alt="" />;
-								// el.caption ? <p>el.caption</p> : "";
-							} else {
-								return <p>{el.body}</p>;
-							}
-					  })
-					: ""}
+			{/* <img src={image} alt="" />
+			{image.map(el => {
+				<img src={el} alt="" />;
+			})} */}
+			<section className="content">
+				{((activeEvent && activeEvent.frontmatter.content) || []).map(
+					el => {
+						if (el.type === "images" && el.caption) {
+							return (
+								<>
+									<FluidImage image={el.image} />
+									<p>{el.caption}</p>
+								</>
+							);
+						} else {
+							return <p>{el.body}</p>;
+						}
+					}
+				)}
 			</section>
 			<section className="content">
-				{activeEvent ? (
-					renderHtmlToReact(activeEvent.htmlAst)
-				) : body ? (
-					<ReactMarkdown source={body} />
-				) : (
-					""
-				)}
+				{console.log("content:", content)}
+				{activeEvent
+					? renderHtmlToReact(activeEvent.htmlAst)
+					: (content || []).map(el => {
+							console.log("image:", image);
+							console.log("el:", el);
+							if (el.type === "images") {
+								return (
+									<>
+										<img src={getAsset(el.image)} alt="" />
+										<p>{el.caption}</p>
+									</>
+								);
+							} else if (el.type === "text") {
+								return <ReactMarkdown source={el.body} />;
+							}
+					  })}
 			</section>
 		</div>
 	);

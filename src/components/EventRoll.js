@@ -171,7 +171,13 @@ export default () => (
 								location
 								content {
 									type
-									image
+									image {
+										childImageSharp {
+											fluid(maxWidth: 1440, quality: 90) {
+												...GatsbyImageSharpFluid_withWebp
+											}
+										}
+									}
 									caption
 									body
 								}
