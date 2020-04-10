@@ -2,14 +2,10 @@
 templateKey: product-page
 warehouseID: 'Warehouse #3.6'
 title: A Magazine Reader 03
-author: >-
-  Femke de Vries, Hanka van der Voet, Zuzana Kostelanska (eds.). With: Hanka van
-  der Voet, Femke de Vries and workshop participants: Sophia Grancharova,
-  Patricia Nahorniac, Rebecca Nevins, Marco Dalle Fratte, Xi Ruolan, Abhaya
-  Mistry, Seok Park, Isabelle Mauduit and Ellen Pearson.
+author: Femke de Vries & Hanka van der Voet (eds.)
 date: 2019-12-04T09:53:52.068Z
 ---
-![](/img/1.jpg)
+![A Magazine Reader 03 (2019)](/img/1.jpg "A Magazine Reader 03 (2019)")
 
 A Magazine Reader 03 is a result of two-day workshop by Hanka van der Voet, Zuzana Kostelanská and Femke de Vries, hosted by Onomatopee in Eindhoven. In this version of *A Magazine Reader* we explore how every possible element; perfume, facial creams, rosemary water, travel suggestions, gadgets, books etcetera, is used to create stories and myths of a future reality. These 'stories' are composed of so much more than garments alone, and in such a way that the joints and seams are smoothed out, turning these stories into a reality, a truth. During this workshop we disconnect the elements, break the joints, cut the seams, unravel body parts and disconnect garments from bodies, from backgrounds, objects, animals and gadgets, with the aim to create space to critically explore the construct of fashion.\
 \

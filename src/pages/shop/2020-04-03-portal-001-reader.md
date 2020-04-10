@@ -38,7 +38,7 @@ Production assistant: Asu Aksu
 
 ![PORTAL 001 Reader (2018).](/img/01.jpg "PORTAL 001 Reader (2018).")
 
-![Contribution by Marina Sasseron](/img/portal001-_vanjoolen_9.jpg)
+![Contribution by Marina Sasseron de Cabral](/img/portal001-_vanjoolen_9.jpg "Contribution by Marina Sasseron de Cabral")
 
 ![PORTAL 001 Reader (2018). Photography: Anouk Beckers.](/img/02_portal001_photo_anoukbeckers.jpg "PORTAL 001 Reader (2018). Photography: Anouk Beckers.")
 
