@@ -37,6 +37,6 @@ Made possible by: State of fashion 2018\
 Production: Warehouse\
 Production assistant: Anouk Beckers and Marina Sasseron
 
-![PORTAL 002 Reader (2018). Photography: Anouk Beckers.](/img/02_portal002_photo_anoukbeckers.jpg "PORTAL 002 Reader (2018). Photography: Anouk Beckers.")
+![](/img/02_portal002_photo_anoukbeckers.jpg)
 
 ![PORTAL 002 Reader (2018). Photography: Anouk Beckers.](/img/03_portal002_photo_anoukbeckers.jpg "PORTAL 002 Reader (2018). Photography: Anouk Beckers.")
