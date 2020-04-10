@@ -2,14 +2,10 @@
 templateKey: product-page
 warehouseID: 'WAREHOUSE #'
 title: A Magazine Reader 02
-author: >-
-  Ruby Hoette, Chet Bugter and Femke de Vries with workshop participants -
-  students of MA Fashion Strategy Gen#28: Emma Disbergen, Laura Lisa Fernandes
-  Januario, Eva Kühn, Boris Kollar, Karlijn Krijger, Nicole Dekkers, Andrea
-  Chehade, Denise Bernts, Bobbine Berden, Mariane Cortez Meirelles.
+author: 'Femke de Vries, Ruby Hoette & Chet Bugter (eds.)'
 date: 2019-08-14T12:50:34.286Z
 ---
-![A Magazine Reader 02. Photography: Anouk Beckers. ](/img/02_a-magazine-reader-02_photo_anouk-beckers.jpg "A Magazine Reader 02. Photography: Anouk Beckers. ")
+![A Magazine Reader 02 (2019). Photography: Anouk Beckers. ](/img/02_a-magazine-reader-02_photo_anouk-beckers.jpg "A Magazine Reader 02 (2019). Photography: Anouk Beckers.")
 
 *A Magazine Reader 02* is the result of a workshop by Ruby Hoette, Chet Bugter and Femke de Vries at ArtEZ Fashion Masters in which the students of the MA Fashion Strategy generation #27 explore the role of text in fashion magazines and how it affects our relationship to fashion. In this case specifically the British Vogue, November 2018.
 
