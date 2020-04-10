@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 warehouseID: 'WAREHOUSE #76'
-title: 'Workshop JOIN '
+title: Workshop JOIN Collective Clothes
 location: 'Dordrecht Museum '
 date: 2019-03-01T15:28:47.018Z
 ---
