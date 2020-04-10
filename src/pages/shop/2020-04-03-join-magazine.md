@@ -5,7 +5,7 @@ title: 'JOIN Collective Conversation Magazine '
 author: 'Anouk Beckers, Chet Bugter, Femke de Vries & Hanka van der Voet (eds.)'
 date: 2019-11-20T14:41:57.026Z
 ---
-![JOIN Collective Conversation Magazine. Photography: Anouk Beckers. ](/img/03_join-magazine_photo_anouk-beckers.jpg " JOIN Collective Conversation Magazine. Photography: Anouk Beckers. ")
+![JOIN Collective Conversation Magazine (2019). Photography: Anouk Beckers.](/img/03_join-magazine_photo_anouk-beckers.jpg "JOIN Collective Conversation Magazine (2019). Photography: Anouk Beckers.")
 
 \
 The *JOIN Collective Conversation Magazine* is the result of a *JOIN Collective Clothes* workshop at MA Fashion Strategy (ArtEZ University of the Arts). During this workshop the students of generation #29 together explored topics such as ownership, identity, (intellectual) property, production methods, alienation, mystification and value creation and used the *JOIN Collective Clothes* manual to make a garment piece. At the end of the workshop the pieces were put together, photographed, reflected upon through text and brought together in this magazine.\
@@ -25,4 +25,4 @@ Type: softcoverDimensions: 210 mm x 297 mm portraitPages: 72Art Direction: Anouk
 
 ![Contribution by Eliza Lachkova, Julia Berg and Lu Lin. Photography: Anouk Beckers.](/img/08_join-magazine_photo_anouk-beckers.jpg "Contribution by Eliza Lachkova, Julia Berg and Lu Lin. Photography: Anouk Beckers.")
 
-![JOIN Collective Conversation Magazine. Photography: Anouk Beckers.](/img/02_join-magazine_photo_anouk-beckers.jpg "JOIN Collective Conversation Magazine. Photography: Anouk Beckers.")
+![JOIN Collective Conversation Magazine (2019). Photography: Anouk Beckers.](/img/02_join-magazine_photo_anouk-beckers.jpg "JOIN Collective Conversation Magazine (2019). Photography: Anouk Beckers.")
