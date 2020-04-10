@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 warehouseID: 'WAREHOUSE #90'
-title: 'Workshop JOIN '
+title: Workshop JOIN Collective Clothes
 location: 'Museum Arnhem '
 date: 2019-07-13T14:52:18.715Z
 ---

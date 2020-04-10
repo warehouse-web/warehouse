@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 warehouseID: 'WAREHOUSE #45'
-title: 'Workshop JOIN '
+title: Workshop JOIN Collective Clothes
 location: 'De Appel, Amsterdam '
 date: 2019-06-01T14:40:42.509Z
 ---

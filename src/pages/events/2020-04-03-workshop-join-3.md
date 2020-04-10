@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 warehouseID: 'WAREHOUSE #56'
-title: 'Workshop JOIN '
+title: Workshop JOIN Collective Clothes
 location: 'Capsicum, Amsterdam '
 date: 2019-07-07T14:47:19.135Z
 ---

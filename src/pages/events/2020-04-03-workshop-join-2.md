@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 warehouseID: 'WAREHOUSE #23'
-title: 'Workshop JOIN '
+title: Workshop JOIN Collective Clothes
 location: 'Fanfare, Amsterdam '
 date: 2019-10-03T14:43:40.524Z
 ---

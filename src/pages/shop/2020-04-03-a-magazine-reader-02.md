@@ -4,7 +4,7 @@ warehouseID: 'WAREHOUSE #'
 title: A Magazine Reader 02
 author: >-
   Ruby Hoette, Chet Bugter and Femke de Vries with workshop participants -
-  students of ArtEZ Fashion Masters Gen#28: Emma Disbergen, Laura Lisa Fernandes
+  students of MA Fashion Strategy Gen#28: Emma Disbergen, Laura Lisa Fernandes
   Januario, Eva Kühn, Boris Kollar, Karlijn Krijger, Nicole Dekkers, Andrea
   Chehade, Denise Bernts, Bobbine Berden, Mariane Cortez Meirelles.
 date: 2019-08-14T12:50:34.286Z
@@ -39,8 +39,8 @@ Text editing: Femke de Vries, Chet Bugter and Ruby Hoette\
 Made possible by: ArtEZ Fashion Masters, Fashion Strategy.\
 Production: Warehouse
 
-![Contribution XXXXX ](/img/a-magazine-reader-issue-02-denise-bernts-02.jpg "Contribution XXXXX ")
+![Contribution by Denise Bernts](/img/a-magazine-reader-issue-02-denise-bernts-02.jpg "Contribution by Denise Bernts")
 
-![Contribution  XXXX ](/img/a-magazine-reader-issue-02-introduction.jpg "Contribution  XXXX ")
+![Contribution by Femke de Vries and Ruby Hoette](/img/a-magazine-reader-issue-02-introduction.jpg "Contribution by Femke de Vries and Ruby Hoette")
 
-![Contribution  XXXX ](/img/a-magazine-reader-issue-02-boris-kollar-1.jpg "Contribution  XXXX ")
+![Contribution by Boris Kollar](/img/a-magazine-reader-issue-02-boris-kollar-1.jpg "Contribution by Boris Kollar")
