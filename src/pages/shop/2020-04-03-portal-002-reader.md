@@ -17,7 +17,8 @@ content:
 
       *PORTAL* is a research project that explores the economic, social and
       emotional value of clothingand offers a ‘way in’ to understanding garments
-      from a multitude of overlapping and intersecting perspectives.\
+      from a multitude of overlapping and intersecting perspectives.
+
 
       For every edition, participants are asked to take off a garment, lay it
       down on a large Tyvek sheet, outline their garment with tape and answer a
@@ -54,9 +55,51 @@ content:
       own it or borrow it? How do these shifting relationships to ownership
       change our interactions with a garment and perhaps more importantly how
       are our interactions and relationships with other people influenced
-      through the modes of transaction and exchange that are enabled by this?\
+      through the modes of transaction and exchange that are enabled by this?
 
-      \
+
+      Type: softcover with plastic sleeve<br/>
+
+      Dimensions: 210 mm x 297 mm portrait<br/>
+
+      Pages: 12<br/>
+
+      Art Direction: Elisa van Joolen<br/>
+
+      Text: Ruby Hoette<br/>
+
+      Photography: Anouk Beckers and Elisa van Joolen<br/>
+
+      Researchers: Anouk Beckers, Cleo Van Woensel, Emma De Meulenaer, Marina
+      Sasseron, Naomi Bruintjes, Rebecca Nevins, Stijn Pommée, Tjerre Bijker,
+      Tonya Sudiono<br/>
+
+      Graphic design: Beau Bertens<br/>
+
+      Release date: Spring 2018<br/>
+
+      Binding: staples<br/>
+
+      Edition: 100<br/>
+
+      Color: Black, pink and red – riso printed<br/>
+
+      Printer: Raddraaier<br/>
+
+      Language: English<br/>
+
+      Text editing: Ruby Hoette<br/>
+
+      Made possible by: State of Fashion 2018<br/>
+
+      Production: Warehouse<br/>
+
+      Production assistant: Anouk Beckers and Marina Sasseron
+  - type: images
+    image: /img/02_portal002_photo_anoukbeckers.jpg
+  - type: images
+    image: /img/03_portal002_photo_anoukbeckers.jpg
+    caption: 'PORTAL 002 Reader (2018). Photography: Anouk Beckers.'
 author: Elisa van Joolen (ed.)
 date: 2018-07-12T13:49:43.353Z
 ---
