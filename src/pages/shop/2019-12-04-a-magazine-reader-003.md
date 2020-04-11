@@ -65,37 +65,54 @@ content:
 
       Dimensions: 210 mm x 155 mm portrait<br/>
 
-      Pages: 140\
+      Pages: 140 <br/>
 
-      Art Direction: Femke de Vries and Hanka van der Voet\
+      Art Direction: Femke de Vries and Hanka van der Voet <br/>
 
       Authors: Sophia Grancharova, Hanka van der Voet, Patricia Nahorniac,
       Rebecca Nevins, Marco Dalle Fratte, Xi Ruolan, Abhaya Mistry, Seok Park,
-      Isabelle Mauduit and Ellen Pearson, Femke de Vries and  Hanka van der
-      Voet\
+      Isabelle Mauduit and Ellen Pearson, Femke de Vries and  Hanka van der Voet
+      <br/>
 
-      Graphic design: Zuzana Kostelanská\
+      Graphic design: Zuzana Kostelanská <br/>
 
-      Release date: October 2019\
+      Release date: October 2019 <br/>
 
-      Binding: elastic band\
+      Binding: elastic band <br/>
 
-      Edition: 250\
+      Edition: 250 <br/>
 
-      Color: black and gold – riso printed\
+      Color: black and gold – riso printed <br/>
 
-      Printer: Onomatopee's risograph and copy machine\
+      Printer: Onomatopee's risograph and copy machine <br/>
 
-      Language: English\
+      Language: English <br/>
 
-      Text editing: Femke de Vries and Hanka van der Voet\
+      Text editing: Femke de Vries and Hanka van der Voet <br/>
 
-      Production: Onomatopee in collaboration with Warehouse\
+      Production: Onomatopee in collaboration with Warehouse <br/>
 
-      Made possible by the generous support of the Provincie Noord Brabant\
+      Made possible by the generous support of the Provincie Noord Brabant <br/>
 
       Production by: Joannette van der Veer for Onomatopee. With support by Seok
       Park, and Onomatopee interns Nathalia Malińska and Merel Steneker
+
+
+      15EUR
+  - type: images
+    image: /img/a-magazine-reader-03-by-marco-dalle-fratte.jpg
+    caption: Contribution by Marco Dalle Fratte
+  - type: images
+    image: /img/a-magazine-reader-03-by-femke-de-vries-02.jpg
+    caption: Contribution by Femke de Vries
+  - type: images
+    image: /img/a-magazine-reader-03-by-seok-park.jpg
+    caption: Contribution by Seok Park
+  - type: images
+    image: /img/01_a-magazine-reader-03_photo_anoukbeckers.jpg
+    caption: >-
+      Contribution by Rebecca Nevins and Hanka van der Voet. Photography: Anouk
+      Beckers
 author: Femke de Vries & Hanka van der Voet (eds.)
 date: 2019-12-04T09:53:52.068Z
 ---
