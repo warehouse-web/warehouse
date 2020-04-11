@@ -1,4 +1,5 @@
 ---
+templateKey: event-post
 title: Bergen Art Book Fair 2019 with Hordaland Kunstsenter
 content:
   - type: text
@@ -11,7 +12,7 @@ content:
       dialogue and an alternative fashion discourse that goes beyond seeing
       fashion as a commodity Warehouse supported and produced a number of
       projects that explore with a critical eye, the trademarks of fashion.
-       
+
 
 
       Warehouse is selling several publications such as the *JOIN manual* and
