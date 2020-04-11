@@ -14,7 +14,6 @@ content:
       researched. The collected data is visualized and brought together in a
       reader designed by Beau Bertens.
 
-      <br/>
 
       *PORTAL* is a research project that explores the economic, social and
       emotional value of clothingand offers a ‘way in’ to understanding garments
@@ -41,11 +40,10 @@ content:
       diversity of fashion that is worn; embodied and imperfect.
 
 
-      \
-
       The collected information of each *PORTAL* edition is visualized and
       brought together in a reader using the sixteen *PORTAL* questions as their
-      starting point.</br></br>
+      starting point.
+
 
       For *PORTAL 002* Elisa van Joolen worked with visitors of State of Fashion
       in Arnhem. The pages of the *PORTAL 002* reader, designed by Beau Bertens,
