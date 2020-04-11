@@ -59,20 +59,6 @@ const Product = ({ data }) => {
 	return (
 		<Layout>
 			<ShopRoll />
-			<ProductPageTemplate
-				title={post.frontmatter.title}
-				content={post.htmlAst}
-				contentComponent={HTMLContent}
-				author={post.frontmatter.author}
-			/>
-
-			{/* <ProductPageTemplate
-				content={post.html}
-				contentComponent={HTMLContent}
-				date={post.frontmatter.date}
-				title={post.frontmatter.title}
-				author={post.frontmatter.author}
-			/> */}
 		</Layout>
 	);
 };

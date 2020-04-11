@@ -1,6 +1,7 @@
 import React from "react";
 import CloseButton from "./CloseButton";
 import ReactMarkdown from "react-markdown";
+import FluidImage from "./FluidImage";
 
 const ProductDetail = ({
 	onSetActiveProduct,
@@ -50,7 +51,16 @@ const ProductDetail = ({
 							</>
 						);
 					} else {
-						return <p className="bodyText">{el.body}</p>;
+						return (
+							<>
+								<p className="bodyText">
+									<ReactMarkdown
+										escapeHtml={false}
+										source={el.body}
+									/>
+								</p>
+							</>
+						);
 					}
 				})}
 			</section>
