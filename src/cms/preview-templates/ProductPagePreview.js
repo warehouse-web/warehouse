@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { ProductPageTemplate } from "../../templates/product-page";
+import ProductDetail from "../../components/ProductDetail";
 
-const ProductPagePreview = ({ entry, widgetFor }) => {
-	console.log("wet inside of the product page preview");
+const ProductPagePreview = ({ entry, getAsset }) => {
 	return (
-		<ProductPageTemplate
-			content={widgetFor("body")}
+		<ProductDetail
+			getAsset={getAsset}
+			{...entry.toJSON().data}
 			title={entry.getIn(["data", "title"])}
 		/>
 	);

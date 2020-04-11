@@ -36,10 +36,6 @@ const EventDetail = ({
 					? title
 					: ""}
 			</h2>
-			{/* <img src={image} alt="" />
-			{image.map(el => {
-				<img src={el} alt="" />;
-			})} */}
 			<section className="content">
 				{((activeEvent && activeEvent.frontmatter.content) || []).map(
 					el => {

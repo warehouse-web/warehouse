@@ -94,18 +94,39 @@ collections:
       - label: "Product Name"
         name: "title"
         widget: "string"
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
-        buttons:
-          [
-            "bold",
-            "italic",
-            "link",
-            "heading-one",
-            "heading-two",
-            "bulleted-list",
-          ]
+      - label: Content
+        name: content
+        widget: list
+        types:
+          - label: Images
+            name: images
+            widget: object
+            fields:
+              - label: Image
+                name: image
+                required: false
+                widget: image
+              - label: Caption
+                name: caption
+                required: false
+                widget: markdown
+          - label: Text
+            name: text
+            widget: object
+            fields:
+              - label: Body
+                name: body
+                required: false
+                widget: markdown
+                buttons:
+                  [
+                    "bold",
+                    "italic",
+                    "link",
+                    "heading-one",
+                    "heading-two",
+                    "bulleted-list",
+                  ]
       - label: "Author"
         name: "author"
         widget: "string"

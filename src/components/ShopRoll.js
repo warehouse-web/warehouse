@@ -1,53 +1,38 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import "./main.css";
-import Img from "gatsby-image";
 import DivOverlay from "../templates/DivOverlay";
 import {
 	renderHtmlToReact,
 	useMedia,
 	imagesFromAst,
 	relayout,
-	useWindowSize
+	useWindowSize,
+	renderImg,
+	removeImg,
+	useSetDivBg,
+	useChangeMagicLogo
 } from "../components/utils";
+import ProductDetail from "./ProductDetail";
 
-const ShopRoll = ({ data }) => {
-	const [activeProduct, setActiveProduct] = useState(false);
+const ShopRoll = ({
+	data: {
+		allMarkdownRemark: { edges: products }
+	}
+}) => {
+	const [activeProduct, setActiveProduct] = useState(null);
 	const [showProductDetail, setShowProductDetail] = useState(false);
-	const { edges: products } = data.allMarkdownRemark;
+	const articleRef = useRef();
 	const match = useMedia("(max-width: 900px) ");
 	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
 	const size = useWindowSize();
 
-	const renderImg = product => {
-		if (imagesFromAst(product.htmlAst)[0] !== undefined) {
-			setDivStyle({
-				backgroundImage: `url( ${
-					imagesFromAst(product.htmlAst)[0].properties.src
-				} )`
-			});
-		} else {
-			setDivStyle({ backgroundColor: "black" });
-		}
-	};
-
-	const removeImg = () => {
-		if (size.width < 900) {
-			setDivStyle({ backgroundColor: "white" });
-		} else {
-			setDivStyle({ backgroundColor: "black" });
-		}
-	};
-
-	// CHANGING LOGO COLOR
-	useEffect(() => {
-		size.width > 900
-			? setDivStyle({ backgroundColor: "black" })
-			: setDivStyle({ backgroundColor: "white" });
-	}, []);
-
 	const openProduct = product => {
+		const isClient = typeof window === "object";
+		if (isClient && articleRef.current) {
+			articleRef.current.scrollTo(0, 0);
+		}
 		product &&
 			window.history.pushState(
 				{ page: 1 },
@@ -57,6 +42,15 @@ const ShopRoll = ({ data }) => {
 		setActiveProduct(product);
 		setShowProductDetail(true);
 	};
+
+	// CHANGING LOGO COLOR
+	useEffect(() => {
+		useSetDivBg(setDivStyle);
+	}, [size]);
+
+	useEffect(() => {
+		useChangeMagicLogo();
+	}, []);
 
 	useEffect(() => {
 		products &&
@@ -69,13 +63,6 @@ const ShopRoll = ({ data }) => {
 			});
 	}, []);
 
-	useEffect(() => {
-		window.addEventListener("scroll", relayout);
-		return () => {
-			window.removeEventListener("scroll", relayout);
-		};
-	}, []);
-
 	return (
 		<>
 			<DivOverlay currImg={divStyle} />
@@ -85,12 +72,14 @@ const ShopRoll = ({ data }) => {
 						products.map(({ node: product }) => (
 							<article
 								key={product.id}
-								onPointerEnter={() => renderImg(product)}
-								onPointerLeave={() => removeImg()}
 								onClick={() => openProduct(product)}
 								className={`blog-list-item post ${
 									product === activeProduct ? "selected" : ""
 								}`}
+								onPointerEnter={() =>
+									renderImg(product, setDivStyle, size)
+								}
+								onPointerLeave={() => removeImg(setDivStyle)}
 							>
 								<h2 className="post-type">Shop</h2>
 								<header>
@@ -105,40 +94,14 @@ const ShopRoll = ({ data }) => {
 				</div>
 
 				{showProductDetail && (
-					<div className={`article-detail ${match ? `mobile` : ``}`}>
-						{/* Close Button */}
-						<div
-							className="close"
-							onClick={() => {
-								setShowProductDetail(false);
-								setActiveProduct(null);
-							}}
-						>
-							<span></span>
-							<span></span>
-						</div>
-
-						<h2 className="article-detail-title">
-							{activeProduct.frontmatter.title}
-						</h2>
-
-						<section className="content">
-							{renderHtmlToReact(activeProduct.htmlAst)}
-						</section>
-
-						{activeProduct.frontmatter.image && (
-							<div className="article-image-wrapper">
-								<Img
-									className="article-detail-image"
-									fluid={
-										activeProduct.frontmatter.image
-											.childImageSharp.fluid
-									}
-								/>
-							</div>
-						)}
-						<p>Webshop coming soon..</p>
-					</div>
+					<ProductDetail
+						onSetActiveProduct={setActiveProduct}
+						onSetShowProductDetail={setShowProductDetail}
+						renderHtmlToReact={renderHtmlToReact}
+						match={match}
+						articleRef={articleRef}
+						activeProduct={activeProduct}
+					/>
 				)}
 			</div>
 		</>
@@ -175,6 +138,18 @@ export default () => (
 								author
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
+								content {
+									type
+									image {
+										childImageSharp {
+											fluid(maxWidth: 1440, quality: 90) {
+												...GatsbyImageSharpFluid_withWebp_tracedSVG
+											}
+										}
+									}
+									caption
+									body
+								}
 							}
 						}
 					}

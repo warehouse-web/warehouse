@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import "./main.css";
-import Img from "gatsby-image";
 import DivOverlay from "../templates/DivOverlay";
 import {
 	renderHtmlToReact,
@@ -28,7 +27,6 @@ const FocusRoll = ({
 	const match = useMedia("(max-width: 900px) ");
 	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
 	const size = useWindowSize();
-	// console.log("size:", size);
 
 	const openFocus = focus => {
 		const isClient = typeof window === "object";
