@@ -1,17 +1,17 @@
 ---
 templateKey: event-post
-warehouseID: 'WAREHOUSE #'
+warehouseID: "WAREHOUSE #"
 title: Launch JOIN Collective Clothes Manual
 content:
   - type: images
     image: /img/10_join-manual_photo_anouk-beckers.jpg
-    caption: 'JOIN Collective Clothes Manual. Photography: Anouk Beckers. '
+    caption: "JOIN Collective Clothes Manual. Photography: Anouk Beckers. "
   - type: text
     body: >-
       During this launch of the *JOIN Collective Clothes Manual,* Anouk Beckers,
       Beau Bertens, Danielle Bruggeman and Eduardo Leon have a conversation
       about making clothes collectively, modularity and ownership/ego in
-      fashion. 
+      fashion.
 
 
       Initiator Anouk Beckers on *JOIN Collective Clothes*: “What if we open up
@@ -58,23 +58,7 @@ content:
       Beckers and graphic designer/art director Beau Bertens.
   - type: images
     image: /img/seok_join_pieces.jpg
-    caption: 'JOIN. Photography: Anouk Beckers.'
-location: 'San Serriffe, Amsterdam'
+    caption: "JOIN. Photography: Anouk Beckers."
+location: "San Serriffe, Amsterdam"
 date: 2019-05-18T18:00:00.000Z
 ---
-![JOIN Collective Clothes Manual. Photography: Anouk Beckers. ](/img/10_join-manual_photo_anouk-beckers.jpg "JOIN Collective Clothes Manual. Photography: Anouk Beckers. ")
-
-During this launch of the *JOIN Collective Clothes Manual,* Anouk Beckers, Beau Bertens, Danielle Bruggeman and Eduardo Leon have a conversation about making clothes collectively, modularity and ownership/ego in fashion. 
-
-Initiator Anouk Beckers on *JOIN Collective Clothes*: “What if we open up the fashion system and explore it as a non-fixed entity, a system where people can playfully join in, where everyone is invited to create fashion together?”
-
-The fashion industry focuses mostly on designer status, brand identity, commodities as magical results of invisible processes and an adoration of values such as originality and ‘the new’. And although it is often perceived as something that is not for everyone, fashion surely is a collective practice. \
-By making and wearing clothes together, the design and research project *JOIN Collective Clothes* proposes fashion as a collective practice. \
-\
-The base of *JOIN Collective Clothes* is a modular clothing system that consists of four different shapes which can be combined into a full outfit (a sleeve, a top, a trouser leg and a part of a skirt). An easy-to-use open source manual invites people to get started in designing and making the pieces themselves. This manual can be downloaded at www.joincollectiveclothes.com. The pieces made by various makers from all over the world, subsequently form an ever-growing collection that can be seen on the *JOIN Collective Clothes* website. \
-\
-This launch of the open-source manual, designed by Beau Bertens, marks the start of the project and is followed by a series of workshops and designer commissions. Everyone is invited to join one of the 4-hour workshops to design and make a garment-piece. At the end of the workshop, the results from the participants are joined into one complete outfit. The process is playful, but at the same time it critically questions the characteristics of the fashion system exploring ownership, identity, (intellectual) property, production methods, alienation, mystification and value creation in fashion together.\
-\
-*JOIN Collective Clothes* is an initiative by fashion designer Anouk Beckers and graphic designer/art director Beau Bertens.
-
-![JOIN. Photography: Anouk Beckers. ](/img/seok_join_pieces.jpg "JOIN. Photography: Anouk Beckers. ")
