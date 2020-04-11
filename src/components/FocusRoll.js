@@ -1,74 +1,59 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import "./main.css";
 import Img from "gatsby-image";
 import DivOverlay from "../templates/DivOverlay";
-import Content, {
+import {
 	renderHtmlToReact,
-	HTMLContent,
+	useMedia,
 	imagesFromAst,
 	relayout,
 	useWindowSize,
-	useMedia
+	renderImg,
+	removeImg,
+	useSetDivBg,
+	useChangeMagicLogo
 } from "./utils";
+import FocusDetail from "./FocusDetail";
 
-const FocusRoll = ({ data }) => {
-	const [activeFocus, setActiveFocus] = useState({});
-	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
+const FocusRoll = ({
+	data: {
+		allMarkdownRemark: { edges: posts }
+	}
+}) => {
+	const [activeFocus, setActiveFocus] = useState(null);
 	const [showFocusDetail, setShowFocusDetail] = useState(false);
+	const articleRef = useRef();
+	const match = useMedia("(max-width: 900px) ");
+	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
 	const size = useWindowSize();
+	// console.log("size:", size);
 
 	const openFocus = focus => {
+		const isClient = typeof window === "object";
+		if (isClient && articleRef.current) {
+			articleRef.current.scrollTo(0, 0);
+		}
 		focus &&
 			window.history.pushState(
 				{ page: 1 },
 				focus.frontmatter.title,
 				focus.fields.slug
 			);
-		if (focus !== !!activeFocus) {
-			setActiveFocus(focus);
-			setShowFocusDetail(true);
-		}
-	};
 
-	const renderImg = product => {
-		if (imagesFromAst(product.htmlAst)[0] !== undefined) {
-			setDivStyle({
-				backgroundImage: `url( ${
-					imagesFromAst(product.htmlAst)[0].properties.src
-				} )`
-			});
-		} else {
-			setDivStyle({ backgroundColor: "black" });
-		}
-	};
-
-	const removeImg = () => {
-		if (size.width < 900) {
-			setDivStyle({ backgroundColor: "white" });
-		} else {
-			setDivStyle({ backgroundColor: "black" });
-		}
+		setActiveFocus(focus);
+		setShowFocusDetail(true);
 	};
 
 	// CHANGING LOGO COLOR
 	useEffect(() => {
-		size.width > 900
-			? setDivStyle({ backgroundColor: "black" })
-			: setDivStyle({ backgroundColor: "white" });
-	}, []);
+		useSetDivBg(setDivStyle);
+	}, [size]);
 
 	useEffect(() => {
-		window.addEventListener("scroll", relayout);
-		return () => {
-			window.removeEventListener("scroll", relayout);
-		};
+		useChangeMagicLogo();
 	}, []);
-
-	const PostContent = HTMLContent || Content;
-	const match = useMedia("(max-width: 900px) ");
-	const { edges: posts } = data.allMarkdownRemark;
 
 	useEffect(() => {
 		posts &&
@@ -89,12 +74,14 @@ const FocusRoll = ({ data }) => {
 						posts.map(({ node: post }) => (
 							<article
 								key={post.id}
-								onPointerEnter={() => renderImg(post)}
-								onPointerLeave={() => removeImg()}
 								onClick={() => openFocus(post)}
 								className={`blog-list-item post ${
 									post === activeFocus ? "selected" : ""
 								}`}
+								onPointerEnter={() =>
+									renderImg(post, setDivStyle, size)
+								}
+								onPointerLeave={() => removeImg(setDivStyle)}
 							>
 								<h2 className="post-type">Focus</h2>
 								<header>
@@ -109,41 +96,14 @@ const FocusRoll = ({ data }) => {
 				</div>
 
 				{showFocusDetail && (
-					<div className={`article-detail ${match ? `mobile` : ``}`}>
-						<div
-							className="close"
-							onClick={() => {
-								setActiveFocus(null);
-								setShowFocusDetail(false);
-							}}
-						>
-							<span></span>
-							<span></span>
-						</div>
-
-						<h2 className="article-detail-title">
-							{activeFocus.frontmatter.title}
-						</h2>
-						<section className="content">
-							{renderHtmlToReact(activeFocus.htmlAst)}
-							<a
-								className="pdf-download"
-								href={activeFocus.frontmatter.PDF.publicURL}
-								target="_blank"
-							>
-								Download Article
-							</a>
-						</section>
-
-						{
-							<PostContent
-								className="content"
-								content={activeFocus.html}
-							/>
-						}
-
-						{activeFocus.excerpt}
-					</div>
+					<FocusDetail
+						onSetActiveFocus={setActiveFocus}
+						onSetShowFocusDetail={setShowFocusDetail}
+						renderHtmlToReact={renderHtmlToReact}
+						match={match}
+						articleRef={articleRef}
+						activeFocus={activeFocus}
+					/>
 				)}
 			</div>
 		</>
@@ -177,11 +137,21 @@ export default () => (
 							}
 							frontmatter {
 								title
+								templateKey
+								date(formatString: "MMMM DD, YYYY")
+								content {
+									type
+									image {
+										childImageSharp {
+											fluid(maxWidth: 1440, quality: 90) {
+												...GatsbyImageSharpFluid_withWebp_tracedSVG
+											}
+										}
+									}
+								}
 								PDF {
 									publicURL
 								}
-								templateKey
-								date(formatString: "MMMM DD, YYYY")
 							}
 						}
 					}

@@ -57,11 +57,6 @@ const FocusPage = ({ data }) => {
 	return (
 		<Layout>
 			<FocusRoll />
-			<FocusPageTemplate
-				content={post.html}
-				contentComponent={HTMLContent}
-				title={post.frontmatter.title}
-			/>
 		</Layout>
 	);
 };

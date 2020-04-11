@@ -8,6 +8,35 @@ let initFlexWidthPx;
 let shiftRatio = 0.3;
 export let rectColor;
 
+export const renderImg = (post, setDivStyle, size) => {
+	if (imagesFromAst(post.htmlAst)[0] !== undefined) {
+		setDivStyle({
+			backgroundImage: `url( ${
+				imagesFromAst(post.htmlAst)[0].properties.src
+			} )`
+		});
+	} else {
+		if (size.width < 900) {
+			setDivStyle({ backgroundColor: "white" });
+		} else {
+			setDivStyle({ backgroundColor: "black" });
+		}
+	}
+};
+
+export const removeImg = setDivStyle => {
+	if (useWindowSize.width < 900) {
+		setDivStyle({ backgroundColor: "white" });
+	} else {
+		setDivStyle({ backgroundColor: "black" });
+	}
+};
+export const useSetDivBg = setDivStyle => {
+	useWindowSize.width < 900
+		? setDivStyle({ backgroundColor: "white" })
+		: setDivStyle({ backgroundColor: "black" });
+};
+
 export const useMedia = query => {
 	const [matches, setMatches] = useState();
 	useEffect(() => {
@@ -45,21 +74,12 @@ export function useWindowSize() {
 		function handleResize() {
 			setWindowSize(getSize());
 		}
-
 		window.addEventListener("resize", handleResize);
 		return () => window.removeEventListener("resize", handleResize);
 	}, []); // Empty array ensures that effect is only run on mount and unmount
 
 	return windowSize;
 }
-
-export const removeImg = () => {
-	if (size.width < 900) {
-		setDivStyle({ backgroundColor: "white" });
-	} else {
-		setDivStyle({ backgroundColor: "black" });
-	}
-};
 
 export const handleWindowSizeChange = () => {
 	if (window.innerWidth <= 900) {
@@ -84,6 +104,14 @@ export const handleWindowSizeChange = () => {
 		initFlexWidthPx = 620;
 	}
 }
+
+export const useChangeMagicLogo = () => {
+	console.log("changing the magic logo");
+	window.addEventListener("scroll", relayout);
+	return () => {
+		window.removeEventListener("scroll", relayout);
+	};
+};
 
 export const relayout = () => {
 	setWidth(getPos());

@@ -10,7 +10,11 @@ import {
 	imagesFromAst,
 	relayout,
 	useWindowSize,
-	isDateBeforeToday
+	isDateBeforeToday,
+	renderImg,
+	removeImg,
+	useSetDivBg,
+	useChangeMagicLogo
 } from "./utils";
 import EventDetail from "./EventDetail";
 
@@ -19,9 +23,13 @@ const EventRoll = ({
 		allMarkdownRemark: { edges: posts }
 	}
 }) => {
-	const [activeEvent, setActiveEvent] = useState(false);
+	const [activeEvent, setActiveEvent] = useState(null);
 	const [showEventDetail, setShowEventDetail] = useState(false);
 	const articleRef = useRef();
+	const match = useMedia("(max-width: 900px) ");
+	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
+	const size = useWindowSize();
+
 	const openEvent = event => {
 		const isClient = typeof window === "object";
 		if (isClient && articleRef.current) {
@@ -36,40 +44,17 @@ const EventRoll = ({
 			);
 
 		setActiveEvent(event);
-
 		setShowEventDetail(true);
-	};
-
-	const renderImg = post => {
-		if (imagesFromAst(post.htmlAst)[0] !== undefined) {
-			setDivStyle({
-				backgroundImage: `url( ${
-					imagesFromAst(post.htmlAst)[0].properties.src
-				} )`
-			});
-		} else {
-			setDivStyle({ backgroundColor: "black" });
-		}
-	};
-
-	const removeImg = () => {
-		if (size.width < 900) {
-			setDivStyle({ backgroundColor: "white" });
-		} else {
-			setDivStyle({ backgroundColor: "black" });
-		}
 	};
 
 	// CHANGING LOGO COLOR
 	useEffect(() => {
-		size.width > 900
-			? setDivStyle({ backgroundColor: "black" })
-			: setDivStyle({ backgroundColor: "white" });
-	}, []);
+		useSetDivBg(setDivStyle);
+	}, [size]);
 
-	const match = useMedia("(max-width: 900px) ");
-	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
-	const size = useWindowSize();
+	useEffect(() => {
+		useChangeMagicLogo();
+	}, []);
 
 	// when we open the website so that we are in the right post
 	useEffect(() => {
@@ -83,13 +68,6 @@ const EventRoll = ({
 			});
 	}, []);
 
-	useEffect(() => {
-		window.addEventListener("scroll", relayout);
-		return () => {
-			window.removeEventListener("scroll", relayout);
-		};
-	}, []);
-
 	return (
 		<>
 			<DivOverlay currImg={divStyle} />
@@ -98,13 +76,15 @@ const EventRoll = ({
 					{posts &&
 						posts.map(({ node: post }) => (
 							<article
+								key={post.id}
 								onClick={() => openEvent(post)}
 								className={`blog-list-item post ${
 									post === activeEvent ? "selected" : ""
 								}`}
-								key={post.id}
-								onPointerEnter={() => renderImg(post)}
-								onPointerLeave={() => removeImg()}
+								onPointerEnter={() =>
+									renderImg(post, setDivStyle, size)
+								}
+								onPointerLeave={() => removeImg(setDivStyle)}
 							>
 								{post.frontmatter.date &&
 									isDateBeforeToday(post) && (
@@ -181,7 +161,7 @@ export default () => (
 									image {
 										childImageSharp {
 											fluid(maxWidth: 1440, quality: 90) {
-												...GatsbyImageSharpFluid_withWebp
+												...GatsbyImageSharpFluid_withWebp_tracedSVG
 											}
 										}
 									}

@@ -202,7 +202,7 @@ export default () => (
 									image {
 										childImageSharp {
 											fluid(maxWidth: 1440, quality: 90) {
-												...GatsbyImageSharpFluid_withWebp
+												...GatsbyImageSharpFluid_withWebp_tracedSVG
 											}
 										}
 									}
