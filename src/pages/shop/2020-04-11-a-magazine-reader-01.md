@@ -72,7 +72,7 @@ content:
 
       Color: Black, pink and red – riso printed<br/>
 
-      Printer: Riso Wiso<br/
+      Printer: Riso Wiso<br/>
 
       Language: English<br/>
 
