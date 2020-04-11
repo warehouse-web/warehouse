@@ -6,6 +6,21 @@ content:
   - type: images
     image: /img/press_and_fold-cover_issue-1_the-street.jpg
     caption: 'Press & Fold Issue #0 | The Street Issue (2018)'
+  - type: images
+    image: /img/press_and_fold_issue-1_the-street_laura.jpg
+    caption: Contribution by Laura Gardner
+  - type: images
+    image: /img/press_and_fold_issue-1_the-street_tenant.jpg
+    caption: Contribution by Tenant of Culture
+  - type: images
+    image: /img/press_and_fold_issue-1_the-street_camiel.jpg
+    caption: Contribution by Camiel Fortgens
+  - type: images
+    image: /img/press_and_fold_issue-1_the-street_duran3.jpg
+    caption: Contribution by Duran Lantink
+  - type: images
+    image: /img/03_press-fold0_photo_anouk-beckers.jpg
+    caption: 'Contribution by Ruby Hoette.  Photography: Anouk Beckers.'
 author: Hanka van der Voet (ed.)
 date: 2018-03-13T15:12:10.022Z
 ---
