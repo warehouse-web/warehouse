@@ -87,8 +87,11 @@ const FocusRoll = ({
 								<header>
 									<p className="post-meta">
 										{post.frontmatter.title}
-										{post.frontmatter.location}
 									</p>
+									<h2 className="post-meta">
+										{post.frontmatter.date}
+									</h2>
+									<h2>By {post.frontmatter.author}</h2>
 								</header>
 							</article>
 						))}
@@ -138,6 +141,7 @@ export default () => (
 							frontmatter {
 								title
 								templateKey
+								author
 								date(formatString: "MMMM DD, YYYY")
 								content {
 									type

@@ -30,6 +30,7 @@ p > a {
   text-align: center;
   font-size: 2em;
   color: black;
+  padding: 0 2em;
 }
 
 .article-detail.mobile {

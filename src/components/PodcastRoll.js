@@ -77,6 +77,7 @@ const PodcastRoll = ({ data }) => {
 			<DivOverlay currImg={divStyle} />
 			<div className="wrapper">
 				<div className="article-list">
+					<h1>Coming soon..</h1>
 					{posts &&
 						posts.map(({ node: post }) => (
 							<article

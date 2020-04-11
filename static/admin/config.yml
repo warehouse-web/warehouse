@@ -94,6 +94,10 @@ collections:
       - label: "Product Name"
         name: "title"
         widget: "string"
+      - label: Upload PDF
+        name: PDF
+        required: false
+        widget: file
       - label: Content
         name: content
         widget: list
@@ -127,12 +131,12 @@ collections:
                     "heading-two",
                     "bulleted-list",
                   ]
-      - label: "Author"
-        name: "author"
-        widget: "string"
-      - label: "Date Added"
-        name: "date"
-        widget: "datetime"
+      - label: Author
+        name: author
+        widget: string
+      - label: Date Added
+        name: date
+        widget: datetime
   - name: "focus"
     label: "Focus"
     folder: "src/pages/focus"
@@ -182,9 +186,12 @@ collections:
                     "heading-two",
                     "bulleted-list",
                   ]
-      - label: "Date Added"
-        name: "date"
-        widget: "datetime"
+      - label: "Author"
+        name: "author"
+        widget: "string"
+      - label: Date
+        name: date
+        widget: datetime
   - name: "about"
     label: "About"
     files:

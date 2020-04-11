@@ -147,6 +147,8 @@ export const postType = post => {
 			return "Podcast";
 		case "product-page":
 			return "Shop";
+		case "focus-page":
+			return "Focus";
 		default:
 			return null;
 	}

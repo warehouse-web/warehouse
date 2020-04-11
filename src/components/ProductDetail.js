@@ -63,6 +63,17 @@ const ProductDetail = ({
 						);
 					}
 				})}
+				{activeProduct.frontmatter.PDF ? (
+					<a
+						className="pdf-download"
+						href={activeProduct.frontmatter.PDF.publicURL}
+						target="_blank"
+					>
+						Download Item
+					</a>
+				) : (
+					""
+				)}
 			</section>
 			<section className="content">
 				{activeProduct
@@ -88,6 +99,17 @@ const ProductDetail = ({
 								);
 							}
 					  })}
+				{activeProduct.frontmatter.PDF ? (
+					<a
+						className="pdf-download"
+						href={activeProduct.frontmatter.PDF.publicURL}
+						target="_blank"
+					>
+						Download Item
+					</a>
+				) : (
+					""
+				)}
 			</section>
 			<p>Webshop coming soon..</p>
 		</div>

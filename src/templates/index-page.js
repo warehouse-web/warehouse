@@ -180,6 +180,7 @@ export default () => (
 									"event-post"
 									"podcast-page"
 									"product-page"
+									"focus-page"
 								]
 							}
 						}

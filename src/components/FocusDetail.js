@@ -32,10 +32,6 @@ const FocusDetail = ({
 			</h2>
 
 			<section className="content">
-				{console.log(
-					"activeFocus.frontmatter.content:",
-					activeFocus.frontmatter.content
-				)}
 				{((activeFocus && activeFocus.frontmatter.content) || []).map(
 					el => {
 						if (el.type === "images") {

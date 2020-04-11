@@ -150,6 +150,9 @@ export default () => (
 									caption
 									body
 								}
+								PDF {
+									publicURL
+								}
 							}
 						}
 					}
