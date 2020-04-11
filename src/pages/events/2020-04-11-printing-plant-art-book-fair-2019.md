@@ -11,7 +11,7 @@ content:
       As Warehouse aims to create an engaging environment that facilitates
       dialogue and an alternative fashion discourse that goes beyond seeing
       fashion as a commodity, Warehouse supported and produced a number of
-      projects that explore the trademarks of fashion with a critical eye.\
+      projects that explore the trademarks of fashion with a critical eye.
 
       Warehouse sells several publications like: the *JOIN manual* and the *JOIN
       Collective Conversation* magazine. Several issues of *A Magazine Reader*,
