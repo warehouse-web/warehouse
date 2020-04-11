@@ -16,7 +16,8 @@ const EventDetail = ({
 	date,
 	image,
 	getAsset,
-	articleRef
+	articleRef,
+	entry
 }) => {
 	return (
 		<div
@@ -40,12 +41,19 @@ const EventDetail = ({
 				<img src={el} alt="" />;
 			})} */}
 			<section className="content">
+				{console.log("activeEvent:", activeEvent)}
 				{((activeEvent && activeEvent.frontmatter.content) || []).map(
 					el => {
 						if (el.type === "images") {
 							return (
 								<>
-									<FluidImage image={el.image} />
+									{" "}
+									{el.image ? (
+										<FluidImage image={el.image} />
+									) : (
+										""
+									)}
+									<img src={el.image} alt="" />
 									<p className="caption">
 										{el.caption ? el.caption : ""}
 									</p>

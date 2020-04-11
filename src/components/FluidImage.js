@@ -3,10 +3,11 @@ import PropTypes from "prop-types";
 import Img from "gatsby-image/withIEPolyfill";
 
 const FluidImage = ({ image }) =>
-	image.childImageSharp ? (
+	image && image.childImageSharp ? (
 		<Img fluid={image.childImageSharp.fluid} />
 	) : (
-		<div className={className}>
+		<div>
+			{console.log("image:", image)}
 			<img alt="" src={image} />
 		</div>
 	);
