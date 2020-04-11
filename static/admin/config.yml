@@ -38,7 +38,7 @@ collections:
                 widget: markdown
           - label: Text
             name: text
-            widget: markdown
+            widget: object
             fields:
               - label: Body
                 name: body
@@ -87,29 +87,31 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {
-          label: "Template Key",
-          name: "templateKey",
-          widget: "hidden",
-          default: "product-page",
-        }
-      - { label: "Product Name", name: "title", widget: "string" }
-      - {
-          label: "Body",
-          name: "body",
-          widget: "markdown",
-          buttons:
-            [
-              "bold",
-              "italic",
-              "link",
-              "heading-one",
-              "heading-two",
-              "bulleted-list",
-            ],
-        }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Date Added", name: "date", widget: "datetime" }
+      - label: "Template Key"
+        name: "templateKey"
+        widget: "hidden"
+        default: "product-page"
+      - label: "Product Name"
+        name: "title"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        buttons:
+          [
+            "bold",
+            "italic",
+            "link",
+            "heading-one",
+            "heading-two",
+            "bulleted-list",
+          ]
+      - label: "Author"
+        name: "author"
+        widget: "string"
+      - label: "Date Added"
+        name: "date"
+        widget: "datetime"
   - name: "focus"
     label: "Focus"
     folder: "src/pages/focus"
@@ -120,29 +122,48 @@ collections:
         name: "templateKey"
         widget: "hidden"
         default: "focus-page"
-      - label: "Article Title"
-        name: "title"
-        widget: "string"
+      - label: Article Title
+        name: title
+        widget: string
       - label: Upload PDF
         name: "PDF"
         widget: "file"
-        options: {}
-      - {
-          label: "Body",
-          name: "body",
-          widget: "markdown",
-          buttons:
-            [
-              "bold",
-              "italic",
-              "link",
-              "heading-one",
-              "heading-two",
-              "bulleted-list",
-            ],
-        }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Date Added", name: "date", widget: "datetime" }
+      - label: Content
+        name: content
+        widget: list
+        types:
+          - label: Images
+            name: images
+            widget: object
+            fields:
+              - label: Image
+                name: image
+                required: false
+                widget: image
+              - label: Caption
+                name: caption
+                required: false
+                widget: markdown
+          - label: Text
+            name: text
+            widget: object
+            fields:
+              - label: Body
+                name: body
+                required: false
+                widget: markdown
+                buttons:
+                  [
+                    "bold",
+                    "italic",
+                    "link",
+                    "heading-one",
+                    "heading-two",
+                    "bulleted-list",
+                  ]
+      - label: "Date Added"
+        name: "date"
+        widget: "datetime"
   - name: "about"
     label: "About"
     files:

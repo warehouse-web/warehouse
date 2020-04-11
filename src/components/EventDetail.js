@@ -41,7 +41,6 @@ const EventDetail = ({
 				<img src={el} alt="" />;
 			})} */}
 			<section className="content">
-				{console.log("activeEvent:", activeEvent)}
 				{((activeEvent && activeEvent.frontmatter.content) || []).map(
 					el => {
 						if (el.type === "images") {
@@ -65,7 +64,6 @@ const EventDetail = ({
 				)}
 			</section>
 			<section className="content">
-				{console.log("content:", content)}
 				{activeEvent
 					? renderHtmlToReact(activeEvent.htmlAst)
 					: (content || []).map(el => {

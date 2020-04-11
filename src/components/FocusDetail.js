@@ -1,6 +1,7 @@
 import React from "react";
 import CloseButton from "./CloseButton";
 import ReactMarkdown from "react-markdown";
+import FluidImage from "./FluidImage";
 
 const FocusDetail = ({
 	activeFocus,
@@ -29,6 +30,34 @@ const FocusDetail = ({
 			<h2 className="article-detail-title">
 				{activeFocus.frontmatter.title}
 			</h2>
+
+			<section className="content">
+				{console.log(
+					"activeFocus.frontmatter.content:",
+					activeFocus.frontmatter.content
+				)}
+				{((activeFocus && activeFocus.frontmatter.content) || []).map(
+					el => {
+						if (el.type === "images") {
+							return (
+								<>
+									{" "}
+									{el.image ? (
+										<FluidImage image={el.image} />
+									) : (
+										<img src={el.image} alt="" />
+									)}
+									<p className="caption">
+										{el.caption ? el.caption : ""}
+									</p>
+								</>
+							);
+						} else {
+							return <p className="bodyText">{el.body}</p>;
+						}
+					}
+				)}
+			</section>
 			<section className="content">
 				{activeFocus
 					? renderHtmlToReact(activeFocus.htmlAst)
