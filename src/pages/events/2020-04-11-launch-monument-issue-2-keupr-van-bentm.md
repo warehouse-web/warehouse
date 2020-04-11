@@ -51,10 +51,10 @@ content:
   - type: images
     image: /img/47_monument02_16012020_anoukbeckers.jpg
   - type: images
-    image: /img/screenshot-2020-03-28-at-23.34.38.png
+    image: /img/35_monument02_16012020_anoukbeckers.jpg
     caption: 'Photography: Anouk Beckers'
   - type: images
-    image: /img/screenshot-2020-04-09-at-13.09.53.png
+    image: /img/64_monument02_16012020_anoukbeckers.jpg
 location: 'Athenaeum Nieuwscentrum, Amsterdam'
 date: 2020-01-16T15:00:00.000Z
 ---

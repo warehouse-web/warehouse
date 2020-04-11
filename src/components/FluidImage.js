@@ -7,7 +7,6 @@ const FluidImage = ({ image }) =>
 		<Img fluid={image.childImageSharp.fluid} />
 	) : (
 		<div>
-			{console.log("image:", image)}
 			<img alt="" src={image} />
 		</div>
 	);
