@@ -78,6 +78,7 @@ const FocusDetail = ({
 								);
 							}
 					  })}
+
 				<a
 					className="pdf-download"
 					href={activeFocus.frontmatter.PDF.publicURL}
