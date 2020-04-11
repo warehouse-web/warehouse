@@ -2,6 +2,10 @@
 templateKey: product-page
 warehouseID: 'WAREHOUSE #78'
 title: 'Press & Fold Issue #0 | The Street Issue'
+content:
+  - type: images
+    image: /img/press_and_fold-cover_issue-1_the-street.jpg
+    caption: 'Press & Fold Issue #0 | The Street Issue (2018)'
 author: Hanka van der Voet (ed.)
 date: 2018-03-13T15:12:10.022Z
 ---
