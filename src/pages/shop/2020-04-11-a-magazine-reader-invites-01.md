@@ -32,25 +32,25 @@ content:
 
       Type: softcover <br/>
 
-      Dimensions: depending on source magazine<br/>
+      Dimensions: depending on source magazine <br/>
 
-      Pages: depending on source magazine<br/>
+      Pages: depending on source magazine <br/>
 
-      Art Direction: Zuzana Kostelanská\
+      Art Direction: Zuzana Kostelanská <br/>
 
       Text: Femke de Vries, Hanka van der Voet and Zuzana Kostelanská\
 
-      Graphic design: Zuzana Kostelanská<br/>
+      Graphic design: Zuzana Kostelanská  <br/>
 
       Release date: November 2019<br/>
 
-      Binding: none<br/>
+      Binding: none <br/>
 
-      Edition: variable<br/>
+      Edition: variable <br/>
 
-      Color: full color<br/>
+      Color: full color <br/>
 
-      Text editing: Femke de Vries and Hanka van der Voet<br/>
+      Text editing: Femke de Vries and Hanka van der Voet <br/>
 
       Production: Warehouse
   - type: images
