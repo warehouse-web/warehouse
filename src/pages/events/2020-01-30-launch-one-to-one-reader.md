@@ -1,12 +1,12 @@
 ---
 templateKey: event-post
-warehouseID: "WAREHOUSE #"
+warehouseID: 'WAREHOUSE #'
 title: Launch One-to-One Reader
 content:
   - type: text
     body: >-
-      A conversation with Elisa van Joolen and Our Polite Society (Jens Schildt
-      and Matthias Kreutzer).
+      A conversation with Elisa van Joolen and Matthias Kreutzer (Our Polite
+      Society).
 
 
       Elisa van Joolen’s new publication *One-to-One Reader* refers to a working
@@ -28,6 +28,6 @@ content:
       and outcomes of the *One-to-One* project as well as exploring the
       implications and possibilities of this unique working method in the
       broader context of the fashion system.
-location: "San Serriffe, Amsterdam"
+location: 'San Serriffe, Amsterdam'
 date: 2018-10-20T15:00:00.000Z
 ---
