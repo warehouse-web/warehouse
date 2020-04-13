@@ -1,14 +1,21 @@
 ---
 templateKey: event-post
-warehouseID: "WAREHOUSE #4.1"
-title: "Launch Monument Issue #1 | Rozema/Teunissen"
+warehouseID: 'WAREHOUSE #4.1'
+title: 'Launch Monument Issue #1 | Rozema/Teunissen'
 content:
   - type: text
     body: >-
-      With an installation by Maria Kley.
+      This launch of Monument Issue #1 | Rozema/Teunissen at Sexyland concides
+      with an installation by Maria Kley.\
 
+      \
 
-      Is it a strange confession to say that, when starting this project, I
+      Some words by initiator Mary Lou Berkulin from the introduction of this
+      first edition of Monument:\
+
+      \
+
+      "Is it a strange confession to say that, when starting this project, I
       looked up the word ‘fashion’ in a dictionary? The fact that in its
       explanation the word ‘transitory’ was mentioned as a characteristic of the
       word fashion was enough to affirm my thoughts.
@@ -69,10 +76,7 @@ content:
       subsequently, makes their previous work look irrelevant to the public.
       This fascinating side of fashion is the reason why this first edition is
       dedicated to Rozema/Teunissen. They deserve a *Monument* for creating work
-      that goes well beyond fashion’s transitory aspect.
-
-
-      Text by Mary-Lou Berkulin
-location: "Sexyland, Amsterdam"
+      that goes well beyond fashion’s transitory aspect".
+location: 'Sexyland, Amsterdam'
 date: 2018-06-20T15:30:00.000Z
 ---
