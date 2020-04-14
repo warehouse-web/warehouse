@@ -8,7 +8,7 @@ content:
       A Magazine Reader Invites 01 with Zuzana Kostelanská (2019). Photography:
       Anouk Beckers.
   - type: text
-    body: >
+    body: >-
       In *A Magazine Reader Invites 01*, Zuzana Kostelanská folds a complete
       fashion magazine into a new zine. The fold shifts our perspective, cuts
       pages in half and re-arranges the order of the pages changing our way of
@@ -28,29 +28,29 @@ content:
 
 
       *A Magazine Reader Invites* is initiated by Hanka van der Voet and Femke
-      de Vries.
+      de Vries. \
 
-      Type: softcover <br/>
+      Type: softcover \
 
-      Dimensions: depending on source magazine <br/>
+      Dimensions: depending on source magazine \
 
-      Pages: depending on source magazine <br/>
+      Pages: depending on source magazine \
 
-      Art Direction: Zuzana Kostelanská <br/>
+      Art Direction: Zuzana Kostelanská \
 
       Text: Femke de Vries, Hanka van der Voet and Zuzana Kostelanská\
 
-      Graphic design: Zuzana Kostelanská  <br/>
+      Graphic design: Zuzana Kostelanská  \
 
-      Release date: November 2019<br/>
+      Release date: November 2019\
 
-      Binding: none <br/>
+      Binding: none \
 
-      Edition: variable <br/>
+      Edition: variable \
 
-      Color: full color <br/>
+      Color: full color \
 
-      Text editing: Femke de Vries and Hanka van der Voet <br/>
+      Text editing: Femke de Vries and Hanka van der Voet\
 
       Production: Warehouse
   - type: images
