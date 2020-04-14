@@ -12,7 +12,7 @@ content:
       *Mode and Mode* in exploring experimental publishing practices at the
       margins of fashion, this issue shares, in chronological order, a body of
       experimental text works by the critical fashion practice of D&K.
-      Accompanying the D&K *Look Book 2019 - All or Nothing, Mode and Mode #7
+      Accompanying the D&K *Look Book 2019 - All or Nothing, Mode and Mode 7
       serves as* an anthology of text works and biographical listings of key D&K
       projects from 2012 to present. 
 
@@ -25,30 +25,28 @@ content:
       plasticity of words, which are always both meaningless and meaningful.
 
 
-
-      *Mode and Mode #7* was co-launched with the *D&K LOOK BOOK 2019* at San
+      *Mode and Mode 7* was co-launched with the *D&K LOOK BOOK 2019* at San
       Serriffe. Warehouse is happy to have hosted the Dutch launch of both
       publications.
 
 
+      Type: softcover \
 
-      Type: softcover <br/>
+      Dimensions: 271 mm x 207 mm portrait\
 
-      Dimensions: 271 mm x 207 mm portrait<br/>
+      Pages: 70\
 
-      Pages: 70<br/>
+      Editor: Laura Gardner\
 
-      Editor: Laura Gardner<br/>
+      Graphic design: Karina Soraya\
 
-      Graphic design: Karina Soraya<br/>
+      Release date: November 2019\
 
-      Release date: November 2019<br/>
+      Binding: staples\
 
-      Binding: staples<br/>
+      Edition: 500\
 
-      Edition: 500<br/>
-
-      Color: mainly black<br/>
+      Color: mainly black\
 
       Language: English
   - type: images
