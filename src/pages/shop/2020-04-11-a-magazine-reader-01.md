@@ -9,7 +9,7 @@ content:
     body: >-
       *A Magazine Reader 01* is the result of a workshop by Femke de Vries and
       Hanka van der Voet at ArtEZ Fashion Masters in which the students of the
-      MA Fashion Strategy generation #27 explore the representation and meaning
+      MA Fashion Strategy generation 27 explore the representation and meaning
       of luxury in the fashion magazine. In this case specifically the British
       Vogue, February 2018.
 
@@ -50,37 +50,37 @@ content:
       Reading becomes making.
 
 
-      Type: softcover <br/>
+      Type: softcover \
 
-      Dimensions: 200 mm x 145 mm portrait<br/>
+      Dimensions: 200 mm x 145 mm portrait\
 
-      Pages: 96<br/>
+      Pages: 96\
 
-      Art Direction: Femke de Vries and Hanka van der Voet<br/>
+      Art Direction: Femke de Vries and Hanka van der Voet\
 
       Author: Chet Bugter, Ieva Uzkurataite, Maria Gil Mendoza, Hester Brands,
       Julia Kaleta, Cinzia Magnani, Karmen Samson, Chinouk Filique de Miranda,
-      Adriana Fox Hopper and Marina Sasseron de Oliveira Cabral<br/>
+      Adriana Fox Hopper and Marina Sasseron de Oliveira Cabral\
 
-      Graphic design: Corine van der Wal<br/>
+      Graphic design: Corine van der Wal\
 
-      Release date: Spring 2018<br/>
+      Release date: Spring 2018\
 
-      Binding: elastic band<br/>
+      Binding: elastic band\
 
-      Edition: 150<br/>
+      Edition: 150\
 
-      Color: Black, pink and red – riso printed<br/>
+      Color: Black, pink and red – riso printed\
 
-      Printer: Riso Wiso<br/>
+      Printer: Riso Wiso\
 
-      Language: English<br/>
+      Language: English\
 
-      Text editing: Femke de Vries, Hester Brands and Hanka van der Voet<br/>
+      Text editing: Femke de Vries, Hester Brands and Hanka van der Voet\
 
-      Made possible by: ArtEZ Fashion Masters<br/>
+      Made possible by: ArtEZ Fashion Masters\
 
-      Production: Warehouse<br/>
+      Production: Warehouse\
 
       Production assistant: Hester Brands
 
