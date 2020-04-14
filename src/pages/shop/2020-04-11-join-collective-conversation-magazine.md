@@ -7,16 +7,14 @@ content:
     caption: 'JOIN Collective Conversation Magazine (2019). Photography: Anouk Beckers.'
   - type: text
     body: >-
-
       The *JOIN Collective Conversation Magazine* is the result of a *JOIN
       Collective Clothes* workshop at MA Fashion Strategy (ArtEZ University of
-      the Arts). During this workshop the students of generation #29 together
+      the Arts). During this workshop the students of generation 29 together
       explored topics such as ownership, identity, (intellectual) property,
       production methods, alienation, mystification and value creation and used
       the *JOIN Collective Clothes* manual to make a garment piece. At the end
       of the workshop the pieces were put together, photographed, reflected upon
       through text and brought together in this magazine.
-
 
 
       *JOIN Collective Clothes* is an initiative by fashion designer Anouk
@@ -45,7 +43,6 @@ content:
       seen on the *JOIN Collective Clothes* website. 
 
 
-
       The project encompasses a series of workshops and designer commissions.
       Everyone is invited to join one of the 4-hour workshops to design and make
       a garment-piece. At the end of the workshop, the results from the
@@ -54,40 +51,39 @@ content:
       fashion system.
 
 
+      Type: softcover \
 
-      Type: softcover <br/>
+      Dimensions: 210 mm x 297 mm portrait\
 
-      Dimensions: 210 mm x 297 mm portrait<br/>
+      Pages: 72\
 
-      Pages: 72<br/>
+      Art Direction: Anouk Beckers\
 
-      Art Direction: Anouk Beckers<br/>
-
-      Introduction text: Anouk Beckers and Chet Bugter<br/>
+      Introduction text: Anouk Beckers and Chet Bugter\
 
       Texts by: Charlotte Verdegaal, Eliza Lachkova, Julia Berg, Lindy Boerman,
-      Lu Lin, Sophia Buter and Tanyatorn Lauwanichpat<br/>
+      Lu Lin, Sophia Buter and Tanyatorn Lauwanichpat\
 
-      Text editing: Hanka van der Voet, Femke de Vries<br/>
+      Text editing: Hanka van der Voet, Femke de Vries\
 
-      Graphic design: Anouk Beckers and Julia Berg<br/>
+      Graphic design: Anouk Beckers and Julia Berg\
 
-      Release date: Autumn 2019<br/>
+      Release date: Autumn 2019\
 
-      Binding: folding<br/>
+      Binding: folding\
 
-      Edition: 100<br/>
+      Edition: 100\
 
-      Color: color copied<br/>
+      Color: color copied\
 
       Printer: copy machine ArtEZ University of the Arts at the Kortestraat 27,
-      Arnhem<br/>
+      Arnhem\
 
-      Language: English<br/>
+      Language: English\
 
-      Made possible by: MA Fashion Strategy, ArtEZ University of the Arts<br/>
+      Made possible by: MA Fashion Strategy, ArtEZ University of the Arts\
 
-      Production: Warehouse<br/>
+      Production: Warehouse\
 
       Production assistant: Seok Park
   - type: images
