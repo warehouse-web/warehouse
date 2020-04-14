@@ -1,18 +1,18 @@
 ---
 templateKey: event-post
-warehouseID: "WAREHOUSE #1.1"
+warehouseID: 'WAREHOUSE #1.1'
 title: Launch PORTAL 001
 content:
   - type: images
     image: /img/portal_elisavanjoolen_2017.jpg
-    caption: "PORTAL 001, Museum Boijmans van Beuningen, 2017."
+    caption: 'PORTAL 001, Museum Boijmans van Beuningen, 2017.'
   - type: text
     body: >-
       A conversation between Elisa van Joolen, Hanka van der Voet and students
-      from MA Fashion Strategy generation #........ exploring the following:
-      could different garments worn by different people be related? In what ways
-      are emotional and monetary values of clothing connected? To whom does a
-      piece of clothing belong?
+      from MA Fashion Strategy generation 27 exploring the following: Could
+      different garments worn by different people be related? In what ways are
+      emotional and monetary values of clothing connected? To whom does a piece
+      of clothing belong?
   - type: images
     image: /img/image1.jpg
   - type: text
@@ -47,14 +47,14 @@ content:
 
 
       For *PORTAL 001* Elisa van Joolen worked with MA Fashion Strategy students
-      generation #....... to research the economic, social and emotional value
-      of clothing worn by visitors of the ‘*Change the System*’ exhibition at
+      generation 27 to research the economic, social and emotional value of
+      clothing worn by visitors of the ‘*Change the System*’ exhibition at
       *Museum Boijmans van Beuningen* in Rotterdam. Information on 159 pieces of
       clothing worn by visitors was collected. The collected data is visualized
       and brought together in a reader designed by Beau Bertens.
   - type: images
     image: /img/01.jpg
-    caption: "PORTAL 001 Reader, 2018. "
-location: "Museum Boijmans van Beuningen, Rotterdam"
+    caption: 'PORTAL 001 Reader, 2018. '
+location: 'Museum Boijmans van Beuningen, Rotterdam'
 date: 2018-01-13T14:30:00.000Z
 ---
