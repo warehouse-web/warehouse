@@ -1,13 +1,12 @@
 ---
 templateKey: event-post
-warehouseID: "WAREHOUSE #3.3"
+warehouseID: 'WAREHOUSE #3.3'
 title: Launch A Magazine Reader 03
 content:
   - type: images
     image: /img/1.jpg
   - type: text
     body: >-
-
       During this conversation, taking place in a mini-exhibition, Femke de
       Vries, Chet Bugter and Zuzana Kostelanská discuss the proces of making *A
       Magazine Reader 03*, which revolves around all the non-garment related
@@ -50,16 +49,16 @@ content:
 
       \
 
-      In this version of *A Magazine Reader* we explore how every possible
+      In this edition of *A Magazine Reader* we we explore how every possible
       element; perfume, facial creams, rosemary water, travel suggestions,
       gadgets, books etcetera, is used to create stories and myths of a future
       reality. These 'stories' are composed of so much more than garments alone,
       and in such a way that the joints and seams are smoothed out, turning
-      these stories into a reality, a truth. During this workshop we disconnect
-      the elements, break the joints, cut the seams, unravel body parts and
-      disconnect garments from bodies, from backgrounds, objects, animals and
-      gadgets, with the aim to create space to critically explore the construct
-      of fashion. \
+      these stories into a reality, a truth. During this workshop at Onomatopee
+      we disconnect the elements, break the joints, cut the seams, unravel body
+      parts and disconnect garments from bodies, from backgrounds, objects,
+      animals and gadgets, with the aim to create space to critically explore
+      the construct of fashion. \
 
       \
 
@@ -72,6 +71,6 @@ content:
       Exhibition by Femke de Vries, Seok Park and Zuzana Kostelanská.
   - type: images
     image: /img/img_3720.jpg
-location: "Onomatopee, Eindhoven"
+location: 'Onomatopee, Eindhoven'
 date: 2019-10-26T17:00:00.000Z
 ---
