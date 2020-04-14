@@ -13,7 +13,7 @@ content:
       On June 20, the first issue of *Monument* was published, a fanzine
       dedicated to the "Dutch Wave", a group of Dutch fashion designers who
       created international fame around the turn of the century. Each number is
-      dedicated to one designer or design duo. This second issue focuses on the
+      dedicated to one designer or design duo. This first issue focuses on the
       work of the duo Rozema/Teunissen (Melanie Rozema and Jeroen Teunissen). 
 
 
