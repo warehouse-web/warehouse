@@ -1,13 +1,12 @@
 ---
 templateKey: event-post
-warehouseID: "WAREHOUSE #1.2"
+warehouseID: 'WAREHOUSE #1.2'
 title: Launch PORTAL 002
 content:
   - type: images
     image: /img/img_7452.jpg
   - type: text
     body: >-
-
       A conversation between Elisa van Joolen, Anouk Beckers and Renee van der
       Hoek addressing the following: Could different garments worn by different
       people be related? In what ways are emotional and monetary values of
@@ -54,7 +53,7 @@ content:
     image: /img/06.jpg
   - type: images
     image: /img/03.jpg
-    caption: "PORTAL 002 Reader, 2018."
-location: "State of Fashion, De Melkfabriek, Arnhem"
+    caption: 'PORTAL 002 Reader, 2018.'
+location: 'State of Fashion, De Melkfabriek, Arnhem'
 date: 2018-07-21T14:00:00.000Z
 ---
