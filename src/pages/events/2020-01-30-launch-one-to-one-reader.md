@@ -9,14 +9,14 @@ content:
       Society).
 
 
-      Elisa van Joolen’s new publication *One-to-One Reader* refers to a working
-      method in which items of clothing became large-sized printing tools,
-      covered in black and blue ink. Each clothing item served as a stamp, and
-      was simultaneously being stamped on, thus creating a chain reaction and
-      making each clothing item an original and a copy. As such the project
-      *One-to-One* offers new perspectives on reproduction – it allows us to
-      look beyond the status conveyed by the label and see the actual, material
-      properties of clothing.
+      Elisa van Joolen’s new publication *One-to-One Reader* refers to her
+      working method in which items of clothing became large-sized printing
+      tools, covered in black and blue ink. Each clothing item served as a
+      stamp, and was simultaneously being stamped on, thus creating a chain
+      reaction and making each clothing item an original and a copy. As such the
+      project *One-to-One* offers new perspectives on reproduction – it allows
+      us to look beyond the status conveyed by the label and see the actual,
+      material properties of clothing.
 
 
       Bringing together contributions by Amelia Groom, Ruby Hoette, Joke
