@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
-warehouseID: "WAREHOUSE #87"
-title: "PORTAL 001 Reader "
+warehouseID: 'WAREHOUSE #87'
+title: 'PORTAL 001 Reader '
 content:
   - type: images
     image: /img/01.jpg
@@ -10,8 +10,8 @@ content:
     body: >-
       PORTAL 001 Reader is the result of a workshop during the *Change the
       System* exhibition at Museum Boijmans van Beuningen in Rotterdam in which
-      Elisa van Joolen worked with MA Fashion Strategy students generation #27
-      to research the economic, social and emotional value of clothing worn by
+      Elisa van Joolen worked with MA Fashion Strategy students generation 27 to
+      research the economic, social and emotional value of clothing worn by
       visitors of the exhibition. The collected information on 159 pieces of
       clothing is visualized and brought together in this reader designed by
       Beau Bertens.
@@ -57,43 +57,43 @@ content:
       reader designed by Beau Bertens.
 
 
-      Type: softcover with plastic sleeve <br/>
+      Type: softcover with plastic sleeve \
 
-      Dimensions: 210 mm x 297 mm portrait<br/>
+      Dimensions: 210 mm x 297 mm portrait\
 
-      Pages: 36<br/>
+      Pages: 36\
 
-      Art Direction: Elisa van Joolen<br/>
+      Art Direction: Elisa van Joolen\
 
       Researchers: Adriana Fox Hopper, Chinouk Filique de Miranda, Cinzia
       Magnani, Gayeon Je, Hester Brands, Ieva Uzkurataite, Julia Kaleta, Karmen
-      Samson, Maria Gil Mendoza and Marina Sasseron de Oliveira Cabral<br/>
+      Samson, Maria Gil Mendoza and Marina Sasseron de Oliveira Cabral\
 
       Texts by: Adriana Fox Hopper, Chinouk Filique de Miranda, Cinzia Magnani,
       Elisa van Joolen, Gayeon Je, Hester Brands, Ieva Uzkurataite, Julia
       Kaleta, Karmen Samson, Maria Gil Mendoza, Marina Sasseron de Oliveira
-      Cabral<br/>
+      Cabral\
 
-      Graphic design: Beau Bertens<br/>
+      Graphic design: Beau Bertens\
 
-      Release date: Spring 2018<br/>
+      Release date: Spring 2018\
 
-      Binding: staples<br/>
+      Binding: staples\
 
-      Edition: 300<br/>
+      Edition: 300\
 
-      Color: Black, pink and red – riso printed<br/>
+      Color: Black, pink and red – riso printed\
 
-      Printer: Walter Books<br/>
+      Printer: Walter Books\
 
-      Language: English<br/>
+      Language: English\
 
-      Text editor: Femke de Vries<br/>
+      Text editor: Femke de Vries\
 
       Made possible by: ArtEZ University of the Arts, Museum Boijmans van
-      Beuningen<br/>
+      Beuningen\
 
-      Production: Warehouse<br/>
+      Production: Warehouse\
 
       Production assistant: Asu Aksu
   - type: images
@@ -104,13 +104,13 @@ content:
     caption: Contribution by Marina Sasseron de Cabral"
   - type: images
     image: /img/02_portal001_photo_anoukbeckers.jpg
-    caption: "PORTAL 001 Reader (2018). Photography: Anouk Beckers."
+    caption: 'PORTAL 001 Reader (2018). Photography: Anouk Beckers.'
   - type: images
     image: /img/03_portal001_photo_anoukbeckers_crop.jpg
-    caption: "Contribution by Maria Gil Mendoza. Photography: Anouk Beckers."
+    caption: 'Contribution by Maria Gil Mendoza. Photography: Anouk Beckers.'
   - type: images
     image: /img/04_portal001_photo_anoukbeckers.jpg
-    caption: "PORTAL 001 Reader (2018). Photography: Anouk Beckers."
+    caption: 'PORTAL 001 Reader (2018). Photography: Anouk Beckers.'
 author: Elisa van Joolen (ed.)
 date: 2018-02-06T14:56:33.320Z
 ---
