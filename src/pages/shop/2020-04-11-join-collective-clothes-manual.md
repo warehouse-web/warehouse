@@ -14,14 +14,12 @@ content:
       modular clothing system that consists of four different shapes which can
       be combined into a full outfit (a sleeve, a top, a trouser leg and a part
       of a skirt). As it is easy-to-use everyone can make the pieces themselves.
-      This manual can also be downloaded at www.joincollectiveclothes.com.<br/>
+      This manual can also be downloaded at www.joincollectiveclothes.com.
 
 
       The pieces made by various makers from all over the world, subsequently
       form an ever-growing collection that can be seen on the *JOIN Collective
-      Clothes* website.
-
-      <br/>
+      Clothes* website. 
 
 
       The fashion industry focuses mostly on designer status, brand identity,
@@ -41,45 +39,43 @@ content:
       but at the same time it critically questions the characteristics of the
       fashion system exploring ownership, identity, (intellectual) property,
       production methods, alienation, mystification and value creation in
-      fashion together.
-
-      <br/>
+      fashion together. <br/>
 
 
       Initiator Anouk Beckers on *JOIN Collective Clothes*: “What if we open up
       the fashion system and explore it as a non-fixed entity, a system where
       people can playfully join in, where everyone is invited to create fashion
-      together?”<br/>
+      together?”
 
 
-      Type: hard cover folder with loose JOIN patterns<br/>
+      Type: hard cover folder with loose JOIN patterns\
 
-      Dimensions: 225 mm x 178 mm x 20 mm portrait<br/>
+      Dimensions: 225 mm x 178 mm x 20 mm portrait\
 
-      Art Direction: Anouk Beckers<br/>
+      Art Direction: Anouk Beckers\
 
-      Graphic design: Beau Bertens<br/>
+      Graphic design: Beau Bertens\
 
-      Research Assistant: Ilse Bloemendal and Zoe Philine Pingel<br/>
+      Research Assistant: Ilse Bloemendal and Zoe Philine Pingel\
 
-      Text: Femke de Vries<br/>
+      Text: Femke de Vries\
 
-      Pattern development: Tanja BindelsRelease <br/>
+      Pattern development: Tanja Bindels\
 
-      Date: Spring 2019<br/>
+      Release Date: Spring 2019\
 
-      Edition: 500<br/>
+      Edition: 500\
 
-      Pages: 7 JOIN patterns<br/>
+      Pages: 7 JOIN patterns\
 
-      Color: black & white <br/>
+      Color: black & white \
 
-      Printer: Wilco Art Books<br/>
+      Printer: Wilco Art Books\
 
-      Language: English<br/>
+      Language: English\
 
       Made possible by: Stimuleringsfonds Creative Industries, Amsterdams Fonds
-      voor de Kunsten<br/>
+      voor de Kunsten\
 
       Production: Warehouse
   - type: images
