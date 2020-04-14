@@ -1,11 +1,11 @@
 ---
 templateKey: product-page
-warehouseID: "WAREHOUSE #88"
-title: "D&K Lookbook 2019 | All or Nothing "
+warehouseID: 'WAREHOUSE #88'
+title: 'D&K Lookbook 2019 | All or Nothing '
 content:
   - type: images
     image: /img/09_d-k_mode-mode_photo_anoukbeckers.jpg
-    caption: "D&K Lookbook 2019 | All or Nothing. Photography: Anouk Beckers."
+    caption: 'D&K Lookbook 2019 | All or Nothing. Photography: Anouk Beckers.'
   - type: text
     body: >-
       D&K explores the potential of fashion practice as a site of critical
@@ -24,28 +24,28 @@ content:
       is happy to have hosted the Dutch launch of both publications.
 
 
-      Type: softcover <br/>
+      Type: softcover \
 
-      Dimensions: 272 mm x 207 mm portrait<br/>
+      Dimensions: 272 mm x 207 mm portrait\
 
-      Pages: 400<br/>
+      Pages: 400\
 
-      Editor: Ricarda Bigolin<br/>
+      Editor: Ricarda Bigolin\
 
       Author: Ricarda Bigolin, Nella Themelios, Femke de Vries, Clemens
-      Thornquist, Michael Beverland, Matthew Linde and José Teunissen<br/>
+      Thornquist, Michael Beverland, Matthew Linde and José Teunissen\
 
-      Graphic design: Brad Haylock<br/>
+      Graphic design: Brad Haylock\
 
-      Release date: November 2019<br/>
+      Release date: November 2019\
 
-      Color: full color<br/>
+      Color: full color\
 
-      Language: English<br/>
+      Language: English\
 
-      Text editing: Mel Campbell<br/>
+      Text editing: Mel Campbell\
 
-      Proofreaders: Laura Gardner and Chantal Kirby<br/>
+      Proofreaders: Laura Gardner and Chantal Kirby\
 
       Publisher: Surpllus
   - type: images
@@ -54,7 +54,7 @@ content:
     image: /img/10_d-k_mode-mode_photo_anoukbeckers.jpg
   - type: images
     image: /img/11_d-k_mode-mode_photo_anoukbeckers.jpg
-    caption: "D&K Lookbook 2019 | All or Nothing. Photography: Anouk Beckers."
+    caption: 'D&K Lookbook 2019 | All or Nothing. Photography: Anouk Beckers.'
 author: Ricarda Bigolin (ed.)
 date: 2020-04-03T13:45:00.921Z
 ---
