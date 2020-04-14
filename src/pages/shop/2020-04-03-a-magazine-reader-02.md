@@ -1,11 +1,11 @@
 ---
 templateKey: product-page
-warehouseID: "WAREHOUSE #"
+warehouseID: 'WAREHOUSE #'
 title: A Magazine Reader 02
 content:
   - type: images
     image: /img/02_a-magazine-reader-02_photo_anouk-beckers.jpg
-    caption: "A Magazine Reader 02 (2019). Photography: Anouk Beckers."
+    caption: 'A Magazine Reader 02 (2019). Photography: Anouk Beckers.'
   - type: text
     body: >-
       *A Magazine Reader 02* is the result of a workshop by Ruby Hoette, Chet
@@ -69,37 +69,36 @@ content:
       Download here   xx x (PDF)
 
 
+      Type: softcover \
 
-      Type: softcover <br/>
+      Dimensions: 200 mm x 145 mm portrait\
 
-      Dimensions: 200 mm x 145 mm portrait<br/>
+      Pages: 100\
 
-      Pages: 100<br/>
-
-      Art Direction:Femke de Vries, Chet Bugter and Ruby Hoette<br/>
+      Art Direction: Femke de Vries, Chet Bugter and Ruby Hoette\
 
       Author:Emma Disbergen, Laura Lisa Fernandes Januario, Eva Kühn, Boris
       Kollar, Karlijn Krijger, Nicole Dekkers, Andrea Chehade, Denise Bernts,
       Bobbine Berden, Mariane Cortez Meirelles and Femke de Vries, Chet Bugter
-      and Ruby Hoette.<br/>
+      and Ruby Hoette.\
 
-      Graphic design: Corine van der Wal<br/>
+      Graphic design: Corine van der Wal\
 
-      Release date: Spring 2019<br/>
+      Release date: Spring 2019\
 
-      Binding: elastic band<br/>
+      Binding: elastic band\
 
-      Edition: 150<br/>
+      Edition: 150\
 
-      Color: black and yellow – riso printed<br/>
+      Color: black and yellow – riso printed\
 
-      Printer: Riso Wiso<br/>
+      Printer: Riso Wiso\
 
-      Language: English<br/>
+      Language: English\
 
-      Text editing: Femke de Vries, Chet Bugter and Ruby Hoette<br/>
+      Text editing: Femke de Vries, Chet Bugter and Ruby Hoette\
 
-      Made possible by: ArtEZ Fashion Masters, Fashion Strategy.<br/>
+      Made possible by: ArtEZ Fashion Masters, Fashion Strategy\
 
       Production: Warehouse
   - type: images
@@ -111,6 +110,6 @@ content:
   - type: images
     image: /img/a-magazine-reader-issue-02-boris-kollar-1.jpg
     caption: Contribution by Boris Kollar
-author: "Femke de Vries, Ruby Hoette & Chet Bugter (eds.)"
+author: 'Femke de Vries, Ruby Hoette & Chet Bugter (eds.)'
 date: 2019-08-14T12:50:34.286Z
 ---
