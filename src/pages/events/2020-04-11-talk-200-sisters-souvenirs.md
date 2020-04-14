@@ -7,13 +7,13 @@ content:
     caption: '200 Sisters Souvenirs. Photography: Roos Quakernaat'
   - type: text
     body: >-
-      A conversation with Rebecca Stephany and Amelia Groom on 200 Sisters
-      Souvenirs accompanied by a presentation of the 200 Sisters Souvenirs
+      A conversation with Rebecca Stephany and Amelia Groom on *200 Sisters
+      Souvenirs* accompanied by a presentation of the *200 Sisters Souvenirs*
       clothing and accessoiries.
 
 
-      200 Sisters Souvenirs – 200 years of exhibition catalogues, side notes and
-      slippery images, a feminist exhibition (mis)reading is a project by
+      *200 Sisters Souvenirs – 200 years of exhibition* catalogues, side notes
+      and slippery images, a feminist exhibition (mis)reading is a project by
       Rebecca Stephany developed on the occasion of the 200-year anniversary of
       The Baden Art Association (Badischer Kunstverein) in Karlsruhe in 2018.
 
