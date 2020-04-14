@@ -12,7 +12,6 @@ content:
       dialogue and an alternative fashion discourse that goes beyond seeing
       fashion as a commodity, Warehouse supported and produced a number of
       projects that explore the trademarks of fashion with a critical eye.
-
       Warehouse sells several publications like: the *JOIN manual* and the *JOIN
       Collective Conversation* magazine. Several issues of *A Magazine Reader*,
       as well as issues of the *PORTAL* readers. There's an exclusive pre-sale
@@ -20,7 +19,7 @@ content:
       Warehouse Wear.
 
 
-      And just like last year, we've made a selection of independent fashion
+      Just like last year, we've made a selection of independent fashion
       publications. This year, we have publications by Chet Bugter, Chinouk
       Filique de Miranda, Edwin van Gelder & Johann Tangyong (*Rework*
       magazine), Mary-Lou Berkulin (*Monument*), Karmen Samson, Mika Perlmutter
