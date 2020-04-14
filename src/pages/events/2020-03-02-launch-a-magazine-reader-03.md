@@ -8,7 +8,7 @@ content:
   - type: text
     body: >-
       During this conversation, taking place in a mini-exhibition, Femke de
-      Vries, Chet Bugter and Zuzana Kostelanská discuss the proces of making *A
+      Vries, Chet Bugter and Zuzana Kostelanská discuss the process of making *A
       Magazine Reader 03*, which revolves around all the non-garment related
       elements in the fashion magazine.
 
@@ -49,7 +49,7 @@ content:
 
       \
 
-      In this edition of *A Magazine Reader* we we explore how every possible
+      In this edition of *A Magazine Reader* we explore how every possible
       element; perfume, facial creams, rosemary water, travel suggestions,
       gadgets, books etcetera, is used to create stories and myths of a future
       reality. These 'stories' are composed of so much more than garments alone,
