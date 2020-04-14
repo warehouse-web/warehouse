@@ -30,6 +30,8 @@ content:
       *A Magazine Reader Invites* is initiated by Hanka van der Voet and Femke
       de Vries. \
 
+      \
+
       Type: softcover \
 
       Dimensions: depending on source magazine \
