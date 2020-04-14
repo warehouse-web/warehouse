@@ -14,12 +14,10 @@ content:
       projects that explore with a critical eye, the trademarks of fashion.
 
 
-
       Warehouse is selling several publications such as the *JOIN manual* and
       the *JOIN Collective Conversation* magazine. Several issues of *A Magazine
-      Reader*, as well as issues of the *PORTAL* readers. There's an exclusive
-      pre-sale of the newest *Press & Fold '*The Luxury Issue' and several items
-      of Warehouse Wear.
+      Reader*, as well as issues of the *PORTAL* readers, *Press & Fold '*The
+      Street Issue' and several items of Warehouse Wear.
 location: Hordaland Kunstsenter
 date: 2019-11-14T11:11:00.000Z
 ---
