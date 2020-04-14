@@ -10,7 +10,7 @@ content:
     body: >-
       *A Magazine Reader 02* is the result of a workshop by Ruby Hoette, Chet
       Bugter and Femke de Vries at ArtEZ Fashion Masters in which the students
-      of the MA Fashion Strategy generation #27 explore the role of text in
+      of the MA Fashion Strategy generation 27 explore the role of text in
       fashion magazines and how it affects our relationship to fashion. In this
       case specifically the British Vogue, November 2018.
 
