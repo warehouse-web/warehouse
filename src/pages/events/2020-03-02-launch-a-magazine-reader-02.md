@@ -1,6 +1,6 @@
 ---
 templateKey: event-post
-warehouseID: "WAREHOUSE #3.2"
+warehouseID: 'WAREHOUSE #3.2'
 title: Launch A Magazine Reader 02
 content:
   - type: text
@@ -46,7 +46,7 @@ content:
 
 
       For this issue, which was made in collaboration with Ruby Hoette and MA
-      Fashion Strategy generation 28 and desinged by Corine van der Wal, we have
+      Fashion Strategy generation 28 and designed by Corine van der Wal, we have
       focused on reading each and every word. This process of dissecting and
       analysing reveals the actual structure and content of the magazine. (Which
       words are used? Is it readable at all? Is the meaning clear? Which values
@@ -65,6 +65,6 @@ content:
 
       *A Magazine Reader* is an ongoing research trajectory and series of zines
       initiated by Femke de Vries and Hanka van der Voet.
-location: "Kleine Oord, Arnhem"
+location: 'Kleine Oord, Arnhem'
 date: 2019-06-22T12:00:00.000Z
 ---
