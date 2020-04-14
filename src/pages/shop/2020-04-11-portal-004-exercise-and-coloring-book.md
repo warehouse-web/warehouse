@@ -9,8 +9,8 @@ content:
       Beckers.
   - type: text
     body: >-
-      PORTAL 004 - exercise and coloring book for children is the result of
-      PORTAL 004,  a workshop in which children from the public primary school
+      *PORTAL 004* - exercise and coloring book for children is the result of
+      *PORTAL 004*,  a workshop in which children from the public primary school
       OBS Twiske, under the supervision of students of the MA Fashion Strategy
       at ArtEZ, investigated the different values of clothing. In this book,
       which is based on the questions and outcoms of this workshop, children can
@@ -53,45 +53,45 @@ content:
       Download here
 
 
-      Type: softcover with plastic sleeve<br/>
+      Type: softcover with plastic sleeve\
 
-      Dimensions: 210 mm x 297 mm portrait<br/>
+      Dimensions: 210 mm x 297 mm portrait\
 
-      Pages: 68<br/>
+      Pages: 68\
 
-      Art Direction: Elisa van Joolen<br/>
+      Art Direction: Elisa van Joolen\
 
-      Research Assistant: Laura Lisa Januario<br/>
+      Research Assistant: Laura Lisa Januario\
 
-      Text: Hanka van der Voet and Femke de Vries<br/>
+      Text: Hanka van der Voet and Femke de Vries\
 
-      Photography: Anouk Beckers and Elisa van Joolen<br/>
+      Photography: Anouk Beckers and Elisa van Joolen\
 
       Researchers: Andrea Chehade, Bobbine Berden, Boris Kollar, Denise Bernts,
       Emma Disbergen, Eva Kühn, Karlijn Krijger, Laura Lisa Januario, Mariane
-      Cortez Meirelles, Nicole Dekkers<br/>
+      Cortez Meirelles, Nicole Dekkers \
 
-      Graphic design: Zuzana Kostelanská<br/>
+      Graphic design: Zuzana Kostelanská\
 
-      Release date: Winter 2019<br/>
+      Release date: Winter 2019\
 
-      Binding: staples<br/>
+      Binding: staples\
 
-      Edition: 200<br/>
+      Edition: 200\
 
-      Color: Black, pink and red – riso printed<br/>
+      Color: Black, pink and red – riso printed\
 
-      Printer: Charles Nypels Lab, Jan van Eyck Academie<br/>
+      Printer: Charles Nypels Lab, Jan van Eyck Academie\
 
-      Language: English<br/>
+      Language: English\
 
-      Text editing: Chet Bugter<br/>
+      Text editing: Chet Bugter\
 
-      Translation: Hanna Steenbergen-Cockerton<br/>
+      Translation: Hanna Steenbergen-Cockerton\
 
-      Made possible by: MA Fashion Strategy, ArtEZ University of the Arts<br/>
+      Made possible by: MA Fashion Strategy, ArtEZ University of the Arts\
 
-      Production: Warehouse<br/>
+      Production: Warehouse\
 
       Production assistant: Anouk Beckers
   - type: images
