@@ -1,11 +1,11 @@
 ---
 templateKey: event-post
-warehouseID: "WAREHOUSE #4.2"
-title: "Launch Monument Issue #2 | Keupr/van Bentm"
+warehouseID: 'WAREHOUSE #4.2'
+title: 'Launch Monument Issue #2 | Keupr/van Bentm'
 content:
   - type: images
     image: /img/01_monument02_16012020_anoukbeckers.jpg
-    caption: "Monument Issue #2. Photography: Anouk Beckers."
+    caption: 'Monument Issue #2. Photography: Anouk Beckers.'
   - type: text
     body: >-
       A conversation with Mary-Lou Berkulin, Mo Veld and Keupr/van Bentm
@@ -18,19 +18,19 @@ content:
       dedicated to one designer or design duo. This second issue focuses on the
       work of the duo Keupr/van Bentm (Michiel Keuper and Francisco van
       Benthum). Between 1997 and 2001, they challenged the fashion industry with
-      their surprising and colorful statement collections. *Monument* is a
-      project by stylist and fashion researcher Mary-Lou Berkulin and graphic
-      designer Karen van der Kraats.
+      their surprising and colorful statement collections. 
 
 
-      In *Monument*, images and texts from various archives are combined with
-      new interviews and photography. Each issue has its own unique design and
-      editorial approach, completely in keeping with the designer to whom the
-      issue is dedicated. Central to this paper monument for Keupr/van Bentm is
-      the work that they made between 1997 and 2001. A conversation between
-      Mary-Lou and Keupr/van Bentm has been supplemented with quotes and texts
-      from articles from the archive and a new long-read, written by fashion
-      researcher Laura Gardner.
+      In *Monument*, a project by stylist and fashion researcher Mary-Lou
+      Berkulin and graphic designer Karen van der Kraats, images and texts from
+      various archives are combined with new interviews and photography. Each
+      issue has its own unique design and editorial approach, completely in
+      keeping with the designer to whom the issue is dedicated. Central to this
+      paper monument for Keupr/van Bentm is the work that they made between 1997
+      and 2001. A conversation between Mary-Lou and Keupr/van Bentm has been
+      supplemented with quotes and texts from articles from the archive and a
+      new long-read, written by fashion researcher Laura Gardner. The items from
+      the archive have been photographed by Roos Quakernaat.
   - type: images
     image: /img/71_monument02_16012020_anoukbeckers.jpg
   - type: text
@@ -51,7 +51,7 @@ content:
     image: /img/35_monument02_16012020_anoukbeckers.jpg
   - type: images
     image: /img/64_monument02_16012020_anoukbeckers.jpg
-    caption: "Photography: Anouk Beckers"
-location: "Athenaeum Nieuwscentrum, Amsterdam"
+    caption: 'Photography: Anouk Beckers'
+location: 'Athenaeum Nieuwscentrum, Amsterdam'
 date: 2020-01-16T16:00:00.000Z
 ---
