@@ -24,7 +24,7 @@ content:
       keeping with the designer to whom the issue is dedicated. A conversation
       between Mary-Lou and Rozema/Teunissen has been supplemented with quotes
       and texts from articles from the archive and a new long-read, written by
-      fashion researcher Renée van der Hoek. The items from the archive have
+      fashion researcher Renee van der Hoek. The items from the archive have
       been photographed by Barrie Hullegie.\
 
       \
