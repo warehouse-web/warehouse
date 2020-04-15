@@ -33,8 +33,8 @@ content:
       first edition of Monument:
 
 
-      “Rozema/Teunissen’s designs are part of a defining time in Dutch Fashion.
-      With their work, they have paved the way for generations. But
+      “*Rozema/Teunissen’s* designs are part of a defining time in Dutch
+      Fashion. With their work, they have paved the way for generations. But
       unfortunately, until today, their heritage is not tangible or visible. The
       majority of their archive is analogue and put together before the rise of
       social media and the internet. The items are held in bags, folders, in
@@ -45,7 +45,7 @@ content:
       their essence”.
 
 
-      *“Monument*aims to bring these items back to the surface. By doing so, I
+      *“Monument* aims to bring these items back to the surface. By doing so, I
       want to show you that we maybe first need to look back in order to move
       forward into changing today’s fashion system”.\
 
@@ -57,8 +57,8 @@ content:
       their perspectives”.
 
 
-      “After almost 20 years since they’ve been made, Rozema/Teunissen’s designs
-      still embody an exceptionally modern look, and photographer Barrie
+      “After almost 20 years since they’ve been made, *Rozema/Teunissen*’s
+      designs still embody an exceptionally modern look, and photographer Barrie
       Hullegie beautifully caught this in the three stories we created together
       with items from the archive. In our constant hunger for new fashion we
       have forgotten about the artistry that is fashion design and the amount of
