@@ -5,7 +5,7 @@ title: 'Launch Monument Issue #1 | Rozema/Teunissen'
 content:
   - type: text
     body: >-
-      This launch of Monument Issue #1 | Rozema/Teunissen at Sexyland concides
+      This launch of Monument Issue #1 | Rozema/Teunissen at Sexyland coincides
       with an installation by Maria Kley.\
 
       \
@@ -13,8 +13,8 @@ content:
       On June 20, the first issue of *Monument* was published, a fanzine
       dedicated to the "Dutch Wave", a group of Dutch fashion designers who
       created international fame around the turn of the century. Each number is
-      dedicated to one designer or design duo. This first issue focuses on the
-      work of the duo Rozema/Teunissen (Melanie Rozema and Jeroen Teunissen). 
+      dedicated to one designer or design duo. This second issue focuses on the
+      work of the duo Rozema/Teunissen (Melanie Rozema and Jeroen Teunissen).
 
 
       In *Monument*, a project by stylist and fashion researcher Mary-Lou
@@ -24,32 +24,16 @@ content:
       keeping with the designer to whom the issue is dedicated. A conversation
       between Mary-Lou and Rozema/Teunissen has been supplemented with quotes
       and texts from articles from the archive and a new long-read, written by
-      fashion researcher Renee van der Hoek. The items from the archive have
+      fashion researcher Renée van der Hoek. The items from the archive have
       been photographed by Barrie Hullegie.\
 
       \
 
       Some words by initiator Mary Lou Berkulin from the introduction of this
-      first edition of Monument:\
-
-      \
-
-      "Is it a strange confession to say that, when starting this project, I
-      looked up the word ‘fashion’ in a dictionary? The fact that in its
-      explanation the word ‘transitory’ was mentioned as a characteristic of the
-      word fashion was enough to affirm my thoughts.
+      first edition of Monument:
 
 
-      Not long before then, I had visited the storage space belonging to Jeroen
-      Teunissen where we searched together for designs from 'Candescere', the
-      last finished collection of Rozema/Teunissen, the fashion label he and
-      Melanie Rozema had from 1997 till 2001. I took home some designs that I,
-      until that time, only knew from magazines, pictures of catwalk shows or
-      museum-displays, and that were now crammed in a couple of shopping bags,
-      hanging on the steer of my bike.
-
-
-      Rozema/Teunissen’s designs are part of a defining time in Dutch Fashion.
+      “Rozema/Teunissen’s designs are part of a defining time in Dutch Fashion.
       With their work, they have paved the way for generations. But
       unfortunately, until today, their heritage is not tangible or visible. The
       majority of their archive is analogue and put together before the rise of
@@ -58,31 +42,22 @@ content:
       depot where they quietly lie, wrapped in acid-free paper, carefully held
       in climate-controlled spaces. Although this is a comfortable situation,
       it’s the reason they remain far from our memory. It’s a place unworthy of
-      their essence.
+      their essence”.
 
 
-      *Monument* aims to bring these items back to the surface. By doing so, I
+      *“Monument*aims to bring these items back to the surface. By doing so, I
       want to show you that we maybe first need to look back in order to move
-      forward into changing today’s fashion system. This work might show us some
-      valuable insights on that matter, as Rozema/Teunissen were well ahead of
-      their time, not only by creating designs averse to prevailing trends, but
-      also by working with subjects such as recycling. This is the first
-      publication fully dedicated to their work, and brings together a selection
-      of images from the designer’s original archive, illustrated with quotes
-      and excerpts from the conversations we had over the last couple of months.
+      forward into changing today’s fashion system”.\
+
+      \
+
+      “This is not only the story of a young, talented label, bursting with
+      ambition and creativity, but also a story about how external factors, both
+      local and global, can have an impact on creatives and ultimately change
+      their perspectives”.
 
 
-      Together these bits and pieces will tell you more about the designers;
-      their inspirations, experiences and also, struggles. Renee van der Hoek’s
-      contribution on page 34 puts Rozema/Teunissen’s work into a broader
-      perspective, featuring a closer look on the coming and passing of the
-      label as a part of the 1998 ‘Dutch Wave’. This is not only the story of a
-      young, talented label, bursting with ambition and creativity, but also a
-      story about how external factors, both local and global, can have an
-      impact on creatives and ultimately change their perspectives.
-
-
-      After almost 20 years since they’ve been made, Rozema/Teunissen’s designs
+      “After almost 20 years since they’ve been made, Rozema/Teunissen’s designs
       still embody an exceptionally modern look, and photographer Barrie
       Hullegie beautifully caught this in the three stories we created together
       with items from the archive. In our constant hunger for new fashion we
