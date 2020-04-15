@@ -49,7 +49,14 @@ const FocusDetail = ({
 								</>
 							);
 						} else {
-							return <p className="bodyText">{el.body}</p>;
+							return (
+								<p className="bodyText">
+									<ReactMarkdown
+										escapeHtml={false}
+										source={el.body}
+									/>
+								</p>
+							);
 						}
 					}
 				)}
@@ -67,14 +74,10 @@ const FocusDetail = ({
 								);
 							} else if (el.type === "text") {
 								return (
-									<>
-										<p className="bodyText">
-											<ReactMarkdown
-												escapeHtml={false}
-												source={el.body}
-											/>
-										</p>
-									</>
+									<ReactMarkdown
+										escapeHtml={false}
+										source={el.body}
+									/>
 								);
 							}
 					  })}

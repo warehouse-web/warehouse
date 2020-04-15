@@ -54,7 +54,12 @@ const EventDetail = ({
 								</>
 							);
 						} else {
-							return <p className="bodyText">{el.body}</p>;
+							return (
+								<ReactMarkdown
+									escapeHtml={false}
+									source={el.body}
+								/>
+							);
 						}
 					}
 				)}
@@ -75,12 +80,10 @@ const EventDetail = ({
 							} else if (el.type === "text") {
 								return (
 									<>
-										<p className="bodyText">
-											<ReactMarkdown
-												escapeHtml={false}
-												source={el.body}
-											/>
-										</p>
+										<ReactMarkdown
+											escapeHtml={false}
+											source={el.body}
+										/>
 									</>
 								);
 							}

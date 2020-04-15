@@ -352,11 +352,7 @@ a.navbar-item:hover {
   color: black;
 }
 
-.content > div > p {
-  font-size: 1.15em;
-  line-height: 1.35;
-}
-.bodyText {
+.content > p {
   font-size: 1.15em;
   line-height: 1.35;
   font-family: "BradfordLLWeb-Book", "Times New Roman", Times, serif;
