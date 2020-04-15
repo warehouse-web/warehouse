@@ -50,12 +50,10 @@ const FocusDetail = ({
 							);
 						} else {
 							return (
-								<p className="bodyText">
-									<ReactMarkdown
-										escapeHtml={false}
-										source={el.body}
-									/>
-								</p>
+								<ReactMarkdown
+									escapeHtml={false}
+									source={el.body}
+								/>
 							);
 						}
 					}

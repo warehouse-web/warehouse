@@ -52,14 +52,10 @@ const ProductDetail = ({
 						);
 					} else {
 						return (
-							<>
-								<p className="bodyText">
-									<ReactMarkdown
-										escapeHtml={false}
-										source={el.body}
-									/>
-								</p>
-							</>
+							<ReactMarkdown
+								escapeHtml={false}
+								source={el.body}
+							/>
 						);
 					}
 				})}
@@ -88,14 +84,10 @@ const ProductDetail = ({
 								);
 							} else if (el.type === "text") {
 								return (
-									<>
-										<p className="bodyText">
-											<ReactMarkdown
-												escapeHtml={false}
-												source={el.body}
-											/>
-										</p>
-									</>
+									<ReactMarkdown
+										escapeHtml={false}
+										source={el.body}
+									/>
 								);
 							}
 					  })}

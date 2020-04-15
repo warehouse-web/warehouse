@@ -79,12 +79,10 @@ const EventDetail = ({
 								);
 							} else if (el.type === "text") {
 								return (
-									<>
-										<ReactMarkdown
-											escapeHtml={false}
-											source={el.body}
-										/>
-									</>
+									<ReactMarkdown
+										escapeHtml={false}
+										source={el.body}
+									/>
 								);
 							}
 					  })}
