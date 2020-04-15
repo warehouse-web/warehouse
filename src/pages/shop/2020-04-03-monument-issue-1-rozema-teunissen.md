@@ -109,7 +109,7 @@ content:
 
       Graphic design: Karen van de Kraats\
 
-      Photography: Barry Hullegie\
+      Photography: Barrie Hullegie\
 
       Contributing writer: Renee van der Hoek\
 
