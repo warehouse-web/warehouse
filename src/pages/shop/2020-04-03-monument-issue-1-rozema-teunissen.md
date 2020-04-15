@@ -93,7 +93,42 @@ content:
       subsequently, makes their previous work look irrelevant to the public.
       This fascinating side of fashion is the reason why this first edition is
       dedicated to Rozema/Teunissen. They deserve a *Monument* for creating work
-      that goes well beyond fashion’s transitory aspect".
+      that goes well beyond fashion’s transitory aspect".\
+
+      \
+
+      Type: softcover\
+
+      Dimensions: 170 mm x 240 mm portrait\
+
+      Pages: 160\
+
+      Editor: Mary-Lou Berkulin\
+
+      Art direction: Karen van de Kraats\
+
+      Graphic design: Karen van de Kraats\
+
+      Photography: Barry Hullegie\
+
+      Contributing writer: Renee van der Hoek\
+
+      Release date: Summer 2018\
+
+      Binding: glued\
+
+      Color: full colour\
+
+      Printer: Wilco Art Books\
+
+      Language: English\
+
+      Guest editors: Hanka van der Voet and Femke de Vries (Warehouse)\
+
+      Made possible by: Creative Industries Fund NL and the Amsterdam Fund for
+      the Arts\
+
+      Production: Warehouse
   - type: images
     image: /img/01_monument-01_photo_anouk-beckers.jpg
     caption: 'Monument Issue #1 | Rozema/Teunissen (2018). Photography: Anouk Beckers.'
