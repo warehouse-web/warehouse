@@ -13,8 +13,6 @@ content:
       different garments worn by different people be related? In what ways are
       emotional and monetary values of clothing connected? To whom does a piece
       of clothing belong?
-  - type: images
-    image: /img/image1.jpg
   - type: text
     body: >-
       *PORTAL* is a research project that explores the economic, social and
@@ -54,7 +52,10 @@ content:
       and brought together in a reader designed by Beau Bertens.
   - type: images
     image: /img/01.jpg
-    caption: 'PORTAL 001 Reader, 2018. '
+    caption: ''
+  - type: images
+    image: /img/portal001-_vanjoolen_9.jpg
+    caption: 'PORTAL 001 Reader, 2018.'
 location: 'Museum Boijmans van Beuningen, Rotterdam'
 date: 2018-01-13T14:30:00.000Z
 ---
