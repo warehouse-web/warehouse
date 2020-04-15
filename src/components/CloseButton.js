@@ -5,7 +5,7 @@ const CloseButton = ({ onSetActiveEvent, onSetShowEventDetail }) => {
 		<div
 			className="close"
 			onClick={() => {
-				onSetActiveEvent(null);
+				onSetActiveEvent({});
 				onSetShowEventDetail(false);
 			}}
 		>
