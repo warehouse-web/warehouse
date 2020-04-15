@@ -30,7 +30,6 @@ exports.createPages = async ({ actions, graphql }) => {
 			}
 		}) => {
 			if (templateKey) {
-				console.log("templateKey:", templateKey);
 				createPage({
 					path: slug,
 					component: path.resolve(

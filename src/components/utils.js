@@ -106,7 +106,6 @@ export const handleWindowSizeChange = () => {
 }
 
 export const useChangeMagicLogo = () => {
-	console.log("changing the magic logo");
 	window.addEventListener("scroll", relayout);
 	return () => {
 		window.removeEventListener("scroll", relayout);

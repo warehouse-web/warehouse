@@ -68,8 +68,6 @@ const EventDetail = ({
 				{activeEvent
 					? renderHtmlToReact(activeEvent.htmlAst)
 					: (content || []).map(el => {
-							console.log("image:", image);
-							console.log("el:", el);
 							if (el.type === "images") {
 								return (
 									<>

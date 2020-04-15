@@ -57,7 +57,6 @@ const FocusRoll = ({
 	useEffect(() => {
 		posts &&
 			posts.map(post => {
-				console.log("post:", post);
 				if (post.node.fields.slug === window.location.pathname) {
 					setActiveFocus(post.node);
 					setShowFocusDetail(true);
