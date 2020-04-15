@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import "./main.css";
-import DivOverlay from "../templates/DivOverlay";
+import DivOverlay from "./DivOverlay";
 import {
 	renderHtmlToReact,
 	useMedia,

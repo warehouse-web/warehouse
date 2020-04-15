@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import "./main.css";
-import DivOverlay from "../templates/DivOverlay";
+import DivOverlay from "./DivOverlay";
 import Content, {
 	renderHtmlToReact,
 	imagesFromAst,
@@ -93,14 +93,7 @@ const PodcastRoll = ({ data }) => {
 								<header>
 									<p className="post-meta">
 										{post.frontmatter.title}
-										<span className="subtitle is-size-5 is-block">
-											{/* {post.frontmatter.date} */}
-											{/* <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                  </Link> */}
-										</span>
+										<span className="subtitle is-size-5 is-block"></span>
 										{post.frontmatter.location}
 									</p>
 								</header>

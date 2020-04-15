@@ -3,12 +3,11 @@ import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import "./main.css";
 import Img from "gatsby-image";
-import DivOverlay from "../templates/DivOverlay";
+import DivOverlay from "./DivOverlay";
 import {
 	renderHtmlToReact,
 	useMedia,
 	imagesFromAst,
-	relayout,
 	useWindowSize,
 	isDateBeforeToday,
 	renderImg,

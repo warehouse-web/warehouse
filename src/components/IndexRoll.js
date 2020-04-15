@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
-import Layout from "../components/Layout";
+
 import {
 	renderHtmlToReact,
 	isDateBeforeToday,
@@ -9,66 +8,28 @@ import {
 	relayout,
 	postType,
 	useWindowSize,
-	useMedia
+	renderImg,
+	removeImg,
+	useSetDivBg,
+	useMedia,
+	useChangeMagicLogo
 } from "../components/utils";
-import EventDetail from "../components/EventDetail";
-import DivOverlay from "../components/DivOverlay";
+import DivOverlay from "./DivOverlay";
+import EventDetail from "./EventDetail";
+import ProductDetail from "./ProductDetail";
+import FocusDetail from "./FocusDetail";
 
-export const IndexPageTemplate = ({ data }) => {
-	return (
-		<Layout>
-			<IndexPage />
-		</Layout>
-	);
-};
-IndexPageTemplate.propTypes = {
-	image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-	title: PropTypes.string
-};
-// MAIN PAGE LOADS EVERYTHING
-export const IndexPage = ({ data }) => {
-	const match = useMedia("(max-width: 900px) ");
-	const { edges: posts } = data.allMarkdownRemark;
-	const [activeEvent, setActiveEvent] = useState({});
+const IndexRoll = ({
+	data: {
+		allMarkdownRemark: { edges: posts }
+	}
+}) => {
+	const [activeEvent, setActiveEvent] = useState(false);
 	const [showEventDetail, setShowEventDetail] = useState(false);
-	const [isMobile, setIsMobile] = useState(match);
+	const articleRef = useRef();
+	const match = useMedia("(max-width: 900px) ");
 	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
 	const size = useWindowSize();
-
-	const articleRef = useRef();
-	const renderImg = post => {
-		if (imagesFromAst(post.htmlAst)[0] !== undefined) {
-			setDivStyle({
-				backgroundImage: `url( ${
-					imagesFromAst(post.htmlAst)[0].properties.src
-				} )`
-			});
-		} else {
-			setDivStyle({ backgroundColor: "black" });
-		}
-	};
-
-	const removeImg = () => {
-		if (size.width < 900) {
-			setDivStyle({ backgroundColor: "white" });
-		} else {
-			setDivStyle({ backgroundColor: "black" });
-		}
-	};
-
-	// CHANGING LOGO COLOR
-	useEffect(() => {
-		size.width > 900
-			? setDivStyle({ backgroundColor: "black" })
-			: setDivStyle({ backgroundColor: "white" });
-	}, []);
-
-	useEffect(() => {
-		window.addEventListener("scroll", relayout);
-		return () => {
-			window.removeEventListener("scroll", relayout);
-		};
-	}, []);
 
 	const openEvent = event => {
 		const isClient = typeof window === "object";
@@ -87,9 +48,55 @@ export const IndexPage = ({ data }) => {
 		setActiveEvent({ event });
 		setShowEventDetail(true);
 	};
+	// CHANGING LOGO COLOR
+	useEffect(() => {
+		useSetDivBg(setDivStyle);
+	}, [size]);
+
+	useEffect(() => {
+		useChangeMagicLogo();
+	}, []);
+
+	// const [isMobile, setIsMobile] = useState(match);
+
+	const componentDetailType = activeEvent => {
+		console.log("activeEvent:", activeEvent);
+		if (activeEvent && activeEvent.event) {
+			switch (activeEvent.event.frontmatter.templateKey) {
+				case "event-post":
+					return (
+						<EventDetail
+							match={match}
+							activeEvent={activeEvent.event}
+							onSetActiveEvent={setActiveEvent}
+							onSetShowEventDetail={setShowEventDetail}
+							renderHtmlToReact={renderHtmlToReact}
+							articleRef={articleRef}
+						/>
+					);
+				case "podcast-page":
+					return <h1>not ready yet</h1>;
+				case "product-page":
+					return (
+						<ProductDetail
+							onSetActiveEvent={setActiveEvent}
+							onSetShowEventDetail={setShowEventDetail}
+							renderHtmlToReact={renderHtmlToReact}
+							match={match}
+							articleRef={articleRef}
+							activeEvent={activeEvent.event}
+						/>
+					);
+				case "focus-page":
+					return <FocusDetail />;
+				default:
+					return null;
+			}
+		}
+	};
 
 	return (
-		<Layout>
+		<>
 			<DivOverlay currImg={divStyle} />
 			<div className="wrapper">
 				<div onScroll={() => relayout()} className="article-list">
@@ -98,8 +105,12 @@ export const IndexPage = ({ data }) => {
 							return (
 								<article
 									key={post.id}
-									onPointerEnter={() => renderImg(post)}
-									onPointerLeave={() => removeImg()}
+									onPointerEnter={() =>
+										renderImg(post, setDivStyle, size)
+									}
+									onPointerLeave={() =>
+										removeImg(setDivStyle)
+									}
 									onClick={() => openEvent(post)}
 									className={`blog-list-item post ${
 										post === activeEvent.event
@@ -144,27 +155,12 @@ export const IndexPage = ({ data }) => {
 							);
 						})}
 				</div>
-				{showEventDetail && (
-					<EventDetail
-						match={match}
-						activeEvent={activeEvent.event}
-						onSetActiveEvent={setActiveEvent}
-						onSetShowEventDetail={setShowEventDetail}
-						renderHtmlToReact={renderHtmlToReact}
-						articleRef={articleRef}
-					/>
-				)}
+				{showEventDetail && componentDetailType(activeEvent)
+				// <p>hello</p>
+				}
 			</div>
-		</Layout>
+		</>
 	);
-};
-
-IndexPage.propTypes = {
-	data: PropTypes.shape({
-		markdownRemark: PropTypes.shape({
-			frontmatter: PropTypes.object
-		})
-	})
 };
 
 export default () => (
@@ -216,6 +212,6 @@ export default () => (
 				}
 			}
 		`}
-		render={(data, count) => <IndexPage data={data} count={count} />}
+		render={(data, count) => <IndexRoll data={data} count={count} />}
 	/>
 );

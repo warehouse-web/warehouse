@@ -2,10 +2,9 @@ const path = require("path");
 const { createFilePath } = require("gatsby-source-filesystem");
 const { fmImagesToRelative } = require("gatsby-remark-relative-images");
 
-exports.createPages = ({ actions, graphql }) => {
+exports.createPages = async ({ actions, graphql }) => {
 	const { createPage } = actions;
-
-	return graphql(`
+	const { data } = await graphql(`
 		{
 			allMarkdownRemark(limit: 1000) {
 				edges {
@@ -21,31 +20,27 @@ exports.createPages = ({ actions, graphql }) => {
 				}
 			}
 		}
-	`).then(result => {
-		if (result.errors) {
-			result.errors.forEach(e => console.error(e.toString()));
-			return Promise.reject(result.errors);
+	`);
+	data.allMarkdownRemark.edges.forEach(
+		({
+			node: {
+				id,
+				fields: { slug },
+				frontmatter: { templateKey }
+			}
+		}) => {
+			if (templateKey) {
+				console.log("templateKey:", templateKey);
+				createPage({
+					path: slug,
+					component: path.resolve(
+						`src/templates/${String(templateKey)}.js`
+					),
+					context: { id }
+				});
+			}
 		}
-
-		const posts = result.data.allMarkdownRemark.edges;
-
-		posts.forEach(edge => {
-			const id = edge.node.id;
-			createPage({
-				path: edge.node.fields.slug,
-				// tags: edge.node.frontmatter.tags,
-				component: path.resolve(
-					`src/templates/${String(
-						edge.node.frontmatter.templateKey
-					)}.js`
-				),
-				// additional data can be passed via context
-				context: {
-					id
-				}
-			});
-		});
-	});
+	);
 };
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
@@ -53,11 +48,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 	fmImagesToRelative(node); // convert image paths for gatsby images
 
 	if (node.internal.type === `MarkdownRemark`) {
-		const value = createFilePath({ node, getNode });
 		createNodeField({
 			name: `slug`,
 			node,
-			value
+			value: createFilePath({
+				node,
+				getNode
+			})
 		});
 	}
 };
