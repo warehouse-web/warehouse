@@ -74,8 +74,8 @@ content:
 
       Language: English\
 
-      Made possible by: Stimuleringsfonds Creative Industries, Amsterdams Fonds
-      voor de Kunsten\
+      Made possible by: Creative Industries Fund NL and the Amsterdam Fund for
+      the Arts\
 
       Production: Warehouse
   - type: images
