@@ -9,7 +9,6 @@ const EventDetail = ({
 	activeEvent,
 	onSetActiveEvent,
 	onSetShowEventDetail,
-	renderHtmlToReact,
 	title,
 	content,
 	location,
@@ -65,25 +64,25 @@ const EventDetail = ({
 				)}
 			</section>
 			<section className="content">
-				{activeEvent
-					? renderHtmlToReact(activeEvent.htmlAst)
-					: (content || []).map(el => {
-							if (el.type === "images") {
-								return (
-									<>
-										<img src={getAsset(el.image)} alt="" />
-										<p className="caption">{el.caption}</p>
-									</>
-								);
-							} else if (el.type === "text") {
-								return (
-									<ReactMarkdown
-										escapeHtml={false}
-										source={el.body}
-									/>
-								);
-							}
-					  })}
+				{!activeEvent &&
+					content &&
+					content.map(el => {
+						if (el.type === "images") {
+							return (
+								<>
+									<img src={getAsset(el.image)} alt="" />
+									<p className="caption">{el.caption}</p>
+								</>
+							);
+						} else if (el.type === "text") {
+							return (
+								<ReactMarkdown
+									escapeHtml={false}
+									source={el.body}
+								/>
+							);
+						}
+					})}
 			</section>
 		</div>
 	);

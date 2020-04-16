@@ -1,12 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import EventDetail from "../../components/EventDetail";
+import FocusDetail from "../../components/FocusDetail";
 
 const FocusPagePreview = ({ entry, getAsset }) => {
-	const data = entry.get("data").toJS();
-
 	return (
-		<EventDetail
+		<FocusDetail
 			{...entry.toJSON().data}
 			getAsset={getAsset}
 			title={entry.getIn(["data", "title"])}

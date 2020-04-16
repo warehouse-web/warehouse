@@ -93,6 +93,7 @@ a.right {
   height: 1.3em;
   margin-right: 1rem;
   text-transform: uppercase;
+  text-decoration: none !important;
   font-size: 0.9rem;
   border: 1px solid transparent;
   color: black;
@@ -390,8 +391,6 @@ figure figcaption {
 /* FOCUS PAGE */
 .pdf-download {
   display: block;
-}
-.pdf-download:hover {
   text-decoration: underline;
 }
 

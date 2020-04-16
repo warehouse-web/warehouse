@@ -12,6 +12,7 @@ const ProductDetail = ({
 	activeProduct,
 	title,
 	content,
+	PDF,
 	getAsset
 }) => {
 	return (
@@ -25,14 +26,15 @@ const ProductDetail = ({
 			/>
 
 			<h2 className="article-detail-title">
-				{activeProduct
+				{activeProduct && activeProduct.frontmatter
 					? activeProduct.frontmatter.title
 					: title
 					? title
 					: ""}
 			</h2>
 			<section className="content">
-				{(
+				{activeProduct &&
+				(
 					(activeProduct && activeProduct.frontmatter.content) ||
 					[]
 				).map(el => {
@@ -58,8 +60,7 @@ const ProductDetail = ({
 							/>
 						);
 					}
-				})}
-				{activeProduct.frontmatter.PDF ? (
+				})(activeProduct.frontmatter.PDF) ? (
 					<a
 						className="pdf-download"
 						href={activeProduct.frontmatter.PDF.publicURL}
@@ -72,35 +73,33 @@ const ProductDetail = ({
 				)}
 			</section>
 			<section className="content">
-				{activeProduct
-					? renderHtmlToReact(activeProduct.htmlAst)
-					: (content || []).map(el => {
-							if (el.type === "images") {
-								return (
-									<>
-										<img src={getAsset(el.image)} alt="" />
-										<p className="caption">{el.caption}</p>
-									</>
-								);
-							} else if (el.type === "text") {
-								return (
-									<ReactMarkdown
-										escapeHtml={false}
-										source={el.body}
-									/>
-								);
-							}
-					  })}
-				{activeProduct.frontmatter.PDF ? (
+				{!activeProduct &&
+					content &&
+					content.map(el => {
+						if (el.type === "images") {
+							return (
+								<>
+									<img src={getAsset(el.image)} alt="" />
+									<p className="caption">{el.caption}</p>
+								</>
+							);
+						} else if (el.type === "text") {
+							return (
+								<ReactMarkdown
+									escapeHtml={false}
+									source={el.body}
+								/>
+							);
+						}
+					})}
+				{PDF && (
 					<a
 						className="pdf-download"
-						href={activeProduct.frontmatter.PDF.publicURL}
+						href={PDF.publicURL}
 						target="_blank"
 					>
 						Download Item
 					</a>
-				) : (
-					""
 				)}
 			</section>
 		</div>
