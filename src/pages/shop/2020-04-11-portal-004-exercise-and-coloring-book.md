@@ -5,7 +5,7 @@ content:
   - type: images
     image: /img/03_portal004_photo_anoukbeckers.jpg
     caption: >-
-      PORTAL 004 | Exercise and Coloring Book (2019). Photography: Anouk.
+      PORTAL 004 | Exercise and Coloring Book (2019). Photography: Anouk
       Beckers.
   - type: text
     body: >-
@@ -106,11 +106,7 @@ content:
       PORTAL 004 | Exercise and Coloring Book (2019). Photography: Anouk.
       Beckers.
   - type: text
-    body: |-
-      TEXTTTTT </br>
-      khbvsbvsdoqwjbkds .cnDLs/jbk\
-
-      Here are some drawing inspiration  examples:
+    body: ''
 author: Elisa van Joolen (ed.)
 date: 2020-04-11T13:44:41.841Z
 ---
