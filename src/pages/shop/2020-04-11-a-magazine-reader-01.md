@@ -10,8 +10,8 @@ content:
       *A Magazine Reader 01* is the result of a workshop by Femke de Vries and
       Hanka van der Voet at ArtEZ Fashion Masters in which the students of the
       MA Fashion Strategy generation 27 explore the representation and meaning
-      of luxury in the fashion magazine. In this case specifically the British
-      Vogue, February 2018.
+      of luxury in the fashion magazine. In this case specifically the *British
+      Vogue*, February 2018.
 
 
       *A Magazine Reader* is an ongoing research trajectory and series of zines
@@ -58,7 +58,7 @@ content:
 
       Art Direction: Femke de Vries and Hanka van der Voet\
 
-      Author: Chet Bugter, Ieva Uzkurataite, Maria Gil Mendoza, Hester Brands,
+      Authors: Chet Bugter, Ieva Uzkurataite, Maria Gil Mendoza, Hester Brands,
       Julia Kaleta, Cinzia Magnani, Karmen Samson, Chinouk Filique de Miranda,
       Adriana Fox Hopper and Marina Sasseron de Oliveira Cabral\
 
@@ -88,7 +88,7 @@ content:
       Download Here...(PDF)
   - type: images
     image: /img/02_a-magazine-reader-01_photo_anouk-beckers.jpg
-    caption: 'Contribution by Karmen Samson. Photography: Anouk Beckers. '
+    caption: Contribution by Karmen Samson
   - type: images
     image: /img/01_a-magazine-reader-01_photo_anouk-beckers.jpg
     caption: 'Contribution by Chinouk Filique de Miranda. Photography: Anouk Beckers.'
