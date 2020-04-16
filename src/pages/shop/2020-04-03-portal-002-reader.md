@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
-warehouseID: "WAREHOUSE #99"
-title: "PORTAL 002 Reader "
+warehouseID: 'WAREHOUSE #99'
+title: 'PORTAL 002 Reader '
 content:
   - type: images
     image: /img/portal-002-.jpg
@@ -9,10 +9,10 @@ content:
   - type: text
     body: >-
       PORTAL 002 Reader is the result of a workshop during the *State of
-      Fashion* in Arnhem in which the  the economic, social and emotional value
-      of clothing worn by visitors of the exhibition, is collected and
-      researched. The collected data is visualized and brought together in a
-      reader designed by Beau Bertens.
+      Fashion* in Arnhem in which the economic, social and emotional value of
+      clothing worn by visitors of the exhibition, is collected and researched.
+      The collected data is visualized and brought together in a reader designed
+      by Beau Bertens.
 
 
       *PORTAL* is a research project that explores the economic, social and
@@ -58,48 +58,22 @@ content:
       through the modes of transaction and exchange that are enabled by this?
 
 
-      Type: softcover with plastic sleeve<br/>
-
-      Dimensions: 210 mm x 297 mm portrait<br/>
-
-      Pages: 12<br/>
-
-      Art Direction: Elisa van Joolen<br/>
-
-      Text: Ruby Hoette<br/>
-
-      Photography: Anouk Beckers and Elisa van Joolen<br/>
-
+      Type: softcover with plastic sleeve<br/> Dimensions: 210 mm x 297 mm
+      portrait<br/> Pages: 12<br/> Art Direction: Elisa van Joolen<br/> Text:
+      Ruby Hoette<br/> Photography: Anouk Beckers and Elisa van Joolen<br/>
       Researchers: Anouk Beckers, Cleo Van Woensel, Emma De Meulenaer, Marina
       Sasseron, Naomi Bruintjes, Rebecca Nevins, Stijn Pommée, Tjerre Bijker,
-      Tonya Sudiono<br/>
-
-      Graphic design: Beau Bertens<br/>
-
-      Release date: Spring 2018<br/>
-
-      Binding: staples<br/>
-
-      Edition: 100<br/>
-
-      Color: Black, pink and red – riso printed<br/>
-
-      Printer: Raddraaier<br/>
-
-      Language: English<br/>
-
-      Text editing: Ruby Hoette<br/>
-
-      Made possible by: State of Fashion 2018<br/>
-
-      Production: Warehouse<br/>
-
-      Production assistant: Anouk Beckers and Marina Sasseron
+      Tonya Sudiono<br/> Graphic design: Beau Bertens<br/> Release date: Spring
+      2018<br/> Binding: staples<br/> Edition: 100<br/> Color: Black, pink and
+      red – riso printed<br/> Printer: Raddraaier<br/> Language: English<br/>
+      Text editing: Ruby Hoette<br/> Made possible by: State of Fashion
+      2018<br/> Production: Warehouse<br/> Production assistant: Anouk Beckers
+      and Marina Sasseron
   - type: images
     image: /img/02_portal002_photo_anoukbeckers.jpg
   - type: images
     image: /img/03_portal002_photo_anoukbeckers.jpg
-    caption: "PORTAL 002 Reader (2018). Photography: Anouk Beckers."
+    caption: 'PORTAL 002 Reader (2018). Photography: Anouk Beckers.'
 author: Elisa van Joolen (ed.)
 date: 2018-07-12T13:49:43.353Z
 ---
