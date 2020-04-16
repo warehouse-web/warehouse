@@ -5,7 +5,7 @@ title: 'PORTAL 001 Reader '
 content:
   - type: images
     image: /img/01.jpg
-    caption: PORTAL 001 Reader (2018).
+    caption: PORTAL 001 Reader (2018)
   - type: text
     body: >-
       PORTAL 001 Reader is the result of a workshop during the *Change the
@@ -101,13 +101,13 @@ content:
     caption: PORTAL 001 Reader (2018).
   - type: images
     image: /img/portal001-_vanjoolen_9.jpg
-    caption: Contribution by Marina Sasseron de Cabral"
+    caption: Contribution by Marina Sasseron de Cabral
   - type: images
     image: /img/02_portal001_photo_anoukbeckers.jpg
     caption: 'PORTAL 001 Reader (2018). Photography: Anouk Beckers.'
   - type: images
     image: /img/03_portal001_photo_anoukbeckers_crop.jpg
-    caption: 'Contribution by Maria Gil Mendoza. Photography: Anouk Beckers.'
+    caption: Contribution by Maria Gil Mendoza
   - type: images
     image: /img/04_portal001_photo_anoukbeckers.jpg
     caption: 'PORTAL 001 Reader (2018). Photography: Anouk Beckers.'
