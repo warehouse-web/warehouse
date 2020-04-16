@@ -91,7 +91,8 @@ const FocusDetail = ({
 							}
 					  })}
 
-				{activeFocus.frontmatter.PDF ? (
+				{activeFocus.frontmatter.PDF &&
+				!activeFocus.frontmatter.content ? (
 					<a
 						className="pdf-download"
 						href={activeFocus.frontmatter.PDF.publicURL}

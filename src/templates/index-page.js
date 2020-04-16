@@ -14,6 +14,7 @@ import {
 } from "../components/utils";
 import EventDetail from "../components/EventDetail";
 import DivOverlay from "../components/DivOverlay";
+import FocusDetail from "../components/FocusDetail";
 
 export const IndexPageTemplate = ({ data }) => {
 	return (
@@ -136,16 +137,26 @@ export const IndexPage = ({ data }) => {
 							);
 						})}
 				</div>
-				{showEventDetail && (
-					<EventDetail
+				{(showEventDetail && activeEvent.event.frontmatter.PDF && (
+					<FocusDetail
 						match={match}
-						activeEvent={activeEvent.event}
+						activeFocus={activeEvent.event}
 						onSetActiveEvent={setActiveEvent}
 						onSetShowEventDetail={setShowEventDetail}
 						renderHtmlToReact={renderHtmlToReact}
 						articleRef={articleRef}
 					/>
-				)}
+				)) ||
+					(showEventDetail && (
+						<EventDetail
+							match={match}
+							activeEvent={activeEvent.event}
+							onSetActiveEvent={setActiveEvent}
+							onSetShowEventDetail={setShowEventDetail}
+							renderHtmlToReact={renderHtmlToReact}
+							articleRef={articleRef}
+						/>
+					))}
 			</div>
 		</Layout>
 	);
@@ -186,6 +197,9 @@ export default () => (
 								slug
 							}
 							frontmatter {
+								PDF {
+									publicURL
+								}
 								title
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
