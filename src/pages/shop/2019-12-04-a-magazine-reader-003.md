@@ -2,6 +2,7 @@
 templateKey: product-page
 warehouseID: 'Warehouse #3.6'
 title: A Magazine Reader 03
+PDF: ''
 content:
   - type: images
     image: /img/1.jpg
