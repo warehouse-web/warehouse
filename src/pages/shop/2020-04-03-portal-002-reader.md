@@ -67,7 +67,7 @@ content:
       2018<br/> Binding: staples<br/> Edition: 100<br/> Color: Black, pink and
       red – riso printed<br/> Printer: Raddraaier<br/> Language: English<br/>
       Text editing: Ruby Hoette<br/> Made possible by: State of Fashion
-      2018<br/> Production: Warehouse<br/> Production assistant: Anouk Beckers
+      2018<br/> Production: Warehouse<br/> Production assistants: Anouk Beckers
       and Marina Sasseron
   - type: images
     image: /img/02_portal002_photo_anoukbeckers.jpg
