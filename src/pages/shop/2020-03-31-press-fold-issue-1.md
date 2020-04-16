@@ -5,7 +5,7 @@ title: 'Press & Fold Issue #1 | The Luxury Issue'
 content:
   - type: images
     image: /img/pf_mock_up-issue-luxury-0.jpg
-    caption: 'Press & Fold Issue #1'
+    caption: 'Press & Fold Issue #1 (2019)'
   - type: text
     body: >-
       *Press & Fold* is an independent fashion magazine that aims to explore
