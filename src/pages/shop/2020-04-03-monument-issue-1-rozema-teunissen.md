@@ -99,7 +99,7 @@ content:
 
       Language: English\
 
-      Guest editors: Hanka van der Voet and Femke de Vries (Warehouse)\
+      Text editors: Hanka van der Voet and Femke de Vries (Warehouse)\
 
       Made possible by: Creative Industries Fund NL and the Amsterdam Fund for
       the Arts\
