@@ -9,11 +9,12 @@ let shiftRatio = 0.3;
 export let rectColor;
 
 export const renderImg = (post, setDivStyle, size) => {
-	if (imagesFromAst(post.htmlAst)[0] !== undefined) {
+	if (
+		post.frontmatter.content[0].image &&
+		post.frontmatter.content[0].image.publicURL !== undefined
+	) {
 		setDivStyle({
-			backgroundImage: `url( ${
-				imagesFromAst(post.htmlAst)[0].properties.src
-			} )`
+			backgroundImage: `url( ${post.frontmatter.content[0].image.publicURL})`
 		});
 	} else {
 		if (size.width < 900) {

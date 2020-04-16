@@ -103,7 +103,6 @@ const ProductDetail = ({
 					""
 				)}
 			</section>
-			<p>Webshop coming soon..</p>
 		</div>
 	);
 };

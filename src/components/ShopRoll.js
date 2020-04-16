@@ -141,6 +141,7 @@ export default () => (
 								content {
 									type
 									image {
+										publicURL
 										childImageSharp {
 											fluid(maxWidth: 1440, quality: 90) {
 												...GatsbyImageSharpFluid_withWebp_tracedSVG

@@ -58,6 +58,17 @@ const FocusDetail = ({
 						}
 					}
 				)}
+				{activeFocus.frontmatter.PDF ? (
+					<a
+						className="pdf-download"
+						href={activeFocus.frontmatter.PDF.publicURL}
+						target="_blank"
+					>
+						Download Article
+					</a>
+				) : (
+					""
+				)}
 			</section>
 			<section className="content">
 				{activeFocus
@@ -80,13 +91,17 @@ const FocusDetail = ({
 							}
 					  })}
 
-				<a
-					className="pdf-download"
-					href={activeFocus.frontmatter.PDF.publicURL}
-					target="_blank"
-				>
-					Download Article
-				</a>
+				{activeFocus.frontmatter.PDF ? (
+					<a
+						className="pdf-download"
+						href={activeFocus.frontmatter.PDF.publicURL}
+						target="_blank"
+					>
+						Download Article
+					</a>
+				) : (
+					""
+				)}
 			</section>
 			{activeFocus.excerpt}
 		</div>

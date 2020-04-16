@@ -9,7 +9,8 @@ import {
 	relayout,
 	postType,
 	useWindowSize,
-	useMedia
+	useMedia,
+	renderImg
 } from "../components/utils";
 import EventDetail from "../components/EventDetail";
 import DivOverlay from "../components/DivOverlay";
@@ -36,17 +37,6 @@ export const IndexPage = ({ data }) => {
 	const size = useWindowSize();
 
 	const articleRef = useRef();
-	const renderImg = post => {
-		if (imagesFromAst(post.htmlAst)[0] !== undefined) {
-			setDivStyle({
-				backgroundImage: `url( ${
-					imagesFromAst(post.htmlAst)[0].properties.src
-				} )`
-			});
-		} else {
-			setDivStyle({ backgroundColor: "black" });
-		}
-	};
 
 	const removeImg = () => {
 		if (size.width < 900) {
@@ -98,7 +88,9 @@ export const IndexPage = ({ data }) => {
 							return (
 								<article
 									key={post.id}
-									onPointerEnter={() => renderImg(post)}
+									onPointerEnter={() =>
+										renderImg(post, setDivStyle, size)
+									}
 									onPointerLeave={() => removeImg()}
 									onClick={() => openEvent(post)}
 									className={`blog-list-item post ${
@@ -201,6 +193,7 @@ export default () => (
 								content {
 									type
 									image {
+										publicURL
 										childImageSharp {
 											fluid(maxWidth: 1440, quality: 90) {
 												...GatsbyImageSharpFluid_withWebp_tracedSVG

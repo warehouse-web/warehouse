@@ -40,31 +40,6 @@ const BlogPost = ({ data }) => {
 	return (
 		<Layout>
 			<EventRoll />
-			{/* <BlogPostTemplate
-				data={data}
-				content={post.html}
-				contentComponent={HTMLContent}
-				location={post.frontmatter.location}
-				date={post.frontmatter.date}
-				helmet={
-					<Helmet titleTemplate="%s | Blog">
-						<title>{`${post.frontmatter.title}`}</title>
-						<meta
-							name="date"
-							content={`${post.frontmatter.date}`}
-						/>
-						<meta
-							name="location"
-							content={`${post.frontmatter.location}`}
-						/>
-						<meta
-							name="image"
-							content={`${post.frontmatter.image}`}
-						/>
-					</Helmet>
-				}
-				title={post.frontmatter.title}
-			/> */}
 		</Layout>
 	);
 };
