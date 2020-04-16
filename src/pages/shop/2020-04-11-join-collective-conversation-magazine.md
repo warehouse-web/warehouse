@@ -88,12 +88,10 @@ content:
       Production assistant: Seok Park
   - type: images
     image: /img/04_join-magazine_photo_anouk-beckers.jpg
-    caption: 'Contribution by Anouk Beckers. Photography: Anouk Beckers.'
+    caption: Contribution by Anouk Beckers
   - type: images
     image: /img/08_join-magazine_photo_anouk-beckers.jpg
-    caption: >-
-      Contribution by Eliza Lachkova, Julia Berg and Lu Lin. Photography: Anouk
-      Beckers.
+    caption: 'Contribution by Eliza Lachkova, Julia Berg and Lu Lin'
   - type: images
     image: /img/02_join-magazine_photo_anouk-beckers.jpg
     caption: 'JOIN Collective Conversation Magazine (2019). Photography: Anouk Beckers.'
