@@ -61,11 +61,9 @@ content:
 
       Type:
       softcover                                                                                                                               
-      Dimensions: 210 mm x 155 mm portrait
+      Dimensions: 210 mm x 155 mm portrait Pages: 140
 
-      Pages: 140
-
-      Art Direction: Femke de Vries and Hanka van der Voet
+      Art Directors: Femke de Vries and Hanka van der Voet
 
       Authors: Sophia Grancharova, Hanka van der Voet, Patricia Nahorniac,
       Rebecca Nevins, Marco Dalle Fratte, Xi Ruolan, Abhaya Mistry, Seok Park,
