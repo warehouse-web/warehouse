@@ -59,40 +59,18 @@ content:
       Reading becomes making.
 
 
-      Type:
-      softcover                                                                                                                               
-      Dimensions: 210 mm x 155 mm portrait Pages: 140
-
-      Art Directors: Femke de Vries and Hanka van der Voet
-
-      Authors: Sophia Grancharova, Hanka van der Voet, Patricia Nahorniac,
-      Rebecca Nevins, Marco Dalle Fratte, Xi Ruolan, Abhaya Mistry, Seok Park,
-      Isabelle Mauduit and Ellen Pearson, Femke de Vries
-
-      Graphic design: Zuzana Kostelanská
-
-      Release date: October 2019
-
-      Binding: elastic band
-
-      Edition: 250
-
-      Color: black and gold – riso printed
-
-      Printer: Onomatopee's risograph and copy machine
-
-      Language: English
-
-      Text editing: Femke de Vries and Hanka van der Voet
-
-      Production: Onomatopee in collaboration with Warehouse
-
-      Made possible by the generous support of the Provincie Noord Brabant
-
-      Production: Joannette van der Veer for Onomatopee 
-
-      With support of Seok Park, and Onomatopee interns Nathalia Malińska and
-      Merel Steneker
+      Type: softcover\ Dimensions: 210 mm x 155 mm portrait\ Pages: 140\ Art
+      Directors: Femke de Vries and Hanka van der Voet\ Authors: Abhaya Mistry,
+      Ellen Pearson, Femke de Vries, Hanka van der Voet, Isabelle Mauduit, Marco
+      Dalle Fratte, Patricia Nahorniac, Rebecca Nevins, Seok Park, Sophia
+      Grancharova, Xi Ruolan\ Graphic design: Zuzana Kostelanská\ Release date:
+      October 2019\ Binding: elastic band\ Edition: 250\ Color: black and gold –
+      riso printed\ Printer: Onomatopee's risograph and copy machine\ Language:
+      English\ Text editing: Femke de Vries and Hanka van der Voet\ Production:
+      Onomatopee in collaboration with Warehouse\ Made possible by the generous
+      support of the Provincie Noord Brabant\ Production: Joannette van der Veer
+      for Onomatopee\ With support of Seok Park and Onomatopee interns Nathalia
+      Malińska and Merel Steneker
 
 
       15EUR
