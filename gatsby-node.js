@@ -66,6 +66,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 		frontmatter: Frontmatter
 		id: String
 		fields: Slug
+
 	  }
 	  type Slug @infer {
 		slug: String
@@ -73,6 +74,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 	  type Frontmatter {
 		templateKey: String
 		title: String!
+		image: File
 	  }
 	`;
 	createTypes(typeDefs);
