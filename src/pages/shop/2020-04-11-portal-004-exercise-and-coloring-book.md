@@ -59,13 +59,16 @@ content:
       Nicole Dekkers\ Graphic design: Zuzana Kostelanská\ Release date: Winter
       2019\ Binding: staples\ Edition: 200\ Color: Black, pink and red – riso
       printed\ Printer: Charles Nypels Lab, Jan van Eyck Academie\ Language:
-      English\ Text editing: Chet Bugter\ Translation: Hanna
+      Dutch and English\ Text editing: Chet Bugter\ Translation: Hanna
       Steenbergen-Cockerton\ Made possible by: MA Fashion Strategy at ArtEZ
       University of the Arts\ Production: Warehouse\ Production assistant: Anouk
       Beckers
 
 
       15EUR
+
+
+      Send an email to shop@thisiswarehouse.com if you want to purchase a copy.
 
 
       Download PDF here.
@@ -77,9 +80,7 @@ content:
     image: /img/09_portal004_photo_anoukbeckers.jpg
   - type: images
     image: /img/06_portal004_photo_anoukbeckers.jpg
-    caption: >-
-      PORTAL 004 | Exercise and Coloring Book (2019). Photography: Anouk.
-      Beckers.
+    caption: 'Photography: Anouk Beckers'
 author: Elisa van Joolen (ed.)
 date: 2020-04-11T13:44:41.841Z
 ---
