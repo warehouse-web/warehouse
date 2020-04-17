@@ -8,11 +8,13 @@ content:
     caption: ''
   - type: text
     body: >-
-      This Join Collective Clothes workshop at…… is part of a series of
-      workshops by Anouk Beckers in which everyone is invited to make a
-      garment-piece.\
+      This *Join Collective Clothes* workshop at Capsicum Natural Fabrics is
+      part of a series of workshops by Anouk Beckers in which everyone is
+      invited to make a garment-piece.\
 
-      The base of *JOIN Collective Clothes* is a modular clothing system that
+      \
+
+      The base of*JOIN Collective Clothes* is a modular clothing system that
       consists of four different shapes which can be combined into a full outfit
       (a sleeve, a top, a trouser leg and a part of a skirt). At the end of the
       workshop, the results from the participants are joined into one complete
@@ -33,20 +35,20 @@ content:
       values such as originality and ‘the new’. And although it is often
       perceived as something that is not for everyone, fashion surely is a
       collective practice. By making and wearing clothes together, the design
-      and research project *JOIN Collective Clothes* proposes fashion as a
+      and research project*JOIN Collective Clothes* proposes fashion as a
       collective practice.\
 
       Besides joining one of the workshop, an easy-to-use open source can be
       downloaded at
-      [www.joincollectiveclothes.com](http://www.joincollectiveclothes.com/).
+      [www.joincollectiveclothes.com](http://www.joincollectiveclothes.com/)/manual.
       The pieces made by various makers from all over the world form an
       ever-growing collection that can be seen on the *JOIN Collective Clothes*
       website.\
 
       \
 
-      *JOIN Collective Clothes* is an initiative by fashion designer Anouk
-      Beckers and graphic designer/art director Beau Bertens.
+      *JOIN Collective Clothes* is an initiative by Anouk Beckers in
+      collaboration with graphic designer/art director Beau Bertens.
   - type: images
     image: /img/02_join_capsicum_photo_join.jpg
     caption: ''
