@@ -20,10 +20,10 @@ content:
       various archives are combined with new interviews and photography. Each
       issue has its own unique design and editorial approach, completely in
       keeping with the designer to whom the issue is dedicated. A conversation
-      between Mary-Lou and Rozema/Teunissen has been supplemented with quotes
-      and texts from articles from the archive and a new long-read, written by
-      fashion researcher Renee van der Hoek. The items from the archive have
-      been photographed by Barrie Hullegie.\
+      between Mary-Lou Berkulin and Rozema/Teunissen has been supplemented with
+      quotes and texts from articles from the archive and a new long-read,
+      written by fashion researcher Renee van der Hoek. The items from the
+      archive have been photographed by Barrie Hullegie.\
 
       \
 
