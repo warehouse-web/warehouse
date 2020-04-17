@@ -6,7 +6,9 @@ PDF: /img/somename-5-.pdf
 content:
   - type: images
     image: /img/01_200sisterssouvenirs_2018©roberthamacher.jpg
-    caption: Rebecca Stephany's 200 Sisters Souvenirs (2018).
+    caption: >-
+      Rebecca Stephany's 200 Sisters Souvenirs (2018). Photography: Robert
+      Hamacher.
   - type: text
     body: ''
 author: Amelia Groom
