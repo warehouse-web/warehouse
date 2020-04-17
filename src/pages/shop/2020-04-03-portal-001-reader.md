@@ -58,18 +58,18 @@ content:
 
 
       Type: softcover with plastic sleeve\ Dimensions: 210 mm x 297 mm portrait\
-      Pages: 36\ Art Direction: Elisa van Joolen\ Contributors: Adriana Fox
-      Hopper, Chinouk Filique de Miranda, Cinzia Magnani, Gayeon Je, Hester
-      Brands, Ieva Uzkurataite, Julia Kaleta, Karmen Samson, Maria Gil Mendoza, 
-      Marina Sasseron de Oliveira Cabral\ Texts by: Adriana Fox Hopper, Chinouk
-      Filique de Miranda, Cinzia Magnani, Elisa van Joolen, Gayeon Je, Hester
-      Brands, Ieva Uzkurataite, Julia Kaleta, Karmen Samson, Maria Gil Mendoza,
-      Marina Sasseron de Oliveira Cabral\ Graphic design: Beau Bertens\ Release
-      date: Spring 2018\ Binding: staples\ Edition: 300\ Color: Black, pink and
-      red – riso printed\ Printer: Walter Books\ Language: English\ Text editor:
-      Femke de Vries\ Made possible by: MA Fashion Strategy at ArtEZ University
-      of the Arts, Museum Boijmans van Beuningen\ Production: Warehouse\
-      Production assistant: Asu Aksu
+      Pages: 36\ Art Direction: Elisa van Joolen\ Researchers and contributors:
+      Adriana Fox Hopper, Chinouk Filique de Miranda, Cinzia Magnani, Gayeon Je,
+      Hester Brands, Ieva Uzkurataite, Julia Kaleta, Karmen Samson, Maria Gil
+      Mendoza,  Marina Sasseron de Oliveira Cabral\ Texts by: Adriana Fox
+      Hopper, Chinouk Filique de Miranda, Cinzia Magnani, Elisa van Joolen,
+      Gayeon Je, Hester Brands, Ieva Uzkurataite, Julia Kaleta, Karmen Samson,
+      Maria Gil Mendoza, Marina Sasseron de Oliveira Cabral\ Graphic design:
+      Beau Bertens\ Release date: Spring 2018\ Binding: staples\ Edition: 300\
+      Color: Black, pink and red – riso printed\ Printer: Walter Books\
+      Language: English\ Text editor: Femke de Vries\ Made possible by: MA
+      Fashion Strategy at ArtEZ University of the Arts, Museum Boijmans van
+      Beuningen\ Production: Warehouse\ Production assistant: Asu Aksu
 
 
       12,50 EUR
