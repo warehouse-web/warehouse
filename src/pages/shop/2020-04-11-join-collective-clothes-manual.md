@@ -4,7 +4,7 @@ title: JOIN Collective Clothes Manual
 content:
   - type: images
     image: /img/01_join-manual_photo_anouk-beckers.jpg
-    caption: 'JOIN Collective Clothes Manual. Photography: Anouk Beckers '
+    caption: 'JOIN Collective Clothes Manual (2019). Photography: Anouk Beckers'
   - type: text
     body: >-
       The *JOIN Collective Clothes Manual* is an open-source manual that invites
@@ -61,6 +61,10 @@ content:
       10EUR
 
 
+      Send an email to hello@joincollectiveclothes.com if you want to purchase a
+      copy.
+
+
       Download PDF here.
   - type: images
     image: /img/03_join-manual_photo_anouk-beckers.jpg
@@ -68,7 +72,7 @@ content:
     image: /img/05_join-manual_photo_anouk-beckers.jpg
   - type: images
     image: /img/09_join-manual_photo_anouk-beckers.jpg
-    caption: 'JOIN Collective Clothes Manual. Photography: Anouk Beckers '
+    caption: 'Photography: Anouk Beckers'
 author: Anouk Beckers
 date: 2020-04-11T13:52:57.240Z
 ---
