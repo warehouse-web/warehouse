@@ -30,6 +30,9 @@ content:
       Bigolin\ Graphic design: Brad Haylock\ Release date: November 2019\ Color:
       full color\ Language: English\ Text editing: Mel Campbell\ Proofreaders:
       Laura Gardner and Chantal Kirby\ Publisher: Surpllus
+
+
+      35EUR
   - type: images
     image: /img/06_d-k_mode-mode_photo_anoukbeckers.jpg
   - type: images
