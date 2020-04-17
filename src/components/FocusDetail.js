@@ -40,30 +40,32 @@ const FocusDetail = ({
 
 			<section className="content">
 				{activeFocus &&
-				(activeFocus.frontmatter.content || []).map(el => {
-					if (el.type === "images") {
-						return (
-							<>
-								{" "}
-								{el.image ? (
-									<FluidImage image={el.image} />
-								) : (
-									<img src={el.image} alt="" />
-								)}
-								<p className="caption">
-									{el.caption ? el.caption : ""}
-								</p>
-							</>
-						);
-					} else {
-						return (
-							<ReactMarkdown
-								escapeHtml={false}
-								source={el.body}
-							/>
-						);
-					}
-				})(activeFocus.frontmatter.PDF) ? (
+					(activeFocus.frontmatter.content || []).map(el => {
+						if (el.type === "images") {
+							return (
+								<>
+									{" "}
+									{el.image ? (
+										<FluidImage image={el.image} />
+									) : (
+										<img src={el.image} alt="" />
+									)}
+									<p className="caption">
+										{el.caption ? el.caption : ""}
+									</p>
+								</>
+							);
+						} else {
+							return (
+								<ReactMarkdown
+									escapeHtml={false}
+									source={el.body}
+								/>
+							);
+						}
+					})}
+
+				{activeFocus.frontmatter.PDF ? (
 					<a
 						className="pdf-download"
 						href={activeFocus.frontmatter.PDF.publicURL}
