@@ -4,7 +4,7 @@ title: Bergen Art Book Fair 2019 with Hordaland Kunstsenter
 content:
   - type: images
     image: /img/r1-08817-011a.jpg
-    caption: 'Warehouse Wear. 2019. Photography: Anouk Beckers.'
+    caption: 'Warehouse Wear, 2019.'
   - type: text
     body: >-
       Warehouse will join Hordaland Kunstsenter at the Bergen Art Book Fair with
