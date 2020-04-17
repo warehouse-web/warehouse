@@ -25,7 +25,7 @@ content:
 
 
       Type: softcover\ Dimensions: 272 mm x 207 mm portrait\ Pages: 400\ Editor:
-      Ricarda Bigolin\ Authors: Clemens Thornquist, Femke de Vries, José
+      Ricarda Bigolin\ Contributors: Clemens Thornquist, Femke de Vries, José
       Teunissen, Matthew Linde, Michael Beverland, Nella Themelios, Ricarda
       Bigolin\ Graphic design: Brad Haylock\ Release date: November 2019\ Color:
       full color\ Language: English\ Text editing: Mel Campbell\ Proofreaders:
