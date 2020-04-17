@@ -30,8 +30,8 @@ content:
       thoroughly read, dissected and critically analysed on elements such as
       models, topicality, advertisements, material, brands, distribution,
       imagery, items, narrative, monetary value, colours, words and order of
-      pages. By not starting from the perspective of the fashion system at
-      large, but from the simple act of reading a fashion magazine, the reader
+      pages. By not starting from the perspective of the fashion system as a
+      whole, but from the simple act of reading a fashion magazine, the reader
       gains an active role. Having the material in hands, seeing the images, how
       brands are being represented on the pages, reading the words and tracing
       the page numbers, but also feeling the paper, the weight and being able to
