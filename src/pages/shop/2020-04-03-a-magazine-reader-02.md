@@ -66,9 +66,6 @@ content:
       aware of our position to shape and create fashion.
 
 
-      Download here   xx x (PDF)
-
-
       Type: softcover\ Dimensions: 200 mm x 145 mm portrait\ Pages: 100\ Art
       Direction: Femke de Vries, Chet Bugter and Ruby Hoette\ Contributors:
       Andrea Chehade, Bobbine Berden, Boris Kollar, Chet Bugter, Denise Bernts,
@@ -79,6 +76,12 @@ content:
       Printer: Riso Wiso\ Language: English\ Text editing: Femke de Vries, Chet
       Bugter and Ruby Hoette\ Made possible by: MA Fashion Strategy at ArtEZ
       Unicersity of the Arts\ Production: Warehouse
+
+
+      SOLD OUT 
+
+
+      Download PDF here.
   - type: images
     image: /img/a-magazine-reader-issue-02-denise-bernts-02.jpg
     caption: Contribution by Denise Bernts
