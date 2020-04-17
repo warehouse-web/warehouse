@@ -5,12 +5,13 @@ title: Launch A Magazine Reader 03
 content:
   - type: images
     image: /img/1.jpg
+    caption: ''
   - type: text
     body: >-
-      During this conversation, taking place in a mini-exhibition, Femke de
-      Vries, Chet Bugter and Zuzana Kostelanská discuss the process of making *A
-      Magazine Reader 03*, which revolves around all the non-garment related
-      elements in the fashion magazine.
+      During this conversation, taking place in the *A Magazine Reader 03*
+      mini-exhibition, Femke de Vries, Chet Bugter and Zuzana Kostelanská will
+      discuss the process of making *A Magazine Reader 03*, which revolves
+      around all the non-garment related elements in the fashion magazine.
 
 
       *A Magazine Reader* revolves around the analysis of a mainstream and
@@ -27,8 +28,8 @@ content:
       thoroughly read, dissected and critically analysed on elements such as
       models, topicality, advertisements, material, brands, distribution,
       imagery, items, narrative, monetary value, colours, words and order of
-      pages. By not starting from the perspective of the fashion system at
-      large, but from the simple act of reading a fashion magazine, the reader
+      pages. By not starting from the perspective of the fashion system as a
+      whole, but from the simple act of reading a fashion magazine, the reader
       gains an active role. Having the material in hands, seeing the images, how
       brands are being represented on the pages, reading the words and tracing
       the page numbers, but also feeling the paper, the weight and being able to
@@ -71,6 +72,7 @@ content:
       Exhibition by Femke de Vries, Seok Park and Zuzana Kostelanská.
   - type: images
     image: /img/img_3720.jpg
+    caption: 'Installation view A Magazine Reader exhibition, Onomatopee.'
 location: 'Onomatopee, Eindhoven'
 date: 2019-10-26T17:00:00.000Z
 ---

@@ -8,7 +8,7 @@ content:
     caption: 'Press & Fold Issue #1 (2019)'
   - type: text
     body: >-
-      *Press & Fold* is an independent fashion magazine that aims to explore
+      *Press & Fold* is an independent fashion magazine that explores
       alternative fashion forms and narratives. The magazine provides a platform
       for critical fashion practitioners who actively seek out the cracks and
       fissures in the current fashion system to propose new opportunities for
@@ -53,39 +53,23 @@ content:
       together, regaining agency together.
 
 
-      Type:
-      softcover                                                                                                                                
-      Dimensions: 170 mm x 240 mm portrait
+      Type: softcover\ Dimensions: 170 mm x 240 mm portrait\ Pages: 160\ Editor:
+      Hanka van der Voet Art Director: Beau Bertens\ Contributors: A March
+      Issue, Adele Varcoe, Agnieszka Chabros, Aimée Zito Lema, Amelia Winata,
+      Annie Wu, Beau Bertens, Chet Bugter, Colby Vexler, Danielle Bruggeman,
+      Elisa van Joolen, Femke de Vries, Jessica Buie, Johannes Reponen, JOIN
+      Collective Clothes, Justin Clemens, Laura Gardner, Maria Kley, Rowan
+      McNaught, Storage Solutions, Shanzai Lyric\ Graphic design: Beau Bertens\
+      Release date: November 2019\ Binding: glued\ Color: full colour\ Printer:
+      Wilco Art Books\ Language: English\ Text editing: Hanka van der Voet\ Made
+      possible by: Creative Industries Fund NL\ Production: Warehouse
 
-      Pages: 160
 
-      Editor: Hanka van der Voet
+      15EUR
 
-      Art Director: Beau Bertens
 
-      Contributors: A March Issue, Adele Varcoe, Agnieszka Chabros, Aimée Zito
-      Lema, Amelia Winata, Annie Whu, Beau Bertens, Chet Bugter, Colby Vexler,
-      Danielle Bruggeman, Elisa van Joolen, Femke de Vries, Jessica Buie,
-      Johannes Reponen, JOIN Collective Clothes, Justin Clemens, Laura Gardner,
-      Maria Kley, Rowan McNaught, Storage Solutions and Shanzai Lyric
-
-      Graphic design: Beau Bertens
-
-      Release date: November 2019
-
-      Binding: glued
-
-      Color: full colour
-
-      Printer: Wilco Art Books
-
-      Language: English
-
-      Text editing: Hanka van der Voet
-
-      Made possible by: Creative Industries Fund NL
-
-      Production: Warehouse
+      Send an email to mail@pressandfoldmagazine.com if you want to purchase a
+      copy.
   - type: images
     image: /img/pf_mock_up-issue-luxury-1a.jpg
     caption: Contribition by A March Issue

@@ -8,9 +8,10 @@ content:
     caption: ''
   - type: text
     body: >-
-      This Join Collective Clothes workshop at…… is part of a series of
-      workshops by Anouk Beckers in which everyone is invited to make a
-      garment-piece.\
+      This *JOIN Collective Clothes* workshop at De Appel is part of a series of
+      workshops by Anouk Beckers in which everyone is invited to make a piece of
+      a garment.
+
 
       The base of *JOIN Collective Clothes* is a modular clothing system that
       consists of four different shapes which can be combined into a full outfit
@@ -34,25 +35,22 @@ content:
       perceived as something that is not for everyone, fashion surely is a
       collective practice. By making and wearing clothes together, the design
       and research project *JOIN Collective Clothes* proposes fashion as a
-      collective practice.\
-
-      Besides joining one of the workshop, an easy-to-use open source can be
-      downloaded at
-      [www.joincollectiveclothes.com](http://www.joincollectiveclothes.com/).
+      collective practice. Besides joining one of the workshop, an easy-to-use
+      open source can be downloaded at
+      www.joincollectiveclothes.com/manual[](http://www.joincollectiveclothes.com/).
       The pieces made by various makers from all over the world form an
       ever-growing collection that can be seen on the *JOIN Collective Clothes*
-      website.\
+      website.
 
-      \
 
-      *JOIN Collective Clothes* is an initiative by fashion designer Anouk
-      Beckers and graphic designer/art director Beau Bertens.
+      *JOIN Collective Clothes* is an initiative by Anouk Beckers in
+      collaboration with graphic designer and art director Beau Bertens.
   - type: images
     image: /img/02_join_de-appel_photo_join.jpg
     caption: ''
   - type: images
     image: /img/03_join_de-appel_photo_join.jpg
-    caption: 'JOIN. Photography: Anouk Beckers '
+    caption: 'JOIN (2019). Photography: Anouk Beckers'
 location: 'De Appel, Amsterdam '
-date: 2019-06-01T14:40:42.509Z
+date: 2019-06-01T08:00:00.000Z
 ---

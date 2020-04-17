@@ -3,12 +3,15 @@ templateKey: event-post
 warehouseID: 'WAREHOUSE #'
 title: Printing Plant Art Book Fair 2018 | Talk on Printed Matter in Fashion
 content:
+  - type: images
+    image: /img/press_and_fold-cover_issue-1_the-street.jpg
+    caption: 'Press & Fold Issue #0 | The Street Issue.'
   - type: text
     body: >-
-      Warehouse participates in Printing Plant Art Book Fair with a selection of
-      independent fashion publications. Also, Beau Bertens, Elisa van Joolen,
-      Femke de Vries, Jan Schoon and Mary-Lou Berkulin have a conversation about
-      independent fashion publishing.
+      Warehouse will participate in Printing Plant Art Book Fair with a
+      selection of independent fashion publications. Also, Beau Bertens, Elisa
+      van Joolen, Femke de Vries, Jan Schoon and Mary-Lou Berkulin will have a
+      conversation about independent fashion publishing.
 
 
       As Warehouse aims to create an engaging environment that facilitates
@@ -27,6 +30,6 @@ content:
       For this year's fair we've selected independent fashion publications by
       the following makers: Chet Bugter, Rosita Kaer, Stijn Pommée and Zoe
       Philine.
-location: 'Looiergracht 60, Amsterdam'
+location: 'Looiersgracht 60, Amsterdam'
 date: 2018-11-25T11:30:00.000Z
 ---

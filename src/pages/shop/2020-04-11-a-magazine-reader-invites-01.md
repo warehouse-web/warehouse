@@ -32,36 +32,23 @@ content:
 
       \
 
-      Type: softcover \
+      Type: softcover\ Dimensions: varying according to the source magazine\
+      Pages: depending on source magazine \ Art Direction: Zuzana Kostelanská\
+      Contributors: Femke de Vries, Hanka van der Voet, Zuzana Kostelanská\
+      Graphic design: Zuzana Kostelanská\ Release date: November 2019\ Binding:
+      none\ Edition: variable\ Color: full color\ Text editing: Femke de Vries
+      and Hanka van der Voet\ Production: Warehouse
 
-      Dimensions: depending on source magazine \
 
-      Pages: depending on source magazine \
+      30EUR
 
-      Art Direction: Zuzana Kostelanská \
 
-      Text: Femke de Vries, Hanka van der Voet and Zuzana Kostelanská\
-
-      Graphic design: Zuzana Kostelanská  \
-
-      Release date: November 2019\
-
-      Binding: none \
-
-      Edition: variable \
-
-      Color: full color \
-
-      Text editing: Femke de Vries and Hanka van der Voet\
-
-      Production: Warehouse
+      Send an email to shop@thisiswarehouse.com if you want to purchase a copy.
   - type: images
     image: /img/03_a-magazine-reader-special_photo_anoukbeckers.jpg
   - type: images
     image: /img/02_a-magazine-reader-special_photo_anoukbeckers.jpg
-    caption: >-
-      A Magazine Reader Invites 01 with Zuzana Kostelanská. Photography: Anouk
-      Beckers.
+    caption: 'Photography: Anouk Beckers'
 author: Femke de Vries & Hanka van der Voet (eds.) & Zuzana Kostelanská
 date: 2020-04-11T14:36:42.258Z
 ---

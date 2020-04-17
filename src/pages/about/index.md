@@ -35,6 +35,6 @@ other: >-
   harm that may arise as a consequence of errors, problems caused by or inherent
   in the distribution of the information by internet, or for technical failures.
 ---
-  ABOUT
+ABOUT
 
 Warehouse is an Amsterdam-based fashion platform that aims to create an open, engaging and inclusive environment that facilitates critical dialogue and the creation of a discourse that goes beyond treating fashion as a commodity. Warehouse is initiated by Elisa van Joolen, Femke de Vries and Hanka van der Voet.
