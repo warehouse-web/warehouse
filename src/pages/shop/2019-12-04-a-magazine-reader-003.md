@@ -74,6 +74,9 @@ content:
 
 
       12,50EUR
+
+
+      Send an email to shop@thisiswarehouse.com if you want to purchase a copy.
   - type: images
     image: /img/a-magazine-reader-03-by-marco-dalle-fratte.jpg
     caption: Contribution by Marco Dalle Fratte
