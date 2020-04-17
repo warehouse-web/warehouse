@@ -13,7 +13,7 @@ content:
 
       \
 
-      The base of*JOIN Collective Clothes*is a modular clothing system that
+      The base of*JOIN Collective Clothes* is a modular clothing system that
       consists of four different shapes which can be combined into a full outfit
       (a sleeve, a top, a trouser leg and a part of a skirt). At the end of the
       workshop, the results from the participants are joined into one complete
