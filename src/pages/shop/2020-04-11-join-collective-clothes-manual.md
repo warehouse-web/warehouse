@@ -59,6 +59,9 @@ content:
 
 
       10EUR
+
+
+      Download PDF here.
   - type: images
     image: /img/03_join-manual_photo_anouk-beckers.jpg
   - type: images
