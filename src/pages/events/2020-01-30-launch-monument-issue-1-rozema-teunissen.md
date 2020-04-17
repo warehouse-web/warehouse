@@ -3,6 +3,8 @@ templateKey: event-post
 warehouseID: 'WAREHOUSE #4.1'
 title: 'Launch Monument Issue #1 | Rozema/Teunissen'
 content:
+  - type: images
+    image: /img/02_monument-01_photo_anouk-beckers.jpg
   - type: text
     body: >-
       This launch of *Monument Issue #1 | Rozema/Teunissen* at Sexyland will
@@ -70,6 +72,9 @@ content:
       This fascinating side of fashion is the reason why this first edition is
       dedicated to Rozema/Teunissen. They deserve a *Monument* for creating work
       that goes well beyond fashion’s transitory aspect".
+  - type: images
+    image: /img/img_8460.jpg
+    caption: Installation view of work by Maria Kley.
 location: 'Sexyland, Amsterdam'
 date: 2018-06-20T15:30:00.000Z
 ---
