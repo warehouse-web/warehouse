@@ -4,21 +4,17 @@ title: Workshop A Magazine Reader 03
 content:
   - type: images
     image: /img/img_5064.jpg
-  - type: images
-    image: /img/img_5041.jpg
-  - type: images
-    image: /img/img_4970.jpg
   - type: text
     body: >-
-      During this *A Magazine Reader* workshop at Onomatopee,  Zuzana
-      Kostelanská, Hanka van der Voet and Femke de Vries, together with
-      participants explore how every possible element; perfume, facial creams,
-      rosemary water, travel suggestions, gadgets, books etcetera, is used to
-      create stories and myths of a future reality. These 'stories' are composed
-      of so much more than garments alone, and in such a way that the joints and
-      seams are smoothed out, turning these stories into a reality, a truth. \
+      During this *A Magazine Reader* workshop at Onomatopee we explore how
+      every possible element; perfume, facial creams, rosemary water, travel
+      suggestions, gadgets, books etcetera, is used to create stories and myths
+      of a future reality. These 'stories' are composed of so much more than
+      garments alone, and in such a way that the joints and seams are smoothed
+      out, turning these stories into a reality, a truth. \
 
-      During this workshop we disconnect the elements, break the joints, cut the
+      During this workshop, guided by Zuzana Kostelanská, Hanka van der Voet and
+      Femke de Vries we disconnect the elements, break the joints, cut the
       seams, unravel body parts and disconnect garments from bodies, from
       backgrounds, objects, animals and gadgets, with the aim to create space to
       critically explore the construct of fashion. 
@@ -65,6 +61,10 @@ content:
 
 
       Design by Zuzana Kostelanská.
+  - type: images
+    image: /img/img_5041.jpg
+  - type: images
+    image: /img/img_4970.jpg
   - type: images
     image: /img/img_5070.jpg
   - type: images
