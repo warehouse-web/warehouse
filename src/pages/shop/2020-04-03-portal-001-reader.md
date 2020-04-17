@@ -8,7 +8,7 @@ content:
     caption: PORTAL 001 Reader (2018)
   - type: text
     body: >-
-      PORTAL 001 Reader is the result of a workshop during the *Change the
+      *PORTAL 001* reader is the result of a workshop during the *Change the
       System* exhibition at Museum Boijmans van Beuningen in Rotterdam in which
       Elisa van Joolen worked with MA Fashion Strategy students generation 27 to
       research the economic, social and emotional value of clothing worn by
@@ -31,7 +31,7 @@ content:
       of the various visitors, creating a network that reveals connections
       between and intersections of personal, economic, social, cultural and
       political realms surfacing a complex and layered system of the reality of
-      clothing.This culminates in a map, or landscape of personal stories that
+      clothing. This culminates in a map, or landscape of personal stories that
       connect to form a fashion network which inverts our gaze, shining a
       spotlight on the intricacies of our own outfits and extraordinary aspects
       of the everyday as opposed to the myth of the exclusive fashion image.
@@ -51,51 +51,28 @@ content:
       For *PORTAL 001* Elisa van Joolen worked with students from the MA Fashion
       Strategy programme of ArtEZ University of the Arts to research the
       economic, social and emotional value of clothing worn by visitors of the
-      ‘Change the System’ exhibition at Museum Boijmans van Beuningen in
+      *Change the System* exhibition at Museum Boijmans van Beuningen in
       Rotterdam. Information on 159 pieces of clothing worn by visitors was
       collected. The collected data is visualized and brought together in a
       reader designed by Beau Bertens.
 
 
-      Type: softcover with plastic sleeve \
-
-      Dimensions: 210 mm x 297 mm portrait\
-
-      Pages: 36\
-
-      Art Direction: Elisa van Joolen\
-
-      Researchers: Adriana Fox Hopper, Chinouk Filique de Miranda, Cinzia
-      Magnani, Gayeon Je, Hester Brands, Ieva Uzkurataite, Julia Kaleta, Karmen
-      Samson, Maria Gil Mendoza and Marina Sasseron de Oliveira Cabral\
-
-      Texts by: Adriana Fox Hopper, Chinouk Filique de Miranda, Cinzia Magnani,
-      Elisa van Joolen, Gayeon Je, Hester Brands, Ieva Uzkurataite, Julia
-      Kaleta, Karmen Samson, Maria Gil Mendoza, Marina Sasseron de Oliveira
-      Cabral\
-
-      Graphic design: Beau Bertens\
-
-      Release date: Spring 2018\
-
-      Binding: staples\
-
-      Edition: 300\
-
-      Color: Black, pink and red – riso printed\
-
-      Printer: Walter Books\
-
-      Language: English\
-
-      Text editor: Femke de Vries\
-
-      Made possible by: ArtEZ University of the Arts, Museum Boijmans van
-      Beuningen\
-
-      Production: Warehouse\
-
+      Type: softcover with plastic sleeve\ Dimensions: 210 mm x 297 mm portrait\
+      Pages: 36\ Art Direction: Elisa van Joolen\ Contributors: Adriana Fox
+      Hopper, Chinouk Filique de Miranda, Cinzia Magnani, Gayeon Je, Hester
+      Brands, Ieva Uzkurataite, Julia Kaleta, Karmen Samson, Maria Gil Mendoza, 
+      Marina Sasseron de Oliveira Cabral\ Texts by: Adriana Fox Hopper, Chinouk
+      Filique de Miranda, Cinzia Magnani, Elisa van Joolen, Gayeon Je, Hester
+      Brands, Ieva Uzkurataite, Julia Kaleta, Karmen Samson, Maria Gil Mendoza,
+      Marina Sasseron de Oliveira Cabral\ Graphic design: Beau Bertens\ Release
+      date: Spring 2018\ Binding: staples\ Edition: 300\ Color: Black, pink and
+      red – riso printed\ Printer: Walter Books\ Language: English\ Text editor:
+      Femke de Vries\ Made possible by: MA Fashion Strategy at ArtEZ University
+      of the Arts, Museum Boijmans van Beuningen\ Production: Warehouse\
       Production assistant: Asu Aksu
+
+
+      12,50 EUR
   - type: images
     image: /img/01.jpg
     caption: PORTAL 001 Reader (2018).
