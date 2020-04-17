@@ -39,8 +39,8 @@ content:
       collective practice.\
 
       Besides joining one of the workshop, an easy-to-use open source can be
-      downloaded
-      at[www.joincollectiveclothes.com](http://www.joincollectiveclothes.com/)/manual.
+      downloaded at
+      [www.joincollectiveclothes.com](http://www.joincollectiveclothes.com/)/manual.
       The pieces made by various makers from all over the world form an
       ever-growing collection that can be seen on the *JOIN Collective Clothes*
       website.\
