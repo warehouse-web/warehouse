@@ -98,7 +98,13 @@ export const aboutPageQuery = graphql`
 				title
 				leftColumn
 				other
-				image
+				image {
+					childImageSharp {
+						fluid(maxWidth: 1100, quality: 90) {
+							...GatsbyImageSharpFluid_tracedSVG
+						}
+					}
+				}
 				blurbs {
 					title
 					subtitle

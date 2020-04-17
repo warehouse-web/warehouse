@@ -57,3 +57,23 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 		});
 	}
 };
+
+exports.createSchemaCustomization = ({ actions }) => {
+	const { createTypes, createFieldExtension } = actions;
+
+	const typeDefs = `
+	  type MarkdownRemark implements Node @infer {
+		frontmatter: Frontmatter
+		id: String
+		fields: Slug
+	  }
+	  type Slug @infer {
+		slug: String
+	  }
+	  type Frontmatter {
+		templateKey: String
+		title: String!
+	  }
+	`;
+	createTypes(typeDefs);
+};
