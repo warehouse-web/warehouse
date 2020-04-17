@@ -46,5 +46,5 @@ content:
       brought together in a reader using the sixteen *PORTAL* questions as a
       starting point.
 location: 'State of Fashion, Arnhem'
-date: 2018-06-01T10:00:00.000Z
+date: 2018-05-31T22:00:00.000Z
 ---
