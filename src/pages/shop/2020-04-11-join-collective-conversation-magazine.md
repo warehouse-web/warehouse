@@ -8,20 +8,21 @@ content:
   - type: text
     body: >-
       The *JOIN Collective Conversation Magazine* is the result of a *JOIN
-      Collective Clothes* workshop at MA Fashion Strategy (ArtEZ University of
-      the Arts). During this workshop the students of generation 29 together
-      explored topics such as ownership, identity, (intellectual) property,
-      production methods, alienation, mystification and value creation and used
-      the *JOIN Collective Clothes* manual to make a garment piece. At the end
-      of the workshop the pieces were put together, photographed, reflected upon
-      through text and brought together in this magazine.
+      Collective Clothes* workshop at MA Fashion Strategy. During this workshop
+      the students of generation 29 together explored topics such as ownership,
+      identity, (intellectual) property, production methods, alienation,
+      mystification and value creation and used the *JOIN Collective Clothes*
+      manual to make a garment piece. At the end of the workshop the pieces were
+      put together, photographed, reflected upon through text and brought
+      together in this magazine.
 
 
       *JOIN Collective Clothes* is an initiative by fashion designer Anouk
-      Beckers and graphic designer/art director Beau Bertens. Initiator Anouk
-      Beckers on *JOIN Collective Clothes*: “What if we open up the fashion
-      system and explore it as a non-fixed entity, a system where people can
-      playfully join in, where everyone is invited to create fashion together?”
+      Beckers and graphic designer and art director Beau Bertens. Initiator
+      Anouk Beckers on *JOIN Collective Clothes*: “What if we open up the
+      fashion system and explore it as a non-fixed entity, a system where people
+      can playfully join in, where everyone is invited to create fashion
+      together?”
 
 
       The fashion industry focuses mostly on designer status, brand identity,
@@ -51,41 +52,19 @@ content:
       fashion system.
 
 
-      Type: softcover \
+      Type: softcover\ Dimensions: 210 mm x 297 mm portrait\ Pages: 72\ Art
+      Direction: Anouk Beckers\ Introduction text: Anouk Beckers and Chet
+      Bugter\ Contributors: Charlotte Verdegaal, Eliza Lachkova, Julia Berg,
+      Lindy Boerman, Lu Lin, Sophia Buter\ Tanyatorn Lauwanichpat\ Text editing:
+      Hanka van der Voet and Femke de Vries\ Graphic design: Anouk Beckers and
+      Julia Berg\ Release date: Autumn 2019\ Binding: folding\ Edition: 100\
+      Color: color copied\ Printer: copy machine ArtEZ University of the Arts at
+      the Kortestraat 27, Arnhem\ Language: English\ Made possible by: MA
+      Fashion Strategy at ArtEZ University of the Arts\ Production: Warehouse\
+      Production assistant: Chet Bugter, Julia Berg, Seok Park
 
-      Dimensions: 210 mm x 297 mm portrait\
 
-      Pages: 72\
-
-      Art Direction: Anouk Beckers\
-
-      Introduction text: Anouk Beckers and Chet Bugter\
-
-      Texts by: Charlotte Verdegaal, Eliza Lachkova, Julia Berg, Lindy Boerman,
-      Lu Lin, Sophia Buter and Tanyatorn Lauwanichpat\
-
-      Text editing: Hanka van der Voet, Femke de Vries\
-
-      Graphic design: Anouk Beckers and Julia Berg\
-
-      Release date: Autumn 2019\
-
-      Binding: folding\
-
-      Edition: 100\
-
-      Color: color copied\
-
-      Printer: copy machine ArtEZ University of the Arts at the Kortestraat 27,
-      Arnhem\
-
-      Language: English\
-
-      Made possible by: MA Fashion Strategy, ArtEZ University of the Arts\
-
-      Production: Warehouse\
-
-      Production assistant: Seok Park
+      15 EUR
   - type: images
     image: /img/04_join-magazine_photo_anouk-beckers.jpg
     caption: Contribution by Anouk Beckers
