@@ -8,11 +8,10 @@ content:
     caption: ''
   - type: text
     body: >-
-      This *Join Collective Clothes* workshop at MU during Dutch Design Week
+      This *JOIN Collective Clothes* workshop at MU during Dutch Design Week
       Eindhoven is part of a series of workshops by Anouk Beckers in which
-      everyone is invited to make a garment-piece.\
+      everyone is invited to make a piece of a garment. 
 
-      \
 
       The base of *JOIN Collective Clothes* is a modular clothing system that
       consists of four different shapes which can be combined into a full outfit
@@ -36,25 +35,20 @@ content:
       perceived as something that is not for everyone, fashion surely is a
       collective practice. By making and wearing clothes together, the design
       and research project *JOIN Collective Clothes* proposes fashion as a
-      collective practice.\
+      collective practice. Besides joining one of the workshop, an easy-to-use
+      open source can be downloaded at www.joincollectiveclothes.com/manual. The
+      pieces made by various makers from all over the world form an ever-growing
+      collection that can be seen on the *JOIN Collective Clothes* website.
 
-      Besides joining one of the workshop, an easy-to-use open source can be
-      downloaded at
-      [www.joincollectiveclothes.com](http://www.joincollectiveclothes.com/)/manual.
-      The pieces made by various makers from all over the world form an
-      ever-growing collection that can be seen on the *JOIN Collective Clothes*
-      website.\
-
-      \
 
       *JOIN Collective Clothes* is an initiative by Anouk Beckers in
-      collaboration with graphic designer/art director Beau Bertens.
+      collaboration with graphic designer and art director Beau Bertens.
   - type: images
     image: /img/01_join_ddw_photo_join.jpg
     caption: ''
   - type: images
     image: /img/06_join_ddw_photo_join.jpg
-    caption: 'JOIN. Photography: Anouk Beckers. '
-location: 'Dutch Design Week, Eindhoven. '
-date: 2019-10-25T14:56:06.292Z
+    caption: 'JOIN (2019). Photography: Anouk Beckers.'
+location: 'Dutch Design Week, Eindhoven'
+date: 2019-10-25T09:00:00.000Z
 ---
