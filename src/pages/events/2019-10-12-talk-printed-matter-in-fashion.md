@@ -5,10 +5,10 @@ title: Printing Plant Art Book Fair 2018 | Talk on Printed Matter in Fashion
 content:
   - type: text
     body: >-
-      Warehouse participates in Printing Plant Art Book Fair with a selection of
-      independent fashion publications. Also, Beau Bertens, Elisa van Joolen,
-      Femke de Vries, Jan Schoon and Mary-Lou Berkulin have a conversation about
-      independent fashion publishing.
+      Warehouse will participate in Printing Plant Art Book Fair with a
+      selection of independent fashion publications. Also, Beau Bertens, Elisa
+      van Joolen, Femke de Vries, Jan Schoon and Mary-Lou Berkulin will have a
+      conversation about independent fashion publishing.
 
 
       As Warehouse aims to create an engaging environment that facilitates
