@@ -35,11 +35,8 @@ content:
       perceived as something that is not for everyone, fashion surely is a
       collective practice. By making and wearing clothes together, the design
       and research project *JOIN Collective Clothes* proposes fashion as a
-      collective practice.
-
-
-      Besides joining one of the workshop, an easy-to-use open source can be
-      downloaded at
+      collective practice. Besides joining one of the workshop, an easy-to-use
+      open source can be downloaded at
       www.joincollectiveclothes.com/manual[](http://www.joincollectiveclothes.com/).
       The pieces made by various makers from all over the world form an
       ever-growing collection that can be seen on the *JOIN Collective Clothes*
