@@ -413,6 +413,7 @@ figure figcaption {
 .about-left {
   flex: 0 0 50%;
   height: 100vh;
+  position: sticky;
 }
 
 .about-title {

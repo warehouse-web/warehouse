@@ -35,13 +35,11 @@ export const AboutPageTemplate = ({
 					<PageContent className="about-right" content={content} />
 					<ul className="colophon">
 						{blurbs &&
-							blurbs.map(el => {
-								return (
-									<>
-										<li>{el.title}</li>
-										<li>{el.subtitle}</li>
-									</>
-								);
+							(blurbs || []).map(el => {
+								<>
+									<li>{el.title}</li>
+									<li>{el.subtitle}</li>
+								</>;
 							})}
 					</ul>
 					{image && <img src={image} alt="" />}
