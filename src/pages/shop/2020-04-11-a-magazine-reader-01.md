@@ -8,10 +8,10 @@ content:
   - type: text
     body: >-
       *A Magazine Reader 01* is the result of a workshop by Femke de Vries and
-      Hanka van der Voet at ArtEZ Fashion Masters in which the students of the
-      MA Fashion Strategy generation 27 explore the representation and meaning
-      of luxury in the fashion magazine. In this case specifically the *British
-      Vogue*, February 2018.
+      Hanka van der Voet in which the students of the MA Fashion Strategy
+      generation 27 explore the representation and meaning of luxury in the
+      fashion magazine. In this case specifically the *British Vogue*, February
+      2018.
 
 
       *A Magazine Reader* is an ongoing research trajectory and series of zines
@@ -29,8 +29,8 @@ content:
       thoroughly read, dissected and critically analysed on elements such as
       models, topicality, advertisements, material, brands, distribution,
       imagery, items, narrative, monetary value, colours, words and order of
-      pages. By not starting from the perspective of the fashion system at
-      large, but from the simple act of reading a fashion magazine, the reader
+      pages. By not starting from the perspective of the fashion system as a
+      whole, but from the simple act of reading a fashion magazine, the reader
       gains an active role. Having the material in hands, seeing the images, how
       brands are being represented on the pages, reading the words and tracing
       the page numbers, but also feeling the paper, the weight and being able to
@@ -50,42 +50,22 @@ content:
       Reading becomes making.
 
 
-      Type: softcover \
-
-      Dimensions: 200 mm x 145 mm portrait\
-
-      Pages: 96\
-
-      Art Direction: Femke de Vries and Hanka van der Voet\
-
-      Authors: Chet Bugter, Ieva Uzkurataite, Maria Gil Mendoza, Hester Brands,
-      Julia Kaleta, Cinzia Magnani, Karmen Samson, Chinouk Filique de Miranda,
-      Adriana Fox Hopper and Marina Sasseron de Oliveira Cabral\
-
-      Graphic design: Corine van der Wal\
-
-      Release date: Spring 2018\
-
-      Binding: elastic band\
-
-      Edition: 150\
-
-      Color: Black, pink and red – riso printed\
-
-      Printer: Riso Wiso\
-
-      Language: English\
-
-      Text editing: Femke de Vries, Hester Brands and Hanka van der Voet\
-
-      Made possible by: ArtEZ Fashion Masters\
-
-      Production: Warehouse\
-
-      Production assistant: Hester Brands
+      Type: softcover\ Dimensions: 200 mm x 145 mm portrait\ Pages: 96\ Art
+      Direction: Femke de Vries and Hanka van der Voet\ Contributors: Adriana
+      Fox Hopper, Chet Bugter, Chinouk Filique de Miranda, Cinzia Magnani,
+      Hester Brands, Ieva Uzkurataite, Julia Kaleta, Karmen Samson, Maria Gil
+      Mendoza,  Marina Sasseron de Oliveira Cabral\ Graphic design: Corine van
+      der Wal\ Release date: Spring 2018\ Binding: elastic band\ Edition: 150\
+      Color: Black, pink and red – riso printed\ Printer: Riso Wiso\ Language:
+      English\ Text editing: Femke de Vries, Hester Brands and Hanka van der
+      Voet\ Made possible by: MA Fashion Strategy at ArtEZ University of the
+      Arts\ Production: Warehouse\ Production assistant: Hester Brands
 
 
-      Download Here...(PDF)
+      SOLD OUT
+
+
+      Download PDF here.
   - type: images
     image: /img/02_a-magazine-reader-01_photo_anouk-beckers.jpg
     caption: Contribution by Karmen Samson
