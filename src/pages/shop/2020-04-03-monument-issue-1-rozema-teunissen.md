@@ -70,9 +70,9 @@ content:
       \
 
       Type: softcover\ Dimensions: 170 mm x 240 mm portrait\ Pages: 160\ Editor:
-      Mary-Lou Berkulin\ Art direction: Karen van de Kraats\ Graphic design:
-      Karen van de Kraats\ Photography: Barrie Hullegie\ Contributor: Renee van
-      der Hoek\ Release date: Summer 2018\ Binding: glued\ Color: full colour\
+      Mary-Lou Berkulin\ Art direction: Karen van de Kraats\ Photography: Barrie
+      Hullegie\ Contributor: Renee van der Hoek\ Graphic design: Karen van de
+      Kraats\ Release date: Summer 2018\ Binding: glued\ Color: full colour\
       Printer: Wilco Art Books\ Language: English\ Text editors: Hanka van der
       Voet and Femke de Vries (Warehouse)\ Made possible by: Creative Industries
       Fund NL and the Amsterdam Fund for the Arts\ Production: Warehouse
