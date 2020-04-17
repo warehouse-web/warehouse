@@ -8,7 +8,7 @@ content:
     caption: PORTAL 001 Reader (2018)
   - type: text
     body: >-
-      *PORTAL 001* reader is the result of a workshop during the *Change the
+      *PORTAL 001* Reader is the result of a workshop during the *Change the
       System* exhibition at Museum Boijmans van Beuningen in Rotterdam in which
       Elisa van Joolen worked with MA Fashion Strategy students generation 27 to
       research the economic, social and emotional value of clothing worn by
