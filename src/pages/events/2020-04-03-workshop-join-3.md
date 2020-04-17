@@ -10,9 +10,8 @@ content:
     body: >-
       This *JOIN Collective Clothes* workshop at Capsicum Natural Fabrics is
       part of a series of workshops by Anouk Beckers in which everyone is
-      invited to make a piece of a garment.\
+      invited to make a piece of a garment.
 
-      \
 
       The base of*JOIN Collective Clothes* is a modular clothing system that
       consists of four different shapes which can be combined into a full outfit
@@ -39,9 +38,8 @@ content:
       collective practice. Besides joining one of the workshop, an easy-to-use
       open source can be downloaded at www.joincollectiveclothes.com/manual. The
       pieces made by various makers from all over the world form an ever-growing
-      collection that can be seen on the *JOIN Collective Clothes* website.\
+      collection that can be seen on the *JOIN Collective Clothes* website.
 
-      \
 
       *JOIN Collective Clothes* is an initiative by Anouk Beckers in
       collaboration with graphic designer and art director Beau Bertens.
