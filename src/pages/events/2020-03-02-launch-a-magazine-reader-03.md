@@ -5,7 +5,7 @@ title: Launch A Magazine Reader 03
 content:
   - type: images
     image: /img/1.jpg
-    caption: A Magazine Reader 03 (2019)
+    caption: ''
   - type: text
     body: >-
       During this conversation, taking place in the *A Magazine Reader 03*
@@ -72,7 +72,7 @@ content:
       Exhibition by Femke de Vries, Seok Park and Zuzana Kostelanská.
   - type: images
     image: /img/img_3720.jpg
-    caption: A Magazine Reader 03 exhibition at Onomatopee
+    caption: 'Installation view A Magazine Reader exhibition, Onomatopee.'
 location: 'Onomatopee, Eindhoven'
 date: 2019-10-26T17:00:00.000Z
 ---
