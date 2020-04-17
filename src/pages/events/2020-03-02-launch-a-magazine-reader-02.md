@@ -3,6 +3,8 @@ templateKey: event-post
 warehouseID: 'WAREHOUSE #3.2'
 title: Launch A Magazine Reader 02
 content:
+  - type: images
+    image: /img/02_a-magazine-reader-02_photo_anouk-beckers.jpg
   - type: text
     body: >-
       During the launch of *A Magazine Reader 02* Chet Bugter, Femke de Vries
