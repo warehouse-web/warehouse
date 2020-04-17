@@ -6,8 +6,8 @@ content:
   - type: text
     body: >-
       During the launch of *A Magazine Reader 02* Chet Bugter, Femke de Vries
-      and students of MA Fashion Strategy generation 28 discuss the use of text
-      in fashion magazines and how it affects our relationship to fashion.
+      and students of MA Fashion Strategy generation 28 will discuss the use of
+      text in fashion magazines and how it affects our relationship to fashion.
 
 
       *A Magazine Reader* revolves around the analysis of a mainstream and
@@ -24,8 +24,8 @@ content:
       thoroughly read, dissected and critically analysed on elements such as
       models, topicality, advertisements, material, brands, distribution,
       imagery, items, narrative, monetary value, colours, words and order of
-      pages. By not starting from the perspective of the fashion system at
-      large, but from the simple act of reading a fashion magazine, the reader
+      pages. By not starting from the perspective of the fashion system as a
+      whole, but from the simple act of reading a fashion magazine, the reader
       gains an active role. Having the material in hands, seeing the images, how
       brands are being represented on the pages, reading the words and tracing
       the page numbers, but also feeling the paper, the weight and being able to
@@ -58,10 +58,8 @@ content:
       different reader perspective, unravelling a particular aspect of embedded
       meaning and value and reframing it in a broader social and cultural
       context. Together they remind us that becoming aware of our position as
-      readers means we become aware of our position to shape and create
-      fashion.\
+      readers means we become aware of our position to shape and create fashion.
 
-      \
 
       *A Magazine Reader* is an ongoing research trajectory and series of zines
       initiated by Femke de Vries and Hanka van der Voet.
