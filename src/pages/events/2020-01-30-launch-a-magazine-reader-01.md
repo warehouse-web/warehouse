@@ -45,12 +45,11 @@ content:
 
 
       This first edition of *A Magazine Reader,* designed by Corine van der Wal
-      is titled *V*GUE.* The content came together through a workshop with MA
+      is titled *VGUE*.The content came together through a workshop with MA
       Fashion Strategy students of generation 27 at ArtEZ University of the
       Arts, where we explored a *British Vogue* from the perspective of luxury
-      today, and the way luxury is being sold through fashion mass media. \
+      today, and the way luxury is being sold through fashion mass media. 
 
-      \
 
       *A Magazine Reader* is an ongoing research trajectory and series of zines
       initiated by Femke de Vries and Hanka van der Voet.
