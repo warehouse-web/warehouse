@@ -2,6 +2,7 @@
 templateKey: about-page
 title: Warehouse
 leftColumn: A place for clothes in context
+image: /img/01_monument02_16012020_anoukbeckers.jpg
 blurbs:
   - subtitle: info@thisiswarehouse.com
     title: CONTACT
