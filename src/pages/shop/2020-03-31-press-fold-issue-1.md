@@ -50,41 +50,40 @@ content:
       inequities and growing political polarization, the ideas on what luxury
       constitutes are rapidly shifting. Self-care is making way for a collective
       form of care: for creating together, performing together, learning
-      together, regaining agency together.\
+      together, regaining agency together.
 
-      \
 
-      Type: softcover\
+      Type:
+      softcover                                                                                                                                
+      Dimensions: 170 mm x 240 mm portrait
 
-      Dimensions: 170 mm x 240 mm portrait\
+      Pages: 160
 
-      Pages: 160\
+      Editor: Hanka van der Voet
 
-      Editor: Hanka van der Voet\
-
-      Art Director: Beau Bertens\
+      Art Director: Beau Bertens
 
       Contributors: A March Issue, Adele Varcoe, Agnieszka Chabros, Aimée Zito
       Lema, Amelia Winata, Annie Whu, Beau Bertens, Chet Bugter, Colby Vexler,
       Danielle Bruggeman, Elisa van Joolen, Femke de Vries, Jessica Buie,
       Johannes Reponen, JOIN Collective Clothes, Justin Clemens, Laura Gardner,
-      Maria Kley, Rowan McNaught, Storage Solutions and Shanzai Lyric\
+      Maria Kley, Rowan McNaught, Storage Solutions and Shanzai Lyric
 
-      Graphic design: Beau Bertens\
+      Graphic design: Beau Bertens
 
-      Release date: November 2019\
+      Release date: November 2019
 
-      Binding: glued\
+      Binding: glued
 
-      Color: full colour\
+      Color: full colour
 
-      Printer: Wilco Art Books\
+      Printer: Wilco Art Books
 
-      Language: English\
+      Language: English
 
-      Text editing: Hanka van der Voet\
+      Text editing: Hanka van der Voet
 
-      Made possible by: Creative Industries Fund NL\
+      Made possible by: Creative Industries Fund NL
 
       Production: Warehouse
   - type: images

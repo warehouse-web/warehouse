@@ -9,7 +9,7 @@ content:
     caption: A Magazine Reader 03 (2019)
   - type: text
     body: >-
-      A Magazine Reader 03 is the result of two-day workshop by Hanka van der
+      *A Magazine Reader 03* is the result of two-day workshop by Hanka van der
       Voet, Zuzana Kostelanská and Femke de Vries, hosted by Onomatopee in
       Eindhoven. In this edition of *A Magazine Reader* we explore how every
       possible element; perfume, facial creams, rosemary water, travel
@@ -23,7 +23,7 @@ content:
       the construct of fashion.
 
 
-      *A Magazine Reader*is an ongoing research trajectory and series of zines
+      *A Magazine Reader* is an ongoing research trajectory and series of zines
       initiated by Femke de Vries and Hanka van der Voet. It revolves around the
       analysis of a mainstream and high-end fashion magazine and its translation
       into an alternative new zine to provide insight into the cultural power
@@ -38,8 +38,8 @@ content:
       thoroughly read, dissected and critically analysed on elements such as
       models, topicality, advertisements, material, brands, distribution,
       imagery, items, narrative, monetary value, colours, words and order of
-      pages. By not starting from the perspective of the fashion system at
-      large, but from the simple act of reading a fashion magazine, the reader
+      pages. By not starting from the perspective of the fashion system as a
+      whole, but from the simple act of reading a fashion magazine, the reader
       gains an active role. Having the material in hands, seeing the images, how
       brands are being represented on the pages, reading the words and tracing
       the page numbers, but also feeling the paper, the weight and being able to
@@ -59,41 +59,40 @@ content:
       Reading becomes making.
 
 
-      Type: softcover \
+      Type:
+      softcover                                                                                                                               
+      Dimensions: 210 mm x 155 mm portrait Pages: 140
 
-      Dimensions: 210 mm x 155 mm portrait\
-
-      Pages: 140 \
-
-      Art Direction: Femke de Vries and Hanka van der Voet  \
+      Art Directors: Femke de Vries and Hanka van der Voet
 
       Authors: Sophia Grancharova, Hanka van der Voet, Patricia Nahorniac,
       Rebecca Nevins, Marco Dalle Fratte, Xi Ruolan, Abhaya Mistry, Seok Park,
-      Isabelle Mauduit and Ellen Pearson, Femke de Vries and  Hanka van der Voet
-      \
+      Isabelle Mauduit and Ellen Pearson, Femke de Vries
 
-      Graphic design: Zuzana Kostelanská \
+      Graphic design: Zuzana Kostelanská
 
-      Release date: October 2019 \
+      Release date: October 2019
 
-      Binding: elastic band\
+      Binding: elastic band
 
-      Edition: 250 \
+      Edition: 250
 
-      Color: black and gold – riso printed\
+      Color: black and gold – riso printed
 
-      Printer: Onomatopee's risograph and copy machine  \
+      Printer: Onomatopee's risograph and copy machine
 
-      Language: English\
+      Language: English
 
-      Text editing: Femke de Vries and Hanka van der Voet  \
+      Text editing: Femke de Vries and Hanka van der Voet
 
-      Production: Onomatopee in collaboration with Warehouse \
+      Production: Onomatopee in collaboration with Warehouse
 
-      Made possible by the generous support of the Provincie Noord Brabant \
+      Made possible by the generous support of the Provincie Noord Brabant
 
-      Production by: Joannette van der Veer for Onomatopee. With support by Seok
-      Park, and Onomatopee interns Nathalia Malińska and Merel Steneker
+      Production: Joannette van der Veer for Onomatopee 
+
+      With support of Seok Park, and Onomatopee interns Nathalia Malińska and
+      Merel Steneker
 
 
       15EUR
