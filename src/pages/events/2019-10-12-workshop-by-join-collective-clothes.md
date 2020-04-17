@@ -5,7 +5,7 @@ title: Launch JOIN Collective Clothes Manual
 content:
   - type: images
     image: /img/10_join-manual_photo_anouk-beckers.jpg
-    caption: 'JOIN Collective Clothes Manual. Photography: Anouk Beckers. '
+    caption: JOIN Collective Clothes Manual
   - type: text
     body: >-
       During this launch of the *JOIN Collective Clothes Manual,* Anouk Beckers,
