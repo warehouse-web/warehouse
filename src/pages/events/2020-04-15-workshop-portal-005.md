@@ -29,7 +29,7 @@ content:
       of the various visitors, creating a network that reveals connections
       between and intersections of personal, economic, social, cultural and
       political realms surfacing a complex and layered system of the reality of
-      clothing.This culminates in a map, or landscape of personal stories that
+      clothing. This culminates in a map, or landscape of personal stories that
       connect to form a fashion network which inverts our gaze, shining a
       spotlight on the intricacies of our own outfits and extraordinary aspects
       of the everyday as opposed to the myth of the exclusive fashion image.
@@ -48,7 +48,7 @@ content:
     image: /img/img_8560.jpg
   - type: images
     image: /img/img_8786.jpg
-    caption: 'PORTAL 005. Photography: Elisa van Joolen.'
+    caption: 'PORTAL 005 (2019). Photography: Elisa van Joolen.'
 location: 'Punkt Ø - Galleri F 15, Moss, Norway'
-date: 2019-09-24T14:45:47.781Z
+date: 2019-09-24T09:00:00.000Z
 ---
