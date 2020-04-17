@@ -3,6 +3,9 @@ templateKey: event-post
 warehouseID: 'WAREHOUSE #'
 title: Printing Plant Art Book Fair 2018 | Talk on Printed Matter in Fashion
 content:
+  - type: images
+    image: /img/press_and_fold-cover_issue-1_the-street.jpg
+    caption: 'Press & Fold Issue #0 | The Street Issue.'
   - type: text
     body: >-
       Warehouse will participate in Printing Plant Art Book Fair with a
@@ -27,9 +30,6 @@ content:
       For this year's fair we've selected independent fashion publications by
       the following makers: Chet Bugter, Rosita Kaer, Stijn Pommée and Zoe
       Philine.
-  - type: images
-    image: ''
-    caption: ''
 location: 'Looiersgracht 60, Amsterdam'
 date: 2018-11-25T11:30:00.000Z
 ---
