@@ -39,7 +39,7 @@ content:
     image: /img/10_d-k_mode-mode_photo_anoukbeckers.jpg
   - type: images
     image: /img/11_d-k_mode-mode_photo_anoukbeckers.jpg
-    caption: 'Photography: Anouk Beckers.'
+    caption: 'Photography: Anouk Beckers'
 author: Ricarda Bigolin (ed.)
 date: 2020-04-03T13:45:00.921Z
 ---
