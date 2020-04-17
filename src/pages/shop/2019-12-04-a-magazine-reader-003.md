@@ -73,7 +73,7 @@ content:
       Park and Onomatopee interns Nathalia Malińska and Merel Steneker
 
 
-      15EUR
+      12,50EUR
   - type: images
     image: /img/a-magazine-reader-03-by-marco-dalle-fratte.jpg
     caption: Contribution by Marco Dalle Fratte
