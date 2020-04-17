@@ -10,11 +10,10 @@ content:
       *Mode and Mode* is a periodical that addresses printed matter in fashion
       practice by Laura Gardner and Karina Soraya. Continuing the mission of
       *Mode and Mode* in exploring experimental publishing practices at the
-      margins of fashion, this issue shares, in chronological order, a body of
-      experimental text works by the critical fashion practice of D&K.
-      Accompanying the D&K *Look Book 2019 - All or Nothing, Mode and Mode 7
-      serves as* an anthology of text works and biographical listings of key D&K
-      projects from 2012 to present. 
+      margins of fashion, this issue shares a body of experimental text works by
+      the critical fashion practice of D&K. Accompanying the D&K *Look Book 2019
+      - All or Nothing, Mode and Mode 7* serves as an anthology of text works
+      and biographical listings of key D&K projects from 2012 to present. 
 
 
       As intrinsic to their exhibition and garment-based work, D&K produce
@@ -30,25 +29,12 @@ content:
       publications.
 
 
-      Type: softcover \
+      Type: softcover\ Dimensions: 271 mm x 207 mm portrait\ Pages: 70\ Editor:
+      Laura Gardner\ Graphic design: Karina Soraya\ Release date: November 2019\
+      Binding: staples\ Edition: 500\ Color: mainly black\ Language: English
 
-      Dimensions: 271 mm x 207 mm portrait\
 
-      Pages: 70\
-
-      Editor: Laura Gardner\
-
-      Graphic design: Karina Soraya\
-
-      Release date: November 2019\
-
-      Binding: staples\
-
-      Edition: 500\
-
-      Color: mainly black\
-
-      Language: English
+      8EUR
   - type: images
     image: /img/02_d-k_mode-mode_photo_anoukbeckers.jpg
     caption: 'Mode and Mode #7 | ‘D&K LOOKBOOK 2019’ Photography: Anouk Beckers.'
