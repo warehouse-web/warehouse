@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/utils";
+import Newsletter from "../components/Newsletter";
 
 export const AboutPageTemplate = ({
 	title,
@@ -46,14 +47,8 @@ export const AboutPageTemplate = ({
 						className="dangerously-set"
 						dangerouslySetInnerHTML={{ __html: other }}
 					/>
-
-					{/* <p className="about-description">
-						Warehouse is made possible through the financial support
-						of Stimuleringsfonds Creatieve Industrie
-					</p>
-					<p className="about-description">2019 Warehouse</p>
-					<p className="about-copyright">No Rights etc.....</p> */}
 				</div>
+				<Newsletter />
 			</div>
 		</div>
 	);

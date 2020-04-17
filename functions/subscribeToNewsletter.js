@@ -20,6 +20,7 @@ module.exports.handler = (event, context, callback) => {
 
 	const subscriber = JSON.stringify(data);
 	console.log("Sending data to mailchimp", subscriber);
+	console.log("going in the function");
 
 	request(
 		{

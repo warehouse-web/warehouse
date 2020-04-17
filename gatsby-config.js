@@ -1,3 +1,5 @@
+const { createProxyMiddleware } = require("http-proxy-middleware");
+
 module.exports = {
 	siteMetadata: {
 		title: "Warehouse",
@@ -38,6 +40,13 @@ module.exports = {
 			options: {
 				plugins: [
 					{
+						resolve: "gatsby-remark-external-links",
+						options: {
+							target: "_blank",
+							rel: "nofollow"
+						}
+					},
+					{
 						resolve: "gatsby-remark-relative-images",
 						options: {
 							name: "uploads"
@@ -54,13 +63,6 @@ module.exports = {
 							markdownCaptions: true,
 							tracedSVG: true
 							// withWebp: true
-						}
-					},
-					{
-						resolve: "gatsby-remark-external-links",
-						options: {
-							target: "_blank",
-							rel: "nofollow"
 						}
 					},
 					{
@@ -82,5 +84,18 @@ module.exports = {
 		},
 		"gatsby-remark-embed-soundcloud",
 		"gatsby-plugin-netlify" // make sure to keep it last in the array
-	]
+	],
+	// for avoiding CORS while developing Netlify Functions locally
+	// read more: https://www.gatsbyjs.org/docs/api-proxy/#advanced-proxying
+	developMiddleware: app => {
+		app.use(
+			"/.netlify/functions/",
+			createProxyMiddleware({
+				target: "http://localhost:9000",
+				pathRewrite: {
+					"/.netlify/functions/": ""
+				}
+			})
+		);
+	}
 };
