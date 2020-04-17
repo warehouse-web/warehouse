@@ -70,15 +70,15 @@ content:
 
 
       Type: softcover\ Dimensions: 200 mm x 145 mm portrait\ Pages: 100\ Art
-      Direction: Femke de Vries, Chet Bugter and Ruby Hoette\ Author: Andrea
-      Chehade, Bobbine Berden, Boris Kollar, Chet Bugter, Denise Bernts, Emma
-      Disbergen, Eva Kühn, Femke de Vries, Karlijn Krijger, Laura Lisa Fernandes
-      Januario, Mariane Cortez Meirelles, Nicole Dekkers, Ruby Hoette\ Graphic
-      design: Corine van der Wal\ Release date: Spring 2019\ Binding: elastic
-      band\ Edition: 150\ Color: black and yellow – riso printed\ Printer: Riso
-      Wiso\ Language: English\ Text editing: Femke de Vries, Chet Bugter and
-      Ruby Hoette\ Made possible by: MA Fashion Strategy at ArtEZ Unicersity of
-      the Arts\ Production: Warehouse
+      Direction: Femke de Vries, Chet Bugter and Ruby Hoette\ Contributors:
+      Andrea Chehade, Bobbine Berden, Boris Kollar, Chet Bugter, Denise Bernts,
+      Emma Disbergen, Eva Kühn, Femke de Vries, Karlijn Krijger, Laura Lisa
+      Fernandes Januario, Mariane Cortez Meirelles, Nicole Dekkers, Ruby Hoette\
+      Graphic design: Corine van der Wal\ Release date: Spring 2019\ Binding:
+      elastic band\ Edition: 150\ Color: black and yellow – riso printed\
+      Printer: Riso Wiso\ Language: English\ Text editing: Femke de Vries, Chet
+      Bugter and Ruby Hoette\ Made possible by: MA Fashion Strategy at ArtEZ
+      Unicersity of the Arts\ Production: Warehouse
   - type: images
     image: /img/a-magazine-reader-issue-02-denise-bernts-02.jpg
     caption: Contribution by Denise Bernts
