@@ -81,7 +81,7 @@ content:
     caption: Contribution by Marina Sasseron de Cabral
   - type: images
     image: /img/02_portal001_photo_anoukbeckers.jpg
-    caption: 'PORTAL 001 Reader (2018). Photography: Anouk Beckers.'
+    caption: ''
   - type: images
     image: /img/03_portal001_photo_anoukbeckers_crop.jpg
     caption: Contribution by Maria Gil Mendoza
