@@ -34,13 +34,14 @@ export const AboutPageTemplate = ({
 				<div>
 					<PageContent className="about-right" content={content} />
 					<ul className="colophon">
-						{blurbs &&
-							(blurbs || []).map(el => {
-								<>
-									<li>{el.title}</li>
-									<li>{el.subtitle}</li>
-								</>;
-							})}
+						{blurbs.length === 0
+							? ""
+							: (blurbs || []).map(el => {
+									<>
+										<li>{el.title}</li>
+										<li>{el.subtitle}</li>
+									</>;
+							  })}
 					</ul>
 					{image && <img src={image} alt="" />}
 					<div className="about-other">
