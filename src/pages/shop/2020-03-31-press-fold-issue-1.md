@@ -54,17 +54,18 @@ content:
 
 
       Type: softcover\ Dimensions: 170 mm x 240 mm portrait\ Pages: 160\ Editor:
-      Hanka van der Voet
+      Hanka van der Voet Art Director: Beau Bertens\ Contributors: A March
+      Issue, Adele Varcoe, Agnieszka Chabros, Aimée Zito Lema, Amelia Winata,
+      Annie Wu, Beau Bertens, Chet Bugter, Colby Vexler, Danielle Bruggeman,
+      Elisa van Joolen, Femke de Vries, Jessica Buie, Johannes Reponen, JOIN
+      Collective Clothes, Justin Clemens, Laura Gardner, Maria Kley, Rowan
+      McNaught, Storage Solutions, Shanzai Lyric\ Graphic design: Beau Bertens\
+      Release date: November 2019\ Binding: glued\ Color: full colour\ Printer:
+      Wilco Art Books\ Language: English\ Text editing: Hanka van der Voet\ Made
+      possible by: Creative Industries Fund NL\ Production: Warehouse
 
-      Art Director: Beau Bertens\ Contributors: A March Issue, Adele Varcoe,
-      Agnieszka Chabros, Aimée Zito Lema, Amelia Winata, Annie Wu, Beau Bertens,
-      Chet Bugter, Colby Vexler, Danielle Bruggeman, Elisa van Joolen, Femke de
-      Vries, Jessica Buie, Johannes Reponen, JOIN Collective Clothes, Justin
-      Clemens, Laura Gardner, Maria Kley, Rowan McNaught, Storage Solutions,
-      Shanzai Lyric\ Graphic design: Beau Bertens\ Release date: November 2019\
-      Binding: glued\ Color: full colour\ Printer: Wilco Art Books\ Language:
-      English\ Text editing: Hanka van der Voet\ Made possible by: Creative
-      Industries Fund NL\ Production: Warehouse
+
+      15EUR
   - type: images
     image: /img/pf_mock_up-issue-luxury-1a.jpg
     caption: Contribition by A March Issue
