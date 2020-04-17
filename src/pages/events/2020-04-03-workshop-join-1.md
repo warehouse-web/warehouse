@@ -8,7 +8,7 @@ content:
     caption: ''
   - type: text
     body: >-
-      This Join Collective Clothes workshop at De Appel is part of a series of
+      This *Join Collective Clothes* workshop at De Appel is part of a series of
       workshops by Anouk Beckers in which everyone is invited to make a
       garment-piece.\
 
