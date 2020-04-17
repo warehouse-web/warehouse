@@ -27,6 +27,6 @@ content:
       For this year's fair we've selected independent fashion publications by
       the following makers: Chet Bugter, Rosita Kaer, Stijn Pommée and Zoe
       Philine.
-location: 'Looiergracht 60, Amsterdam'
+location: 'Looiersgracht 60, Amsterdam'
 date: 2018-11-25T11:30:00.000Z
 ---
