@@ -4,7 +4,7 @@ title: Workshop PORTAL 002
 content:
   - type: images
     image: /img/img_0580.jpg
-  - type: images
+    caption: 'PORTAL 002 (2018). Photography: Elisa van Joolen.'
   - type: text
     body: >-
       For the *PORTAL 002* workshop Elisa van Joolen worked with visitors of
@@ -46,5 +46,5 @@ content:
       brought together in a reader using the sixteen *PORTAL* questions as a
       starting point.
 location: 'State of Fashion, Arnhem'
-date: 2018-06-01T14:53:46.104Z
+date: 2018-06-01T10:00:00.000Z
 ---
