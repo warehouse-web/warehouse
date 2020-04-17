@@ -1,11 +1,11 @@
 ---
 templateKey: product-page
 warehouseID: 'WAREHOUSE #88'
-title: 'D&K Lookbook 2019 | All or Nothing '
+title: 'D&K Look Book 2019 | All or Nothing '
 content:
   - type: images
     image: /img/09_d-k_mode-mode_photo_anoukbeckers.jpg
-    caption: 'D&K Lookbook 2019 | All or Nothing. Photography: Anouk Beckers.'
+    caption: 'D&K Look Book 2019 | All or Nothing. Photography: Anouk Beckers.'
   - type: text
     body: >-
       D&K explores the potential of fashion practice as a site of critical
@@ -39,7 +39,7 @@ content:
     image: /img/10_d-k_mode-mode_photo_anoukbeckers.jpg
   - type: images
     image: /img/11_d-k_mode-mode_photo_anoukbeckers.jpg
-    caption: 'D&K Lookbook 2019 | All or Nothing. Photography: Anouk Beckers.'
+    caption: 'D&K Look Book 2019 | All or Nothing. Photography: Anouk Beckers.'
 author: Ricarda Bigolin (ed.)
 date: 2020-04-03T13:45:00.921Z
 ---
