@@ -4,7 +4,7 @@ title: Talk 200 Sisters Souvenirs
 content:
   - type: images
     image: /img/dscf0142.jpg
-    caption: '200 Sisters Souvenirs. Photography: Roos Quakernaat'
+    caption: '200 Sisters Souvenirs. Photography: Roos Quakernaat.'
   - type: text
     body: >-
       A conversation with Rebecca Stephany and Amelia Groom on *200 Sisters
@@ -64,7 +64,7 @@ content:
     image: /img/dscf0153.jpg
   - type: images
     image: /img/dscf0227.jpg
-    caption: '200 Sisters Souvenirs. Photography: Roos Quakernaat.'
+    caption: '200 Sisters Souvenirs (2020). Photography: Roos Quakernaat.'
 location: 'San Serriffe, Amsterdam'
-date: 2020-01-11T12:02:16.428Z
+date: 2020-01-11T19:00:00.000Z
 ---
