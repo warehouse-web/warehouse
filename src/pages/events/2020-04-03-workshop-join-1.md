@@ -47,7 +47,7 @@ content:
 
       \
 
-      *JOIN Collective Clothes*is an initiative by Anouk Beckers in
+      *JOIN Collective Clothes* is an initiative by Anouk Beckers in
       collaboration with graphic designer/art director Beau Bertens.
   - type: images
     image: /img/02_join_de-appel_photo_join.jpg
