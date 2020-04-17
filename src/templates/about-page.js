@@ -4,6 +4,7 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/utils";
 import Newsletter from "../components/Newsletter";
+import ReactMarkdown from "react-markdown";
 
 export const AboutPageTemplate = ({
 	title,
@@ -12,7 +13,8 @@ export const AboutPageTemplate = ({
 	other,
 	content,
 	contentComponent,
-	blurbs
+	blurbs,
+	image
 }) => {
 	const PageContent = contentComponent || Content;
 
@@ -42,13 +44,16 @@ export const AboutPageTemplate = ({
 								);
 							})}
 					</ul>
-
-					<div
-						className="dangerously-set"
-						dangerouslySetInnerHTML={{ __html: other }}
-					/>
+					{image && <img src={image} alt="" />}
+					<div className="about-other">
+						<ReactMarkdown
+							style={{ color: "white" }}
+							escapeHtml={false}
+							source={other}
+						/>
+					</div>
+					<Newsletter />
 				</div>
-				<Newsletter />
 			</div>
 		</div>
 	);
@@ -74,6 +79,7 @@ const AboutPage = ({ data }) => {
 				blurbs={post.frontmatter.blurbs}
 				other={post.frontmatter.other}
 				rightColumn={post.frontmatter.rightColumn}
+				image={post.frontmatter.image}
 			/>
 		</Layout>
 	);
@@ -93,6 +99,7 @@ export const aboutPageQuery = graphql`
 				title
 				leftColumn
 				other
+				image
 				blurbs {
 					title
 					subtitle

@@ -434,12 +434,16 @@ figure figcaption {
   color: white;
 }
 
-.dangerously-set {
+.about-other {
   font-family: "BradfordLLWeb-Book", "Times New Roman", Times, serif;
   font-size: 1.15em;
   margin-top: 1.8rem;
   margin-right: 2.3rem;
   padding-bottom: 2rem;
+  color: white;
+}
+
+.about-other > * {
   color: white;
 }
 

@@ -3,16 +3,17 @@ import PropTypes from "prop-types";
 import { AboutPageTemplate } from "../../templates/about-page";
 
 const AboutPagePreview = ({ entry, widgetFor }) => {
-	const data = entry.getIn(['data']).toJS()
+	const data = entry.getIn(["data"]).toJS();
+	console.log("data:", data);
 	if (data) {
 		return (
-				<AboutPageTemplate
-					title={data.title}
-					leftColumn={data.leftColumn}
-					content={widgetFor('body')}
-					other={widgetFor('other')}
-					blurbs={data.blurbs || {blurbs: []}}
-				/>
+			<AboutPageTemplate
+				title={data.title}
+				leftColumn={data.leftColumn}
+				content={widgetFor("body")}
+				other={data.other}
+				blurbs={data.blurbs || { blurbs: [] }}
+			/>
 		);
 	}
 };

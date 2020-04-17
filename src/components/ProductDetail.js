@@ -34,33 +34,34 @@ const ProductDetail = ({
 			</h2>
 			<section className="content">
 				{activeProduct &&
-				(
-					(activeProduct && activeProduct.frontmatter.content) ||
-					[]
-				).map(el => {
-					if (el.type === "images") {
-						return (
-							<>
-								{" "}
-								{el.image ? (
-									<FluidImage image={el.image} />
-								) : (
-									<img src={el.image} alt="" />
-								)}
-								<p className="caption">
-									{el.caption ? el.caption : ""}
-								</p>
-							</>
-						);
-					} else {
-						return (
-							<ReactMarkdown
-								escapeHtml={false}
-								source={el.body}
-							/>
-						);
-					}
-				})(activeProduct.frontmatter.PDF) ? (
+					(
+						(activeProduct && activeProduct.frontmatter.content) ||
+						[]
+					).map(el => {
+						if (el.type === "images") {
+							return (
+								<>
+									{" "}
+									{el.image ? (
+										<FluidImage image={el.image} />
+									) : (
+										<img src={el.image} alt="" />
+									)}
+									<p className="caption">
+										{el.caption ? el.caption : ""}
+									</p>
+								</>
+							);
+						} else {
+							return (
+								<ReactMarkdown
+									escapeHtml={false}
+									source={el.body}
+								/>
+							);
+						}
+					})}
+				{activeProduct.frontmatter.PDF ? (
 					<a
 						className="pdf-download"
 						href={activeProduct.frontmatter.PDF.publicURL}

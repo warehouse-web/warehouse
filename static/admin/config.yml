@@ -196,26 +196,36 @@ collections:
     label: "About"
     files:
       - file: "src/pages/about/index.md"
-        label: "About"
-        name: "about"
+        label: About
+        name: about
         fields:
-          - {
-              label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "about-page",
-            }
-          - { label: "Title", name: "title", widget: "string" }
-          - { Label: "Left Column", name: "leftColumn", widget: "markdown" }
-          - { Label: "Right Column", name: "body", widget: "markdown" }
-          - {
-              label: List of Contributors / contact information,
-              name: blurbs,
-              widget: list,
-              fields:
-                [
-                  { label: Title, name: title, widget: string },
-                  { label: SubTitle, name: subtitle, widget: string },
-                ],
-            }
-          - { Label: "Additional Info", name: "other", widget: "markdown" }
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: about-page
+          - label: Title
+            name: title
+            widget: string
+          - label: Left Column
+            name: leftColumn
+            widget: markdown
+          - label: Right Column
+            name: body
+            widget: markdown
+          - label: Image
+            name: image
+            required: false
+            widget: image
+          - label: List of Contributors / contact information
+            name: blurbs
+            widget: list
+            fields:
+              - label: Title
+                name: title
+                widget: string
+              - label: SubTitle
+                name: subtitle
+                widget: string
+          - label: Additional Info
+            name: other
+            widget: markdown

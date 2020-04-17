@@ -3,6 +3,7 @@ const request = require("request");
 const mailChimpAPI = process.env.MAILCHIMP_API_KEY;
 
 module.exports.handler = (event, context, callback) => {
+	console.log("event:", event);
 	const { email } = event.queryStringParameters;
 	let errorMessage = null;
 

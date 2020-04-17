@@ -12,13 +12,7 @@ const Nesletter = () => {
 		setError("");
 		try {
 			const response = await fetch(
-				`/.netlify/functions/subscribeToNewsletter`,
-				{
-					method: "POST",
-					body: JSON.stringify({
-						email
-					})
-				}
+				`/.netlify/functions/subscribeToNewsLetter?email=${email}`
 			);
 
 			if (response.ok) {
@@ -36,7 +30,7 @@ const Nesletter = () => {
 	};
 	return (
 		<form onSubmit={handleSubmit}>
-			<p>Newsletter</p>
+			<p style={{ color: "white" }}>Newsletter</p>
 			{isSuccess ? (
 				<>
 					<div>Thank you!</div>
@@ -52,11 +46,15 @@ const Nesletter = () => {
 						value={email}
 						type="text"
 					/>
-					<input
+					<button
+						style={{
+							marginLeft: "1rem",
+							padding: ".2rem"
+						}}
 						alt="submit"
-						src="/img/icons/arrow.svg"
-						type="image"
-					/>
+					>
+						Subscribe
+					</button>
 					{error !== "" && <p>{error}</p>}
 				</>
 			)}
