@@ -45,9 +45,7 @@ content:
     image: /img/03_a-magazine-reader-special_photo_anoukbeckers.jpg
   - type: images
     image: /img/02_a-magazine-reader-special_photo_anoukbeckers.jpg
-    caption: >-
-      A Magazine Reader Invites 01 with Zuzana Kostelanská. Photography: Anouk
-      Beckers.
+    caption: 'Photography: Anouk Beckers'
 author: Femke de Vries & Hanka van der Voet (eds.) & Zuzana Kostelanská
 date: 2020-04-11T14:36:42.258Z
 ---
