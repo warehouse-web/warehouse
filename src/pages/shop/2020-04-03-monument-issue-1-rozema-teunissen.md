@@ -8,7 +8,7 @@ content:
     caption: 'Monument Issue #1 | Rozema/Teunissen (2018). Photography: Anouk Beckers.'
   - type: text
     body: >-
-      *Monument* is a fanzine dedicated to the "Dutch Wave", a group of Dutch
+      *Monument* is a fanzine dedicated to the 'Dutch Wave', a group of Dutch
       fashion designers who created international fame around the turn of the
       century. Each number is dedicated to one designer or design duo. This
       first issue focuses on the work of the duo Rozema/Teunissen (Melanie
@@ -28,23 +28,19 @@ content:
       \
 
       Some words by initiator Mary Lou Berkulin from the introduction of this
-      first edition of Monument:\
-
-      \
-
-      “Rozema/Teunissen’s designs are part of a defining time in Dutch Fashion.
-      With their work, they have paved the way for generations. But
-      unfortunately, until today, their heritage is not tangible or visible. The
-      majority of their archive is analogue and put together before the rise of
-      social media and the internet. The items are held in bags, folders, in
-      storage spaces and attics. Some lucky pieces have made it into the museum
-      depot where they quietly lie, wrapped in acid-free paper, carefully held
-      in climate-controlled spaces. Although this is a comfortable situation,
-      it’s the reason they remain far from our memory. It’s a place unworthy of
-      their essence”.
+      first edition of *Monument*: “Rozema/Teunissen’s designs are part of a
+      defining time in Dutch Fashion. With their work, they have paved the way
+      for generations. But unfortunately, until today, their heritage is not
+      tangible or visible. The majority of their archive is analogue and put
+      together before the rise of social media and the internet. The items are
+      held in bags, folders, in storage spaces and attics. Some lucky pieces
+      have made it into the museum depot where they quietly lie, wrapped in
+      acid-free paper, carefully held in climate-controlled spaces. Although
+      this is a comfortable situation, it’s the reason they remain far from our
+      memory. It’s a place unworthy of their essence”.
 
 
-      *“Monument*aims to bring these items back to the surface. By doing so, I
+      *“Monument* aims to bring these items back to the surface. By doing so, I
       want to show you that we maybe first need to look back in order to move
       forward into changing today’s fashion system”.\
 
@@ -73,38 +69,13 @@ content:
 
       \
 
-      Type: softcover\
-
-      Dimensions: 170 mm x 240 mm portrait\
-
-      Pages: 160\
-
-      Editor: Mary-Lou Berkulin\
-
-      Art direction: Karen van de Kraats\
-
-      Graphic design: Karen van de Kraats\
-
-      Photography: Barrie Hullegie\
-
-      Contributing writer: Renee van der Hoek\
-
-      Release date: Summer 2018\
-
-      Binding: glued\
-
-      Color: full colour\
-
-      Printer: Wilco Art Books\
-
-      Language: English\
-
-      Text editors: Hanka van der Voet and Femke de Vries (Warehouse)\
-
-      Made possible by: Creative Industries Fund NL and the Amsterdam Fund for
-      the Arts\
-
-      Production: Warehouse
+      Type: softcover\ Dimensions: 170 mm x 240 mm portrait\ Pages: 160\ Editor:
+      Mary-Lou Berkulin\ Art direction: Karen van de Kraats\ Graphic design:
+      Karen van de Kraats\ Photography: Barrie Hullegie\ Contributor: Renee van
+      der Hoek\ Release date: Summer 2018\ Binding: glued\ Color: full colour\
+      Printer: Wilco Art Books\ Language: English\ Text editors: Hanka van der
+      Voet and Femke de Vries (Warehouse)\ Made possible by: Creative Industries
+      Fund NL and the Amsterdam Fund for the Arts\ Production: Warehouse
   - type: images
     image: /img/01_monument-01_photo_anouk-beckers.jpg
     caption: 'Monument Issue #1 | Rozema/Teunissen (2018). Photography: Anouk Beckers.'
