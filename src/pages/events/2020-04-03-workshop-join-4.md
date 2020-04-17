@@ -23,7 +23,7 @@ content:
       alienation, mystification and value creation in fashion together.
 
 
-      Initiator Anouk Beckers on*JOIN Collective Clothes*: “What if we open up
+      Initiator Anouk Beckers on *JOIN Collective Clothes*: “What if we open up
       the fashion system and explore it as a non-fixed entity, a system where
       people can playfully join in, where everyone is invited to create fashion
       together?”
@@ -34,19 +34,19 @@ content:
       values such as originality and ‘the new’. And although it is often
       perceived as something that is not for everyone, fashion surely is a
       collective practice.By making and wearing clothes together, the design and
-      research project*JOIN Collective Clothes*proposes fashion as a collective
+      research project*JOIN Collective Clothes* proposes fashion as a collective
       practice.\
 
       Besides joining one of the workshop, an easy-to-use open source can be
       downloaded
       at[www.joincollectiveclothes.com](http://www.joincollectiveclothes.com/)/manual.
       The pieces made by various makers from all over the world form an
-      ever-growing collection that can be seen on the*JOIN Collective
-      Clothes*website.\
+      ever-growing collection that can be seen on the *JOIN Collective Clothes*
+      website.\
 
       \
 
-      *JOIN Collective Clothes*is an initiative by Anouk Beckers in
+      *JOIN Collective Clothes* is an initiative by Anouk Beckers in
       collaboration with graphic designer/art director Beau Bertens.
   - type: images
     image: /img/02_join_museum-arnhem_13072019_photo_valerie-spanjers.jpg
