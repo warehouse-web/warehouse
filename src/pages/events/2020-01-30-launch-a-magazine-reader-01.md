@@ -7,7 +7,7 @@ content:
     body: >-
       During this launch, students from MA Fashion Strategy generation 27
       discuss the representation and meaning of luxury in the fashion magazine
-      with Femke de Vries and Line Arngaard & Sonia Oet (*A March Issue*).
+      with Femke de Vries and Line Arngaard and Sonia Oet (*A March Issue*).
 
 
       *A Magazine Reader* revolves around the analysis of a mainstream, high-end
@@ -23,8 +23,8 @@ content:
       thoroughly read, dissected and critically analysed on elements such as
       models, topicality, advertisements, material, brands, distribution,
       imagery, items, narrative, monetary value, colours, words and order of
-      pages. By not starting from the perspective of the fashion system at
-      large, but from the simple act of reading a fashion magazine, the reader
+      pages. By not starting from the perspective of the fashion system as a
+      whole, but from the simple act of reading a fashion magazine, the reader
       gains an active role. Having the material in hands, seeing the images, how
       brands are being represented on the pages, reading the words and tracing
       the page numbers, but also feeling the paper, the weight and being able to
@@ -45,14 +45,14 @@ content:
 
 
       This first edition of *A Magazine Reader,* designed by Corine van der Wal
-      is titled *V*GUE*.* In this workshop with first year MA Fashion Strategy
-      students of generation 27 at ArtEZ University of the Arts, a British Vogue
-      is explored from the perspective of luxury today, and the way luxury is
-      being sold through fashion mass media. \
+      is titled *V*GUE.* The content came together through a workshop with MA
+      Fashion Strategy students of generation 27 at ArtEZ University of the
+      Arts, where we explored a *British Vogue* from the perspective of luxury
+      today, and the way luxury is being sold through fashion mass media. \
 
       \
 
-      A Magazine Reader is an ongoing research trajectory and series of zines
+      *A Magazine Reader* is an ongoing research trajectory and series of zines
       initiated by Femke de Vries and Hanka van der Voet.
 location: 'WALTER, Arnhem'
 date: 2018-06-29T15:30:00.000Z
