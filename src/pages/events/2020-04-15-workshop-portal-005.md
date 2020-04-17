@@ -20,6 +20,9 @@ content:
       *PORTAL* is a research project that explores the economic, social and
       emotional value of clothing and offers a ‘way in’ to understanding
       garments from a multitude of overlapping and intersecting perspectives.
+      Could different garments worn by different people be related? In what ways
+      are emotional and monetary values of clothing connected? To whom does a
+      piece of clothing belong?
 
 
       For every edition, participants are asked to take off a garment, lay it
