@@ -35,9 +35,12 @@ content:
 
 
       8EUR
+
+
+      Send an email to shop@thisiswarehouse.com if you want to purchase a copy.
   - type: images
     image: /img/02_d-k_mode-mode_photo_anoukbeckers.jpg
-    caption: 'Mode and Mode #7 | ‘D&K LOOKBOOK 2019’ Photography: Anouk Beckers.'
+    caption: 'Photography: Anouk Beckers'
 author: Laura Gardner (ed.)
 date: 2020-04-11T14:51:10.914Z
 ---
