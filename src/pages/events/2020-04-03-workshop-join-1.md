@@ -52,5 +52,5 @@ content:
     image: /img/03_join_de-appel_photo_join.jpg
     caption: 'JOIN (2019). Photography: Anouk Beckers'
 location: 'De Appel, Amsterdam '
-date: 2019-06-01T14:40:42.509Z
+date: 2019-06-01T08:00:00.000Z
 ---
