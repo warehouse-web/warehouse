@@ -10,7 +10,7 @@ content:
     caption: caption
   - type: text
     body: >-
-      This Join Collective Clothes workshop at Cube Design Museum is part of a
+      This *Join Collective Clothes* workshop at Cube Design Museum is part of a
       series of workshops by Anouk Beckers in which everyone is invited to make
       a garment-piece.\
 
