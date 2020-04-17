@@ -5,7 +5,7 @@ title: Launch A Magazine Reader 01
 content:
   - type: text
     body: >-
-      During this launch, students from MA Fashion Strategy generation 27
+      During this launch, students from MA Fashion Strategy generation 27 will
       discuss the representation and meaning of luxury in the fashion magazine
       with Femke de Vries and Line Arngaard and Sonia Oet (*A March Issue*).
 
