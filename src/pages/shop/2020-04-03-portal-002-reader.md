@@ -72,6 +72,9 @@ content:
 
 
       12,50EUR
+
+
+      Send an email to shop@thisiswarehouse.com if you want to purchase a copy.
   - type: images
     image: /img/02_portal002_photo_anoukbeckers.jpg
   - type: images
