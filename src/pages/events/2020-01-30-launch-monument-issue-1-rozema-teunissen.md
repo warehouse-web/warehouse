@@ -5,15 +5,14 @@ title: 'Launch Monument Issue #1 | Rozema/Teunissen'
 content:
   - type: text
     body: >-
-      This launch of Monument Issue #1 | Rozema/Teunissen at Sexyland coincides
-      with an installation by Maria Kley.\
+      This launch of *Monument Issue #1 | Rozema/Teunissen* at Sexyland will
+      coincide with an installation by Maria Kley.
 
-      \
 
       On June 20, the first issue of *Monument* was published, a fanzine
-      dedicated to the "Dutch Wave", a group of Dutch fashion designers who
+      dedicated to the 'Dutch Wave', a group of Dutch fashion designers who
       created international fame around the turn of the century. Each number is
-      dedicated to one designer or design duo. This second issue focuses on the
+      dedicated to one designer or design duo. This first issue focuses on the
       work of the duo Rozema/Teunissen (Melanie Rozema and Jeroen Teunissen).
 
 
@@ -22,15 +21,15 @@ content:
       various archives are combined with new interviews and photography. Each
       issue has its own unique design and editorial approach, completely in
       keeping with the designer to whom the issue is dedicated. A conversation
-      between Mary-Lou and Rozema/Teunissen has been supplemented with quotes
-      and texts from articles from the archive and a new long-read, written by
-      fashion researcher Renée van der Hoek. The items from the archive have
-      been photographed by Barrie Hullegie.\
+      between Mary-Lou Berkulin and Rozema/Teunissen has been supplemented with
+      quotes and texts from articles from the archive and a new long-read,
+      written by fashion researcher Renée van der Hoek. The items from the
+      archive have been photographed by Barrie Hullegie.\
 
       \
 
       Some words by initiator Mary Lou Berkulin from the introduction of this
-      first edition of Monument:
+      first edition of *Monument*:
 
 
       “Rozema/Teunissen’s designs are part of a defining time in Dutch Fashion.
