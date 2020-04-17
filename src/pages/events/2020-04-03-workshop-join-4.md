@@ -7,9 +7,9 @@ content:
     caption: ''
   - type: text
     body: >-
-      This Join Collective Clothes workshop at De Kerk by Museum Arnhem is part
-      of a series of workshops by Anouk Beckers in which everyone is invited to
-      make a garment-piece.\
+      This *Join Collective Clothes* workshop at De Kerk by Museum Arnhem is
+      part of a series of workshops by Anouk Beckers in which everyone is
+      invited to make a garment-piece.\
 
       \
 
@@ -33,13 +33,13 @@ content:
       commodities as magical results of invisible processes and an adoration of
       values such as originality and ‘the new’. And although it is often
       perceived as something that is not for everyone, fashion surely is a
-      collective practice.By making and wearing clothes together, the design and
-      research project*JOIN Collective Clothes* proposes fashion as a collective
-      practice.\
+      collective practice. By making and wearing clothes together, the design
+      and research project *JOIN Collective Clothes* proposes fashion as a
+      collective practice.\
 
       Besides joining one of the workshop, an easy-to-use open source can be
-      downloaded
-      at[www.joincollectiveclothes.com](http://www.joincollectiveclothes.com/)/manual.
+      downloaded at
+      [www.joincollectiveclothes.com](http://www.joincollectiveclothes.com/)/manual.
       The pieces made by various makers from all over the world form an
       ever-growing collection that can be seen on the *JOIN Collective Clothes*
       website.\
