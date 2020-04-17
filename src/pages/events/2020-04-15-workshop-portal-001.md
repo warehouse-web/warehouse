@@ -4,9 +4,6 @@ title: Workshop PORTAL 001
 content:
   - type: images
     image: /img/portal_elisavanjoolen_2017.jpg
-  - type: images
-    image: /img/image1.jpg
-    caption: 'PORTAL 001 (2017). Photography: Elisa van Joolen.'
   - type: text
     body: >-
       For the *PORTAL 001* workshop*,* Elisa van Joolen worked with MA Fashion
@@ -46,6 +43,9 @@ content:
       The collected information of each *PORTAL* edition is visualized and
       brought together in a reader using the sixteen *PORTAL* questions as a
       starting point.
+  - type: images
+    image: /img/image1.jpg
+    caption: 'PORTAL 001 (2017). Photography: Elisa van Joolen.'
 location: 'Museum Boijmans van Beuningen, Rotterdam'
 date: 2017-11-10T10:00:00.000Z
 ---
