@@ -76,6 +76,9 @@ content:
       Printer: Wilco Art Books\ Language: English\ Text editors: Hanka van der
       Voet and Femke de Vries (Warehouse)\ Made possible by: Creative Industries
       Fund NL and the Amsterdam Fund for the Arts\ Production: Warehouse
+
+
+      15EUR
   - type: images
     image: /img/01_monument-01_photo_anouk-beckers.jpg
     caption: 'Monument Issue #1 | Rozema/Teunissen (2018). Photography: Anouk Beckers.'
