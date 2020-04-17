@@ -3,6 +3,8 @@ templateKey: event-post
 warehouseID: 'WAREHOUSE #3.1'
 title: Launch A Magazine Reader 01
 content:
+  - type: images
+    image: /img/a-magazine-reader-v-gue.jpg
   - type: text
     body: >-
       During this launch, students from MA Fashion Strategy generation 27 will
