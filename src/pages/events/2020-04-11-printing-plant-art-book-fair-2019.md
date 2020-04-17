@@ -2,6 +2,9 @@
 templateKey: event-post
 title: Printing Plant Art Book Fair 2019
 content:
+  - type: images
+    image: /img/02_join-magazine_photo_anouk-beckers.jpg
+    caption: JOIN Collective Clothes magazine.
   - type: text
     body: >-
       Warehouse participates in Printing Plant Art Book fair with a selection of
@@ -26,6 +29,11 @@ content:
       and Rebecca Stephany (in collaboration with students from the Karlsruhe
       University of Arts and Design).
   - type: images
+    image: /img/scan0169.jpg
+    caption: 'The Fashion Systems (Algo) Rhythmic Gaze, Chinouk Filique de Miranda.'
+  - type: images
+    image: /img/01_rework_photo_anoukbeckers.jpg
+    caption: 'Rework Magazine, Edwin van Gelder & Johann Tangyong.'
 location: 'Looiersgracht 60, Amsterdam'
 date: 2019-11-21T23:00:00.000Z
 ---
