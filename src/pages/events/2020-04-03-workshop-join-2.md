@@ -39,9 +39,8 @@ content:
       www.joincollectiveclothes.com/manual[](http://www.joincollectiveclothes.com/).
       The pieces made by various makers from all over the world form an
       ever-growing collection that can be seen on the *JOIN Collective Clothes*
-      website.\
+      website.
 
-      \
 
       *JOIN Collective Clothes* is an initiative by Anouk Beckers in
       collaboration with graphic designer and art director Beau Bertens.
@@ -52,5 +51,5 @@ content:
     image: /img/03_join_studio-bonbon_fanfare-amsterdam_photo_join.jpg
     caption: 'JOIN (2019). Photography: Anouk Beckers.'
 location: 'Fanfare, Amsterdam '
-date: 2019-10-03T14:43:40.524Z
+date: 2019-10-03T16:00:00.000Z
 ---
