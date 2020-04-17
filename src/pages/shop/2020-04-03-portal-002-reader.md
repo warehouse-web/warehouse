@@ -76,7 +76,7 @@ content:
     image: /img/02_portal002_photo_anoukbeckers.jpg
   - type: images
     image: /img/03_portal002_photo_anoukbeckers.jpg
-    caption: 'PORTAL 002 Reader (2018). Photography: Anouk Beckers.'
+    caption: 'Photography: Anouk Beckers'
 author: Elisa van Joolen (ed.)
 date: 2018-07-12T13:49:43.353Z
 ---
