@@ -8,6 +8,14 @@ content:
     image: /img/image1.jpg
   - type: text
     body: >-
+      For the *PORTAL 001* workshop*,* Elisa van Joolen worked with MA Fashion
+      Strategy students generation 27 to research the economic, social and
+      emotional value of clothing worn by visitors of the ‘*Change the System*’
+      exhibition at *Museum Boijmans van Beuningen* in Rotterdam. Information on
+      159 pieces of clothing worn by visitors was collected. The collected data
+      is visualized and brought together in a reader designed by Beau Bertens.
+
+
       *PORTAL* is a research project that explores the economic, social and
       emotional value of clothingand offers a ‘way in’ to understanding garments
       from a multitude of overlapping and intersecting perspectives.\
@@ -35,14 +43,6 @@ content:
       The collected information of each *PORTAL* edition is visualized and
       brought together in a reader using the sixteen *PORTAL* questions as a
       starting point.
-
-
-      For *PORTAL 001* Elisa van Joolen worked with MA Fashion Strategy students
-      generation 27 to research the economic, social and emotional value of
-      clothing worn by visitors of the ‘*Change the System*’ exhibition at
-      *Museum Boijmans van Beuningen* in Rotterdam. Information on 159 pieces of
-      clothing worn by visitors was collected. The collected data is visualized
-      and brought together in a reader designed by Beau Bertens.
 location: 'Museum Boijmans van Beuningen, Rotterdam'
 date: 2017-11-10T16:10:32.391Z
 ---
