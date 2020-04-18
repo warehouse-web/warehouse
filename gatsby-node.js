@@ -71,10 +71,14 @@ exports.createSchemaCustomization = ({ actions }) => {
 	  type Slug @infer {
 		slug: String
 	  }
+	  type PublicURL @infer {
+		  publicURL: String
+	  }
 	  type Frontmatter {
 		templateKey: String
 		title: String!
 		image: File
+		PDF: PublicURL
 	  }
 	`;
 	createTypes(typeDefs);

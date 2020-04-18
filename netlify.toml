@@ -1,8 +1,5 @@
 [build]
-  publish = "public"
   command = "gatsby-parallel-runner"
-  functions = './functions-build/'
-[[redirects]]
-  from = "/functions/subscribe"
-  to = "/.netlify/functions/subscribe"
-  status = 200
+  publish = "public"
+  functions = 'functions'
+
