@@ -369,6 +369,7 @@ a.navbar-item:hover {
 .gatsby-image-wrapper {
   width: 80%;
   margin: 0 auto;
+  max-width: 570px;
 }
 .gatsby-resp-image-wrapper {
   width: 80%;

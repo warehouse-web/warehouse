@@ -52,7 +52,7 @@ PodcastTemplate.propTypes = {
 const Podcast = data => {
 	return (
 		<Layout>
-			<PodcastRoll />
+			<p className="">coming soon </p>
 		</Layout>
 	);
 };
