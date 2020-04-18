@@ -7,6 +7,7 @@ const Nesletter = () => {
 
 	const handleInput = e => setEmail(e.target.value);
 	const handleSubmit = async event => {
+		console.log("event:", event);
 		event.preventDefault();
 
 		setError("");

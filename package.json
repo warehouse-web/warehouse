@@ -58,7 +58,6 @@
     "build": "netlify-lambda build src/functions",
     "build:app": "npm run clean && gatsby build",
     "build:lambda": "netlify-lambda build src/functions",
-    "preinstall": "npx npm-force-resolutions",
     "clean": "gatsby clean",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\""
@@ -75,5 +74,13 @@
   },
   "resolutions": {
     "@babel/preset-env": "^7.8.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nejurgis/warehouse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nejurgis/warehouse/issues"
+  },
+  "homepage": "https://github.com/nejurgis/warehouse#readme"
 }
