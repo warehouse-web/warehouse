@@ -1,5 +1,5 @@
 [build]
   command = "gatsby-parallel-runner"
+  functions = "functions"
   publish = "public"
-  functions = 'functions'
 
