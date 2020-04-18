@@ -11,9 +11,13 @@ const Nesletter = () => {
 
 		setError("");
 		try {
-			const response = await fetch(
-				`/.netlify/functions/subscribeToNewsLetter?email=${email}`
-			);
+			const response = await fetch(`/.netlify/functions/subscribe`, {
+				method: "POST",
+				body: JSON.stringify(email),
+				headers: {
+					"Content-Type": "application/json"
+				}
+			});
 
 			if (response.ok) {
 				setIsSuccess(true);
