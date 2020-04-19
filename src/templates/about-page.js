@@ -4,6 +4,7 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Newsletter from "../components/Newsletter";
 import ReactMarkdown from "react-markdown";
+import FluidImage from "../components/FluidImage";
 
 export const AboutPageTemplate = ({
 	title,
@@ -50,7 +51,14 @@ export const AboutPageTemplate = ({
 						images.map(({ image, caption }) => {
 							return (
 								<>
-									<img src={image} alt={caption} />
+									{image ? (
+										<FluidImage image={image} />
+									) : (
+										<img
+											src={image}
+											alt={caption ? caption : ""}
+										/>
+									)}
 									<p className="caption caption-about">
 										{caption ? caption : ""}
 									</p>
@@ -113,7 +121,13 @@ export const aboutPageQuery = graphql`
 				rightColumn
 				other
 				images {
-					image
+					image {
+						childImageSharp {
+							fluid(maxWidth: 1040, quality: 80) {
+								...GatsbyImageSharpFluid_tracedSVG
+							}
+						}
+					}
 					caption
 				}
 				blurbs {

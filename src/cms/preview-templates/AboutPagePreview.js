@@ -13,7 +13,7 @@ const AboutPagePreview = ({ entry, widgetFor }) => {
 				rightColumn={data.rightColumn}
 				other={data.other}
 				blurbs={data.blurbs || { blurbs: [] }}
-				image={data.image}
+				images={data.images}
 			/>
 		);
 	}

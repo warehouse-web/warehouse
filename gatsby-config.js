@@ -19,9 +19,10 @@ module.exports = {
 		author: "Zuzana Kostelanska"
 	},
 	plugins: [
+		"gatsby-plugin-sharp",
+		"gatsby-transformer-sharp",
 		"gatsby-plugin-react-helmet",
 		"gatsby-plugin-sass",
-
 		{
 			// keep as first gatsby-source-filesystem plugin for gatsby image support
 			resolve: "gatsby-source-filesystem",
@@ -37,8 +38,6 @@ module.exports = {
 				name: "pages"
 			}
 		},
-		"gatsby-plugin-sharp",
-		"gatsby-transformer-sharp",
 		{
 			resolve: "gatsby-transformer-remark",
 			options: {
