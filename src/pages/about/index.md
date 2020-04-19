@@ -2,6 +2,15 @@
 templateKey: about-page
 title: Warehouse
 leftColumn: A place for clothes in context
+rightColumn: >-
+  ABOUT
+
+
+  Warehouse is an Amsterdam-based fashion platform that aims to create an open,
+  engaging and inclusive environment that facilitates critical dialogue and the
+  creation of a discourse that goes beyond treating fashion as a commodity.
+  Warehouse was initiated by Elisa van Joolen, Femke de Vries and Hanka van der
+  Voet.
 image: /img/01_monument02_16012020_anoukbeckers.jpg
 blurbs:
   - subtitle: info@thisiswarehouse.com
