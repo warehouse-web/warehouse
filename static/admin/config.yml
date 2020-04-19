@@ -210,8 +210,18 @@ collections:
             name: leftColumn
             widget: markdown
           - label: Right Column
-            name: body
+            name: rightColumn
+            required: false
             widget: markdown
+            buttons:
+              [
+                "bold",
+                "italic",
+                "link",
+                "heading-one",
+                "heading-two",
+                "bulleted-list",
+              ]
           - label: Image
             name: image
             required: false

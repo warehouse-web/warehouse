@@ -9,6 +9,7 @@ import ReactMarkdown from "react-markdown";
 export const AboutPageTemplate = ({
 	title,
 	leftColumn,
+	rightColumn,
 	html,
 	other,
 	content,
@@ -32,16 +33,22 @@ export const AboutPageTemplate = ({
 					</h2>
 				</div>
 				<div style={{ marginBottom: "2rem" }}>
-					<PageContent className="about-right" content={content} />
+					{console.log("rightColumn:", rightColumn)}
+					<ReactMarkdown
+						className="about-right"
+						escapeHtml={false}
+						source={rightColumn}
+					/>
+					{console.log("content:", content)}
 					<ul className="colophon">
-						{blurbs.length === 0
-							? ""
-							: (blurbs || []).map(el => {
+						{blurbs.length !== 0
+							? (blurbs || []).map(el => {
 									<>
 										<li>{el.title}</li>
 										<li>{el.subtitle}</li>
 									</>;
-							  })}
+							  })
+							: ""}
 					</ul>
 					{image && <img src={image} alt="" />}
 					<div className="about-other">
@@ -98,14 +105,10 @@ export const aboutPageQuery = graphql`
 			frontmatter {
 				title
 				leftColumn
+				rightColumn
 				other
 				image {
 					publicURL
-					childImageSharp {
-						fluid(maxWidth: 1040, quality: 90) {
-							...GatsbyImageSharpFluid_tracedSVG
-						}
-					}
 				}
 				blurbs {
 					title

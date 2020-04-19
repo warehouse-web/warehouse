@@ -65,7 +65,6 @@ module.exports = {
 							maxWidth: 1040,
 							showCaptions: true,
 							quality: 80,
-							markdownCaptions: true,
 							tracedSVG: false
 							// withWebp: true
 						}

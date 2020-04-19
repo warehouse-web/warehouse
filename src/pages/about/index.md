@@ -15,11 +15,11 @@ image: /img/01_monument02_16012020_anoukbeckers.jpg
 blurbs:
   - subtitle: info@thisiswarehouse.com
     title: CONTACT
-  - subtitle: '@amsterdam.warehouse'
+  - subtitle: @amsterdam.warehouse
     title: INSTAGRAM
   - subtitle: Zuzana Kostelanská
     title: WEBSITE DESIGN
-  - subtitle: 'Anouk Beckers, Chet Bugter'
+  - subtitle: Anouk Beckers, Chet Bugter
     title: PRODUCTION
   - subtitle: Jan Schoon
     title: COMMUNICATION
@@ -44,6 +44,3 @@ other: >-
   harm that may arise as a consequence of errors, problems caused by or inherent
   in the distribution of the information by internet, or for technical failures.
 ---
-ABOUT
-
-Warehouse is an Amsterdam-based fashion platform that aims to create an open, engaging and inclusive environment that facilitates critical dialogue and the creation of a discourse that goes beyond treating fashion as a commodity. Warehouse was initiated by Elisa van Joolen, Femke de Vries and Hanka van der Voet.

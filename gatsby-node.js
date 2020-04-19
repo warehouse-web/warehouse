@@ -82,6 +82,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 		title: String!
 		image: File
 		PDF: PublicURL
+
 	  }
 	`;
 	createTypes(typeDefs);
