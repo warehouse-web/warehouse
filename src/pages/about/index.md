@@ -15,7 +15,7 @@ image: /img/01_monument02_16012020_anoukbeckers.jpg
 blurbs:
   - subtitle: info@thisiswarehouse.com
     title: CONTACT
-  - subtitle: @amsterdam.warehouse
+  - subtitle: "@amsterdam.warehouse"
     title: INSTAGRAM
   - subtitle: Zuzana Kostelanská
     title: WEBSITE DESIGN
