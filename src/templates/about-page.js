@@ -29,21 +29,21 @@ export const AboutPageTemplate = ({
 					</h2>
 				</div>
 				<div style={{ marginBottom: "2rem" }}>
-					{console.log("rightColumn:", rightColumn)}
 					<ReactMarkdown
 						className="about-right"
 						escapeHtml={false}
 						source={rightColumn}
 					/>
 					<ul className="colophon">
-						{blurbs.length !== 0
-							? (blurbs || []).map(el => {
+						{blurbs &&
+							(blurbs || []).map(el => {
+								return (
 									<>
 										<li>{el.title}</li>
 										<li>{el.subtitle}</li>
-									</>;
-							  })
-							: ""}
+									</>
+								);
+							})}
 					</ul>
 					{image && <img src={image} alt="" />}
 					<div className="about-other">
