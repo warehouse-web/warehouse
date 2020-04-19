@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
-import Content, { HTMLContent } from "../components/utils";
 import Newsletter from "../components/Newsletter";
 import ReactMarkdown from "react-markdown";
 
@@ -13,12 +12,9 @@ export const AboutPageTemplate = ({
 	html,
 	other,
 	content,
-	contentComponent,
 	blurbs,
 	image
 }) => {
-	const PageContent = contentComponent || Content;
-
 	return (
 		<div className="about-background">
 			<Link className="close" id="white" to="/">
@@ -39,7 +35,6 @@ export const AboutPageTemplate = ({
 						escapeHtml={false}
 						source={rightColumn}
 					/>
-					{console.log("content:", content)}
 					<ul className="colophon">
 						{blurbs.length !== 0
 							? (blurbs || []).map(el => {
@@ -66,9 +61,7 @@ export const AboutPageTemplate = ({
 };
 
 AboutPageTemplate.propTypes = {
-	title: PropTypes.string.isRequired,
-	content: PropTypes.string,
-	contentComponent: PropTypes.func
+	title: PropTypes.string.isRequired
 };
 
 const AboutPage = ({ data }) => {
@@ -78,8 +71,6 @@ const AboutPage = ({ data }) => {
 		<Layout>
 			<AboutPageTemplate
 				title={post.frontmatter.title}
-				content={post.html}
-				contentComponent={HTMLContent}
 				leftColumn={post.frontmatter.leftColumn}
 				colophon={post.frontmatter.colophon}
 				blurbs={post.frontmatter.blurbs}
@@ -101,15 +92,11 @@ export default AboutPage;
 export const aboutPageQuery = graphql`
 	query AboutPage($id: String!) {
 		markdownRemark(id: { eq: $id }) {
-			html
 			frontmatter {
 				title
 				leftColumn
 				rightColumn
 				other
-				image {
-					publicURL
-				}
 				blurbs {
 					title
 					subtitle
