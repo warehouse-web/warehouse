@@ -222,10 +222,18 @@ collections:
                 "heading-two",
                 "bulleted-list",
               ]
-          - label: Image
-            name: image
-            required: false
-            widget: image
+          - label: Images
+            name: images
+            widget: list
+            fields:
+              - label: Image
+                name: image
+                required: false
+                widget: image
+              - label: Caption
+                name: caption
+                required: false
+                widget: markdown
           - label: List of Contributors / contact information
             name: blurbs
             widget: list

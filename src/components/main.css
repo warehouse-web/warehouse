@@ -365,6 +365,9 @@ a.navbar-item:hover {
   text-align: center;
   font-family: "BradfordLLWeb-Book", "Times New Roman", Times, serif;
 }
+.caption-about {
+  color: white;
+}
 
 .gatsby-image-wrapper {
   width: 80%;

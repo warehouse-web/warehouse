@@ -13,7 +13,7 @@ export const AboutPageTemplate = ({
 	other,
 	content,
 	blurbs,
-	image
+	images
 }) => {
 	return (
 		<div className="about-background">
@@ -30,6 +30,7 @@ export const AboutPageTemplate = ({
 				</div>
 				<div style={{ marginBottom: "2rem" }}>
 					<ReactMarkdown
+						linkTarget={"_blank"}
 						className="about-right"
 						escapeHtml={false}
 						source={rightColumn}
@@ -45,7 +46,18 @@ export const AboutPageTemplate = ({
 								);
 							})}
 					</ul>
-					{image && <img src={image} alt="" />}
+					{images &&
+						images.map(({ image, caption }) => {
+							return (
+								<>
+									<img src={image} alt={caption} />
+									<p className="caption caption-about">
+										{caption ? caption : ""}
+									</p>
+								</>
+							);
+						})}
+
 					<div className="about-other">
 						<ReactMarkdown
 							style={{ color: "white" }}
@@ -77,6 +89,9 @@ const AboutPage = ({ data }) => {
 				other={post.frontmatter.other}
 				rightColumn={post.frontmatter.rightColumn}
 				image={post.frontmatter.image}
+				attachments={post.frontmatter.attachments}
+				caption={post.frontmatter.caption}
+				images={post.frontmatter.images}
 			/>
 			{console.log("post.frontmatter.image:", post.frontmatter.image)}
 		</Layout>
@@ -97,6 +112,10 @@ export const aboutPageQuery = graphql`
 				leftColumn
 				rightColumn
 				other
+				images {
+					image
+					caption
+				}
 				blurbs {
 					title
 					subtitle

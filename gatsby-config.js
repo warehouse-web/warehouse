@@ -63,7 +63,6 @@ module.exports = {
 							// the content container as this plugin uses this as the
 							// base for generating different widths of each image.
 							maxWidth: 1040,
-							showCaptions: true,
 							quality: 80,
 							tracedSVG: false
 							// withWebp: true

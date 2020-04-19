@@ -58,6 +58,7 @@ const FocusDetail = ({
 						} else {
 							return (
 								<ReactMarkdown
+									linkTarget={"_blank"}
 									escapeHtml={false}
 									source={el.body}
 								/>
