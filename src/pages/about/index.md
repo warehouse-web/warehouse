@@ -26,7 +26,6 @@ other: >-
   Warehouse nor those who supplied the information involved are responsible for
   harm that may arise as a consequence of errors, problems caused by or inherent
   in the distribution of the information by internet, or for technical failures.
-attachments: /img/01_join_capsicum_photo_join.jpg
 rightColumn: >-
   ABOUT
 
@@ -39,13 +38,12 @@ rightColumn: >-
 blurbs:
   - subtitle: info@thisiswarehouse.com
     title: CONTACT
-  - subtitle: '@amsterdam.warehouse'
+  - subtitle: "@amsterdam.warehouse"
     title: INSTAGRAM
   - subtitle: Zuzana Kostelanská
     title: WEBSITE DESIGN
-  - subtitle: 'Anouk Beckers, Chet Bugter'
+  - subtitle: "Anouk Beckers, Chet Bugter"
     title: PRODUCTION
   - subtitle: Jan Schoon
     title: COMMUNICATION
-image: /img/01_join_cube-design-museum_photo_join.jpg
 ---
