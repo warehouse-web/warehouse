@@ -11,7 +11,7 @@ rightColumn: >-
   creation of a discourse that goes beyond treating fashion as a commodity.
   Warehouse was initiated by Elisa van Joolen, Femke de Vries and Hanka van der
   Voet.
-image: ''
+image: /img/01_join_cube-design-museum_photo_join.jpg
 blurbs:
   - subtitle: info@thisiswarehouse.com
     title: CONTACT
