@@ -37,4 +37,4 @@ other: >-
 ---
 ABOUT
 
-Warehouse is an Amsterdam-based fashion platform that aims to create an open, engaging and inclusive environment that facilitates critical dialogue and the creation of a discourse that goes beyond treating fashion as a commodity. Warehouse is initiated by Elisa van Joolen, Femke de Vries and Hanka van der Voet.
+Warehouse is an Amsterdam-based fashion platform that aims to create an open, engaging and inclusive environment that facilitates critical dialogue and the creation of a discourse that goes beyond treating fashion as a commodity. Warehouse was initiated by Elisa van Joolen, Femke de Vries and Hanka van der Voet.
