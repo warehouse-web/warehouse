@@ -13,6 +13,7 @@ const AboutPagePreview = ({ entry, widgetFor }) => {
 				content={widgetFor("body")}
 				other={data.other}
 				blurbs={data.blurbs || { blurbs: [] }}
+				image={data.image}
 			/>
 		);
 	}

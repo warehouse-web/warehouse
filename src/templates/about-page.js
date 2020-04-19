@@ -31,7 +31,7 @@ export const AboutPageTemplate = ({
 						<span className="about-caps">{leftColumn}</span>
 					</h2>
 				</div>
-				<div>
+				<div style={{ marginBottom: "2rem" }}>
 					<PageContent className="about-right" content={content} />
 					<ul className="colophon">
 						{blurbs.length === 0
@@ -80,6 +80,7 @@ const AboutPage = ({ data }) => {
 				rightColumn={post.frontmatter.rightColumn}
 				image={post.frontmatter.image}
 			/>
+			{console.log("post.frontmatter.image:", post.frontmatter.image)}
 		</Layout>
 	);
 };
@@ -99,6 +100,7 @@ export const aboutPageQuery = graphql`
 				leftColumn
 				other
 				image {
+					publicURL
 					childImageSharp {
 						fluid(maxWidth: 1040, quality: 90) {
 							...GatsbyImageSharpFluid_tracedSVG
