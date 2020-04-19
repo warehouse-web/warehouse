@@ -11,15 +11,15 @@ rightColumn: >-
   creation of a discourse that goes beyond treating fashion as a commodity.
   Warehouse was initiated by Elisa van Joolen, Femke de Vries and Hanka van der
   Voet.
-image: /img/01_monument02_16012020_anoukbeckers.jpg
+image: ''
 blurbs:
   - subtitle: info@thisiswarehouse.com
     title: CONTACT
-  - subtitle: "@amsterdam.warehouse"
+  - subtitle: '@amsterdam.warehouse'
     title: INSTAGRAM
   - subtitle: Zuzana Kostelanská
     title: WEBSITE DESIGN
-  - subtitle: Anouk Beckers, Chet Bugter
+  - subtitle: 'Anouk Beckers, Chet Bugter'
     title: PRODUCTION
   - subtitle: Jan Schoon
     title: COMMUNICATION
