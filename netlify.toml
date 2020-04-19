@@ -1,6 +1,6 @@
 [build]
   command = "gatsby-parallel-runner"
-  functions = "functions"
+  functions = "lambda"
   publish = "public"
 [[redirects]]
   from = "/api/*"

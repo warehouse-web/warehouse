@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "base-64": "^0.1.0",
-    "node-fetch": "^2.6.0"
+    "request": "^2.88.0"
   }
 }
