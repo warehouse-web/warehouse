@@ -87,13 +87,13 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - label: "Template Key"
-        name: "templateKey"
-        widget: "hidden"
-        default: "product-page"
-      - label: "Product Name"
-        name: "title"
-        widget: "string"
+      - label: Template Key
+        name: templateKey
+        widget: hidden
+        default: product-page
+      - label: Product Name
+        name: title
+        widget: string
       - label: Upload PDF
         name: PDF
         required: false
@@ -137,22 +137,22 @@ collections:
       - label: Date Added
         name: date
         widget: datetime
-  - name: "focus"
-    label: "Focus"
+  - name: focus
+    label: Focus
     folder: "src/pages/focus"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - label: "Template Key"
-        name: "templateKey"
-        widget: "hidden"
-        default: "focus-page"
+      - label: Template Key
+        name: templateKey
+        widget: hidden
+        default: focus-page
       - label: Article Title
         name: title
         widget: string
       - label: Upload PDF
-        name: "PDF"
-        widget: "file"
+        name: PDF
+        widget: file
       - label: Content
         name: content
         widget: list
