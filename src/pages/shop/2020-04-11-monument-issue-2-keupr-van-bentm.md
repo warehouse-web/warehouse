@@ -25,9 +25,8 @@ content:
       and 2001. A conversation between Mary-Lou Berkulin and Keupr/van Bentm has
       been supplemented with quotes and texts from articles from the archive and
       a new long-read, written by fashion researcher Laura Gardner. The items
-      from the archive have been photographed by Roos Quakernaat.\
+      from the archive have been photographed by Roos Quakernaat.
 
-      \
 
       Type: softcover\ Dimensions: 170 mm x 240 mm portrait\ Pages: 160\ Editor:
       Mary-Lou Berkulin\ Art direction: Karen van de Kraats\ Photography: Roos
