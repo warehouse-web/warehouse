@@ -44,6 +44,10 @@ content:
       brought together in a reader using the sixteen *PORTAL* questions as a
       starting point.
   - type: images
+    image: /img/img_3004.jpg
+  - type: images
+    image: /img/img_3023.jpg
+  - type: images
     image: /img/image1.jpg
     caption: 'PORTAL 001 (2017). Photography: Elisa van Joolen.'
 location: 'Museum Boijmans van Beuningen, Rotterdam'
