@@ -122,7 +122,6 @@ export const useChangeMagicLogo = () => {
 };
 
 export const relayout = () => {
-	console.log("went here");
 	setWidth(getPos());
 };
 
