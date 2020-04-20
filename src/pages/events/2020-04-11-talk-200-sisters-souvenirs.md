@@ -4,7 +4,7 @@ title: Talk 200 Sisters Souvenirs
 content:
   - type: images
     image: /img/dscf0142.jpg
-    caption: '200 Sisters Souvenirs. Photography: Roos Quakernaat.'
+    caption: ''
   - type: text
     body: >-
       A conversation with Rebecca Stephany and Amelia Groom on *200 Sisters
