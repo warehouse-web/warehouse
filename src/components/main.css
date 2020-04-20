@@ -426,7 +426,7 @@ figure figcaption {
 .about-title {
   line-height: 0.3;
   color: white;
-  font-size: 2em;
+  font-size: 2rem;
 }
 .about-caps {
   color: white;
@@ -434,7 +434,7 @@ figure figcaption {
   margin-right: 4rem;
   display: block;
   line-height: 1.1;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .about-right {
