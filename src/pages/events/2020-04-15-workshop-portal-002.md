@@ -4,7 +4,7 @@ title: Workshop PORTAL 002
 content:
   - type: images
     image: /img/img_0580.jpg
-    caption: 'PORTAL 002 (2018). Photography: Elisa van Joolen.'
+    caption: ''
   - type: text
     body: >-
       For the *PORTAL 002* workshop Elisa van Joolen worked with visitors of
