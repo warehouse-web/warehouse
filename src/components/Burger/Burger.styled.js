@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledBurger = styled.div`
 	color: white;
+	mix-blend-mode: difference;
 	cursor: pointer;
 	display: block;
 	height: 3.25rem;
