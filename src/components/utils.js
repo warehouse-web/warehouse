@@ -108,9 +108,8 @@ export const handleWindowSizeChange = () => {
 }
 
 export const useSetShiftRatio = () => {
-	useEffect(() => {
-		shiftRatio = (initFlexWidthPx * 3) / document.body.scrollHeight;
-	}, []);
+	shiftRatio = (initFlexWidthPx * 3) / document.body.scrollHeight;
+
 	return shiftRatio;
 };
 
