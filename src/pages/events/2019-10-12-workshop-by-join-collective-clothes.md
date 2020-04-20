@@ -5,7 +5,7 @@ title: Launch JOIN Collective Clothes Manual
 content:
   - type: images
     image: /img/10_join-manual_photo_anouk-beckers.jpg
-    caption: JOIN Collective Clothes Manual
+    caption: ''
   - type: text
     body: >-
       During this launch of the *JOIN Collective Clothes Manual,* Anouk Beckers,
@@ -53,6 +53,9 @@ content:
 
       *JOIN Collective Clothes* is an initiative by fashion designer Anouk
       Beckers and graphic designer and art director Beau Bertens.
+  - type: images
+    image: /img/03_join-manual_photo_anouk-beckers.jpg
+    caption: JOIN Collective Clothes Manual.
   - type: images
     image: /img/seok_join_pieces.jpg
     caption: 'JOIN Collective Clothes. Photography: Anouk Beckers.'
