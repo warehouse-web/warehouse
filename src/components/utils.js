@@ -108,7 +108,9 @@ export const handleWindowSizeChange = () => {
 }
 
 export const useSetShiftRatio = () => {
-	shiftRatio = (initFlexWidthPx * 3) / document.body.scrollHeight;
+	if (typeof document !== "undefined") {
+		shiftRatio = (initFlexWidthPx * 3) / document.body.scrollHeight;
+	}
 
 	return shiftRatio;
 };
@@ -127,6 +129,9 @@ export const relayout = () => {
 const setWidth = shift => {
 	let negative;
 	let element = document.getElementById("magic-logo");
+	if (!shiftRatio) {
+		shiftRatio = 0.3;
+	}
 	let newWidth = initFlexWidthPx - shiftRatio * shift;
 	if (newWidth < 120) {
 		newWidth *= -1;

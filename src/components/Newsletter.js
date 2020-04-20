@@ -41,11 +41,13 @@ const Nesletter = () => {
 		return false;
 	};
 	return (
-		<form onSubmit={handleSubmit}>
+		<form style={{ marginBottom: "2rem" }} onSubmit={handleSubmit}>
 			<p style={{ color: "white" }}>Newsletter</p>
 			{isSuccess ? (
 				<>
-					<div style={{ color: white }}>Thank you!</div>
+					<div style={{ color: white }}>
+						Thank you! You've subscribed.
+					</div>
 				</>
 			) : (
 				<>
@@ -54,6 +56,7 @@ const Nesletter = () => {
 						placeholder="enter your email address"
 						value={email}
 						type="text"
+						style={{ padding: ".2rem" }}
 					/>
 					<button
 						style={{

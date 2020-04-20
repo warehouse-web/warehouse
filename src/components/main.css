@@ -30,7 +30,8 @@ p > a {
   text-align: center;
   font-size: 2em;
   color: black;
-  padding: 1.3rem 2em 0.7rem 0.4em;
+  margin: 0 2rem;
+  padding: 1.3rem 2em 0.4em;
   line-height: 1.4;
 }
 
