@@ -1,7 +1,7 @@
 ---
 templateKey: focus-page
 title: PORTAL | A New Way Into Understanding Clothes
-PDF: /img/pdf-portal-10042020_hv.pdf
+PDF: /img/portal005_elisavanjoolen_moss_norway_2019.jpg
 content:
   - type: images
     image: /img/portal005_elisavanjoolen_moss_norway_2019.jpg
