@@ -2,7 +2,7 @@
 templateKey: focus-page
 warehouseID: 'WAREHOUSE #40'
 title: Bleach Inscriptions
-PDF: /img/dscf0142.jpg
+PDF: /img/01_200sisterssouvenirs_2018©roberthamacher.jpg
 content:
   - type: images
     image: /img/01_200sisterssouvenirs_2018©roberthamacher.jpg
