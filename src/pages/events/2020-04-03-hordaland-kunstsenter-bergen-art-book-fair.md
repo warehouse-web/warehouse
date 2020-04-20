@@ -21,6 +21,8 @@ content:
       the *JOIN Collective Conversation* magazines, issues of *A Magazine
       Reader*, as well as issues of the *PORTAL* readers, *Press & Fold '*The
       Street Issue' and several items of Warehouse Wear.
+  - type: images
+    image: ''
 location: 'Hordaland Kunstsenter, Bergen'
 date: 2019-04-17T09:00:00.000Z
 ---
