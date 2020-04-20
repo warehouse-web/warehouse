@@ -97,6 +97,7 @@ a.right {
   font-size: 0.9rem;
   border: 1px solid transparent;
   color: black;
+  user-select: none;
 }
 
 .navbar-end > .navbar-item {
@@ -193,6 +194,7 @@ a.navbar-item:hover {
 }
 
 .rectangle {
+  animation: 3s linear 1s infinite running slidein;
   float: left;
   background-attachment: fixed;
   background-position-x: 100%;
@@ -579,6 +581,7 @@ a > span {
   right: 0;
   width: 3.25rem;
   margin-left: auto;
+  z-index: 10;
 }
 .close span {
   background-color: currentColor;

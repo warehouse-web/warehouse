@@ -8,7 +8,8 @@ import Content, {
 	imagesFromAst,
 	HTMLContent,
 	useWindowSize,
-	useMedia
+	useMedia,
+	useSetShiftRatio
 } from "../components/utils";
 
 const PodcastRoll = ({ data }) => {
@@ -29,6 +30,10 @@ const PodcastRoll = ({ data }) => {
 		}
 	};
 
+	const shift = useSetShiftRatio();
+	useEffect(() => {
+		shift;
+	}, []);
 	const removeImg = () => {
 		if (size.width < 900) {
 			setDivStyle({ backgroundColor: "white" });

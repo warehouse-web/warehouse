@@ -51,14 +51,7 @@ export const AboutPageTemplate = ({
 						images.map(({ image, caption }) => {
 							return (
 								<>
-									{image ? (
-										<FluidImage image={image} />
-									) : (
-										<img
-											src={image}
-											alt={caption ? caption : ""}
-										/>
-									)}
+									{image && <FluidImage image={image} />}
 									<p className="caption caption-about">
 										{caption ? caption : ""}
 									</p>

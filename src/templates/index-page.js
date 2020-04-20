@@ -10,7 +10,8 @@ import {
 	postType,
 	useWindowSize,
 	useMedia,
-	renderImg
+	renderImg,
+	useSetShiftRatio
 } from "../components/utils";
 import EventDetail from "../components/EventDetail";
 import DivOverlay from "../components/DivOverlay";
@@ -36,6 +37,10 @@ export const IndexPage = ({ data }) => {
 	const [isMobile, setIsMobile] = useState(match);
 	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
 	const size = useWindowSize();
+	const shift = useSetShiftRatio();
+	useEffect(() => {
+		shift;
+	}, []);
 
 	const articleRef = useRef();
 
@@ -83,7 +88,7 @@ export const IndexPage = ({ data }) => {
 		<Layout>
 			<DivOverlay currImg={divStyle} />
 			<div className="wrapper">
-				<div onScroll={() => relayout()} className="article-list">
+				<div className="article-list">
 					{posts &&
 						posts.map(({ node: post }) => {
 							return (

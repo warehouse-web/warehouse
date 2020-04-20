@@ -12,7 +12,8 @@ import {
 	renderImg,
 	removeImg,
 	useSetDivBg,
-	useChangeMagicLogo
+	useChangeMagicLogo,
+	useSetShiftRatio
 } from "./utils";
 import FocusDetail from "./FocusDetail";
 
@@ -27,7 +28,10 @@ const FocusRoll = ({
 	const match = useMedia("(max-width: 900px) ");
 	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
 	const size = useWindowSize();
-
+	const shift = useSetShiftRatio();
+	useEffect(() => {
+		shift;
+	}, []);
 	const openFocus = focus => {
 		const isClient = typeof window === "object";
 		if (isClient && articleRef.current) {

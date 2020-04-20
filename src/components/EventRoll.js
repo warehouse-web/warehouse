@@ -13,7 +13,8 @@ import {
 	renderImg,
 	removeImg,
 	useSetDivBg,
-	useChangeMagicLogo
+	useChangeMagicLogo,
+	useSetShiftRatio
 } from "./utils";
 import EventDetail from "./EventDetail";
 
@@ -28,6 +29,10 @@ const EventRoll = ({
 	const match = useMedia("(max-width: 900px) ");
 	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
 	const size = useWindowSize();
+	const shift = useSetShiftRatio();
+	useEffect(() => {
+		shift;
+	}, []);
 
 	const openEvent = event => {
 		const isClient = typeof window === "object";
