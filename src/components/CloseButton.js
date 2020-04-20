@@ -5,8 +5,8 @@ const CloseButton = ({ onSetActiveEvent, onSetShowEventDetail }) => {
 		<div
 			className="close"
 			onClick={() => {
-				onSetActiveEvent({});
-				onSetShowEventDetail(false);
+				onSetActiveEvent && onSetActiveEvent({});
+				onSetShowEventDetail && onSetShowEventDetail(false);
 			}}
 		>
 			<span></span>

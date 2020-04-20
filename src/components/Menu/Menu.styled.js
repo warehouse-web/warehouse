@@ -20,7 +20,6 @@ export const StyledMenu = styled.nav`
 		font-size: 2rem;
 		text-transform: uppercase;
 		padding: 1rem 0;
-		letter-spacing: 0.5rem;
 		color: black;
 		text-decoration: none;
 		transition: color 0.3s linear;

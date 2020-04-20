@@ -29,7 +29,7 @@ export const AboutPageTemplate = ({
 						<span className="about-caps">{leftColumn}</span>
 					</h2>
 				</div>
-				<div style={{ marginBottom: "2rem" }}>
+				<div>
 					<ReactMarkdown
 						linkTarget={"_blank"}
 						className="about-right"

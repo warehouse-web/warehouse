@@ -30,7 +30,8 @@ p > a {
   text-align: center;
   font-size: 2em;
   color: black;
-  padding: 0 2em;
+  padding: 1.3rem 2em 0.7rem 0.4em;
+  line-height: 1.4;
 }
 
 .article-detail.mobile {
@@ -194,7 +195,6 @@ a.navbar-item:hover {
 }
 
 .rectangle {
-  animation: 3s linear 1s infinite running slidein;
   float: left;
   background-attachment: fixed;
   background-position-x: 100%;
@@ -280,7 +280,7 @@ a.navbar-item:hover {
   color: white;
   position: absolute;
   top: 1rem;
-  left: 2.1rem;
+  padding-left: 1.8rem;
 }
 @media screen and (min-width: 901px) {
   html {
@@ -420,12 +420,13 @@ figure figcaption {
   flex: 0 0 50%;
   height: 100vh;
   position: sticky;
+  margin-top: 1rem;
 }
 
 .about-title {
-  line-height: 1.1;
+  line-height: 0.3;
   color: white;
-  font-size: 1.65rem;
+  font-size: 2em;
 }
 .about-caps {
   color: white;
@@ -433,11 +434,12 @@ figure figcaption {
   margin-right: 4rem;
   display: block;
   line-height: 1.1;
-  font-size: 1.65rem;
+  font-size: 2em;
 }
 
 .about-right {
   top: 0;
+  margin-top: 1rem;
   color: white;
 }
 
