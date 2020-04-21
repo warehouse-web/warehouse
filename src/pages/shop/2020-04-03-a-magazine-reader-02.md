@@ -2,6 +2,7 @@
 templateKey: product-page
 warehouseID: 'WAREHOUSE #'
 title: A Magazine Reader 02
+PDF: /img/a-magazine-reader-02-2019-.pdf
 content:
   - type: images
     image: /img/02_a-magazine-reader-02_photo_anouk-beckers.jpg
