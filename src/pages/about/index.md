@@ -10,7 +10,7 @@ rightColumn: >-
   Warehouse is an Amsterdam-based fashion platform that aims to create an open,
   engaging and inclusive environment that facilitates critical dialogue and the
   creation of a discourse that goes beyond treating fashion as a commodity.
-  Warehouse is founded by Elisa van Joolen, Femke de Vries and Hanka van der
+  Warehouse was founded by Elisa van Joolen, Femke de Vries and Hanka van der
   Voet.
 images:
   - image: /img/67_press-fold_07122019_sanserriffe_anoukbeckers.jpg
@@ -27,8 +27,8 @@ blurbs:
   - subtitle: Jan Schoon
     title: COMMUNICATION
 other: >-
-  Warehouse is made possible through the financial support of Stimuleringsfonds
-  Creatieve Industrie.
+  Warehouse is made possible through the financial support of the Creative
+  Industries Fund.
 
 
   <br/>
