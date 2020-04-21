@@ -93,5 +93,5 @@ content:
     image: /img/04_portal001_photo_anoukbeckers.jpg
     caption: 'PORTAL 001 Reader (2018). Photography: Anouk Beckers.'
 author: Elisa van Joolen (ed.)
-date: 2018-02-06T14:56:33.320Z
+date: 2018-01-13T15:00:00.000Z
 ---
