@@ -7,8 +7,9 @@ content:
     caption: Warehouse Wear (2019)
   - type: text
     body: >-
-      Warehouse will join Hordaland Kunstsenter at the Bergen Art Book Fair with
-      a selection of independent fashion publications.
+      Warehouse will join [Hordaland Kunstsenter](http://www.kunstsenter.no) at
+      the Bergen Art Book Fair with a selection of independent fashion
+      publications.
 
 
       As Warehouse aims to create an engaging environment that facilitates
@@ -21,8 +22,6 @@ content:
       the *JOIN Collective Conversation* magazines, issues of *A Magazine
       Reader*, as well as issues of the *PORTAL* readers, *Press & Fold '*The
       Street Issue' and several items of Warehouse Wear.
-  - type: images
-    image: ''
 location: 'Hordaland Kunstsenter, Bergen'
 date: 2019-04-17T09:00:00.000Z
 ---
