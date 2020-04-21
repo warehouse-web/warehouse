@@ -4,7 +4,7 @@ warehouseID: 'WAREHOUSE #100'
 title: Workshop JOIN Collective Clothes
 content:
   - type: images
-    image: /img/05_join_ddw_photo_join.jpg
+    image: /img/02_join_ddw_photo_join.jpg
     caption: ''
   - type: text
     body: >-
