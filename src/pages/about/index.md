@@ -13,7 +13,7 @@ rightColumn: >-
   Warehouse was initiated by Elisa van Joolen, Femke de Vries and Hanka van der
   Voet.
 images:
-  - image: /img/59_press-fold_07122019_sanserriffe_anoukbeckers.jpg
+  - image: /img/67_press-fold_07122019_sanserriffe_anoukbeckers.jpg
     caption: ''
 blurbs:
   - subtitle: info@thisiswarehouse.com
