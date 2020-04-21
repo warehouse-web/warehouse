@@ -48,5 +48,5 @@ content:
     image: /img/03_press-fold0_photo_anouk-beckers.jpg
     caption: 'Contribution by Ruby Hoette. Photography: Anouk Beckers.'
 author: Hanka van der Voet (ed.)
-date: 2018-03-13T15:12:10.022Z
+date: 2018-02-23T16:00:00.000Z
 ---
