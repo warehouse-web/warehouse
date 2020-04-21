@@ -74,5 +74,5 @@ content:
     image: /img/01_a-magazine-reader-01_photo_anouk-beckers.jpg
     caption: 'Contribution by Chinouk Filique de Miranda. Photography: Anouk Beckers.'
 author: Femke de Vries and Hanka van der Voet (eds.)
-date: 2019-06-29T16:00:00.000Z
+date: 2018-06-29T16:00:00.000Z
 ---
