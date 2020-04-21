@@ -78,5 +78,5 @@ content:
     image: /img/02_join-magazine_photo_anouk-beckers.jpg
     caption: 'Photography: Anouk Beckers'
 author: 'Anouk Beckers, Chet Bugter, Femke de Vries & Hanka van der Voet (eds.)'
-date: 2020-04-11T14:36:42.258Z
+date: 2019-11-01T16:00:00.000Z
 ---
