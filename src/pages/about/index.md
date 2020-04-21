@@ -13,8 +13,8 @@ rightColumn: >-
   Warehouse was initiated by Elisa van Joolen, Femke de Vries and Hanka van der
   Voet.
 images:
-  - image: /img/01_join_capsicum_photo_join.jpg
-    caption: Teuntje in beautiful light
+  - image: /img/67_press-fold_07122019_sanserriffe_anoukbeckers.jpg
+    caption: ''
 blurbs:
   - subtitle: info@thisiswarehouse.com
     title: CONTACT
