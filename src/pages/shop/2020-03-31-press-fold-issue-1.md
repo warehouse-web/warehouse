@@ -85,5 +85,5 @@ content:
       Contribution by Articles of Clothing in collaboration with Agnieszka
       Chabros. Photography: Anouk Beckers.
 author: Hanka van der Voet (ed.)
-date: 2020-03-31T13:29:06.710Z
+date: 2019-12-07T19:00:00.000Z
 ---
