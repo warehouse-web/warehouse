@@ -1,6 +1,7 @@
 ---
 templateKey: product-page
 title: A Magazine Reader 01
+PDF: /img/a-magazine-reader-01-2018-.pdf
 content:
   - type: images
     image: /img/a-magazine-reader-v-gue.jpg
