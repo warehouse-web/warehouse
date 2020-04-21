@@ -62,7 +62,7 @@ const ProductDetail = ({
 							);
 						}
 					})}
-				{activeProduct.frontmatter.PDF ? (
+				{activeProduct && activeProduct.frontmatter.PDF ? (
 					<a
 						className="pdf-download"
 						href={activeProduct.frontmatter.PDF.publicURL}
