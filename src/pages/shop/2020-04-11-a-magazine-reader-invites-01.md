@@ -50,5 +50,5 @@ content:
     image: /img/02_a-magazine-reader-special_photo_anoukbeckers.jpg
     caption: 'Photography: Anouk Beckers'
 author: Femke de Vries & Hanka van der Voet (eds.) & Zuzana Kostelanská
-date: 2020-04-11T14:36:42.258Z
+date: 2019-11-22T16:00:00.000Z
 ---
