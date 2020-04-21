@@ -48,5 +48,5 @@ content:
     image: /img/07_monument02_photo_anoukbeckers.jpg
     caption: 'Photography: Anouk Beckers'
 author: Mary-Lou Berkulin (ed.)
-date: 2020-04-11T15:11:55.014Z
+date: 2020-01-16T16:00:00.000Z
 ---
