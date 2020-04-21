@@ -28,7 +28,7 @@ blurbs:
     title: COMMUNICATION
 other: >-
   Warehouse is made possible through the financial support of the Creative
-  Industries Fund.
+  Industries Fund NL.
 
 
   <br/>
