@@ -1,6 +1,7 @@
 ---
 templateKey: product-page
 title: PORTAL 004 | Exercise and Coloring Book
+PDF: /img/portal-004-2019-.pdf
 content:
   - type: images
     image: /img/03_portal004_photo_anoukbeckers.jpg
