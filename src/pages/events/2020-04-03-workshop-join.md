@@ -5,9 +5,6 @@ content:
   - type: images
     image: /img/01_join_dordrechts-museum_01032019_photo_join.jpg
     caption: ''
-  - type: images
-    image: /img/02_join_dordrechts-museum_01032019_photo_join.jpg
-    caption: caption
   - type: text
     body: >-
       This *JOIN Collective Clothes* workshop at Dordrechts Museum is part of a
@@ -45,6 +42,9 @@ content:
 
       *JOIN Collective Clothes* is an initiative by Anouk Beckers in
       collaboration with graphic designer and art director Beau Bertens.
+  - type: images
+    image: /img/02_join_dordrechts-museum_01032019_photo_join.jpg
+    caption: ''
   - type: images
     image: /img/03_join_dordrechts-museum_01032019_photo_join.jpg
     caption: 'JOIN (2020). Photography: Anouk Beckers.'
