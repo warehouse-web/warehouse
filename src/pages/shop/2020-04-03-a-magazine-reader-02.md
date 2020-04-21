@@ -93,5 +93,5 @@ content:
     image: /img/a-magazine-reader-issue-02-boris-kollar-1.jpg
     caption: Contribution by Boris Kollar
 author: 'Femke de Vries, Ruby Hoette & Chet Bugter (eds.)'
-date: 2019-08-14T12:50:34.286Z
+date: 2019-06-22T12:00:00.000Z
 ---
