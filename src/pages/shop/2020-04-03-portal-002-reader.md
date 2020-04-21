@@ -2,6 +2,7 @@
 templateKey: product-page
 warehouseID: 'WAREHOUSE #99'
 title: 'PORTAL 002 Reader '
+PDF: /img/portal-002-2018-.pdf
 content:
   - type: images
     image: /img/portal-002-.jpg
