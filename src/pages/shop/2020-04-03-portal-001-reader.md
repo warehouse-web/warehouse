@@ -78,9 +78,6 @@ content:
 
       Send an email to shop@thisiswarehouse.com if you want to purchase a copy.
   - type: images
-    image: /img/01.jpg
-    caption: PORTAL 001 Reader (2018).
-  - type: images
     image: /img/portal001-_vanjoolen_9.jpg
     caption: Contribution by Marina Sasseron de Cabral
   - type: images
