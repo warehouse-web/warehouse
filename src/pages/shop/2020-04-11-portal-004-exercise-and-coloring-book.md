@@ -70,9 +70,6 @@ content:
 
 
       Send an email to shop@thisiswarehouse.com if you want to purchase a copy.
-
-
-      Download PDF here.
   - type: images
     image: /img/08_portal004_photo_anoukbeckers.jpg
   - type: images
