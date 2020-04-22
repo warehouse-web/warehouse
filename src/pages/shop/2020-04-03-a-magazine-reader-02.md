@@ -79,10 +79,7 @@ content:
       Unicersity of the Arts\ Production: Warehouse
 
 
-      SOLD OUT 
-
-
-      Download PDF here.
+      SOLD OUT
   - type: images
     image: /img/a-magazine-reader-issue-02-denise-bernts-02.jpg
     caption: Contribution by Denise Bernts
