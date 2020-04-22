@@ -1,7 +1,8 @@
 ---
 templateKey: focus-page
 title: PORTAL | A New Way Into Understanding Clothes
-PDF: /img/christel-vesters-portal-a-new-way-into-understanding-clothes-2020-.pdf
+PDF: >-
+  /img/wh-focus-christel-vesters-portal-a-new-way-into-understanding-clothes-2020-.pdf
 content:
   - type: images
     image: /img/portal005_elisavanjoolen_moss_norway_2019.jpg
