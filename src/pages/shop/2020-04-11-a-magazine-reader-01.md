@@ -64,9 +64,6 @@ content:
 
 
       SOLD OUT
-
-
-      Download PDF here.
   - type: images
     image: /img/02_a-magazine-reader-01_photo_anouk-beckers.jpg
     caption: Contribution by Karmen Samson
