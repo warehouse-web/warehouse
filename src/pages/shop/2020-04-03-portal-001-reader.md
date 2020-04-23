@@ -76,7 +76,8 @@ content:
       12,50 EUR
 
 
-      Send an email to shop@thisiswarehouse.com if you want to purchase a copy.
+      Send an email to <shop@thisiswarehouse.com> if you want to purchase a
+      copy.
   - type: images
     image: /img/portal001-_vanjoolen_9.jpg
     caption: Contribution by Marina Sasseron de Cabral
