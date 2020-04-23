@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: PORTAL 004 | Exercise and Coloring Book
-PDF: /img/portal-004-2019-.pdf
+PDF: ''
 content:
   - type: images
     image: /img/03_portal004_photo_anoukbeckers.jpg
@@ -71,14 +71,11 @@ content:
 
       Send an email to shop@thisiswarehouse.com if you want to purchase a copy.
   - type: images
-    image: /img/08_portal004_photo_anoukbeckers.jpg
+    image: /img/08_portal004_photo_anoukbeckers_2.jpg
   - type: images
     image: /img/01_portal004_photo_anoukbeckers.jpg
   - type: images
     image: /img/09_portal004_photo_anoukbeckers.jpg
-  - type: images
-    image: /img/06_portal004_photo_anoukbeckers.jpg
-    caption: 'Photography: Anouk Beckers'
 author: Elisa van Joolen (ed.)
 date: 2019-10-15T15:00:00.000Z
 ---
