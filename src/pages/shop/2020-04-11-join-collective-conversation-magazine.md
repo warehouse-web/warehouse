@@ -67,7 +67,8 @@ content:
       15 EUR
 
 
-      Send an email to shop@thisiswarehouse.com if you want to purchase a copy.
+      Send an email to <shop@thisiswarehouse.com> if you want to purchase a
+      copy.
   - type: images
     image: /img/04_join-magazine_photo_anouk-beckers.jpg
     caption: Contribution by Anouk Beckers
