@@ -61,8 +61,8 @@ content:
       10EUR
 
 
-      Send an email to hello@joincollectiveclothes.com if you want to purchase a
-      copy.
+      Send an email to <hello@joincollectiveclothes.com> if you want to purchase
+      a copy.
   - type: images
     image: /img/03_join-manual_photo_anouk-beckers.jpg
   - type: images
