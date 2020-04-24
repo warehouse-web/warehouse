@@ -9,7 +9,7 @@ content:
   - type: text
     body: >-
       During this conversation, taking place in the *A Magazine Reader 03*
-      mini-exhibition, Femke de Vries, Chet Bugter and Zuzana Kostelanská will
+      mini-exhibition, Femke de Vries, Chet Bugter and Zuzana Kostelanská
       discuss the process of making *A Magazine Reader 03*, which revolves
       around all the non-garment related elements in the fashion magazine.
 
