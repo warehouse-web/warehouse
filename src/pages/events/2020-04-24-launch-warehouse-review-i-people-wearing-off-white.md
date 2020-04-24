@@ -40,7 +40,7 @@ content:
       certain brand image.
 
 
-      *Warehouse Review I | People Wearing Off-White*will feature contributions
+      *Warehouse Review I | People Wearing Off-White* will feature contributions
       by Chinouk Filique de Miranda, Denise Bernts, Femke de Vries and Hanka van
       der Voet. Design by Line Arngaard.
 
