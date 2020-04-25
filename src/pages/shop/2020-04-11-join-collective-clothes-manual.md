@@ -14,7 +14,8 @@ content:
       modular clothing system that consists of four different shapes which can
       be combined into a full outfit (a sleeve, a top, a trouser leg and a part
       of a skirt). As it is easy-to-use everyone can make the pieces themselves.
-      This manual can also be downloaded at www.joincollectiveclothes.com.
+      This manual can also be downloaded at
+      [www.joincollectiveclothes.com/manual](https://www.joincollectiveclothes.com/manual).
 
 
       The pieces made by various makers from all over the world, subsequently
@@ -61,8 +62,9 @@ content:
       10EUR
 
 
-      Send an email to <hello@joincollectiveclothes.com> if you want to purchase
-      a copy.
+      Send an email to
+      [hello@joincollectiveclothes.com](mailto:hello@joincollectiveclothes.com)
+      if you want to purchase a copy.
   - type: images
     image: /img/03_join-manual_photo_anouk-beckers.jpg
   - type: images
