@@ -4,7 +4,10 @@ title: 'JOIN Collective Conversation Magazine '
 content:
   - type: images
     image: /img/01_join-magazine_photo_anouk-beckers.jpg
-    caption: 'JOIN Collective Conversation Magazine (2019). Photography: Anouk Beckers.'
+    caption: |-
+      JOIN Collective Conversation Magazine (2019). 
+
+      Photography: Anouk Beckers.
   - type: text
     body: >-
       The *JOIN Collective Conversation Magazine* is the result of a *JOIN
