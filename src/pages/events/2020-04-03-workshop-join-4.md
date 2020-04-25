@@ -40,8 +40,9 @@ content:
       collection that can be seen on the *JOIN Collective Clothes* website.
 
 
-      *JOIN Collective Clothes* is an initiative by Anouk Beckers in
-      collaboration with graphic designer and art director Beau Bertens.
+      [JOIN Collective Clothes](https://www.joincollectiveclothes.com/) is an
+      initiative by Anouk Beckers in collaboration with graphic designer and art
+      director Beau Bertens.
   - type: images
     image: /img/02_join_museum-arnhem_13072019_photo_valerie-spanjers.jpg
     caption: ''
