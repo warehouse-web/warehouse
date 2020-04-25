@@ -7,9 +7,10 @@ content:
     caption: ''
   - type: text
     body: >-
-      This *JOIN Collective Clothes* workshop at Dordrechts Museum is part of a
-      series of workshops by Anouk Beckers in which everyone is invited to make
-      a piece of a garment.
+      This *JOIN Collective Clothes* workshop at [Dordrechts
+      Museum](https://www.dordrechtsmuseum.nl/tentoonstellingen/slowfashion/) is
+      part of a series of workshops by Anouk Beckers in which everyone is
+      invited to make a piece of a garment.
 
 
       The base of *JOIN Collective Clothes* is a modular clothing system that
@@ -40,8 +41,9 @@ content:
       collection that can be seen on the *JOIN Collective Clothes* website.
 
 
-      *JOIN Collective Clothes* is an initiative by Anouk Beckers in
-      collaboration with graphic designer and art director Beau Bertens.
+      [JOIN Collective Clothes](https://www.joincollectiveclothes.com/) is an
+      initiative by Anouk Beckers in collaboration with graphic designer and art
+      director Beau Bertens.
   - type: images
     image: /img/02_join_dordrechts-museum_01032019_photo_join.jpg
     caption: ''
