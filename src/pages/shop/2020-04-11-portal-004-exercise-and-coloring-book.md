@@ -46,8 +46,10 @@ content:
       The collected information of each *PORTAL* edition is visualized and
       brought together in a reader using the sixteen *PORTAL* questions as their
       starting point.
-
-
+  - type: images
+    image: /img/05_portal004_photo_anoukbeckers.jpg
+  - type: text
+    body: >-
       Type: softcover with plastic sleeve\ Dimensions: 210 mm x 297 mm portrait\
       Pages: 68\ Art Direction: Elisa van Joolen\ Research assistant: Laura Lisa
       Januario\ Contributors: Hanka van der Voet and Femke de Vries\
@@ -66,16 +68,19 @@ content:
       15EUR
 
 
-      Send an email to <shop@thisiswarehouse.com> if you want to purchase a
-      copy.
+      Send an email to
+      [shop@thisiswarehouse.com](mailto:shop@thisiswarehouse.com) if you want to
+      purchase a copy.
   - type: images
     image: /img/portal004-5.jpg
   - type: images
-    image: /img/08_portal004_photo_anoukbeckers_2.jpg
+    image: /img/10_portal004_photo_anoukbeckers.jpg
   - type: images
     image: /img/portal004-6.jpg
   - type: images
     image: /img/01_portal004_photo_anoukbeckers.jpg
+  - type: images
+    image: /img/portal004-2.jpg
   - type: images
     image: /img/portal004-3.jpg
   - type: images
