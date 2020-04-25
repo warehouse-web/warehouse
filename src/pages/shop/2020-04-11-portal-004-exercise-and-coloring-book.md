@@ -4,10 +4,7 @@ title: PORTAL 004 | Exercise and Coloring Book
 PDF: ''
 content:
   - type: images
-    image: /img/03_portal004_photo_anoukbeckers.jpg
-    caption: >-
-      PORTAL 004 | Exercise and Coloring Book (2019). Photography: Anouk
-      Beckers.
+    image: /img/portal004-1.jpg
   - type: text
     body: >-
       *PORTAL 004* | Exercise and coloring book for children is the result of
@@ -72,11 +69,19 @@ content:
       Send an email to <shop@thisiswarehouse.com> if you want to purchase a
       copy.
   - type: images
+    image: /img/portal004-5.jpg
+  - type: images
     image: /img/08_portal004_photo_anoukbeckers_2.jpg
+  - type: images
+    image: /img/portal004-6.jpg
   - type: images
     image: /img/01_portal004_photo_anoukbeckers.jpg
   - type: images
-    image: /img/09_portal004_photo_anoukbeckers.jpg
+    image: /img/portal004-3.jpg
+  - type: images
+    image: /img/portal004.jpg
+  - type: images
+    image: /img/portal004-7.jpg
 author: Elisa van Joolen (ed.)
 date: 2019-10-15T15:00:00.000Z
 ---
