@@ -50,7 +50,7 @@ content:
     caption: ''
   - type: images
     image: /img/03_join_de-appel_photo_join.jpg
-    caption: 'JOIN (2019). Photography: Anouk Beckers'
+    caption: 'JOIN (2019). Photography: Anouk Beckers, Zoe Philine Pingel'
 location: 'De Appel, Amsterdam '
 date: 2019-06-01T08:00:00.000Z
 ---
