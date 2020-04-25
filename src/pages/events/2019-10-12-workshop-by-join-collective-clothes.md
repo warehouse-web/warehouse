@@ -9,9 +9,8 @@ content:
   - type: text
     body: >-
       During this launch of the *JOIN Collective Clothes Manual,* Anouk Beckers,
-      Beau Bertens, Danielle Bruggeman and Eduardo Leon will have a conversation
-      about making clothes collectively, modularity and ownership/ego in
-      fashion.
+      Beau Bertens, Danielle Bruggeman and Eduardo Leon had a conversation about
+      making clothes collectively, modularity and ownership/ego in fashion.
 
 
       The fashion industry focuses mostly on designer status, brand identity,
@@ -50,8 +49,9 @@ content:
       in fashion together.
 
 
-      *JOIN Collective Clothes* is an initiative by Anouk Beckers in
-      collaboration with graphic designer and art director Beau Bertens.
+      *[JOIN Collective Clothes](https://www.joincollectiveclothes.com/)* is an
+      initiative by Anouk Beckers in collaboration with graphic designer and art
+      director Beau Bertens.
   - type: images
     image: /img/03_join-manual_photo_anouk-beckers.jpg
     caption: JOIN Collective Clothes Manual.
