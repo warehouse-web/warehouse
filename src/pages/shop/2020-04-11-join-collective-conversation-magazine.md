@@ -3,7 +3,7 @@ templateKey: product-page
 title: 'JOIN Collective Conversation Magazine '
 content:
   - type: images
-    image: /img/03_join-magazine_photo_anouk-beckers.jpg
+    image: /img/01_join-magazine_photo_anouk-beckers.jpg
     caption: 'JOIN Collective Conversation Magazine (2019). Photography: Anouk Beckers.'
   - type: text
     body: >-
