@@ -51,7 +51,7 @@ content:
 
       \
 
-      *[JOIN Collective Clothes](https://www.joincollectiveclothes.com/)* is an
+      *[JOIN Collective Clothes](www.joincollectiveclothes.com)* is an
       initiative by fashion designer Anouk Beckers and graphic designer and art
       director Beau Bertens.
   - type: images
