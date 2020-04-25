@@ -70,6 +70,9 @@ content:
   - type: images
     image: /img/05_join-manual_photo_anouk-beckers.jpg
   - type: images
+    image: /img/06_join-manual_photo_anouk-beckers.jpg
+    caption: ''
+  - type: images
     image: /img/09_join-manual_photo_anouk-beckers.jpg
     caption: 'Photography: Anouk Beckers'
 author: Anouk Beckers
