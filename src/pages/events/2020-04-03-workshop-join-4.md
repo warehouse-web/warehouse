@@ -7,7 +7,8 @@ content:
     caption: ''
   - type: text
     body: >-
-      This JOIN *Collective Clothes* workshop at De Kerk by Museum Arnhem is
+      This JOIN *Collective Clothes* workshop at [De Kerk by Museum
+      Arnhem](https://www.museumarnhem.nl/tentoonstellingen/were-together/) is
       part of a series of workshops by Anouk Beckers in which everyone is
       invited to make a piece of a garment.
 
@@ -47,7 +48,7 @@ content:
     image: /img/02_join_museum-arnhem_13072019_photo_valerie-spanjers.jpg
     caption: ''
   - type: images
-    image: /img/03_join_museum-arnhem_13072019_photo_valerie-spanjers.jpg
+    image: /img/01_join_museumarnhem_29062019_photo_valerie-spanjers.jpg
     caption: ' JOIN (2019). Photography: Valerie Spanjers.'
 location: 'Museum Arnhem '
 date: 2019-07-13T09:00:00.000Z
