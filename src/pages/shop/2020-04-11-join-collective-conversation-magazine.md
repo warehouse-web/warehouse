@@ -70,14 +70,16 @@ content:
       Send an email to <shop@thisiswarehouse.com> if you want to purchase a
       copy.
   - type: images
-    image: /img/04_join-magazine_photo_anouk-beckers.jpg
+    image: /img/05_join-magazine_photo_anouk-beckers.jpg
     caption: Contribution by Anouk Beckers
   - type: images
     image: /img/08_join-magazine_photo_anouk-beckers.jpg
     caption: 'Contribution by Eliza Lachkova, Julia Berg and Lu Lin'
   - type: images
-    image: /img/02_join-magazine_photo_anouk-beckers.jpg
+    image: /img/04_join-magazine_photo_anouk-beckers.jpg
     caption: 'Photography: Anouk Beckers'
+  - type: images
+    image: /img/02_join-magazine_photo_anouk-beckers.jpg
 author: 'Anouk Beckers, Chet Bugter, Femke de Vries & Hanka van der Voet (eds.)'
 date: 2019-11-01T16:00:00.000Z
 ---
