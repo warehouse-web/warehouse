@@ -3,7 +3,7 @@ templateKey: event-post
 title: Workshop JOIN Collective Clothes
 content:
   - type: images
-    image: /img/01_join_dordrechts-museum_01032019_photo_join.jpg
+    image: /img/01_join_dordrechts-museum_071202019_photo_join.jpg
     caption: ''
   - type: text
     body: >-
@@ -48,7 +48,7 @@ content:
     image: /img/02_join_dordrechts-museum_01032019_photo_join.jpg
     caption: ''
   - type: images
-    image: /img/03_join_dordrechts-museum_01032019_photo_join.jpg
+    image: /img/03_join_dordrechts-museum_071202019_photo_join.jpg
     caption: 'JOIN (2020). Photography: Anouk Beckers.'
 location: 'Dordrechts Museum, Dordrecht '
 date: 2020-03-01T22:00:00.000Z
