@@ -74,7 +74,7 @@ content:
       copy.
   - type: images
     image: /img/05_join-magazine_photo_anouk-beckers.jpg
-    caption: Contribution by Anouk Beckers
+    caption: Contribution by Lindy Boerman and Lu Lin
   - type: images
     image: /img/08_join-magazine_photo_anouk-beckers.jpg
     caption: 'Contribution by Eliza Lachkova, Julia Berg and Lu Lin'
