@@ -47,9 +47,8 @@ content:
       playful, but at the same time it critically questions the characteristics
       of the fashion system exploring ownership, identity, (intellectual)
       property, production methods, alienation, mystification and value creation
-      in fashion together.\
+      in fashion together.
 
-      \
 
       *JOIN Collective Clothes* is an initiative by fashion designer Anouk
       Beckers and graphic designer and art director Beau Bertens.
