@@ -77,9 +77,10 @@ content:
     caption: 'Contribution by Eliza Lachkova, Julia Berg and Lu Lin'
   - type: images
     image: /img/04_join-magazine_photo_anouk-beckers.jpg
-    caption: 'Photography: Anouk Beckers'
+    caption: ''
   - type: images
     image: /img/02_join-magazine_photo_anouk-beckers.jpg
+    caption: 'Photography: Anouk Beckers'
 author: 'Anouk Beckers, Chet Bugter, Femke de Vries & Hanka van der Voet (eds.)'
 date: 2019-11-01T16:00:00.000Z
 ---
