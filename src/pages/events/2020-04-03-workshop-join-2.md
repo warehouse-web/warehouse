@@ -8,8 +8,9 @@ content:
   - type: text
     body: >-
       This *JOIN Collective Clothes* workshop at fanfare, in collaboration with
-      studio bonbon is part of a series of workshops by Anouk Beckers in which
-      everyone is invited to make a piece of a garment. 
+      [studio bonbon](http://www.studiobonbon.org/) is part of a series of
+      workshops by Anouk Beckers in which everyone is invited to make a piece of
+      a garment. 
 
 
       The base of *JOIN Collective Clothes* is a modular clothing system that
@@ -42,8 +43,9 @@ content:
       website.
 
 
-      *JOIN Collective Clothes* is an initiative by Anouk Beckers in
-      collaboration with graphic designer and art director Beau Bertens.
+      *[JOIN Collective Clothes](https://www.joincollectiveclothes.com/)* is an
+      initiative by Anouk Beckers in collaboration with graphic designer and art
+      director Beau Bertens.
   - type: images
     image: /img/02_join_studio-bonbon_fanfare-amsterdam_photo_join.jpg
     caption: ''
