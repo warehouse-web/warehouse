@@ -1,12 +1,15 @@
 ---
 templateKey: product-page
 title: PORTAL 004 | Exercise and Coloring Book
-PDF: ''
+PDF: /img/portal004-elisavanjoolen_warehouse_2019.pdf
 content:
   - type: images
     image: /img/portal004-1.jpg
   - type: text
     body: >-
+      \-- scroll down to download the PDF --
+
+
       *PORTAL 004* | Exercise and coloring book for children is the result of
       *PORTAL 004*,  a workshop in which children from the public primary school
       OBS Twiske, under the supervision of students of the MA Fashion Strategy,
