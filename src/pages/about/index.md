@@ -16,7 +16,7 @@ images:
   - image: /img/01_warehouse_san_serriffe_dec2019_photo_anoukbeckers.jpg
     caption: ''
 blurbs:
-  - subtitle: <info@thisiswarehouse.com>
+  - subtitle: info@thisiswarehouse.com
     title: CONTACT
   - subtitle: '@amsterdam.warehouse'
     title: INSTAGRAM
