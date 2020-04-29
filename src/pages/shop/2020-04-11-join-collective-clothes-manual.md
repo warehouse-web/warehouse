@@ -1,6 +1,7 @@
 ---
 templateKey: product-page
 title: JOIN Collective Clothes Manual
+PDF: /img/join_templates_download_pdf.pdf
 content:
   - type: images
     image: /img/01_join-manual_photo_anouk-beckers.jpg
@@ -15,7 +16,8 @@ content:
       be combined into a full outfit (a sleeve, a top, a trouser leg and a part
       of a skirt). As it is easy-to-use everyone can make the pieces themselves.
       This manual can also be downloaded at
-      [www.joincollectiveclothes.com/manual](https://www.joincollectiveclothes.com/manual).
+      [www.joincollectiveclothes.com/manual](https://www.joincollectiveclothes.com/manual)
+      or scroll down to download the PDF from this website. 
 
 
       The pieces made by various makers from all over the world, subsequently
@@ -75,6 +77,7 @@ content:
   - type: images
     image: /img/09_join-manual_photo_anouk-beckers.jpg
     caption: 'Photography: Anouk Beckers'
+  - type: images
 author: Anouk Beckers
 date: 2019-05-18T18:00:00.000Z
 ---
