@@ -15,9 +15,9 @@ content:
       modular clothing system that consists of four different shapes which can
       be combined into a full outfit (a sleeve, a top, a trouser leg and a part
       of a skirt). As it is easy-to-use everyone can make the pieces themselves.
-      This manual can also be downloaded at
-      [www.joincollectiveclothes.com/manual](https://www.joincollectiveclothes.com/manual)
-      or scroll down to download the PDF from this website. 
+      This manual can also be downloaded at the [JOIN
+      website](https://www.joincollectiveclothes.com/manual) or scroll down to
+      download the PDF here. 
 
 
       The pieces made by various makers from all over the world, subsequently
