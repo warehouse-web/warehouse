@@ -41,11 +41,8 @@ const EventDetail = ({
 						if (el.type === "images") {
 							return (
 								<>
-									{" "}
-									{el.image ? (
+									{el.image && (
 										<FluidImage image={el.image} />
-									) : (
-										<img src={el.image} alt="" />
 									)}
 									<p className="caption">
 										{el.caption ? el.caption : ""}
