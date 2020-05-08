@@ -68,12 +68,8 @@ content:
       15EUR
 
 
-      Send an email to
-
-
-      [mail@pressandfoldmagazine.com](mailto:mail@pressandfoldmagazine.com)
-
-       if you want to purchase a copy.
+      Send an email to <mail@pressandfoldmagazine.com> if you want to purchase a
+      copy.
   - type: images
     image: /img/pf_mock_up-issue-luxury-1a.jpg
     caption: Contribition by A March Issue

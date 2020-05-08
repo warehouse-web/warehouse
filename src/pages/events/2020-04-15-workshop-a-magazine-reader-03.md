@@ -6,8 +6,8 @@ content:
     image: /img/img_5064.jpg
   - type: text
     body: >-
-      In this *A Magazine Reader* workshop at Onomatopee we will explore how
-      every possible element; perfume, facial creams, rosemary water, travel
+      In this *A Magazine Reader* workshop at Onomatopee we explore how every
+      possible element; perfume, facial creams, rosemary water, travel
       suggestions, gadgets, books etcetera, is used to create stories and myths
       of a future reality. These 'stories' are composed of so much more than
       garments alone, and in such a way that the joints and seams are smoothed

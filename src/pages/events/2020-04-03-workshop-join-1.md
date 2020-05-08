@@ -8,9 +8,10 @@ content:
     caption: ''
   - type: text
     body: >-
-      This *JOIN Collective Clothes* workshop at De Appel is part of a series of
-      workshops by Anouk Beckers in which everyone is invited to make a piece of
-      a garment.
+      This *JOIN Collective Clothes* workshop at [De
+      Appel](https://deappel.nl/en/programme) is part of a series of workshops
+      by Anouk Beckers in which everyone is invited to make a piece of a
+      garment.
 
 
       The base of *JOIN Collective Clothes* is a modular clothing system that
@@ -43,14 +44,15 @@ content:
       website.
 
 
-      *JOIN Collective Clothes* is an initiative by Anouk Beckers in
-      collaboration with graphic designer and art director Beau Bertens.
+      [JOIN Collective Clothes](https://www.joincollectiveclothes.com/) is an
+      initiative by Anouk Beckers in collaboration with graphic designer and art
+      director Beau Bertens.
   - type: images
     image: /img/02_join_de-appel_photo_join.jpg
     caption: ''
   - type: images
     image: /img/03_join_de-appel_photo_join.jpg
-    caption: 'JOIN (2019). Photography: Anouk Beckers'
+    caption: 'JOIN (2019). Photography: Anouk Beckers, Zoe Philine Pingel'
 location: 'De Appel, Amsterdam '
 date: 2019-06-01T08:00:00.000Z
 ---

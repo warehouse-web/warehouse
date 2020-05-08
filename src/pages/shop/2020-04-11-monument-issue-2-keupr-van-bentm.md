@@ -41,7 +41,8 @@ content:
       15 EUR
 
 
-      Send an email to info@monumentmagazine.nl if you want to purchase a copy.
+      Send an email to <info@monumentmagazine.nl> if you want to purchase a
+      copy.
   - type: images
     image: /img/03_monument02_photo_anoukbeckers.jpg
   - type: images

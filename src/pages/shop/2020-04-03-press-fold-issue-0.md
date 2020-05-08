@@ -33,7 +33,7 @@ content:
       15EUR
 
 
-      Send an email to mail@pressandfoldmagazine.com if you want to purchase a
+      Send an email to <mail@pressandfoldmagazine.com> if you want to purchase a
       copy.
   - type: images
     image: /img/press_and_fold_issue-1_the-street_tenant.jpg

@@ -3,8 +3,11 @@ templateKey: product-page
 title: 'JOIN Collective Conversation Magazine '
 content:
   - type: images
-    image: /img/03_join-magazine_photo_anouk-beckers.jpg
-    caption: 'JOIN Collective Conversation Magazine (2019). Photography: Anouk Beckers.'
+    image: /img/01_join-magazine_photo_anouk-beckers.jpg
+    caption: |-
+      JOIN Collective Conversation Magazine (2019). 
+
+      Photography: Anouk Beckers.
   - type: text
     body: >-
       The *JOIN Collective Conversation Magazine* is the result of a *JOIN
@@ -67,13 +70,17 @@ content:
       15 EUR
 
 
-      Send an email to shop@thisiswarehouse.com if you want to purchase a copy.
+      Send an email to <shop@thisiswarehouse.com> if you want to purchase a
+      copy.
   - type: images
-    image: /img/04_join-magazine_photo_anouk-beckers.jpg
-    caption: Contribution by Anouk Beckers
+    image: /img/05_join-magazine_photo_anouk-beckers.jpg
+    caption: Contribution by Lindy Boerman and Lu Lin
   - type: images
     image: /img/08_join-magazine_photo_anouk-beckers.jpg
     caption: 'Contribution by Eliza Lachkova, Julia Berg and Lu Lin'
+  - type: images
+    image: /img/04_join-magazine_photo_anouk-beckers.jpg
+    caption: ''
   - type: images
     image: /img/02_join-magazine_photo_anouk-beckers.jpg
     caption: 'Photography: Anouk Beckers'

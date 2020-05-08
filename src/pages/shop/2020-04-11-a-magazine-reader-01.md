@@ -8,6 +8,9 @@ content:
     caption: A Magazine Reader 01 (2018)
   - type: text
     body: >-
+      \-- scroll down to download the PDF --
+
+
       *A Magazine Reader 01* is the result of a workshop by Femke de Vries and
       Hanka van der Voet in which the students of the MA Fashion Strategy
       generation 27 explore the representation and meaning of luxury in the
