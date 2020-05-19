@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Warehouse Wear | The Face Mask Series
+title: Warehouse Wear | The Face Mask Series I
 PDF: /img/tutorial_femail-forever.pdf
 content:
   - type: images
