@@ -5,7 +5,9 @@ PDF: /img/tutorial_femail-forever.pdf
 content:
   - type: images
     image: /img/femailforever_foot2facemask.jpg
-    caption: >-
+    caption: ''
+  - type: text
+    body: >-
       For Warehouse Wear | The Face Mask Series, we have invited five critical
       fashion practitioners from various corners of the world to share their
       propositions for a - for many of us - new character in our wardrobes: the
