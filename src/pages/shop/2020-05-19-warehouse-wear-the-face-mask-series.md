@@ -24,6 +24,14 @@ content:
       First up, US-based design duo FEMAIL continue their collaborative
       postal-based-practice by creating a fun *foot2face* solution that revolves
       around human connection and includes a pair of socks and stockings.
+
+
+      The items of the Warehouse Wear Face Mask Series will not be sold, but
+      will be released through do-it-yourself video- and .pdf tutorials -
+      inviting everyone to start getting acquainted with the face mask and make
+      one themselves. You can find the video tutorial over on our
+      [IGTV-channel](https://www.instagram.com/amsterdam.warehouse/channel/),
+      and the .pdf-tutorial as a free download below.
 author: Femail Forever
 date: 2020-05-19T09:04:01.622Z
 ---
