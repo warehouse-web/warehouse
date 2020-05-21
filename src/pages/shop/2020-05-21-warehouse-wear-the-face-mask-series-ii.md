@@ -33,8 +33,9 @@ content:
       The items of the Warehouse Wear Face Mask Series will not be sold, but
       will be released through do-it-yourself video- and .pdf tutorials -
       inviting everyone to start getting acquainted with the face mask and make
-      one themselves. You can find the video tutorial over on our IGTV-channel
-      (see our Instagram), and the .pdf-tutorial as a free download below.
+      one themselves. You can find the video tutorial over on our
+      [IGTV-channel](https://www.instagram.com/amsterdam.warehouse/channel/),
+      and the .pdf-tutorial as a free download below.
   - type: images
     image: /img/communication_3.jpg
 author: Schueller de Waal
