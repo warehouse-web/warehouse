@@ -5,6 +5,7 @@ PDF: /img/tutorial_haikw-.pdf
 content:
   - type: images
     image: /img/_mg_9527.jpg
+    caption: Image by Tove Sivertsen
   - type: text
     body: >-
       For Warehouse Wear | The Face Mask Series, we have invited five critical
@@ -42,6 +43,7 @@ content:
     image: /img/_mg_9395.jpg
   - type: images
     image: /img/_mg_9310.jpg
+    caption: Images by Tove Sivertsen
 author: HAiKw/
 date: 2020-05-29T20:17:01.830Z
 ---
