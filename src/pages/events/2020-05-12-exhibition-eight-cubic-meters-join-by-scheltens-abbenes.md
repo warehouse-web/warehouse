@@ -1,6 +1,6 @@
 ---
 templateKey: event-post
-title: Exhibition Eight Cubic Meters | JOIN by Scheltens & Abbenes
+title: Exhibition | JOIN by Scheltens & Abbenes
 content:
   - type: images
     image: /img/join-by-scheltens-abbenes_8.jpg
