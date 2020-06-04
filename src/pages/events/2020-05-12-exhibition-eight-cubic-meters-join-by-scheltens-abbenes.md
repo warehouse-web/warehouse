@@ -1,6 +1,6 @@
 ---
 templateKey: event-post
-title: Exhibition | JOIN by Scheltens & Abbenes
+title: Exhibition | JOIN Collective Clothes with Scheltens & Abbenes
 content:
   - type: images
     image: /img/join-by-scheltens-abbenes_8.jpg
@@ -8,9 +8,9 @@ content:
   - type: text
     body: >-
       *Eight Cubic Meters by JOIN Collective Clothes* shows the result of a
-      collaboration between JOIN, by Anouk Beckers and photographers Maurice
-      Scheltens and Liesbeth Abbenes. This exhibition is on view from 01.07.2020
-      - 22.09.2020.
+      collaboration between JOIN Collective Clothes, an initiative by Anouk
+      Beckers and photographers Maurice Scheltens and Liesbeth Abbenes. This
+      exhibition is on view from 01.07.2020 - 22.09.2020. Open 24/7.
 
 
       More information soon.
