@@ -51,5 +51,5 @@ content:
     image: /img/95fcb42e-5158-4063-bfd6-b306ce2d2729.jpg
     caption: Image by Andrea Chehade
 location: TBA
-date: 2020-06-12T11:34:28.065Z
+date: 2020-06-27T11:00:00.000Z
 ---
