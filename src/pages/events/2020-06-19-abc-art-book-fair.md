@@ -11,6 +11,6 @@ content:
       present their works and publications to the Chinese audience. We will show
       and sell a selection of Warehouse publications.  Visit [abC Art Book Fair
       ](http://abcartbookfair.com)for more information.
-location: Beijing
+location: 'Beijing Times Art Museum '
 date: 2020-07-10T08:20:50.145Z
 ---
