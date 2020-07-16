@@ -1,6 +1,6 @@
 ---
 templateKey: event-post
-title: Launch Warehouse Review I | People Wearing Off-White
+title: Launch Warehouse Review 001 | People Wearing Off-White
 content:
   - type: images
     image: /img/636394b8-10c7-4d24-ae82-513818e16749.jpg
@@ -51,5 +51,5 @@ content:
     image: /img/95fcb42e-5158-4063-bfd6-b306ce2d2729.jpg
     caption: Image by Andrea Chehade
 location: TBA
-date: 2020-07-17T11:00:00.000Z
+date: 2020-07-23T11:00:00.000Z
 ---
