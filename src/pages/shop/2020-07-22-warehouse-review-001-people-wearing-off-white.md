@@ -4,7 +4,7 @@ title: Warehouse Review 001 | People Wearing Off-White
 content:
   - type: images
     image: /img/unnamed.jpg
-    caption: '*Warehouse Review 001* | ''People Wearing Off-White'' (2020)'
+    caption: Warehouse Review 001 | 'People Wearing Off-White' (2020)
   - type: text
     body: >-
       *Warehouse Review* is a publication that aims to explore alternative modes
