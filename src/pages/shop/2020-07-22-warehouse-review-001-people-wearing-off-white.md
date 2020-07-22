@@ -44,7 +44,7 @@ content:
       Bernts, Femke de Vries and Hanka van der Voet.
 
 
-      Type: softcover\ Dimensions: 170 mm x 240 mm portrait\ Pages: 76\ Editor:
+      Type: softcover\ Dimensions: 110 mm x 195 mm portrait\ Pages: 76\ Editor:
       Hanka van der Voet\ Art Direction: Line Arngaard/ Contributors: Chinouk
       Filique de Miranda, Denise Bernts, Femke de Vries, Hanka van der Voet\
       Graphic design: Line Arngaard\ Release date: 23 July 2020\ Binding:
@@ -55,8 +55,7 @@ content:
       NOT FOR SALE / SWAPPING ONLY
 
 
-      Send your swap proposal to
-      [hanka@thisiswarehouse.com](hanka@thisiswarehouse.com).
+      Send your swap proposal to hanka@thisiswarehouse.com.
   - type: images
     image: /img/pwow-1.jpg
     caption: 'Images left: Hanka van der Voet, Image right: Mary-Lou Berkulin.'
