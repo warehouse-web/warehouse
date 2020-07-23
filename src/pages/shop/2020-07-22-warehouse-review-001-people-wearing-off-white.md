@@ -65,5 +65,5 @@ content:
       Images left: Femke de Vries, on the right: 'A Look into the Off-White
       Metaverse' by Chinouk Filique de Miranda.
 author: Hanka van der Voet (ed.)
-date: 2020-07-22T18:32:38.256Z
+date: 2020-07-23T18:30:00.000Z
 ---
