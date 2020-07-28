@@ -6,7 +6,7 @@ title: |-
 content:
   - type: images
     image: /img/join-by-scheltens-abbenes_8.jpg
-    caption: Photography by Scheltens & Abbenes
+    caption: ''
   - type: text
     body: >-
       *Eight Cubic Meters by JOIN Collective Clothes* shows the result of a
