@@ -1,6 +1,8 @@
 ---
 templateKey: event-post
-title: Exhibition | JOIN Collective Clothes with Scheltens & Abbenes
+title: |-
+  Exhibition
+  JOIN Collective Clothes with Scheltens & Abbenes
 content:
   - type: images
     image: /img/join-by-scheltens-abbenes_8.jpg
@@ -15,5 +17,5 @@ content:
 
       More information soon.
 location: 'Eight Cubic Meters, Sint Nicolaasstraat, Amsterdam'
-date: 2020-07-01T08:00:00.000Z
+date: 2020-09-22T08:00:00.000Z
 ---
