@@ -10,16 +10,18 @@ content:
     caption: ''
   - type: text
     body: >-
-      On Monday 6 July the JOIN Collective Livestream Walk in Amsterdam's main
-      shopping street the Kalverstraat took place. This livestream walk showed
-      the results of the JOIN Collective Clothes workshop, using the JOIN open
-      source manual. This manual made (and still makes) it possible for everyone
-      to design and make a piece of a garment within this modular clothing
-      system. Within a year more than 120 different garment-pieces were made.
+      On Monday 6 July 2020 the JOIN Collective Livestream Walk in Amsterdam's
+      main shopping street the Kalverstraat took place. This livestream walk
+      showed the results of the JOIN Collective Clothes workshop, using the JOIN
+      open source manual. This manual made, and still makes, it possible for
+      everyone to design and make a piece of a garment within this modular
+      clothing system. Within a year more than 120 different garment-pieces were
+      made. This collective collection was the effort of various makers:
+      workshop participants, designers and friends of JOIN. 
+
+
       Stylist Pieter Eliens composed the pieces into a variety of garments that
-      were shown on Monday, presented by around 30 people. This collective
-      collection was the effort of various makers: workshop participants,
-      designers and friends of JOIN. The choreography was developed in
+      were presented by 30 people. The choreography was developed in
       collaboration with[](https://www.instagram.com/luncatics.and.poets/)
       Lunatics and Poets. 
 
