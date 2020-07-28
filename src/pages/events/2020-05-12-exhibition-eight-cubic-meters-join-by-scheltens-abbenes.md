@@ -31,6 +31,26 @@ content:
       location and experience, either working from home, or participating in one
       of the JOIN workshops, JOIN creates the possibility to come together,
       share ideas and experiment with form, texture, technique and material.
+
+
+      Brought together, the pieces from different makers with various
+      backgrounds and experience form a series of garments that encapsulate an
+      explorative and collaborative process of garment design and making. Made
+      by Scheltens and Abbenes, these images show the work of a commissioned
+      designer combined with a work made during one of the JOIN workshops. The
+      flat textile shapes, with some 3D elements, are presented like a landscape
+      of abstract geometric shapes interchanged with clear garment-related
+      references. Captured in these visual landscapes, the images show how the
+      various makers use the JOIN patterns differently; their personal choices
+      coming to the surface in form, texture, technique and material, showing
+      the endless possibilities within the modular JOIN system. Hinting towards
+      garments and the potentiality of the bare pattern at the same time, the
+      visualization of these fragments presents us with the infinite possible
+      assemblages of this ongoing project. How would the sleeve of one maker
+      combine with the top of another? Together the images thus present the main
+      goal of the project; exploring the relation between various disciplines
+      and backgrounds, the individual maker and the collective, the commissioned
+      designer and the workshop participant.
 location: 'Eight Cubic Meters, Sint Nicolaasstraat, Amsterdam'
 date: 2020-09-22T08:00:00.000Z
 ---
