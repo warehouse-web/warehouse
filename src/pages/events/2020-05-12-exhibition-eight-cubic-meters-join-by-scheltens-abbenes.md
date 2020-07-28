@@ -16,8 +16,8 @@ content:
       Nicolaasstraat, Amsterdam. 
 
 
-      A series of images, titled*JOIN Collective Clothes with Scheltens &
-      Abbenes,*captures a selection of works which are made with the JOIN
+      A series of images, titled *JOIN Collective Clothes with Scheltens &
+      Abbenes,* captures a selection of works which are made with the JOIN
       approach; a modular clothing system that invites people to make garments
       together and explore fashion as a collective practice. In the background
       of every photo you see the black-lined JOIN patterns; a set of shapes –
@@ -51,6 +51,15 @@ content:
       goal of the project; exploring the relation between various disciplines
       and backgrounds, the individual maker and the collective, the commissioned
       designer and the workshop participant.
+
+
+      The project can be viewed on
+      [www.joincollectiveclothes.com](www.joincollectiveclothes.com) where the
+      various pieces, made by different makers, are brought together in one
+      archive, a collective collection.\
+
+      More information about Maurice Scheltens and Liesbeth Abbenes can be found
+      on [www.scheltens-abbenes.com](www.scheltens-abbenes.com)
 location: 'Eight Cubic Meters, Sint Nicolaasstraat, Amsterdam'
 date: 2020-09-22T08:00:00.000Z
 ---
