@@ -4,6 +4,10 @@ title: |-
   Performance
   JOIN Collective Livestream Walk
 content:
+  - type: images
+    image: >-
+      /img/join-collective-livestream-walk_foto-door-roos_website-warehouse-ready.jpg
+    caption: Photography by Roos Quakernaat
   - type: text
     body: >-
       On Monday 6 July the JOIN Collective Livestream Walk in Amsterdam's main
@@ -24,7 +28,7 @@ content:
       IGTV](https://www.instagram.com/tv/CCTvHQXFenB/).
   - type: images
     image: >-
-      /img/join-collective-livestream-walk_foto-door-roos_website-warehouse-ready.jpg
+      /img/join-collective-livestream-walk__foto-door-roos_website-warehouse-ready.jpg
     caption: Photography by Roos Quakernaat
 location: 'Kalverstraat, Amsterdam'
 date: 2020-07-06T16:30:00.000Z
