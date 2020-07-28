@@ -5,7 +5,7 @@ title: |-
   JOIN Collective Clothes with Scheltens & Abbenes
 content:
   - type: images
-    image: /img/join-by-scheltens-abbenes_8.jpg
+    image: /img/join-by-scheltens-abbenes_8_warehouse-website-ready.jpg
     caption: ''
   - type: text
     body: >-
