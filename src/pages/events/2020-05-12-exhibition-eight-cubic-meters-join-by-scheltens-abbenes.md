@@ -60,6 +60,9 @@ content:
 
       More information about Maurice Scheltens and Liesbeth Abbenes can be found
       on [www.scheltens-abbenes.com](www.scheltens-abbenes.com)
+  - type: images
+    image: /img/join-by-scheltens-abbenes_2_warehouse-website-ready.jpg
+    caption: Photography by Scheltens & Abbenes
 location: 'Eight Cubic Meters, Sint Nicolaasstraat, Amsterdam'
 date: 2020-09-22T08:00:00.000Z
 ---
