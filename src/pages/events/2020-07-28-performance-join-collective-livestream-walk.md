@@ -22,6 +22,10 @@ content:
 
       Watch the entire show via the [JOIN
       IGTV](https://www.instagram.com/tv/CCTvHQXFenB/).
+  - type: images
+    image: >-
+      /img/join-collective-livestream-walk_foto-door-roos_website-warehouse-ready.jpg
+    caption: Photography by Roos Quakernaat
 location: 'Kalverstraat, Amsterdam'
 date: 2020-07-06T16:30:00.000Z
 ---
