@@ -2,6 +2,7 @@
 templateKey: product-page
 warehouseID: 'WAREHOUSE #'
 title: A Magazine Reader 02
+PDF: ''
 content:
   - type: images
     image: /img/02_a-magazine-reader-02_photo_anouk-beckers.jpg
@@ -78,10 +79,7 @@ content:
       Unicersity of the Arts\ Production: Warehouse
 
 
-      SOLD OUT 
-
-
-      Download PDF here.
+      SOLD OUT
   - type: images
     image: /img/a-magazine-reader-issue-02-denise-bernts-02.jpg
     caption: Contribution by Denise Bernts
@@ -92,5 +90,5 @@ content:
     image: /img/a-magazine-reader-issue-02-boris-kollar-1.jpg
     caption: Contribution by Boris Kollar
 author: 'Femke de Vries, Ruby Hoette & Chet Bugter (eds.)'
-date: 2019-08-14T12:50:34.286Z
+date: 2019-06-22T12:00:00.000Z
 ---

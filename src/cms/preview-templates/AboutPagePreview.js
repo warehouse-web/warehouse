@@ -10,9 +10,10 @@ const AboutPagePreview = ({ entry, widgetFor }) => {
 			<AboutPageTemplate
 				title={data.title}
 				leftColumn={data.leftColumn}
-				content={widgetFor("body")}
+				rightColumn={data.rightColumn}
 				other={data.other}
 				blurbs={data.blurbs || { blurbs: [] }}
+				images={data.images}
 			/>
 		);
 	}

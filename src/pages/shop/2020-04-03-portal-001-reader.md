@@ -2,6 +2,7 @@
 templateKey: product-page
 warehouseID: 'WAREHOUSE #87'
 title: 'PORTAL 001 Reader '
+PDF: ''
 content:
   - type: images
     image: /img/01.jpg
@@ -75,10 +76,8 @@ content:
       12,50 EUR
 
 
-      Send an email to shop@thisiswarehouse.com if you want to purchase a copy.
-  - type: images
-    image: /img/01.jpg
-    caption: PORTAL 001 Reader (2018).
+      Send an email to <shop@thisiswarehouse.com> if you want to purchase a
+      copy.
   - type: images
     image: /img/portal001-_vanjoolen_9.jpg
     caption: Contribution by Marina Sasseron de Cabral
@@ -92,5 +91,5 @@ content:
     image: /img/04_portal001_photo_anoukbeckers.jpg
     caption: 'PORTAL 001 Reader (2018). Photography: Anouk Beckers.'
 author: Elisa van Joolen (ed.)
-date: 2018-02-06T14:56:33.320Z
+date: 2018-01-13T15:00:00.000Z
 ---

@@ -4,7 +4,7 @@ warehouseID: 'WAREHOUSE #1.2'
 title: Launch PORTAL 002
 content:
   - type: images
-    image: /img/img_7452.jpg
+    image: /img/02.jpg
   - type: text
     body: >-
       A conversation between Elisa van Joolen, Anouk Beckers and Renee van der
@@ -49,9 +49,9 @@ content:
       clothing. The collected data is visualized and brought together in a
       reader designed by Beau Bertens.
   - type: images
-    image: /img/02.jpg
-  - type: images
     image: /img/06.jpg
+  - type: images
+    image: /img/02_portal002_photo_anoukbeckers.jpg
   - type: images
     image: /img/03.jpg
     caption: PORTAL 002 Reader (2018)

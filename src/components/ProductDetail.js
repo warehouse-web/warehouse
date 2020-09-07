@@ -55,13 +55,14 @@ const ProductDetail = ({
 						} else {
 							return (
 								<ReactMarkdown
+									linkTarget={"_blank"}
 									escapeHtml={false}
 									source={el.body}
 								/>
 							);
 						}
 					})}
-				{activeProduct.frontmatter.PDF ? (
+				{activeProduct && activeProduct.frontmatter.PDF ? (
 					<a
 						className="pdf-download"
 						href={activeProduct.frontmatter.PDF.publicURL}

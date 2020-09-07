@@ -17,8 +17,11 @@ content:
       *PORTAL* is a research project that explores the economic, social and
       emotional value of clothing and offers a ‘way in’ to understanding
       garments from a multitude of overlapping and intersecting perspectives.
-
-
+  - type: images
+    image: /img/image1.jpg
+    caption: ''
+  - type: text
+    body: >-
       For every edition, participants are asked to take off a garment, lay it
       down on a large Tyvek sheet, outline their garment with tape and answer a
       series of questions regarding its production (Where was it made?),
@@ -44,7 +47,7 @@ content:
       brought together in a reader using the sixteen *PORTAL* questions as a
       starting point.
   - type: images
-    image: /img/image1.jpg
+    image: /img/img_3023.jpg
     caption: 'PORTAL 001 (2017). Photography: Elisa van Joolen.'
 location: 'Museum Boijmans van Beuningen, Rotterdam'
 date: 2017-11-10T10:00:00.000Z

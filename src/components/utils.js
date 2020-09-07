@@ -5,7 +5,8 @@ import * as R from "rambda";
 
 export const isBrowser = () => typeof window !== "undefined";
 let initFlexWidthPx;
-let shiftRatio = 0.3;
+let shiftRatio;
+
 export let rectColor;
 
 export const renderImg = (post, setDivStyle, size) => {
@@ -84,12 +85,12 @@ export function useWindowSize() {
 
 export const handleWindowSizeChange = () => {
 	if (window.innerWidth <= 900) {
-		shiftRatio = 0.25;
+		shiftRatio = 0.00025;
 		initFlexWidthPx = 310;
 		return (rectColor = "white");
 	} else {
 		initFlexWidthPx = 620;
-		shiftRatio = 0.5;
+		shiftRatio = 0.0005;
 		return (rectColor = "black");
 	}
 };
@@ -106,6 +107,14 @@ export const handleWindowSizeChange = () => {
 	}
 }
 
+export const useSetShiftRatio = () => {
+	if (typeof document !== "undefined") {
+		shiftRatio = (initFlexWidthPx * 3) / document.body.scrollHeight;
+	}
+
+	return shiftRatio;
+};
+
 export const useChangeMagicLogo = () => {
 	window.addEventListener("scroll", relayout);
 	return () => {
@@ -118,9 +127,15 @@ export const relayout = () => {
 };
 
 const setWidth = shift => {
+	let negative;
 	let element = document.getElementById("magic-logo");
-
+	if (!shiftRatio) {
+		shiftRatio = 0.3;
+	}
 	let newWidth = initFlexWidthPx - shiftRatio * shift;
+	if (newWidth < 120) {
+		newWidth *= -1;
+	}
 	let newWidthPx = newWidth + "px";
 
 	element.style.width = newWidthPx;

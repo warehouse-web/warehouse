@@ -30,7 +30,9 @@ p > a {
   text-align: center;
   font-size: 2em;
   color: black;
-  padding: 0 2em;
+  margin: 0 2rem;
+  padding: 1.3rem 2em 0.4em;
+  line-height: 1.2 !important;
 }
 
 .article-detail.mobile {
@@ -97,6 +99,7 @@ a.right {
   font-size: 0.9rem;
   border: 1px solid transparent;
   color: black;
+  user-select: none;
 }
 
 .navbar-end > .navbar-item {
@@ -278,7 +281,7 @@ a.navbar-item:hover {
   color: white;
   position: absolute;
   top: 1rem;
-  left: 2.1rem;
+  padding-left: 1.8rem;
 }
 @media screen and (min-width: 901px) {
   html {
@@ -365,6 +368,9 @@ a.navbar-item:hover {
   text-align: center;
   font-family: "BradfordLLWeb-Book", "Times New Roman", Times, serif;
 }
+.caption-about {
+  color: white;
+}
 
 .gatsby-image-wrapper {
   width: 80%;
@@ -415,12 +421,13 @@ figure figcaption {
   flex: 0 0 50%;
   height: 100vh;
   position: sticky;
+  margin-top: 1rem;
 }
 
 .about-title {
-  line-height: 1.1;
+  line-height: 0.3;
   color: white;
-  font-size: 1.65rem;
+  font-size: 2rem;
 }
 .about-caps {
   color: white;
@@ -428,11 +435,12 @@ figure figcaption {
   margin-right: 4rem;
   display: block;
   line-height: 1.1;
-  font-size: 1.65rem;
+  font-size: 2rem;
 }
 
 .about-right {
   top: 0;
+  margin-top: 1rem;
   color: white;
 }
 
@@ -576,6 +584,7 @@ a > span {
   right: 0;
   width: 3.25rem;
   margin-left: auto;
+  z-index: 10;
 }
 .close span {
   background-color: currentColor;

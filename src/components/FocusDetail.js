@@ -58,6 +58,7 @@ const FocusDetail = ({
 						} else {
 							return (
 								<ReactMarkdown
+									linkTarget={"_blank"}
 									escapeHtml={false}
 									source={el.body}
 								/>
@@ -65,7 +66,7 @@ const FocusDetail = ({
 						}
 					})}
 
-				{activeFocus.frontmatter.PDF ? (
+				{activeFocus && activeFocus.frontmatter.PDF ? (
 					<a
 						className="pdf-download"
 						href={activeFocus.frontmatter.PDF.publicURL}

@@ -5,6 +5,7 @@
   "author": "Austin Green",
   "dependencies": {
     "@react-pdf/renderer": "^1.6.7",
+    "axios": "^0.19.2",
     "bulma": "^0.8.2",
     "eslint-plugin-prettier": "^3.1.1",
     "gatsby": "^2.13.31",
@@ -55,8 +56,8 @@
     "start:app": "npm run develop",
     "start": "run-p start:**",
     "build:app": "npm run clean && gatsby build",
-    "start:lambda": "netlify-lambda serve ./functions",
-    "build:lambda": "netlify-lambda build ./functions",
+    "start:lambda": "netlify-lambda serve src/functions",
+    "build:lambda": "netlify-lambda build src/functions",
     "build": "run-p build:**",
     "develop": "npm run && gatsby develop",
     "serve": "gatsby serve",

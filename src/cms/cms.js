@@ -5,7 +5,6 @@ import ProductPagePreview from "./preview-templates/ProductPagePreview";
 import EventPostPreview from "./preview-templates/EventPostPreview";
 import FocusPagePreview from "./preview-templates/FocusPagePreview";
 
-// CMS.registerPreviewStyle("../components/Cms/cms.css");
 CMS.registerPreviewTemplate("about", AboutPagePreview);
 
 CMS.registerPreviewTemplate("product", ProductPagePreview);

@@ -81,7 +81,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 		templateKey: String
 		title: String!
 		image: File
-		PDF: PublicURL
+		attachments: PublicURL
 	  }
 	`;
 	createTypes(typeDefs);

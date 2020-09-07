@@ -76,7 +76,8 @@ content:
       12,50EUR
 
 
-      Send an email to shop@thisiswarehouse.com if you want to purchase a copy.
+      Send an email to <shop@thisiswarehouse.com> if you want to purchase a
+      copy.
   - type: images
     image: /img/a-magazine-reader-03-by-marco-dalle-fratte.jpg
     caption: Contribution by Marco Dalle Fratte
@@ -92,5 +93,5 @@ content:
       Contribution by Rebecca Nevins and Hanka van der Voet. Photography: Anouk
       Beckers
 author: Femke de Vries & Hanka van der Voet (eds.)
-date: 2019-12-04T09:53:52.068Z
+date: 2019-10-25T22:00:00.000Z
 ---

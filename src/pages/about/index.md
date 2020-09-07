@@ -1,8 +1,20 @@
 ---
 templateKey: about-page
+caption: Test* beautiful light
 title: Warehouse
 leftColumn: A place for clothes in context
-image: /img/01_monument02_16012020_anoukbeckers.jpg
+rightColumn: >-
+  ABOUT
+
+
+  Warehouse is an Amsterdam-based fashion platform that aims to create an open,
+  engaging and inclusive environment that facilitates critical dialogue and the
+  creation of a discourse that goes beyond treating fashion as a commodity.
+  Warehouse was founded by Elisa van Joolen, Femke de Vries and Hanka van der
+  Voet.
+images:
+  - image: /img/01_warehouse_san_serriffe_dec2019_photo_anoukbeckers.jpg
+    caption: ''
 blurbs:
   - subtitle: info@thisiswarehouse.com
     title: CONTACT
@@ -15,8 +27,8 @@ blurbs:
   - subtitle: Jan Schoon
     title: COMMUNICATION
 other: >-
-  Warehouse is made possible through the financial support of Stimuleringsfonds
-  Creatieve Industrie.
+  Warehouse is made possible through the financial support of the Creative
+  Industries Fund NL.
 
 
   <br/>
@@ -35,6 +47,3 @@ other: >-
   harm that may arise as a consequence of errors, problems caused by or inherent
   in the distribution of the information by internet, or for technical failures.
 ---
-ABOUT
-
-Warehouse is an Amsterdam-based fashion platform that aims to create an open, engaging and inclusive environment that facilitates critical dialogue and the creation of a discourse that goes beyond treating fashion as a commodity. Warehouse is initiated by Elisa van Joolen, Femke de Vries and Hanka van der Voet.

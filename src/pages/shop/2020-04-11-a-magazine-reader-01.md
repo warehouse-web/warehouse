@@ -1,12 +1,16 @@
 ---
 templateKey: product-page
 title: A Magazine Reader 01
+PDF: /img/a-magazine-reader-01-2018-.pdf
 content:
   - type: images
     image: /img/a-magazine-reader-v-gue.jpg
     caption: A Magazine Reader 01 (2018)
   - type: text
     body: >-
+      \-- scroll down to download the PDF --
+
+
       *A Magazine Reader 01* is the result of a workshop by Femke de Vries and
       Hanka van der Voet in which the students of the MA Fashion Strategy
       generation 27 explore the representation and meaning of luxury in the
@@ -63,9 +67,6 @@ content:
 
 
       SOLD OUT
-
-
-      Download PDF here.
   - type: images
     image: /img/02_a-magazine-reader-01_photo_anouk-beckers.jpg
     caption: Contribution by Karmen Samson
@@ -73,5 +74,5 @@ content:
     image: /img/01_a-magazine-reader-01_photo_anouk-beckers.jpg
     caption: 'Contribution by Chinouk Filique de Miranda. Photography: Anouk Beckers.'
 author: Femke de Vries and Hanka van der Voet (eds.)
-date: 2019-12-17T23:00:00.000Z
+date: 2018-06-29T16:00:00.000Z
 ---

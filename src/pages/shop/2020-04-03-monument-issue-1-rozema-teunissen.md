@@ -81,10 +81,11 @@ content:
       15EUR
 
 
-      Send an email to info@monumentmagazine.nl if you want to purchase a copy.
+      Send an email to <info@monumentmagazine.nl> if you want to purchase a
+      copy.
   - type: images
     image: /img/01_monument-01_photo_anouk-beckers.jpg
     caption: 'Photography: Anouk Beckers'
 author: Mary-Lou Berkulin (ed.)
-date: 2018-07-12T13:59:20.156Z
+date: 2018-06-20T16:00:00.000Z
 ---

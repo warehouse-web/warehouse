@@ -2,6 +2,7 @@
 templateKey: product-page
 warehouseID: 'WAREHOUSE #99'
 title: 'PORTAL 002 Reader '
+PDF: ''
 content:
   - type: images
     image: /img/portal-002-.jpg
@@ -74,12 +75,13 @@ content:
       12,50EUR
 
 
-      Send an email to shop@thisiswarehouse.com if you want to purchase a copy.
+      Send an email to <shop@thisiswarehouse.com> if you want to purchase a
+      copy.
   - type: images
     image: /img/02_portal002_photo_anoukbeckers.jpg
   - type: images
     image: /img/03_portal002_photo_anoukbeckers.jpg
     caption: 'Photography: Anouk Beckers'
 author: Elisa van Joolen (ed.)
-date: 2018-07-12T13:49:43.353Z
+date: 2018-07-21T14:00:00.000Z
 ---

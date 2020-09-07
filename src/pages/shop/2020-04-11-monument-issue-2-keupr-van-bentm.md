@@ -25,9 +25,8 @@ content:
       and 2001. A conversation between Mary-Lou Berkulin and Keupr/van Bentm has
       been supplemented with quotes and texts from articles from the archive and
       a new long-read, written by fashion researcher Laura Gardner. The items
-      from the archive have been photographed by Roos Quakernaat.\
+      from the archive have been photographed by Roos Quakernaat.
 
-      \
 
       Type: softcover\ Dimensions: 170 mm x 240 mm portrait\ Pages: 160\ Editor:
       Mary-Lou Berkulin\ Art direction: Karen van de Kraats\ Photography: Roos
@@ -42,12 +41,13 @@ content:
       15 EUR
 
 
-      Send an email to info@monumentmagazine.nl if you want to purchase a copy.
+      Send an email to <info@monumentmagazine.nl> if you want to purchase a
+      copy.
   - type: images
     image: /img/03_monument02_photo_anoukbeckers.jpg
   - type: images
     image: /img/07_monument02_photo_anoukbeckers.jpg
     caption: 'Photography: Anouk Beckers'
 author: Mary-Lou Berkulin (ed.)
-date: 2020-04-11T15:11:55.014Z
+date: 2020-01-16T16:00:00.000Z
 ---

@@ -19,9 +19,10 @@ module.exports = {
 		author: "Zuzana Kostelanska"
 	},
 	plugins: [
+		"gatsby-plugin-sharp",
+		"gatsby-transformer-sharp",
 		"gatsby-plugin-react-helmet",
 		"gatsby-plugin-sass",
-
 		{
 			// keep as first gatsby-source-filesystem plugin for gatsby image support
 			resolve: "gatsby-source-filesystem",
@@ -37,8 +38,6 @@ module.exports = {
 				name: "pages"
 			}
 		},
-		"gatsby-plugin-sharp",
-		"gatsby-transformer-sharp",
 		{
 			resolve: "gatsby-transformer-remark",
 			options: {
@@ -63,9 +62,7 @@ module.exports = {
 							// the content container as this plugin uses this as the
 							// base for generating different widths of each image.
 							maxWidth: 1040,
-							showCaptions: true,
 							quality: 80,
-							markdownCaptions: true,
 							tracedSVG: false
 							// withWebp: true
 						}

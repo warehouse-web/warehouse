@@ -1,14 +1,15 @@
 ---
 templateKey: product-page
 title: PORTAL 004 | Exercise and Coloring Book
+PDF: /img/portal004-elisavanjoolen_warehouse_2019.pdf
 content:
   - type: images
-    image: /img/03_portal004_photo_anoukbeckers.jpg
-    caption: >-
-      PORTAL 004 | Exercise and Coloring Book (2019). Photography: Anouk
-      Beckers.
+    image: /img/portal004-1.jpg
   - type: text
     body: >-
+      \-- scroll down to download the PDF --
+
+
       *PORTAL 004* | Exercise and coloring book for children is the result of
       *PORTAL 004*,  a workshop in which children from the public primary school
       OBS Twiske, under the supervision of students of the MA Fashion Strategy,
@@ -48,8 +49,10 @@ content:
       The collected information of each *PORTAL* edition is visualized and
       brought together in a reader using the sixteen *PORTAL* questions as their
       starting point.
-
-
+  - type: images
+    image: /img/05_portal004_photo_anoukbeckers.jpg
+  - type: text
+    body: >-
       Type: softcover with plastic sleeve\ Dimensions: 210 mm x 297 mm portrait\
       Pages: 68\ Art Direction: Elisa van Joolen\ Research assistant: Laura Lisa
       Januario\ Contributors: Hanka van der Voet and Femke de Vries\
@@ -68,19 +71,25 @@ content:
       15EUR
 
 
-      Send an email to shop@thisiswarehouse.com if you want to purchase a copy.
-
-
-      Download PDF here.
+      Send an email to
+      [shop@thisiswarehouse.com](mailto:shop@thisiswarehouse.com) if you want to
+      purchase a copy.
   - type: images
-    image: /img/08_portal004_photo_anoukbeckers.jpg
+    image: /img/portal004-5.jpg
+  - type: images
+    image: /img/10_portal004_photo_anoukbeckers.jpg
+  - type: images
+    image: /img/portal004-6.jpg
   - type: images
     image: /img/01_portal004_photo_anoukbeckers.jpg
   - type: images
-    image: /img/09_portal004_photo_anoukbeckers.jpg
+    image: /img/portal004-2.jpg
   - type: images
-    image: /img/06_portal004_photo_anoukbeckers.jpg
-    caption: 'Photography: Anouk Beckers'
+    image: /img/portal004-3.jpg
+  - type: images
+    image: /img/portal004.jpg
+  - type: images
+    image: /img/portal004-7.jpg
 author: Elisa van Joolen (ed.)
-date: 2020-04-11T13:44:41.841Z
+date: 2019-10-15T15:00:00.000Z
 ---

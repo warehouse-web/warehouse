@@ -43,12 +43,13 @@ content:
       30EUR
 
 
-      Send an email to shop@thisiswarehouse.com if you want to purchase a copy.
+      Send an email to <shop@thisiswarehouse.com> if you want to purchase a
+      copy.
   - type: images
     image: /img/03_a-magazine-reader-special_photo_anoukbeckers.jpg
   - type: images
     image: /img/02_a-magazine-reader-special_photo_anoukbeckers.jpg
     caption: 'Photography: Anouk Beckers'
 author: Femke de Vries & Hanka van der Voet (eds.) & Zuzana Kostelanská
-date: 2020-04-11T14:36:42.258Z
+date: 2019-11-22T16:00:00.000Z
 ---

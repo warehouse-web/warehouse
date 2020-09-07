@@ -68,7 +68,7 @@ content:
       15EUR
 
 
-      Send an email to mail@pressandfoldmagazine.com if you want to purchase a
+      Send an email to <mail@pressandfoldmagazine.com> if you want to purchase a
       copy.
   - type: images
     image: /img/pf_mock_up-issue-luxury-1a.jpg
@@ -85,5 +85,5 @@ content:
       Contribution by Articles of Clothing in collaboration with Agnieszka
       Chabros. Photography: Anouk Beckers.
 author: Hanka van der Voet (ed.)
-date: 2020-03-31T13:29:06.710Z
+date: 2019-12-07T19:00:00.000Z
 ---

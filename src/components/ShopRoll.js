@@ -12,7 +12,8 @@ import {
 	renderImg,
 	removeImg,
 	useSetDivBg,
-	useChangeMagicLogo
+	useChangeMagicLogo,
+	useSetShiftRatio
 } from "../components/utils";
 import ProductDetail from "./ProductDetail";
 
@@ -27,6 +28,10 @@ const ShopRoll = ({
 	const match = useMedia("(max-width: 900px) ");
 	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
 	const size = useWindowSize();
+	const shift = useSetShiftRatio();
+	useEffect(() => {
+		shift;
+	}, []);
 
 	const openProduct = product => {
 		const isClient = typeof window === "object";

@@ -3,6 +3,8 @@ templateKey: event-post
 warehouseID: 'WAREHOUSE #'
 title: Launch One-to-One Reader
 content:
+  - type: images
+    image: /img/onetoonereader_elisavanjoolen_01.jpg
   - type: text
     body: >-
       A conversation with Elisa van Joolen and Matthias Kreutzer (Our Polite
@@ -28,6 +30,18 @@ content:
       and outcomes of the *One-to-One* project as well as exploring the
       implications and possibilities of this unique working method in the
       broader context of the fashion system.
+  - type: images
+    image: /img/onetoonereader_elisavanjoolen_02.jpg
+  - type: images
+    image: /img/onetoonereader_elisavanjoolen_07.jpg
+  - type: images
+    image: /img/10.jpg
+    caption: One-to-One Reader (2018)
+  - type: images
+    image: /img/04900cbc-06be-4cd1-8006-5cc292f0d032.jpg
+    caption: ''
+  - type: images
+    image: /img/onetoone_opening.jpg
 location: 'San Serriffe, Amsterdam'
 date: 2018-10-20T15:00:00.000Z
 ---

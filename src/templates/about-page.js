@@ -2,22 +2,20 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
-import Content, { HTMLContent } from "../components/utils";
 import Newsletter from "../components/Newsletter";
 import ReactMarkdown from "react-markdown";
+import FluidImage from "../components/FluidImage";
 
 export const AboutPageTemplate = ({
 	title,
 	leftColumn,
+	rightColumn,
 	html,
 	other,
 	content,
-	contentComponent,
 	blurbs,
-	image
+	images
 }) => {
-	const PageContent = contentComponent || Content;
-
 	return (
 		<div className="about-background">
 			<Link className="close" id="white" to="/">
@@ -32,18 +30,35 @@ export const AboutPageTemplate = ({
 					</h2>
 				</div>
 				<div>
-					<PageContent className="about-right" content={content} />
+					<ReactMarkdown
+						linkTarget={"_blank"}
+						className="about-right"
+						escapeHtml={false}
+						source={rightColumn}
+					/>
 					<ul className="colophon">
-						{blurbs.length === 0
-							? ""
-							: (blurbs || []).map(el => {
+						{blurbs &&
+							(blurbs || []).map(el => {
+								return (
 									<>
 										<li>{el.title}</li>
 										<li>{el.subtitle}</li>
-									</>;
-							  })}
+									</>
+								);
+							})}
 					</ul>
-					{image && <img src={image} alt="" />}
+					{images &&
+						images.map(({ image, caption }) => {
+							return (
+								<>
+									{image && <FluidImage image={image} />}
+									<p className="caption caption-about">
+										{caption ? caption : ""}
+									</p>
+								</>
+							);
+						})}
+
 					<div className="about-other">
 						<ReactMarkdown
 							style={{ color: "white" }}
@@ -59,9 +74,7 @@ export const AboutPageTemplate = ({
 };
 
 AboutPageTemplate.propTypes = {
-	title: PropTypes.string.isRequired,
-	content: PropTypes.string,
-	contentComponent: PropTypes.func
+	title: PropTypes.string.isRequired
 };
 
 const AboutPage = ({ data }) => {
@@ -71,15 +84,17 @@ const AboutPage = ({ data }) => {
 		<Layout>
 			<AboutPageTemplate
 				title={post.frontmatter.title}
-				content={post.html}
-				contentComponent={HTMLContent}
 				leftColumn={post.frontmatter.leftColumn}
 				colophon={post.frontmatter.colophon}
 				blurbs={post.frontmatter.blurbs}
 				other={post.frontmatter.other}
 				rightColumn={post.frontmatter.rightColumn}
 				image={post.frontmatter.image}
+				attachments={post.frontmatter.attachments}
+				caption={post.frontmatter.caption}
+				images={post.frontmatter.images}
 			/>
+			{console.log("post.frontmatter.image:", post.frontmatter.image)}
 		</Layout>
 	);
 };
@@ -93,17 +108,20 @@ export default AboutPage;
 export const aboutPageQuery = graphql`
 	query AboutPage($id: String!) {
 		markdownRemark(id: { eq: $id }) {
-			html
 			frontmatter {
 				title
 				leftColumn
+				rightColumn
 				other
-				image {
-					childImageSharp {
-						fluid(maxWidth: 1040, quality: 90) {
-							...GatsbyImageSharpFluid_tracedSVG
+				images {
+					image {
+						childImageSharp {
+							fluid(maxWidth: 1040, quality: 80) {
+								...GatsbyImageSharpFluid_tracedSVG
+							}
 						}
 					}
+					caption
 				}
 				blurbs {
 					title
