@@ -9,29 +9,19 @@ let shiftRatio;
 
 export let rectColor;
 
-export const renderImg = (post, setDivStyle, size) => {
+export const renderImg = (post, setDivStyle) => {
 	if (
 		post.frontmatter.content[0].image &&
 		post.frontmatter.content[0].image.publicURL !== undefined
 	) {
-		setDivStyle({
-			backgroundImage: `url( ${post.frontmatter.content[0].image.publicURL})`
-		});
+		setDivStyle(post.frontmatter.content[0].image);
 	} else {
-		if (size.width < 900) {
-			setDivStyle({ backgroundColor: "white" });
-		} else {
-			setDivStyle({ backgroundColor: "black" });
-		}
+		setDivStyle(false);
 	}
 };
 
 export const removeImg = setDivStyle => {
-	if (useWindowSize.width < 900) {
-		setDivStyle({ backgroundColor: "white" });
-	} else {
-		setDivStyle({ backgroundColor: "black" });
-	}
+	setDivStyle(false);
 };
 export const useSetDivBg = setDivStyle => {
 	useWindowSize.width < 900
@@ -128,7 +118,7 @@ export const relayout = () => {
 
 const setWidth = shift => {
 	let negative;
-	let element = document.getElementById("magic-logo");
+	let element = document.querySelector(".magic-logo");
 	if (!shiftRatio) {
 		shiftRatio = 0.3;
 	}

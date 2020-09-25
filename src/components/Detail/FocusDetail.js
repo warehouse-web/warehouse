@@ -1,48 +1,53 @@
 import React from "react";
-import Img from "gatsby-image";
 import ReactMarkdown from "react-markdown";
-import CloseButton from "./CloseButton";
-import FluidImage from "./FluidImage";
 
-const EventDetail = ({
-	match,
-	activeEvent,
-	onSetActiveEvent,
-	onSetShowEventDetail,
+import { CloseButton, FluidImage } from "_components";
+
+const FocusDetail = ({
+	activeFocus,
+	onSetActiveFocus,
+	onSetShowFocusDetail,
+	renderHtmlToReact,
 	title,
 	content,
+	PDF,
 	location,
 	date,
 	image,
 	getAsset,
 	articleRef,
-	entry
+	match
 }) => {
+	console.log("PDF:", PDF);
 	return (
 		<div
 			ref={articleRef}
 			className={`article-detail ${match ? `mobile` : ``}`}
 		>
 			<CloseButton
-				onSetActiveEvent={onSetActiveEvent}
-				onSetShowEventDetail={onSetShowEventDetail}
+				onSetActiveEvent={onSetActiveFocus}
+				onSetShowEventDetail={onSetShowFocusDetail}
 			/>
 
 			<h2 className="article-detail-title">
-				{activeEvent
-					? activeEvent.frontmatter.title
+				{activeFocus && activeFocus.frontmatter
+					? activeFocus.frontmatter.title
 					: title
 					? title
 					: ""}
 			</h2>
+
 			<section className="content">
-				{((activeEvent && activeEvent.frontmatter.content) || []).map(
-					el => {
+				{activeFocus &&
+					(activeFocus.frontmatter.content || []).map(el => {
 						if (el.type === "images") {
 							return (
 								<>
-									{el.image && (
+									{" "}
+									{el.image ? (
 										<FluidImage image={el.image} />
+									) : (
+										<img src={el.image} alt="" />
 									)}
 									<p className="caption">
 										{el.caption ? el.caption : ""}
@@ -58,11 +63,22 @@ const EventDetail = ({
 								/>
 							);
 						}
-					}
+					})}
+
+				{activeFocus && activeFocus.frontmatter.PDF ? (
+					<a
+						className="pdf-download"
+						href={activeFocus.frontmatter.PDF.publicURL}
+						target="_blank"
+					>
+						Download Article
+					</a>
+				) : (
+					""
 				)}
 			</section>
 			<section className="content">
-				{!activeEvent &&
+				{!activeFocus &&
 					content &&
 					content.map(el => {
 						if (el.type === "images") {
@@ -81,9 +97,18 @@ const EventDetail = ({
 							);
 						}
 					})}
+				{PDF && (
+					<a
+						className="pdf-download"
+						href={PDF.publicURL}
+						target="_blank"
+					>
+						Download Article
+					</a>
+				)}
 			</section>
 		</div>
 	);
 };
 
-export default EventDetail;
+export default FocusDetail;

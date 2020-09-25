@@ -1,0 +1,73 @@
+.magic-logo {
+	position: fixed;
+	right: 0;
+	z-index: 9;
+	pointer-events: none;
+	mix-blend-mode: difference;
+	background-size: 0;
+	background-repeat: no-repeat;
+}
+.magic-logo__img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	pointer-events: none;
+	opacity: 0;
+}
+.magic-logo__img .gatsby-image-wrapper {
+	margin: 0;
+	width: 100%;
+	max-width: 100%;
+}
+
+.magic-logo.not-active .rectangle-background {
+	background: #000;
+}
+@media screen and (max-width: 900px) {
+	.magic-logo.not-active .rectangle-background {
+		background: #fff;
+	}
+}
+
+.rectangle {
+	float: left;
+	background-attachment: fixed;
+	background-position-x: 100%;
+	background-position-y: 20%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	mix-blend-mode: difference;
+	background-blend-mode: screen;
+}
+
+.rectangle-background {
+	background-image: inherit;
+}
+
+@include breakpoint-max("small") {
+	.magic-logo {
+		width: 310px;
+		left: 0;
+	}
+	.rectangle {
+		height: 40px;
+		width: 10px;
+	}
+}
+
+@include breakpoint("small") {
+	.magic-logo {
+		position: fixed;
+		width: 620px;
+		right: 0;
+		z-index: 9;
+	}
+
+	.rectangle {
+		height: 80px;
+		width: 20px;
+	}
+}

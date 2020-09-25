@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ProductDetail from "../../components/ProductDetail";
+import { ProductDetail } from "_components";
 
 const ProductPagePreview = ({ entry, getAsset }) => {
 	return (

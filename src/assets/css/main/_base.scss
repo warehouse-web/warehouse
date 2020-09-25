@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+li,
+p {
+	font-family: $font-family;
+}
+p > a {
+	text-decoration: underline;
+}
+
+@include breakpoint("small") {
+	html {
+		background-color: white;
+	}
+	h1,
+	h2,
+	h3,
+	li,
+	p {
+		color: black;
+	}
+}
+
+@include breakpoint-max("small") {
+	html {
+		background-color: black;
+		overflow-x: hidden;
+	}
+
+	.navbar {
+		display: none;
+	}
+}
+
+/// square - i dont know what this is
+.square {
+	position: relative;
+	width: 100%;
+	background-image: url("../img/logo.png");
+}
+
+.square:after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}

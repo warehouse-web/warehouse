@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import EventDetail from "../../components/EventDetail";
+import { EventDetail } from "_components";
 const EventPostPreview = ({ entry, getAsset }) => {
 	const data = entry.get("data").toJS();
 	// const { content } = data;

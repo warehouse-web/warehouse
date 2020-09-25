@@ -1,21 +1,16 @@
 import React, { useState, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
-import Layout from "../components/Layout";
+import { Layout, MagicLogo, FocusDetail, EventDetail } from "_components";
 import {
 	renderHtmlToReact,
 	isDateBeforeToday,
-	imagesFromAst,
-	relayout,
 	postType,
-	useWindowSize,
 	useMedia,
 	renderImg,
-	useSetShiftRatio
-} from "../components/utils";
-import EventDetail from "../components/EventDetail";
-import DivOverlay from "../components/DivOverlay";
-import FocusDetail from "../components/FocusDetail";
+	useSetShiftRatio,
+	useChangeMagicLogo
+} from "_utils/utils";
 
 export const IndexPageTemplate = ({ data }) => {
 	return (
@@ -29,43 +24,28 @@ IndexPageTemplate.propTypes = {
 	title: PropTypes.string
 };
 // MAIN PAGE LOADS EVERYTHING
-export const IndexPage = ({ data }) => {
+export const IndexPage = ({
+	data: {
+		allMarkdownRemark: { edges: posts }
+	}
+}) => {
+	//details
 	const match = useMedia("(max-width: 900px) ");
-	const { edges: posts } = data.allMarkdownRemark;
 	const [activeEvent, setActiveEvent] = useState({});
 	const [showEventDetail, setShowEventDetail] = useState(false);
-	const [isMobile, setIsMobile] = useState(match);
-	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
-	const size = useWindowSize();
+
+	// main
+	const [divStyle, setDivStyle] = useState(false);
 	const shift = useSetShiftRatio();
 	useEffect(() => {
+		// shift layout
 		shift;
+		// on scroll
+		useChangeMagicLogo();
 	}, []);
 
+	// article
 	const articleRef = useRef();
-
-	const removeImg = () => {
-		if (size.width < 900) {
-			setDivStyle({ backgroundColor: "white" });
-		} else {
-			setDivStyle({ backgroundColor: "black" });
-		}
-	};
-
-	// CHANGING LOGO COLOR
-	useEffect(() => {
-		size.width > 900
-			? setDivStyle({ backgroundColor: "black" })
-			: setDivStyle({ backgroundColor: "white" });
-	}, []);
-
-	useEffect(() => {
-		window.addEventListener("scroll", relayout);
-		return () => {
-			window.removeEventListener("scroll", relayout);
-		};
-	}, []);
-
 	const openEvent = event => {
 		const isClient = typeof window === "object";
 		if (isClient && articleRef.current) {
@@ -86,31 +66,31 @@ export const IndexPage = ({ data }) => {
 
 	return (
 		<Layout>
-			<DivOverlay currImg={divStyle} />
-			<div className="wrapper">
-				<div className="article-list">
+			<MagicLogo currImg={divStyle} />
+			<div className="index-page">
+				<div className="index-page__list">
 					{posts &&
 						posts.map(({ node: post }) => {
 							return (
 								<article
 									key={post.id}
 									onPointerEnter={() =>
-										renderImg(post, setDivStyle, size)
+										renderImg(post, setDivStyle)
 									}
-									onPointerLeave={() => removeImg()}
+									onPointerLeave={() => setDivStyle(false)}
 									onClick={() => openEvent(post)}
-									className={`blog-list-item post ${
+									className={`index-page__item ${
 										post === activeEvent.event
-											? "selected"
+											? "is-selected"
 											: ""
 									}`}
 								>
-									<header>
+									<div className="index-page__item-header">
 										{post.frontmatter.date &&
 											post.frontmatter.templateKey ===
 												"event-post" &&
 											isDateBeforeToday(post) && (
-												<h2 className="post-type">
+												<h2 className="index-page__item-type">
 													Past {postType(post)}
 												</h2>
 											)}
@@ -118,26 +98,26 @@ export const IndexPage = ({ data }) => {
 											post.frontmatter.templateKey ===
 												"event-post" &&
 											!isDateBeforeToday(post) && (
-												<h2 className="post-type">
+												<h2 className="index-page__item-type">
 													Upcoming {postType(post)}
 												</h2>
 											)}
 										{post.frontmatter.templateKey !==
 											"event-post" && (
-											<h2 className="post-type">
+											<h2 className="index-page__item-type">
 												{postType(post)}
 											</h2>
 										)}
-										<h1 className="post-title">
+										<h1 className="index-page__item-title">
 											{post.frontmatter.title}
 										</h1>
-										<h2 className="post-meta">
+										<h2 className="index-page__item-meta">
 											{post.frontmatter.date}
 										</h2>
 										{post.frontmatter.location && (
 											<h2>{post.frontmatter.location}</h2>
 										)}
-									</header>
+									</div>
 								</article>
 							);
 						})}

@@ -41,32 +41,23 @@ const Nesletter = () => {
 		return false;
 	};
 	return (
-		<form style={{ marginBottom: "2rem" }} onSubmit={handleSubmit}>
-			<p style={{ color: "white" }}>Newsletter</p>
+		<form class="newsletter" onSubmit={handleSubmit}>
+			<p>Newsletter</p>
 			{isSuccess ? (
 				<>
-					<div style={{ color: white }}>
-						Thank you! You've subscribed.
-					</div>
+					<p>Thank you! You've subscribed.</p>
 				</>
 			) : (
 				<>
-					<input
-						onChange={handleInput}
-						placeholder="enter your email address"
-						value={email}
-						type="text"
-						style={{ padding: ".2rem" }}
-					/>
-					<button
-						style={{
-							marginLeft: "1rem",
-							padding: ".2rem"
-						}}
-						alt="submit"
-					>
-						Subscribe
-					</button>
+					<div className="newsletter__inner">
+						<input
+							onChange={handleInput}
+							placeholder="enter your email address"
+							value={email}
+							type="text"
+						/>
+						<button alt="submit">Subscribe</button>
+					</div>
 					{error !== "" && <p>{error}</p>}
 				</>
 			)}

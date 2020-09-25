@@ -1,10 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql, Link } from "gatsby";
-import Layout from "../components/Layout";
-import Newsletter from "../components/Newsletter";
+import { Layout } from "_components";
+import { Newsletter, FluidImage } from "_components";
 import ReactMarkdown from "react-markdown";
-import FluidImage from "../components/FluidImage";
 
 export const AboutPageTemplate = ({
 	title,
@@ -66,7 +65,9 @@ export const AboutPageTemplate = ({
 							source={other}
 						/>
 					</div>
-					<Newsletter />
+					<div className="about-other">
+						<Newsletter />
+					</div>
 				</div>
 			</div>
 		</div>

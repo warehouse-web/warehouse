@@ -1,115 +1,93 @@
 import React from "react";
-import CloseButton from "./CloseButton";
+import Img from "gatsby-image";
 import ReactMarkdown from "react-markdown";
-import FluidImage from "./FluidImage";
 
-const FocusDetail = ({
-	activeFocus,
-	onSetActiveFocus,
-	onSetShowFocusDetail,
-	renderHtmlToReact,
+import { CloseButton, FluidImage } from "_components";
+
+const EventDetail = ({
+	match,
+	activeEvent,
+	onSetActiveEvent,
+	onSetShowEventDetail,
 	title,
 	content,
-	PDF,
 	location,
 	date,
 	image,
 	getAsset,
 	articleRef,
-	match
+	entry,
+	id
 }) => {
-	console.log("PDF:", PDF);
 	return (
 		<div
 			ref={articleRef}
 			className={`article-detail ${match ? `mobile` : ``}`}
+			key={id}
 		>
-			{}
 			<CloseButton
-				onSetActiveEvent={onSetActiveFocus}
-				onSetShowEventDetail={onSetShowFocusDetail}
+				onSetActiveEvent={onSetActiveEvent}
+				onSetShowEventDetail={onSetShowEventDetail}
 			/>
 
 			<h2 className="article-detail-title">
-				{activeFocus && activeFocus.frontmatter
-					? activeFocus.frontmatter.title
+				{activeEvent
+					? activeEvent.frontmatter.title
 					: title
 					? title
 					: ""}
 			</h2>
-
 			<section className="content">
-				{activeFocus &&
-					(activeFocus.frontmatter.content || []).map(el => {
+				{((activeEvent && activeEvent.frontmatter.content) || []).map(
+					(el, i) => {
 						if (el.type === "images") {
 							return (
-								<>
-									{" "}
-									{el.image ? (
+								<div key={`content--` + i}>
+									{el.image && (
 										<FluidImage image={el.image} />
-									) : (
-										<img src={el.image} alt="" />
 									)}
 									<p className="caption">
 										{el.caption ? el.caption : ""}
 									</p>
-								</>
+								</div>
 							);
 						} else {
 							return (
 								<ReactMarkdown
+									key={`content--` + i}
 									linkTarget={"_blank"}
 									escapeHtml={false}
 									source={el.body}
 								/>
 							);
 						}
-					})}
-
-				{activeFocus && activeFocus.frontmatter.PDF ? (
-					<a
-						className="pdf-download"
-						href={activeFocus.frontmatter.PDF.publicURL}
-						target="_blank"
-					>
-						Download Article
-					</a>
-				) : (
-					""
+					}
 				)}
 			</section>
 			<section className="content">
-				{!activeFocus &&
+				{!activeEvent &&
 					content &&
-					content.map(el => {
+					content.map((el, i) => {
 						if (el.type === "images") {
 							return (
-								<>
+								<div key={`content-two--` + i}>
 									<img src={getAsset(el.image)} alt="" />
 									<p className="caption">{el.caption}</p>
-								</>
+								</div>
 							);
 						} else if (el.type === "text") {
 							return (
 								<ReactMarkdown
+									key={`content-two--` + i}
 									escapeHtml={false}
 									source={el.body}
 								/>
 							);
 						}
 					})}
-				{PDF && (
-					<a
-						className="pdf-download"
-						href={PDF.publicURL}
-						target="_blank"
-					>
-						Download Article
-					</a>
-				)}
 			</section>
 		</div>
 	);
 };
 
-export default FocusDetail;
+export default EventDetail;

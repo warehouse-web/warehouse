@@ -2,10 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
-import Layout from "../components/Layout";
-import Content, { HTMLContent } from "../components/utils";
-import "../components/main.css";
-import FocusRoll from "../components/FocusRoll";
+import { Layout, FocusRoll } from "_components";
+import Content, { HTMLContent } from "_utils/utils";
 
 export const FocusPageTemplate = ({
 	content,

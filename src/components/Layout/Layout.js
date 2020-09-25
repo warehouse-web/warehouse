@@ -1,13 +1,9 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 
-import Navbar from "../components/Navbar";
-import Burger from "../components/Burger/Burger";
-import Menu from "../components/Menu/Menu";
+import { Navbar, Burger, Menu } from "_components";
 
-import "./all.sass";
-import "./main.css";
-import useSiteMetadata from "./SiteMetadata";
+import useSiteMetadata from "_utils/SiteMetadata";
 import { withPrefix } from "gatsby";
 import { Link } from "gatsby";
 

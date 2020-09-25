@@ -1,15 +1,13 @@
-import React from 'react'
+import React from "react";
 
-import Layout from '../../components/Layout'
-import FocusRoll from '../../components/FocusRoll'
+import { Layout, FocusRoll } from "_components";
 
 export default class FocusIndexPage extends React.Component {
-
-  render() {
-    return (
-      <Layout>
-        <FocusRoll location="test"/>
-      </Layout>
-    )
-  }
+	render() {
+		return (
+			<Layout>
+				<FocusRoll location="test" />
+			</Layout>
+		);
+	}
 }

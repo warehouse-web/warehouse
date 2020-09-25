@@ -1,37 +1,38 @@
 import React, { useState, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
-import "./main.css";
-import DivOverlay from "./DivOverlay";
+import { MagicLogo, ProductDetail } from "_components";
 import {
 	renderHtmlToReact,
 	useMedia,
-	imagesFromAst,
-	relayout,
-	useWindowSize,
+	isDateBeforeToday,
 	renderImg,
-	removeImg,
-	useSetDivBg,
 	useChangeMagicLogo,
 	useSetShiftRatio
-} from "../components/utils";
-import ProductDetail from "./ProductDetail";
+} from "_utils/utils";
 
 const ShopRoll = ({
 	data: {
 		allMarkdownRemark: { edges: products }
 	}
 }) => {
+	// match
+	const match = useMedia("(max-width: 900px) ");
 	const [activeProduct, setActiveProduct] = useState(null);
 	const [showProductDetail, setShowProductDetail] = useState(false);
-	const articleRef = useRef();
-	const match = useMedia("(max-width: 900px) ");
-	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
-	const size = useWindowSize();
+
+	// main
+	const [divStyle, setDivStyle] = useState(false);
 	const shift = useSetShiftRatio();
 	useEffect(() => {
+		// shift layout
 		shift;
+		// on scroll
+		useChangeMagicLogo();
 	}, []);
+
+	// article
+	const articleRef = useRef();
 
 	const openProduct = product => {
 		const isClient = typeof window === "object";
@@ -48,15 +49,6 @@ const ShopRoll = ({
 		setShowProductDetail(true);
 	};
 
-	// CHANGING LOGO COLOR
-	useEffect(() => {
-		useSetDivBg(setDivStyle);
-	}, [size]);
-
-	useEffect(() => {
-		useChangeMagicLogo();
-	}, []);
-
 	useEffect(() => {
 		products &&
 			products.map(product => {
@@ -70,25 +62,27 @@ const ShopRoll = ({
 
 	return (
 		<>
-			<DivOverlay currImg={divStyle} />
-			<div className="wrapper">
-				<div className="article-list">
+			<MagicLogo currImg={divStyle} />
+			<div className="index-page">
+				<div className="index-page__list">
 					{products &&
 						products.map(({ node: product }) => (
 							<article
 								key={product.id}
 								onClick={() => openProduct(product)}
-								className={`blog-list-item post ${
-									product === activeProduct ? "selected" : ""
+								className={`index-page__item ${
+									product === activeProduct
+										? "is-selected"
+										: ""
 								}`}
 								onPointerEnter={() =>
-									renderImg(product, setDivStyle, size)
+									renderImg(product, setDivStyle)
 								}
-								onPointerLeave={() => removeImg(setDivStyle)}
+								onPointerLeave={() => setDivStyle(false)}
 							>
-								<h2 className="post-type">Shop</h2>
+								<h2 className="index-page__item-type">Shop</h2>
 								<header>
-									<p className="post-meta">
+									<p className="index-page__item-meta">
 										{product.frontmatter.title}
 									</p>
 									<h2>By {product.frontmatter.author}</h2>

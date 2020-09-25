@@ -15,10 +15,22 @@ module.exports = {
 	siteMetadata: {
 		title: "Warehouse",
 		description:
-			"This is the Warehouse website built for WAREHOUSE collective by Zuzana and Jurgis",
+			"This is the Warehouse website built for WAREHOUSE collective by Zuzana and Jurgis. Further developed by Eurico",
 		author: "Zuzana Kostelanska"
 	},
 	plugins: [
+		{
+			resolve: `gatsby-plugin-alias-imports`,
+			options: {
+				alias: {
+					_src: "src",
+					_components: "src/components/components.js",
+					_templates: "src/templates",
+					_utils: "src/utils"
+				},
+				extensions: ["js"]
+			}
+		},
 		"gatsby-plugin-sharp",
 		"gatsby-transformer-sharp",
 		"gatsby-plugin-react-helmet",

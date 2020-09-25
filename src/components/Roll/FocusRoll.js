@@ -1,8 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
-import "./main.css";
-import DivOverlay from "./DivOverlay";
+import { MagicLogo, FocusDetail } from "_components";
 import {
 	renderHtmlToReact,
 	useMedia,
@@ -14,24 +13,30 @@ import {
 	useSetDivBg,
 	useChangeMagicLogo,
 	useSetShiftRatio
-} from "./utils";
-import FocusDetail from "./FocusDetail";
+} from "_utils/utils";
 
 const FocusRoll = ({
 	data: {
 		allMarkdownRemark: { edges: posts }
 	}
 }) => {
+	// mathc
+	const match = useMedia("(max-width: 900px) ");
 	const [activeFocus, setActiveFocus] = useState(null);
 	const [showFocusDetail, setShowFocusDetail] = useState(false);
-	const articleRef = useRef();
-	const match = useMedia("(max-width: 900px) ");
-	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
-	const size = useWindowSize();
+	// main
+	const [divStyle, setDivStyle] = useState(false);
 	const shift = useSetShiftRatio();
 	useEffect(() => {
+		// shift layout
 		shift;
+		// on scroll
+		useChangeMagicLogo();
 	}, []);
+
+	// article
+	const articleRef = useRef();
+
 	const openFocus = focus => {
 		const isClient = typeof window === "object";
 		if (isClient && articleRef.current) {
@@ -49,15 +54,6 @@ const FocusRoll = ({
 		setShowFocusDetail(true);
 	};
 
-	// CHANGING LOGO COLOR
-	useEffect(() => {
-		useSetDivBg(setDivStyle);
-	}, [size]);
-
-	useEffect(() => {
-		useChangeMagicLogo();
-	}, []);
-
 	useEffect(() => {
 		posts &&
 			posts.map(post => {
@@ -70,28 +66,28 @@ const FocusRoll = ({
 	}, []);
 	return (
 		<>
-			<DivOverlay currImg={divStyle} />
-			<div className="wrapper">
-				<div className="article-list">
+			<MagicLogo currImg={divStyle} />
+			<div className="index-page">
+				<div className="index-page__list">
 					{posts &&
 						posts.map(({ node: post }) => (
 							<article
 								key={post.id}
 								onClick={() => openFocus(post)}
-								className={`blog-list-item post ${
-									post === activeFocus ? "selected" : ""
+								className={`index-page__item ${
+									post === activeFocus ? "is-selected" : ""
 								}`}
 								onPointerEnter={() =>
-									renderImg(post, setDivStyle, size)
+									renderImg(post, setDivStyle)
 								}
-								onPointerLeave={() => removeImg(setDivStyle)}
+								onPointerLeave={() => setDivStyle(false)}
 							>
-								<h2 className="post-type">Focus</h2>
+								<h2 className="index-page__item-type">Focus</h2>
 								<header>
-									<p className="post-meta">
+									<p className="index-page__item-meta">
 										{post.frontmatter.title}
 									</p>
-									<h2 className="post-meta">
+									<h2 className="index-page__item-meta">
 										{post.frontmatter.date}
 									</h2>
 									<h2>By {post.frontmatter.author}</h2>

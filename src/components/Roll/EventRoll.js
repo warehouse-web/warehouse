@@ -1,38 +1,38 @@
 import React, { useState, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
-import "./main.css";
-import Img from "gatsby-image";
-import DivOverlay from "./DivOverlay";
+import { MagicLogo, EventDetail } from "_components";
 import {
 	renderHtmlToReact,
 	useMedia,
-	imagesFromAst,
-	useWindowSize,
 	isDateBeforeToday,
 	renderImg,
-	removeImg,
-	useSetDivBg,
 	useChangeMagicLogo,
 	useSetShiftRatio
-} from "./utils";
-import EventDetail from "./EventDetail";
+} from "_utils/utils";
 
 const EventRoll = ({
 	data: {
 		allMarkdownRemark: { edges: posts }
 	}
 }) => {
+	// match
+	const match = useMedia("(max-width: 900px) ");
 	const [activeEvent, setActiveEvent] = useState(null);
 	const [showEventDetail, setShowEventDetail] = useState(false);
-	const articleRef = useRef();
-	const match = useMedia("(max-width: 900px) ");
-	const [divStyle, setDivStyle] = useState({ backgroundColor: "black" });
-	const size = useWindowSize();
+
+	// main
+	const [divStyle, setDivStyle] = useState(false);
 	const shift = useSetShiftRatio();
 	useEffect(() => {
+		// shift layout
 		shift;
+		// on scroll
+		useChangeMagicLogo();
 	}, []);
+
+	// article
+	const articleRef = useRef();
 
 	const openEvent = event => {
 		const isClient = typeof window === "object";
@@ -51,15 +51,6 @@ const EventRoll = ({
 		setShowEventDetail(true);
 	};
 
-	// CHANGING LOGO COLOR
-	useEffect(() => {
-		useSetDivBg(setDivStyle);
-	}, [size]);
-
-	useEffect(() => {
-		useChangeMagicLogo();
-	}, []);
-
 	// when we open the website so that we are in the right post
 	useEffect(() => {
 		posts &&
@@ -74,37 +65,37 @@ const EventRoll = ({
 
 	return (
 		<>
-			<DivOverlay currImg={divStyle} />
-			<div className="wrapper">
-				<div className="article-list">
+			<MagicLogo currImg={divStyle} />
+			<div className="index-page">
+				<div className="index-page__list">
 					{posts &&
 						posts.map(({ node: post }) => (
 							<article
 								key={post.id}
 								onClick={() => openEvent(post)}
-								className={`blog-list-item post ${
-									post === activeEvent ? "selected" : ""
+								className={`index-page__item ${
+									post === activeEvent ? "is-selected" : ""
 								}`}
 								onPointerEnter={() =>
-									renderImg(post, setDivStyle, size)
+									renderImg(post, setDivStyle)
 								}
-								onPointerLeave={() => removeImg(setDivStyle)}
+								onPointerLeave={() => setDivStyle(false)}
 							>
 								{post.frontmatter.date &&
 									isDateBeforeToday(post) && (
-										<h2 className="post-type">
+										<h2 className="index-page__item-type">
 											Past Event
 										</h2>
 									)}
 								{post.frontmatter.date &&
 									!isDateBeforeToday(post) && (
-										<h2 className="post-type">
+										<h2 className="index-page__item-type">
 											Upcoming Event
 										</h2>
 									)}
 								<header>
 									<h1>{post.frontmatter.title}</h1>
-									<h2 className="post-meta">
+									<h2 className="index-page__item-meta">
 										{post.frontmatter.date}
 									</h2>
 									{post.frontmatter.location && (

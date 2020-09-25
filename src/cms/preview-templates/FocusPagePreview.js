@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import FocusDetail from "../../components/FocusDetail";
+import { FocusDetail } from "_components";
 
 const FocusPagePreview = ({ entry, getAsset }) => {
 	return (

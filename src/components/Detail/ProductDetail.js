@@ -1,7 +1,6 @@
 import React from "react";
-import CloseButton from "./CloseButton";
+import { CloseButton, FluidImage } from "_components";
 import ReactMarkdown from "react-markdown";
-import FluidImage from "./FluidImage";
 
 const ProductDetail = ({
 	onSetActiveProduct,
