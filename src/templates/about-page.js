@@ -35,26 +35,26 @@ export const AboutPageTemplate = ({
 						escapeHtml={false}
 						source={rightColumn}
 					/>
-					<ul className="colophon">
+					<div className="colophon">
 						{blurbs &&
-							(blurbs || []).map(el => {
+							(blurbs || []).map((el, i) => {
 								return (
-									<>
+									<ul key={"colophon--" + i}>
 										<li>{el.title}</li>
 										<li>{el.subtitle}</li>
-									</>
+									</ul>
 								);
 							})}
-					</ul>
+					</div>
 					{images &&
-						images.map(({ image, caption }) => {
+						images.map(({ image, caption }, i) => {
 							return (
-								<>
+								<div key={"img--" + i}>
 									{image && <FluidImage image={image} />}
 									<p className="caption caption-about">
 										{caption ? caption : ""}
 									</p>
-								</>
+								</div>
 							);
 						})}
 
@@ -95,7 +95,7 @@ const AboutPage = ({ data }) => {
 				caption={post.frontmatter.caption}
 				images={post.frontmatter.images}
 			/>
-			{console.log("post.frontmatter.image:", post.frontmatter.image)}
+			{/* {console.log("post.frontmatter.image:", post.frontmatter.image)} */}
 		</Layout>
 	);
 };

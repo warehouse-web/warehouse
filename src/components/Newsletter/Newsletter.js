@@ -9,7 +9,7 @@ const Nesletter = () => {
 	const handleSubmit = async event => {
 		event.preventDefault();
 
-		console.log(email);
+		// console.log(email);
 		setError("");
 
 		try {
@@ -33,15 +33,15 @@ const Nesletter = () => {
 				const body = await response.json();
 				setError(body.errorMessage);
 			}
-			console.log("body:", body);
+			// console.log("body:", body);
 		} catch (error) {
-			console.log("tryCATCH", error);
+			// console.log("tryCATCH", error);
 			setError("Failed to submit. Please check email and try again.");
 		}
 		return false;
 	};
 	return (
-		<form class="newsletter" onSubmit={handleSubmit}>
+		<form className="newsletter" onSubmit={handleSubmit}>
 			<p>Newsletter</p>
 			{isSuccess ? (
 				<>
