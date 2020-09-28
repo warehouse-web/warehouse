@@ -1,13 +1,6 @@
 import React from "react";
+import IndexFocus from "_templates/index-focus";
 
-import { Layout, FocusRoll } from "_components";
+const FocusIndexPage = () => <IndexFocus />;
 
-export default class FocusIndexPage extends React.Component {
-	render() {
-		return (
-			<Layout>
-				<FocusRoll location="test" />
-			</Layout>
-		);
-	}
-}
+export default FocusIndexPage;

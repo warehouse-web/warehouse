@@ -1,13 +1,18 @@
 import React from "react";
 import { navigate } from "gatsby";
 
-const CloseButton = ({ onSetActiveEvent, onSetShowEventDetail }) => {
+const CloseButton = ({ onSetActive, onSetShowDetail }) => {
 	const handleClick = () => {
-		if (!onSetActiveEvent || !onSetShowEventDetail) {
+		if (!onSetActive || !onSetShowDetail) {
 			navigate("/about");
 		} else {
-			onSetActiveEvent({});
-			onSetShowEventDetail(false);
+			const before = window.history.state.before;
+			if (before) {
+				window.history.pushState(null, before.title, before.slug);
+			}
+
+			onSetActive({});
+			onSetShowDetail(false);
 		}
 	};
 	return (

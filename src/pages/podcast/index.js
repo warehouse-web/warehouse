@@ -1,13 +1,6 @@
 import React from "react";
+import IndexPodcast from "_templates/index-podcast";
 
-import { Layout, PodcastRoll } from "_components";
+const PodcastIndexPage = () => <IndexPodcast />;
 
-export default class PodcastIndexPage extends React.Component {
-	render() {
-		return (
-			<Layout>
-				<PodcastRoll location="test" />
-			</Layout>
-		);
-	}
-}
+export default PodcastIndexPage;

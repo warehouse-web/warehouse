@@ -3,30 +3,17 @@ import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import { Roll, Layout } from "_components";
 
-export const IndexPageTemplate = ({ data }) => {
-	return (
-		<Layout>
-			<IndexPage />
-		</Layout>
-	);
-};
-IndexPageTemplate.propTypes = {
-	image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-	title: PropTypes.string
-};
-// MAIN PAGE LOADS EVERYTHING
-export const IndexPage = ({
+export const IndexFocus = ({
 	data: {
 		allMarkdownRemark: { edges: posts }
 	}
 }) => {
 	return <Roll posts={posts} />;
 };
-
-IndexPage.propTypes = {
+IndexFocus.propTypes = {
 	data: PropTypes.shape({
-		markdownRemark: PropTypes.shape({
-			frontmatter: PropTypes.object
+		allMarkdownRemark: PropTypes.shape({
+			edges: PropTypes.array
 		})
 	})
 };
@@ -34,20 +21,11 @@ IndexPage.propTypes = {
 export default () => (
 	<StaticQuery
 		query={graphql`
-			query AllPostsQuery {
+			query IndexFocusQuerry {
 				allMarkdownRemark(
 					sort: { order: DESC, fields: [frontmatter___date] }
 					filter: {
-						frontmatter: {
-							templateKey: {
-								in: [
-									"event-post"
-									"podcast-page"
-									"product-page"
-									"focus-page"
-								]
-							}
-						}
+						frontmatter: { templateKey: { eq: "focus-page" } }
 					}
 				) {
 					edges {
@@ -60,15 +38,14 @@ export default () => (
 							frontmatter {
 								title
 								templateKey
-								date(formatString: "MMMM DD, YYYY")
-								location
 								author
+								date(formatString: "MMMM DD, YYYY")
 								content {
 									type
 									image {
 										publicURL
 										childImageSharp {
-											fluid(maxWidth: 1040, quality: 90) {
+											fluid(maxWidth: 1040, quality: 80) {
 												...GatsbyImageSharpFluid_withWebp_tracedSVG
 											}
 										}
@@ -85,6 +62,6 @@ export default () => (
 				}
 			}
 		`}
-		render={(data, count) => <IndexPage data={data} count={count} />}
+		render={(data, count) => <IndexFocus data={data} count={count} />}
 	/>
 );

@@ -1,9 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Helmet from "react-helmet";
-import { graphql, Link } from "gatsby";
-import { Layout, FocusRoll } from "_components";
-import Content, { HTMLContent } from "_utils/utils";
+import { graphql } from "gatsby";
+import Content from "_utils/utils";
+import IndexFocus from "_templates/index-focus";
 
 export const FocusPageTemplate = ({
 	content,
@@ -51,11 +50,7 @@ FocusPageTemplate.propTypes = {
 const FocusPage = ({ data }) => {
 	const { markdownRemark: post } = data;
 
-	return (
-		<Layout>
-			<FocusRoll />
-		</Layout>
-	);
+	return <IndexFocus />;
 };
 
 FocusPage.propTypes = {

@@ -1,13 +1,6 @@
 import React from "react";
+import IndexEvent from "_templates/index-event";
 
-import { Layout, EventRoll } from "_components";
+const EventIndexPage = () => <IndexEvent />;
 
-export default class BlogIndexPage extends React.Component {
-	render() {
-		return (
-			<Layout>
-				<EventRoll location="test" />
-			</Layout>
-		);
-	}
-}
+export default EventIndexPage;

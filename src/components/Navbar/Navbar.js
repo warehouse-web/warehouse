@@ -31,6 +31,7 @@ const Navbar = class extends React.Component {
 						</Link>
 						<Link
 							activeClassName="active"
+							partiallyActive={true}
 							className="navbar-item"
 							to="/events"
 						>
@@ -38,6 +39,7 @@ const Navbar = class extends React.Component {
 						</Link>
 						<Link
 							activeClassName="active"
+							partiallyActive={true}
 							className="navbar-item"
 							to="/focus"
 						>
@@ -45,6 +47,7 @@ const Navbar = class extends React.Component {
 						</Link>
 						<Link
 							activeClassName="active"
+							partiallyActive={true}
 							className="navbar-item"
 							to="/podcast"
 						>
@@ -52,6 +55,7 @@ const Navbar = class extends React.Component {
 						</Link>
 						<Link
 							activeClassName="active"
+							partiallyActive={true}
 							className="navbar-item"
 							to="/shop"
 						>

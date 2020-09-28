@@ -10,6 +10,7 @@ import { Link } from "gatsby";
 const TemplateWrapper = ({ children }) => {
 	const { title, description } = useSiteMetadata();
 	const [open, setOpen] = useState(false);
+
 	return (
 		<div style={{ isolation: "isolate" }}>
 			<nav className="burger-menu">

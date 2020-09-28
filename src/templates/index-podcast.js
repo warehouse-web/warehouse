@@ -1,33 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
-import { MagicLogo } from "_components";
-import {
-	renderHtmlToReact,
-	useMedia,
-	isDateBeforeToday,
-	renderImg,
-	useChangeMagicLogo,
-	useSetShiftRatio
-} from "_utils/utils";
+import { Roll, Layout } from "_components";
 
-const PodcastRoll = ({ data }) => {
-	// main
-	const [divStyle, setDivStyle] = useState(false);
-
-	return (
-		<>
-			<MagicLogo currImg={divStyle} />
-			<div className="index-page">
-				<div className="index-page__list">
-					<h1>Coming soon..</h1>
-				</div>
-			</div>
-		</>
-	);
+export const IndexPodcast = ({
+	data: {
+		allMarkdownRemark: { edges: posts }
+	}
+}) => {
+	return <Roll posts={posts} />;
 };
 
-PodcastRoll.propTypes = {
+IndexPodcast.propTypes = {
 	data: PropTypes.shape({
 		allMarkdownRemark: PropTypes.shape({
 			edges: PropTypes.array
@@ -38,7 +22,7 @@ PodcastRoll.propTypes = {
 export default () => (
 	<StaticQuery
 		query={graphql`
-			query PodcastRollQuerry {
+			query IndexPodcastQuerry {
 				allMarkdownRemark(
 					sort: { order: DESC, fields: [frontmatter___date] }
 					filter: {
@@ -63,6 +47,6 @@ export default () => (
 				}
 			}
 		`}
-		render={(data, count) => <PodcastRoll data={data} count={count} />}
+		render={(data, count) => <IndexPodcast data={data} count={count} />}
 	/>
 );

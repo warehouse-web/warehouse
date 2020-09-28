@@ -1,14 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Helmet from "react-helmet";
-import { graphql, Link } from "gatsby";
-import { Layout, PodcastRoll } from "_components";
-import Content, { HTMLContent } from "_utils/utils";
+import { graphql } from "gatsby";
+import IndexPodcast from "_templates/index-podcast";
+import Content from "_utils/utils";
 
 export const PodcastTemplate = ({
 	content,
 	contentComponent,
-	date,
+
 	title,
 	helmet
 }) => {
@@ -48,11 +47,7 @@ PodcastTemplate.propTypes = {
 };
 
 const Podcast = data => {
-	return (
-		<Layout>
-			<p className="">coming soon </p>
-		</Layout>
-	);
+	return <IndexPodcast />;
 };
 
 Podcast.propTypes = {

@@ -1,9 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Helmet from "react-helmet";
-import { graphql, Link } from "gatsby";
-import { Layout, ShopRoll } from "_components";
-import Content, { HTMLContent } from "_utils/utils";
+import { graphql } from "gatsby";
+import Content from "_utils/utils";
+import IndexShop from "_templates/index-shop";
 
 export const ProductPageTemplate = ({
 	content,
@@ -53,11 +52,7 @@ ProductPageTemplate.propTypes = {
 const Product = ({ data }) => {
 	const { markdownRemark: post } = data;
 
-	return (
-		<Layout>
-			<ShopRoll />
-		</Layout>
-	);
+	return <IndexShop />;
 };
 
 Product.propTypes = {

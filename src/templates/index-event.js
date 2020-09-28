@@ -3,19 +3,7 @@ import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import { Roll, Layout } from "_components";
 
-export const IndexPageTemplate = ({ data }) => {
-	return (
-		<Layout>
-			<IndexPage />
-		</Layout>
-	);
-};
-IndexPageTemplate.propTypes = {
-	image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-	title: PropTypes.string
-};
-// MAIN PAGE LOADS EVERYTHING
-export const IndexPage = ({
+const EventIndexPage = ({
 	data: {
 		allMarkdownRemark: { edges: posts }
 	}
@@ -23,10 +11,10 @@ export const IndexPage = ({
 	return <Roll posts={posts} />;
 };
 
-IndexPage.propTypes = {
+EventIndexPage.propTypes = {
 	data: PropTypes.shape({
-		markdownRemark: PropTypes.shape({
-			frontmatter: PropTypes.object
+		allMarkdownRemark: PropTypes.shape({
+			edges: PropTypes.array
 		})
 	})
 };
@@ -34,20 +22,11 @@ IndexPage.propTypes = {
 export default () => (
 	<StaticQuery
 		query={graphql`
-			query AllPostsQuery {
+			query IndexQuery {
 				allMarkdownRemark(
 					sort: { order: DESC, fields: [frontmatter___date] }
 					filter: {
-						frontmatter: {
-							templateKey: {
-								in: [
-									"event-post"
-									"podcast-page"
-									"product-page"
-									"focus-page"
-								]
-							}
-						}
+						frontmatter: { templateKey: { eq: "event-post" } }
 					}
 				) {
 					edges {
@@ -62,22 +41,18 @@ export default () => (
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
 								location
-								author
 								content {
 									type
 									image {
 										publicURL
 										childImageSharp {
-											fluid(maxWidth: 1040, quality: 90) {
-												...GatsbyImageSharpFluid_withWebp_tracedSVG
+											fluid(maxWidth: 1040, quality: 85) {
+												...GatsbyImageSharpFluid_tracedSVG
 											}
 										}
 									}
 									caption
 									body
-								}
-								PDF {
-									publicURL
 								}
 							}
 						}
@@ -85,6 +60,6 @@ export default () => (
 				}
 			}
 		`}
-		render={(data, count) => <IndexPage data={data} count={count} />}
+		render={(data, count) => <EventIndexPage data={data} count={count} />}
 	/>
 );

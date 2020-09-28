@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { EventDetail } from "_components";
+import { Detail } from "_components";
 const EventPostPreview = ({ entry, getAsset }) => {
 	const data = entry.get("data").toJS();
 	// const { content } = data;
@@ -12,7 +12,7 @@ const EventPostPreview = ({ entry, getAsset }) => {
 	// 	});
 	// }
 	return (
-		<EventDetail
+		<Detail
 			getAsset={getAsset}
 			// entry={entry}
 			{...entry.toJSON().data}

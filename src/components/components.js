@@ -12,13 +12,7 @@ export { default as CloseButton } from "./CloseButton/CloseButton";
 export { default as FluidImage } from "./FluidImage/FluidImage";
 export { default as Newsletter } from "./Newsletter/Newsletter";
 
-// roll
-export { default as EventRoll } from "./Roll/EventRoll";
-export { default as FocusRoll } from "./Roll/FocusRoll";
-export { default as PodcastRoll } from "./Roll/PodcastRoll";
-export { default as ShopRoll } from "./Roll/ShopRoll";
-
-// detail
-export { default as EventDetail } from "./Detail/EventDetail";
-export { default as FocusDetail } from "./Detail/FocusDetail";
-export { default as ProductDetail } from "./Detail/ProductDetail";
+//
+export { default as Item } from "./Item/Item";
+export { default as Detail } from "./Detail/Detail";
+export { default as Roll } from "./Roll/Roll";

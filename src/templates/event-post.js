@@ -1,16 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Helmet from "react-helmet";
-import { graphql, Link } from "gatsby";
-import { Layout, EventRoll } from "_components";
-import Content, { HTMLContent } from "_utils/utils";
+import { graphql } from "gatsby";
+import IndexEvent from "_templates/index-event";
+import Content from "_utils/utils";
 
-export const BlogPostTemplate = ({
-	title,
-	content,
-	contentComponent,
-	date
-}) => {
+export const BlogPostTemplate = ({ content, contentComponent, date }) => {
 	const PostContent = contentComponent || Content;
 
 	return (
@@ -35,11 +29,7 @@ BlogPostTemplate.propTypes = {
 const BlogPost = ({ data }) => {
 	const { markdownRemark: post } = data;
 
-	return (
-		<Layout>
-			<EventRoll />
-		</Layout>
-	);
+	return <IndexEvent />;
 };
 
 BlogPost.propTypes = {
