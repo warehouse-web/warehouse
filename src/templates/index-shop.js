@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
-import { Roll, Layout } from "_components";
+import { Roll } from "_components";
 
 export const IndexShop = ({
 	data: {
@@ -46,8 +46,8 @@ export default () => (
 									image {
 										publicURL
 										childImageSharp {
-											fluid(maxWidth: 1040, quality: 90) {
-												...GatsbyImageSharpFluid_tracedSVG
+											fluid(maxWidth: 1040, quality: 80) {
+												...GatsbyImageSharpFluid_withWebp_tracedSVG
 											}
 										}
 									}

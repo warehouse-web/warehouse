@@ -19,48 +19,12 @@ module.exports = {
 		author: "Zuzana Kostelanska"
 	},
 	plugins: [
-		{
-			resolve: `gatsby-plugin-alias-imports`,
-			options: {
-				alias: {
-					_src: "src",
-					_components: "src/components/components.js",
-					_templates: "src/templates",
-					_utils: "src/utils"
-				},
-				extensions: ["js"]
-			}
-		},
 		"gatsby-plugin-sharp",
 		"gatsby-transformer-sharp",
-		"gatsby-plugin-react-helmet",
-		"gatsby-plugin-sass",
-		{
-			// keep as first gatsby-source-filesystem plugin for gatsby image support
-			resolve: "gatsby-source-filesystem",
-			options: {
-				path: `${__dirname}/static/img`,
-				name: "uploads"
-			}
-		},
-		{
-			resolve: "gatsby-source-filesystem",
-			options: {
-				path: `${__dirname}/src/pages`,
-				name: "pages"
-			}
-		},
 		{
 			resolve: "gatsby-transformer-remark",
 			options: {
 				plugins: [
-					{
-						resolve: "gatsby-remark-external-links",
-						options: {
-							target: "_blank",
-							rel: "nofollow"
-						}
-					},
 					{
 						resolve: "gatsby-remark-relative-images",
 						options: {
@@ -85,9 +49,46 @@ module.exports = {
 							destinationDir: "static"
 						}
 					},
+					{
+						resolve: "gatsby-remark-external-links",
+						options: {
+							target: "_blank",
+							rel: "nofollow"
+						}
+					},
 					"gatsby-remark-component",
 					"gatsby-remark-embed-soundcloud"
 				]
+			}
+		},
+
+		{
+			resolve: `gatsby-plugin-alias-imports`,
+			options: {
+				alias: {
+					_src: "src",
+					_components: "src/components/components.js",
+					_templates: "src/templates",
+					_utils: "src/utils"
+				},
+				extensions: ["js"]
+			}
+		},
+		"gatsby-plugin-react-helmet",
+		"gatsby-plugin-sass",
+		{
+			// keep as first gatsby-source-filesystem plugin for gatsby image support
+			resolve: "gatsby-source-filesystem",
+			options: {
+				path: `${__dirname}/static/img`,
+				name: "uploads"
+			}
+		},
+		{
+			resolve: "gatsby-source-filesystem",
+			options: {
+				path: `${__dirname}/src/pages`,
+				name: "pages"
 			}
 		},
 		{

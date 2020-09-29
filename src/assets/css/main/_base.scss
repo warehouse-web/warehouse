@@ -14,22 +14,18 @@ p > a {
 	text-decoration: underline;
 }
 
-@include breakpoint("small") {
-	html {
-		background-color: white;
-	}
-	h1,
-	h2,
-	h3,
-	li,
-	p {
+body {
+	background: black;
+	color: white;
+
+	@include breakpoint("small") {
+		background: white;
 		color: black;
 	}
 }
 
 @include breakpoint-max("small") {
 	html {
-		background-color: black;
 		overflow-x: hidden;
 	}
 

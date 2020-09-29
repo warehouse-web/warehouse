@@ -1,137 +1,81 @@
-@include breakpoint-max("small") {
-	.about-caps {
-		margin-bottom: 1.8rem;
-	}
-	.about-wrapper {
-		padding-left: 1.7rem;
-		flex-direction: column;
-	}
-
-	.about-right {
-		width: 100%;
-		margin-right: 0;
-		padding-right: 1.7rem;
-		overflow-y: scroll;
-		-webkit-overflow-scrolling: touch;
-	}
-}
-
-@include breakpoint("small") {
-	.about-wrapper {
-		padding-left: 2.3rem;
-	}
-	.about-right {
-		margin-right: 2.3rem;
-		/* flex: 0 0 50%; */
-		overflow-y: scroll;
-		-webkit-overflow-scrolling: touch;
-		right: 0;
-	}
-}
-
-/* ABOUT PAGE */
-.about-background {
-	background-color: rgba(0, 0, 0, 1);
+.About {
+	background-color: #000;
+	color: #fff;
 	position: fixed;
 	width: 100%;
 	height: 100%;
 	top: 0;
 	left: 0;
 	overflow: auto;
-}
 
-.about-wrapper {
-	display: flex;
-	z-index: 999999;
-	padding-top: 1.4rem;
+	&__wrapper {
+		padding-left: 1.7rem;
+		display: flex;
+		z-index: 999999;
 
-	a {
-		color: white;
+		a {
+			color: currentColor;
+		}
+		@include breakpoint-max("small") {
+			flex-direction: column;
+		}
+		@include breakpoint("small") {
+			padding-left: 2.3rem;
+		}
 	}
-}
-.about-left {
-	flex: 0 0 50%;
-	height: 100vh;
-	position: sticky;
-	margin-top: 1rem;
-}
+	&__left {
+		flex: 0 0 50%;
+		height: 100vh;
+		padding-top: 2.4rem;
+		top: 0;
+		@include breakpoint("small") {
+			position: sticky;
+		}
+	}
+	&__title {
+		line-height: 0.3;
+		color: white;
+		font-size: 2rem;
+	}
+	&__caps {
+		color: white;
+		margin-top: 0.8rem;
+		margin-right: 4rem;
+		display: block;
+		line-height: 1.1;
+		font-size: 2rem;
+		@include breakpoint-max("small") {
+			margin-bottom: 1.8rem;
+		}
+	}
+	&__right {
+		width: 100%;
+		padding-top: 2.4rem;
+		color: white;
+		padding-right: 1.7rem;
+		-webkit-overflow-scrolling: touch;
+		overflow-y: scroll;
+		margin-right: 0;
+		right: 0;
+		top: 0;
 
-.about-title {
-	line-height: 0.3;
-	color: white;
-	font-size: 2rem;
-}
-.about-caps {
-	color: white;
-	margin-top: 0.8rem;
-	margin-right: 4rem;
-	display: block;
-	line-height: 1.1;
-	font-size: 2rem;
-}
+		@include breakpoint("small") {
+			margin-right: 2.3rem;
+		}
 
-.about-right {
-	top: 0;
-	margin-top: 1rem;
-	color: white;
-}
-
-.about-other {
-	font-family: "BradfordLLWeb-Book", "Times New Roman", Times, serif;
-	font-size: 1.15em;
-	margin-top: 1.8rem;
-	margin-right: 2.3rem;
-	padding-bottom: 2rem;
-	color: white;
-}
-
-.about-other > * {
-	color: white;
-}
-
-.about-right > p {
-	color: white;
-	line-height: 1.35;
-	font-size: 1.15em;
-}
-
-.about-description {
-	color: white;
-	font-size: 1.15rem;
-	line-height: 1.2;
-	margin-right: 3.9rem;
-}
-
-.about-description > p {
-	font-size: 1.3rem;
-}
-.colophon {
-	margin-top: 1.8rem;
-	font-size: 1.3rem;
-}
-
-.colophon ul > li {
-	color: white;
-	line-height: 0.8;
-	margin-bottom: 0.6rem;
-	font-size: 1.3rem;
-}
-
-.colophon > li > li {
-	color: white;
-	text-transform: initial;
-	font-size: 1.3rem;
-}
-
-.about-copyright {
-	color: white;
-	line-height: 1.2;
-	font-size: 0.8rem;
-	margin-right: 3.9rem;
+		& > p {
+			line-height: 1.35;
+			font-size: 1.15em;
+		}
+	}
+	&__other {
+		margin-top: 1.8rem;
+		margin-right: 2.3rem;
+		padding-bottom: 2rem;
+	}
 }
 
 // newsletter
-
 .newsletter {
 	color: white;
 	display: flex;
