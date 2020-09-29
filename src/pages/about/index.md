@@ -12,20 +12,34 @@ rightColumn: >-
   creation of a discourse that goes beyond treating fashion as a commodity.
   Warehouse was founded by Elisa van Joolen, Femke de Vries and Hanka van der
   Voet.
+
+
+  <br/>
+
+
+  * CONTACT[](mailto:info@thisiswarehouse.com)
+
+  * [info@thisiswarehouse.com](mailto:info@thisiswarehouse.com)
+
+  * INSTAGRAM
+
+  * [@amsterdam.warehouse](https://www.instagram.com/amsterdam.warehouse)
+
+  * WEBSITE DESIGN
+
+  * Zuzana Kostelanská
+
+  * PRODUCTION
+
+  * Anouk Beckers, Chet Bugter
+
+  * COMMUNICATION
+
+  * Jan Schoon
 images:
   - image: /img/01_warehouse_san_serriffe_dec2019_photo_anoukbeckers.jpg
     caption: ''
-blurbs:
-  - subtitle: info@thisiswarehouse.com
-    title: CONTACT
-  - subtitle: '@amsterdam.warehouse'
-    title: INSTAGRAM
-  - subtitle: Zuzana Kostelanská
-    title: WEBSITE DESIGN
-  - subtitle: 'Anouk Beckers, Chet Bugter'
-    title: PRODUCTION
-  - subtitle: Jan Schoon
-    title: COMMUNICATION
+blurbs: []
 other: >-
   Warehouse is made possible through the financial support of the Creative
   Industries Fund NL.
