@@ -94,6 +94,9 @@ collections:
       - label: Product Name
         name: title
         widget: string
+      - label: Price EUR
+        name: price
+        widget: number
       - label: Upload PDF
         name: PDF
         required: false
