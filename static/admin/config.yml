@@ -97,6 +97,7 @@ collections:
       - label: Price EUR
         name: price
         widget: number
+        required: false
       - label: Upload PDF
         name: PDF
         required: false
@@ -140,7 +141,7 @@ collections:
             fields:
               - label: Text
                 name: text
-                widget: text
+                widget: string
                 default: Add to cart
       - label: Author
         name: author
