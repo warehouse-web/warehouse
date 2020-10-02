@@ -31,7 +31,11 @@ const Detail = ({
 			<h2 className="article-detail-title">
 				{active ? active.frontmatter.title : title ? title : ""}
 			</h2>
-			<div className="btn">Add to cart</div>
+			{price && (
+				<div className="article-detail-price">
+					<div className="btn">Add to cart</div>
+				</div>
+			)}
 			<section className="content">
 				{((active && active.frontmatter.content) || []).map((el, i) => {
 					if (el.type === "images") {
