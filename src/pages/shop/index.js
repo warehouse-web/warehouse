@@ -1,13 +1,6 @@
-import React from 'react'
-import Layout from '../../components/Layout'
-import ShopRoll from '../../components/ShopRoll'
+import React from "react";
+import IndexShop from "_templates/index-shop";
 
-export default class BlogIndexPage extends React.Component {
-  render() {
-    return (
-      <Layout>
-        <ShopRoll location="test"/>
-      </Layout>
-    )
-  }
-}
+const ShopIndexPage = () => <IndexShop />;
+
+export default ShopIndexPage;

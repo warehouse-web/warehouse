@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ProductDetail from "../../components/ProductDetail";
+import { Detail } from "_components";
 
 const ProductPagePreview = ({ entry, getAsset }) => {
 	return (
-		<ProductDetail
+		<Detail
 			getAsset={getAsset}
 			{...entry.toJSON().data}
 			title={entry.getIn(["data", "title"])}

@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../components/Layout";
+import { Layout } from "_components";
 import { Link } from "gatsby";
 
 const NotFoundPage = () => (

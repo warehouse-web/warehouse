@@ -11,9 +11,8 @@ const AboutPagePreview = ({ entry, widgetFor }) => {
 				title={data.title}
 				leftColumn={data.leftColumn}
 				rightColumn={data.rightColumn}
-				other={data.other}
-				blurbs={data.blurbs || { blurbs: [] }}
 				images={data.images}
+				other={data.other}
 			/>
 		);
 	}

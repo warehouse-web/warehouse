@@ -1,0 +1,17 @@
+.Roll {
+	display: flex;
+	width: 100%;
+
+	@include breakpoint-max("small") {
+		padding-left: 1.8rem;
+	}
+	&__list {
+		margin-left: 2.3rem;
+		margin-top: 1.4rem;
+		flex: 0 0 100%;
+
+		@include breakpoint-max("small") {
+			margin-left: 0rem;
+		}
+	}
+}

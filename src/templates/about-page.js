@@ -1,72 +1,59 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql, Link } from "gatsby";
-import Layout from "../components/Layout";
-import Newsletter from "../components/Newsletter";
+import { Layout } from "_components";
+import { Newsletter, FluidImage } from "_components";
 import ReactMarkdown from "react-markdown";
-import FluidImage from "../components/FluidImage";
 
 export const AboutPageTemplate = ({
 	title,
 	leftColumn,
 	rightColumn,
-	html,
 	other,
-	content,
-	blurbs,
 	images
 }) => {
+	console.log(images);
 	return (
-		<div className="about-background">
+		<div className="About">
 			<Link className="close" id="white" to="/">
 				<span className="white"></span>
 				<span className="white"></span>
 			</Link>
-			<div className="about-wrapper">
-				<div className="about-left">
-					<h2 className="about-title">
+			<div className="About__wrapper">
+				<div className="About__left">
+					<h2 className="About__title">
 						{title}
-						<span className="about-caps">{leftColumn}</span>
+						<span className="About__caps">{leftColumn}</span>
 					</h2>
 				</div>
-				<div>
+				<div className="About__right">
 					<ReactMarkdown
 						linkTarget={"_blank"}
-						className="about-right"
 						escapeHtml={false}
 						source={rightColumn}
 					/>
-					<ul className="colophon">
-						{blurbs &&
-							(blurbs || []).map(el => {
-								return (
-									<>
-										<li>{el.title}</li>
-										<li>{el.subtitle}</li>
-									</>
-								);
-							})}
-					</ul>
 					{images &&
-						images.map(({ image, caption }) => {
+						images.map(({ image, caption }, i) => {
 							return (
-								<>
+								<div key={"img--" + i}>
 									{image && <FluidImage image={image} />}
 									<p className="caption caption-about">
 										{caption ? caption : ""}
 									</p>
-								</>
+								</div>
 							);
 						})}
 
-					<div className="about-other">
+					<div className="About__other">
 						<ReactMarkdown
 							style={{ color: "white" }}
 							escapeHtml={false}
 							source={other}
 						/>
 					</div>
-					<Newsletter />
+					<div className="About__other">
+						<Newsletter />
+					</div>
 				</div>
 			</div>
 		</div>
@@ -85,16 +72,10 @@ const AboutPage = ({ data }) => {
 			<AboutPageTemplate
 				title={post.frontmatter.title}
 				leftColumn={post.frontmatter.leftColumn}
-				colophon={post.frontmatter.colophon}
-				blurbs={post.frontmatter.blurbs}
-				other={post.frontmatter.other}
 				rightColumn={post.frontmatter.rightColumn}
-				image={post.frontmatter.image}
-				attachments={post.frontmatter.attachments}
-				caption={post.frontmatter.caption}
+				other={post.frontmatter.other}
 				images={post.frontmatter.images}
 			/>
-			{console.log("post.frontmatter.image:", post.frontmatter.image)}
 		</Layout>
 	);
 };
@@ -112,21 +93,18 @@ export const aboutPageQuery = graphql`
 				title
 				leftColumn
 				rightColumn
-				other
 				images {
 					image {
+						publicURL
 						childImageSharp {
 							fluid(maxWidth: 1040, quality: 80) {
-								...GatsbyImageSharpFluid_tracedSVG
+								...GatsbyImageSharpFluid_withWebp_tracedSVG
 							}
 						}
 					}
 					caption
 				}
-				blurbs {
-					title
-					subtitle
-				}
+				other
 			}
 		}
 	}

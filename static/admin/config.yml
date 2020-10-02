@@ -94,6 +94,9 @@ collections:
       - label: Product Name
         name: title
         widget: string
+      - label: Price EUR
+        name: price
+        widget: number
       - label: Upload PDF
         name: PDF
         required: false
@@ -234,16 +237,6 @@ collections:
                 name: caption
                 required: false
                 widget: markdown
-          - label: List of Contributors / contact information
-            name: blurbs
-            widget: list
-            fields:
-              - label: Title
-                name: title
-                widget: string
-              - label: SubTitle
-                name: subtitle
-                widget: string
           - label: Additional Info
             name: other
             widget: markdown

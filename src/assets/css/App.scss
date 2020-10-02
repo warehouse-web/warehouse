@@ -1,0 +1,15 @@
+@import "~bulma";
+
+@import "utils/breakpoints";
+@import "utils/reset";
+@import "main/vars";
+@import "main/font-face";
+@import "main/base";
+
+//
+@import "templates/article";
+@import "templates/about";
+
+// MAIN STYLES views and components
+@import "../../components/components";
+// @import "../../views/views.scss";

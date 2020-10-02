@@ -1,6 +1,5 @@
 ---
 templateKey: about-page
-caption: Test* beautiful light
 title: Warehouse
 leftColumn: A place for clothes in context
 rightColumn: >-
@@ -37,9 +36,9 @@ rightColumn: >-
 
   * Jan Schoon
 images:
-  - image: /img/01_warehouse_san_serriffe_dec2019_photo_anoukbeckers.jpg
-    caption: ''
-blurbs: []
+  - image: >-
+      /img/01_warehouse_san_serriffe_dec2019_photo_anoukbeckers.jpg
+    caption: ""
 other: >-
   Warehouse is made possible through the financial support of the Creative
   Industries Fund NL.
