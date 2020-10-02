@@ -14,11 +14,8 @@
 	top: 0;
 	z-index: 0;
 }
-
-@include breakpoint-max("small") {
-	.navbar-menu {
-		display: none;
-	}
+.navbar-menu {
+	display: flex;
 }
 
 @include breakpoint("small") {

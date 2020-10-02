@@ -20,6 +20,21 @@ export const renderImg = (post, setDivStyle) => {
 	}
 };
 
+export const getFirstImg = content => {
+	if (!content) return false;
+	let data = false;
+
+	for (let i = 0; i < content.length; i++) {
+		if (!data) {
+			const el = content[i];
+			if (el.type === "images") {
+				data = el.image;
+			}
+		}
+	}
+	return data;
+};
+
 export const removeImg = setDivStyle => {
 	setDivStyle(false);
 };

@@ -7,7 +7,7 @@
 	text-align: center;
 	color: black;
 }
-.article-detail {
+.Article {
 	flex: 0 0 50%;
 	background-color: rgb(245, 245, 245);
 	z-index: 999;
@@ -28,7 +28,7 @@
 			margin: 0 1.7rem;
 		}
 	}
-	&-title {
+	&__title {
 		text-align: center;
 		font-size: 2em;
 		color: black;
@@ -36,7 +36,7 @@
 		padding: 1.3rem 2em 0.4em;
 		line-height: 1.2 !important;
 	}
-	&-description {
+	&__description {
 		margin: 3.8em;
 		text-align: left;
 		color: black;

@@ -106,6 +106,21 @@ module.exports = {
 				cachePublic: true
 			}
 		},
+		{
+			resolve: `gatsby-plugin-snipcart-advanced`,
+			options: {
+				version: "3.0.22",
+				publicApiKey:
+					"MmI0OWM1NzktYThlOS00YjA0LWFjOTAtMDNiNzhlOTAxMGEyNjM3MzYyOTE0ODgwMzYwMDQ3", // use public api key here or in environment variable
+				defaultLang: "en",
+				currency: "eur",
+				openCartOnAdd: true
+				// innerHTML: `
+				// <billing section="bottom">
+				// 	<!-- Customization goes here -->
+				// </billing>`
+			}
+		},
 		"gatsby-plugin-netlify" // make sure to keep it last in the array
 	]
 	// for avoiding CORS while developing Netlify Functions locally

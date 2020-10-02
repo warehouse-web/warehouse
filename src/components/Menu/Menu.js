@@ -3,7 +3,7 @@ import { bool } from "prop-types";
 import { StyledMenu } from "./Menu.styled";
 import { Link } from "gatsby";
 
-const Menu = ({ open, ...props }) => {
+const Menu = ({ cartQuantity, open, ...props }) => {
 	const isHidden = open ? true : false;
 	const tabIndex = isHidden ? 0 : -1;
 
@@ -24,6 +24,9 @@ const Menu = ({ open, ...props }) => {
 			<Link to="/shop" tabIndex={tabIndex}>
 				Shop
 			</Link>
+			<button className="btn snipcart-checkout">
+				Cart ({cartQuantity})
+			</button>
 		</StyledMenu>
 	);
 };

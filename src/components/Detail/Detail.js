@@ -2,38 +2,50 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 
 import { CloseButton, FluidImage } from "_components";
-import { useMedia } from "_utils/utils";
+import { useMedia, getFirstImg } from "_utils/utils";
 
-const Detail = ({
-	active,
-	onSetActive,
-	onSetShowDetail,
-	title,
-	content,
-	getAsset,
-	articleRef,
-	id,
-	PDF = false,
-	price = false
-}) => {
+const Detail = props => {
 	const match = useMedia("(max-width: 900px) ");
+
+	const {
+		getAsset,
+		onSetActive,
+		active,
+		onSetShowDetail,
+		articleRef
+	} = props;
+	const item = active ? active : props;
+	const { id, fields, frontmatter } = item;
+	const { title, content, PDF = false, price = false, slug } = frontmatter;
+	const thumb = getFirstImg(content);
 
 	return (
 		<div
 			ref={articleRef}
-			className={`article-detail ${match ? `mobile` : ``}`}
+			className={`Article ${match ? `mobile` : ``}`}
 			key={id}
 		>
 			<CloseButton
 				onSetActive={onSetActive}
 				onSetShowDetail={onSetShowDetail}
 			/>
-			<h2 className="article-detail-title">
-				{active ? active.frontmatter.title : title ? title : ""}
-			</h2>
+			<h2 className="Article__title">{title}</h2>
+
 			{price && (
-				<div className="article-detail-price">
-					<div className="btn">Add to cart</div>
+				<div className="Article__price">
+					<button
+						className="btn snipcart-add-item"
+						data-item-id={id}
+						data-item-price={price}
+						data-item-url={
+							"https://www.thisiswarehouse.com" + fields.slug
+						}
+						data-item-image={thumb && thumb.publicURL}
+						data-item-name={title}
+						data-item-quantity="1"
+					>
+						Add to cart
+					</button>
 				</div>
 			)}
 			<section className="content">
