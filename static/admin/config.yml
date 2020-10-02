@@ -134,6 +134,14 @@ collections:
                     "heading-two",
                     "bulleted-list",
                   ]
+          - label: Cart Button
+            name: cart-button
+            widget: object
+            fields:
+              - label: Text
+                name: text
+                widget: text
+                default: Add to cart
       - label: Author
         name: author
         widget: string
