@@ -59,7 +59,7 @@ export default () => (
 							}
 							frontmatter {
 								title
-								price
+
 								templateKey
 								date(formatString: "MMMM DD, YYYY")
 								location

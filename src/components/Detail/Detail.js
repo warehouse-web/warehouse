@@ -13,7 +13,8 @@ const Detail = ({
 	getAsset,
 	articleRef,
 	id,
-	PDF = false
+	PDF = false,
+	price = false
 }) => {
 	const match = useMedia("(max-width: 900px) ");
 
@@ -30,6 +31,7 @@ const Detail = ({
 			<h2 className="article-detail-title">
 				{active ? active.frontmatter.title : title ? title : ""}
 			</h2>
+			<div className="btn">Add to cart</div>
 			<section className="content">
 				{((active && active.frontmatter.content) || []).map((el, i) => {
 					if (el.type === "images") {
