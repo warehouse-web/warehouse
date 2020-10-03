@@ -241,7 +241,7 @@ a > span {
 	top: calc(50% + 4px);
 }
 .close span:hover {
-	background-color: rgba(0, 0, 0, 0.2);
+	// background-color: rgba(0, 0, 0, 0.2);
 }
 .close span:nth-child(1) {
 	-webkit-transform: translateY(5px) rotate(45deg);
