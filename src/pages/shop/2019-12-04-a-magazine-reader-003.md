@@ -2,11 +2,14 @@
 templateKey: product-page
 warehouseID: 'Warehouse #3.6'
 title: A Magazine Reader 03
+price: 15
 PDF: ''
 content:
   - type: images
     image: /img/1.jpg
     caption: A Magazine Reader 03 (2019)
+  - type: cart-button
+    text: Add to cart
   - type: text
     body: >-
       *A Magazine Reader 03* is the result of two-day workshop by Hanka van der
