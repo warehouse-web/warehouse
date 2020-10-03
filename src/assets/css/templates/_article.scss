@@ -23,9 +23,9 @@
 		/* background-color: red; */
 		width: 100%;
 	}
-	@include breakpoint("small") {
+	@include breakpoint("medium") {
 		.content {
-			margin: 0 1.7rem;
+			margin: 0 32px;
 		}
 	}
 	&__title {
@@ -40,6 +40,16 @@
 		margin: 3.8em;
 		text-align: left;
 		color: black;
+	}
+	&__price {
+		display: flex;
+		justify-content: center;
+		position: relative;
+		margin-bottom: 1em;
+	}
+	&__price-price {
+		position: absolute;
+		left: 0;
 	}
 }
 
@@ -77,9 +87,11 @@
 	margin-top: 0.5rem;
 	text-align: center;
 	font-family: "BradfordLLWeb-Book", "Times New Roman", Times, serif;
+	margin-bottom: 1em;
 }
 .caption-about {
 	color: white;
+	margin-bottom: 1em;
 }
 
 .gatsby-image-wrapper {

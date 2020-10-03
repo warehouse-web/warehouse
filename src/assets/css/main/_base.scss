@@ -49,5 +49,51 @@ body {
 //btn
 
 .btn {
-	border: 1px solid black;
+	font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	padding: 0 0.7rem;
+	height: 1.8em;
+	text-transform: uppercase;
+	text-decoration: none !important;
+	font-size: 0.9rem;
+	border: 1px solid transparent;
+	color: black;
+	user-select: none;
+	outline: none;
+	border-radius: 70px;
+	align-items: center;
+	display: flex;
+	position: relative;
+	cursor: pointer;
+	z-index: 1;
+
+	&--cart {
+		border-color: black;
+		overflow: hidden;
+
+		&:before {
+			content: "";
+			position: absolute;
+			top: 50%;
+			left: -10%;
+			right: -10%;
+			width: auto;
+			height: 100%;
+			z-index: -1;
+			transform: translate(0, -50%) rotate(45deg);
+			transition: transform 0.5s ease;
+			padding-bottom: 100%;
+
+			background: linear-gradient(
+				0deg,
+				rgba(255, 255, 255, 1) 10%,
+				rgba(100, 100, 100, 1) 100%
+			);
+		}
+
+		&:hover::before {
+			transform: translate(0, -50%) rotate(-45deg);
+		}
+	}
 }

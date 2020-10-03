@@ -9,7 +9,7 @@
 	overflow: auto;
 
 	&__wrapper {
-		padding-left: 1.7rem;
+		padding-left: 32px;
 		display: flex;
 		z-index: 999999;
 
@@ -52,7 +52,7 @@
 		width: 100%;
 		padding-top: 2.4rem;
 		color: white;
-		padding-right: 1.7rem;
+		padding-right: 32px;
 		-webkit-overflow-scrolling: touch;
 		overflow-y: scroll;
 		margin-right: 0;

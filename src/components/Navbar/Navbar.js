@@ -9,61 +9,66 @@ const Navbar = ({ cartQuantity = 0 }) => {
 			aria-label="main-navigation"
 		>
 			<div id="navMenu" className={`navbar-menu`}>
-				<div className="navbar-start has-text-centered">
-					<Link
-						activeClassName="active"
-						className="navbar-item"
-						to="/"
-					>
-						All
-					</Link>
-					<Link
-						activeClassName="active"
-						partiallyActive={true}
-						className="navbar-item"
-						to="/events"
-					>
-						Events
-					</Link>
-					<Link
-						activeClassName="active"
-						partiallyActive={true}
-						className="navbar-item"
-						to="/focus"
-					>
-						Focus
-					</Link>
-					<Link
-						activeClassName="active"
-						partiallyActive={true}
-						className="navbar-item"
-						to="/podcast"
-					>
-						Podcast
-					</Link>
-					<Link
-						activeClassName="active"
-						partiallyActive={true}
-						className="navbar-item"
-						to="/shop"
-					>
-						Shop
-					</Link>
-					<div className="navbar-item">
-						<button className="btn snipcart-checkout">
+				<ul className="Navbar">
+					<li className="Navbar__item">
+						<Link activeClassName="active" to="/" className="btn">
+							All
+						</Link>
+					</li>
+					<li className="Navbar__item">
+						<Link
+							activeClassName="active"
+							partiallyActive={true}
+							to="/events"
+							className="btn"
+						>
+							Events
+						</Link>
+					</li>
+					<li className="Navbar__item">
+						<Link
+							activeClassName="active"
+							partiallyActive={true}
+							to="/focus"
+							className="btn"
+						>
+							Focus
+						</Link>
+					</li>
+					<li className="Navbar__item">
+						<Link
+							activeClassName="active"
+							partiallyActive={true}
+							to="/podcast"
+							className="btn"
+						>
+							Podcast
+						</Link>
+					</li>
+					<li className="Navbar__item">
+						<Link
+							activeClassName="active"
+							partiallyActive={true}
+							to="/shop"
+							className="btn"
+						>
+							Shop
+						</Link>
+					</li>
+					<li className="Navbar__item">
+						<button className="btn btn--cart snipcart-checkout">
 							Cart ({cartQuantity})
 						</button>
-					</div>
-				</div>
-				<div className="navbar-end has-text-centered">
-					<Link
-						className="navbar-item right"
-						title="Logo"
-						to="/about"
-					>
-						WAREHOUSE
-					</Link>
-				</div>
+					</li>
+				</ul>
+
+				<ul className="Navbar Navbar--right">
+					<li className="Navbar__item">
+						<Link className="btn" title="Logo" to="/about">
+							WAREHOUSE
+						</Link>
+					</li>
+				</ul>
 			</div>
 		</nav>
 	);

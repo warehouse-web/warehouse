@@ -114,11 +114,12 @@ module.exports = {
 					"MmI0OWM1NzktYThlOS00YjA0LWFjOTAtMDNiNzhlOTAxMGEyNjM3MzYyOTE0ODgwMzYwMDQ3", // use public api key here or in environment variable
 				defaultLang: "en",
 				currency: "eur",
-				openCartOnAdd: true
-				// innerHTML: `
-				// <billing section="bottom">
-				// 	<!-- Customization goes here -->
-				// </billing>`
+				openCartOnAdd: true,
+				innerHTML: `
+				<layout headerTitle="tiitleehhh" contentCssClass="any" headerCssClass="any">
+					heyyy
+				</layout>
+				`
 			}
 		},
 		"gatsby-plugin-netlify" // make sure to keep it last in the array
