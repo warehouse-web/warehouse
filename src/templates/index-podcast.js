@@ -4,11 +4,12 @@ import { graphql, StaticQuery } from "gatsby";
 import { Roll, Layout } from "_components";
 
 export const IndexPodcast = ({
+	post = false,
 	data: {
 		allMarkdownRemark: { edges: posts }
 	}
 }) => {
-	return <Roll posts={posts} />;
+	return <Roll posts={posts} post={post} />;
 };
 
 IndexPodcast.propTypes = {
@@ -19,7 +20,7 @@ IndexPodcast.propTypes = {
 	})
 };
 
-export default () => (
+export default ({ post = false }) => (
 	<StaticQuery
 		query={graphql`
 			query IndexPodcastQuerry {
@@ -47,6 +48,8 @@ export default () => (
 				}
 			}
 		`}
-		render={(data, count) => <IndexPodcast data={data} count={count} />}
+		render={(data, count) => (
+			<IndexPodcast post={post} data={data} count={count} />
+		)}
 	/>
 );

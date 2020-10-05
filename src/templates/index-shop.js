@@ -4,11 +4,12 @@ import { graphql, StaticQuery } from "gatsby";
 import { Roll } from "_components";
 
 export const IndexShop = ({
+	post = false,
 	data: {
 		allMarkdownRemark: { edges: posts }
 	}
 }) => {
-	return <Roll posts={posts} />;
+	return <Roll posts={posts} post={post} />;
 };
 
 IndexShop.propTypes = {
@@ -19,7 +20,7 @@ IndexShop.propTypes = {
 	})
 };
 
-export default () => (
+export default ({ post = false }) => (
 	<StaticQuery
 		query={graphql`
 			query IndexShopQuery {
@@ -65,6 +66,8 @@ export default () => (
 				}
 			}
 		`}
-		render={(data, count) => <IndexShop data={data} count={count} />}
+		render={(data, count) => (
+			<IndexShop post={post} data={data} count={count} />
+		)}
 	/>
 );

@@ -1,14 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
-import { Roll, Layout } from "_components";
+import { Roll } from "_components";
 
 const EventIndexPage = ({
+	post = false,
 	data: {
 		allMarkdownRemark: { edges: posts }
 	}
 }) => {
-	return <Roll posts={posts} />;
+	return <Roll posts={posts} post={post} />;
 };
 
 EventIndexPage.propTypes = {
@@ -19,7 +20,7 @@ EventIndexPage.propTypes = {
 	})
 };
 
-export default () => (
+export default ({ post = false }) => (
 	<StaticQuery
 		query={graphql`
 			query IndexQuery {
@@ -62,6 +63,8 @@ export default () => (
 				}
 			}
 		`}
-		render={(data, count) => <EventIndexPage data={data} count={count} />}
+		render={(data, count) => (
+			<EventIndexPage post={post} data={data} count={count} />
+		)}
 	/>
 );

@@ -9,6 +9,7 @@ const Item = ({ post, openPost, setDivStyle, active }) => {
 		templateKey = "",
 		author = ""
 	} = post.frontmatter;
+
 	const authorFormat =
 		templateKey === "product-page" || templateKey === "focus-page"
 			? author
@@ -30,7 +31,7 @@ const Item = ({ post, openPost, setDivStyle, active }) => {
 			onPointerEnter={() => renderImg(post, setDivStyle)}
 			onPointerLeave={() => setDivStyle(false)}
 			onClick={() => openPost(post)}
-			className={`Item ${post === active ? "is-selected" : ""}`}
+			className={`Item ${post.id === active.id ? "is-selected" : ""}`}
 		>
 			<div className="Item__header">
 				{formatDate && (

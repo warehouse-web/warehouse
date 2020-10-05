@@ -52,7 +52,7 @@ ProductPageTemplate.propTypes = {
 const Product = ({ data }) => {
 	const { markdownRemark: post } = data;
 
-	return <IndexShop />;
+	return <IndexShop post={post} />;
 };
 
 Product.propTypes = {
@@ -70,8 +70,24 @@ export const pageQuery = graphql`
 			htmlAst
 			frontmatter {
 				title
+				price
+				templateKey
 				date(formatString: "MMMM DD, YYYY")
-				author
+				location
+				content {
+					type
+					image {
+						publicURL
+						childImageSharp {
+							fluid(maxWidth: 1040, quality: 80) {
+								...GatsbyImageSharpFluid_withWebp_tracedSVG
+							}
+						}
+					}
+					text
+					caption
+					body
+				}
 			}
 		}
 	}

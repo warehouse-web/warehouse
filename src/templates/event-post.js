@@ -29,7 +29,7 @@ BlogPostTemplate.propTypes = {
 const BlogPost = ({ data }) => {
 	const { markdownRemark: post } = data;
 
-	return <IndexEvent />;
+	return <IndexEvent post={post} />;
 };
 
 BlogPost.propTypes = {
@@ -46,9 +46,25 @@ export const pageQuery = graphql`
 			id
 			html
 			frontmatter {
-				date(formatString: "MMMM DD, YYYY")
 				title
+				price
+				templateKey
+				date(formatString: "MMMM DD, YYYY")
 				location
+				content {
+					type
+					image {
+						publicURL
+						childImageSharp {
+							fluid(maxWidth: 1040, quality: 80) {
+								...GatsbyImageSharpFluid_withWebp_tracedSVG
+							}
+						}
+					}
+					text
+					caption
+					body
+				}
 			}
 		}
 	}

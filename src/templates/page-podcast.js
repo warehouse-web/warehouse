@@ -46,8 +46,10 @@ PodcastTemplate.propTypes = {
 	helmet: PropTypes.object
 };
 
-const Podcast = data => {
-	return <IndexPodcast />;
+const Podcast = ({ data }) => {
+	const { markdownRemark: post } = data;
+
+	return <IndexPodcast post={post} />;
 };
 
 Podcast.propTypes = {
@@ -64,8 +66,25 @@ export const podcastQuery = graphql`
 			id
 			html
 			frontmatter {
-				date(formatString: "MMMM DD, YYYY")
 				title
+				price
+				templateKey
+				date(formatString: "MMMM DD, YYYY")
+				location
+				content {
+					type
+					image {
+						publicURL
+						childImageSharp {
+							fluid(maxWidth: 1040, quality: 80) {
+								...GatsbyImageSharpFluid_withWebp_tracedSVG
+							}
+						}
+					}
+					text
+					caption
+					body
+				}
 			}
 		}
 	}

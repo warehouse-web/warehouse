@@ -50,7 +50,7 @@ FocusPageTemplate.propTypes = {
 const FocusPage = ({ data }) => {
 	const { markdownRemark: post } = data;
 
-	return <IndexFocus />;
+	return <IndexFocus post={post} />;
 };
 
 FocusPage.propTypes = {
@@ -68,8 +68,24 @@ export const pageQuery = graphql`
 			html
 			frontmatter {
 				title
-				location
+				price
+				templateKey
 				date(formatString: "MMMM DD, YYYY")
+				location
+				content {
+					type
+					image {
+						publicURL
+						childImageSharp {
+							fluid(maxWidth: 1040, quality: 80) {
+								...GatsbyImageSharpFluid_withWebp_tracedSVG
+							}
+						}
+					}
+					text
+					caption
+					body
+				}
 			}
 		}
 	}

@@ -5,10 +5,10 @@ import {
 	useSetShiftRatio,
 	useChangeMagicLogo
 } from "_utils/utils";
-const Roll = ({ posts = [] }) => {
+const Roll = ({ posts = [], post = false }) => {
 	//details
-	const [active, setActive] = useState({});
-	const [showDetail, setShowDetail] = useState(false);
+	const [active, setActive] = useState(post ? post : false);
+	const [showDetail, setShowDetail] = useState(post ? true : false);
 
 	// main
 	const [divStyle, setDivStyle] = useState(false);
@@ -46,17 +46,17 @@ const Roll = ({ posts = [] }) => {
 		setShowDetail(true);
 	};
 
-	// when we open the website so that we are in the right post
-	useEffect(() => {
-		posts &&
-			posts.map(post => {
-				if (post.node.fields.slug === window.location.pathname) {
-					setActive(post.node);
-					setShowDetail(true);
-					return;
-				}
-			});
-	}, []);
+	// // when we open the website so that we are in the right post
+	// useEffect(() => {
+	// 	posts &&
+	// 		posts.map(post => {
+	// 			if (post.node.fields.slug === window.location.pathname) {
+	// 				setActive(post.node);
+	// 				setShowDetail(true);
+	// 				return;
+	// 			}
+	// 		});
+	// }, []);
 
 	return (
 		<Layout>

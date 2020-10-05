@@ -1,14 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
-import { Roll, Layout } from "_components";
+import { Roll } from "_components";
 
 export const IndexFocus = ({
+	post = false,
 	data: {
 		allMarkdownRemark: { edges: posts }
 	}
 }) => {
-	return <Roll posts={posts} />;
+	return <Roll posts={posts} post={post} />;
 };
 IndexFocus.propTypes = {
 	data: PropTypes.shape({
@@ -18,7 +19,7 @@ IndexFocus.propTypes = {
 	})
 };
 
-export default () => (
+export default ({ post = false }) => (
 	<StaticQuery
 		query={graphql`
 			query IndexFocusQuerry {
@@ -64,6 +65,8 @@ export default () => (
 				}
 			}
 		`}
-		render={(data, count) => <IndexFocus data={data} count={count} />}
+		render={(data, count) => (
+			<IndexFocus post={post} data={data} count={count} />
+		)}
 	/>
 );
