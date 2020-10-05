@@ -107,37 +107,6 @@ const Detail = props => {
 					</a>
 				)}
 			</section>
-			<section className="content">
-				{!active &&
-					content &&
-					content.map((el, i) => {
-						if (el.type === "images") {
-							return (
-								<div key={`content-two--` + i}>
-									<img src={getAsset(el.image)} alt="" />
-									<p className="caption">{el.caption}</p>
-								</div>
-							);
-						} else if (el.type === "text") {
-							return (
-								<ReactMarkdown
-									key={`content-two--` + i}
-									escapeHtml={false}
-									source={el.body}
-								/>
-							);
-						}
-					})}
-				{PDF && (
-					<a
-						className="pdf-download"
-						href={PDF.publicURL}
-						target="_blank"
-					>
-						Download Article
-					</a>
-				)}
-			</section>
 		</div>
 	);
 };
