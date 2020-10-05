@@ -19,15 +19,14 @@ const Detail = props => {
 	const {
 		title,
 		PDF = false,
-		price = 20.2,
+		price = false,
 		slug = "",
 		author = ""
 	} = frontmatter;
-	const thumb = getFirstImg(content);
 
 	const authorFormat = author ? "By " + author : "";
-
 	const content = active ? frontmatter.content : props.content;
+	const thumb = getFirstImg(content);
 
 	return (
 		<div
@@ -52,7 +51,6 @@ const Detail = props => {
 								</p>
 							</div>
 						);
-<<<<<<< HEAD
 					} else if (el.type === "cart-button") {
 						return (
 							<div key={`content--` + i}>
@@ -67,7 +65,7 @@ const Detail = props => {
 												data-item-id={id}
 												data-item-price={price}
 												data-item-url={
-													"https://www.thisiswarehouse.com" +
+													"https://whwb-dev.netlify.app" +
 													fields.slug
 												}
 												data-item-image={
@@ -88,8 +86,6 @@ const Detail = props => {
 								)}
 							</div>
 						);
-=======
->>>>>>> master
 					} else if (el.type === "text") {
 						return (
 							<ReactMarkdown

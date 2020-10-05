@@ -37,6 +37,7 @@ export default () => (
 							}
 							frontmatter {
 								title
+								price
 								templateKey
 								author
 								date(formatString: "MMMM DD, YYYY")
@@ -50,6 +51,7 @@ export default () => (
 											}
 										}
 									}
+									text
 									caption
 									body
 								}
