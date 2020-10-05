@@ -2,7 +2,7 @@
 templateKey: product-page
 warehouseID: 'Warehouse #3.6'
 title: A Magazine Reader 03
-price: 15
+price: '12.50'
 PDF: ''
 content:
   - type: images
