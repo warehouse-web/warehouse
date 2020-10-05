@@ -65,7 +65,10 @@ export const pageQuery = graphql`
 	query FocusPageByID($id: String!) {
 		markdownRemark(id: { eq: $id }) {
 			id
-			html
+			htmlAst
+			fields {
+				slug
+			}
 			frontmatter {
 				title
 				price

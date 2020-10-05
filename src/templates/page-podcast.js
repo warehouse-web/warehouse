@@ -64,7 +64,10 @@ export const podcastQuery = graphql`
 	query PodcastByID($id: String!) {
 		markdownRemark(id: { eq: $id }) {
 			id
-			html
+			htmlAst
+			fields {
+				slug
+			}
 			frontmatter {
 				title
 				price
