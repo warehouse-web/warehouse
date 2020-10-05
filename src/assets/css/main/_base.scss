@@ -17,6 +17,7 @@ p > a {
 body {
 	background: black;
 	color: white;
+	min-height: 100vh;
 
 	@include breakpoint("small") {
 		background: white;

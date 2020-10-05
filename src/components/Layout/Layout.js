@@ -1,35 +1,17 @@
-import React, { useState, useContext } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
 
-import { Navbar, Burger, Menu } from "_components";
+import { Navbar } from "_components";
 
 import useSiteMetadata from "_utils/SiteMetadata";
 import { withPrefix } from "gatsby";
 import { Link } from "gatsby";
 
-import { SnipcartContext } from "gatsby-plugin-snipcart-advanced/context";
-
 const TemplateWrapper = ({ children }) => {
-	const { state } = useContext(SnipcartContext);
-	const { cartQuantity } = state;
-
 	const { title, description } = useSiteMetadata();
-	const [open, setOpen] = useState(false);
 
 	return (
 		<div style={{ isolation: "isolate" }}>
-			<nav className="burger-menu">
-				<Link className="mobile-warehouse" to="/about">
-					WAREHOUSE
-				</Link>
-
-				<Burger open={open} setOpen={setOpen} />
-				<Menu
-					open={open}
-					setOpen={setOpen}
-					cartQuantity={cartQuantity}
-				/>
-			</nav>
 			<Helmet>
 				<html lang="en" />
 				<title>{title}</title>
@@ -68,7 +50,8 @@ const TemplateWrapper = ({ children }) => {
 					content={`${withPrefix("/")}img/og-image.jpg`}
 				/>
 			</Helmet>
-			<Navbar {...{ cartQuantity }} />
+
+			<Navbar />
 
 			{/* this isolation property makes the mix-blend-mode work on safari for the magic logo */}
 			<div>{children}</div>
