@@ -18,7 +18,6 @@ const Detail = props => {
 	const { id, fields, frontmatter } = item;
 	const {
 		title,
-		content,
 		PDF = false,
 		price = 20.2,
 		slug = "",
@@ -27,6 +26,8 @@ const Detail = props => {
 	const thumb = getFirstImg(content);
 
 	const authorFormat = author ? "By " + author : "";
+
+	const content = active ? frontmatter.content : props.content;
 
 	return (
 		<div
@@ -41,7 +42,7 @@ const Detail = props => {
 			<h2 className="Article__title">{title}</h2>
 
 			<section className="content">
-				{((active && active.frontmatter.content) || []).map((el, i) => {
+				{(content || []).map((el, i) => {
 					if (el.type === "images") {
 						return (
 							<div key={`content--` + i}>
@@ -86,7 +87,7 @@ const Detail = props => {
 								)}
 							</div>
 						);
-					} else {
+					} else if (el.type === "text") {
 						return (
 							<ReactMarkdown
 								key={`content--` + i}
@@ -95,6 +96,8 @@ const Detail = props => {
 								source={el.body}
 							/>
 						);
+					} else {
+						<div key={`content--` + i} />;
 					}
 				})}
 				{PDF && (
