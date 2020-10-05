@@ -43,7 +43,7 @@ const Detail = ({
 								</p>
 							</div>
 						);
-					} else {
+					} else if (el.type === "text") {
 						return (
 							<ReactMarkdown
 								key={`content--` + i}
@@ -52,6 +52,8 @@ const Detail = ({
 								source={el.body}
 							/>
 						);
+					} else {
+						<div key={`content--` + i} />;
 					}
 				})}
 				{PDF && (
