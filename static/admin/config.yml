@@ -96,8 +96,7 @@ collections:
         widget: string
       - label: Price EUR
         name: price
-        widget: number
-        step: 0.01
+        widget: string
         required: false
       - label: Upload PDF
         name: PDF

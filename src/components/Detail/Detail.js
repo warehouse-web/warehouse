@@ -52,6 +52,7 @@ const Detail = props => {
 								</p>
 							</div>
 						);
+<<<<<<< HEAD
 					} else if (el.type === "cart-button") {
 						return (
 							<div key={`content--` + i}>
@@ -87,6 +88,8 @@ const Detail = props => {
 								)}
 							</div>
 						);
+=======
+>>>>>>> master
 					} else if (el.type === "text") {
 						return (
 							<ReactMarkdown
