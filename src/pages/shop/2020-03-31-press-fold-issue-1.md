@@ -2,10 +2,13 @@
 templateKey: product-page
 warehouseID: 'WAREHOUSE #'
 title: 'Press & Fold Issue #1 | The Luxury Issue'
+price: '15'
 content:
   - type: images
     image: /img/pf_mock_up-issue-luxury-0.jpg
     caption: 'Press & Fold Issue #1 (2019)'
+  - type: cart-button
+    text: Add to cart
   - type: text
     body: >-
       *Press & Fold* is an independent fashion magazine that explores
