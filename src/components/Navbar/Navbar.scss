@@ -290,46 +290,71 @@ a > span {
 	display: block;
 	height: 3.25rem;
 	position: fixed;
+	top: 0;
 	right: 0;
 	width: 3.25rem;
 	margin-left: auto;
 	z-index: 10;
-}
-.close span {
-	background-color: currentColor;
-	display: block;
-	height: 1px;
-	left: calc(50% - 8px);
-	position: absolute;
-	-webkit-transform-origin: center;
-	transform-origin: center;
-	-webkit-transition-duration: 86ms;
-	transition-duration: 86ms;
-	-webkit-transition-property: background-color, opacity, -webkit-transform;
-	transition-property: background-color, opacity, -webkit-transform;
-	transition-property: background-color, opacity, transform;
-	transition-property: background-color, opacity, transform, -webkit-transform;
-	-webkit-transition-timing-function: ease-out;
-	transition-timing-function: ease-out;
-	width: 22px;
-}
-.close span:nth-child(1) {
-	top: calc(50% - 6px);
-}
-.close span:nth-child(2) {
-	top: calc(50% - 1px);
-}
-.close span:nth-child(3) {
-	top: calc(50% + 4px);
-}
-.close span:hover {
-	// background-color: rgba(0, 0, 0, 0.2);
-}
-.close span:nth-child(1) {
-	-webkit-transform: translateY(5px) rotate(45deg);
-	transform: translateY(5px) rotate(45deg);
-}
-.close span:nth-child(2) {
-	-webkit-transform: translateY(0px) rotate(-45deg);
-	transform: translateY(0px) rotate(-45deg);
+
+	&:hover {
+		color: black;
+	}
+
+	&--white {
+		color: white;
+		&:hover {
+			color: white;
+		}
+	}
+
+	svg,
+	span {
+		display: none;
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	&:before,
+	&:after {
+		content: "";
+		background-color: currentColor;
+		display: block;
+		height: 1px;
+		left: calc(50% - 8px);
+		position: absolute;
+		-webkit-transform-origin: center;
+		transform-origin: center;
+		-webkit-transition-duration: 86ms;
+		transition-duration: 86ms;
+		-webkit-transition-property: background-color, opacity,
+			-webkit-transform;
+		transition-property: background-color, opacity, -webkit-transform;
+		transition-property: background-color, opacity, transform;
+		transition-property: background-color, opacity, transform,
+			-webkit-transform;
+		-webkit-transition-timing-function: ease-out;
+		transition-timing-function: ease-out;
+		width: 16px;
+		@include breakpoint("small") {
+			width: 22px;
+		}
+	}
+
+	&:before {
+		top: calc(50% - 6px);
+	}
+	&:after {
+		top: calc(50% - 1px);
+	}
+
+	&:before {
+		-webkit-transform: translateY(5px) rotate(45deg);
+		transform: translateY(5px) rotate(45deg);
+	}
+	&:after {
+		-webkit-transform: translateY(0px) rotate(-45deg);
+		transform: translateY(0px) rotate(-45deg);
+	}
 }

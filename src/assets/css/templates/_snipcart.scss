@@ -1,5 +1,6 @@
 .snipcart-modal__container {
 	background: #f5f5f5;
+
 	@include breakpoint("small") {
 		width: 50% !important;
 		left: auto !important;
@@ -24,85 +25,18 @@
 		pointer-events: none;
 	}
 	.snipcart-cart-header__title {
-		font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto",
-			"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-			"Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		@extend .type-sm;
 		padding: 0 0.7rem;
 		height: 1.8em;
-		text-transform: uppercase;
-		text-decoration: none !important;
-		font-size: 0.9rem;
 		border: 1px solid transparent;
-		font-weight: normal;
 	}
 	.snipcart-cart-header__options {
 		display: none;
 	}
 	.snipcart-modal__close {
+		@extend .close;
 		pointer-events: all;
 		position: absolute;
-		top: 0;
-		right: 0;
-		color: black;
-		cursor: pointer;
-		display: block;
-		height: 3.25rem;
-		position: fixed;
-		right: 0;
-		width: 3.25rem;
-		margin-left: auto;
-		z-index: 10;
-		&:focus {
-			outline: none;
-		}
-		svg,
-		span {
-			display: none;
-		}
-		&:before,
-		&:after {
-			content: "";
-			background-color: black;
-			display: block;
-			height: 1px;
-			left: calc(50% - 8px);
-			position: absolute;
-			-webkit-transform-origin: center;
-			transform-origin: center;
-			-webkit-transition-duration: 86ms;
-			transition-duration: 86ms;
-			-webkit-transition-property: background-color, opacity,
-				-webkit-transform;
-			transition-property: background-color, opacity, -webkit-transform;
-			transition-property: background-color, opacity, transform;
-			transition-property: background-color, opacity, transform,
-				-webkit-transform;
-			-webkit-transition-timing-function: ease-out;
-			transition-timing-function: ease-out;
-			width: 16px;
-			@include breakpoint("small") {
-				width: 22px;
-			}
-			&:hover {
-				background-color: rgba(0, 0, 0, 0.2);
-			}
-		}
-
-		&:before {
-			top: calc(50% - 6px);
-		}
-		&:after {
-			top: calc(50% - 1px);
-		}
-
-		&:before {
-			-webkit-transform: translateY(5px) rotate(45deg);
-			transform: translateY(5px) rotate(45deg);
-		}
-		&:after {
-			-webkit-transform: translateY(0px) rotate(-45deg);
-			transform: translateY(0px) rotate(-45deg);
-		}
 	}
 	// main
 	.snipcart-layout__content {
@@ -125,26 +59,20 @@
 	}
 	.snipcart__font--secondary,
 	.snipcart__font--subtitle {
-		font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto",
-			"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-			"Helvetica Neue", "Helvetica", "Arial", sans-serif;
-		font-weight: normal !important;
+		@extend .type-sm;
 	}
 	.snipcart__actions--link {
+		@extend .type-sm;
 		position: absolute;
 		left: 0;
 		color: black;
 		text-align: center;
-		font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto",
-			"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-			"Helvetica Neue", "Helvetica", "Arial", sans-serif;
 		padding: 0;
-
-		text-transform: uppercase;
-		text-decoration: none !important;
-		font-size: 0.9rem;
-		font-weight: normal;
 	}
+
+	.snipcart-empty-cart__title {
+	}
+
 	.snipcart-cart__content {
 		padding-top: 80px;
 		background: #f5f5f5;
@@ -216,15 +144,7 @@
 		.snipcart-cart-summary-fees {
 			position: relative;
 			* {
-				font-size: 16px;
-				line-height: 1.35;
-				font-family: "BradfordLLWeb-Book", "Times New Roman", Times,
-					serif;
-				font-weight: normal;
-
-				@include breakpoint("small") {
-					font-size: 20px;
-				}
+				@extend .type-copy;
 			}
 		}
 
@@ -236,71 +156,16 @@
 				outline: none;
 			}
 			.snipcart__button--icon {
-				position: relative;
-				color: black;
-				cursor: pointer;
-				display: block;
-				height: 16px;
-				width: 16px;
-				@include breakpoint("small") {
-					width: 22px;
-					height: 22px;
-				}
-
-				padding: 0;
-				margin: 0;
+				@extend .close;
+				position: absolute !important;
+				padding: 0 !important;
+				margin: 0 !important;
 				z-index: 10;
-				&:focus {
-					outline: none;
-				}
-				svg,
-				span {
-					display: none;
-				}
-				&:before,
-				&:after {
-					content: "";
-					background-color: black;
-					display: block;
-					height: 1px;
-					left: calc(50% - 8px);
-					position: absolute;
-					-webkit-transform-origin: center;
-					transform-origin: center;
-					-webkit-transition-duration: 86ms;
-					transition-duration: 86ms;
-					-webkit-transition-property: background-color, opacity,
-						-webkit-transform;
-					transition-property: background-color, opacity,
-						-webkit-transform;
-					transition-property: background-color, opacity, transform;
-					transition-property: background-color, opacity, transform,
-						-webkit-transform;
-					-webkit-transition-timing-function: ease-out;
-					transition-timing-function: ease-out;
-					width: 16px;
-					@include breakpoint("small") {
-						width: 22px;
-					}
-					&:hover {
-						background-color: rgba(0, 0, 0, 0.2);
-					}
-				}
-
-				&:before {
-					top: calc(50% - 6px);
-				}
-				&:after {
-					top: calc(50% - 1px);
-				}
-
-				&:before {
-					-webkit-transform: translateY(5px) rotate(45deg);
-					transform: translateY(5px) rotate(45deg);
-				}
-				&:after {
-					-webkit-transform: translateY(0px) rotate(-45deg);
-					transform: translateY(0px) rotate(-45deg);
+				height: 16px !important;
+				width: 16px !important;
+				@include breakpoint("small") {
+					width: 22px !important;
+					height: 22px !important;
 				}
 			}
 		}
@@ -316,57 +181,7 @@
 			display: none;
 		}
 		.snipcart-cart-button {
-			z-index: 1;
-			font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto",
-				"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-				"Helvetica Neue", "Helvetica", "Arial", sans-serif;
-			padding: 0 0.7rem;
-			height: 1.8em;
-			text-transform: uppercase;
-			text-decoration: none !important;
-			font-size: 0.9rem;
-			border: 1px solid transparent;
-			color: black;
-			user-select: none;
-			outline: none;
-			border-radius: 70px;
-			align-items: center;
-			display: flex;
-			position: relative;
-			cursor: pointer;
-			background: transparent !important;
-			font-weight: normal;
-			box-shadow: none !important;
-
-			border-color: black;
-			overflow: hidden;
-
-			&:before {
-				content: "";
-				position: absolute;
-				top: 50%;
-				left: -10%;
-				right: -10%;
-				width: auto;
-				height: 100%;
-				z-index: -1;
-				transform: translate(0, -50%) rotate(45deg);
-				transition: transform 0.5s ease;
-				padding-bottom: 100%;
-
-				background: linear-gradient(
-					0deg,
-					rgba(255, 255, 255, 1) 10%,
-					rgba(100, 100, 100, 1) 100%
-				);
-			}
-
-			&:hover::before {
-				transform: translate(0, -50%) rotate(-45deg);
-			}
-			.snipcart-cart-button__icon {
-				display: none;
-			}
+			@extend .btn-snip;
 		}
 		.snipcart-cart-summary-fees__title {
 			text-transform: uppercase;
@@ -399,6 +214,10 @@
 		background: transparent;
 	}
 	.snipcart-checkout__content {
+		.snipcart-payment-methods-list__container {
+			@extend .type-copy;
+			color: black;
+		}
 		.snipcart-layout__cols {
 			flex-wrap: wrap;
 		}
@@ -423,12 +242,8 @@
 			}
 		}
 		.snipcart-billing-completed__step-title {
+			@extend .type-sm;
 			display: block;
-			font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto",
-				"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-				"Helvetica Neue", "Helvetica", "Arial", sans-serif;
-			text-transform: uppercase;
-			text-decoration: none !important;
 			font-size: 0.9rem;
 		}
 		.snipcart-payment-form {
@@ -438,14 +253,7 @@
 			fill: black;
 		}
 		.snipcart__font--std {
-			font-size: 16px;
-			line-height: 1.35;
-			font-family: "BradfordLLWeb-Book", "Times New Roman", Times, serif;
-			font-weight: normal;
-
-			@include breakpoint("small") {
-				font-size: 20px;
-			}
+			@extend .type-copy;
 		}
 		.snipcart-form {
 			background: transparent;
@@ -456,17 +264,10 @@
 			background: transparent !important;
 		}
 		.snipcart__font--subtitle {
+			@extend .type-sm;
 			width: 100%;
 			text-align: center;
-			font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto",
-				"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-				"Helvetica Neue", "Helvetica", "Arial", sans-serif;
 			padding: 0 0.7rem;
-
-			text-transform: uppercase;
-			text-decoration: none !important;
-			font-size: 0.9rem;
-			font-weight: normal;
 			display: block;
 		}
 		.snipcart-form__footer {
@@ -476,77 +277,18 @@
 			z-index: 1;
 		}
 		.snipcart-cart-button {
-			z-index: 1;
-			font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto",
-				"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-				"Helvetica Neue", "Helvetica", "Arial", sans-serif;
-			padding: 0 0.7rem;
-			height: 1.8em;
-			text-transform: uppercase;
-			text-decoration: none !important;
-			font-size: 0.9rem;
-			border: 1px solid transparent;
-			color: black;
-			user-select: none;
-			outline: none;
-			border-radius: 70px;
-			align-items: center;
-			display: flex;
-			position: relative;
-			cursor: pointer;
-			background: transparent !important;
-			font-weight: normal;
-			box-shadow: none !important;
-
-			border-color: black;
-			overflow: hidden;
-			width: auto;
-
-			&:before {
-				content: "";
-				position: absolute;
-				top: 50%;
-				left: -10%;
-				right: -10%;
-				width: auto;
-				height: 100%;
-				z-index: -1;
-				transform: translate(0, -50%) rotate(45deg);
-				transition: transform 0.5s ease;
-				padding-bottom: 100%;
-
-				background: linear-gradient(
-					0deg,
-					rgba(255, 255, 255, 1) 10%,
-					rgba(100, 100, 100, 1) 100%
-				);
-			}
-
-			&:hover::before {
-				transform: translate(0, -50%) rotate(-45deg);
-			}
-			.snipcart-cart-button__icon {
-				display: none;
-			}
+			@extend .btn-snip;
 		}
 		.snipcart-form__label,
 		.snipcart-typeahead__suggestion {
-			font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto",
-				"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-				"Helvetica Neue", "Helvetica", "Arial", sans-serif;
-			font-weight: normal;
+			@extend .type-sm;
+
 			color: black;
 			font-size: 15px;
 		}
 		.snipcart-input__input,
 		.snipcart-form__select {
-			line-height: 1.35;
-			font-family: "BradfordLLWeb-Book", "Times New Roman", Times, serif;
-			font-weight: normal;
-			font-size: 16px;
-			@include breakpoint("small") {
-				font-size: 20px;
-			}
+			@extend .type-copy;
 		}
 		.snipcart-typeahead__suggestions {
 			border-color: white;
@@ -576,6 +318,16 @@
 	}
 	.snipcart-cart__checkout-button {
 		margin-top: 0;
+	}
+	.snipcart-empty-cart {
+		.snipcart-empty-cart__title {
+			@extend .type-copy;
+			text-transform: none;
+			color: black;
+		}
+		.snipcart-cart-button {
+			@extend .btn-snip;
+		}
 	}
 }
 

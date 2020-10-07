@@ -17,14 +17,11 @@ const CloseButton = ({ onSetActive, onSetShowDetail }) => {
 	};
 	return (
 		<div
-			className="close"
+			className="close close--main"
 			onClick={() => {
 				handleClick();
 			}}
-		>
-			<span></span>
-			<span></span>
-		</div>
+		/>
 	);
 };
 

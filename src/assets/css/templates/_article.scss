@@ -48,8 +48,12 @@
 		padding: 1em 0 2em;
 	}
 	&__price-price {
-		position: absolute;
-		left: 0;
+		margin-right: 1em;
+
+		@include breakpoint("small") {
+			position: absolute;
+			left: 0;
+		}
 	}
 }
 

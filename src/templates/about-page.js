@@ -15,10 +15,7 @@ export const AboutPageTemplate = ({
 	console.log(images);
 	return (
 		<div className="About">
-			<Link className="close" id="white" to="/">
-				<span className="white"></span>
-				<span className="white"></span>
-			</Link>
+			<Link className="close close--white close--main" to="/" />
 			<div className="About__wrapper">
 				<div className="About__left">
 					<h2 className="About__title">
