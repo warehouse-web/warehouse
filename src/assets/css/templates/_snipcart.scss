@@ -1,5 +1,53 @@
 .snipcart-modal__container {
 	background: #f5f5f5;
+	input,
+	.snipcart-textbox {
+		text-transform: none !important;
+	}
+	.snipcart-layout__col > div {
+		position: relative !important;
+		top: auto !important;
+		width: 100% !important;
+	}
+	.snipcart-cart-summary {
+		margin-top: 16px !important;
+	}
+	.snipcart-cart-summary__items {
+		@extend .type-copy;
+		padding-top: 20px;
+	}
+	.snipcart-loading-overlay,
+	.snipcart-cart-summary-fees__total,
+	.snipcart-cart-summary-fees__title,
+	.snipcart-cart-summary-fees__amount {
+		@extend .type-copy;
+	}
+	.snipcart-item-line__title,
+	.snipcart-cart-summary-fees__title {
+		text-transform: none !important;
+	}
+	.snipcart-cart-summary-fees__title--highlight {
+		text-transform: uppercase !important;
+	}
+	.snipcart-cart-summary__separator {
+		width: 100%;
+		background: white;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.snipcart-cart-summary,
+	.snipcart-cart-summary__content {
+		background-color: transparent;
+		position: relative !important;
+		padding: 0 !important;
+	}
+
+	.snipcart-checkout-step {
+		padding-bottom: 16px;
+		border-bottom: 4px solid white;
+		margin-bottom: 16px;
+	}
 
 	@include breakpoint("small") {
 		width: 50% !important;
@@ -213,7 +261,8 @@
 	.snipcart-checkout__header {
 		background: transparent;
 	}
-	.snipcart-checkout__content {
+	.snipcart-checkout__content,
+	.snipcart-order__details {
 		.snipcart-payment-methods-list__container {
 			@extend .type-copy;
 			color: black;
@@ -310,10 +359,7 @@
 			z-index: 11;
 		}
 		.snipcart-layout__col {
-			display: none;
-			&--large {
-				display: block;
-			}
+			display: block;
 		}
 	}
 	.snipcart-cart__checkout-button {

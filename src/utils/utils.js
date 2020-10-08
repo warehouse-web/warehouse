@@ -134,6 +134,10 @@ export const relayout = () => {
 const setWidth = shift => {
 	let negative;
 	let element = document.querySelector(".magic-logo");
+
+	if (!element) {
+		return false;
+	}
 	if (!shiftRatio) {
 		shiftRatio = 0.3;
 	}
