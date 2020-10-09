@@ -4,19 +4,27 @@ import ReactMarkdown from "react-markdown";
 import { CloseButton, FluidImage } from "_components";
 import { useMedia } from "_utils/utils";
 
-const Detail = ({
-	active,
-	onSetActive,
-	onSetShowDetail,
-	title,
-	content,
-	getAsset,
-	articleRef,
-	id,
-	PDF = false,
-	price = false
-}) => {
+const Detail = props => {
 	const match = useMedia("(max-width: 900px) ");
+
+	const {
+		active,
+		onSetActive,
+		onSetShowDetail,
+		title,
+		content,
+		getAsset,
+		articleRef,
+		id,
+		PDF = false,
+		price = false
+	} = props;
+	const PDFDownload =
+		active && active.frontmatter.PDF
+			? active.frontmatter.PDF
+			: PDF
+			? PDF
+			: false;
 
 	return (
 		<div
@@ -56,10 +64,10 @@ const Detail = ({
 						<div key={`content--` + i} />;
 					}
 				})}
-				{PDF && (
+				{PDFDownload && (
 					<a
 						className="pdf-download"
-						href={PDF.publicURL}
+						href={PDFDownload.publicURL}
 						target="_blank"
 					>
 						Download Article
