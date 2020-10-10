@@ -23,11 +23,7 @@
 		/* background-color: red; */
 		width: 100%;
 	}
-	@include breakpoint("medium") {
-		.content {
-			margin: 0 32px;
-		}
-	}
+
 	&__title {
 		text-align: center;
 		font-size: 2em;
@@ -35,6 +31,10 @@
 		margin: 0 2rem;
 		padding: 1.3rem 2em 0.4em;
 		line-height: 1.2 !important;
+
+		@include breakpoint-max("small") {
+			padding: 1.3rem 0 0.4em;
+		}
 	}
 	&__description {
 		margin: 3.8em;
@@ -78,13 +78,17 @@
 	text-align: left;
 	margin: 0 3.8rem;
 	color: black;
-}
 
-.content > p {
-	font-size: 1.15em;
-	line-height: 1.35;
-	font-family: "BradfordLLWeb-Book", "Times New Roman", Times, serif;
-	color: black;
+	& > p {
+		font-size: 1.15em;
+		line-height: 1.35;
+		font-family: "BradfordLLWeb-Book", "Times New Roman", Times, serif;
+		color: black;
+	}
+
+	@include breakpoint-max("small") {
+		margin: 0 32px;
+	}
 }
 
 .caption {

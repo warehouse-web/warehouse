@@ -51,29 +51,19 @@
 		display: none;
 	}
 
-	&:before {
-		content: "";
-		position: absolute;
-		top: 50%;
-		left: -10%;
-		right: -10%;
-		width: auto;
-		height: 100%;
-		z-index: -1;
-		transform: translate(0, -50%) rotate(45deg);
-		transition: transform 0.5s ease;
-		padding-bottom: 100%;
+	transition: 0.5s !important;
+	background-size: 200% auto !important;
+	background-image: linear-gradient(
+		to right,
+		#fff 0%,
+		#646464 51%,
+		#fff 100%
+	) !important;
 
-		background: linear-gradient(
-			0deg,
-			rgba(255, 255, 255, 1) 10%,
-			rgba(100, 100, 100, 1) 100%
-		);
+	&:hover {
+		background-position: right center !important; /* change the direction of the change here */
 	}
 
-	&:hover::before {
-		transform: translate(0, -50%) rotate(-45deg);
-	}
 	.snipcart-cart-button__icon {
 		display: none;
 	}
