@@ -97,19 +97,21 @@
 		color: black;
 	}
 	.snipcart-cart-summary-expanded-item {
-		@extend .type-copy;
+		@extend .type-sm;
 	}
 	.snipcart-order__details__content {
 		.snipcart-order__box {
 			border-bottom: 1px solid black;
 			margin-bottom: 20px;
-			padding-bottom: 20px;
+			padding-bottom: 20px !important;
 		}
 	}
-	.snipcart__box--title {
+	.snipcart-order__title {
 		position: relative;
 		.snipcart__icon {
 			position: absolute;
+			left: 0;
+			top: 0;
 		}
 	}
 	// main
