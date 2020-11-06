@@ -22,14 +22,12 @@ const Detail = props => {
 
 	const PDFDownloadString =
 		active && active.frontmatter.PDF
-			? active.frontmatter.PDF
+			? active.frontmatter.PDF.publicUrl
 			: PDF
-			? PDF
+			? PDF.publicUrl
 			: false;
 
-	const PDFDownload = PDFDownloadString
-		? PDFDownloadString.replace("../../../static/img", "/img")
-		: false;
+	const PDFDownload = PDFDownloadString ? PDFDownloadString : false;
 
 	return (
 		<div
