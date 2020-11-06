@@ -16,3 +16,5 @@ export { default as Newsletter } from "./Newsletter/Newsletter";
 export { default as Item } from "./Item/Item";
 export { default as Detail } from "./Detail/Detail";
 export { default as Roll } from "./Roll/Roll";
+
+export { default as Page } from "./Page/Page";
