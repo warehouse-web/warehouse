@@ -55,7 +55,6 @@ export default () => (
 									caption
 									body
 								}
-								PDF
 							}
 						}
 					}
