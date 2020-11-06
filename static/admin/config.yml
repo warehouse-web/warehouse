@@ -262,21 +262,8 @@ collections:
       - label: Title
         name: title
         widget: string
-      - label: Right Column
-        name: rightColumn
-        required: false
-        widget: markdown
-        buttons:
-          [
-            "bold",
-            "italic",
-            "link",
-            "heading-one",
-            "heading-two",
-            "bulleted-list",
-          ]
-      - label: Body
-        name: body
+      - label: Content
+        name: content
         required: false
         widget: markdown
         buttons:
