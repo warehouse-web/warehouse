@@ -1,55 +1,54 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql } from "gatsby";
-import Content from "_utils/utils";
+import { graphql, Link } from "gatsby";
+import { Layout } from "_components";
+import ReactMarkdown from "react-markdown";
 
-export const PagesPageTemplate = ({
-	content,
-	contentComponent,
-	title,
-	helmet
-}) => {
-	const PostContent = contentComponent || Content;
-
+export const PagesPageTemplate = ({ title, body }) => {
 	return (
-		<div className="event-detail">
-			{helmet || ""}
-
-			<h2
-				style={{
-					textAlign: "center",
-					fontSize: "2em",
-					margin: "0 2.5rem 1rem",
-					lineHeight: "1.1"
-				}}
-			>
-				{title}
-			</h2>
-			<PostContent
-				style={{
-					justifyContent: "left",
-					textAlign: "left",
-					margin: "3.8em",
-					marginTop: "1.5rem"
-				}}
-				className="content"
-				content={content}
-			/>
+		<div className="About">
+			<Link className="close" id="white" to="/">
+				<span className="white"></span>
+				<span className="white"></span>
+			</Link>
+			<div className="About__wrapper">
+				<div className="About__left">
+					<h2 className="About__title">{title}</h2>
+				</div>
+				{body && (
+					<div className="About__right">
+						<ReactMarkdown
+							linkTarget={"_blank"}
+							escapeHtml={false}
+							source={body}
+						/>
+					</div>
+				)}
+			</div>
 		</div>
 	);
 };
 
 PagesPageTemplate.propTypes = {
-	content: PropTypes.node.isRequired,
-	contentComponent: PropTypes.func,
-	title: PropTypes.string,
-	helmet: PropTypes.object
+	title: PropTypes.string.isRequired
 };
 
 const PagesPage = ({ data }) => {
 	const { markdownRemark: post } = data;
 
-	return <IndexPages post={post} />;
+	return (
+		<Layout>
+			<PagesPageTemplate
+				title={post.frontmatter.title}
+				leftColumn={post.frontmatter.leftColumn}
+				rightColumn={post.frontmatter.rightColumn}
+				other={post.frontmatter.other}
+				images={post.frontmatter.images}
+			/>
+		</Layout>
+	);
+
+	return <PagesPageTemplate {...post} />;
 };
 
 PagesPage.propTypes = {

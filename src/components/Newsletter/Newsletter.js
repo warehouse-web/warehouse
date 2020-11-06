@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-const Nesletter = () => {
+const Newsletter = () => {
 	const [email, setEmail] = useState("");
 	const [error, setError] = useState("");
 	const [isSuccess, setIsSuccess] = useState(false);
@@ -65,4 +65,4 @@ const Nesletter = () => {
 	);
 };
 
-export default Nesletter;
+export default Newsletter;

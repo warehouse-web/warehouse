@@ -1,15 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Page } from "_components";
+import { PagesPageTemplate } from "../../templates/pages-page";
 
-const PagesPagePreview = ({ entry, getAsset }) => {
-	return (
-		<Page
-			{...entry.toJSON().data}
-			getAsset={getAsset}
-			title={entry.getIn(["data", "title"])}
-		/>
-	);
+const PagesPagePreview = ({ entry, widgetFor }) => {
+	const data = entry.getIn(["data"]).toJS();
+	if (data) {
+		return <PagesPageTemplate title={data.title} body={data.body} />;
+	}
 };
 
 PagesPagePreview.propTypes = {

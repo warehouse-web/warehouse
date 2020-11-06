@@ -19,12 +19,17 @@ const Detail = props => {
 		PDF = false,
 		price = false
 	} = props;
-	const PDFDownload =
+
+	const PDFDownloadString =
 		active && active.frontmatter.PDF
 			? active.frontmatter.PDF
 			: PDF
 			? PDF
 			: false;
+
+	const PDFDownload = PDFDownloadString
+		? PDFDownloadString.replace("../../../static/img", "/img")
+		: false;
 
 	return (
 		<div
@@ -64,15 +69,6 @@ const Detail = props => {
 						<div key={`content--` + i} />;
 					}
 				})}
-				{PDFDownload && (
-					<a
-						className="pdf-download"
-						href={PDFDownload.publicURL}
-						target="_blank"
-					>
-						Download Article
-					</a>
-				)}
 			</section>
 			<section className="content">
 				{!active &&
@@ -95,10 +91,10 @@ const Detail = props => {
 							);
 						}
 					})}
-				{PDF && (
+				{PDFDownload && (
 					<a
 						className="pdf-download"
-						href={PDF.publicURL}
+						href={PDFDownload}
 						target="_blank"
 					>
 						Download Article
