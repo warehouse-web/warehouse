@@ -77,7 +77,7 @@ export default () => (
 									caption
 									body
 								}
-								PDF
+								PDF { ... }
 							}
 						}
 					}
