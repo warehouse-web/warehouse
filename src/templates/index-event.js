@@ -43,9 +43,6 @@ export default () => (
 								location
 								content {
 									type
-									image {
-										publicURL
-									}
 									caption
 									body
 								}

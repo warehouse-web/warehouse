@@ -44,9 +44,6 @@ export default () => (
 								date(formatString: "MMMM DD, YYYY")
 								content {
 									type
-									image {
-										publicURL
-									}
 									caption
 									body
 								}

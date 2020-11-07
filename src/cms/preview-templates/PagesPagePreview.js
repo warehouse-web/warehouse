@@ -5,7 +5,7 @@ import { PagesPageTemplate } from "../../templates/pages-page";
 const PagesPagePreview = ({ entry, widgetFor }) => {
 	const data = entry.getIn(["data"]).toJS();
 	if (data) {
-		return <PagesPageTemplate title={data.title} body={data.body} />;
+		return <PagesPageTemplate title={data.title} text={data.text} />;
 	}
 };
 

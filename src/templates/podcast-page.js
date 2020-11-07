@@ -27,13 +27,7 @@ export const PodcastTemplate = ({
 			>
 				{title}
 			</h2>
-			<iframe
-				width="100%"
-				height="300"
-				scrolling="no"
-				frameborder="no"
-				allow="autoplay"
-			/>
+
 			<PostContent content={content} />
 		</div>
 	);

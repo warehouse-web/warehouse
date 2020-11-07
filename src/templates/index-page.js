@@ -66,9 +66,6 @@ export default () => (
 								author
 								content {
 									type
-									image {
-										publicURL
-									}
 									caption
 									body
 								}
