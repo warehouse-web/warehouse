@@ -4,7 +4,7 @@ import { graphql, Link } from "gatsby";
 import { Layout } from "_components";
 import ReactMarkdown from "react-markdown";
 
-export const PagesPageTemplate = ({ title, body }) => {
+export const PagesPageTemplate = ({ title, text }) => {
 	return (
 		<div className="About">
 			<Link className="close" id="white" to="/">
@@ -15,13 +15,16 @@ export const PagesPageTemplate = ({ title, body }) => {
 				<div className="About__left">
 					<h2 className="About__title">{title}</h2>
 				</div>
-				{body && (
+				{text && (
 					<div className="About__right">
-						<ReactMarkdown
-							linkTarget={"_blank"}
-							escapeHtml={false}
-							source={body}
-						/>
+						<div className="About__text">
+							<ReactMarkdown
+								parserOptions={{ commonmark: true }}
+								linkTarget={"_blank"}
+								escapeHtml={false}
+								source={text}
+							/>
+						</div>
 					</div>
 				)}
 			</div>
@@ -40,15 +43,10 @@ const PagesPage = ({ data }) => {
 		<Layout>
 			<PagesPageTemplate
 				title={post.frontmatter.title}
-				leftColumn={post.frontmatter.leftColumn}
-				rightColumn={post.frontmatter.rightColumn}
-				other={post.frontmatter.other}
-				images={post.frontmatter.images}
+				text={post.frontmatter.text}
 			/>
 		</Layout>
 	);
-
-	return <PagesPageTemplate {...post} />;
 };
 
 PagesPage.propTypes = {
@@ -70,6 +68,7 @@ export const pageQuery = graphql`
 			frontmatter {
 				title
 				templateKey
+				text
 			}
 		}
 	}
