@@ -262,8 +262,8 @@ collections:
       - label: Title
         name: title
         widget: string
-      - label: Content
-        name: content
+      - label: Text
+        name: text
         required: false
         widget: markdown
         buttons:
