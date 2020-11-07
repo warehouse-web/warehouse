@@ -12,7 +12,6 @@ export const AboutPageTemplate = ({
 	other,
 	images
 }) => {
-	console.log(images);
 	return (
 		<div className="About">
 			<Link className="close" id="white" to="/">
