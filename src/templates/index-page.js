@@ -69,7 +69,7 @@ export default () => (
 									image {
 										publicURL
 										childImageSharp {
-											fluid(maxWidth: 1040, quality: 90) {
+											fixed(maxWidth: 1040, quality: 90) {
 												...GatsbyImageSharpFluid_withWebp_tracedSVG
 											}
 										}
