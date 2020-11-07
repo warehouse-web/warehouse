@@ -12,6 +12,7 @@ export const AboutPageTemplate = ({
 	other,
 	images
 }) => {
+	console.log(images);
 	return (
 		<div className="About">
 			<Link className="close" id="white" to="/">
@@ -96,8 +97,8 @@ export const aboutPageQuery = graphql`
 					image {
 						publicURL
 						childImageSharp {
-							fixed(width: 1040, quality: 80) {
-								...GatsbyImageSharpFixed_withWebp_tracedSVG
+							fluid(maxWidth: 1040, quality: 80) {
+								...GatsbyImageSharpFluid_withWebp_tracedSVG
 							}
 						}
 					}
