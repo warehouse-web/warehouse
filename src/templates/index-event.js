@@ -43,6 +43,14 @@ export default () => (
 								location
 								content {
 									type
+									image {
+										publicURL
+										childImageSharp {
+											fluid(maxWidth: 1040, quality: 80) {
+												...GatsbyImageSharpFluid_withWebp_tracedSVG
+											}
+										}
+									}
 									caption
 									body
 								}

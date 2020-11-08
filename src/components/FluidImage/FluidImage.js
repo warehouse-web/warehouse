@@ -7,7 +7,7 @@ const FluidImage = ({ image }) =>
 		<Img fluid={image.childImageSharp.fluid} />
 	) : (
 		<div>
-			<img alt="" src={image} />
+			<img alt="" src={image.publicURL ? image.publicURL : image} />
 		</div>
 	);
 
