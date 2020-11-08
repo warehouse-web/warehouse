@@ -27,7 +27,7 @@ export default () => (
 					filter: {
 						frontmatter: {
 							templateKey: { eq: "focus-page" }
-							PDF: { ne: "" }
+							PDF: { ne: { publicURL: "" } }
 						}
 					}
 				) {
@@ -49,7 +49,9 @@ export default () => (
 									caption
 									body
 								}
-								PDF
+								PDF {
+									publicURL
+								}
 							}
 						}
 					}
