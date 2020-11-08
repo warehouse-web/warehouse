@@ -19,14 +19,6 @@ module.exports = {
 		author: "Zuzana Kostelanska"
 	},
 	plugins: [
-		{
-			// keep as first gatsby-source-filesystem plugin for gatsby image support
-			resolve: "gatsby-source-filesystem",
-			options: {
-				path: `${__dirname}/static/img`,
-				name: "uploads"
-			}
-		},
 		"gatsby-plugin-sharp",
 		"gatsby-transformer-sharp",
 		{
@@ -69,7 +61,21 @@ module.exports = {
 				]
 			}
 		},
-
+		{
+			// keep as first gatsby-source-filesystem plugin for gatsby image support
+			resolve: "gatsby-source-filesystem",
+			options: {
+				path: `${__dirname}/static/img`,
+				name: "uploads"
+			}
+		},
+		{
+			resolve: "gatsby-source-filesystem",
+			options: {
+				path: `${__dirname}/src/images`,
+				name: "images"
+			}
+		},
 		{
 			resolve: `gatsby-plugin-alias-imports`,
 			options: {

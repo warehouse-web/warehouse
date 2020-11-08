@@ -5,12 +5,6 @@ backend:
 media_folder: static/img
 public_folder: /img
 
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: thisiswarehouse
-    api_key: 943668299228174
-
 collections:
   - name: event
     identifier_field: title
