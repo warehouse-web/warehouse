@@ -26,7 +26,10 @@ export default () => (
 				allMarkdownRemark(
 					sort: { order: DESC, fields: [frontmatter___date] }
 					filter: {
-						frontmatter: { templateKey: { eq: "product-page" } }
+						frontmatter: {
+							templateKey: { eq: "product-page" }
+							PDF: { ne: "" }
+						}
 					}
 				) {
 					edges {
