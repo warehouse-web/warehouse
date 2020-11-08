@@ -93,9 +93,6 @@ export const aboutPageQuery = graphql`
 				leftColumn
 				rightColumn
 				images {
-					image {
-						publicURL
-					}
 					caption
 				}
 				other

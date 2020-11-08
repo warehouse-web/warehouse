@@ -22,9 +22,9 @@ const Detail = props => {
 
 	const PDFDownloadString =
 		active && active.frontmatter.PDF
-			? active.frontmatter.PDF.publicUrl
+			? active.frontmatter.PDF
 			: PDF
-			? PDF.publicUrl
+			? PDF
 			: false;
 
 	const PDFDownload = PDFDownloadString ? PDFDownloadString : false;

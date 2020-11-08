@@ -66,9 +66,11 @@ export default () => (
 								author
 								content {
 									type
+
 									caption
 									body
 								}
+								PDF
 							}
 						}
 					}

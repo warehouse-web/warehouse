@@ -44,9 +44,11 @@ export default () => (
 								date(formatString: "MMMM DD, YYYY")
 								content {
 									type
+
 									caption
 									body
 								}
+								PDF
 							}
 						}
 					}
