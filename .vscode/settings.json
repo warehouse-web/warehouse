@@ -1,1 +1,17 @@
-{}
+{
+  "prettier.tabWidth": 4,
+  "prettier.useTabs": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 100,
+  "search.exclude": {
+    "config/db/**": true,
+    "**/.babel_cache": true,
+    "**/node_modules": true
+  },
+  "prettier.semi": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  }
+}

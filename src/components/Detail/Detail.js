@@ -1,106 +1,60 @@
-import React from "react";
-import ReactMarkdown from "react-markdown";
+import { useEffect, useRef } from 'react'
+import ReactMarkdown from 'react-markdown'
 
-import { CloseButton, FluidImage } from "_components";
-import { useMedia } from "_utils/utils";
+import { postSlug } from '_utils'
+import { CloseButton } from '_components'
 
-const Detail = props => {
-	const match = useMedia("(max-width: 900px) ");
-
+const Detail = ({ active = {} }) => {
+	const refMain = useRef(null)
+	const { frontmatter = {} } = active
 	const {
-		active,
-		onSetActive,
-		onSetShowDetail,
-		title,
-		content,
-		getAsset,
-		articleRef,
-		id,
-		PDF = false,
-		price = false
-	} = props;
+		title = '',
+		date = false,
+		location = false,
+		templateKey = '',
+		author = '',
+		content = [],
+		PDF = '',
+	} = frontmatter
+	const typeslug = postSlug(templateKey)
 
-	const PDFDownloadString =
-		active && active.frontmatter.PDF
-			? active.frontmatter.PDF
-			: PDF
-			? PDF
-			: false;
-
-	const PDFDownload = PDFDownloadString ? PDFDownloadString : false;
+	useEffect(() => {
+		if (!refMain.current) return
+		refMain.current.scrollTop = 0
+	}, [active])
 
 	return (
-		<div
-			ref={articleRef}
-			className={`article-detail ${match ? `mobile` : ``}`}
-			key={id}
-		>
-			<CloseButton
-				onSetActive={onSetActive}
-				onSetShowDetail={onSetShowDetail}
-			/>
-			<h2 className="article-detail-title">
-				{active ? active.frontmatter.title : title ? title : ""}
-			</h2>
-
-			<section className="content">
-				{((active && active.frontmatter.content) || []).map((el, i) => {
-					if (el.type === "images") {
-						return (
-							<div key={`content--` + i}>
-								{el.image && <FluidImage image={el.image} />}
-								<p className="caption">
-									{el.caption ? el.caption : ""}
-								</p>
-							</div>
-						);
-					} else if (el.type === "text") {
-						return (
-							<ReactMarkdown
-								key={`content--` + i}
-								linkTarget={"_blank"}
-								escapeHtml={false}
-								source={el.body}
-							/>
-						);
-					} else {
-						<div key={`content--` + i} />;
-					}
-				})}
-			</section>
-			<section className="content">
-				{!active &&
-					content &&
+		<div className={`Detail`} ref={refMain}>
+			<CloseButton back={'/' + typeslug} />
+			<h2 className='Detail__title'>{title}</h2>
+			<section className='Detail__content'>
+				{content &&
 					content.map((el, i) => {
-						if (el.type === "images") {
+						if (el.type === 'images') {
 							return (
 								<div key={`content-two--` + i}>
-									<img src={getAsset(el.image)} alt="" />
-									<p className="caption">{el.caption}</p>
+									<img src={el.image} alt='' />
+									<p className='caption'>{el.caption}</p>
 								</div>
-							);
-						} else if (el.type === "text") {
+							)
+						} else if (el.type === 'text') {
 							return (
 								<ReactMarkdown
 									key={`content-two--` + i}
 									escapeHtml={false}
 									source={el.body}
 								/>
-							);
+							)
 						}
 					})}
-				{PDFDownload && (
-					<a
-						className="pdf-download"
-						href={PDFDownload}
-						target="_blank"
-					>
+				{PDF && (
+					<a className='pdf-download' href={PDF} target='_blank'>
 						Download Article
 					</a>
 				)}
 			</section>
 		</div>
-	);
-};
+	)
+}
 
-export default Detail;
+export default Detail

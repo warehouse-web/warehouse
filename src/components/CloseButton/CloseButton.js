@@ -1,31 +1,23 @@
-import React from "react";
-import { navigate } from "gatsby";
+import React from 'react'
+import { useRouter } from 'next/router'
 
-const CloseButton = ({ onSetActive, onSetShowDetail }) => {
+const CloseButton = ({ back = '/' }) => {
+	const router = useRouter()
+
 	const handleClick = () => {
-		if (!onSetActive || !onSetShowDetail) {
-			navigate("/about");
-		} else {
-			const before = window.history.state.before;
-			if (before) {
-				window.history.pushState(null, before.title, before.slug);
-			}
-
-			onSetActive({});
-			onSetShowDetail(false);
-		}
-	};
+		router.push(back)
+	}
 	return (
 		<div
-			className="close"
+			className='CloseButton'
 			onClick={() => {
-				handleClick();
+				handleClick()
 			}}
 		>
 			<span></span>
 			<span></span>
 		</div>
-	);
-};
+	)
+}
 
-export default CloseButton;
+export default CloseButton

@@ -1,0 +1,84 @@
+.Detail {
+	flex: 0 0 50%;
+	background-color: rgb(245, 245, 245);
+	z-index: 999;
+	position: fixed;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	right: 0;
+	width: 50%;
+	height: 100vh;
+	top: 0;
+	padding-bottom: 2rem;
+
+	@include breakpoint-max('small') {
+		width: 100%;
+	}
+
+	&__title {
+		text-align: center;
+		font-size: 2em;
+		color: black;
+		margin: 0 2rem;
+		padding: 1.3rem 2em 0.4em;
+		@include title-sm;
+	}
+	&__description {
+		margin: 3.8em;
+		text-align: left;
+		color: black;
+	}
+
+	&__content {
+		list-style: none;
+		margin-bottom: 0;
+		margin-left: 0;
+		margin-top: 1.5rem;
+		flex-wrap: wrap;
+		justify-content: left;
+		align-items: center;
+		text-align: left;
+		margin: 0 3.8rem;
+	}
+
+	&__content > p {
+		font-size: 1.15em;
+		line-height: 1.35;
+		p:not(:last-child) {
+			margin-bottom: 1em;
+		}
+	}
+
+	.caption {
+		margin-top: 0.5rem;
+		text-align: center;
+	}
+
+	.gatsby-image-wrapper {
+		width: 80%;
+		margin: 0 auto;
+		max-width: 570px;
+	}
+	.gatsby-resp-image-wrapper {
+		width: 80%;
+		/* margin-bottom: 1.8rem; */
+	}
+
+	figure figcaption {
+		margin-top: 0.5rem;
+		text-align: center;
+	}
+	.content > * {
+	}
+
+	.content > p > span {
+		display: block;
+	}
+
+	/* FOCUS PAGE */
+	.pdf-download {
+		display: block;
+		text-decoration: underline;
+		margin-top: 0.5rem;
+	}
+}

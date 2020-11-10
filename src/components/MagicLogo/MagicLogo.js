@@ -1,273 +1,285 @@
-import React, { useState, useEffect, useRef } from "react";
-// import { relayout } from "_utils/utils";
+import { useState, useEffect, useRef } from 'react'
+import { useAnimationFrame } from '_utils'
 
-import Img from "gatsby-image/withIEPolyfill";
-
-const MagicLogo = ({ currImg = false }) => {
-	const refContainer = useRef(false);
-	const [img, setImg] = useState(false);
-
-	// CHANGING LOGO COLOR
-	// useEffect(() => {
-	// 	window.addEventListener("scroll", relayout);
-	// 	return () => {
-	// 		window.removeEventListener("scroll", relayout);
-	// 	};
-	// }, []);
+const MagicLogo = ({ logoImg = false }) => {
+	const refMain = useRef(false)
+	const refContainer = useRef(false)
+	const [img, setImg] = useState(false)
 
 	useEffect(() => {
-		if (!currImg) {
-			setImg(false);
+		if (!logoImg) {
+			setImg(false)
 		}
-	}, [currImg]);
+	}, [logoImg])
 
-	const onLoadImg = state => {
-		setImg(refContainer.current.imageRef.current.currentSrc);
-	};
+	const onLoadImg = (state) => {
+		setImg(refContainer.current.src)
+	}
+
+	useAnimationFrame(() => {
+		scroll()
+	})
+
+	// Scrolling
+	const scroll = () => {
+		if (!refMain.current) return false
+		let shiftRatio = 0
+		let initFlexWidthPx = 0
+
+		if (window.innerWidth <= 900) {
+			shiftRatio = 0.00025
+			initFlexWidthPx = 310
+		} else {
+			initFlexWidthPx = 620
+			shiftRatio = 0.0005
+		}
+
+		const y = window.scrollY
+
+		let newWidth = initFlexWidthPx - 0.3 * y
+		if (newWidth < 120) {
+			newWidth *= -1
+		}
+
+		refMain.current.style.width = newWidth + 'px'
+	}
 
 	const styles =
-		img && currImg
+		img && logoImg
 			? {
-					backgroundImage: `url(${img})`
+					backgroundImage: `url(${img})`,
 			  }
-			: {};
+			: {}
 
 	return (
 		<div
-			className={"magic-logo " + (img && currImg ? "" : "not-active")}
+			className={'MagicLogo ' + (img && logoImg ? '' : 'not-active')}
 			style={styles}
+			ref={refMain}
 		>
-			<div className="magic-logo__img">
-				{currImg && currImg.childImageSharp ? (
-					<Img
-						fluid={currImg.childImageSharp.fluid}
-						ref={refContainer}
-						onLoad={onLoadImg}
-					/>
-				) : (
-					""
-				)}
+			<div className='MagicLogo__img'>
+				{logoImg ? <img src={logoImg} ref={refContainer} onLoad={onLoadImg} /> : ''}
 			</div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle rectangle-background"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
-			<div className="rectangle"></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle rectangle-background'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
+			<div className='rectangle'></div>
 		</div>
-	);
-};
+	)
+}
 
-export default MagicLogo;
+export default MagicLogo

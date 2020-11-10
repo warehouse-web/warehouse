@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"_content": [
+				"content"
+			],
+			"_components": [
+				"src/components/components"
+			],
+			"_views": [
+				"src/views/views"
+			],
+			"_utils": [
+				"src/utils/utils"
+			],
+			"_api": [
+				"src/api/api"
+			],
+			"_options": [
+				"src/api/options"
+			]
+		}
+	}
+}

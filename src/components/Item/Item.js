@@ -1,53 +1,60 @@
-import React from "react";
-import { isDateBeforeToday, renderImg, postType } from "_utils/utils";
+import { isDateBeforeToday, renderImg, postType, postSlug } from '_utils'
+import Link from 'next/link'
+import moment from 'moment'
 
-const Item = ({ post, openPost, setDivStyle, active }) => {
+const Index = ({ post = {}, active = {}, activeSlug = '', setLogoImg = undefined }) => {
+	const { frontmatter = {}, slug = '' } = post
 	const {
-		title = "",
+		title = '',
 		date = false,
 		location = false,
-		templateKey = "",
-		author = ""
-	} = post.frontmatter;
+		templateKey = '',
+		author = '',
+		content = [],
+	} = frontmatter
 	const authorFormat =
-		templateKey === "product-page" || templateKey === "focus-page"
+		templateKey === 'product-page' || templateKey === 'focus-page'
 			? author
-				? "By " + author
+				? 'By ' + author
 				: false
-			: false;
-	const dateFormat = templateKey !== "product-page" ? date : false;
+			: false
+	const dateFormat = templateKey !== 'product-page' ? moment(date).format('MMMM D, YYYY') : false
 	const formatDate =
-		templateKey === "event-post" && date
-			? isDateBeforeToday(post)
-				? "Past"
-				: "Upcoming"
-			: false;
-	const type = postType(post);
+		templateKey === 'event-post' && date
+			? isDateBeforeToday(date)
+				? 'Past'
+				: 'Upcoming'
+			: false
+	const type = postType(templateKey)
+
+	const typeslug = postSlug(templateKey)
+
+	const firstImg = content[0] && content[0].image ? content[0].image : false
 
 	return (
 		<article
-			key={post.id}
-			onPointerEnter={() => renderImg(post, setDivStyle)}
-			onPointerLeave={() => setDivStyle(false)}
-			onClick={() => openPost(post)}
-			className={`Item ${post === active ? "is-selected" : ""}`}
+			className={`Item ${slug === activeSlug ? 'is-selected' : ''}`}
+			onPointerEnter={() => setLogoImg(firstImg)}
+			onPointerLeave={() => setLogoImg(false)}
 		>
-			<div className="Item__header">
-				{formatDate && (
-					<h2 className="Item__type">
-						{formatDate} {type}
-					</h2>
-				)}
-
-				{templateKey !== "event-post" && (
-					<h2 className="Item__type">{type}</h2>
-				)}
-				<h1 className="Item__title">{title}</h1>
-				{dateFormat && <h2 className="Item__meta">{dateFormat}</h2>}
-				{authorFormat && <h2 className="Item__meta">{authorFormat}</h2>}
-				{location && <h2>{location}</h2>}
-			</div>
+			<Link href={'/' + typeslug + '/' + slug}>
+				<a>
+					<div className='Item__header'>
+						{formatDate && (
+							<div className='Item__type'>
+								{formatDate} {type}
+							</div>
+						)}
+						{templateKey !== 'event-post' && <div className='Item__type'>{type}</div>}
+						<h1 className='Item__title'>{title}</h1>
+						{dateFormat && <h2 className='Item__meta'>{dateFormat}</h2>}
+						{authorFormat && <h2 className='Item__meta'>{authorFormat}</h2>}
+						{location && <h2>{location}</h2>}
+					</div>
+				</a>
+			</Link>
 		</article>
-	);
-};
-export default Item;
+	)
+}
+
+export default Index

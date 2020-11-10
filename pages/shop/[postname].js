@@ -1,0 +1,81 @@
+import Head from 'next/head'
+import matter from 'gray-matter'
+
+import { WEB_NAME } from '_options'
+import { Home } from '_views'
+
+const ShopPage = ({ posts, active }) => {
+	const { frontmatter = {}, slug = '' } = active
+	const { title = '' } = frontmatter
+
+	return (
+		<>
+			<Head>
+				<title>
+					{title} - {WEB_NAME}
+				</title>
+			</Head>
+			<Home {...{ posts, active, activeSlug: slug }} />
+		</>
+	)
+}
+export default ShopPage
+
+export async function getStaticProps({ ...ctx }) {
+	const { postname } = ctx.params
+
+	const postsArray = ((context) => {
+		const keys = context.keys()
+		const values = keys.map(context)
+
+		const data = keys.map((key, index) => {
+			let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3)
+			const value = values[index]
+			const document = matter(value.default)
+			return {
+				frontmatter: document.data,
+				markdownBody: document.content,
+				slug,
+			}
+		})
+		return data
+	})(require.context('../../content/shop', true, /\.md$/))
+
+	let posts = postsArray
+	posts = posts.sort((a, b) => (a.frontmatter.date < b.frontmatter.date ? 1 : -1))
+
+	// post
+
+	const content = await import(`../../content/shop/${postname}.md`)
+	const data = matter(content.default)
+
+	return {
+		props: {
+			posts,
+			active: {
+				frontmatter: data.data,
+				markdownBody: data.content,
+				slug: postname,
+			},
+		},
+	}
+}
+
+export async function getStaticPaths() {
+	const blogSlugs = ((context) => {
+		const keys = context.keys()
+		const data = keys.map((key, index) => {
+			let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3)
+
+			return slug
+		})
+		return data
+	})(require.context('../../content/shop', true, /\.md$/))
+
+	const paths = blogSlugs.map((slug) => `/shop/${slug}`)
+
+	return {
+		paths,
+		fallback: false,
+	}
+}

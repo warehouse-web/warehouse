@@ -1,0 +1,9 @@
+.NotFound {
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+	&__content {
+		text-align: center;
+		width: 100%;
+	}
+}

@@ -1,0 +1,28 @@
+// newsletter
+.Newsletter {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 400px;
+	p {
+		width: 100%;
+	}
+	&__inner {
+		display: flex;
+		width: 100%;
+		input {
+			color: $white;
+			border-bottom: 1px solid $white;
+			width: 100%;
+			font-family: $font-family;
+			padding: 10px 0;
+		}
+		button {
+			background: $white;
+			color: $black;
+			margin-left: 20px;
+			padding: 10px;
+			font-family: $font-family;
+		}
+	}
+}
