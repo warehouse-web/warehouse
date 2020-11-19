@@ -103,7 +103,7 @@ collections:
             name: btw
             widget: select
             options: ['9', '21']
-            default: ['21']
+            default: '21'
           - label: Upload PDF
             name: PDF
             required: false
