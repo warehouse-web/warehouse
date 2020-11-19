@@ -153,7 +153,7 @@ collections:
             name: author
             widget: string
           - label: Date Added
-            name: dateadded
+            name: date
             widget: date
             default: ''
             format: 'MM-DD-YYYY'
