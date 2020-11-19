@@ -8,3 +8,32 @@ main {
 
 	padding: 52px 0 0;
 }
+
+// btn
+
+.btn {
+	@include menu;
+	padding: 4px 10px;
+	border: 1px solid transparent;
+	border-radius: 70px;
+	text-transform: uppercase;
+	user-select: none;
+	display: block;
+	outline: none;
+	cursor: pointer;
+	z-index: 1;
+	position: relative;
+
+	&--cart {
+		border-color: $black !important;
+		color: $black !important;
+		overflow: hidden;
+		transition: 0.5s;
+		background-size: 200% auto;
+		background-image: linear-gradient(to right, $white 0%, #646464 51%, $white 100%);
+
+		&:hover {
+			background-position: right center; /* change the direction of the change here */
+		}
+	}
+}

@@ -52,6 +52,11 @@ const Header = () => {
 								</Link>
 							</li>
 						))}
+						<li className='Navbar__item'>
+							<a className='btn btn--cart snipcart-checkout'>
+								Cart (<span className='snipcart-items-count'>0</span>)
+							</a>
+						</li>
 					</ul>
 				</div>
 

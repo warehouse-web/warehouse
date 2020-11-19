@@ -29,6 +29,28 @@
 		color: black;
 	}
 
+	&__price {
+		position: relative;
+		width: 100%;
+	}
+	&__price-inner {
+		display: flex;
+		justify-content: center;
+		position: relative;
+		align-items: center;
+	}
+	&__price-price {
+		margin-right: 1em;
+
+		@include breakpoint('small') {
+			position: absolute;
+			left: 0;
+			top: 50%;
+			line-height: 20px;
+			margin-top: -8px;
+		}
+	}
+
 	&__content {
 		list-style: none;
 		margin-bottom: 0;
@@ -41,11 +63,15 @@
 		margin: 0 3.8rem;
 	}
 
-	&__content > p {
+	&__content > div + div {
+		margin-top: 3em;
+	}
+
+	&__text {
 		font-size: 1.15em;
 		line-height: 1.35;
-		p:not(:last-child) {
-			margin-bottom: 1em;
+		p + p {
+			margin-top: 1em;
 		}
 	}
 

@@ -1,6 +1,7 @@
 .Home {
 	display: flex;
 	width: 100%;
+	flex-wrap: wrap;
 
 	@include breakpoint-max('small') {
 		padding-left: 28px;
@@ -9,6 +10,7 @@
 		margin-left: 36px;
 		margin-top: 22px;
 		flex: 0 0 100%;
+		width: 100%;
 
 		@include breakpoint-max('small') {
 			margin-left: 0;

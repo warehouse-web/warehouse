@@ -9,7 +9,18 @@
 	margin-left: auto;
 	z-index: 10;
 
+	svg,
 	span {
+		display: none;
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	&:before,
+	&:after {
+		content: '';
 		background-color: currentColor;
 		display: block;
 		height: 1px;
@@ -20,14 +31,13 @@
 		transition-property: background-color, opacity, transform;
 		transition-timing-function: ease-out;
 		width: 22px;
-
-		&:nth-child(1) {
-			top: calc(50% - 6px);
-			transform: translateY(5px) rotate(45deg);
-		}
-		&:nth-child(2) {
-			top: calc(50% - 1px);
-			transform: translateY(0px) rotate(-45deg);
-		}
+	}
+	&:before {
+		top: calc(50% - 6px);
+		transform: translateY(5px) rotate(45deg);
+	}
+	&:after {
+		top: calc(50% - 1px);
+		transform: translateY(0px) rotate(-45deg);
 	}
 }
