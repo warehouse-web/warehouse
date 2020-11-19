@@ -99,6 +99,11 @@ collections:
             name: price
             widget: string
             required: false
+          - label: BTW
+            name: btw
+            widget: select
+            options: ['9', '21']
+            default: ['21']
           - label: Upload PDF
             name: PDF
             required: false
@@ -148,6 +153,7 @@ collections:
             name: author
             widget: string
           - label: Date Added
+            name: dateadded
             widget: date
             default: ''
             format: 'MM-DD-YYYY'
@@ -204,6 +210,7 @@ collections:
             name: 'author'
             widget: 'string'
           - label: Date
+            name: date,
             widget: date
             default: ''
             format: 'MM-DD-YYYY'
