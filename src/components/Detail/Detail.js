@@ -75,6 +75,18 @@ const Detail = ({ active = {} }) => {
 																: 'BTW (21%)'
 														}
 														data-item-has-taxes-included='true'
+														onClick={(e) => {
+															console.log('hey')
+															const cart = document.querySelector(
+																'.Header__item--cart'
+															)
+															if (cart) {
+																console.log(cart)
+																cart.classList.remove(
+																	'Header__item--hide'
+																)
+															}
+														}}
 													>
 														{el.text ? el.text : 'Add to cart'}
 													</button>

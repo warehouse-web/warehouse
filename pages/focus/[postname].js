@@ -49,23 +49,6 @@ export async function getStaticProps({ ...ctx }) {
 	const content = await import(`../../content/focus/${postname}.md`)
 	const data = matter(content.default)
 
-	//footer
-	const pagesArray = ((context) => {
-		const keys = context.keys()
-		const values = keys.map(context)
-
-		const data = keys.map((key, index) => {
-			let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3)
-			const value = values[index]
-			const document = matter(value.default)
-			return {
-				title: document.data.title,
-				slug: 'pages/' + slug,
-			}
-		})
-		return data
-	})(require.context('../../content/pages', true, /\.md$/))
-
 	return {
 		props: {
 			posts,
@@ -74,7 +57,6 @@ export async function getStaticProps({ ...ctx }) {
 				markdownBody: data.content,
 				slug: postname,
 			},
-			footer: pagesArray,
 		},
 	}
 }

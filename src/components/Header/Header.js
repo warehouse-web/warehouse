@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
@@ -31,6 +31,19 @@ const Header = () => {
 
 	const parentLink = router.pathname.split('/')[1] ? '/' + router.pathname.split('/')[1] : false
 
+	// Similar to componentDidMount and componentDidUpdate:
+	useEffect(() => {
+		setTimeout(() => {
+			const total = document.querySelector('.snipcart-items-count').textContent
+			if (total !== '0') {
+				const cart = document.querySelector('.Header__item--cart')
+				if (cart) {
+					cart.classList.remove('Header__item--hide')
+				}
+			}
+		}, 1000)
+	}, [router])
+
 	return (
 		<header className={'Header'}>
 			<div className='Header__inner'>
@@ -52,7 +65,7 @@ const Header = () => {
 								</Link>
 							</li>
 						))}
-						<li className='Navbar__item'>
+						<li className={'Header__item Header__item--cart Header__item--hide '}>
 							<a className='btn btn--cart snipcart-checkout'>
 								Cart (<span className='snipcart-items-count'>0</span>)
 							</a>
