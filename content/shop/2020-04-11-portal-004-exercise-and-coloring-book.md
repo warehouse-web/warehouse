@@ -23,13 +23,9 @@ content:
       clothing.
 
 
-
-
       _PORTAL_ is a research project that explores the economic, social and
       emotional value of clothing and offers a ‘way in’ to understanding
       garments from a multitude of overlapping and intersecting perspectives.
-
-
 
 
       For every edition, participants are asked to take off a garment, lay it
@@ -47,12 +43,10 @@ content:
       of the everyday as opposed to the myth of the exclusive fashion image.
       _PORTAL_ thus provides an entryway to a vision that begins to prioritise
       values that are ephemeral and yet integral in “influencing hearts and
-      minds and shaping the way we live together”. Itcaptures and visualises
+      minds and shaping the way we live together”. It captures and visualises
       information that circumvents established hierarchies and disrupts the
       homogeneity of the commercially driven fashion system with the refreshing
       diversity of fashion that is worn; embodied and imperfect.
-
-
 
 
       The collected information of each _PORTAL_ edition is visualized and
