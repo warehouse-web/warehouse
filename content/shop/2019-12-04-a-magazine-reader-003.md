@@ -2,7 +2,7 @@
 templateKey: product-page
 title: A Magazine Reader 03
 price: '12.50'
-btw: '21'
+btw: '9'
 PDF: ''
 content:
   - caption: A Magazine Reader 03 (2019)
