@@ -11,8 +11,8 @@ content:
   - text: Add to cart
     type: cart-button
   - body: >-
-      *PORTAL 001* Reader is the result of a workshop during the *Change the
-      System* exhibition at Museum Boijmans van Beuningen in Rotterdam in which
+      _PORTAL 001_ Reader is the result of a workshop during the _Change the
+      System_ exhibition at Museum Boijmans van Beuningen in Rotterdam in which
       Elisa van Joolen worked with MA Fashion Strategy students generation 27 to
       research the economic, social and emotional value of clothing worn by
       visitors of the exhibition. The collected information on 159 pieces of
@@ -20,7 +20,7 @@ content:
       Beau Bertens.
 
 
-      *PORTAL* is a research project that explores the economic, social and
+      _PORTAL_ is a research project that explores the economic, social and
       emotional value of clothing and offers a ‘way in’ to understanding
       garments from a multitude of overlapping and intersecting perspectives.
 
@@ -38,7 +38,7 @@ content:
       connect to form a fashion network which inverts our gaze, shining a
       spotlight on the intricacies of our own outfits and extraordinary aspects
       of the everyday as opposed to the myth of the exclusive fashion image.
-      *PORTAL* thus provides an entryway to a vision that begins to prioritise
+      _PORTAL_ thus provides an entryway to a vision that begins to prioritise
       values that are ephemeral and yet integral in “influencing hearts and
       minds and shaping the way we live together”. It captures and visualises
       information that circumvents established hierarchies and disrupts the
@@ -46,15 +46,15 @@ content:
       diversity of fashion that is worn; embodied and imperfect.
 
 
-      The collected information of each *PORTAL* edition is visualized and
-      brought together in a reader using the sixteen *PORTAL* questions as their
+      The collected information of each _PORTAL_ edition is visualized and
+      brought together in a reader using the sixteen _PORTAL_ questions as their
       starting point.
 
 
-      For *PORTAL 001* Elisa van Joolen worked with students from the MA Fashion
+      For _PORTAL 001_ Elisa van Joolen worked with students from the MA Fashion
       Strategy programme of ArtEZ University of the Arts to research the
       economic, social and emotional value of clothing worn by visitors of the
-      *Change the System* exhibition at Museum Boijmans van Beuningen in
+      _Change the System_ exhibition at Museum Boijmans van Beuningen in
       Rotterdam. Information on 159 pieces of clothing worn by visitors was
       collected. The collected data is visualized and brought together in a
       reader designed by Beau Bertens.
@@ -73,13 +73,6 @@ content:
       Language: English\ Text editor: Femke de Vries\ Made possible by: MA
       Fashion Strategy at ArtEZ University of the Arts, Museum Boijmans van
       Beuningen\ Production: Warehouse\ Production assistant: Asu Aksu
-
-
-      12,50 EUR
-
-
-      Send an email to <shop@thisiswarehouse.com> if you want to purchase a
-      copy.
     type: text
   - caption: Contribution by Marina Sasseron de Cabral
     image: /img/portal001-_vanjoolen_9.jpg
