@@ -13,8 +13,8 @@ content:
       \-- scroll down to download the PDF --
 
 
-      *PORTAL 004* | Exercise and coloring book for children is the result of
-      *PORTAL 004*,  a workshop in which children from the public primary school
+      _PORTAL 004_ | Exercise and coloring book for children is the result of
+      _PORTAL 004_,  a workshop in which children from the public primary school
       OBS Twiske, under the supervision of students of the MA Fashion Strategy,
       investigated the different values of clothing. In this book, which is
       based on the questions and outcomes of this workshop, children can
@@ -23,9 +23,13 @@ content:
       clothing.
 
 
-      *PORTAL* is a research project that explores the economic, social and
+
+
+      _PORTAL_ is a research project that explores the economic, social and
       emotional value of clothing and offers a ‘way in’ to understanding
       garments from a multitude of overlapping and intersecting perspectives.
+
+
 
 
       For every edition, participants are asked to take off a garment, lay it
@@ -41,7 +45,7 @@ content:
       connect to form a fashion network which inverts our gaze, shining a
       spotlight on the intricacies of our own outfits and extraordinary aspects
       of the everyday as opposed to the myth of the exclusive fashion image.
-      *PORTAL* thus provides an entryway to a vision that begins to prioritise
+      _PORTAL_ thus provides an entryway to a vision that begins to prioritise
       values that are ephemeral and yet integral in “influencing hearts and
       minds and shaping the way we live together”. Itcaptures and visualises
       information that circumvents established hierarchies and disrupts the
@@ -49,8 +53,10 @@ content:
       diversity of fashion that is worn; embodied and imperfect.
 
 
-      The collected information of each *PORTAL* edition is visualized and
-      brought together in a reader using the sixteen *PORTAL* questions as their
+
+
+      The collected information of each _PORTAL_ edition is visualized and
+      brought together in a reader using the sixteen _PORTAL_ questions as their
       starting point.
     type: text
   - image: /img/05_portal004_photo_anoukbeckers.jpg
@@ -69,14 +75,6 @@ content:
       Steenbergen-Cockerton\ Made possible by: MA Fashion Strategy at ArtEZ
       University of the Arts\ Production: Warehouse\ Production assistant: Anouk
       Beckers
-
-
-      15EUR
-
-
-      Send an email to
-      [shop@thisiswarehouse.com](mailto:shop@thisiswarehouse.com) if you want to
-      purchase a copy.
     type: text
   - image: /img/portal004-5.jpg
     type: images
