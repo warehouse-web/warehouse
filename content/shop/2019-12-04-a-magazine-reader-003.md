@@ -11,9 +11,9 @@ content:
   - text: Add to cart
     type: cart-button
   - body: >-
-      *A Magazine Reader 03* is the result of two-day workshop by Hanka van der
+      _A Magazine Reader 03_ is the result of two-day workshop by Hanka van der
       Voet, Zuzana Kostelanská and Femke de Vries, hosted by Onomatopee in
-      Eindhoven. In this edition of *A Magazine Reader* we explore how every
+      Eindhoven. In this edition of _A Magazine Reader_ we explore how every
       possible element; perfume, facial creams, rosemary water, travel
       suggestions, gadgets, books etcetera, is used to create stories and myths
       of a future reality. These 'stories' are composed of so much more than
@@ -25,7 +25,9 @@ content:
       the construct of fashion.
 
 
-      *A Magazine Reader* is an ongoing research trajectory and series of zines
+
+
+      _A Magazine Reader_ is an ongoing research trajectory and series of zines
       initiated by Femke de Vries and Hanka van der Voet. It revolves around the
       analysis of a mainstream and high-end fashion magazine and its translation
       into an alternative new zine to provide insight into the cultural power
@@ -34,6 +36,8 @@ content:
       the magazine by dissecting it, analysing the words, images, materiality,
       the items shown on the pages and the strategies of the specific magazine
       changes the way we read fashion.
+
+
 
 
       In the workshop one specific magazine is selected. This magazine is
@@ -51,14 +55,18 @@ content:
       ephemerality, dream worlds and fantasies.
 
 
+
+
       The readers in the workshop use the material of the original ‘source
       magazine’ to create a new zine that provides insight into the cultural
       power and forms of value production that is at the core of fashion media.
       The existing material is elaborated on by connecting with other material
-      (theories, visuals, artistic explorations). As such, *A Magazine Reader*
+      (theories, visuals, artistic explorations). As such, _A Magazine Reader_
       focuses on the reader as an active participant – someone with agency
       rather than a passive consumer – in the process of creating fashion.
       Reading becomes making.
+
+
 
 
       Type: softcover\ Dimensions: 210 mm x 155 mm portrait\ Pages: 140\ Art
@@ -73,13 +81,6 @@ content:
       possible by the generous support of the Provincie Noord Brabant\
       Production: Joannette van der Veer for Onomatopee\ With support of Seok
       Park and Onomatopee interns Nathalia Malińska and Merel Steneker
-
-
-      12,50EUR
-
-
-      Send an email to <shop@thisiswarehouse.com> if you want to purchase a
-      copy.
     type: text
   - caption: Contribution by Marco Dalle Fratte
     image: /img/a-magazine-reader-03-by-marco-dalle-fratte.jpg
