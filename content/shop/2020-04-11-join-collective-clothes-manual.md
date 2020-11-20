@@ -11,7 +11,7 @@ content:
   - text: Add to cart
     type: cart-button
   - body: >-
-      The *JOIN Collective Clothes Manual* is an open-source manual that invites
+      The _JOIN Collective Clothes Manual_ is an open-source manual that invites
       everyone to participate in JOIN, a project by fashion designer Anouk
       Beckers and graphic designer and art director Beau Bertens, that proposes
       fashion as a collective practice. The manual encompasses the patterns of a
@@ -24,8 +24,8 @@ content:
 
 
       The pieces made by various makers from all over the world, subsequently
-      form an ever-growing collection that can be seen on the *JOIN Collective
-      Clothes* website. 
+      form an ever-growing collection that can be seen on the _JOIN Collective
+      Clothes_ website. 
 
 
       The fashion industry focuses mostly on designer status, brand identity,
@@ -33,7 +33,7 @@ content:
       values such as originality and ‘the new’. And although it is often
       perceived as something that is not for everyone, fashion surely is a
       collective practice. By making and wearing clothes together, the design
-      and research project *JOIN Collective Clothes* proposes fashion as a
+      and research project _JOIN Collective Clothes_ proposes fashion as a
       collective practice.
 
 
@@ -48,7 +48,7 @@ content:
       fashion together.
 
 
-      Initiator Anouk Beckers on *JOIN Collective Clothes*: “What if we open up
+      Initiator Anouk Beckers on _JOIN Collective Clothes_: “What if we open up
       the fashion system and explore it as a non-fixed entity, a system where
       people can playfully join in, where everyone is invited to create fashion
       together?”
@@ -62,14 +62,6 @@ content:
       white\ Printer: Wilco Art Books\ Language: English\ Made possible by:
       Creative Industries Fund NL and the Amsterdam Fund for the Arts\
       Production: Warehouse
-
-
-      10EUR
-
-
-      Send an email to
-      [hello@joincollectiveclothes.com](mailto:hello@joincollectiveclothes.com)
-      if you want to purchase a copy.
     type: text
   - image: /img/03_join-manual_photo_anouk-beckers.jpg
     type: images
