@@ -10,7 +10,7 @@ content:
   - text: Add to cart
     type: cart-button
   - body: >-
-      *Monument* is a fanzine dedicated to the 'Dutch Wave', a group of Dutch
+      _Monument_ is a fanzine dedicated to the 'Dutch Wave', a group of Dutch
       fashion designers who created international fame around the turn of the
       century. Each number is dedicated to one designer or design duo. This
       second issue focuses on the work of the duo Keupr/van Bentm (Michiel
@@ -19,7 +19,7 @@ content:
       collections.
 
 
-      In *Monument*, a project by stylist and fashion researcher Mary-Lou
+      In _Monument_, a project by stylist and fashion researcher Mary-Lou
       Berkulin and graphic designer Karen van der Kraats, images and texts from
       various archives are combined with new interviews and photography. Each
       issue has its own unique design and editorial approach, completely in
@@ -39,13 +39,6 @@ content:
       Editorial advisors: Hanka van der Voet and Femke de Vries (Warehouse)\
       Made possible by: Creative Industries Fund NL and the Amsterdam Fund for
       the Arts
-
-
-      15 EUR
-
-
-      Send an email to <info@monumentmagazine.nl> if you want to purchase a
-      copy.
     type: text
   - image: /img/03_monument02_photo_anoukbeckers.jpg
     type: images
