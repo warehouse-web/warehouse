@@ -12,15 +12,15 @@ content:
   - text: Add to cart
     type: cart-button
   - body: >-
-      In *A Magazine Reader Invites 01*, Zuzana Kostelanská folds a complete
+      In _A Magazine Reader Invites 01_, Zuzana Kostelanská folds a complete
       fashion magazine into a new zine. The fold shifts our perspective, cuts
       pages in half and re-arranges the order of the pages changing our way of
-      reading. In *A Magazine Reader Invites* an artist/thinker/designer is
+      reading. In _A Magazine Reader Invites_ an artist/thinker/designer is
       invited to re-read a fashion magazine. Every edition includes a
       conversation with the maker about the approach of re-reading the magazine.
 
 
-      *A Magazine Reader Invites* is part of the *A Magazine Reader* series
+      _A Magazine Reader Invites_ is part of the _A Magazine Reader_ series
       which revolves around the analysis of a mainstream and high-end fashion
       magazine and its translation into an alternative new zine to provide
       insight into the cultural power and forms of value production that is at
@@ -30,7 +30,7 @@ content:
       the strategies of the specific magazine changes the way we read fashion.
 
 
-      *A Magazine Reader Invites* is initiated by Hanka van der Voet and Femke
+      _A Magazine Reader Invites_ is initiated by Hanka van der Voet and Femke
       de Vries. \
 
       \
@@ -41,13 +41,6 @@ content:
       Graphic design: Zuzana Kostelanská\ Release date: November 2019\ Binding:
       none\ Edition: variable\ Color: full color\ Text editing: Femke de Vries
       and Hanka van der Voet\ Production: Warehouse
-
-
-      30EUR
-
-
-      Send an email to <shop@thisiswarehouse.com> if you want to purchase a
-      copy.
     type: text
   - image: /img/03_a-magazine-reader-special_photo_anoukbeckers.jpg
     type: images
