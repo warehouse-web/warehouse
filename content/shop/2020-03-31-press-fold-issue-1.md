@@ -10,7 +10,7 @@ content:
   - text: Add to cart
     type: cart-button
   - body: >-
-      *Press & Fold* is an independent fashion magazine that explores
+      _Press & Fold_ is an independent fashion magazine that explores
       alternative fashion forms and narratives. The magazine provides a platform
       for critical fashion practitioners who actively seek out the cracks and
       fissures in the current fashion system to propose new opportunities for
@@ -38,7 +38,7 @@ content:
       generation is not only critiquing the system, its individualistic approach
       and its limiting views on the concept of luxury (among other things), but
       also seeking to create alternative, more inclusive ways of defining
-      luxury. In this issue of *Press & Fold*, we give voice to these new ideas
+      luxury. In this issue of _Press & Fold_, we give voice to these new ideas
       and propositions on contemporary luxury and its material and immaterial
       characteristics.
 
@@ -65,13 +65,6 @@ content:
       Release date: November 2019\ Binding: glued\ Color: full colour\ Printer:
       Wilco Art Books\ Language: English\ Text editing: Hanka van der Voet\ Made
       possible by: Creative Industries Fund NL\ Production: Warehouse
-
-
-      15EUR
-
-
-      Send an email to <mail@pressandfoldmagazine.com> if you want to purchase a
-      copy.
     type: text
   - caption: Contribition by A March Issue
     image: /img/pf_mock_up-issue-luxury-1a.jpg
