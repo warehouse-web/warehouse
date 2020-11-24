@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import ReactMarkdown from 'react-markdown'
+import { show_shop } from '_options'
 
 import { postSlug } from '_utils'
 import { CloseButton } from '_components'
@@ -36,16 +37,19 @@ const Detail = ({ active = {} }) => {
 					content.map((el, i) => {
 						if (el.type === 'images') {
 							return (
-								<div key={`content-two--` + i}>
+								<div className='Detail__item' key={`content-two--` + i}>
 									<img src={el.image} alt='' />
 									<p className='caption'>{el.caption}</p>
 								</div>
 							)
 						} else if (el.type === 'cart-button') {
 							return (
-								<div key={`content--` + i}>
+								<div
+									className={'Detail__item' + (!show_shop ? ' -is-hidden' : '')}
+									key={`content--` + i}
+								>
 									{price && (
-										<div className='Detail__price'>
+										<div className={'Detail__price'}>
 											<div className='Detail__price-inner'>
 												<div className='Detail__price-price'>
 													{price} EUR
@@ -98,7 +102,10 @@ const Detail = ({ active = {} }) => {
 							)
 						} else if (el.type === 'text') {
 							return (
-								<div className='Detail__text' key={`content-two--` + i}>
+								<div
+									className='Detail__item Detail__text'
+									key={`content-two--` + i}
+								>
 									<ReactMarkdown escapeHtml={false} source={el.body} />
 								</div>
 							)

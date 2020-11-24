@@ -1,10 +1,12 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
+import { show_shop } from '_options'
 
 const Header = () => {
 	const [open, setOpen] = useState(false)
 	const router = useRouter()
+	const cartRef = useRef(null)
 
 	const menu = [
 		{
@@ -34,7 +36,8 @@ const Header = () => {
 	// Similar to componentDidMount and componentDidUpdate:
 	useEffect(() => {
 		setTimeout(() => {
-			const total = document.querySelector('.snipcart-items-count').textContent
+			if (!cartRef.current) return false
+			const total = cartRef.current.textContent
 			if (total !== '0') {
 				const cart = document.querySelector('.Header__item--cart')
 				if (cart) {
@@ -65,11 +68,17 @@ const Header = () => {
 								</Link>
 							</li>
 						))}
-						<li className={'Header__item Header__item--cart Header__item--hide '}>
-							<a className='btn btn--cart snipcart-checkout'>
-								Cart (<span className='snipcart-items-count'>0</span>)
-							</a>
-						</li>
+						{show_shop && (
+							<li className={'Header__item Header__item--cart Header__item--hide'}>
+								<a className='btn btn--cart snipcart-checkout'>
+									Cart (
+									<span className='snipcart-items-count' ref={cartRef}>
+										0
+									</span>
+									)
+								</a>
+							</li>
+						)}
 					</ul>
 				</div>
 

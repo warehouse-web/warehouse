@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import matter from 'gray-matter'
+import { slugify } from '_utils'
 
 import { WEB_NAME } from '_options'
 import { Page } from '_views'
@@ -43,7 +44,7 @@ export async function getStaticPaths() {
 	const blogSlugs = ((context) => {
 		const keys = context.keys()
 		const data = keys.map((key, index) => {
-			let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3)
+			let slug = slugify(key.replace(/^.*[\\\/]/, '').slice(0, -3))
 			return slug
 		})
 		return data

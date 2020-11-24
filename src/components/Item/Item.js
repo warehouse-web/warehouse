@@ -37,7 +37,7 @@ const Index = ({ post = {}, active = {}, activeSlug = '', setLogoImg = undefined
 			onPointerEnter={() => setLogoImg(firstImg)}
 			onPointerLeave={() => setLogoImg(false)}
 		>
-			<Link href={'/' + typeslug + '/' + slug}>
+			<Link href={'/' + typeslug + '/' + slug} scroll={false}>
 				<a>
 					<div className='Item__header'>
 						{formatDate && (
