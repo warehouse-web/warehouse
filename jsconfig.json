@@ -14,9 +14,6 @@
 			"_utils": [
 				"src/utils/utils"
 			],
-			"_api": [
-				"src/api/api"
-			],
 			"_options": [
 				"src/api/options"
 			]

@@ -44,7 +44,8 @@ export async function getStaticPaths() {
 	const blogSlugs = ((context) => {
 		const keys = context.keys()
 		const data = keys.map((key, index) => {
-			let slug = slugify(key.replace(/^.*[\\\/]/, '').slice(0, -3))
+			let file = key.replace(/^.*[\\\/]/, '').slice(0, -3)
+			let slug = slugify(file)
 			return slug
 		})
 		return data

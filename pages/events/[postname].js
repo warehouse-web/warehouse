@@ -30,7 +30,8 @@ export async function getStaticProps({ ...ctx }) {
 		const values = keys.map(context)
 
 		const data = keys.map((key, index) => {
-			let slug = slugify(key.replace(/^.*[\\\/]/, '').slice(0, -3))
+			let file = key.replace(/^.*[\\\/]/, '').slice(0, -3)
+			let slug = slugify(file)
 			const value = values[index]
 			const document = matter(value.default)
 			return {
@@ -46,18 +47,12 @@ export async function getStaticProps({ ...ctx }) {
 	posts = posts.sort((a, b) => (a.frontmatter.date < b.frontmatter.date ? 1 : -1))
 
 	// post
-
-	const content = await import(`../../content/events/${postname}.md`)
-	const data = matter(content.default)
+	const data = posts.filter((item) => item.slug === postname)
 
 	return {
 		props: {
 			posts,
-			active: {
-				frontmatter: data.data,
-				markdownBody: data.content,
-				slug: postname,
-			},
+			active: data[0] ? data[0] : false,
 		},
 	}
 }
@@ -66,7 +61,8 @@ export async function getStaticPaths() {
 	const blogSlugs = ((context) => {
 		const keys = context.keys()
 		const data = keys.map((key, index) => {
-			let slug = slugify(key.replace(/^.*[\\\/]/, '').slice(0, -3))
+			let file = key.replace(/^.*[\\\/]/, '').slice(0, -3)
+			let slug = slugify(file)
 
 			return slug
 		})
