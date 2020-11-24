@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import matter from 'gray-matter'
+import { slugify } from '_utils'
 
 import { WEB_NAME } from '_options'
 import { Home } from '_views'
 
-const EventsPage = ({ posts, active }) => {
+const EventsPage = ({ posts, active, footer }) => {
 	const { frontmatter = {}, slug = '' } = active
 	const { title = '' } = frontmatter
 
@@ -15,7 +16,7 @@ const EventsPage = ({ posts, active }) => {
 					{title} - {WEB_NAME}
 				</title>
 			</Head>
-			<Home {...{ posts, active, activeSlug: slug }} />
+			<Home {...{ posts, footer, active, activeSlug: slug }} />
 		</>
 	)
 }
@@ -29,7 +30,7 @@ export async function getStaticProps({ ...ctx }) {
 		const values = keys.map(context)
 
 		const data = keys.map((key, index) => {
-			let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3)
+			let slug = slugify(key.replace(/^.*[\\\/]/, '').slice(0, -3))
 			const value = values[index]
 			const document = matter(value.default)
 			return {
@@ -65,7 +66,7 @@ export async function getStaticPaths() {
 	const blogSlugs = ((context) => {
 		const keys = context.keys()
 		const data = keys.map((key, index) => {
-			let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3)
+			let slug = slugify(key.replace(/^.*[\\\/]/, '').slice(0, -3))
 
 			return slug
 		})

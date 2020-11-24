@@ -1,16 +1,17 @@
 import Head from 'next/head'
 import matter from 'gray-matter'
+import { slugify } from '_utils'
 
 import { WEB_NAME } from '_options'
 import { Home } from '_views'
 
-const FocusPage = ({ posts }) => {
+const FocusPage = ({ posts, footer }) => {
 	return (
 		<>
 			<Head>
 				<title>Focus - {WEB_NAME}</title>
 			</Head>
-			<Home {...{ posts }} />
+			<Home {...{ posts, footer }} />
 		</>
 	)
 }
@@ -22,7 +23,7 @@ export async function getStaticProps() {
 		const values = keys.map(context)
 
 		const data = keys.map((key, index) => {
-			let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3)
+			let slug = slugify(key.replace(/^.*[\\\/]/, '').slice(0, -3))
 			const value = values[index]
 			const document = matter(value.default)
 			return {
