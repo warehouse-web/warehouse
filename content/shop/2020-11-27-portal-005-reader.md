@@ -67,7 +67,8 @@ content:
     type: images
   - image: /img/02_portal005_photography_anouk-beckers.jpg
     type: images
-  - image: /img/01_portal005_photography_anouk-beckers.jpg
+  - caption: 'Photography: Anouk Beckers'
+    image: /img/01_portal005_photography_anouk-beckers.jpg
     type: images
 author: Elisa van Joolen (ed.)
 date: 11-27-2020
