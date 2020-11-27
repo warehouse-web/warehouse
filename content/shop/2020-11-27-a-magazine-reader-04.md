@@ -53,6 +53,17 @@ content:
       focuses on the reader as an active participant – someone with agency
       rather than a passive consumer – in the process of creating fashion.
       Reading becomes making.
+
+
+      Type: softcover\ Dimensions: 210 mm x 155 mm portrait\ Pages: 114\ Art
+      Direction: Femke de Vries and Hanka van der Voet\ Authors: Charlotte
+      Verdegaal, Eliza Lachkova, Julia Berg, Lindy Boerman, Lu Lin, Sophia
+      Buter, Tanya Lauwanichpat, Chet Bugter, Femke de Vries, Hanka van der
+      Voet\ Graphic design: Zuzana Kostelanská\ Release date: August 2020\
+      Binding: elastic band\ Edition: 250\ Color: pink and black – offset print\
+      Printer: Drukkerij Raddraaier\ Language: English\ Text editing: Chet
+      Bugter, Femke de Vries and Hanka van der Voet\ Production: Warehouse\ Made
+      possible by ArtEZ Fashion Masters, Fashion Strategy
     type: text
   - type: images
 author: Femke de Vries & Hanka van der Voet (eds.)
