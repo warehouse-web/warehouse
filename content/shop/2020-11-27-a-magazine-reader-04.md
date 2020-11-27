@@ -65,7 +65,13 @@ content:
       Bugter, Femke de Vries and Hanka van der Voet\ Production: Warehouse\ Made
       possible by ArtEZ Fashion Masters, Fashion Strategy
     type: text
-  - type: images
+  - image: /img/01_a-magazine-reader-04_photography_anouk-beckers_.jpg
+    type: images
+  - image: /img/02_a-magazine-reader-04_photography_anouk-beckers_.jpg
+    type: images
+  - caption: 'Photography: Anouk Beckers'
+    image: /img/03_a-magazine-reader-04_photography_anouk-beckers_.jpg
+    type: images
 author: Femke de Vries & Hanka van der Voet (eds.)
 date: 11-27-2020
 ---
