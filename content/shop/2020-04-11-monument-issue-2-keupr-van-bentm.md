@@ -46,6 +46,6 @@ content:
     image: /img/07_monument02_photo_anoukbeckers.jpg
     type: images
 author: Mary-Lou Berkulin (ed.)
-date: '2020-01-16'
+date: 11-13-2020
 ---
 
