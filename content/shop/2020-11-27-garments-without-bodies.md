@@ -38,6 +38,6 @@ content:
     image: /img/04_garments-without-bodies_photo_anouk-beckers.jpg
     type: images
 author: Chet Bugter
-date: 11-27-2020
+date: 11-19-2020
 ---
 
