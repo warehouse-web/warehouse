@@ -6,7 +6,7 @@ btw: '9'
 PDF: ''
 content:
   - caption: 'A Magazine Reader 02 (2019). Photography: Anouk Beckers.'
-    image: /img/02_a-magazine-reader-02_photo_anouk-beckers.jpg
+    image: /img/magazine-reader-no2.jpg
     type: images
   - body: >-
       *A Magazine Reader 02* is the result of a workshop by Ruby Hoette, Chet
