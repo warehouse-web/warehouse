@@ -5,7 +5,7 @@ price: '10'
 btw: '9'
 content:
   - caption: Portal 005 Reader (2020)
-    image: /img/scan-portal005.jpeg
+    image: /img/scan-portal005_lagere-resolutie.jpg
     type: images
   - text: Add to cart
     type: cart-button
