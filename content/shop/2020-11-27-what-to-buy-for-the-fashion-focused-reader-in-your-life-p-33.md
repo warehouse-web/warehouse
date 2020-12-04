@@ -38,6 +38,6 @@ content:
     image: /img/05_what-to-buy-for-your_photography_anouk-beckers.jpg
     type: images
 author: Femke de Vries
-date: 11-27-2020
+date: 11-06-2020
 ---
 
