@@ -73,6 +73,6 @@ content:
     image: /img/03_a-magazine-reader-04_photography_anouk-beckers_.jpg
     type: images
 author: Femke de Vries & Hanka van der Voet (eds.)
-date: 11-27-2020
+date: 11-22-2020
 ---
 
