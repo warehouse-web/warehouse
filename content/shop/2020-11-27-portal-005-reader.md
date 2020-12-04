@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Portal 005 Reader
+title: PORTAL 005 Reader
 price: '10'
 btw: '9'
 content:
@@ -71,6 +71,6 @@ content:
     image: /img/01_portal005_photography_anouk-beckers.jpg
     type: images
 author: Elisa van Joolen (ed.)
-date: 11-27-2020
+date: 11-09-2020
 ---
 
