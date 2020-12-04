@@ -40,6 +40,6 @@ content:
     image: /img/02_d-k_mode-mode_photo_anoukbeckers.jpg
     type: images
 author: Laura Gardner (ed.)
-date: '2019-11-30'
+date: 11-16-2020
 ---
 
