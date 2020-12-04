@@ -48,6 +48,6 @@ content:
     image: /img/02_a-magazine-reader-special_photo_anoukbeckers.jpg
     type: images
 author: Femke de Vries & Hanka van der Voet (eds.) & Zuzana Kostelanská
-date: 11-25-2020
+date: 11-21-2020
 ---
 
