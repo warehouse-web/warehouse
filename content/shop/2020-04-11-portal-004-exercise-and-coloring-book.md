@@ -5,7 +5,9 @@ price: '15'
 btw: '9'
 PDF: /img/portal004-elisavanjoolen_warehouse_2019.pdf
 content:
-  - image: /img/portal004-1.jpg
+  - image: /img/scan-portal004-7.jpeg
+    type: images
+  - image: /img/scan-portal004-8.jpeg
     type: images
   - text: Add to cart
     type: cart-button
