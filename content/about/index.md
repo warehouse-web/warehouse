@@ -36,12 +36,10 @@ rightColumn: >-
 
   * Jan Schoon
 images:
-  - image: >-
-      /img/01_warehouse_san_serriffe_dec2019_photo_anoukbeckers.jpg
-    caption: ""
+  - image: /img/59_press-fold_07122019_sanserriffe_anoukbeckers.jpg
 other: >-
   Warehouse is made possible through the financial support of the Creative
-  Industries Fund NL.
+  Industries Fund NL and Prins Bernhard Cultuurfonds.
 
 
   <br/>
@@ -60,3 +58,4 @@ other: >-
   harm that may arise as a consequence of errors, problems caused by or inherent
   in the distribution of the information by internet, or for technical failures.
 ---
+
