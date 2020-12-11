@@ -14,6 +14,10 @@
 		display: flex;
 		z-index: 999999;
 
+		@include breakpoint-max('small') {
+			padding-left: 15px;
+		}
+
 		a {
 			color: currentColor;
 		}
@@ -45,6 +49,10 @@
 		display: block;
 		line-height: 1.1;
 		font-size: 2rem;
+
+		@include breakpoint-max('small') {
+			margin-right: 15px;
+		}
 		@include breakpoint-max('small') {
 			margin-bottom: 1.8rem;
 		}
@@ -59,6 +67,10 @@
 		margin-right: 0;
 		right: 0;
 		top: 0;
+
+		@include breakpoint-max('small') {
+			padding-right: 15px;
+		}
 
 		@include breakpoint('small') {
 			margin-right: 2.3rem;

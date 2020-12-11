@@ -9,6 +9,10 @@
 		display: flex;
 		padding: 10px 28px;
 
+		@include breakpoint-max('small') {
+			padding: 10px 15px;
+		}
+
 		a {
 			text-transform: uppercase;
 			user-select: none;
@@ -31,9 +35,18 @@
 		ul {
 			display: flex;
 			width: 100%;
+
+			@include breakpoint-max('small') {
+				flex-wrap: wrap;
+			}
 		}
 		li {
 			margin-right: 16px;
+			@include breakpoint-max('small') {
+				margin-right: 0;
+				width: 100%;
+				@include font($size: 12, $line: 16);
+			}
 		}
 	}
 }

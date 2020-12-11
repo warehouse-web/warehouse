@@ -4,7 +4,7 @@
 	flex-wrap: wrap;
 
 	@include breakpoint-max('small') {
-		padding-left: 28px;
+		padding-left: 15px;
 	}
 	&__list {
 		margin-left: 36px;

@@ -3,7 +3,8 @@
 	margin-bottom: 20px;
 
 	@include breakpoint-max('small') {
-		max-width: 90%;
+		max-width: 100%;
+		padding-right: 15px;
 	}
 
 	&__main {
