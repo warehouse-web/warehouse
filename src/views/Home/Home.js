@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Item, Detail, MagicLogo, Footer } from '_components'
 
-const Home = ({ posts = [], footer = [], active = false, activeSlug = '', thumb = false }) => {
+const Home = ({ posts = [], footer = [], active = false, activeSlug = '', thumb = true }) => {
 	const [logoImg, setLogoImg] = useState(false)
 
 	return (
