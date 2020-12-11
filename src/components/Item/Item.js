@@ -1,8 +1,15 @@
 import { isDateBeforeToday, renderImg, postType, postSlug } from '_utils'
 import Link from 'next/link'
 import moment from 'moment'
+import { Image } from '_components'
 
-const Index = ({ post = {}, active = {}, activeSlug = '', setLogoImg = undefined }) => {
+const Index = ({
+	post = {},
+	active = {},
+	activeSlug = '',
+	setLogoImg = undefined,
+	thumb = false,
+}) => {
 	const { frontmatter = {}, slug = '' } = post
 	const {
 		title = '',
@@ -38,7 +45,12 @@ const Index = ({ post = {}, active = {}, activeSlug = '', setLogoImg = undefined
 			onPointerLeave={() => setLogoImg(false)}
 		>
 			<Link href={'/' + typeslug + '/' + slug} scroll={false}>
-				<a>
+				<a className='Item__main'>
+					{thumb && (
+						<div className='Item__thumb'>
+							<Image {...{ src: firstImg, ratio: 1.25 }} />
+						</div>
+					)}
 					<div className='Item__header'>
 						{formatDate && (
 							<div className='Item__type'>

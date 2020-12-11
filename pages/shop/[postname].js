@@ -16,7 +16,7 @@ const ShopPage = ({ posts, active, footer }) => {
 					{title} - {WEB_NAME}
 				</title>
 			</Head>
-			<Home {...{ posts, footer, active, activeSlug: slug }} />
+			<Home {...{ posts, footer, active, activeSlug: slug, thumb: true }} />
 		</>
 	)
 }

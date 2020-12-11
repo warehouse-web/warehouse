@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Item, Detail, MagicLogo, Footer } from '_components'
 
-const Home = ({ posts = [], footer = [], active = false, activeSlug = '' }) => {
+const Home = ({ posts = [], footer = [], active = false, activeSlug = '', thumb = false }) => {
 	const [logoImg, setLogoImg] = useState(false)
 
 	return (
@@ -11,7 +11,7 @@ const Home = ({ posts = [], footer = [], active = false, activeSlug = '' }) => {
 					posts.map((post, i) => {
 						return (
 							<Item
-								{...{ post, active, activeSlug, setLogoImg }}
+								{...{ post, active, activeSlug, setLogoImg, thumb }}
 								key={'post--' + i}
 							/>
 						)

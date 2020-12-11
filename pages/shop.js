@@ -11,7 +11,7 @@ const ShopPage = ({ posts, footer }) => {
 			<Head>
 				<title>Shop - {WEB_NAME}</title>
 			</Head>
-			<Home {...{ posts, footer }} />
+			<Home {...{ posts, footer, thumb: true }} />
 		</>
 	)
 }

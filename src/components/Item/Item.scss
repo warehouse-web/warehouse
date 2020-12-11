@@ -3,7 +3,23 @@
 	margin-bottom: 20px;
 
 	@include breakpoint-max('small') {
-		max-width: 80%;
+		max-width: 90%;
+	}
+
+	&__main {
+		display: flex;
+	}
+
+	&__thumb {
+		width: 80px;
+		padding-right: 15px;
+		@include breakpoint('small') {
+			width: 110px;
+		}
+		.is-selected & {
+			opacity: 0;
+			pointer-events: none;
+		}
 	}
 
 	h1,
@@ -27,6 +43,12 @@
 	}
 	&__header {
 		display: block;
+		width: 100%;
+		width: calc(100% - 80px);
+
+		@include breakpoint('small') {
+			width: calc(100% - 110px);
+		}
 	}
 	&__type {
 		@include menu;
