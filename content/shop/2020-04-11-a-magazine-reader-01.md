@@ -5,7 +5,7 @@ btw: '9'
 PDF: /img/a-magazine-reader-01-2018-.pdf
 content:
   - caption: A Magazine Reader 01 (2018)
-    image: /img/magazine-reader-no1-1.jpg
+    image: /img/a-mag-01-2_lowres.jpg
     type: images
   - body: >-
       \-- scroll down to download the PDF --
