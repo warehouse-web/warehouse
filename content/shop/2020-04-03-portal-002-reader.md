@@ -6,7 +6,7 @@ btw: '9'
 PDF: ''
 content:
   - caption: PORTAL 002 Reader (2018)
-    image: /img/portal-002-.jpg
+    image: /img/portal-002-2_lowres.jpg
     type: images
   - text: Add to cart
     type: cart-button
