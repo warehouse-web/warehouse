@@ -15,7 +15,7 @@ content:
     image: /img/press_and_fold_issue-1_the-street_laura.jpg
     type: images
   - body: >-
-      *Press & Fold | Notes on making and doing fashion* is initiated by Hanka
+      _Press & Fold | Notes on making and doing fashion_ is initiated by Hanka
       van der Voet in collaboration with art director and graphic designer Beau
       Bertens. The magazine is a collaborative research project that connects
       critical fashion practitioners from all over the world.\
@@ -33,10 +33,6 @@ content:
 
 
       15EUR
-
-
-      Send an email to <mail@pressandfoldmagazine.com> if you want to purchase a
-      copy.
     type: text
   - caption: Contribution by Tenant of Culture
     image: /img/press_and_fold_issue-1_the-street_tenant.jpg
