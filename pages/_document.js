@@ -16,16 +16,15 @@ export default class MyDocument extends Document {
 				<body>
 					<Main />
 					<NextScript />
-
 					<script
 						async
 						src='https://cdn.snipcart.com/themes/v3.0.25/default/snipcart.js'
 					></script>
 					<div
 						id='snipcart'
-						data-api-key='MmI0OWM1NzktYThlOS00YjA0LWFjOTAtMDNiNzhlOTAxMGEyNjM3MzYyOTE0ODgwMzYwMDQ3'
+						data-api-key='OWU4MzQxMjgtZDJiNi00ZWQ5LTk1NDMtNWJjYTBkMWY5NTUzNjM3MzYyOTE0ODgwMzYwMDQ3'
 						hidden
-					>
+					></div>
 						<payment section='top'>
 							<div>
 								<p>
