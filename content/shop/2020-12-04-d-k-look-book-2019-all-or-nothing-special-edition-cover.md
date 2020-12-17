@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: D&K Look Book 2019 | All or Nothing | Special Edition Cover
-price: '35'
+price: '40'
 btw: '9'
 content:
   - image: /img/12_d-k_mode-mode_photo_anoukbeckers.jpg
