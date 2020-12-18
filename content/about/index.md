@@ -10,23 +10,19 @@ rightColumn: >-
   engaging and inclusive environment that facilitates critical dialogue and the
   creation of a discourse that goes beyond treating fashion as a commodity.
   Warehouse was founded by Elisa van Joolen, Femke de Vries and Hanka van der
-  Voet.
+  Voet and is run together with Anouk Beckers and Chet Bugter.
 
 
   <br/>
 
 
-  * CONTACT[](mailto:info@thisiswarehouse.com)
+  * CONTACT
 
-  * [info@thisiswarehouse.com](mailto:info@thisiswarehouse.com)
+  * <mailto:info@thisiswarehouse.com>
 
   * INSTAGRAM
 
   * [@amsterdam.warehouse](https://www.instagram.com/amsterdam.warehouse)
-
-  * WEBSITE DESIGN
-
-  * Zuzana Kostelanská
 
   * PRODUCTION
 
@@ -35,6 +31,14 @@ rightColumn: >-
   * COMMUNICATION
 
   * Jan Schoon
+
+  * WEBSITE DESIGN
+
+  * Zuzana Kostelanská
+
+  * WEBSITE DEVELOPMENT 
+
+  * Eurico Sá Fernandes, Jurgis Lietunovas
 images:
   - image: /img/59_press-fold_07122019_sanserriffe_anoukbeckers.jpg
 other: >-
