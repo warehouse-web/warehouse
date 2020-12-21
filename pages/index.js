@@ -9,7 +9,7 @@ const IndexPage = ({ posts, footer }) => {
 	return (
 		<>
 			<Head>
-				<title>Events - {WEB_NAME}</title>
+				<title>{WEB_NAME}</title>
 			</Head>
 			<Home {...{ posts, footer }} />
 		</>
