@@ -24,7 +24,7 @@ export default class MyDocument extends Document {
 						id='snipcart'
 						data-api-key='OWU4MzQxMjgtZDJiNi00ZWQ5LTk1NDMtNWJjYTBkMWY5NTUzNjM3MzYyOTE0ODgwMzYwMDQ3'
 						hidden
-					></div>
+					>
 						<payment section='top'>
 							<div>
 								<p>
