@@ -5,6 +5,8 @@ import { show_shop } from '_options'
 import { postSlug } from '_utils'
 import { CloseButton } from '_components'
 
+import { WEB_URL } from '_options'
+
 const Detail = ({ active = {} }) => {
 	const refMain = useRef(null)
 	const { frontmatter = {}, slug = '' } = active
@@ -59,14 +61,9 @@ const Detail = ({ active = {} }) => {
 														className='btn btn--cart snipcart-add-item'
 														data-item-id={slug}
 														data-item-price={price}
-														data-item-url={
-															'https://whwb-dev.netlify.app/shop/' +
-															slug
-														}
+														data-item-url={WEB_URL + 'shop/' + slug}
 														data-item-image={
-															firstImg &&
-															'https://whwb-dev.netlify.app' +
-																firstImg
+															firstImg && WEB_URL + firstImg
 														}
 														data-item-name={title}
 														data-item-description={author}

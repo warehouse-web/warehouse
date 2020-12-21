@@ -47,7 +47,14 @@ const Index = ({
 			<Link href={'/' + typeslug + '/' + slug} scroll={false}>
 				<a className='Item__main'>
 					<div className='Item__thumb'>
-						<Image {...{ src: firstImg, ratio: 1.25 }} />
+						<div
+							className={'image is-loaded'}
+							style={{
+								paddingBottom: `${1.25 * 100}%`,
+							}}
+						>
+							<img alt='' className={'image__src'} src={firstImg} />
+						</div>
 					</div>
 
 					<div className='Item__header'>
