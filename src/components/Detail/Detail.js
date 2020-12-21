@@ -61,7 +61,7 @@ const Detail = ({ active = {} }) => {
 														className='btn btn--cart snipcart-add-item'
 														data-item-id={slug}
 														data-item-price={price}
-														data-item-url={WEB_URL + 'shop/' + slug}
+														data-item-url={WEB_URL + '/shop/' + slug}
 														data-item-image={
 															firstImg && WEB_URL + firstImg
 														}
