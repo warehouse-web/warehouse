@@ -87,6 +87,6 @@ content:
     image: /img/37_press-fold_07122019_sanserriffe_anoukbeckers.jpg
     type: images
 location: 'San Serriffe, Amsterdam'
-date: 12-07-2020
+date: 12-07-2019
 ---
 
