@@ -30,9 +30,6 @@ content:
       Release date: February 2018\ Binding: glued\ Color: full colour\ Printer:
       Wilco Art Books\ Language: English\ Text editing: Hanka van der Voet\ Made
       possible by: Creative Industries Fund NL\ Production: Warehouse
-
-
-      15EUR
     type: text
   - caption: Contribution by Tenant of Culture
     image: /img/press_and_fold_issue-1_the-street_tenant.jpg
