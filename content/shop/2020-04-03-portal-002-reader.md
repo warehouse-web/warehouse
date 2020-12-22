@@ -11,14 +11,14 @@ content:
   - text: Add to cart
     type: cart-button
   - body: >-
-      *PORTAL 002* Reader is the result of a workshop during the *State of
-      Fashion* 2018 exhibition in Arnhem in which the economic, social and
+      _PORTAL 002_ Reader is the result of a workshop during the _State of
+      Fashion_ 2018 exhibition in Arnhem in which the economic, social and
       emotional value of clothing worn by visitors of the exhibition, is
       collected and researched. The collected data is visualized and brought
       together in a reader designed by Beau Bertens.
 
 
-      *PORTAL* is a research project that explores the economic, social and
+      _PORTAL_ is a research project that explores the economic, social and
       emotional value of clothing and offers a ‘way in’ to understanding
       garments from a multitude of overlapping and intersecting perspectives.
 
@@ -36,7 +36,7 @@ content:
       connect to form a fashion network which inverts our gaze, shining a
       spotlight on the intricacies of our own outfits and extraordinary aspects
       of the everyday as opposed to the myth of the exclusive fashion image.
-      *PORTAL* thus provides an entryway to a vision that begins to prioritise
+      _PORTAL_ thus provides an entryway to a vision that begins to prioritise
       values that are ephemeral and yet integral in “influencing hearts and
       minds and shaping the way we live together”. It captures and visualises
       information that circumvents established hierarchies and disrupts the
@@ -44,15 +44,15 @@ content:
       diversity of fashion that is worn; embodied and imperfect.
 
 
-      The collected information of each *PORTAL* edition is visualized and
-      brought together in a reader using the sixteen *PORTAL* questions as their
+      The collected information of each _PORTAL_ edition is visualized and
+      brought together in a reader using the sixteen _PORTAL_ questions as their
       starting point.
 
 
-      For *PORTAL 002* Elisa van Joolen worked with visitors of *State of
-      Fashion* in Arnhem. The pages of the *PORTAL 002* reader, designed by Beau
+      For _PORTAL 002_ Elisa van Joolen worked with visitors of _State of
+      Fashion_ in Arnhem. The pages of the _PORTAL 002_ reader, designed by Beau
       Bertens, show the surprising details that emerge from the collective
-      document of *State of Fashion* in Arnhem. 41% of all garments and
+      document of _State of Fashion_ in Arnhem. 41% of all garments and
       accessories are gifts. Do we treasure or wear more often those garments
       that have been gifted? What does it mean to "half" own a garment, share it
       rather than own it or borrow it? How do these shifting relationships to
@@ -72,13 +72,6 @@ content:
       Raddraaier\ Language: English\ Text editing: Ruby Hoette\ Made possible
       by: State of Fashion 2018\ Production: Warehouse\ Production assistants:
       Anouk Beckers and Marina Sasseron de Cabral
-
-
-      12,50EUR
-
-
-      Send an email to <shop@thisiswarehouse.com> if you want to purchase a
-      copy.
     type: text
   - image: /img/02_portal002_photo_anoukbeckers.jpg
     type: images
