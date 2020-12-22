@@ -80,8 +80,6 @@ content:
       Chabros. Photography: Anouk Beckers.
     image: /img/09_press-fold01_photo_anoukbeckers.jpg
     type: images
-  - text: Add to cart
-    type: cart-button
 author: Hanka van der Voet (ed.)
 date: 11-07-2020
 ---
