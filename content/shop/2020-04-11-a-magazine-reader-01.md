@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: A Magazine Reader 01
+title: '[SOLD OUT] A Magazine Reader 01'
 btw: '9'
 PDF: /img/a-magazine-reader-01-2018-.pdf
 content:
