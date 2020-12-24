@@ -35,6 +35,6 @@ content:
     image: /img/01_rework_photo_anoukbeckers.jpg
     type: images
 location: 'Looiersgracht 60, Amsterdam'
-date: 11-21-2019
+date: '2019-11-21'
 ---
 

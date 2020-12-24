@@ -18,6 +18,6 @@ content:
     image: /img/dscf3746.jpg
     type: images
 location: 'San Serriffe, Amsterdam'
-date: 11-30-2019
+date: '2019-11-30'
 ---
 

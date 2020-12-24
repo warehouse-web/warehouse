@@ -41,6 +41,6 @@ content:
     image: /img/11_d-k_mode-mode_photo_anoukbeckers.jpg
     type: images
 author: Ricarda Bigolin (ed.)
-date: 11-20-2020
+date: '2020-11-20'
 ---
 

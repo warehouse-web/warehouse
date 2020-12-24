@@ -64,6 +64,6 @@ content:
     image: /img/join-by-scheltens-abbenes_2_warehouse-website-ready.jpg
     type: images
 location: 'Eight Cubic Meters, Sint Nicolaasstraat, Amsterdam'
-date: 09-22-2020
+date: '2020-09-22'
 ---
 

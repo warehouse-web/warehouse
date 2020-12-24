@@ -51,6 +51,6 @@ content:
     image: /img/06_join_ddw_photo_join.jpg
     type: images
 location: 'Dutch Design Week, Eindhoven'
-date: 10-25-2019
+date: '2019-10-25'
 ---
 

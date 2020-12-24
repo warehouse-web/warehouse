@@ -53,6 +53,6 @@ content:
     image: /img/64_monument02_16012020_anoukbeckers.jpg
     type: images
 location: 'Athenaeum Nieuwscentrum, Amsterdam'
-date: 01-16-2020
+date: '2020-01-16'
 ---
 

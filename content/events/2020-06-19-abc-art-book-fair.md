@@ -25,6 +25,6 @@ content:
       [Instagram](https://www.instagram.com/abcartbookfair/?hl=en).
     type: text
 location: 'Beijing Times Art Museum '
-date: 07-10-2020
+date: '2020-07-10'
 ---
 

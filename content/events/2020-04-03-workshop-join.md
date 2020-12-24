@@ -51,6 +51,6 @@ content:
     image: /img/03_join_dordrechts-museum_071202019_photo_join.jpg
     type: images
 location: 'Dordrechts Museum, Dordrecht '
-date: 03-01-2020
+date: '2020-03-01'
 ---
 

@@ -66,6 +66,6 @@ content:
     image: /img/pwow-2.jpg
     type: images
 author: Hanka van der Voet (ed.)
-date: 11-05-2020
+date: '2020-11-05'
 ---
 

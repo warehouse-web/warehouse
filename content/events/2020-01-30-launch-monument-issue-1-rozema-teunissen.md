@@ -75,6 +75,6 @@ content:
     image: /img/img_8460.jpg
     type: images
 location: 'Sexyland, Amsterdam'
-date: 06-20-2018
+date: '2018-06-20'
 ---
 

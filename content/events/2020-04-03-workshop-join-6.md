@@ -51,6 +51,6 @@ content:
     image: /img/03_join_cube-design-museum_photo_join.jpg
     type: images
 location: 'Cube Design Museum, Kerkrade '
-date: 09-28-2019
+date: '2019-09-28'
 ---
 

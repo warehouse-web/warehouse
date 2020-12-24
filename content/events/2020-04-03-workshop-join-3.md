@@ -50,6 +50,6 @@ content:
     image: /img/03_join_capsicum_photo_join.jpg
     type: images
 location: 'Capsicum, Amsterdam '
-date: 07-07-2019
+date: '2019-07-07'
 ---
 

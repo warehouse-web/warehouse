@@ -65,6 +65,6 @@ content:
       initiated by Femke de Vries and Hanka van der Voet.
     type: text
 location: 'Kleine Oord, Arnhem'
-date: 06-22-2019
+date: '2019-06-22'
 ---
 

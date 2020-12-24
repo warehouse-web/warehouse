@@ -23,6 +23,6 @@ content:
       Street Issue' and several items of Warehouse Wear.
     type: text
 location: 'Hordaland Kunstsenter, Bergen'
-date: 04-17-2019
+date: '2019-04-17'
 ---
 

@@ -70,6 +70,6 @@ content:
   - caption: 'A Magazine Reader 03. Photography: Hanka van der Voet.'
     type: images
 location: 'Onomatopee, Eindhoven '
-date: 10-04-2019
+date: '2019-10-04'
 ---
 

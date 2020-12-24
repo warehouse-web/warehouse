@@ -33,6 +33,6 @@ content:
       /img/join-collective-livestream-walk__foto-door-roos_website-warehouse-ready.jpg
     type: images
 location: 'Kalverstraat, Amsterdam'
-date: 07-06-2020
+date: '2020-07-06'
 ---
 

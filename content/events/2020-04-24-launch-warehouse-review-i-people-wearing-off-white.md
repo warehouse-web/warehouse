@@ -72,6 +72,6 @@ content:
     image: /img/95fcb42e-5158-4063-bfd6-b306ce2d2729.jpg
     type: images
 location: 'San Serriffe, Amsterdam'
-date: 07-23-2020
+date: '2020-07-23'
 ---
 

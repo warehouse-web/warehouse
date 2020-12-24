@@ -73,6 +73,6 @@ content:
     image: /img/img_3720.jpg
     type: images
 location: 'Onomatopee, Eindhoven'
-date: 10-26-2019
+date: '2019-10-26'
 ---
 

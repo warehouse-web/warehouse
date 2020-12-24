@@ -66,6 +66,6 @@ content:
     image: /img/dscf0227.jpg
     type: images
 location: 'San Serriffe, Amsterdam'
-date: 01-11-2020
+date: '2020-01-11'
 ---
 

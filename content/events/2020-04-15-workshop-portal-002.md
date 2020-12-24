@@ -46,6 +46,6 @@ content:
       starting point.
     type: text
 location: 'State of Fashion, Arnhem'
-date: 05-31-2018
+date: '2018-05-31'
 ---
 

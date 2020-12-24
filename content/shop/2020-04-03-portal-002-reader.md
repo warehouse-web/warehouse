@@ -79,6 +79,6 @@ content:
     image: /img/03_portal002_photo_anoukbeckers.jpg
     type: images
 author: Elisa van Joolen (ed.)
-date: 11-11-2020
+date: '2020-11-11'
 ---
 

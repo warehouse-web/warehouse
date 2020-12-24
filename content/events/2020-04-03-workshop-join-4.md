@@ -51,6 +51,6 @@ content:
     image: /img/03_join_museum-arnhem_13072019_photo_valerie-spanjers.jpg
     type: images
 location: 'Museum Arnhem '
-date: 07-13-2019
+date: '2019-07-13'
 ---
 

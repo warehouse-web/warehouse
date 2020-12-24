@@ -55,6 +55,6 @@ content:
     image: /img/03.jpg
     type: images
 location: 'State of Fashion, De Melkfabriek, Arnhem'
-date: 07-21-2018
+date: '2018-07-21'
 ---
 

@@ -30,6 +30,6 @@ content:
       Philine Pingel.
     type: text
 location: 'Looiersgracht 60, Amsterdam'
-date: 11-25-2018
+date: '2018-11-25'
 ---
 

@@ -50,6 +50,6 @@ content:
     image: /img/img_3023.jpg
     type: images
 location: 'Museum Boijmans van Beuningen, Rotterdam'
-date: 11-10-2017
+date: '2017-11-10'
 ---
 

@@ -53,6 +53,6 @@ content:
     image: /img/03_join_de-appel_photo_join.jpg
     type: images
 location: 'De Appel, Amsterdam '
-date: 06-01-2019
+date: '2019-06-01'
 ---
 

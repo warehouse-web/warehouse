@@ -44,6 +44,6 @@ content:
     image: /img/03_press-fold0_photo_anouk-beckers.jpg
     type: images
 author: Hanka van der Voet (ed.)
-date: 11-08-2020
+date: '2020-11-08'
 ---
 

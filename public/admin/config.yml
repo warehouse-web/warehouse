@@ -60,7 +60,7 @@ collections:
             name: date
             widget: date
             default: ''
-            format: 'MM-DD-YYYY'
+            format: 'YYYY-MM-DD'
     - name: 'podcast'
       identifier_field: name
       label: 'Podcast'
@@ -81,7 +81,7 @@ collections:
                 widget: 'markdown',
                 buttons: ['bold', 'italic', 'heading-one', 'heading-two', 'bulleted-list'],
             }
-          - { label: 'Podcast Date', name: 'date', widget: date, default: '', format: 'MM-DD-YYYY' }
+          - { label: 'Podcast Date', name: 'date', widget: date, default: '', format: 'YYYY-MM-DD' }
     - name: 'product'
       label: 'Products'
       folder: 'content/shop'
@@ -156,7 +156,7 @@ collections:
             name: date
             widget: date
             default: ''
-            format: 'MM-DD-YYYY'
+            format: 'YYYY-MM-DD'
     - name: focus
       label: Focus
       folder: 'content/focus'
@@ -213,7 +213,7 @@ collections:
             name: date,
             widget: date
             default: ''
-            format: 'MM-DD-YYYY'
+            format: 'YYYY-MM-DD'
     - name: 'about'
       label: 'About'
       files:

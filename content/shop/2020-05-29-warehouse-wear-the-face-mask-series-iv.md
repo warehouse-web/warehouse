@@ -46,6 +46,6 @@ content:
     image: /img/_mg_9310.jpg
     type: images
 author: HAiKw/
-date: 11-01-2020
+date: '2020-11-01'
 ---
 

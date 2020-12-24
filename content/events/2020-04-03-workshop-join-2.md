@@ -68,6 +68,6 @@ content:
     image: /img/03_join_studio-bonbon_fanfare-amsterdam_photo_join.jpg
     type: images
 location: 'Fanfare, Amsterdam '
-date: 10-03-2019
+date: '2019-10-03'
 ---
 

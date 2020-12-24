@@ -86,6 +86,6 @@ content:
   - image: /img/portal004-7.jpg
     type: images
 author: Elisa van Joolen (ed.)
-date: 11-10-2020
+date: '2020-11-10'
 ---
 

@@ -68,6 +68,6 @@ content:
     image: /img/05_join_sanserriffe_photo_join.jpg
     type: images
 location: 'San Serriffe, Amsterdam'
-date: 05-18-2019
+date: '2019-05-18'
 ---
 

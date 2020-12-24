@@ -55,6 +55,6 @@ content:
       initiated by Femke de Vries and Hanka van der Voet.
     type: text
 location: 'WALTER, Arnhem'
-date: 06-29-2018
+date: '2018-06-29'
 ---
 

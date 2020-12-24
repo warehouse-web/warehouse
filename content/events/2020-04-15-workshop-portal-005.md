@@ -50,6 +50,6 @@ content:
     image: /img/img_8786.jpg
     type: images
 location: 'Punkt Ø - Galleri F 15, Moss, Norway'
-date: 09-24-2019
+date: '2019-09-24'
 ---
 

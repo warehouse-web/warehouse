@@ -18,6 +18,6 @@ content:
     image: /img/2018_pf_launch-tenant-of-culture_01a-copy.jpg
     type: images
 location: 'Schoon den Boer, Amsterdam'
-date: 02-23-2018
+date: '2018-02-23'
 ---
 

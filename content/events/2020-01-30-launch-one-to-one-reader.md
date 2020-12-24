@@ -42,6 +42,6 @@ content:
   - image: /img/onetoone_opening.jpg
     type: images
 location: 'San Serriffe, Amsterdam'
-date: 10-20-2018
+date: '2018-10-20'
 ---
 

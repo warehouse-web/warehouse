@@ -58,6 +58,6 @@ content:
     image: /img/portal001-_vanjoolen_9.jpg
     type: images
 location: 'Museum Boijmans van Beuningen, Rotterdam'
-date: 01-13-2018
+date: '2018-01-13'
 ---
 
