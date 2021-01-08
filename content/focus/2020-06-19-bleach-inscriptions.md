@@ -7,6 +7,6 @@ content:
     image: /img/01_200sisterssouvenirs_2018©roberthamacher.jpg
     type: images
 author: 'Amelia Groom '
-'date,': '2020-06-19'
+date: '2020-06-19'
 ---
 

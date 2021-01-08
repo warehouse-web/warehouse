@@ -210,7 +210,7 @@ collections:
             name: 'author'
             widget: 'string'
           - label: Date
-            name: date,
+            name: date
             widget: date
             default: ''
             format: 'YYYY-MM-DD'

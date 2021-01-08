@@ -11,6 +11,6 @@ content:
       Fold: Notes on making and doing fashion_, Issue #1 Luxury.
     type: text
 author: Ricarda Bigolin
-'date,': '2021-01-08'
+date: '2021-01-08'
 ---
 

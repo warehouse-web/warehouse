@@ -9,6 +9,6 @@ content:
     image: /img/img_5041.jpg
     type: images
 author: Aïcha Abbadi
-'date,': '2020-06-17'
+date: '2020-06-17'
 ---
 

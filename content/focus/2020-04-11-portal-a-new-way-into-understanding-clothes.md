@@ -8,6 +8,6 @@ content:
     image: /img/portal005_elisavanjoolen_moss_norway_2019.jpg
     type: images
 author: Christel Vesters
-'date,': '2020-01-31'
+date: '2020-01-31'
 ---
 
