@@ -1,67 +1,30 @@
-import { useState } from 'react'
+import Mailchimp from 'react-mailchimp-form'
 
 const Newsletter = () => {
-	const [email, setEmail] = useState('')
-	const [error, setError] = useState('')
-	const [isSuccess, setIsSuccess] = useState(false)
-
-	const handleInput = (e) => setEmail(e.target.value)
-	const handleSubmit = async (event) => {
-		event.preventDefault()
-
-		// console.log(email);
-		setError('')
-
-		try {
-			let response = await fetch(`/.netlify/functions/subscribe`, {
-				method: 'POST',
-				body: email,
-				headers: {
-					'Content-Type': 'application/json',
-				},
-			})
-			if (response.status === 200) {
-				// setPaymentComplete(true)
-				console.log('Purchase Completed!')
-			}
-
-			if (response.ok) {
-				console.log('response:', response)
-				setIsSuccess(true)
-				console.log('response.ok')
-			} else {
-				const body = await response.json()
-				setError(body.errorMessage)
-			}
-			// console.log("body:", body);
-		} catch (error) {
-			// console.log("tryCATCH", error);
-			setError('Failed to submit. Please check email and try again.')
-		}
-		return false
-	}
 	return (
-		<form className='Newsletter' onSubmit={handleSubmit}>
+		<div className='Newsletter'>
 			<p>Newsletter</p>
-			{isSuccess ? (
-				<>
-					<p>Thank you! You've subscribed.</p>
-				</>
-			) : (
-				<>
-					<div className='Newsletter__inner'>
-						<input
-							onChange={handleInput}
-							placeholder='enter your email address'
-							value={email}
-							type='text'
-						/>
-						<button alt='submit'>Subscribe</button>
-					</div>
-					{error !== '' && <p>{error}</p>}
-				</>
-			)}
-		</form>
+
+			<Mailchimp
+				action='https://thisiswarehouse.us5.list-manage.com/subscribe/post?u=399b6f2fb11e21f440e25e7f2&amp;id=3684c37c49'
+				fields={[
+					{
+						name: 'EMAIL',
+						placeholder: 'Email',
+						type: 'email',
+						required: true,
+					},
+				]}
+				messages={{
+					sending: 'Sending...',
+					success: 'Thank you for subscribing!',
+					error: 'An unexpected internal error has occurred.',
+					empty: 'You must write an e-mail.',
+					duplicate: 'Too many subscribe attempts for this email address',
+					button: 'Subscribe',
+				}}
+			/>
+		</div>
 	)
 }
 

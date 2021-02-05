@@ -4,18 +4,22 @@
 	flex-wrap: wrap;
 	width: 100%;
 	max-width: 400px;
+	@include body;
 	p {
 		width: 100%;
 	}
-	&__inner {
+	form {
 		display: flex;
 		width: 100%;
+		flex-wrap: wrap;
+		position: relative;
 		input {
 			color: $white;
 			border-bottom: 1px solid $white;
 			width: 100%;
 			font-family: $font-family;
 			padding: 10px 0;
+			@include body;
 		}
 		button {
 			background: $white;
@@ -23,6 +27,36 @@
 			margin-left: 20px;
 			padding: 10px;
 			font-family: $font-family;
+			position: absolute;
+			top: 0;
+			right: 0;
+			@include body;
+			&:before {
+				content: '';
+				background: $black;
+				position: absolute;
+				height: 100%;
+				width: 20px;
+				top: 0;
+				right: 100%;
+			}
+			&:after {
+				content: '';
+				background: $black;
+				position: absolute;
+				height: 5px;
+				width: 20px;
+				top: 100%;
+				right: 100%;
+			}
+		}
+		.msg-alert {
+			display: block;
+			width: 100%;
+			padding-top: 10px;
+			p {
+				color: $white !important;
+			}
 		}
 	}
 }
