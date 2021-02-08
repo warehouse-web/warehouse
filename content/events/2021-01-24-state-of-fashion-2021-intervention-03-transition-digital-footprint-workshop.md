@@ -4,7 +4,7 @@ title: >-
   State of Fashion 2021 | Intervention 03: Transition | Digital Footprint
   Workshop
 content:
-  - caption: Algorithmic Gaze Workhop result by participant Wei Chi Su.
+  - caption: Algorithmic Gaze Workshop result by participant Wei Chi Su.
     image: >-
       /img/key-image_def_theraphy-session_-algorithmic-gaze_-workshop-result-by-participant-anya-su-.png
     type: images
