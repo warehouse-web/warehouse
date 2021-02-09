@@ -5,10 +5,10 @@ title: >-
   Shanzai Lyric
 content:
   - caption: >-
-      2. everything is runimed  we’re domed  nogthing can save us  we’re all
-      going to die, 2019. Photo by @hosisters, courtesy Shanzhai Lyric.
+      SMILE UNTIL THE TEARS RUN INTO YOUR MOUTH, 2017. Photo by @gourdtimes,
+      courtesy Shanzhai Lyric.
     image: >-
-      /img/2.-everything-is-runimed-we’re-domed-nogthing-can-save-us-we’re-all-going-to-die-2019.-photo-by-hosisters-courtesy-shanzhai-lyric.jpg
+      /img/3.-smile-until-the-tears-run-into-your-mouth-2017.-photo-by-gourdtimes-courtesy-shanzhai-lyric.jpg
     type: images
   - body: >-
       Now online, the fourth part of our multilogue longread by [Shanzai
