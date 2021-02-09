@@ -1,8 +1,8 @@
 ---
 templateKey: event-post
 title: >-
-  State of Fashion 2021 | State of Fashion 2021 | Intervention 03: Transition |
-  Longread part 04: Shanzai Lyric
+  State of Fashion 2021 | Intervention 03: Transition | Longread part 04:
+  Shanzai Lyric
 content:
   - caption: >-
       2. everything is runimed  we’re domed  nogthing can save us  we’re all
