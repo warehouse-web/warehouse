@@ -5,7 +5,7 @@ price: '7.50'
 btw: '9'
 content:
   - caption: Garments Without Bodies (2019)
-    image: /img/07_garments-without-bodies_photo_anouk-beckers.jpg
+    image: /img/09_garments-without-bodies_scan.jpg
     type: images
   - text: Add to cart
     type: cart-button
