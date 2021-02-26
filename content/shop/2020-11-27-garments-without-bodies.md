@@ -5,7 +5,7 @@ price: '7.50'
 btw: '9'
 content:
   - caption: Garments Without Bodies (2019)
-    image: /img/01_garments-without-bodies_photo_anouk-beckers.jpg
+    image: /img/07_garments-without-bodies_photo_anouk-beckers.jpg
     type: images
   - text: Add to cart
     type: cart-button
@@ -30,12 +30,12 @@ content:
       machine ArtEZ University of the Arts at the Kortestraat 27, Arnhem\
       Language: English
     type: text
-  - image: /img/02_garments-without-bodies_photo_anouk-beckers.jpg
+  - image: /img/08_garments-without-bodies_photo_anouk-beckers.jpg
     type: images
-  - image: /img/03_garments-without-bodies_photo_anouk-beckers.jpg
+  - image: ''
     type: images
   - caption: 'Photography: Anouk Beckers'
-    image: /img/04_garments-without-bodies_photo_anouk-beckers.jpg
+    image: /img/05_garments-without-bodies_photo_anouk-beckers.jpg
     type: images
 author: Chet Bugter
 date: '2020-11-19'
