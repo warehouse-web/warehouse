@@ -5,7 +5,7 @@ price: '10'
 btw: '9'
 content:
   - caption: FAT BELLY BOY BOOKLET (2020)
-    image: /img/01_scan_cover_.jpeg
+    image: /img/01_scan_back_black.jpg
     type: images
   - body: >-
       The FAT BELLY BOY BOOKLET is a first in a series of zine explorations of
