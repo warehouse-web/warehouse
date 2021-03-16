@@ -7,6 +7,8 @@ content:
   - caption: FAT BELLY BOY BOOKLET (2020)
     image: /img/01_scan_back_black.jpg
     type: images
+  - text: Add to cart
+    type: cart-button
   - body: >-
       The FAT BELLY BOY BOOKLET is a first in a series of zine explorations of
       Chet Bugter's project _selfies as self love praxis_. 
