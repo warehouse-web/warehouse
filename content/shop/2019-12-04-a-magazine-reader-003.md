@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: A Magazine Reader 03
+title: '[Sold Out] A Magazine Reader 03'
 price: '12.50'
 btw: '9'
 PDF: ''
