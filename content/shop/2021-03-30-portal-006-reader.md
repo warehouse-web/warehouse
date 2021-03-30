@@ -76,7 +76,7 @@ content:
   - caption: 'Photography: Anouk Beckers.'
     image: /img/02_portal006_photography_anouk-beckers.jpg
     type: images
-author: By Elisa van Joolen (ed.)
+author: Elisa van Joolen (ed.)
 date: '2021-04-06'
 ---
 
