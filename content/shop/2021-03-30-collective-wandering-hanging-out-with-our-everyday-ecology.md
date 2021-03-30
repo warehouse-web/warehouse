@@ -11,8 +11,7 @@ content:
     type: cart-button
   - body: "This is not a manual in the traditional sense, with linear instructions or guidelines – rather, it is a hopefully engaging and activating collection of insights, moments and encounters, experienced during my continuing artistic research On Tour. What started out as a solo adventure consciously evolved into a collaborative and collective journey.\n\n\rThe intention of this manual is to inspire and support kindred individuals who are in search of an alternative rhythm of learning-working-living. Sharing multiform co-production processes and rituals of self-organisation concerning our common everyday lives.\n\nAccompanying my own contributions, I have invited various practitioners who resonate with me on a personal and professional level to respond to our shared experiences, from and in relation to their respective practices."
     type: text
-  - image: >-
-      /img/08_crop_collective-wandering-by-lenn-cox_photography-anouk-beckers_lowres.jpg
+  - image: /img/05_collective-wandering-by-lenn-cox_photography-anouk-beckers.jpg
     type: images
   - image: >-
       /img/04_collective-wandering-by-lenn-cox_photography-anouk-beckers_lowres.jpg
@@ -20,7 +19,7 @@ content:
   - body: "The result is a textual and visual gathering of conversations, testimonials and observations, from essays to poetry, from clothing to recipes.\n\n\rI recognise the realisation of this publication as an extension of my curatorial practice, in which I initiate collaborative gatherings and spaces. This manual is such a space. I see it as a living document, an ongoing conversation. An open invitation to go on a playful adventure with your own everyday ecology."
     type: text
   - image: >-
-      /img/05_crop_collective-wandering-by-lenn-cox_photography-anouk-beckers-lowres.jpg
+      /img/08_crop_collective-wandering-by-lenn-cox_photography-anouk-beckers_lowres.jpg
     type: images
   - body: >-
       [Lenn Cox](http://lenncox.blogspot.com/) explores self-organized
