@@ -5,7 +5,7 @@ price: '28'
 btw: '9'
 content:
   - caption: COLLECTIVE WANDERING | Hanging out with Our Everyday Ecology (2020)
-    image: /img/01_cover_collective-wandering-by-lenn-cox_lowres.jpg
+    image: /img/01_cover-small_collective-wandering-by-lenn-cox.jpg
     type: images
   - text: Add to cart
     type: cart-button
