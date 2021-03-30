@@ -7,8 +7,6 @@ content:
   - caption: PORTAL 006 Reader (2021)
     image: /img/11_cover-correct_portal006.jpg
     type: images
-  - text: Add to cart
-    type: cart-button
   - body: >-
       This reader is a product of the PORTAL 006 classes that took place at
       Comenius Lyceum, a high school in Amsterdam Nieuw-West, in fall 2020.
@@ -75,6 +73,12 @@ content:
   - caption: Contribution by Fatima
     image: /img/portal006—web_small.jpg
     type: images
+  - body: >-
+      Thank you: Anouk Beckers, Bart de Baets, Comenius Lyceum, David Smeulders,
+      Florean Kruijswijk Jansen, Imara Limon, Imke Ruigrok, Melanie Bomans,
+      Niels Schumm, Roos Mol, Roy Ruiters, Samuel Vulsma, Uta Eisenreich,
+      Vincent Vulsma and a special thanks to all students!
+    type: text
   - caption: 'Photography: Anouk Beckers.'
     image: /img/02_portal006_photography_anouk-beckers.jpg
     type: images
