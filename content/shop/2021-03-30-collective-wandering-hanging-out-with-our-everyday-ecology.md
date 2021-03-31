@@ -43,8 +43,9 @@ content:
       Alya Hessy, Lucie Chaptal (we made together), Marlies van Hak, Aliki van
       der Kruijs, Guusje de Bruin, Melanie Bomans, Niki Milioni, Rosanne van
       Wijk, Sanne Karssenberg, Femke de Vries\ Graphic design: Heike Renée de
-      Wit\ Release date: October 2020\ Color: full color\ Language: English\ 
-      Publisher: self-published\ ISBN: 978-90-9033782-1
+      Wit\ Release date: October 2020\ Color: full color\ Language: English\
+      Editing and Translation: Melanie Bomans\  Publisher: self-published\ ISBN:
+      978-90-9033782-1
     type: text
   - caption: 'Photography: Anouk Beckers'
     image: >-
