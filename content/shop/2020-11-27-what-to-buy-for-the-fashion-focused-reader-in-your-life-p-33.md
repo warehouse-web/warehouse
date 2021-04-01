@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: What To Buy For The Fashion-Focused Reader In Your Life p.33
+title: '[Sold Out] What To Buy For The Fashion-Focused Reader In Your Life p.33'
 price: '35'
 btw: '9'
 content:
