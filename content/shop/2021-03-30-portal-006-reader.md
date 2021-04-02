@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: PORTAL 006 Reader
-price: '10'
+price: '7'
 btw: '21'
 content:
   - caption: PORTAL 006 Reader (2021)
