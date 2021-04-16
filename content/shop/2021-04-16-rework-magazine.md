@@ -5,7 +5,7 @@ price: '30'
 btw: '9'
 content:
   - caption: Rework Magazine (2017)
-    image: /img/rework-magazine-1_lowres.jpg
+    image: /img/rework_magazine.jpg
     type: images
   - text: Add to cart
     type: cart-button
