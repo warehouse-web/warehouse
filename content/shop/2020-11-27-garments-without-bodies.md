@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Garments Without Bodies
+title: '[Sold Out] Garments Without Bodies'
 price: '7.50'
 btw: '9'
 content:
