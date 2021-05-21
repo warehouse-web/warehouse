@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Fat Belly Boy Booklet
+title: '[Sold Out] Fat Belly Boy Booklet'
 price: '10'
 btw: '9'
 content:
