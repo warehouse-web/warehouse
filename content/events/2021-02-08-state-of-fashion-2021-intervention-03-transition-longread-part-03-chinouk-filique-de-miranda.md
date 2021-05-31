@@ -12,7 +12,7 @@ content:
       Now online, the third part of our multilogue longread by [Chinouk Filique
       de Miranda](https://www.chinoukfilique.info/), titled "Online Fashion and
       the Elusive Act of Identity Creation". Check it out
-      [_here_](https://www.stateoffashion.org/en/intervention/intervention-03-transition/longread-03-part-3-chinouk-filique-de-miranda/).
+      [_here_](https://thisisanintervention.org/en/intervention-03-transition-an-introduction/longread-03-part-3-chinouk-filique-de-miranda/).
     type: text
 location: Arnhem
 date: '2021-02-06'
