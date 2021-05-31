@@ -2,7 +2,7 @@
 templateKey: product-page
 title: PORTAL 006 Reader
 price: '7'
-btw: '21'
+btw: '9'
 content:
   - caption: PORTAL 006 Reader (2021)
     image: /img/11_cover-correct_portal006.jpg
