@@ -12,7 +12,7 @@ content:
       Now online, the second part of our multilogue longread by [Aïcha
       Abbadi](http://www.aichaabbadi.com/), titled "From Fashion Industry to
       Fashion Culture". Check it out
-      [_here_](https://www.stateoffashion.org/en/intervention/intervention-03-transition/longread-03-part-2-a%C3%AFcha-abbadi/).
+      [_here_](https://thisisanintervention.org/en/intervention-03-transition-an-introduction/longread-03-part-2-aicha-abbadi/).
     type: text
 location: Arnhem
 date: '2021-02-02'
