@@ -14,7 +14,7 @@ content:
       Now online, the fourth part of our multilogue longread by [Shanzai
       Lyric](https://shanzhailyric.info/), titled "aDREAM INTO AN EMPTy: Some
       Threads on Doubles and Desires". Check it out
-      [_here_](https://www.stateoffashion.org/en/intervention/intervention-03-transition/shanzhai-lyric/).
+      [_here_](https://thisisanintervention.org/en/intervention-03-transition-an-introduction/longread-03-part-4-shanzhai-lyric/).
     type: text
 location: Arnhem
 date: '2021-02-09'
