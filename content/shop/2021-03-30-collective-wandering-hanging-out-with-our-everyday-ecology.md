@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: COLLECTIVE WANDERING | Hanging Out with Our Everyday Ecology
-price: '28'
+price: '25.69'
 btw: '9'
 content:
   - caption: COLLECTIVE WANDERING | Hanging out with Our Everyday Ecology (2020)
