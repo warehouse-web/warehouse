@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: '[Sold Out] Fat Belly Boy Booklet'
-price: '10'
+price: '9.17'
 btw: '9'
 content:
   - caption: FAT BELLY BOY BOOKLET (2020)
