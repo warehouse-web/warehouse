@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: 'Monument Issue #1 | Rozema/Teunissen'
-price: '15'
+price: '13.76'
 btw: '9'
 content:
   - caption: 'Monument Issue #1 | Rozema/Teunissen (2018). Photography: Anouk Beckers.'
