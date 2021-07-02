@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: JOIN Collective Clothes Manual
-price: '10'
+price: '9.17'
 btw: '9'
 PDF: /img/join_templates_download_pdf.pdf
 content:
