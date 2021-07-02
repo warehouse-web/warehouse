@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: A Magazine Reader Invites 01
-price: '30'
+price: '27.52'
 btw: '9'
 content:
   - caption: >-
