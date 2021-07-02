@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: '[Sold Out] Garments Without Bodies'
-price: '7.50'
+price: '6.88'
 btw: '9'
 content:
   - caption: Garments Without Bodies (2019)
