@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: 'Press & Fold Issue #0 | The Street Issue'
-price: '15'
+price: '13.76'
 btw: '9'
 content:
   - caption: 'Press & Fold Issue #0 | The Street Issue (2018)'
