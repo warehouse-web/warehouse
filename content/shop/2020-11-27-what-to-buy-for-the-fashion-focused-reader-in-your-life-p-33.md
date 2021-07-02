@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: '[Sold Out] What To Buy For The Fashion-Focused Reader In Your Life p.33'
-price: '35'
+price: '32.11'
 btw: '9'
 content:
   - image: /img/02_what-to-buy-for-your_photography_anouk-beckers.jpg
