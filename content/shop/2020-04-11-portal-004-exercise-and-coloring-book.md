@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: PORTAL 004 | Exercise and Coloring Book
-price: '15'
+price: '13.76'
 btw: '9'
 PDF: ''
 content:
