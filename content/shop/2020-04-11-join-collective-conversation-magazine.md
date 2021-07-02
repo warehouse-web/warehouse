@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: 'JOIN Collective Conversation Magazine '
-price: '15'
+price: '13.76'
 btw: '9'
 content:
   - caption: |-
