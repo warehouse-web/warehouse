@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: 'Mode and Mode #7 | ‘D&K LOOKBOOK 2019’'
-price: '8'
+price: '7.34'
 btw: '9'
 content:
   - caption: 'Mode and Mode #7 | ‘D&K LOOKBOOK 2019’ Photography: Anouk Beckers.'
