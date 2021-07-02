@@ -1,6 +1,7 @@
 ---
 templateKey: product-page
 title: '[Sold Out] A Magazine Reader 01'
+price: '11.47'
 btw: '9'
 PDF: /img/a-magazine-reader-01-2018-.pdf
 content:
