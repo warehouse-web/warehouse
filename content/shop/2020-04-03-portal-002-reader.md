@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: 'PORTAL 002 Reader '
-price: '12.50'
+price: '11.47'
 btw: '9'
 PDF: ''
 content:
