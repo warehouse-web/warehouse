@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Rework Magazine
-price: '30'
+price: '27.52'
 btw: '9'
 content:
   - caption: Rework Magazine (2017)
