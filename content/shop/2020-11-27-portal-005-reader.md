@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: PORTAL 005 Reader
-price: '10'
+price: '9.17'
 btw: '9'
 content:
   - caption: Portal 005 Reader (2020)
