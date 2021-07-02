@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: 'Monument Issue #2 | Keupr/van Bentm'
-price: '15'
+price: '13.76'
 btw: '9'
 content:
   - caption: 'Monument Issue #2 | Keupr/van Bentm (2020). Photography: Anouk Beckers.'
