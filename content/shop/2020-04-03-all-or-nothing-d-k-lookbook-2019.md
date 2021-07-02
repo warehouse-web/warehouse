@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: 'D&K Look Book 2019 | All or Nothing '
-price: '35'
+price: '32.11'
 btw: '9'
 content:
   - caption: 'D&K Look Book 2019 | All or Nothing. Photography: Anouk Beckers.'
