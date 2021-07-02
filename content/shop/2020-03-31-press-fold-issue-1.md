@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: 'Press & Fold Issue #1 | The Luxury Issue'
-price: '15'
+price: '13.76'
 btw: '9'
 content:
   - caption: 'Press & Fold Issue #1 (2019)'
