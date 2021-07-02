@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: A Magazine Reader 05
-price: '12.50'
+price: '11.47'
 btw: '9'
 content:
   - caption: A Magazine Reader 05 (2020)
