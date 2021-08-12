@@ -14,10 +14,11 @@ content:
     type: images
   - body: "With contributions by: Aïcha Abbadi, Chinouk Filique de Miranda, Dal Chodha, Femke de Vries, Hanka van der Voet, Isabel Mundigo-Moore, Johannes Reponen, Laura Gardner, Megan Wray Schertler, Ricarda Bigolin and Sophie Barr. Design by Line Arngaard.\r\n\nType: softcover\\ Dimensions: 108 mm x 182 mm portrait\\ Pages: 220\\ Editors: Hanka van der Voet & Johannes Reponen\\ Contributors: Aïcha Abbadi, Chinouk Filique de Miranda, Dal Chodha, Femke de Vries, Hanka van der Voet, Isabel Mundigo-Moore, Johannes Reponen, Laura Gardner, Megan Wray Schertler, Ricarda Bigolin and Sophie Barr \\ Graphic design: Line Arngaard\\ Release date: July 2021\\ Binding: glued\\ Edition: 700\\ Color: black and white\\ Printer: Tallinn Book Printers\\ Language: English\\ Text editing: Pat Frances\\ Made possible by: Creative Industries Fund NL\\ Production: Warehouse"
     type: text
-  - caption: 'Photography: Anouk Beckers.'
+  - caption: ''
     image: /img/lowres_08_a-review-of-reviews_warehouse_photo-anouk-beckers.jpg
     type: images
-  - image: /img/lowres_07_a-review-of-reviews_warehouse_photo-anouk-beckers.jpg
+  - caption: 'Photography: Anouk Beckers.'
+    image: /img/lowres_07_a-review-of-reviews_warehouse_photo-anouk-beckers.jpg
     type: images
 author: Hanka van der Voet & Johannes Reponen (eds.)
 date: '2021-08-11'
