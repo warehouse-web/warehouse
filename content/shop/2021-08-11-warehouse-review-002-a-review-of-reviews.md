@@ -17,6 +17,8 @@ content:
   - caption: 'Photography: Anouk Beckers.'
     image: /img/lowres_08_a-review-of-reviews_warehouse_photo-anouk-beckers.jpg
     type: images
+  - image: /img/lowres_07_a-review-of-reviews_warehouse_photo-anouk-beckers.jpg
+    type: images
 author: Hanka van der Voet & Johannes Reponen (eds.)
 date: '2021-08-11'
 ---
