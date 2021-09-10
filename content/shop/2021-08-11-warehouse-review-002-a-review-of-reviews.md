@@ -6,9 +6,35 @@ btw: '9'
 content:
   - image: /img/lowres_01_a-review-of-reviews_warehouse_photo-anouk-beckers.jpg
     type: images
-  - text: Add to cart
-    type: cart-button
-  - body: "With the _Warehouse Review_ series, we aim to give a proper analysis and contextualisation of certain contemporary fashion phenomena, but not only through an essayistic approach. Instead, we deploy various methods of research and analysis to zoom in on specific aspects that make – in our estimation – a fashion phenomenon into what it is. Our first edition of _Warehouse Review_, entitled ‘People Wearing Off-White’, was a thorough study of the fashion label Off-White and its immense popularity. With this second edition of _Warehouse Review_, we are taking a more meta approach: we are reviewing the fashion review, and in specific, those of the Louis Vuitton fall 2020 womenswear collection. \r\n\nIn his fall 2020 collection, Nicolas Ghesquière, the creative director of Louis Vuitton womenswear, explored notions around time. Talking to Nicole Phelps, the Director of Vogue Runway, he stated: “I wanted to imagine what could happen if the past could look at us.” With that sentiment in mind, the contributors of this _Warehouse Review_ interrogated these, now historical written records, that collectively make up a response to Louis Vuitton fall 2020 presentation. Through this meta-critique, we hope to explore what we might learn about these past examples of catwalk writing as a way to move the discipline forward. As McNeil and Miller declared “…the reviewer is the critic!” it is now time to critique the critic and to review the review."
+  - body: >-
+      We're having some webshop issues. Send an email to
+      info@thisiswarehouse.com is you want to buy _Warehouse Review 002,_ 'A
+      Review of Reviews'.
+
+
+      With the _Warehouse Review_ series, we aim to give a proper analysis and
+      contextualisation of certain contemporary fashion phenomena, but not only
+      through an essayistic approach. Instead, we deploy various methods of
+      research and analysis to zoom in on specific aspects that make – in our
+      estimation – a fashion phenomenon into what it is. Our first edition of
+      _Warehouse Review_, entitled ‘People Wearing Off-White’, was a thorough
+      study of the fashion label Off-White and its immense popularity. With this
+      second edition of _Warehouse Review_, we are taking a more meta approach:
+      we are reviewing the fashion review, and in specific, those of the Louis
+      Vuitton fall 2020 womenswear collection. 
+
+
+      In his fall 2020 collection, Nicolas Ghesquière, the creative director of
+      Louis Vuitton womenswear, explored notions around time. Talking to Nicole
+      Phelps, the Director of Vogue Runway, he stated: “I wanted to imagine what
+      could happen if the past could look at us.” With that sentiment in mind,
+      the contributors of this _Warehouse Review_ interrogated these, now
+      historical written records, that collectively make up a response to Louis
+      Vuitton fall 2020 presentation. Through this meta-critique, we hope to
+      explore what we might learn about these past examples of catwalk writing
+      as a way to move the discipline forward. As McNeil and Miller declared
+      “…the reviewer is the critic!” it is now time to critique the critic and
+      to review the review.
     type: text
   - image: /img/lowres_06_a-review-of-reviews_warehouse_photo-anouk-beckers.jpg
     type: images
