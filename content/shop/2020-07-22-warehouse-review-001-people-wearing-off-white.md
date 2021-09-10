@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Warehouse Review 001 | People Wearing Off-White
+title: '[Sold Out] Warehouse Review 001 | People Wearing Off-White'
 btw: '9'
 content:
   - caption: Warehouse Review 001 | 'People Wearing Off-White' (2020)
