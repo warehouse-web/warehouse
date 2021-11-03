@@ -24,6 +24,7 @@ const Detail = ({ active = {} }) => {
 		slug = '',
 	} = active
 
+	const priceFormat = price ? price.replace(',', '.') : false
 	const typeslug = postSlug(templateKey)
 
 	useEffect(() => {
@@ -61,17 +62,17 @@ const Detail = ({ active = {} }) => {
 									className={'Detail__item' + (!show_shop ? ' -is-hidden' : '')}
 									key={`content--` + i}
 								>
-									{price && (
+									{priceFormat && (
 										<div className={'Detail__price'}>
 											<div className='Detail__price-inner'>
 												<div className='Detail__price-price'>
-													{price} EUR
+													{priceFormat} EUR
 												</div>
 												<div className='Detail__price-btn'>
 													<button
 														className='btn btn--cart snipcart-add-item'
 														data-item-id={slug}
-														data-item-price={price}
+														data-item-price={priceFormat}
 														data-item-url={WEB_URL + '/shop/' + slug}
 														data-item-image={
 															firstImg && WEB_URL + firstImg
