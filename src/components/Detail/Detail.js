@@ -50,6 +50,7 @@ const Detail = ({ active = {} }) => {
 									<Image
 										src={el.image}
 										alt={el.caption}
+										layout='responsive'
 										width={el.dimensions.width}
 										height={el.dimensions.height}
 									/>
