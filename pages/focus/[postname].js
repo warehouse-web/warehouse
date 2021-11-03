@@ -7,8 +7,7 @@ import { Home } from '_views'
 import { reorderItems, getItems } from '_api'
 
 const FocusPage = ({ posts, active, footer }) => {
-	const { frontmatter = {}, slug = '' } = active
-	const { title = '' } = frontmatter
+	const { title = '', slug = '' } = active
 
 	return (
 		<>
