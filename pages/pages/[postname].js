@@ -6,7 +6,7 @@ import { WEB_NAME } from '_options'
 import { Page } from '_views'
 
 const PrivacyPages = ({ post }) => {
-	const { title = '', slug = '' } = active
+	const { title = '', slug = '' } = post
 
 	return (
 		<>
