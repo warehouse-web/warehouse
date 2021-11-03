@@ -72,9 +72,9 @@ const Detail = ({ active = {} }) => {
 												<div className='Detail__price-btn'>
 													<button
 														className='btn btn--cart snipcart-add-item'
-														data-item-id={slug}
+														data-item-id={slug.replace('/shop/', '')}
 														data-item-price={priceFormat}
-														data-item-url={WEB_URL + '/shop/' + slug}
+														data-item-url={WEB_URL + slug}
 														data-item-image={
 															firstImg && WEB_URL + firstImg
 														}
