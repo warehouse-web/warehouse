@@ -34,7 +34,7 @@ export async function getStaticProps() {
 			}
 		})
 		return data
-	})(require.context('../content/focus', true, /\.md$/))
+	})(require.context('../content/focus', true, /\.\/.*\.md$/))
 
 	let posts = postsArray
 	posts = posts.sort((a, b) => (a.frontmatter.date < b.frontmatter.date ? 1 : -1))

@@ -41,7 +41,7 @@ export async function getStaticProps({ ...ctx }) {
 			}
 		})
 		return data
-	})(require.context('../../content/shop', true, /\.md$/))
+	})(require.context('../../content/shop', true, /\.\/.*\.md$/))
 
 	let posts = postsArray
 	posts = posts.sort((a, b) => (a.frontmatter.date < b.frontmatter.date ? 1 : -1))
@@ -61,11 +61,13 @@ export async function getStaticProps({ ...ctx }) {
 			const document = matter(value.default)
 			return {
 				title: document.data.title,
-				slug: 'pages/' + slug,
+				slug: '/pages/' + slug,
 			}
 		})
 		return data
-	})(require.context('../../content/pages', true, /\.md$/))
+	})(require.context('../../content/pages', true, /\.\/.*\.md$/))
+
+	// console.log(data)
 
 	return {
 		props: {
@@ -86,7 +88,7 @@ export async function getStaticPaths() {
 			return slug
 		})
 		return data
-	})(require.context('../../content/shop', true, /\.md$/))
+	})(require.context('../../content/shop', true, /\.\/.*\.md$/))
 
 	const paths = blogSlugs.map((slug) => `/shop/${slug}`)
 

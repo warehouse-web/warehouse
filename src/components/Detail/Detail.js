@@ -75,14 +75,14 @@ const Detail = ({ active = {} }) => {
 																? ''
 																: 'BTW (21%)'
 														}
-														data-item-has-taxes-included='true'
+														data-item-has-taxes-included='false'
 														onClick={(e) => {
-															console.log('hey')
-															const cart = document.querySelector(
-																'.Header__item--cart'
-															)
+															const cart =
+																document.querySelector(
+																	'.Header__item--cart'
+																)
 															if (cart) {
-																console.log(cart)
+																// console.log(cart)
 																cart.classList.remove(
 																	'Header__item--hide'
 																)
@@ -103,7 +103,7 @@ const Detail = ({ active = {} }) => {
 									className='Detail__item Detail__text'
 									key={`content-two--` + i}
 								>
-									<ReactMarkdown escapeHtml={false} source={el.body} />
+									<ReactMarkdown children={el.body} />
 								</div>
 							)
 						}

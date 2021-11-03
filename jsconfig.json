@@ -16,6 +16,9 @@
 			],
 			"_options": [
 				"src/api/options"
+			],
+			"_api": [
+				"src/api/api"
 			]
 		}
 	}

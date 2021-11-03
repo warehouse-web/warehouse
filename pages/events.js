@@ -6,6 +6,7 @@ import { WEB_NAME } from '_options'
 import { Home } from '_views'
 
 const EventsPage = ({ posts, footer }) => {
+	// console.log(posts)
 	return (
 		<>
 			<Head>
@@ -34,7 +35,7 @@ export async function getStaticProps() {
 			}
 		})
 		return data
-	})(require.context('../content/events', true, /\.md$/))
+	})(require.context('../content/events', true, /\.\/.*\.md$/))
 
 	let posts = postsArray
 	posts = posts.sort((a, b) => (a.frontmatter.date < b.frontmatter.date ? 1 : -1))

@@ -15,7 +15,7 @@ const Page = ({ frontmatter }) => {
 				</div>
 				<div className='Page__right'>
 					<div className='Page__text'>
-						<ReactMarkdown linkTarget={'_blank'} escapeHtml={false} source={text} />
+						<ReactMarkdown linkTarget={'_blank'} children={text} />
 					</div>
 				</div>
 			</div>

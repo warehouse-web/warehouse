@@ -34,7 +34,7 @@ export async function getStaticProps() {
 			}
 		})
 		return data
-	})(require.context('../content/events', true, /\.md$/))
+	})(require.context('../content/events', true, /\.\/.*\.md$/))
 
 	const focusArray = ((context) => {
 		const keys = context.keys()
@@ -52,7 +52,7 @@ export async function getStaticProps() {
 			}
 		})
 		return data
-	})(require.context('../content/focus', true, /\.md$/))
+	})(require.context('../content/focus', true, /\.\/.*\.md$/))
 
 	const shopArray = ((context) => {
 		const keys = context.keys()
@@ -70,7 +70,7 @@ export async function getStaticProps() {
 			}
 		})
 		return data
-	})(require.context('../content/shop', true, /\.md$/))
+	})(require.context('../content/shop', true, /\.\/.*\.md$/))
 
 	let posts = [...eventsArray, ...focusArray, ...shopArray]
 	posts = posts.sort((a, b) => (a.frontmatter.date < b.frontmatter.date ? 1 : -1))

@@ -17,7 +17,7 @@ const PageAbout = ({ frontmatter }) => {
 					</h2>
 				</div>
 				<div className='Page__right'>
-					<ReactMarkdown linkTarget={'_blank'} escapeHtml={false} source={rightColumn} />
+					<ReactMarkdown linkTarget={'_blank'} children={rightColumn} />
 					{images &&
 						images.map(({ image, caption }, i) => {
 							return (
@@ -29,7 +29,7 @@ const PageAbout = ({ frontmatter }) => {
 						})}
 
 					<div className='Page__other'>
-						<ReactMarkdown escapeHtml={false} source={other} />
+						<ReactMarkdown children={other} />
 					</div>
 					<div className='Page__other'>
 						<Newsletter />
