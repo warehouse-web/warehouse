@@ -19,13 +19,13 @@
 			img {
 				object-fit: cover;
 			}
-			// span {
-			// 	position: absolute!important;
-			// 	top: 0;
-			// 	left: 0;
-			// 	width: 100%!important;
-			// 	height: 100%;
-			// }
+			span {
+				position: absolute !important;
+				top: 0;
+				left: 0;
+				width: 100% !important;
+				height: 100%;
+			}
 		}
 		@include breakpoint('small') {
 			width: 110px;

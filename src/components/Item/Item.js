@@ -53,7 +53,15 @@ const Index = ({
 								paddingBottom: `${1.25 * 100}%`,
 							}}
 						>
-							{firstImg && <Image layout='fill' src={firstImg.image} alt={''} />}
+							{firstImg && (
+								<Image
+									layout='fixed'
+									width={95}
+									height={120}
+									src={firstImg.image}
+									alt={''}
+								/>
+							)}
 						</div>
 					</div>
 
