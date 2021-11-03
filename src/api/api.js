@@ -13,23 +13,6 @@ export async function getData(url) {
 	return data
 }
 
-export async function getPaths(type) {
-	const blogSlugs = ((context) => {
-		const keys = context.keys()
-		const data = keys.map((key, index) => {
-			let file = key.replace(/^.*[\\\/]/, '').slice(0, -3)
-			let slug = slugify(file)
-
-			return slug
-		})
-		return data
-	})(require.context(`content/${type}`, true, /\.\/.*\.md$/))
-
-	const paths = blogSlugs.map((slug) => `/${type}/${slug}`)
-
-	return paths
-}
-
 export function getItems(context, path) {
 	const keys = context.keys()
 	const values = keys.map(context)
