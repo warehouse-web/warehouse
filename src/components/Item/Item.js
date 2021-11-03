@@ -1,7 +1,8 @@
 import { isDateBeforeToday, renderImg, postType, postSlug } from '_utils'
 import Link from 'next/link'
 import moment from 'moment'
-import { Image } from '_components'
+
+import Image from 'next/image'
 
 const Index = ({
 	post = {},
@@ -10,7 +11,6 @@ const Index = ({
 	setLogoImg = undefined,
 	// thumb = false,
 }) => {
-	const { frontmatter = {}, slug = '' } = post
 	const {
 		title = '',
 		date = false,
@@ -18,7 +18,9 @@ const Index = ({
 		templateKey = '',
 		author = '',
 		content = [],
-	} = frontmatter
+		slug = '',
+	} = post
+
 	const authorFormat =
 		templateKey === 'product-page' || templateKey === 'focus-page'
 			? author
@@ -34,9 +36,7 @@ const Index = ({
 			: false
 	const type = postType(templateKey)
 
-	const typeslug = postSlug(templateKey)
-
-	const firstImg = content[0] && content[0].image ? content[0].image : false
+	const firstImg = content[0] && content[0].image ? content[0] : false
 
 	return (
 		<article
@@ -44,7 +44,7 @@ const Index = ({
 			onPointerEnter={() => setLogoImg(firstImg)}
 			onPointerLeave={() => setLogoImg(false)}
 		>
-			<Link href={'/' + typeslug + '/' + slug} scroll={false}>
+			<Link href={slug} scroll={false}>
 				<a className='Item__main'>
 					<div className='Item__thumb'>
 						<div
@@ -53,7 +53,7 @@ const Index = ({
 								paddingBottom: `${1.25 * 100}%`,
 							}}
 						>
-							<img alt='' className={'image__src'} src={firstImg} />
+							{firstImg && <Image layout='fill' src={firstImg.image} alt={''} />}
 						</div>
 					</div>
 

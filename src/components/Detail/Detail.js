@@ -7,9 +7,10 @@ import { CloseButton } from '_components'
 
 import { WEB_URL } from '_options'
 
+import Image from 'next/image'
+
 const Detail = ({ active = {} }) => {
 	const refMain = useRef(null)
-	const { frontmatter = {}, slug = '' } = active
 	const {
 		title = '',
 		date = false,
@@ -20,7 +21,9 @@ const Detail = ({ active = {} }) => {
 		PDF = '',
 		price = false,
 		btw = '21',
-	} = frontmatter
+		slug = '',
+	} = active
+
 	const typeslug = postSlug(templateKey)
 
 	useEffect(() => {
@@ -39,8 +42,16 @@ const Detail = ({ active = {} }) => {
 					content.map((el, i) => {
 						if (el.type === 'images') {
 							return (
-								<div className='Detail__item' key={`content-two--` + i}>
-									<img src={el.image} alt='' />
+								<div
+									className='Detail__item Detail__item--img'
+									key={`content-two--` + i + el.image}
+								>
+									<Image
+										src={el.image}
+										alt={el.caption}
+										width={el.dimensions.width}
+										height={el.dimensions.height}
+									/>
 									<p className='caption'>{el.caption}</p>
 								</div>
 							)

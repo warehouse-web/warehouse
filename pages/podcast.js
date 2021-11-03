@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import matter from 'gray-matter'
 
 import { WEB_NAME } from '_options'
 import { Home } from '_views'

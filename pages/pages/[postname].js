@@ -32,8 +32,8 @@ export async function getStaticProps({ ...ctx }) {
 	return {
 		props: {
 			post: {
-				frontmatter: data.data,
-				markdownBody: data.content,
+				...data.data,
+				body: data.content,
 				slug: postname,
 			},
 		},

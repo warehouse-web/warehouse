@@ -1,11 +1,7 @@
 import ReactMarkdown from 'react-markdown'
 import { CloseButton, Newsletter } from '_components'
 
-const PageAbout = ({ frontmatter }) => {
-	if (!frontmatter) return <></>
-
-	const { title = '', leftColumn, rightColumn, other, images } = frontmatter
-
+const PageAbout = ({ title = '', leftColumn, rightColumn, other, images }) => {
 	return (
 		<div className='Page'>
 			<CloseButton back={'/'} />

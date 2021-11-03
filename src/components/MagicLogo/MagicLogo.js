@@ -45,7 +45,7 @@ const MagicLogo = ({ logoImg = false }) => {
 	}
 
 	const styles =
-		img && logoImg
+		img && logoImg && logoImg.image
 			? {
 					backgroundImage: `url(${img})`,
 			  }
@@ -58,7 +58,11 @@ const MagicLogo = ({ logoImg = false }) => {
 			ref={refMain}
 		>
 			<div className='MagicLogo__img'>
-				{logoImg ? <img src={logoImg} ref={refContainer} onLoad={onLoadImg} /> : ''}
+				{logoImg && logoImg.image ? (
+					<img src={logoImg.image} ref={refContainer} onLoad={onLoadImg} />
+				) : (
+					''
+				)}
 			</div>
 			<div className='rectangle'></div>
 			<div className='rectangle'></div>

@@ -17,6 +17,9 @@
 	}
 
 	&__item {
+		&--img {
+			text-align: center;
+		}
 		&.-is-hidden {
 			display: none;
 		}

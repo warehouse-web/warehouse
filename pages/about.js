@@ -22,7 +22,10 @@ export async function getStaticProps() {
 
 	return {
 		props: {
-			post: { frontmatter: data.data, markdownBody: data.content },
+			post: {
+				...data.data,
+				body: data.content,
+			},
 		},
 	}
 }

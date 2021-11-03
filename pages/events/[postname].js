@@ -1,9 +1,10 @@
 import Head from 'next/head'
-import matter from 'gray-matter'
 import { slugify } from '_utils'
 
 import { WEB_NAME } from '_options'
 import { Home } from '_views'
+
+import { reorderItems, getItems } from '_api'
 
 const EventsPage = ({ posts, active, footer }) => {
 	const { frontmatter = {}, slug = '' } = active
@@ -26,28 +27,13 @@ export async function getStaticProps({ ...ctx }) {
 	const { postname } = ctx.params
 
 	const postsArray = ((context) => {
-		const keys = context.keys()
-		const values = keys.map(context)
-
-		const data = keys.map((key, index) => {
-			let file = key.replace(/^.*[\\\/]/, '').slice(0, -3)
-			let slug = slugify(file)
-			const value = values[index]
-			const document = matter(value.default)
-			return {
-				frontmatter: document.data,
-				markdownBody: document.content,
-				slug,
-			}
-		})
-		return data
+		return getItems(context, false)
 	})(require.context('../../content/events', true, /\.\/.*\.md$/))
 
-	let posts = postsArray
-	posts = posts.sort((a, b) => (a.frontmatter.date < b.frontmatter.date ? 1 : -1))
+	let posts = reorderItems(postsArray)
 
 	// post
-	const data = posts.filter((item) => item.slug === postname)
+	const data = posts.filter((item) => item.slug === '/events/' + postname)
 
 	return {
 		props: {
