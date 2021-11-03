@@ -6,6 +6,8 @@ btw: '9'
 content:
   - image: /img/lowres_01_a-review-of-reviews_warehouse_photo-anouk-beckers.jpg
     type: images
+  - text: Add to cart
+    type: cart-button
   - body: >-
       We're having some webshop issues. Send an email to
       info@thisiswarehouse.com is you want to buy _Warehouse Review 002,_ 'A
