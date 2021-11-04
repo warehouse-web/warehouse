@@ -9,11 +9,6 @@ content:
   - text: Add to cart
     type: cart-button
   - body: >-
-      We're having some webshop issues. Send an email to
-      info@thisiswarehouse.com is you want to buy _Warehouse Review 002,_ 'A
-      Review of Reviews'.
-
-
       With the _Warehouse Review_ series, we aim to give a proper analysis and
       contextualisation of certain contemporary fashion phenomena, but not only
       through an essayistic approach. Instead, we deploy various methods of
