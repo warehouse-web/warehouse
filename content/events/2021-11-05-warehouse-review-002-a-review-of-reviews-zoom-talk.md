@@ -2,7 +2,10 @@
 templateKey: event-post
 title: 'Warehouse Review 002, ''A Review of Reviews'' Zoom Talk'
 content:
-  - caption: >-
+  - caption: ''
+    image: /img/10_a-review-of-reviews_warehouse_photo-anouk-beckers.jpg
+    type: images
+  - body: >-
       On the evening of Thursday November 18th, Warehouse will host an online
       talk (via Zoom) moderated by Aurélie Van de Peer, with contributors Aïcha
       Abbadi, Dal Chodha, Megan Wray Schertler and Sophie Barr. Warehouse Review
@@ -43,11 +46,7 @@ content:
       Serriffe (Amsterdam), Athenaeum Nieuwscentrum (Amsterdam), Tenderbooks
       (London), Play the Tambourine (online), Reina (Melbourne) and Dispozitiv
       Books (Bucharest).
-    image: /img/10_a-review-of-reviews_warehouse_photo-anouk-beckers.jpg
-    type: images
-  - caption: AI poems by Sophie Barr. Image above by Anouk Beckers.
-    image: /img/wr002-spread-2.jpg
-    type: images
+    type: text
 location: Online
 date: '2021-11-18'
 ---
