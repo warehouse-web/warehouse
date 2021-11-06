@@ -43,7 +43,10 @@ content:
       Serriffe (Amsterdam), Athenaeum Nieuwscentrum (Amsterdam), Tenderbooks
       (London), Play the Tambourine (online), Reina (Melbourne) and Dispozitiv
       Books (Bucharest).
-    image: /img/warehouse-review-1.jpg
+    image: /img/10_a-review-of-reviews_warehouse_photo-anouk-beckers.jpg
+    type: images
+  - caption: AI poems by Sophie Barr. Image above by Anouk Beckers.
+    image: /img/wr002-spread-2.jpg
     type: images
 location: Online
 date: '2021-11-18'
