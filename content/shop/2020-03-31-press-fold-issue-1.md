@@ -67,13 +67,13 @@ content:
       possible by: Creative Industries Fund NL\ Production: Warehouse
     type: text
   - caption: Contribition by A March Issue
-    image: /img/pf_mock_up-issue-luxury-1a.jpg
+    image: /img/low_pf_mock_up-issue-luxury-1a.jpg
     type: images
   - caption: Contribution by Chet Bugter
-    image: /img/pf_mock_up-issue-luxury-13.jpg
+    image: /img/low_pf_mock_up-issue-luxury-13.jpg
     type: images
   - caption: Contribution by Femke de Vries (left) and Jessica Buie (right)
-    image: /img/pf_mock_up-issue-luxury-11.jpg
+    image: /img/low_pf_mock_up-issue-luxury-11.jpg
     type: images
   - caption: >-
       Contribution by Articles of Clothing in collaboration with Agnieszka
