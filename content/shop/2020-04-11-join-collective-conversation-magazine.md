@@ -76,7 +76,7 @@ content:
     image: /img/08_join-magazine_photo_anouk-beckers.jpg
     type: images
   - caption: ''
-    image: /img/04_join-magazine_photo_anouk-beckers.jpg
+    image: /img/12_join-magazine_photo_anouk-beckers.jpg
     type: images
   - caption: 'Photography: Anouk Beckers'
     image: /img/02_join-magazine_photo_anouk-beckers.jpg
