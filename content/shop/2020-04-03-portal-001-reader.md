@@ -75,7 +75,7 @@ content:
       Beuningen\ Production: Warehouse\ Production assistant: Asu Aksu
     type: text
   - caption: Contribution by Marina Sasseron de Cabral
-    image: /img/portal001-_vanjoolen_9.jpg
+    image: /img/low_portal001-_vanjoolen_9.jpg
     type: images
   - caption: ''
     image: /img/02_portal001_photo_anoukbeckers.jpg
