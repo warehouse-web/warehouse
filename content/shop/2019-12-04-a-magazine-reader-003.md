@@ -83,18 +83,18 @@ content:
       Park and Onomatopee interns Nathalia Malińska and Merel Steneker
     type: text
   - caption: Contribution by Marco Dalle Fratte
-    image: /img/a-magazine-reader-03-by-marco-dalle-fratte.jpg
+    image: /img/low_a-magazine-reader-03-by-marco-dalle-fratte.jpg
     type: images
   - caption: Contribution by Femke de Vries
-    image: /img/a-magazine-reader-03-by-femke-de-vries-02.jpg
+    image: /img/low_a-magazine-reader-03-by-femke-de-vries-02.jpg
     type: images
   - caption: Contribution by Seok Park
-    image: /img/a-magazine-reader-03-by-seok-park.jpg
+    image: /img/low_a-magazine-reader-03-by-seok-park.jpg
     type: images
   - caption: >-
       Contribution by Rebecca Nevins and Hanka van der Voet. Photography: Anouk
       Beckers
-    image: /img/01_a-magazine-reader-03_photo_anoukbeckers.jpg
+    image: /img/low_01_a-magazine-reader-03_photo_anoukbeckers.jpg
     type: images
 author: Femke de Vries & Hanka van der Voet (eds.)
 date: '2020-11-23'
