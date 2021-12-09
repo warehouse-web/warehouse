@@ -82,13 +82,13 @@ content:
       SOLD OUT
     type: text
   - caption: Contribution by Denise Bernts
-    image: /img/a-magazine-reader-issue-02-denise-bernts-02.jpg
+    image: /img/low_a-magazine-reader-issue-02-denise-bernts-02.jpg
     type: images
   - caption: Contribution by Femke de Vries and Ruby Hoette
-    image: /img/a-magazine-reader-issue-02-introduction.jpg
+    image: /img/low_a-magazine-reader-issue-02-introduction.jpg
     type: images
   - caption: Contribution by Boris Kollar
-    image: /img/a-magazine-reader-issue-02-boris-kollar-1.jpg
+    image: /img/low_a-magazine-reader-issue-02-boris-kollar-1.jpg
     type: images
 author: 'Femke de Vries, Ruby Hoette & Chet Bugter (eds.)'
 date: '2020-11-24'
