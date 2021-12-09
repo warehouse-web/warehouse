@@ -5,7 +5,7 @@ price: '13.76'
 btw: '9'
 content:
   - caption: 'Press & Fold Issue #1 (2019)'
-    image: /img/pf_mock_up-issue-luxury-0.jpg
+    image: /img/press-fold-1-1.jpg
     type: images
   - text: Add to cart
     type: cart-button
