@@ -5,7 +5,7 @@ price: '13.76'
 btw: '9'
 content:
   - caption: 'Press & Fold Issue #0 | The Street Issue (2018)'
-    image: /img/press_and_fold-cover_issue-1_the-street.jpg
+    image: /img/press-fold-0.jpg
     type: images
   - text: Add to cart
     type: cart-button
