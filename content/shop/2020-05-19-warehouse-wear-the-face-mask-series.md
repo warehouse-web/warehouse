@@ -5,7 +5,7 @@ btw: '9'
 PDF: /img/tutorial_femail-forever_2.pdf
 content:
   - caption: ''
-    image: /img/femailforever_foot2facemask.jpg
+    image: /img/foot2facemask.jpg
     type: images
   - body: >-
       For Warehouse Wear | The Face Mask Series, we have invited five critical
