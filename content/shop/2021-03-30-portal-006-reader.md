@@ -5,7 +5,7 @@ price: '6.42'
 btw: '9'
 content:
   - caption: PORTAL 006 Reader (2021)
-    image: /img/11_cover-correct_portal006.jpg
+    image: /img/low_portal006.jpg
     type: images
   - text: Add to cart
     type: cart-button
@@ -24,9 +24,9 @@ content:
       Lyceum students.
     type: text
   - caption: Contribution by Halime and Youssef
-    image: /img/portal006—web4_small.jpg
+    image: /img/low_portal005-6—web4.png
     type: images
-  - image: /img/portal006—web7_small.jpg
+  - image: /img/low_portal005-6—web7.png
     type: images
   - body: >-
       PORTAL is a research project that explores the economic, social and
@@ -60,7 +60,7 @@ content:
       point.
     type: text
   - caption: Contribution by Khaled and Hafsa
-    image: /img/10_portal006_photography_anouk-beckers.jpg
+    image: /img/low_10_portal006_photography_anouk-beckers.jpg
     type: images
   - body: >-
       Type: softcover\ Dimensions: 210 mm x 297 mm portrait\ Pages: 40\ Art
@@ -73,7 +73,7 @@ content:
       assistant: Anouk Beckers
     type: text
   - caption: Contribution by Fatima
-    image: /img/portal006—web_small.jpg
+    image: /img/low_portal005-6—web6.png
     type: images
   - body: >-
       Thank you: Anouk Beckers, Bart de Baets, Comenius Lyceum, David Smeulders,
@@ -82,7 +82,7 @@ content:
       Vincent Vulsma and a special thanks to all students!
     type: text
   - caption: 'Photography: Anouk Beckers.'
-    image: /img/02_portal006_photography_anouk-beckers.jpg
+    image: /img/low_02_portal006_photography_anouk-beckers.jpg
     type: images
 author: Elisa van Joolen (ed.)
 date: '2021-04-06'
