@@ -40,7 +40,7 @@ content:
       Publisher: Surpllus
     type: text
   - caption: 'Photography: Anouk Beckers'
-    image: /img/13_d-k_mode-mode_photo_anoukbeckers.jpg
+    image: /img/low_13_d-k_mode-mode_photo_anoukbeckers.jpg
     type: images
 author: Ricarda Bigolin (ed.)
 date: '2020-11-20'
