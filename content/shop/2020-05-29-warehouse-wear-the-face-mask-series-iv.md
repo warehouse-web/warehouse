@@ -38,12 +38,12 @@ content:
     type: text
   - image: /img/_mg_9463.jpg
     type: images
-  - image: /img/_mg_9424.jpg
+  - image: /img/_mg_9424_low.jpg
     type: images
-  - image: /img/_mg_9395.jpg
+  - image: /img/low_mg_9395.jpg
     type: images
   - caption: Images by Tove Sivertsen
-    image: /img/_mg_9310.jpg
+    image: /img/low_mg_9310.jpg
     type: images
 author: HAiKw/
 date: '2020-11-01'
