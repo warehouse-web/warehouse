@@ -4,7 +4,7 @@ title: '[Sold Out] Warehouse Review 001 | People Wearing Off-White'
 btw: '9'
 content:
   - caption: Warehouse Review 001 | 'People Wearing Off-White' (2020)
-    image: /img/unnamed.jpg
+    image: /img/1.-people-wearing-off-white.jpg
     type: images
   - body: >-
       *Warehouse Review* is a publication that aims to explore alternative modes
@@ -58,12 +58,15 @@ content:
       Send your swap proposal to <hanka@thisiswarehouse.com>.
     type: text
   - caption: 'Images left: Hanka van der Voet, Image right: Mary-Lou Berkulin.'
-    image: /img/pwow-1.jpg
+    image: /img/2.03_people-wearing-off-white_photography_anouk-beckers_.jpg
     type: images
   - caption: >-
       Images left: Femke de Vries, on the right: 'A Look into the Off-White
       Metaverse' by Chinouk Filique de Miranda.
-    image: /img/pwow-2.jpg
+    image: /img/02_people-wearing-off-white_photography_anouk-beckers_.jpg
+    type: images
+  - caption: 'Photography: Anouk Beckers'
+    image: /img/01_people-wearing-off-white_photography_anouk-beckers_.jpg
     type: images
 author: Hanka van der Voet (ed.)
 date: '2020-11-05'
