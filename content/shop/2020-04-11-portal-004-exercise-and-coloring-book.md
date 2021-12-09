@@ -81,7 +81,7 @@ content:
     type: images
   - image: /img/portal004-3.jpg
     type: images
-  - image: /img/portal004.jpg
+  - image: /img/img_4989.jpg
     type: images
   - image: /img/portal004-7.jpg
     type: images
