@@ -22,7 +22,11 @@ content:
     type: images
   - image: /img/5_48_hoodie-reflective_skhss_warehouse_photography-anouk-beckers.jpg
     type: images
-  - image: /img/6_pineapple-doily-sweatshirt.jpg
+  - caption: |-
+      Photography: Anouk Beckers
+
+      Images: SKHSS
+    image: /img/6_pineapple-doily-sweatshirt.jpg
     type: images
 author: SKHSS (Lejla Vala Verheus and Mika Perlmutter)
 date: '2021-12-15'
