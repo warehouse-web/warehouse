@@ -29,6 +29,6 @@ content:
       /img/6_longsleeve-sleeve-reflective_skhss_warehouse_photography-anouk-beckers.jpg
     type: images
 author: SKHSS (Lejla Vala Verheus and Mika Perlmutter)
-date: '2021-12-15'
+date: '2021-12-14'
 ---
 
