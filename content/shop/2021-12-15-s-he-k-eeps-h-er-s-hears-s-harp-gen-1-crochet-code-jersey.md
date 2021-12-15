@@ -16,9 +16,7 @@ content:
   - image: >-
       /img/3_56_back_sweater-reflective-flower_skhss_warehouse_photography-anouk-beckers.jpg
     type: images
-  - body: >-
-      Type: Crochet Code Jersey\ Colour: Light grey \ Size:S\ Material: 94%
-      cotton 6% viscose
+  - body: "Type: Crochet Code Jersey\\ Colour: Light grey \\ Size:S\\ Material: 94% cotton 6% viscose\n\nCare instructions:\r Wash 30°C inside out. \rDon’t iron. \rDon’t bleach."
     type: text
   - image: /img/4_crochet-code.jpg
     type: images
