@@ -87,10 +87,11 @@ export function normalizeContent(content) {
 
 			if (el.image) {
 				const dimensions = sizeOf('./public/' + el.image)
+				console.log(dimensions)
 
 				data.push({
 					type: el.type,
-					dimensions: dimensions,
+					// dimensions: dimensions,
 					image: el.image,
 				})
 			}
