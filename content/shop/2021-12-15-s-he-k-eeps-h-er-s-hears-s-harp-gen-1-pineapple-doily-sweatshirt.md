@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: >-
-  [Sold Out] S[he] K[eeps] H[er] S[hears] S[harp] GEN. 1 | Pineapple Doily
+  [Sold] S[he] K[eeps] H[er] S[hears] S[harp] GEN. 1 | Pineapple Doily
   Sweatshirt
 price: '80'
 btw: '21'
