@@ -81,17 +81,12 @@ export function normalizeContent(content) {
 		const el = content[i]
 
 		if (el.type === 'images') {
-			// const sizeOf = require('image-size')
-			// const dimensions = sizeOf('images/funny-cats.png')
-			// console.log(dimensions.width, dimensions.height)
-
 			if (el.image) {
 				const dimensions = sizeOf('./public/' + el.image)
-				console.log(dimensions)
 
 				data.push({
 					type: el.type,
-					// dimensions: dimensions,
+					dimensions: dimensions,
 					image: el.image,
 				})
 			}
