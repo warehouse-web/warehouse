@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: '[Sold Out] S[he] K[eeps] H[er] S[hears] S[harp] GEN. 1 | The Hooked Carabiner'
+title: '[Sold] S[he] K[eeps] H[er] S[hears] S[harp] GEN. 1 | The Hooked Carabiner'
 price: '40'
 btw: '21'
 content:
