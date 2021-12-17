@@ -1,8 +1,8 @@
 ---
 templateKey: product-page
 title: >-
-  [Sold Out] S[he] K[eeps] H[er] S[hears] S[harp] GEN. 1 | Charted Territory
-  Flower Doily T-shirt
+  [Sold] S[he] K[eeps] H[er] S[hears] S[harp] GEN. 1 | Charted Territory Flower
+  Doily T-shirt
 price: '60'
 btw: '21'
 content:
