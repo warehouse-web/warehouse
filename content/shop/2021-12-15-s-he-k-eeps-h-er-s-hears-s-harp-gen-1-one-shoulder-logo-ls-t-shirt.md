@@ -1,6 +1,8 @@
 ---
 templateKey: product-page
-title: 'S[he] K[eeps] H[er] S[hears] S[harp] GEN. 1 | One Shoulder Logo LS T-shirt'
+title: >-
+  [Sold] S[he] K[eeps] H[er] S[hears] S[harp] GEN. 1 | One Shoulder Logo LS
+  T-shirt
 price: '65'
 btw: '21'
 content:
