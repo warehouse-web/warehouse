@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: 'S[he] K[eeps] H[er] S[hears] S[harp] GEN. 1 | The Miss Shear Bliss Bum Bag'
+title: The Miss Shear Bliss Bum Bag
 price: '270'
 btw: '21'
 content:
