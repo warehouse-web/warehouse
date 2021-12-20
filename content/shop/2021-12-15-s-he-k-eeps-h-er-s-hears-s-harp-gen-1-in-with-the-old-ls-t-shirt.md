@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: 'S[he] K[eeps] H[er] S[hears] S[harp] GEN. 1 | In With the Old LS T-shirt'
+title: In With the Old LS T-shirt
 price: '65'
 btw: '21'
 content:
