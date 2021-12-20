@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Cutting Edge T-shirt
+title: '[Sold] Cutting Edge T-shirt'
 price: '60'
 btw: '21'
 content:
