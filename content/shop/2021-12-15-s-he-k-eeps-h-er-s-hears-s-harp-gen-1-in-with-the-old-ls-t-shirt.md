@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: In With the Old LS T-shirt
+title: '[Sold] In With the Old LS T-shirt'
 price: '65'
 btw: '21'
 content:
