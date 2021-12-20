@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: One Shoulder Shear T-shirt
+title: '[Sold] One Shoulder Shear T-shirt'
 price: '60'
 btw: '21'
 content:
