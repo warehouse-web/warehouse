@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: 'S[he] K[eeps] H[er] S[hears] S[harp] GEN. 1 | Mom Filet Crochet Jersey'
+title: '[Sold] Mom Filet Crochet Jersey'
 price: '80'
 btw: '21'
 content:
