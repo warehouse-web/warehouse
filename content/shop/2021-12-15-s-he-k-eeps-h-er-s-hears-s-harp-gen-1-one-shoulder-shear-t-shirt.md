@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: 'S[he] K[eeps] H[er] S[hears] S[harp] GEN. 1 | One Shoulder Shear T-shirt'
+title: One Shoulder Shear T-shirt
 price: '60'
 btw: '21'
 content:
