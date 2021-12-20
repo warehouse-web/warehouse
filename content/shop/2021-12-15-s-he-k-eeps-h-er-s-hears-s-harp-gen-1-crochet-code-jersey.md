@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: 'S[he] K[eeps] H[er] S[hears] S[harp] GEN. 1 | Crochet Code Jersey'
+title: Crochet Code Jersey
 price: '80'
 btw: '21'
 content:
