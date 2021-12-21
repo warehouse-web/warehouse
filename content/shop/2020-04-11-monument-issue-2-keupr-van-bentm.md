@@ -31,14 +31,13 @@ content:
       from the archive have been photographed by Roos Quakernaat.
 
 
-      Type: softcover\ Dimensions: 170 mm x 240 mm portrait\ Pages: 160\ Editor:
+      Type: softcover\ Dimensions: 170 mm x 245 mm portrait\ Pages: 160\ Editor:
       Mary-Lou Berkulin\ Art direction: Karen van de Kraats\ Photography: Roos
       Quakernaat\ Contributor: Laura Gardner\ Graphic design: Karen van de
-      Kraats\ Release date: January 2020\ Binding: glued\ Color: full colour\
-      Printer: Wilco Art Books\ Language: English\ Text editor: Melanie Bomans\
-      Editorial advisors: Hanka van der Voet and Femke de Vries (Warehouse)\
-      Made possible by: Creative Industries Fund NL and the Amsterdam Fund for
-      the Arts
+      Kraats\ Release date: January 2020\ Binding: bound & glued\ Color: full
+      colour\ Printer: Wilco Art Books\ Language: English\ Text editor: Melanie
+      Bomans\ Editorial advisors: Hanka van der Voet and Femke de Vries
+      (Warehouse)\ Made possible by: Creative Industries Fund NL
     type: text
   - image: /img/03_monument02_photo_anoukbeckers.jpg
     type: images
