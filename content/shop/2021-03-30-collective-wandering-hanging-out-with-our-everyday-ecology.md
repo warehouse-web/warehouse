@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: COLLECTIVE WANDERING | Hanging Out with Our Everyday Ecology
+title: '[Sold Out] COLLECTIVE WANDERING | Hanging Out with Our Everyday Ecology'
 price: '25.69'
 btw: '9'
 content:
