@@ -13,8 +13,6 @@ rightColumn: >-
   Voet and is run together with Anouk Beckers and Chet Bugter.
 
 
-
-
   * CONTACT
 
   * <mailto:info@thisiswarehouse.com>
