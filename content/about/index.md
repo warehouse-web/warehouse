@@ -13,9 +13,6 @@ rightColumn: >-
   Voet and is run together with Anouk Beckers and Chet Bugter.
 
 
-  <br/>
-
-
   * CONTACT
 
   * <mailto:info@thisiswarehouse.com>
@@ -39,6 +36,12 @@ rightColumn: >-
   * WEBSITE DEVELOPMENT 
 
   * Eurico Sá Fernandes, Jurgis Lietunovas
+
+
+  Warehouse publications are sold at: Aflat Shop (Adelaide), San Serriffe
+  (Amsterdam), Athenaeum (Amsterdam), Do You Read Me?! (Berlin), Dispozitiv
+  Books (Bucharest), Blue Flower Texts (Christchurch), Tenderbooks (London),
+  Reina (Melbourne), World Food Books (Melbourne), Play The Tambourine (online).
 images:
   - image: /img/59_press-fold_07122019_sanserriffe_anoukbeckers.jpg
 other: >-
@@ -46,13 +49,7 @@ other: >-
   Industries Fund NL and Prins Bernhard Cultuurfonds.
 
 
-  <br/>
-
-
   © 2020 Warehouse
-
-
-  <br/>
 
 
   No rights can be claimed from the information in these pages. Warehouse makes
