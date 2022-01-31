@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Shear Bliss Granny Square T-shirt
+title: '[Sold] Shear Bliss Granny Square T-shirt'
 price: '60'
 btw: '21'
 content:
