@@ -20,7 +20,7 @@ content:
       Care instructions: Use mild detergents. Wash 40°C. Iron inside out. Do not
       dry clean.
     type: text
-  - caption: 'Photography: Anouk Beckers and Eduardo Leon'
+  - caption: 'Photography: Anouk Beckers'
     image: /img/05_avoidmonarchy-cheeky-devil_avoidstreet_photo-anoukbeckers.jpg
     type: images
 author: AVOIDSTREET (Eduardo Leon)
