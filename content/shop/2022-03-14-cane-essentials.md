@@ -21,7 +21,7 @@ content:
 
       Care instructions: Wash 40°C. Don’t bleach.
     type: text
-  - caption: 'Photography: Anouk Beckers and Eduardo Leon'
+  - caption: 'Photography: Anouk Beckers'
     image: /img/cane_black.jpg
     type: images
 author: AVOIDSTREET (Eduardo Leon)
