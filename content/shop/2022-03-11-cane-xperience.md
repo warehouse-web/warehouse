@@ -25,13 +25,10 @@ content:
     type: images
   - image: /img/cane_xperience5.jpg
     type: images
-  - caption: |-
-      Photography: Anouk Beckers
-
-      Images: Eduardo Leon
+  - caption: 'Photography: Anouk Beckers'
     image: /img/dscf0365.jpg
     type: images
 author: AVOIDSTREET (Eduardo Leon)
-date: '2022-03-11'
+date: '2022-03-14'
 ---
 
