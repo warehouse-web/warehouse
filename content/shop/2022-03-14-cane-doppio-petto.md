@@ -23,7 +23,7 @@ content:
     type: text
   - image: /img/cane_doppiopetto.jpg
     type: images
-  - caption: 'Photography: Anouk Beckers and Eduaro Leon'
+  - caption: 'Photography: Anouk Beckers'
     image: /img/cane_doppiopetto2-copy.jpg
     type: images
 author: AVOIDSTREET (Eduardo Leon)
