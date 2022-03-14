@@ -22,7 +22,7 @@ content:
       Care instructions: Use mild detergents. Hand wash cold. Dry flat. Iron
       low. Do not dry clean.
     type: text
-  - caption: 'Photography: Anouk Beckers and Eduardo Leon'
+  - caption: 'Photography: Anouk Beckers'
     image: /img/cane_alpes3.jpg
     type: images
 author: AVOIDSTREET (Eduardo Leon)
