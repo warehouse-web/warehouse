@@ -24,7 +24,7 @@ content:
     type: text
   - image: /img/speed_jumper.jpg
     type: images
-  - caption: 'Photography: Anouk Beckers and Eduardo Leon'
+  - caption: 'Photography: Anouk Beckers'
     image: /img/speed_jumper_back.jpg
     type: images
 author: AVOIDSTREET (Eduardo Leon)
