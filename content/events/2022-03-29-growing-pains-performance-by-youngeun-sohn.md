@@ -44,7 +44,7 @@ content:
       Youngeun Sohn is supported by Arts Council Korea. _Press & Fold | Notes on
       making and doing fashion_ is supported by the Creative Industries Fund.
     type: text
-location: Blauwbrug Amsterdam
+location: 'Blauwbrug, Amsterdam'
 date: '2022-02-19'
 ---
 
