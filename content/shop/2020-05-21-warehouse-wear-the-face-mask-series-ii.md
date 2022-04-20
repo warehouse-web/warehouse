@@ -40,6 +40,6 @@ content:
   - image: /img/communication_3.jpg
     type: images
 author: Schueller de Waal
-date: '2020-11-03'
+date: '2020-10-03'
 ---
 
