@@ -25,6 +25,6 @@ content:
     image: /img/04_kapsalon-sweater_avoidstreet_photo-anouk-beckers.jpg
     type: images
 author: AVOIDSTREET (Eduardo Leon)
-date: '2022-03-14'
+date: '2020-11-04'
 ---
 
