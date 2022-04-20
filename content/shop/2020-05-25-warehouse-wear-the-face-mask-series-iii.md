@@ -37,6 +37,6 @@ content:
   - image: /img/sho-konishi-mask_pictures_pagina_02_afbeelding_0002.jpg
     type: images
 author: Sho Konishi
-date: '2020-11-02'
+date: '2020-10-02'
 ---
 
