@@ -88,9 +88,6 @@ content:
   - caption: _Now You See Us_ by Andrea Chehade.
     image: /img/0005.jpg
     type: images
-  - caption: _Wardrobe Exchange_ by Rainbow Soulclub.
-    image: /img/0018.jpg
-    type: images
   - caption: >-
       _From is to ought. What fashion gains when it loses its cool_ by Aurélie
       Van de Peer, with illustrations by Stepan Lipatov.
