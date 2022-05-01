@@ -2,7 +2,7 @@
 templateKey: event-post
 title: Printing Plant Art Book Fair 2018 | Talk on Printed Matter in Fashion
 content:
-  - caption: 'Press & Fold Issue #0 | The Street Issue'
+  - caption: 'Press & Fold Issue #0 | The Street Issue.'
     image: /img/press_and_fold-cover_issue-1_the-street.jpg
     type: images
   - body: >-
