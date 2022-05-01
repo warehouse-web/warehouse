@@ -87,7 +87,8 @@ export function normalizeContent(content) {
 				data.push({
 					type: el.type,
 					dimensions: dimensions,
-					image: el.image,
+					image: el.image || '',
+					caption: el?.caption || '',
 				})
 			}
 		} else {
