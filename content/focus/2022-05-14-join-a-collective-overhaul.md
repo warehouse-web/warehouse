@@ -10,6 +10,6 @@ content:
     image: /img/01_join_warehouse_focus.jpg
     type: images
 author: Ida Falck Øien
-date: '2022-05-14'
+date: '2022-03-01'
 ---
 
