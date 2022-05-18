@@ -83,15 +83,15 @@ content:
       Industries Fund NL\ Production: Warehouse
     type: text
   - caption: _Now You See Us_ by Andrea Chehade.
-    image: /img/05_press-fold.jpg
+    image: /img/05_press-foldv2.jpg
     type: images
   - caption: >-
       _On the History of Needlework: Wool-spinning Witches and Creabea’s_ by
       Emmeline de Mooij.
-    image: /img/03_press-fold.jpg
+    image: /img/03_press-foldv2.jpg
     type: images
   - caption: _Bastava un tic (A tic was enough)_ by Elena Braida & Francesca Lucchitta.
-    image: /img/02_press-fold.jpg
+    image: /img/02_press-foldv2.jpg
     type: images
 author: Hanka van der Voet (ed.)
 date: '2022-04-29'
