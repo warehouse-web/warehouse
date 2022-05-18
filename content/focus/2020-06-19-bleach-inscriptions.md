@@ -1,9 +1,9 @@
 ---
 templateKey: focus-page
 title: Bleach Inscriptions
-PDF: /img/01_200sisterssouvenirs_2018©roberthamacher.jpg
+PDF: /img/groom-10062020__focus_warehouse.pdf
 content:
-  - caption: '200 Sisters Souvenirs by Rebecca Stephany. Image: Robert Hamache.'
+  - caption: '200 Sisters Souvenirs by Rebecca Stephany. Image: Robert Hamacher.'
     image: /img/01_200sisterssouvenirs_2018©roberthamacher.jpg
     type: images
 author: 'Amelia Groom '
