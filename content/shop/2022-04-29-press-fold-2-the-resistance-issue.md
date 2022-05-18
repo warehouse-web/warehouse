@@ -82,16 +82,16 @@ content:
       English\ Text editing: Melanie Bomans\ Made possible by: Creative
       Industries Fund NL\ Production: Warehouse
     type: text
-  - caption: _The Commodification of Protest_ by Emma Singleton.
-    image: /img/0004.jpg
-    type: images
   - caption: _Now You See Us_ by Andrea Chehade.
-    image: /img/0005.jpg
+    image: /img/05_press-fold.jpg
     type: images
   - caption: >-
-      _From is to ought. What fashion gains when it loses its cool_ by Aurélie
-      Van de Peer, with illustrations by Stepan Lipatov.
-    image: /img/0017.jpg
+      _On the History of Needlework: Wool-spinning Witches and Creabea’s_ by
+      Emmeline de Mooij.
+    image: /img/03_press-fold.jpg
+    type: images
+  - caption: _Bastava un tic (A tic was enough)_ by Elena Braida & Francesca Lucchitta.
+    image: /img/02_press-fold.jpg
     type: images
 author: Hanka van der Voet (ed.)
 date: '2022-04-29'
