@@ -86,7 +86,7 @@ content:
     image: /img/05_press-foldv2.jpg
     type: images
   - caption: >-
-      _On the History of Needlework: Wool-spinning Witches and Creabea’s_ by
+      _On the History of Needlework: Wool-spinning Witches and Creabea's_ by
       Emmeline de Mooij.
     image: /img/03_press-foldv2.jpg
     type: images
