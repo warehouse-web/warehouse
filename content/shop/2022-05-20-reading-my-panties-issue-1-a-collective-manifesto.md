@@ -4,7 +4,7 @@ title: 'Reading My Panties Issue #1 | A Collective Manifesto'
 price: '13,76'
 btw: '9'
 content:
-  - image: /img/reading-my-panties-cover.png
+  - image: /img/scan-zine-cover.jpg
     type: images
   - text: Add to cart
     type: cart-button
