@@ -22,6 +22,11 @@ content:
       panties, with a quote from the zine on the back.
 
 
+      **Please email us
+      (**[**info@thisiswarehouse.com**](info@thisiswarehouse.com)**) your size
+      preference after you've placed your order.**
+
+
       Type: granny panty \ Sizes: M and L \ Color: Black \ Art Director: Lu Lin
       \ Graphic design: Areum Hwang \ Release date: March 2022 \ Material:
       cotton \ Edition: 20 \ Color: black \ Printer: Silk-screen printing \
