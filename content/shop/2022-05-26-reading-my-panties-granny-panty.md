@@ -5,7 +5,7 @@ price: '8,27'
 btw: '21'
 content:
   - caption: ''
-    image: /img/reading-my-panties-panties.jpg
+    image: /img/reading-my-panties-panties.jpeg
     type: images
   - text: Add to cart
     type: cart-button
