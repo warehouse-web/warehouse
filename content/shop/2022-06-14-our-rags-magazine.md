@@ -4,7 +4,7 @@ title: Our Rags Magazine
 price: '350'
 btw: '9'
 content:
-  - image: /img/orm_cover_72.jpg
+  - image: /img/orm_cover_72_web.jpg
     type: images
   - body: >-
       **NB. The magazine will start shipping in the week of June 27th.**
@@ -61,9 +61,9 @@ content:
       Bernhard Cultuurfonds and Education from Below, Rijksakademie Amsterdam\
       ISSN number: 2773-2223\ Publisher: Warehouse
     type: text
-  - image: /img/orm_1.jpg
+  - image: /img/orm_1_web.jpg
     type: images
-  - image: /img/orm_2.jpg
+  - image: /img/orm_2_web.jpg
     type: images
 author: Aimée Zito Lema & Elisa van Joolen (eds.)
 date: '2022-06-14'
