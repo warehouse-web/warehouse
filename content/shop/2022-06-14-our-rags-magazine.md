@@ -6,6 +6,8 @@ btw: '9'
 content:
   - image: /img/orm_cover_72_web.jpg
     type: images
+  - text: Add to cart
+    type: cart-button
   - body: >-
       **NB. The magazine will start shipping in the week of June 27th.**
 
