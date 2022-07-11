@@ -2,7 +2,7 @@
 templateKey: event-post
 title: Warehouse webshop summer shipping
 content:
-  - image: /img/260cf438-b3d8-4451-a1cf-cea6949e0c52.jpg
+  - image: /img/summer-holiday.jpg
     type: images
   - body: >-
       From July 12 until August 21st orders from the Warehouse webshop will be
