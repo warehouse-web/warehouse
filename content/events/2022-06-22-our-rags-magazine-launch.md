@@ -1,6 +1,6 @@
 ---
 templateKey: event-post
-title: Our Rags Magazine Launch
+title: Our Rags Magazine launch
 content:
   - image: /img/orm_1_web.jpg
     type: images
