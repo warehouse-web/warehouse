@@ -11,7 +11,7 @@ content:
       be patient and enjoy your summer, and see you in September with some new
       Warehouse activities!
     type: text
-location: Summer Holiday
+location: Summer Time
 date: '2022-07-12'
 ---
 
