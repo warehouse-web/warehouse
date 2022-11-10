@@ -36,8 +36,6 @@ content:
       references and practices of use, _Booklook_ opens up these narratives and
       tells exactly these stories.
     type: text
-  - image: /img/08_booklook_issue1_warehousehouse_web.jpg
-    type: images
   - image: /img/04_booklook_issue1_warehousehouse_web.jpg
     type: images
   - caption: 'Photo: Sharon Jane D'
@@ -62,6 +60,8 @@ content:
       Tseltal worldview, sharing some ideas about beauty, garments and the body
       from a non-Eurocentric perspective.
     type: text
+  - image: /img/08_booklook_issue1_warehousehouse_web.jpg
+    type: images
   - caption: >-
       Sni′-yaltsil from Reina's dress. San Gregorio la Esperanza, Chiapas
       (2021). Photo: María Naidich.
