@@ -36,10 +36,10 @@ content:
       references and practices of use, _Booklook_ opens up these narratives and
       tells exactly these stories.
     type: text
+  - image: /img/04_booklook_issue1_warehousehouse_web.jpg
+    type: images
   - caption: 'Photo: Sharon Jane D'
     image: /img/05_booklook_issue1_warehousehouse_web.jpg
-    type: images
-  - image: /img/08_booklook_issue1_warehousehouse_web.jpg
     type: images
   - body: >-
       The first issue – _Booklook Apron-Delantal_ – shares a text (in both
@@ -100,7 +100,7 @@ content:
 
       ****[**@booklook.magazine.garment**](https://www.instagram.com/booklook.magazine.garment/)****
     type: text
-  - image: /img/04_booklook_issue1_warehousehouse_web.jpg
+  - image: /img/08_booklook_issue1_warehousehouse_web.jpg
     type: images
   - caption: 'Photo: Sharon Jane D'
     image: /img/06_booklook_issue1_warehousehouse_web.jpg
