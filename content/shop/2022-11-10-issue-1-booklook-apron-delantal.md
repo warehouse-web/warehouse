@@ -10,15 +10,19 @@ content:
   - text: Add to cart
     type: cart-button
   - body: >-
-      **A magazine that can be unfolded and worn as an apron, which again can be
-      refolded into a magazine.**
+      A magazine that can be unfolded and worn as an apron, which again can be
+      refolded into a magazine.
 
 
-      The research project _Booklook_ fuses the fashion magazine with the
-      garment, resulting in a series of wearable fashion magazines. Each issue
-      can be unfolded into another type of wearable item and carries stories
-      about the role of garments in lives, cultures and practices from various
-      artists, designers, writers, thinkers. 
+      __
+
+
+      _Booklook_ is a research project by [**Anouk
+      Beckers**](https://anoukbeckers.nl/) that fuses the fashion magazine with
+      the garment, resulting in a series of wearable fashion magazines. Each
+      issue can be unfolded into another type of wearable item and carries
+      stories about the role of garments in lives, cultures and practices from
+      various artists, designers, writers, thinkers. 
 
 
       The fabric-like paper carries stories that stem from the situatedness of
@@ -39,13 +43,13 @@ content:
     type: images
   - body: >-
       The first issue – _Booklook Apron-Delantal_ – shares a text (in both
-      English and Spanish) by artist and researcher [María
-      Naidich](https://marianaidich.com/) about the Tseltalero dress, a garment
-      created and worn by women from both Tseltal and Tojolabal communities in
-      the Lacandon jungle, in southeastern Mexico. The Tseltalero dress
-      represents an expression of women’s resistance to centuries of control
-      over their clothing since the colonial times. It is a garment that is
-      produced collectively and strengthens relationships between women,
+      English and Spanish) by artist and researcher [**María
+      Naidich**](https://marianaidich.com/) about the Tseltalero dress, a
+      garment created and worn by women from both Tseltal and Tojolabal
+      communities in the Lacandon jungle, in southeastern Mexico. The Tseltalero
+      dress represents an expression of women’s resistance to centuries of
+      control over their clothing since the colonial times. It is a garment that
+      is produced collectively and strengthens relationships between women,
       allowing them to organize and function autonomously. The Tseltalero dress
       represents the relationships between the community, its environment and
       other human and non-human beings. Based on the Tojolabal understanding
@@ -67,13 +71,17 @@ content:
     image: /img/10_booklook_issue1_warehousehouse_web.jpg
     type: images
   - body: >-
-      Besides the contributors’ text it carries a prologue by researcher [Femke
-      de Vries](https://www.femkedevries.com/). This text is shared in Arabic,
-      Chinese, English and Spanish.
+      Besides the contributors’ text it carries a prologue by researcher
+      [**Femke de Vries**](https://www.femkedevries.com/). This text is shared
+      in Arabic, Chinese, English and Spanish.
+
+
 
 
       Limited edition of 195 copies. This publication is made from a washable
       paper: Neobond. 
+
+
 
 
       Type: softcover\ Dimensions: 295 mm x 205 mm portrait\ Pages: 16\ Art
@@ -87,10 +95,10 @@ content:
       English, Chinese, Arabic\ Printing at robstolk Amsterdam (2022)\
 
 
-      [www.booklook.website](https://booklook.website/Information)
+      [**www.booklook.websit**](https://booklook.website/Information)****[**e**](https://www.instagram.com/booklook.magazine.garment/)****
 
 
-      [@booklook.magazine.garment](https://www.instagram.com/booklook.magazine.garment/)
+      ****[**@booklook.magazine.garment**](https://www.instagram.com/booklook.magazine.garment/)****
     type: text
   - image: /img/04_booklook_issue1_warehousehouse_web.jpg
     type: images
