@@ -14,10 +14,7 @@ content:
       refolded into a magazine.
 
 
-      __
-
-
-      **__**[**_Booklook_**](https://booklook.website/Information) is a research
+      [_**Booklook**_](https://booklook.website/Information) is a research
       project by [**Anouk Beckers**](https://anoukbeckers.nl/) that fuses the
       fashion magazine with the garment, resulting in a series of wearable
       fashion magazines. Each issue can be unfolded into another type of
