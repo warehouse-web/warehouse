@@ -14,8 +14,7 @@ content:
       way forward.
 
 
-      **__**[**_Our Rags
-      Magazine_**](https://www.instagram.com/ourragsmagazine/) is a
+      [_**Our Rags Magazine**_](https://www.instagram.com/ourragsmagazine/) is a
       collaborative project that investigates transformative processes,
       proposing new forms of collective production aimed at the reuse of
       discarded clothing and textiles. The project and resulting magazine
