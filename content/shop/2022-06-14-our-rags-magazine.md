@@ -9,21 +9,20 @@ content:
   - text: Add to cart
     type: cart-button
   - body: >-
-      **NB. The magazine will start shipping in the week of June 27th.**
-
-
       Imagine what a fashion magazine would look like in 400 years. In a world
       with no natural resources left, transformation and recycling are the only
       way forward.
 
 
-      _Our Rags Magazine_ is a collaborative project that investigates
-      transformative processes, proposing new forms of collective production
-      aimed at the reuse of discarded clothing and textiles. The project and
-      resulting magazine question consumer behaviour and its relationship to the
-      world in which we live. Further expanding the potential of recycled
-      material, _Our Rags Magazine_ is a magazine where the pages not only
-      _show_ clothing, but actually _are_ clothing.
+      **__**[**_Our Rags
+      Magazine_**](https://www.instagram.com/ourragsmagazine/) is a
+      collaborative project that investigates transformative processes,
+      proposing new forms of collective production aimed at the reuse of
+      discarded clothing and textiles. The project and resulting magazine
+      question consumer behaviour and its relationship to the world in which we
+      live. Further expanding the potential of recycled material, _Our Rags
+      Magazine_ is a magazine where the pages not only _show_ clothing, but
+      actually _are_ clothing.
 
 
       The project started in 2019 with a workshop in which children were invited
