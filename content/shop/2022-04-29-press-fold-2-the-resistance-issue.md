@@ -9,8 +9,8 @@ content:
   - text: Add to cart
     type: cart-button
   - body: >-
-      **__**[**_Press & Fold | Notes on making and doing
-      fashion_**](https://pressandfoldmagazine.com/) is an independent fashion
+      [_**Press & Fold | Notes on making and doing
+      fashion**_](https://pressandfoldmagazine.com/) is an independent fashion
       magazine that aims to explore alternative fashion forms and narratives.
       The magazine provides a platform for critical fashion practitioners who
       actively seek out the cracks and fissures in the current fashion system to
