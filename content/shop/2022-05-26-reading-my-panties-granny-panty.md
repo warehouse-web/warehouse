@@ -10,7 +10,9 @@ content:
   - text: Add to cart
     type: cart-button
   - body: >-
-      Reading My Panties is a collective zine initiated by Lu Lin for the
+      **__**[**_Reading My
+      Panties_**](https://www.lulinl.com/reading-my-panties/) is a collective
+      zine initiated by [**Lu Lin**](https://www.lulinl.com/) for the
       underrepresented discussions on panties, drawing on theories of
       intersectionality and feminism. Panties, understood as an item of women’s
       undergarment for the lower body, record our daily usage and bodily
