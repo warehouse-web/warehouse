@@ -17,12 +17,13 @@ content:
       __
 
 
-      _Booklook_ is a research project by [**Anouk
-      Beckers**](https://anoukbeckers.nl/) that fuses the fashion magazine with
-      the garment, resulting in a series of wearable fashion magazines. Each
-      issue can be unfolded into another type of wearable item and carries
-      stories about the role of garments in lives, cultures and practices from
-      various artists, designers, writers, thinkers. 
+      **__**[**_Booklook_**](https://booklook.website/Information) is a research
+      project by [**Anouk Beckers**](https://anoukbeckers.nl/) that fuses the
+      fashion magazine with the garment, resulting in a series of wearable
+      fashion magazines. Each issue can be unfolded into another type of
+      wearable item and carries stories about the role of garments in lives,
+      cultures and practices from various artists, designers, writers,
+      thinkers. 
 
 
       The fabric-like paper carries stories that stem from the situatedness of
@@ -78,12 +79,8 @@ content:
       in Arabic, Chinese, English and Spanish.
 
 
-
-
       Limited edition of 195 copies. This publication is made from a washable
       paper: Neobond. 
-
-
 
 
       Type: softcover\ Dimensions: 295 mm x 205 mm portrait\ Pages: 16\ Art
@@ -95,12 +92,6 @@ content:
       Nassima Nejjari, Dakota Guo & Guadalupe Castillo Vizuete\ Release date:
       May 2022\ Binding: folding\ Colour: full colour\ Language: Spanish,
       English, Chinese, Arabic\ Printing at robstolk Amsterdam (2022)\
-
-
-      [**www.booklook.websit**](https://booklook.website/Information)****[**e**](https://www.instagram.com/booklook.magazine.garment/)****
-
-
-      ****[**@booklook.magazine.garment**](https://www.instagram.com/booklook.magazine.garment/)****
     type: text
   - caption: 'Photo: Sharon Jane D'
     image: /img/06_booklook_issue1_warehousehouse_web.jpg
