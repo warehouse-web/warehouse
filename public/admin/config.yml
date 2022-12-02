@@ -68,20 +68,51 @@ collections:
       create: true
       slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
       fields:
-          - {
-                label: 'Template Key',
-                name: 'templateKey',
-                widget: 'hidden',
-                default: 'podcast-page',
-            }
-          - { label: 'Podcast Name', name: 'title', widget: 'string' }
-          - {
-                label: 'Body and Podcast URL',
-                name: 'body',
-                widget: 'markdown',
-                buttons: ['bold', 'italic', 'heading-one', 'heading-two', 'bulleted-list'],
-            }
-          - { label: 'Podcast Date', name: 'date', widget: date, default: '', format: 'YYYY-MM-DD' }
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: podcast-page
+          - label: Podcast Name
+            name: title
+            widget: text
+          - label: Content
+            name: content
+            widget: list
+            types:
+                - label: Images
+                  name: images
+                  widget: object
+                  fields:
+                      - label: Image
+                        name: image
+                        required: false
+                        widget: image
+                      - label: Caption
+                        name: caption
+                        required: false
+                        widget: markdown
+                - label: Text
+                  name: text
+                  widget: object
+                  fields:
+                      - label: Body
+                        name: body
+                        required: false
+                        widget: markdown
+                        buttons:
+                            [
+                                'bold',
+                                'italic',
+                                'link',
+                                'heading-one',
+                                'heading-two',
+                                'bulleted-list',
+                            ]
+          - label: Podcast Date
+            name: date
+            widget: date
+            default: ''
+            format: 'YYYY-MM-DD'
     - name: 'product'
       label: 'Products'
       folder: 'content/shop'

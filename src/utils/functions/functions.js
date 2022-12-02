@@ -24,7 +24,7 @@ export const postSlug = (templateKey) => {
 		case 'event-post':
 			return 'events'
 		case 'podcast-page':
-			return 'podcasts'
+			return 'podcast'
 		case 'product-page':
 			return 'shop'
 		case 'focus-page':
