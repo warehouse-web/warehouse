@@ -8,7 +8,9 @@ const Footer = ({ footer = [] }) => {
 					{footer.map(({ slug = '', title = '' }, i) => (
 						<li key={'footerMenu--' + i}>
 							<Link href={slug}>
-								<span>{title}</span>
+								<a>
+									<span>{title}</span>
+								</a>
 							</Link>
 						</li>
 					))}

@@ -44,38 +44,40 @@ const Index = ({
 			onPointerEnter={() => setLogoImg(firstImg)}
 			onPointerLeave={() => setLogoImg(false)}
 		>
-			<Link href={slug} scroll={false} className='Item__main'>
-				<div className='Item__thumb'>
-					<div
-						className={'image is-loaded'}
-						style={{
-							paddingBottom: `${1.25 * 100}%`,
-						}}
-					>
-						{firstImg && (
-							<Image
-								layout='fixed'
-								width={95}
-								height={120}
-								src={firstImg.image}
-								alt={''}
-							/>
-						)}
-					</div>
-				</div>
-
-				<div className='Item__header'>
-					{formatDate && (
-						<div className='Item__type'>
-							{formatDate} {type}
+			<Link href={slug} scroll={false}>
+				<a className='Item__main'>
+					<div className='Item__thumb'>
+						<div
+							className={'image is-loaded'}
+							style={{
+								paddingBottom: `${1.25 * 100}%`,
+							}}
+						>
+							{firstImg && (
+								<Image
+									layout='fixed'
+									width={95}
+									height={120}
+									src={firstImg.image}
+									alt={''}
+								/>
+							)}
 						</div>
-					)}
-					{templateKey !== 'event-post' && <div className='Item__type'>{type}</div>}
-					<h1 className='Item__title'>{title}</h1>
-					{dateFormat && <h2 className='Item__meta'>{dateFormat}</h2>}
-					{authorFormat && <h2 className='Item__meta'>{authorFormat}</h2>}
-					{location && <h2>{location}</h2>}
-				</div>
+					</div>
+
+					<div className='Item__header'>
+						{formatDate && (
+							<div className='Item__type'>
+								{formatDate} {type}
+							</div>
+						)}
+						{templateKey !== 'event-post' && <div className='Item__type'>{type}</div>}
+						<h1 className='Item__title'>{title}</h1>
+						{dateFormat && <h2 className='Item__meta'>{dateFormat}</h2>}
+						{authorFormat && <h2 className='Item__meta'>{authorFormat}</h2>}
+						{location && <h2>{location}</h2>}
+					</div>
+				</a>
 			</Link>
 		</article>
 	)
