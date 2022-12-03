@@ -34,7 +34,6 @@
 		"sass": "^1.43.4"
 	},
 	"devDependencies": {
-		"@netlify/plugin-nextjs": "^4.0.0-beta.4",
 		"babel-plugin-transform-require-context": "^0.1.1",
 		"frontmatter-markdown-loader": "^3.6.3"
 	}
