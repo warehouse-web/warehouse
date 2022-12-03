@@ -54,17 +54,16 @@ const Header = () => {
 					<ul>
 						{menu.map(({ href = '', text = '' }, i) => (
 							<li key={'headerMenu--' + i}>
-								<Link href={href}>
-									<a
-										className={
-											router.pathname === href || parentLink === href
-												? 'is-active'
-												: ''
-										}
-										onClick={(e) => setOpen(false)}
-									>
-										<span>{text}</span>
-									</a>
+								<Link
+									href={href}
+									className={
+										router.pathname === href || parentLink === href
+											? 'is-active'
+											: ''
+									}
+									onClick={(e) => setOpen(false)}
+								>
+									<span>{text}</span>
 								</Link>
 							</li>
 						))}
@@ -82,8 +81,8 @@ const Header = () => {
 					</ul>
 				</div>
 
-				<Link href='/about'>
-					<a className='Header__logo'>Warehouse</a>
+				<Link href='/about' className='Header__logo'>
+					Warehouse
 				</Link>
 				<div
 					className={'Header__toggle' + (open ? ' is-open' : '')}
