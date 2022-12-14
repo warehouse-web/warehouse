@@ -13,6 +13,8 @@ rightColumn: >-
   Voet.
 
 
+
+
   * CONTACT
 
   * <mailto:info@thisiswarehouse.com>
@@ -28,6 +30,9 @@ rightColumn: >-
   * WEBSITE DEVELOPMENT 
 
   * Eurico Sá Fernandes, Jurgis Lietunovas
+
+
+
 
 
   Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe
