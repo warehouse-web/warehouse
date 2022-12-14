@@ -6,11 +6,11 @@ rightColumn: >-
   ABOUT
 
 
-  Warehouse is an Amsterdam-based fashion platform that aims to create an open,
-  engaging and inclusive environment that facilitates critical dialogue and the
-  creation of a discourse that goes beyond treating fashion as a commodity.
-  Warehouse was founded by Elisa van Joolen, Femke de Vries and Hanka van der
-  Voet and is run together with Anouk Beckers and Chet Bugter.
+  Warehouse is an Amsterdam-based fashion platform that aims to create space for
+  explorative, critical and alternative approaches to fashion that move beyond
+  industrial commercial fashion and treating garments as commodities. Warehouse
+  is run by Anouk Beckers, Elisa van Joolen, Femke de Vries and Hanka van der
+  Voet.
 
 
   * CONTACT
@@ -21,14 +21,6 @@ rightColumn: >-
 
   * [@amsterdam.warehouse](https://www.instagram.com/amsterdam.warehouse)
 
-  * PRODUCTION
-
-  * Anouk Beckers, Chet Bugter
-
-  * COMMUNICATION
-
-  * Jan Schoon
-
   * WEBSITE DESIGN
 
   * Zuzana Kostelanská
@@ -38,9 +30,7 @@ rightColumn: >-
   * Eurico Sá Fernandes, Jurgis Lietunovas
 
 
-
-
-  Warehouse publications are sold at: Aflat Shop (Adelaide), San Serriffe
+  Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe
   (Amsterdam), Athenaeum (Amsterdam), Do You Read Me?! (Berlin), Dispozitiv
   Books (Bucharest), Blue Flower Texts (Christchurch), Tenderbooks (London),
   Reina (Melbourne), World Food Books (Melbourne), Play The Tambourine (online).
@@ -48,14 +38,10 @@ images:
   - image: /img/59_press-fold_07122019_sanserriffe_anoukbeckers.jpg
 other: >-
   Warehouse is made possible through the financial support of the Creative
-  Industries Fund NL and Prins Bernhard Cultuurfonds.
-
-
+  Industries Fund NL and Cultuurfonds.
 
 
   © 2020 Warehouse
-
-
 
 
   No rights can be claimed from the information in these pages. Warehouse makes
