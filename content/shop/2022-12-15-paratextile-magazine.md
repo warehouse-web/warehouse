@@ -8,26 +8,7 @@ content:
     type: images
   - text: Add to cart
     type: cart-button
-  - body: >-
-      Paratextile Magazine, issue 01, “on making clothes”
-
-
-      Paratextile Magazine is an experimental project. It is an alternative
-      sewing and pattern making publication addressing the gap between
-      consumption and production in fashion, and in particular in fashion media.
-      The publication aims to fill in this gap providing text and do-it-yourself
-      instructions to practice and read about clothes production. The project
-      aims to create a space where knowledge, heritage, relationships, stories
-      and manners of making clothes can be narrated, both from the fashion
-      industry and from other fashion systems. The magazine is a
-      re-interpretation of contemporary and past DIY periodicals with
-      instructions for sewing, knitting, pattern cutting, etc. Instead of just
-      sharing instructions for making clothes as a leisure activity, Paratextile
-      Magazine opens up the practice of dressmaking to free interpretation, to
-      share self-taught experimental approaches. 
-
-
-      This magazine includes a pull-out pattern to recreate an intuitive t-shirt
+  - body: "Paratextile Magazine, issue 01, “on making clothes”\n\nParatextile Magazine, made by Alessandra Varisco, is an experimental alternative sewing and pattern-making publication that aims to collect and create space for knowledge, heritage, relationships, stories, and ways of making clothes from various fashion systems. \r\n\n\rThe magazine is a re-interpretation of contemporary and past DIY-periodicals with instructions for sewing, knitting, pattern cutting, etc. Instead of sharing instructions for making clothes as a leisure activity, Paratextile Magazine opens up the practice of dressmaking to free interpretation, to share self-taught experimental approaches and stories on hidden processes of garments production. \r\n\nThis magazine includes a pull-out pattern to recreate an intuitive t-shirt"
     type: text
   - image: /img/03__paratextile-magazine_wh-web_ready.jpg
     type: images
