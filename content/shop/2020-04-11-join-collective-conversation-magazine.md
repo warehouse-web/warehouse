@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: 'JOIN Collective Conversation Magazine '
+title: '[Sold Out] JOIN Collective Conversation Magazine '
 price: '13.76'
 btw: '9'
 content:
