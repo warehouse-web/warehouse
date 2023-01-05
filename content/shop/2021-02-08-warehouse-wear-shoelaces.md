@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Warehouse Wear | Shoelaces
+title: '[Sold Out] Warehouse Wear | Shoelaces'
 price: '0.83'
 btw: '21'
 content:
