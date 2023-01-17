@@ -2,7 +2,7 @@
 templateKey: product-page
 title: Paratextile Magazine
 price: '18,18'
-btw: '21'
+btw: '9'
 content:
   - image: /img/front_paratextile-magazine_wh-web_ready.jpg
     type: images
