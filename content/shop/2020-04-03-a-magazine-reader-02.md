@@ -91,6 +91,6 @@ content:
     image: /img/low_a-magazine-reader-issue-02-boris-kollar-1.jpg
     type: images
 author: 'Femke de Vries, Ruby Hoette & Chet Bugter (eds.)'
-date: '2020-11-24'
+date: '2020-01-01'
 ---
 
