@@ -97,6 +97,6 @@ content:
     image: /img/low_01_a-magazine-reader-03_photo_anoukbeckers.jpg
     type: images
 author: Femke de Vries & Hanka van der Voet (eds.)
-date: '2020-11-23'
+date: '2020-01-01'
 ---
 
