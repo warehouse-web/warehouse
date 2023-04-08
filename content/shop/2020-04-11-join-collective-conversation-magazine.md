@@ -82,6 +82,6 @@ content:
     image: /img/02_join-magazine_photo_anouk-beckers.jpg
     type: images
 author: 'Anouk Beckers, Chet Bugter, Femke de Vries & Hanka van der Voet (eds.)'
-date: '2020-11-17'
+date: '2020-01-01'
 ---
 
