@@ -52,6 +52,6 @@ content:
       /img/06_crop_collective-wandering-by-lenn-cox_photography-anouk-beckers_lowres.jpg
     type: images
 author: Lenn Cox (ed.)
-date: '2021-03-30'
+date: '2020-01-01'
 ---
 
