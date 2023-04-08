@@ -69,6 +69,6 @@ content:
     image: /img/01_people-wearing-off-white_photography_anouk-beckers_.jpg
     type: images
 author: Hanka van der Voet (ed.)
-date: '2020-11-05'
+date: '2020-01-01'
 ---
 
