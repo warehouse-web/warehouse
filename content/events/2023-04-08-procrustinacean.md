@@ -1,6 +1,6 @@
 ---
 templateKey: event-post
-title: Procrustinacean | Philipp Schueller
+title: Procrustinacean by Philipp Schueller
 content:
   - image: /img/philippxwhxdlah_02.jpg
     type: images
