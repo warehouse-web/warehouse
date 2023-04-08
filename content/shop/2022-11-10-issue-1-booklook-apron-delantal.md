@@ -95,7 +95,7 @@ content:
     type: images
   - image: /img/09_booklook_issue1_warehousehouse_web.jpg
     type: images
-author: 'Anouk Beckers, María Naidich & Femke de Vries'
+author: 'Anouk Beckers, María Naidich & Femke de Vries, Rietlanden Women''s Office'
 date: '2022-11-10'
 ---
 
