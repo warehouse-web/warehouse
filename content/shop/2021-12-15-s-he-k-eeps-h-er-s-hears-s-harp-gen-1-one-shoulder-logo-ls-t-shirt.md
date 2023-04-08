@@ -39,6 +39,6 @@ content:
     image: /img/9_researchfinal-01.jpg
     type: images
 author: SKHSS (Lejla Vala Verheus and Mika Perlmutter)
-date: '2020-11-04'
+date: '2020-01-01'
 ---
 
