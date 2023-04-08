@@ -29,6 +29,6 @@ content:
     image: /img/6_shear-bliss-granny-sqaure-tshirt.jpg
     type: images
 author: SKHSS (Lejla Vala Verheus and Mika Perlmutter)
-date: '2020-11-04'
+date: '2020-01-01'
 ---
 
