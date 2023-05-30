@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Reading my Panties granny panty
+title: '[Sold Out] Reading my Panties granny panty'
 price: '8,27'
 btw: '21'
 content:
