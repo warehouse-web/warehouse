@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Paratextile Magazine
+title: '[Sold Out] Paratextile Magazine'
 price: '18,18'
 btw: '9'
 content:
