@@ -9,14 +9,59 @@ content:
   - caption: 'Booklook Shirt, issue 2, crochet made by Mika Perlmutter.'
     image: /img/01_booklook-issue-2_crochet-by-mika-perlmutter.jpg
     type: images
-  - body: "This second issue of Booklook can be unfolded and worn as a shirt, which again can be refolded into a magazine. Booklook Shirt carries the essay _Fragments of DIY stories_, about do-it-yourself practices in fashion, by researcher Alessandra Varisco.\r\n\n**This publication is sold via this webshop without any crochet attached to it.** \n\n\rBooklook is a research project by Anouk Beckers that fuses the fashion magazine with the garment, resulting in a series of wearable fashion magazines. Each issue can be unfolded into another type of wearable item and carries stories about the role of garments in lives, cultures and practices from various artists, designers, writers, thinkers.\r\n\nThe fabric-like paper carries stories that stem from the situatedness of garments in non-commercial, cultural, and daily realities. Booklook plays with familiar and important agents in the fashion industry: the garment, the fashion magazine, and as the title suggests, the lookbook, a publication in which brands traditionally offer buyers an overview of their collection (their ‘looks’). Booklook instead aims to address this dominant consumerist fashion discourse. Instead of denying and cutting the cords with the reality of production, cultural situatedness, historical references and practices of use, Booklook opens up these narratives and tells exactly these stories."
+  - body: >-
+      This second issue of Booklook can be unfolded and worn as a shirt, which
+      again can be refolded into a magazine. 
+
+
+      **This publication is sold via this webshop without any crochet attached
+      to it.** 
+
+
+      Booklook is a research project by Anouk Beckers that fuses the fashion
+      magazine with the garment, resulting in a series of wearable fashion
+      magazines. Each issue can be unfolded into another type of wearable item
+      and carries stories about the role of garments in lives, cultures and
+      practices from various artists, designers, writers, thinkers.
+
+
+      The fabric-like paper carries stories that stem from the situatedness of
+      garments in non-commercial, cultural, and daily realities. Booklook plays
+      with familiar and important agents in the fashion industry: the garment,
+      the fashion magazine, and as the title suggests, the lookbook, a
+      publication in which brands traditionally offer buyers an overview of
+      their collection (their ‘looks’). Booklook instead aims to address this
+      dominant consumerist fashion discourse. Instead of denying and cutting the
+      cords with the reality of production, cultural situatedness, historical
+      references and practices of use, Booklook opens up these narratives and
+      tells exactly these stories.
     type: text
   - caption: 'Booklook Shirt, issue 2, without crochet.'
     image: /img/02_booklook-issue-2_no-crochet.jpg
     type: images
   - image: /img/06_booklook-issue-2_no-crochet.jpg
     type: images
-  - body: "\r_Fragments of DIY stories_\r \n\nDIY activities in fashion include various types of craft techniques such as knitting, embroidery, pattern making, sewing, quilting, etc. Often considered as a frivolous practice, DIY fashion is rarely researched. However, in this text, the subject is explored from several perspectives which are divided in a set of short chapters that fit the fluidity of the shape of the hybrid garment-magazine. In one chapter, Alessandra compares DIY to purchasing clothes and explores DIY as a practice of privilege. Another chapter showcases DIY activities from an historical perspective and its function in defining women’s role and garment workers’ rights. DIY periodicals for sewing, knitting and pattern making and their effect on consumption behaviour as well as the relationship between home dressmaking and garment industrial production are explored. It also shares some specific cases where home dressmaking and DIY practices were seen as illegal tools to subvert predominant narratives and generate change. To give an overview of all these perspectives, the issue includes a glossary about DIY fashion."
+  - body: >-
+      Booklook Shirt carries the essay _Fragments of DIY stories_, about
+      do-it-yourself practices in fashion, by researcher Alessandra Varisco.
+
+
+      DIY activities in fashion include various types of craft techniques such
+      as knitting, embroidery, pattern making, sewing, quilting, etc. Often
+      considered as a frivolous practice, DIY fashion is rarely researched.
+      However, in this text, the subject is explored from several perspectives
+      which are divided in a set of short chapters that fit the fluidity of the
+      shape of the hybrid garment-magazine. In one chapter, Alessandra compares
+      DIY to purchasing clothes and explores DIY as a practice of privilege.
+      Another chapter showcases DIY activities from an historical perspective
+      and its function in defining women’s role and garment workers’ rights. DIY
+      periodicals for sewing, knitting and pattern making and their effect on
+      consumption behaviour as well as the relationship between home dressmaking
+      and garment industrial production are explored. It also shares some
+      specific cases where home dressmaking and DIY practices were seen as
+      illegal tools to subvert predominant narratives and generate change. To
+      give an overview of all these perspectives, the issue includes a glossary
+      about DIY fashion.
     type: text
   - caption: >-
       International Ladies Garment Worker Union on strike. (Source: Medium,
@@ -35,7 +80,25 @@ content:
   - caption: 'Booklook Shirt, issue 2, crochet made by Mika Perlmutter.'
     image: /img/05_booklook-issue-2_crochet-by-mika-perlmutter.jpg
     type: images
-  - body: "**This publication is sold via this webshop without any crochet attached to it.** \n\nLimited edition of 170 copies. This publication is made from a washable paper: Cuturon X-treme 480.170. This is a synthetic paper that doesn’t contain the OEKO TEX label.\r\n\nType: softcover\\ Dimensions magazine (folded): 165 x 240 mm \\ Dimensions sheet (unfolded): 660 x 950 mm \\ Pages: 32\\ Art Direction & Design: Anouk Beckers\\ Graphic design: She Keeps Her Shears Sharp by Lejla Vala Verheus \\ Crochet design: She Keeps Her Shears Sharp by Mika Perlmutter \\ Text: Alessandra Varisco & Femke de Vries \\ Editors: Femke de Vries & Hanka van der Voet \\ English Copy Editor: Kat Addis\\ Translators: Nassima Nejjari, Dakota Guo & Guadalupe Castillo Vizuete\\ Release date: March 2023\\ Binding: folding\\ Language text Alessandra: English \\ Language text Femke: Spanish, English, Chinese, Arabic\\ Printing at robstolk Amsterdam \\ 2023."
+  - body: >-
+      **This publication is sold via this webshop without any crochet attached
+      to it.** 
+
+
+      Limited edition of 170 copies. This publication is made from a washable
+      paper: Cuturon X-treme 480.170. This is a synthetic paper that doesn’t
+      contain the OEKO TEX label.
+
+
+      Type: softcover\ Dimensions magazine (folded): 165 x 240 mm \ Dimensions
+      sheet (unfolded): 660 x 950 mm \ Pages: 32\ Art Direction & Design: Anouk
+      Beckers\ Graphic design: She Keeps Her Shears Sharp by Lejla Vala Verheus
+      \ Crochet design: She Keeps Her Shears Sharp by Mika Perlmutter \ Text:
+      Alessandra Varisco & Femke de Vries \ Editors: Femke de Vries & Hanka van
+      der Voet \ English Copy Editor: Kat Addis\ Translators: Nassima Nejjari,
+      Dakota Guo & Guadalupe Castillo Vizuete\ Release date: March 2023\
+      Binding: folding\ Language text Alessandra: English \ Language text Femke:
+      Spanish, English, Chinese, Arabic\ Printing at robstolk Amsterdam.
     type: text
 author: >-
   Anouk Beckers, Alessandra Varisco, Lejla Vala Verheus, Mika Perlmutter & Femke
