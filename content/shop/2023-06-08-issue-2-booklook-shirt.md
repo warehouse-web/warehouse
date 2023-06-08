@@ -4,11 +4,11 @@ title: 'Issue 2: Booklook Shirt'
 price: '36,70'
 btw: '9'
 content:
-  - text: Add to cart
-    type: cart-button
   - caption: 'Booklook Shirt, issue 2, crochet made by Mika Perlmutter.'
     image: /img/01_booklook-issue-2_crochet-by-mika-perlmutter.jpg
     type: images
+  - text: Add to cart
+    type: cart-button
   - body: >-
       This second issue of Booklook can be unfolded and worn as a shirt, which
       again can be refolded into a magazine. 
