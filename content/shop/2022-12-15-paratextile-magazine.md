@@ -28,6 +28,6 @@ content:
     image: /img/04_paratextile-magazine_wh-web_ready.jpg
     type: images
 author: Alessandra Varisco
-date: '2022-12-15'
+date: '2020-01-01'
 ---
 
