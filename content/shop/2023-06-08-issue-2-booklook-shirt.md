@@ -10,12 +10,12 @@ content:
   - text: Add to cart
     type: cart-button
   - body: >-
-      This second issue of Booklook can be unfolded and worn as a shirt, which
-      again can be refolded into a magazine. 
-
-
       **This publication is sold via this webshop without any crochet attached
       to it.** 
+
+
+      The second issue of Booklook can be unfolded and worn as a shirt, which
+      again can be refolded into a magazine. 
 
 
       Booklook is a research project by Anouk Beckers that fuses the fashion
@@ -81,10 +81,6 @@ content:
     image: /img/05_booklook-issue-2_crochet-by-mika-perlmutter.jpg
     type: images
   - body: >-
-      **This publication is sold via this webshop without any crochet attached
-      to it.** 
-
-
       Limited edition of 170 copies. This publication is made from a washable
       paper: Cuturon X-treme 480.170. This is a synthetic paper that doesn’t
       contain the OEKO TEX label.
