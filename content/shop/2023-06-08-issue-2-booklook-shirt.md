@@ -15,26 +15,7 @@ content:
 
 
       The second issue of Booklook can be unfolded and worn as a shirt, which
-      again can be refolded into a magazine. 
-
-
-      Booklook is a research project by Anouk Beckers that fuses the fashion
-      magazine with the garment, resulting in a series of wearable fashion
-      magazines. Each issue can be unfolded into another type of wearable item
-      and carries stories about the role of garments in lives, cultures and
-      practices from various artists, designers, writers, thinkers.
-
-
-      The fabric-like paper carries stories that stem from the situatedness of
-      garments in non-commercial, cultural, and daily realities. Booklook plays
-      with familiar and important agents in the fashion industry: the garment,
-      the fashion magazine, and as the title suggests, the lookbook, a
-      publication in which brands traditionally offer buyers an overview of
-      their collection (their ‘looks’). Booklook instead aims to address this
-      dominant consumerist fashion discourse. Instead of denying and cutting the
-      cords with the reality of production, cultural situatedness, historical
-      references and practices of use, Booklook opens up these narratives and
-      tells exactly these stories.
+      again can be refolded into a magazine.
     type: text
   - caption: 'Booklook Shirt, issue 2, without crochet.'
     image: /img/02_booklook-issue-2_no-crochet.jpg
@@ -42,6 +23,13 @@ content:
   - image: /img/06_booklook-issue-2_no-crochet.jpg
     type: images
   - body: >-
+      Booklook is a research project initiated by Anouk Beckers that fuses the
+      fashion magazine with the garment, resulting in a series of wearable
+      fashion magazines. Each issue can be unfolded into another type of
+      wearable item and carries stories about the role of garments in lives,
+      cultures and practices from various artists, designers, writers, thinkers.
+
+
       Booklook Shirt carries the essay _Fragments of DIY stories_, about
       do-it-yourself practices in fashion, by researcher Alessandra Varisco.
 
