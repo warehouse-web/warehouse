@@ -11,6 +11,6 @@ content:
     image: /img/procrustinacean-lal-2023-_photo-by-temet-studio.jpg
     type: images
 author: Toni Brell
-date: '2023-06-01'
+date: '2023-06-10'
 ---
 
