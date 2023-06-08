@@ -21,7 +21,7 @@ content:
   - caption: 'Photography: Rool Mol'
     image: /img/join-knit-pattern_bw_photo-roos-mol.jpg
     type: images
-author: Anouk Beckers
+author: Anouk Beckers & Roos Mol
 date: '2021-03-09'
 ---
 
