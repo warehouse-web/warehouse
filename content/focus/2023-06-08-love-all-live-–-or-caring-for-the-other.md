@@ -1,7 +1,7 @@
 ---
 templateKey: focus-page
 title: 'Love All Live – Or: Caring for the other'
-PDF: /img/focus_love-all-live-or-caring-for-the-other-by-toni-brell.pdf
+PDF: /img/warehouse-focus_love-all-live-or-caring-for-the-other_toni-brell.pdf
 content:
   - caption: >-
       Procrustinacean, LAL (2023). Material: watercooler, clay, silicone, sugar,
