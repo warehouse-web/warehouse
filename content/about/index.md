@@ -9,10 +9,9 @@ rightColumn: >-
   Warehouse is an Amsterdam-based fashion platform that aims to create space for
   explorative, critical and alternative approaches to fashion that move beyond
   industrial commercial fashion and treating garments as commodities. Warehouse
-  is run by Anouk Beckers, Elisa van Joolen, Femke de Vries and Hanka van der
-  Voet.
-
-
+  is a collaborative effort by Anouk Beckers, Chet Bugter (2019-2022), Elisa van
+  Joolen, Hanka van der Voet, Femke de Vries, Chinouk Filique de Miranda for the
+  podcast and Zuzana Kostelanská for the graphic design.
 
 
   * CONTACT
@@ -30,9 +29,6 @@ rightColumn: >-
   * WEBSITE DEVELOPMENT 
 
   * Eurico Sá Fernandes, Jurgis Lietunovas
-
-
-
 
 
   Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe
