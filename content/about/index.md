@@ -16,7 +16,11 @@ rightColumn: >-
 
   * CONTACT
 
-  * <mailto:info@thisiswarehouse.com>
+  * [info@thisiswarehouse.com](info@thisiswarehouse.com)
+
+  * SHOP
+
+  * [shop@thisiswarehouse.com](shop@thisiswarehouse.com)
 
   * INSTAGRAM
 
