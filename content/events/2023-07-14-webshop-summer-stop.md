@@ -12,6 +12,6 @@ content:
       See you in September, enjoy the summer!
     type: text
 location: Warehouse Webshop
-date: '2023-07-21'
+date: '2022-07-21'
 ---
 
