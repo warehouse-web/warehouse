@@ -11,7 +11,9 @@ content:
 
       See you in September, enjoy the summer!
     type: text
-location: Warehouse Webshop
+location: >-
+  Warehouse Webshop is closed in August. We are back 1st of september to ship
+  your orders!
 date: '2022-07-21'
 ---
 
