@@ -42,7 +42,7 @@ rightColumn: >-
 images:
   - image: /img/59_press-fold_07122019_sanserriffe_anoukbeckers.jpg
 other: >-
-  Warehouse is made possible through the financial support of the Creative
+  Warehouse is made possible through the financial support of AFK, Creative
   Industries Fund NL and Cultuurfonds.
 
 
