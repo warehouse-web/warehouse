@@ -55,7 +55,7 @@ content:
   - caption: Cut Up by Asa Seresin.
     image: /img/nice-outfit_cut-up-by-asa-seresin.jpg
     type: images
-  - body: "Type: softcover \\ Dimensions magazine: 245 x 170 mm \\ Pages: 148 \\ Editor: Felix Choong \\ Graphic design: LOUMT \\ Art direction: Felix Choong & Loumt \\ Printing: Bishops Printing \\ Binding: Perfect Binding\L \\ Publisher: Nice Outfit Press \\ Cover artwork: Julie Ceccaldi \\ Language: English \\ Contributors: Julien Ceccaldi, Zach Langley ChiChi, Felix Choong, Charlie Fox, Iris Ichiya, Rory Mullen, Elise By Olsen, Ethan Price, Liara Roux, Asa Seresin, Sin Wai Kin, Philippa Snow, Kerry Taylor\L \\ Release date: November 2023"
+  - body: "Type: softcover \\ Dimensions magazine: 245 x 170 mm \\ Pages: 148 \\ Editor: Felix Choong \\ Graphic design: LOUMT \\ Art direction: Felix Choong & LOUMT \\ Printing: Bishops Printing \\ Binding: Perfect Binding\L \\ Publisher: Nice Outfit Press \\ Cover artwork: Julie Ceccaldi \\ Language: English \\ Contributors: Julien Ceccaldi, Zach Langley ChiChi, Felix Choong, Charlie Fox, Iris Ichiya, Rory Mullen, Elise By Olsen, Ethan Price, Liara Roux, Asa Seresin, Sin Wai Kin, Philippa Snow, Kerry Taylor\L \\ Release date: November 2023"
     type: text
   - caption: Pageant by Ethan Price.
     image: /img/nice-outfit_pageant-by-ethan-price.jpg
