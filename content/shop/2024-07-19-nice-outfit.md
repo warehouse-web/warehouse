@@ -9,39 +9,43 @@ content:
   - text: Add to cart
     type: cart-button
   - body: >-
-      Nice Outfit is an exhibition catalogue and theoretical journal. Issue 2
-      archives Knock Knock an exhibition of fashion and textiles curated by
-      Felix Choong at Season Gallery in London, December 2022. The show took
-      Peter Galassi’s seminal exhibition Pleasures and Terrors of Domestic
-      Comfort held at MoMA, New York in 1991 as its starting point that used
-      photography to explore the home, its affluent surfaces and the undertones
-      of disquiet and tension as its starting point and localised its own
-      exploration through garments. The exhibition themes become the framework
-      for the accompanying written commissions.
+      Nice Outfit is an exhibition catalogue and theoretical journal that
+      invites a variety of practitioners to respond to the exhibition themes in
+      any way they see fit. Issue #2 catalogues the exhibition ‘Knock Knock’
+      curated by editor Felix Choong. The exhibition used Peter Galassi’s
+      photography exhibition ’Pleasures and Terrors of Domestic Comfort’ held at
+      MoMA in 1991 that explored the home as a site of contention as its
+      starting point and localised its own exploration through fashion and
+      textile. Archival contributions from Comme des Garçons, Vivienne Westwood,
+      Issey Miyake and Junya Watanabe were presented alongside graduate
+      collections from Rebecca Jeffs and Sheryn Akiki and recent collections
+      from VeniceW and Per Götesson among others. 
 
 
-      Philippa Snow explores Andrej Zulawski’s Possession and Ari Aster’s
-      Hereditary naturalistic depictions of marital conflict in the home and the
-      ensuing hysteria when these are pushed to the precipice of no return.
-      Experimental fiction is penned by Charlie Fox and Ethan Price. Fox’s from
-      the perspective of a girl’s dress, and Price’s where a love and loathing
-      for England motivates a girl’s hedonism, delusion and decline in her
-      seaside bedsit. Liara Roux reflects on her experiences as a sex worker in
-      the upper echelons of society, creating comfort by emulating her client’s
-      mothers. Asa Seresin explores the biblical act of cutting up clothes from
-      antiquity into the present day rendering pain in three dimensions. The
-      artist Sin Wai Kin provides preliminary writing and materials to their art
-      practice whose knack for world-building uses speculative fiction to
-      dissolve reality and fantasy. Elise By Olsen reflects on the opening of
-      the International Library of Fashion Research in Oslo and her relationship
-      with seed donor and long-term mentor Steven Mark Klein, alongside scans of
-      designer’s domestic spaces and branded interior accessories from the
-      library’s permanent collection. Artworks by Julien Ceccaldi, which grace
-      the front and back covers are profiled whose vision of the world is one of
-      hyperbole, pumped-up or withered down, where every character is at the
-      edge of (unrequited) love and utter breakdown. Zach Langley Chi Chi has
-      provided excerpts from his diary that revel in the sublime anguish of love
-      and lust. Lastly, an interview with auctioneer and vintage fashion, fine
+      Presented alongside show documentation, a set of new writing commissions
+      elaborate on the exhibition themes. Philippa Snow explores Andrej
+      Zulawski’s Possession and Ari Aster’s Hereditary naturalistic depictions
+      of marital conflict in the home and the ensuing hysteria when these are
+      pushed to the precipice of no return. Experimental fiction is penned by
+      Charlie Fox and Ethan Price. Fox’s from the perspective of a girl’s dress,
+      and Price’s where a love and loathing for England motivates a girl’s
+      hedonism, delusion and decline in her seaside bedsit. Liara Roux reflects
+      on her experiences as a sex worker in the upper echelons of society,
+      creating comfort by emulating her client’s mothers. Asa Seresin explores
+      the biblical act of cutting up clothes from antiquity into the present day
+      rendering pain in three dimensions. The artist Sin Wai Kin provides
+      preliminary writing and materials to their art practice whose knack for
+      world-building uses speculative fiction to dissolve reality and fantasy.
+      Elise By Olsen reflects on the opening of the International Library of
+      Fashion Research in Oslo and her relationship with seed donor and
+      long-term mentor Steven Mark Klein, alongside scans of designer’s domestic
+      spaces and branded interior accessories from the library’s permanent
+      collection. Artworks by Julien Ceccaldi, which grace the front and back
+      covers are profiled whose vision of the world is one of hyperbole,
+      pumped-up or withered down, where every character is at the edge of
+      (unrequited) love and utter breakdown. Zach Langley Chi Chi has provided
+      excerpts from his diary that revel in the sublime anguish of love and
+      lust. Lastly, an interview with auctioneer and vintage fashion, fine
       antique costume and textiles specialist Kerry Taylor discussing the
       emotional history of clothing and estate sales.
     type: text
