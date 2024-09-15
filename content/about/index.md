@@ -10,11 +10,16 @@ rightColumn: >-
   explorative, critical and alternative approaches to fashion that move beyond
   industrial commercial fashion and treating garments as commodities. Warehouse
   is a collaborative effort by Anouk Beckers, Chet Bugter (2019-2022), Elisa van
-  Joolen, Hanka van der Voet, Femke de Vries, Chinouk Filique de Miranda for the
-  podcast and Zuzana Kostelanská for the graphic design.
+  Joolen, Élise Ory, Hanka van der Voet (2018-2023), Femke de Vries, Chinouk
+  Filique de Miranda for the podcast and Zuzana Kostelanská for the graphic
+  design.
 
 
-  * CONTACT
+  * CONTACT WAREHOUSE MARKET
+
+  * thisiswarehousemarket@gmail.com
+
+  * GENERERAL INFO
 
   * info@thisiswarehouse.com
 
