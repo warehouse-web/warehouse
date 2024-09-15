@@ -9,10 +9,13 @@ rightColumn: >-
   Warehouse is an Amsterdam-based fashion platform that aims to create space for
   explorative, critical and alternative approaches to fashion that move beyond
   industrial commercial fashion and treating garments as commodities. Warehouse
-  is a collaborative effort by Anouk Beckers, Chet Bugter (2019-2022), Elisa van
-  Joolen, Élise Ory, Hanka van der Voet (2018-2023), Femke de Vries, Chinouk
-  Filique de Miranda for the podcast and Zuzana Kostelanská for the graphic
-  design.
+  is a collaborative effort run by Anouk Beckers, Elisa van Joolen, Élise Ory
+  and Femke de Vries. We collaborate with Chinouk Filique de Miranda for the
+  podcast and Zuzana Kostelanská for the graphic design. 
+
+
+  Chet Bugter was part of the Warehouse team from 2019 till 2022 and Hanka van
+  der Voet from 2018 till 2023.
 
 
   \>
@@ -46,8 +49,6 @@ rightColumn: >-
   * Eurico Sá Fernandes, Jurgis Lietunovas
 
 
-
-
   \>
 
 
@@ -55,8 +56,6 @@ rightColumn: >-
 images:
   - image: /img/59_press-fold_07122019_sanserriffe_anoukbeckers.jpg
 other: >-
-
-
   * \>
 
   * \>
@@ -66,9 +65,6 @@ other: >-
   * Location: Warehouse Sint Janssstraat 51, Amsterdam (NB: only open during
   public events. See our event page for updates)
 
-
-
-
   * \>\
     \
     Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe (Amsterdam), Athenaeum (Amsterdam), Do You Read Me?! (Berlin), Dispozitiv Books (Bucharest), Blue Flower Texts (Christchurch), Tenderbooks (London), Reina (Melbourne), World Food Books (Melbourne), Play The Tambourine (online).
@@ -76,8 +72,8 @@ other: >-
   \>
 
 
-  Warehouse is made possible through the financial support of AFK, Creative
-  Industries Fund NL and Cultuurfonds.
+  Warehouse is made possible through the financial support of AFK (Amsterdam
+  Fund for the Arts), Creative Industries Fund NL and Cultuurfonds.
 
 
   \>
