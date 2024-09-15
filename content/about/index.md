@@ -18,6 +18,9 @@ rightColumn: >-
   \>
 
 
+  \>
+
+
   * CONTACT WAREHOUSE MARKET
 
   * thisiswarehousemarket@gmail.com
@@ -41,6 +44,14 @@ rightColumn: >-
   * WEBSITE DEVELOPMENT 
 
   * Eurico Sá Fernandes, Jurgis Lietunovas
+
+
+
+
+  \>
+
+
+  \>
 images:
   - image: /img/59_press-fold_07122019_sanserriffe_anoukbeckers.jpg
 other: >-
