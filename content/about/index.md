@@ -15,6 +15,8 @@ rightColumn: >-
   design.
 
 
+
+
   * CONTACT WAREHOUSE MARKET
 
   * thisiswarehousemarket@gmail.com
@@ -38,6 +40,17 @@ rightColumn: >-
   * WEBSITE DEVELOPMENT 
 
   * Eurico Sá Fernandes, Jurgis Lietunovas
+
+
+
+
+  Location: Warehouse\
+
+  Sint Janssstraat 51, Amsterdam \
+
+  (NB: only open during public events. See our event page for updates)
+
+
 
 
   Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe
