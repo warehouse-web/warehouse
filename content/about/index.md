@@ -15,6 +15,7 @@ rightColumn: >-
   design.
 
 
+  # 
 
 
   * CONTACT WAREHOUSE MARKET
@@ -40,15 +41,11 @@ rightColumn: >-
   * WEBSITE DEVELOPMENT 
 
   * Eurico Sá Fernandes, Jurgis Lietunovas
-
-
-
-
-  Location: Warehouse\
-
-  Sint Janssstraat 51, Amsterdam \
-
-  (NB: only open during public events. See our event page for updates)
+images:
+  - image: /img/59_press-fold_07122019_sanserriffe_anoukbeckers.jpg
+other: >-
+  Location: Warehouse Sint Janssstraat 51, Amsterdam (NB: only open during
+  public events. See our event page for updates)
 
 
 
@@ -57,9 +54,10 @@ rightColumn: >-
   (Amsterdam), Athenaeum (Amsterdam), Do You Read Me?! (Berlin), Dispozitiv
   Books (Bucharest), Blue Flower Texts (Christchurch), Tenderbooks (London),
   Reina (Melbourne), World Food Books (Melbourne), Play The Tambourine (online).
-images:
-  - image: /img/59_press-fold_07122019_sanserriffe_anoukbeckers.jpg
-other: >-
+
+
+
+
   Warehouse is made possible through the financial support of AFK, Creative
   Industries Fund NL and Cultuurfonds.
 
