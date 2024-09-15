@@ -15,12 +15,8 @@ rightColumn: >-
   design.
 
 
-  \>\
+  \>
 
-  >
-
-
-  * # 
 
   * CONTACT WAREHOUSE MARKET
 
@@ -54,32 +50,23 @@ other: >-
 
   * \>
 
-  * \>
+  * 
 
   * Location: Warehouse Sint Janssstraat 51, Amsterdam (NB: only open during
   public events. See our event page for updates)
 
-  * 
 
-  * 
+
 
   * \>\
-    >\
-    >\
+    \
     Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe (Amsterdam), Athenaeum (Amsterdam), Do You Read Me?! (Berlin), Dispozitiv Books (Bucharest), Blue Flower Texts (Christchurch), Tenderbooks (London), Reina (Melbourne), World Food Books (Melbourne), Play The Tambourine (online).
 
-  \>\
-
-  >\
-
-  >
+  \>
 
 
   Warehouse is made possible through the financial support of AFK, Creative
   Industries Fund NL and Cultuurfonds.
-
-
-  \>
 
 
   \>
