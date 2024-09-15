@@ -15,8 +15,12 @@ rightColumn: >-
   design.
 
 
-  # 
+  \>\
 
+  >
+
+
+  * # 
 
   * CONTACT WAREHOUSE MARKET
 
@@ -44,25 +48,47 @@ rightColumn: >-
 images:
   - image: /img/59_press-fold_07122019_sanserriffe_anoukbeckers.jpg
 other: >-
-  Location: Warehouse Sint Janssstraat 51, Amsterdam (NB: only open during
+
+
+  * \>
+
+  * \>
+
+  * \>
+
+  * Location: Warehouse Sint Janssstraat 51, Amsterdam (NB: only open during
   public events. See our event page for updates)
 
+  * 
 
+  * 
 
+  * \>\
+    >\
+    >\
+    Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe (Amsterdam), Athenaeum (Amsterdam), Do You Read Me?! (Berlin), Dispozitiv Books (Bucharest), Blue Flower Texts (Christchurch), Tenderbooks (London), Reina (Melbourne), World Food Books (Melbourne), Play The Tambourine (online).
 
-  Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe
-  (Amsterdam), Athenaeum (Amsterdam), Do You Read Me?! (Berlin), Dispozitiv
-  Books (Bucharest), Blue Flower Texts (Christchurch), Tenderbooks (London),
-  Reina (Melbourne), World Food Books (Melbourne), Play The Tambourine (online).
+  \>\
 
+  >\
 
+  >
 
 
   Warehouse is made possible through the financial support of AFK, Creative
   Industries Fund NL and Cultuurfonds.
 
 
-  © 2020 Warehouse
+  \>
+
+
+  \>
+
+
+  \>
+
+
+  © 2024 Warehouse
 
 
   No rights can be claimed from the information in these pages. Warehouse makes
