@@ -7,15 +7,16 @@ rightColumn: >-
 
 
   Warehouse is an Amsterdam-based fashion platform that aims to create space for
-  explorative, critical and alternative approaches to fashion that move beyond
-  industrial commercial fashion and treating garments as commodities. Warehouse
-  is a collaborative effort run by Anouk Beckers, Elisa van Joolen, Élise Ory
-  and Femke de Vries. We collaborate with Chinouk Filique de Miranda for the
-  podcast and Zuzana Kostelanská for the graphic design. 
+  expanded fashion practices; those that are research-based, interdisciplinary
+  and critically question the commercial fashion industry. Warehouse is a
+  collaborative effort. It is currently run by Anouk Beckers, Elisa van Joolen,
+  Élise Ory and Femke de Vries. Chinouk Filique de Miranda develops our podcast
+  and Zuzana Kostelanská the visual identity and supports all things related to
+  graphic design. 
 
 
-  Chet Bugter was part of the Warehouse team from 2019 till 2022 and Hanka van
-  der Voet from 2018 till 2023.
+  From 2019 till 2022 Chet Bugter was part of the Warehouse team and, as a
+  co-founder, Hanka van der Voet was a member from 2018 till 2023.
 
 
   \>
