@@ -1,6 +1,6 @@
 ---
 templateKey: event-post
-title: OPEN CALL Warehouse Market
+title: 'CLOSED: OPEN CALL Warehouse Market'
 content:
   - image: /img/warehousemarket2.gif
     type: images
