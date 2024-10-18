@@ -14,20 +14,15 @@ content:
       Opening: Friday 25 October, 18.00-22.00
 
 
-      Market:   Saturday 26 October, 12.00-18.00
-
-
-      \    Sunday 27 October, 12.00-18.00
+      Market:   Saturday 26 October, 12.00-18.00 & Sunday 27 October,
+      12.00-18.00
 
 
       Public program: alongside opening hours, check this page soon for
       updates. 
 
 
-      Location: Warehouse
-
-
-      Sint Jansstraat 51, Amsterdam 
+      Location: Warehouse - Sint Jansstraat 51, Amsterdam 
 
 
       We are excited to invite you to Warehouse Market, a three-day event (25-27
@@ -68,26 +63,17 @@ content:
       Warehouse Market - een samenwerking met bring your own book
 
 
-
-
       Opening: Zaterdag 25 oktober, 18.00-22.00
 
 
-      Markt:     Zaterdag 26 oktober, 12.00-18.00
-
-
-      \    Zondag 27 oktober, 12.00-18.00
+      Markt:     Zaterdag 26 oktober, 12.00-18.00 & Zondag 27 oktober,
+      12.00-18.00
 
 
       Publiek programma tijdens openingstijden, check deze pagina voor updates.
 
 
-      Locatie: Warehouse
-
-
-      Sint Jansstraat 51, Amsterdam
-
-
+      Locatie: Warehouse, Sint Jansstraat 51, Amsterdam
 
 
       Bij deze nodigen we je uit voor Warehouse Market, een driedaags evenement
@@ -118,7 +104,6 @@ content:
 
       Wij kijken ernaar uit je daar te zien!
 
-       
 
       Warehouse Market is een samenwerking met bring your own book.
 
