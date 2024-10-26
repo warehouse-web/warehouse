@@ -112,6 +112,6 @@ content:
       en AFK.
     type: text
 location: 'Sint Jansstraat 51, Amsterdam '
-date: '2024-10-25'
+date: '2024-10-27'
 ---
 
