@@ -8,21 +8,49 @@ content:
       \>> zie onderstaand de Nederlandse versie <<
 
 
+
+
       Warehouse Market - in collaboration with bring your own book
 
 
-      Opening: Friday 25 October, 18.00-22.00
 
 
-      Market:   Saturday 26 October, 12.00-18.00 & Sunday 27 October,
-      12.00-18.00
+      Opening night: 
 
 
-      Public program: alongside opening hours, check this page soon for
-      updates. 
+      Friday 25 October, 18.00- 22.00
+
+
+
+
+      Market: 
+
+
+      Saturday 26 October, 12.00-18.00 
+
+
+      Sunday 27 October, 12.00-18.00
+
+
+
+
+      Public programme:
+
+
+      Friday 19.30 - Reading by Nour Ben Saïd
+
+
+      Saturday 14.00 - Talk by Marina Menéndez-Pidal
+
+
+      Sunday 16.00 - Talk with byob and Warehouse, moderated by Ruby Hoette
+
+
 
 
       Location: Warehouse - Sint Jansstraat 51, Amsterdam 
+
+
 
 
       We are excited to invite you to Warehouse Market, a three-day event (25-27
