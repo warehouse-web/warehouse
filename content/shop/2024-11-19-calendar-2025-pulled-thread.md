@@ -10,7 +10,11 @@ content:
     type: text
   - image: /img/masakikomoto_calender2025_photo-warehouse04.jpg
     type: images
-  - body: "Dimensions magazine: 440 × 480 mm (170 × 220 mm folded)\r \\ Concept and embroidery: Masaki Komoto \\ Graphic design: Yuri Sato \\ Photography: Ayako Nishibori \\ English text editor: Ben Tupper \\ Printing: Offset duotone at RadraaierSSP (Amsterdam, NL) \\ Edition: 300"
+  - body: >-
+      Dimensions magazine: 440 × 480 mm (170 × 220 mm folded) \ Concept and
+      embroidery: Masaki Komoto \ Graphic design: Yuri Sato \ Photography: Ayako
+      Nishibori \ English text editor: Ben Tupper \ Printing: Offset duotone at
+      RadraaierSSP (Amsterdam, NL) \ Edition: 300
     type: text
   - image: /img/masakikomoto_calender2025_photo-warehouse03.jpg
     type: images
