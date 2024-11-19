@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: 'Calendar 2025: Pulled Thread'
-price: 25 euro
+price: '22,94'
 btw: '9'
 content:
   - image: /img/masakikomoto_calender2025_print_08s.jpeg
