@@ -28,7 +28,7 @@ content:
       rooted in remixing cultural techniques. This has resulted in a distinctive
       brand identity captured by its slogan: “Clothes, Jpegs & Lyrics.”
     type: text
-location: Warehouse
+location: Sint Jansstraat 51
 date: '2024-12-13'
 ---
 
