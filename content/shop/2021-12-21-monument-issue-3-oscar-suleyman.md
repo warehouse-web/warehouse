@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: 'Monument Issue #3 | Oscar Suleyman'
+title: '[Sold Out] Monument Issue #3 | Oscar Suleyman'
 price: '13,76'
 btw: '9'
 content:
