@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
-title: '[Sold Out] Warehouse Wear | Shoelaces'
-price: '0.83'
+title: Warehouse Wear | Shoelaces
+price: '4.13'
 btw: '21'
 content:
   - image: /img/02_wh-shoelace_lowerres.jpg
