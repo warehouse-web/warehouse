@@ -1,6 +1,6 @@
 ---
 templateKey: event-post
-title: Happy Hollidays - Break
+title: Happy Holidays - Break
 content:
   - image: /img/photo_credit_mika_perlmutterimg_4402.jpg
     type: images
