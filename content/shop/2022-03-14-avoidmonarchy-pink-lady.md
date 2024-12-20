@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: AVOIDMONARCHY PINK LADY
+title: '[Sold Out] AVOIDMONARCHY PINK LADY'
 price: '90'
 btw: '21'
 content:
