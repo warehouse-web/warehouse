@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: 'Issue 2: Booklook Shirt'
+title: '[Sold Out] Issue 2: Booklook Shirt'
 price: '36,70'
 btw: '9'
 content:
