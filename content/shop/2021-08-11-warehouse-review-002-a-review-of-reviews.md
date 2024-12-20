@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Warehouse Review 002 | A Review of Reviews
+title: '[Sold Out] Warehouse Review 002 | A Review of Reviews'
 price: '11,93'
 btw: '9'
 content:
