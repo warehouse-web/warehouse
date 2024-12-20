@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: AVOIDMONARCHY CHEEKY  DEVIL
+title: '[Sold Out] AVOIDMONARCHY CHEEKY  DEVIL'
 price: '90'
 btw: '21'
 content:
