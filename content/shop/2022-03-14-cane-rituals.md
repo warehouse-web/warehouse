@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: CANE RITUALS
+title: '[Sold Out] CANE RITUALS'
 price: '65'
 btw: '21'
 content:
