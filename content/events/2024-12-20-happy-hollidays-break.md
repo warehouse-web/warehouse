@@ -22,6 +22,6 @@ content:
       available in our (web)shop in Amsterdam.
     type: text
 location: Warehouse
-date: '2024-12-20'
+date: '2025-01-09'
 ---
 
