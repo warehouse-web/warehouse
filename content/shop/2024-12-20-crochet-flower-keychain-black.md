@@ -6,6 +6,8 @@ btw: '21'
 content:
   - image: /img/photo_credit_mika_perlmutterimg_4951.png
     type: images
+  - text: Add to cart
+    type: cart-button
   - body: >-
       Reflective foiled crochet flower keychain, contemporary utilitarian
       functions and aeasthetics meet traditional decorative crochet crafts.
