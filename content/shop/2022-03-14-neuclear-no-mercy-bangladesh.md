@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: 'NEUCLEAR NO MERCY BANGLADESH '
+title: '[Sold Out] NEUCLEAR NO MERCY BANGLADESH '
 price: '120'
 btw: '21'
 content:
