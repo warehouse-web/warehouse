@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: 'Issue 1: Booklook Apron-Delantal'
+title: '[Sold Out] Issue 1: Booklook Apron-Delantal'
 price: '36,70'
 btw: '9'
 content:
