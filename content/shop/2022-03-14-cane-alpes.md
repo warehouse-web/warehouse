@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: CANE ALPES
+title: '[Sold Out] CANE ALPES'
 price: '50'
 btw: '21'
 content:
