@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Crochet Flower Keychain - Pink/White
+title: Crochet Flower Keychain - Pink
 price: '78,51'
 btw: '21'
 PDF: ''
