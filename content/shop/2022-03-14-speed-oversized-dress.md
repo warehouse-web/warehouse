@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: ' SPEED OVERSIZED DRESS'
+title: '[Sold Out] SPEED OVERSIZED DRESS'
 price: '150'
 btw: '21'
 content:
