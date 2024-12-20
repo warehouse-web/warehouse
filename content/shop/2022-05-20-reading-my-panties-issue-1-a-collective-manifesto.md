@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: '[Sold Out] Reading My Panties Issue #1 | A Collective Manifesto'
+title: 'Reading My Panties Issue #1 | A Collective Manifesto'
 price: '13,76'
 btw: '9'
 content:
