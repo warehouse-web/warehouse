@@ -3,8 +3,10 @@ templateKey: product-page
 title: Crochet Flower Keychain - Pink/White
 price: '78,51'
 btw: '21'
-PDF: /img/photo_credit_mika_perlmutterimg_9456.jpg
+PDF: ''
 content:
+  - image: /img/photo_credit_mika_perlmutterimg_9456.jpg
+    type: images
   - body: >-
       Reflective foiled crochet flower keychain, contemporary utilitarian
       functions and aeasthetics meet traditional decorative crochet crafts. 
