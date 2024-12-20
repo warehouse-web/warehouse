@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: D&K Look Book 2019 | All or Nothing | Special Edition Cover
+title: '[Sold Out] D&K Look Book 2019 | All or Nothing | Special Edition Cover'
 price: '36.70'
 btw: '9'
 content:
