@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: CANE DOPPIO PETTO
+title: '[Sold Out] CANE DOPPIO PETTO'
 price: '150'
 btw: '21'
 content:
