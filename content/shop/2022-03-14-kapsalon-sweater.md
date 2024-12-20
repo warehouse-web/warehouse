@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: KAPSALON  SWEATER
+title: '[Sold Out] KAPSALON  SWEATER'
 price: '45'
 btw: '21'
 content:
