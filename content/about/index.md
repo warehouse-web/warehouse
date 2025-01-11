@@ -17,6 +17,8 @@ rightColumn: >-
   was a member from 2018 till 2023.
 
 
+
+
   * GENERERAL INFO
 
   * info@thisiswarehouse.com
@@ -42,11 +44,17 @@ rightColumn: >-
   * Eurico Sá Fernandes, Jurgis Lietunovas
 
 
+
+
   Location: Warehouse Sint Janssstraat 51, Amsterdam
+
+
 
 
   Opening hours: every Friday 14:00 - 19:00 or during events. See our event page
   and instagram for updates.
+
+
 
 
   Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe
@@ -60,7 +68,11 @@ other: >-
   Fund for the Arts), Creative Industries Fund NL and Cultuurfonds.
 
 
+
+
   © 2025 Warehouse
+
+
 
 
   No rights can be claimed from the information in these pages. Warehouse makes
