@@ -1,8 +1,12 @@
 ---
 templateKey: about-page
 title: Warehouse
-leftColumn: A place for clothes in context
-rightColumn: >-
+leftColumn: >-
+  A place for clothes in context
+
+
+
+
   ABOUT
 
 
@@ -10,22 +14,12 @@ rightColumn: >-
   expanded fashion practices; those that are research-based, interdisciplinary
   and critically question the commercial fashion industry. Warehouse is a
   collaborative effort. It is currently run by Anouk Beckers, Elisa van Joolen,
-  Élise Ory and Femke de Vries. Chinouk Filique de Miranda develops our podcast.
-  Zuzana Kostelanská created our visual identity and supports all things related
-  to graphic design. Mika Perlmutter helps out with the production. Chet Bugter
-  was part of the Warehouse team from 2019 till 2022 and, as a co-founder, Hanka
-  van der Voet was a member from 2018 till 2023.
+  Élise Ory, Mika Perlmutter and Femke de Vries. Chinouk Filique de Miranda
+  develops our podcast. Zuzana Kostelanská created our visual identity and
+  supports all things related to graphic design. Chet Bugter was part of the
+  Warehouse team from 2019 till 2022 and, as a co-founder, Hanka van der Voet
+  was a member from 2018 till 2023.
 
-
-  \>
-
-
-  \>
-
-
-  * CONTACT WAREHOUSE MARKET
-
-  * thisiswarehousemarket@gmail.com
 
   * GENERERAL INFO
 
@@ -34,6 +28,10 @@ rightColumn: >-
   * SHOP
 
   * shop@thisiswarehouse.com
+
+  * CONTACT WAREHOUSE MARKET
+
+  * thisiswarehousemarket@gmail.com
 
   * INSTAGRAM
 
@@ -48,40 +46,26 @@ rightColumn: >-
   * Eurico Sá Fernandes, Jurgis Lietunovas
 
 
-  \>
+  Location: Warehouse Sint Janssstraat 51, Amsterdam
 
 
-  \>
+  Opening hours: every Friday 14:00 - 19:00 or during events. See our event page
+  and instagram for updates.
+
+
+  Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe
+  (Amsterdam), Athenaeum (Amsterdam), Do You Read Me?! (Berlin), Dispozitiv
+  Books (Bucharest), Blue Flower Texts (Christchurch), Tenderbooks (London),
+  Reina (Melbourne), World Food Books (Melbourne), Play The Tambourine (online).
+rightColumn: ''
 images:
   - image: /img/59_press-fold_07122019_sanserriffe_anoukbeckers.jpg
 other: >-
-  * \>
-
-  * \>
-
-  * 
-
-  * Location: Warehouse Sint Janssstraat 51, Amsterdam (NB: only open during
-  public events. See our event page for updates)
-
-  * \>\
-    \
-    Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe (Amsterdam), Athenaeum (Amsterdam), Do You Read Me?! (Berlin), Dispozitiv Books (Bucharest), Blue Flower Texts (Christchurch), Tenderbooks (London), Reina (Melbourne), World Food Books (Melbourne), Play The Tambourine (online).
-
-  \>
-
-
   Warehouse is made possible through the financial support of AFK (Amsterdam
   Fund for the Arts), Creative Industries Fund NL and Cultuurfonds.
 
 
-  \>
-
-
-  \>
-
-
-  © 2024 Warehouse
+  © 2025 Warehouse
 
 
   No rights can be claimed from the information in these pages. Warehouse makes
