@@ -1,12 +1,8 @@
 ---
 templateKey: about-page
 title: Warehouse
-leftColumn: >-
-  A place for clothes in context
-
-
-
-
+leftColumn: A place for clothes in context
+rightColumn: >-
   ABOUT
 
 
@@ -57,7 +53,6 @@ leftColumn: >-
   (Amsterdam), Athenaeum (Amsterdam), Do You Read Me?! (Berlin), Dispozitiv
   Books (Bucharest), Blue Flower Texts (Christchurch), Tenderbooks (London),
   Reina (Melbourne), World Food Books (Melbourne), Play The Tambourine (online).
-rightColumn: ''
 images:
   - image: /img/59_press-fold_07122019_sanserriffe_anoukbeckers.jpg
 other: >-
