@@ -19,6 +19,8 @@ rightColumn: >-
 
 
 
+  * 
+
   * GENERERAL INFO
 
   * info@thisiswarehouse.com
@@ -46,18 +48,24 @@ rightColumn: >-
 
 
 
-  Location: Warehouse Sint Janssstraat 51, Amsterdam
+  * 
+
+  * Location: Warehouse Sint Janssstraat 51, Amsterdam
 
 
 
 
-  Opening hours: every Friday 14:00 - 19:00 or during events. See our event page
-  and instagram for updates.
+  * 
+
+  * Opening hours: every Friday 14:00 - 19:00 or during events. See our event
+  page and instagram for updates.
 
 
 
 
-  Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe
+  * 
+
+  * Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe
   (Amsterdam), Athenaeum (Amsterdam), Do You Read Me?! (Berlin), Dispozitiv
   Books (Bucharest), Blue Flower Texts (Christchurch), Tenderbooks (London),
   Reina (Melbourne), World Food Books (Melbourne), Play The Tambourine (online).
