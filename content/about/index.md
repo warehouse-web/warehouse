@@ -20,6 +20,16 @@ rightColumn: >-
   \-
 
 
+  Location Warehouse: Sint Janssstraat 51, Amsterdam
+
+
+  Opening hours: every Friday 14:00 - 19:00 or during events. See our event page
+  and instagram for updates.
+
+
+  \-
+
+
   * GENERERAL INFO
 
   * info@thisiswarehouse.com
@@ -40,19 +50,6 @@ rightColumn: >-
   \-
 
 
-  Location: Warehouse Sint Janssstraat 51, Amsterdam
-
-
-  \-
-
-
-  Opening hours: every Friday 14:00 - 19:00 or during events. See our event page
-  and instagram for updates.
-
-
-  \-
-
-
   * WEBSITE DESIGN
 
   * Zuzana Kostelanská
@@ -60,26 +57,20 @@ rightColumn: >-
   * WEBSITE DEVELOPMENT 
 
   * Eurico Sá Fernandes, Jurgis Lietunovas
-
-
-  \-
-
-
-  * Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe
-  (Amsterdam), Athenaeum (Amsterdam), Do You Read Me?! (Berlin), Dispozitiv
-  Books (Bucharest), Blue Flower Texts (Christchurch), Tenderbooks (London),
-  Reina (Melbourne), World Food Books (Melbourne), Play The Tambourine (online).
 images:
   - image: /img/59_press-fold_07122019_sanserriffe_anoukbeckers.jpg
 other: >-
-  Warehouse is made possible through the financial support of AFK (Amsterdam
-  Fund for the Arts), Creative Industries Fund NL and Cultuurfonds.
+  Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe
+  (Amsterdam), Athenaeum (Amsterdam), Do You Read Me?! (Berlin), Dispozitiv
+  Books (Bucharest), Blue Flower Texts (Christchurch), Tenderbooks (London),
+  Reina (Melbourne), World Food Books (Melbourne), Play The Tambourine (online).
 
 
   \-
 
 
-  © 2025 Warehouse
+  Warehouse is made possible through the financial support of AFK (Amsterdam
+  Fund for the Arts), Creative Industries Fund NL and Cultuurfonds.
 
 
   \-
@@ -91,5 +82,11 @@ other: >-
   Warehouse nor those who supplied the information involved are responsible for
   harm that may arise as a consequence of errors, problems caused by or inherent
   in the distribution of the information by internet, or for technical failures.
+
+
+  \-
+
+
+  © 2025 Warehouse
 ---
 
