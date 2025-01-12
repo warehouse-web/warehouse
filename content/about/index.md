@@ -17,9 +17,8 @@ rightColumn: >-
   was a member from 2018 till 2023.
 
 
+  \>
 
-
-  * 
 
   * GENERERAL INFO
 
@@ -46,24 +45,20 @@ rightColumn: >-
   * Eurico Sá Fernandes, Jurgis Lietunovas
 
 
+  \-
 
 
-  * 
-
-  * Location: Warehouse Sint Janssstraat 51, Amsterdam
+  Location: Warehouse Sint Janssstraat 51, Amsterdam
 
 
+  \-
 
-
-  * 
 
   * Opening hours: every Friday 14:00 - 19:00 or during events. See our event
   page and instagram for updates.
 
 
 
-
-  * 
 
   * Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe
   (Amsterdam), Athenaeum (Amsterdam), Do You Read Me?! (Berlin), Dispozitiv
