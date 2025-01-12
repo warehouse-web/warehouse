@@ -17,7 +17,7 @@ rightColumn: >-
   was a member from 2018 till 2023.
 
 
-  \>
+  \-
 
 
   * GENERERAL INFO
@@ -36,14 +36,6 @@ rightColumn: >-
 
   * [@amsterdam.warehouse](https://www.instagram.com/amsterdam.warehouse)
 
-  * WEBSITE DESIGN
-
-  * Zuzana Kostelanská
-
-  * WEBSITE DEVELOPMENT 
-
-  * Eurico Sá Fernandes, Jurgis Lietunovas
-
 
   \-
 
@@ -54,10 +46,23 @@ rightColumn: >-
   \-
 
 
-  * Opening hours: every Friday 14:00 - 19:00 or during events. See our event
-  page and instagram for updates.
+  Opening hours: every Friday 14:00 - 19:00 or during events. See our event page
+  and instagram for updates.
 
 
+  \-
+
+
+  * WEBSITE DESIGN
+
+  * Zuzana Kostelanská
+
+  * WEBSITE DEVELOPMENT 
+
+  * Eurico Sá Fernandes, Jurgis Lietunovas
+
+
+  \-
 
 
   * Warehouse publications are available at: Aflat Shop (Adelaide), San Serriffe
