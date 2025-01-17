@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: The Journal of Weae
+title: The Journal of Wear
 price: '17'
 btw: '9'
 content:
