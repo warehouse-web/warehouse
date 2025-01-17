@@ -17,8 +17,8 @@ content:
       calendar. 
 
 
-      The printed calendar is still available in [our
-      webshop](https://www.thisiswarehouse.com/shop/2024-11-19-calendar-2025-pulled-thread)
+      The printed calendar is still available in [**our
+      webshop**](https://www.thisiswarehouse.com/shop/2024-11-19-calendar-2025-pulled-thread)
       and store on Sint Jansstraat 51, Amsterdam
     type: text
   - image: >-
