@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Warehouse Wear | Shoelaces
-price: '4.13'
+price: '8'
 btw: '21'
 content:
   - image: /img/02_wh-shoelace_lowerres.jpg
