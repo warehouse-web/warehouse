@@ -34,6 +34,11 @@ content:
       Esther Koh and reflected upon by Wonne Scrayen. Nestled in between are
       three visual profiles of Leitu Bonnici, Giulia Coluccello, and Wonne
       Scrayen.
+
+
+
+
+      .
     type: text
   - image: >-
       /img/03_xingyun-shen_resized-image_the-journal-of-wear_warehosue-website.jpg
