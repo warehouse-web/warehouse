@@ -6,7 +6,7 @@ content:
       /img/01_masaki-komoto_close-up-calendar-2025_size-edited-for-warehouse-website.jpg
     type: images
   - body: >-
-      The calendar 2025: Pulled Thread by Masaki Komoti is on display in our
+      The calendar 2025: Pulled Thread by Masaki Komoto is on display in our
       shop window from 17 - 31 January 2025. 
 
 
