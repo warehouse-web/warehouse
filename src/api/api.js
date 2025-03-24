@@ -1,6 +1,10 @@
 import matter from 'gray-matter'
 import { slugify, postSlug } from '_utils'
+
 import sizeOf from 'image-size'
+import path from 'path'
+import fs from 'fs'
+
 export async function getData(url) {
 	const content = await import(`content/${url}.md`)
 	const dataContent = matter(content.default)
@@ -82,14 +86,35 @@ export function normalizeContent(content) {
 
 		if (el.type === 'images') {
 			if (el.image) {
-				const dimensions = sizeOf('./public/' + el.image)
+				// el.image = '/img/<image>'
 
-				data.push({
-					type: el.type,
-					dimensions: dimensions,
-					image: el.image || '',
-					caption: el?.caption || '',
-				})
+				// Construct the absolute file path to the image in the `public` folder
+				const imagePath = path.join(
+					process.cwd(),
+					'public',
+					'img',
+					el.image?.replace('/img/', '')
+				)
+
+				// Optional safety check: make sure the file exists
+				if (!fs.existsSync(imagePath)) {
+					// throw new Error(`File not found: ${imagePath}`)
+					continue
+				}
+
+				// Get dimensions
+				const dimensions = sizeOf(imagePath)
+
+				if (dimensions?.width && dimensions?.height) {
+					data.push({
+						type: el.type,
+						dimensions,
+						image: el.image || '',
+						caption: el?.caption || '',
+					})
+				} else {
+					console.log('No dimensions:', imagePath)
+				}
 			}
 		} else {
 			data.push(el)

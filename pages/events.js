@@ -7,6 +7,7 @@ import { reorderItems, getItems } from '_api'
 
 const EventsPage = ({ posts, footer }) => {
 	// console.log(posts)
+
 	return (
 		<>
 			<Head>
