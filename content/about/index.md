@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 title: Warehouse
-leftColumn: A place for clothes in context
+leftColumn: A place for clothes in context.
 rightColumn: >-
   ABOUT
 
