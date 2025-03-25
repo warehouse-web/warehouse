@@ -13,6 +13,9 @@ const PageAbout = ({ title = '', leftColumn, rightColumn, other, images }) => {
 					</h2>
 				</div>
 				<div className='Page__right'>
+					<div className='Page__newsletter'>
+						<Newsletter />
+					</div>
 					<ReactMarkdown linkTarget={'_blank'} children={rightColumn} />
 					{images &&
 						images.map(({ image, caption }, i) => {
